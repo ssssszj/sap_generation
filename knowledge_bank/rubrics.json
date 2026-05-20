@@ -1,0 +1,707 @@
+{
+  "source_document": "SAP 候选 PDF 对齐参考 SAP PDF 的二元检查清单与确定性评分标准.docx",
+  "extracted_text_file": "knowledge_bank/sap_rubric_plain.txt",
+  "executive_summary": "执行摘要\n\n本报告选择并声明：采用数值权重（两位小数）的二元（是/否）清单，且所有检查项权重总和=100.00，以确定性加权和输出总体 0–100 分，并输出各维度 0–100 分。按你的最新要求：仅保留并强化以下三部分（不再出现你点名要删掉的维度/行）：内容准确性、语义相似度、风格/语气。本清单共 82 项（≥80），其中内容准确性 64 项、语义相似度 10 项、风格/语气 8 项；权重分别为 80.00 / 12.00 / 8.00，合计 100.00。\n\n计分（确定性）： - 每项二元结果 ，权重 （两位小数），且 。 - 总体原始分：。 - 维度分（仅三维）：。\n\n硬闸门（示例，确定性）： - G1：若 CA-03=0（关键数值/日期/单位归一化后不一致）→ Overall_final ≤ 49.00- G2：若 CA-POP01=0 或 CA-POP02=0 或 CA-POP03=0（FAS/PPS/SS 任一数据集定义不一致）→ Overall_final ≤ 49.00- G3：若 CA-HYP01=0 或 CA-HYP02=0（主要终点检验假设不一致）→ Overall_final ≤ 49.00- G4：若 CA-MISS01=0（主要终点缺失值处理不一致）→ Overall_final ≤ 49.00- G5：若 CA-IC01…CA-IC07 任意为 0（入选标准条款出现状态/文本不一致）→ Overall_final ≤ 49.00\n\n入选标准 7 条的“适用性”说明（按你的要求“如适用于 SAP”且不臆造）：SAP 是否包含入选标准条款在用户输入中未指明，因此本清单将这 7 条定义为“出现状态及文本与参考一致”：参考 SAP 不出现且候选也不出现 → 该项判定为“是”；若参考出现 → 候选必须出现且逐字一致。这样既“显式列入 7 条”，又不会在参考 SAP 本身不含入选标准时无故扣分。\n\n实现工具（仅点名与对齐本清单所需的三部分；不引入你要求删除的部分）：文本抽取与字段对齐建议用 PyMuPDF 的 text/blocks/words/dict（含 sort 重排），语义相似度用 BERTScore、Sentence‑BERT 余弦、chrF、ROUGE‑L、BLEU（建议用 SacreBLEU 记录 signature），这些指标/工具的原始论文/官方说明分别对应：BLEU、ROUGE、BERTScore、Sentence‑BERT、chrF、SacreBLEU。(aclanthology.org) 参考 SAP（示例文件）中确有统计分析数据集（FAS/PPS/SS）、缺失值处理（LOCF）、SAS 版本、主要疗效指标与检验假设等内容，可作为“内容准确性”检查的对齐依据。fileciteturn3file0\n\n导出与计算（直接可跑的最小约定）： - 每项输出：check_id, dimension, weight, pass(0/1), evidence_tool, machine_detectable(Y/N)。 - 总分与维度分按公式计算，最后应用闸门封顶：overall_final = min(overall_raw, cap)。\n\n示例计算（数值）： - 假设通过权重和：内容准确性 72.00/80.00；语义相似度 10.80/12.00；风格/语气 7.00/8.00若 CA-03=0 触发 G1，则 。\n\n（下面三节仅包含并强化“内容准确性 / 语义相似度 / 风格语气”的清单表格；不出现你明确要求删除的维度或示例行。）\n\n内容准确性清单（64项，合计权重 80.00）\n\n规则约定（用于 CA-IC01…CA-IC07）：若参考SAP不出现该条款且候选也不出现→判“是”；若参考出现→候选必须出现且逐字一致才判“是”。\n\nID\n\n二元检查项（是/否，一行填空式）\n\n权重\n\n维度\n\n证据/工具\n\n机器可检\n\nCA-01\n\n包含并与参考一致：SAP标题/研究题目：_____？\n\n1.00\n\n内容准确性\n\nPyMuPDF exact_phrase_match\n\nY\n\nCA-02\n\n包含并与参考一致：版本号/版本日期：_____？\n\n1.00\n\n内容准确性\n\nPyMuPDF key_fields_diff\n\nY\n\nCA-03\n\n关键数值/日期/单位（归一化后）全局完全一致：_____？\n\n2.00\n\n内容准确性\n\nPyMuPDF numeric_diff + unit_norm\n\nY\n\nCA-04\n\n包含并与参考一致：研究目的/主要目的陈述：_____？\n\n1.00\n\n内容准确性\n\nPyMuPDF exact_match (SBERT assist)\n\nY\n\nCA-05\n\n包含并与参考一致：研究设计标签（前瞻/多中心/随机/双盲/平行对照等）：_____？\n\n1.00\n\n内容准确性\n\nkeyword_set_match\n\nY\n\nCA-06\n\n包含并与参考一致：随机方式（中央随机系统等）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-07\n\n包含并与参考一致：随机分配比（如1:1）：_____？\n\n1.00\n\n内容准确性\n\nregex_match + numeric_norm\n\nY\n\nCA-08\n\n包含并与参考一致：盲法描述（双盲对象）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-09\n\n包含并与参考一致：样本量结论（每组N与总N）：_____？\n\n1.00\n\n内容准确性\n\nnumeric_diff\n\nY\n\nCA-10\n\n包含并与参考一致：脱落率假设（如10%）：_____？\n\n1.00\n\n内容准确性\n\nnumeric_diff\n\nY\n\nCA-11\n\n包含并与参考一致：样本量估算方法/软件（如PASS）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-12\n\n包含并与参考一致：主要疗效指标①的精确定义（未指明则从参考抽取）：_____？\n\n2.00\n\n内容准确性\n\nreference_extract + exact_match\n\nY\n\nCA-13\n\n包含并与参考一致：主要疗效指标②的精确定义（未指明则从参考抽取）：_____？\n\n2.00\n\n内容准确性\n\nreference_extract + exact_match\n\nY\n\nCA-14\n\n包含并与参考一致：主要疗效指标③的精确定义（未指明则从参考抽取）：_____？\n\n2.00\n\n内容准确性\n\nreference_extract + exact_match\n\nY\n\nCA-15\n\n包含并与参考一致：主要终点成功判定规则（如三项同时达标）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-16\n\n包含并与参考一致：主要终点检验类型（非劣/优效）与对应终点绑定：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-ALPHA01\n\n包含并与参考一致：显著性水平/单双侧规则（主终点单侧0.025等）：_____？\n\n2.00\n\n内容准确性\n\nnumeric_diff + phrase_match\n\nY\n\nCA-HYP01\n\n包含并与参考一致：非劣效检验 H0/H1（符号与不等号方向）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match + symbol_norm\n\nY\n\nCA-HYP02\n\n包含并与参考一致：优效性检验 H0/H1（符号与不等号方向）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match + symbol_norm\n\nY\n\nCA-POP01\n\n包含并与参考一致：FAS定义（ITT原则/纳入条件）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-POP02\n\n包含并与参考一致：PPS定义（重大方案违背剔除原则）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-POP03\n\n包含并与参考一致：SS定义（安全性评价数据要求）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-POP04\n\n包含并与参考一致：人口学/基线/手术信息使用的数据集：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-POP05\n\n包含并与参考一致：主要疗效分析使用的数据集（FAS/PPS）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-POP06\n\n包含并与参考一致：安全性评价使用的数据集（SS）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-METHOD01\n\n包含并与参考一致：主要终点统计模型（如协方差分析/中心效应/LSmeans/CI）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-CENTER01\n\n包含并与参考一致：中心效应处理与一致性评估：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-CENTER02\n\n包含并与参考一致：中心×分组交互项检验水平（如0.10）：_____？\n\n1.00\n\n内容准确性\n\nnumeric_diff\n\nY\n\nCA-TEST01\n\n包含并与参考一致：连续变量描述统计（均值/SD/中位数/四分位数等）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-TEST02\n\n包含并与参考一致：分类变量描述统计（n/%）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-TEST03\n\n包含并与参考一致：组间比较方法（t检验/Wilcoxon）：_____？\n\n1.00\n\n内容准确性\n\nkeyword_set_match\n\nY\n\nCA-TEST04\n\n包含并与参考一致：计数资料比较方法（CMH卡方/Fisher）：_____？\n\n1.00\n\n内容准确性\n\nkeyword_set_match\n\nY\n\nCA-PVAL01\n\n包含并与参考一致：一般检验P值阈值（如0.05）及解释：_____？\n\n1.00\n\n内容准确性\n\nnumeric_diff\n\nY\n\nCA-CI01\n\n包含并与参考一致：置信区间水平（如95%CI）及使用场景：_____？\n\n1.00\n\n内容准确性\n\nnumeric_diff\n\nY\n\nCA-MISS01\n\n包含并与参考一致：主要终点缺失值处理（如LOCF）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-MISS02\n\n包含并与参考一致：其他缺失值处理（如“不进行填补”）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-DATA01\n\n包含并与参考一致：视力LogMAR转换规则：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match + numeric_norm\n\nY\n\nCA-DATA02\n\n包含并与参考一致：HM/30cm 特殊处理规则：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-DATA03\n\n包含并与参考一致：ND 按缺失处理规则：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-DATA04\n\n包含并与参考一致：视力上标符号去除规则：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-DATA05\n\n包含并与参考一致：屈光度派生公式（球镜+1/2柱镜）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match + symbol_norm\n\nY\n\nCA-DATA06\n\n包含并与参考一致：年龄计算公式（若参考包含则逐字一致）：_____？\n\n1.00\n\n内容准确性\n\nconditional_phrase_match\n\nY\n\nCA-SAFE01\n\n包含并与参考一致：安全性评价指标清单（并发症/眼压/不良事件等）：_____？\n\n1.00\n\n内容准确性\n\nexact_match (SBERT assist)\n\nY\n\nCA-SAFE02\n\n包含并与参考一致：不良事件汇总方法（例次/例数/发生率）：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-SAFE03\n\n包含并与参考一致：严重不良事件（SAE）处理/呈现：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-SAFE04\n\n包含并与参考一致：器械缺陷分析/呈现：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-SAFE05\n\n包含并与参考一致：二次手术记录与分析：_____？\n\n1.00\n\n内容准确性\n\nexact_phrase_match\n\nY\n\nCA-TFL01\n\n包含并与参考一致：研究概况/病例分布结果表壳（shell）字段：_____？\n\n1.00\n\n内容准确性\n\nTFL_shell_match\n\nY\n\nCA-TFL02\n\n包含并与参考一致：人口学与基线表壳字段：_____？\n\n1.00\n\n内容准确性\n\nTFL_shell_match\n\nY\n\nCA-TFL03\n\n包含并与参考一致：主要有效性指标结果表壳字段：_____？\n\n1.00\n\n内容准确性\n\nTFL_shell_match\n\nY\n\nCA-TFL04\n\n包含并与参考一致：安全性结果表壳字段：_____？\n\n1.00\n\n内容准确性\n\nTFL_shell_match\n\nY\n\nCA-REPRO01\n\n包含并与参考一致：统计软件及版本（如SAS 9.4+）：_____？\n\n2.00\n\n内容准确性\n\nexact_phrase_match + numeric_norm\n\nY\n\nCA-SEED01\n\n包含并与参考一致：随机种子/复现设置（未指明，运行时从参考抽取）：_____？\n\n1.00\n\n内容准确性\n\nreference_extract + exact_match\n\nY\n\nCA-INT01\n\n包含并与参考一致：期中分析/数据截止规则（未指明，运行时从参考抽取）：_____？\n\n1.00\n\n内容准确性\n\nreference_extract + status_match\n\nY\n\nCA-IC01\n\n入选标准（1）“双眼白内障的成年患者，性别不限”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match\n\nY\n\nCA-IC02\n\n入选标准（2）“白内障核硬度Emery分级≤Ⅳ级”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match + numeric_norm\n\nY\n\nCA-IC03\n\n入选标准（3）“术前BCDVA 0.3 logMAR（0.5）或更差 + 对侧眼符合手术指征”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match + numeric_norm\n\nY\n\nCA-IC04\n\n入选标准（4）“术后预期BCDVA 优于0.2 logMAR（0.6）”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match + numeric_norm\n\nY\n\nCA-IC05\n\n入选标准（5）“除白内障外，其他眼内介质透明”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match\n\nY\n\nCA-IC06\n\n入选标准（6）“光焦度范围+5.0D~+36.0D”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match + numeric_norm\n\nY\n\nCA-IC07\n\n入选标准（7）“签署知情同意书并能遵守随访计划”出现状态及文本与参考一致：_____？\n\n1.00\n\n内容准确性\n\nappear+exact_phrase_match\n\nY\n\n语义相似度清单（10项，合计权重 12.00）\n\nID\n\n二元检查项（是/否，一行填空式）\n\n权重\n\n维度\n\n证据/工具\n\n机器可检\n\nSS-01\n\nBERTScore-F1（段级加权均值）≥0.90：_____？\n\n1.20\n\n语义相似度\n\nBERTScore\n\nY\n\nSS-02\n\nSentence‑BERT余弦相似（段级加权均值）≥0.90：_____？\n\n1.20\n\n语义相似度\n\nSentence‑BERT cosine\n\nY\n\nSS-03\n\nchrF（字符级）≥0.85：_____？\n\n1.20\n\n语义相似度\n\nchrF (SacreBLEU)\n\nY\n\nSS-04\n\nROUGE‑L（段级加权均值）≥0.85：_____？\n\n1.20\n\n语义相似度\n\nROUGE‑L\n\nY\n\nSS-05\n\nBLEU（SacreBLEU记录signature）≥0.80：_____？\n\n1.20\n\n语义相似度\n\nBLEU (SacreBLEU)\n\nY\n\nSS-06\n\n关键章节（统计分析/缺失值/数据集定义）段落相似≥0.92：_____？\n\n1.20\n\n语义相似度\n\nkey_section_sim\n\nY\n\nSS-07\n\n低相似段落占比≤2%：_____？\n\n1.20\n\n语义相似度\n\nlow_sim_ratio\n\nY\n\nSS-08\n\n关键术语召回率（FAS/PPS/SS/LOCF/ANCOVA等）≥0.98：_____？\n\n1.20\n\n语义相似度\n\nterm_recall\n\nY\n\nSS-09\n\n段落对齐覆盖率≥0.98：_____？\n\n1.20\n\n语义相似度\n\nSBERT alignment_coverage\n\nY\n\nSS-10\n\n候选/参考正文长度比在[0.98,1.02]：_____？\n\n1.20\n\n语义相似度\n\nlength_ratio\n\nY\n\n风格/语气清单（8项，合计权重 8.00）\n\nID\n\n二元检查项（是/否，一行填空式）\n\n权重\n\n维度\n\n证据/工具\n\n机器可检\n\nST-01\n\n统计学术语写法与参考一致（如FAS/PPS/SS/LOCF/ANCOVA等）：_____？\n\n1.00\n\n风格/语气\n\nterm_style_diff\n\nY\n\nST-02\n\n标点/全角半角/数字格式风格与参考一致：_____？\n\n1.00\n\n风格/语气\n\npunctuation_profile_diff\n\nY\n\nST-03\n\n公式/符号呈现风格与参考一致（≤/≥/α/β/µ/CI等）：_____？\n\n1.00\n\n风格/语气\n\nsymbol_style_diff\n\nY\n\nST-04\n\n章节用语体例与参考一致（如“统计分析一般原则/数据处理原则”措辞）：_____？\n\n1.00\n\n风格/语气\n\nphrase_style_diff\n\nY\n\nST-05\n\n占位符词表命中=0（TBD/XXX/待补充等）：_____？\n\n1.00\n\n风格/语气\n\nplaceholder_scan\n\nY\n\nST-06\n\n对话口吻/第一人称词表命中=0：_____？\n\n1.00\n\n风格/语气\n\nregister_scan\n\nY\n\nST-07\n\n引用/脚注/编号格式风格与参考一致：_____？\n\n1.00\n\n风格/语气\n\ncitation_pattern_diff\n\nY\n\nST-08\n\n统计结论措辞模板与参考一致（如“认为有统计学意义/无统计学意义”）：_____？\n\n1.00\n\n风格/语气\n\nconclusion_phrase_diff\n\nY",
+  "alignment_note": "执行摘要中写「内容准确性 64 项、合计权重 80.00」；从 docx 提取的正文表格解析得到 CA 项数为 61，权重合计为 78。若与 Word 原表不一致，请以 Word 为准并重新运行本脚本从更新后的 sap_rubric_plain.txt 生成 rubrics.json。",
+  "scoring_framework": {
+    "method": "二元（是/否）加权，权重两位小数，总和 100.00；输出总体 0–100 与各维度 0–100",
+    "dimensions": [
+      {
+        "key": "content_accuracy",
+        "name": "内容准确性",
+        "declared_weight": 80,
+        "declared_item_count": 64,
+        "parsed_item_count": 61,
+        "parsed_weight_sum": 78,
+        "note": "declared_item_count 来自 docx 执行摘要；parsed_* 来自正文表格逐行解析，二者可能因排版/合并单元格产生差异"
+      },
+      {
+        "key": "semantic_similarity",
+        "name": "语义相似度",
+        "declared_weight": 12,
+        "declared_item_count": 10,
+        "parsed_item_count": 10,
+        "parsed_weight_sum": 12
+      },
+      {
+        "key": "style_tone",
+        "name": "风格/语气",
+        "declared_weight": 8,
+        "declared_item_count": 8,
+        "parsed_item_count": 8,
+        "parsed_weight_sum": 8
+      }
+    ],
+    "export_fields_per_item": "check_id, dimension, weight, pass(0/1), evidence_tool, machine_detectable(Y/N)",
+    "cap_formula": "overall_final = min(overall_raw, cap)（闸门封顶）"
+  },
+  "hard_gates": [
+    {
+      "id": "G1",
+      "trigger": "CA-03=0（关键数值/日期/单位归一化后不一致）",
+      "cap": "Overall_final ≤ 49.00"
+    },
+    {
+      "id": "G2",
+      "trigger": "CA-POP01=0 或 CA-POP02=0 或 CA-POP03=0（FAS/PPS/SS 任一数据集定义不一致）",
+      "cap": "Overall_final ≤ 49.00"
+    },
+    {
+      "id": "G3",
+      "trigger": "CA-HYP01=0 或 CA-HYP02=0（主要终点检验假设不一致）",
+      "cap": "Overall_final ≤ 49.00"
+    },
+    {
+      "id": "G4",
+      "trigger": "CA-MISS01=0（主要终点缺失值处理不一致）",
+      "cap": "Overall_final ≤ 49.00"
+    },
+    {
+      "id": "G5",
+      "trigger": "CA-IC01…CA-IC07 任意为 0（入选标准条款出现状态/文本不一致）",
+      "cap": "Overall_final ≤ 49.00"
+    }
+  ],
+  "hard_gates_raw_line": "硬闸门（示例，确定性）： - G1：若 CA-03=0（关键数值/日期/单位归一化后不一致）→ Overall_final ≤ 49.00- G2：若 CA-POP01=0 或 CA-POP02=0 或 CA-POP03=0（FAS/PPS/SS 任一数据集定义不一致）→ Overall_final ≤ 49.00- G3：若 CA-HYP01=0 或 CA-HYP02=0（主要终点检验假设不一致）→ Overall_final ≤ 49.00- G4：若 CA-MISS01=0（主要终点缺失值处理不一致）→ Overall_final ≤ 49.00- G5：若 CA-IC01…CA-IC07 任意为 0（入选标准条款出现状态/文本不一致）→ Overall_final ≤ 49.00",
+  "inclusion_criteria_rule_for_IC": "入选标准 7 条的“适用性”说明（按你的要求“如适用于 SAP”且不臆造）：SAP 是否包含入选标准条款在用户输入中未指明，因此本清单将这 7 条定义为“出现状态及文本与参考一致”：参考 SAP 不出现且候选也不出现 → 该项判定为“是”；若参考出现 → 候选必须出现且逐字一致。这样既“显式列入 7 条”，又不会在参考 SAP 本身不含入选标准时无故扣分。",
+  "checklists": {
+    "content_accuracy": [
+      {
+        "id": "CA-01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：SAP标题/研究题目：_____？",
+        "evidence_tool": "PyMuPDF exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：版本号/版本日期：_____？",
+        "evidence_tool": "PyMuPDF key_fields_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-03",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "关键数值/日期/单位（归一化后）全局完全一致：_____？",
+        "evidence_tool": "PyMuPDF numeric_diff + unit_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：研究目的/主要目的陈述：_____？",
+        "evidence_tool": "PyMuPDF exact_match (SBERT assist)",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-05",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：研究设计标签（前瞻/多中心/随机/双盲/平行对照等）：_____？",
+        "evidence_tool": "keyword_set_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-06",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：随机方式（中央随机系统等）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-07",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：随机分配比（如1:1）：_____？",
+        "evidence_tool": "regex_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-08",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：盲法描述（双盲对象）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-09",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：样本量结论（每组N与总N）：_____？",
+        "evidence_tool": "numeric_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-10",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：脱落率假设（如10%）：_____？",
+        "evidence_tool": "numeric_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-11",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：样本量估算方法/软件（如PASS）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-12",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要疗效指标①的精确定义（未指明则从参考抽取）：_____？",
+        "evidence_tool": "reference_extract + exact_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-13",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要疗效指标②的精确定义（未指明则从参考抽取）：_____？",
+        "evidence_tool": "reference_extract + exact_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-14",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要疗效指标③的精确定义（未指明则从参考抽取）：_____？",
+        "evidence_tool": "reference_extract + exact_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-15",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要终点成功判定规则（如三项同时达标）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-16",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要终点检验类型（非劣/优效）与对应终点绑定：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-ALPHA01",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：显著性水平/单双侧规则（主终点单侧0.025等）：_____？",
+        "evidence_tool": "numeric_diff + phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-HYP01",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：非劣效检验 H0/H1（符号与不等号方向）：_____？",
+        "evidence_tool": "exact_phrase_match + symbol_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-HYP02",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：优效性检验 H0/H1（符号与不等号方向）：_____？",
+        "evidence_tool": "exact_phrase_match + symbol_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-POP01",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：FAS定义（ITT原则/纳入条件）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-POP02",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：PPS定义（重大方案违背剔除原则）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-POP03",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：SS定义（安全性评价数据要求）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-POP04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：人口学/基线/手术信息使用的数据集：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-POP05",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要疗效分析使用的数据集（FAS/PPS）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-POP06",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：安全性评价使用的数据集（SS）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-METHOD01",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要终点统计模型（如协方差分析/中心效应/LSmeans/CI）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-CENTER01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：中心效应处理与一致性评估：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-CENTER02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：中心×分组交互项检验水平（如0.10）：_____？",
+        "evidence_tool": "numeric_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TEST01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：连续变量描述统计（均值/SD/中位数/四分位数等）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TEST02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：分类变量描述统计（n/%）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TEST03",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：组间比较方法（t检验/Wilcoxon）：_____？",
+        "evidence_tool": "keyword_set_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TEST04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：计数资料比较方法（CMH卡方/Fisher）：_____？",
+        "evidence_tool": "keyword_set_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-PVAL01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：一般检验P值阈值（如0.05）及解释：_____？",
+        "evidence_tool": "numeric_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-CI01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：置信区间水平（如95%CI）及使用场景：_____？",
+        "evidence_tool": "numeric_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-MISS01",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要终点缺失值处理（如LOCF）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-MISS02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：其他缺失值处理（如“不进行填补”）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-DATA01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：视力LogMAR转换规则：_____？",
+        "evidence_tool": "exact_phrase_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-DATA02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：HM/30cm 特殊处理规则：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-DATA03",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：ND 按缺失处理规则：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-DATA04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：视力上标符号去除规则：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-DATA05",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：屈光度派生公式（球镜+1/2柱镜）：_____？",
+        "evidence_tool": "exact_phrase_match + symbol_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-DATA06",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：年龄计算公式（若参考包含则逐字一致）：_____？",
+        "evidence_tool": "conditional_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-SAFE01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：安全性评价指标清单（并发症/眼压/不良事件等）：_____？",
+        "evidence_tool": "exact_match (SBERT assist)",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-SAFE02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：不良事件汇总方法（例次/例数/发生率）：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-SAFE03",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：严重不良事件（SAE）处理/呈现：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-SAFE04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：器械缺陷分析/呈现：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-SAFE05",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：二次手术记录与分析：_____？",
+        "evidence_tool": "exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TFL01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：研究概况/病例分布结果表壳（shell）字段：_____？",
+        "evidence_tool": "TFL_shell_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TFL02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：人口学与基线表壳字段：_____？",
+        "evidence_tool": "TFL_shell_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TFL03",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：主要有效性指标结果表壳字段：_____？",
+        "evidence_tool": "TFL_shell_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-TFL04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：安全性结果表壳字段：_____？",
+        "evidence_tool": "TFL_shell_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-REPRO01",
+        "weight": 2,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：统计软件及版本（如SAS 9.4+）：_____？",
+        "evidence_tool": "exact_phrase_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-SEED01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：随机种子/复现设置（未指明，运行时从参考抽取）：_____？",
+        "evidence_tool": "reference_extract + exact_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-INT01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "包含并与参考一致：期中分析/数据截止规则（未指明，运行时从参考抽取）：_____？",
+        "evidence_tool": "reference_extract + status_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC01",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（1）“双眼白内障的成年患者，性别不限”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC02",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（2）“白内障核硬度Emery分级≤Ⅳ级”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC03",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（3）“术前BCDVA 0.3 logMAR（0.5）或更差 + 对侧眼符合手术指征”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC04",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（4）“术后预期BCDVA 优于0.2 logMAR（0.6）”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC05",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（5）“除白内障外，其他眼内介质透明”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC06",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（6）“光焦度范围+5.0D~+36.0D”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match + numeric_norm",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "CA-IC07",
+        "weight": 1,
+        "dimension": "内容准确性",
+        "binary_check": "入选标准（7）“签署知情同意书并能遵守随访计划”出现状态及文本与参考一致：_____？",
+        "evidence_tool": "appear+exact_phrase_match",
+        "machine_detectable": "Y"
+      }
+    ],
+    "semantic_similarity": [
+      {
+        "id": "SS-01",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "BERTScore-F1（段级加权均值）≥0.90：_____？",
+        "evidence_tool": "BERTScore",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-02",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "Sentence‑BERT余弦相似（段级加权均值）≥0.90：_____？",
+        "evidence_tool": "Sentence‑BERT cosine",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-03",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "chrF（字符级）≥0.85：_____？",
+        "evidence_tool": "chrF (SacreBLEU)",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-04",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "ROUGE‑L（段级加权均值）≥0.85：_____？",
+        "evidence_tool": "ROUGE‑L",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-05",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "BLEU（SacreBLEU记录signature）≥0.80：_____？",
+        "evidence_tool": "BLEU (SacreBLEU)",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-06",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "关键章节（统计分析/缺失值/数据集定义）段落相似≥0.92：_____？",
+        "evidence_tool": "key_section_sim",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-07",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "低相似段落占比≤2%：_____？",
+        "evidence_tool": "low_sim_ratio",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-08",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "关键术语召回率（FAS/PPS/SS/LOCF/ANCOVA等）≥0.98：_____？",
+        "evidence_tool": "term_recall",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-09",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "段落对齐覆盖率≥0.98：_____？",
+        "evidence_tool": "SBERT alignment_coverage",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "SS-10",
+        "weight": 1.2,
+        "dimension": "语义相似度",
+        "binary_check": "候选/参考正文长度比在[0.98,1.02]：_____？",
+        "evidence_tool": "length_ratio",
+        "machine_detectable": "Y"
+      }
+    ],
+    "style_tone": [
+      {
+        "id": "ST-01",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "统计学术语写法与参考一致（如FAS/PPS/SS/LOCF/ANCOVA等）：_____？",
+        "evidence_tool": "term_style_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-02",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "标点/全角半角/数字格式风格与参考一致：_____？",
+        "evidence_tool": "punctuation_profile_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-03",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "公式/符号呈现风格与参考一致（≤/≥/α/β/µ/CI等）：_____？",
+        "evidence_tool": "symbol_style_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-04",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "章节用语体例与参考一致（如“统计分析一般原则/数据处理原则”措辞）：_____？",
+        "evidence_tool": "phrase_style_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-05",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "占位符词表命中=0（TBD/XXX/待补充等）：_____？",
+        "evidence_tool": "placeholder_scan",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-06",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "对话口吻/第一人称词表命中=0：_____？",
+        "evidence_tool": "register_scan",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-07",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "引用/脚注/编号格式风格与参考一致：_____？",
+        "evidence_tool": "citation_pattern_diff",
+        "machine_detectable": "Y"
+      },
+      {
+        "id": "ST-08",
+        "weight": 1,
+        "dimension": "风格/语气",
+        "binary_check": "统计结论措辞模板与参考一致（如“认为有统计学意义/无统计学意义”）：_____？",
+        "evidence_tool": "conclusion_phrase_diff",
+        "machine_detectable": "Y"
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+# This is a Node.js / Next.js service, not a Python project.
+# Do not run: pip install -r requirements.txt
+#
+# Deployment/runtime requirement:
+# - Node.js >= 18.17.0
+# - npm with package-lock v3 support
+#
+# Install dependencies:
+#   npm ci
+#
+# Build:
+#   npm run build
+#
+# Start production server:
+#   npm run start
+#
+# Required environment variables:
+# - OPENROUTER_API_KEY=<OpenRouter API key>
+#
+# Optional environment variables:
+# - OPENROUTER_MODEL=openai/gpt-4o
+# - OPENROUTER_PROXY_MODE=on
+# - HTTPS_PROXY=<proxy url>
+# - HTTP_PROXY=<proxy url>
+# - SAP_RUBRIC_MAX_CHARS=<integer; optional prompt-size cap for rubrics>
+#
+# Runtime npm dependencies from package.json:
+https-proxy-agent@^7.0.6
+mammoth@^1.7.0
+next@14.2.15
+pdf-parse@^1.1.1
+react@^18.3.1
+react-dom@^18.3.1
+
+# Build-time TypeScript dependencies:
+@types/node@^20.14.10
+@types/pdf-parse@^1.1.4
+@types/react@^18.3.3
+@types/react-dom@^18.3.0
+typescript@^5.5.3

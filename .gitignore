@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+dist/
+build/
+
+# Production/runtime output
+output/
+
+# Local input samples and private study documents
+input/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.cursor/
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

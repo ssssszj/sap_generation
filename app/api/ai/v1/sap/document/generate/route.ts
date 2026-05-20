@@ -1,0 +1,65 @@
+import { NextRequest, NextResponse } from "next/server";
+import {
+  generateSap,
+  type CoreContentItem,
+  type SapCoverMeta,
+} from "@/lib/sap-generator";
+import type { SapSection } from "@/lib/sap-spec";
+
+export const maxDuration = 300;
+
+function ok(data: unknown) {
+  return NextResponse.json({ code: 0, data });
+}
+
+function fail(message: string, status = 400) {
+  return NextResponse.json({ code: 1, message }, { status });
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const body = (await request.json()) as {
+      protocolText?: string;
+      crfText?: string;
+      coreContents?: CoreContentItem[];
+      outline?: SapSection[];
+      meta?: SapCoverMeta;
+    };
+
+    if (!body.protocolText?.trim() || !body.crfText?.trim()) {
+      return fail("protocolText 和 crfText 不能为空");
+    }
+    if (!Array.isArray(body.coreContents) || body.coreContents.length === 0) {
+      return fail("coreContents 必须是已确认的核心内容列表");
+    }
+    if (body.coreContents.some((item) => item.confirmed === false)) {
+      return fail("coreContents 中存在未确认项");
+    }
+    if (!Array.isArray(body.outline) || body.outline.length === 0) {
+      return fail("outline 必须是已确认的大纲列表");
+    }
+
+    const result = await generateSap({
+      protocolText: body.protocolText,
+      crfText: body.crfText,
+      meta: body.meta,
+      coreContent: body.coreContents,
+      sections: body.outline,
+    });
+
+    return ok({
+      documentContent: result.fullDocument,
+      contentType: "text/markdown",
+      coverMeta: result.coverMeta,
+      sections: result.sections.map(({ section, content }) => ({
+        id: section.id,
+        title: section.title,
+        titleEn: section.titleEn,
+        content,
+      })),
+    });
+  } catch (err) {
+    console.error("AI SAP document generation error:", err);
+    return fail(err instanceof Error ? err.message : "生成 SAP Markdown 文档失败", 500);
+  }
+}
