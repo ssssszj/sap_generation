@@ -1,5 +1,6 @@
 import { SAP_SPEC, SapSection } from "./sap-spec";
 import { createLLMClient, LLMClient } from "./llm-client";
+import { findSapGuideForSection } from "./sap-guides";
 import fs from "fs";
 import path from "path";
 
@@ -106,48 +107,6 @@ const DEFAULT_COVER: SapCoverMeta = {
   leadStatistician: "—",
 };
 
-let SAP_GUIDES_BY_SECTION: Record<string, string> | null = null;
-
-function loadSapGuidesBySection(): Record<string, string> {
-  if (SAP_GUIDES_BY_SECTION) return SAP_GUIDES_BY_SECTION;
-  try {
-    const filePath = path.join(process.cwd(), "knowledge_bank", "sap_guides.md");
-    const text = fs.readFileSync(filePath, "utf8");
-    const lines = text.split(/\r?\n/);
-    const map: Record<string, string> = {};
-    let currentId: string | null = null;
-    let buffer: string[] = [];
-
-    const flush = () => {
-      if (currentId) {
-        map[currentId] = buffer.join("\n").trim();
-      }
-    };
-
-    for (const line of lines) {
-      const m = line.match(/^(\d+)\s+/);
-      if (m) {
-        flush();
-        currentId = m[1];
-        buffer = [line];
-      } else if (currentId) {
-        buffer.push(line);
-      }
-    }
-    flush();
-
-    SAP_GUIDES_BY_SECTION = map;
-  } catch {
-    SAP_GUIDES_BY_SECTION = {};
-  }
-  return SAP_GUIDES_BY_SECTION!;
-}
-
-function getSapGuideForSection(sectionId: string): string {
-  const map = loadSapGuidesBySection();
-  return map[sectionId] ?? "";
-}
-
 function readKnowledgeFile(relativePath: string): string {
   try {
     const filePath = path.join(process.cwd(), "knowledge_bank", relativePath);
@@ -192,6 +151,14 @@ const CONSISTENCY_LOCK_CONSTRAINTS = [
   "若事实表提供“一致性锚点”，必须全篇锁定并保持一致：主终点分析单位（第一只术眼/双眼平均值）、第二术眼处理、缺失值主分析策略、H0/H1 方向、主终点访视窗口。",
   "禁止在不同章节出现相互冲突的口径（例如前文写“双眼平均值”，后文又改写为“第一只术眼”）。",
   "对于 logMAR 终点，方向判断必须与“数值越小越好”的语义一致；若输入未明确方向，不得自定结论方向。",
+].join("\n");
+
+const CORE_CONTENT_CONSTRAINTS = [
+  "用户已确认的核心内容是全篇 SAP 的最高优先级业务口径之一，必须在每一章节中严格承接。",
+  "凡核心内容已经确认的研究设计、终点定义、时间窗、样本量、分析集、统计方法、缺失值处理、多重性、展示口径、方案偏离规则等，不得在章节正文中改写、弱化、替换或引入冲突说法。",
+  "若当前章节需要展开某个核心内容，只能在不改变原意的前提下细化执行细节；不得新增与核心内容相反的新假设、新分析集定义、新终点口径或新统计方法。",
+  "若 sap_guides.md、rubrics、事实表、前文 SAP 或当前章节草稿与用户已确认核心内容存在表述冲突，必须优先保持核心内容口径，并用中性、可追溯的方式写作，禁止自行纠偏到相反口径。",
+  "输出前必须自检：本章是否与用户已确认核心内容逐项一致；如有冲突，必须先修正冲突再输出。",
 ].join("\n");
 
 const PLACEHOLDER_WORDS = [
@@ -427,12 +394,14 @@ async function reviseByRubric(
   section: SapSection,
   draft: string,
   facts: SapFacts | null,
-  previousSapContent: string
+  previousSapContent: string,
+  coreContent?: CoreContentItem[]
 ): Promise<string> {
   const fullRubrics = formatFullRubricsForPrompt();
   if (!fullRubrics.trim()) return draft.trim();
 
   const factsText = formatFactsForPrompt(facts).slice(0, 6000);
+  const coreText = formatCoreContentForPrompt(coreContent).slice(0, 12000);
   const prev = previousSapContent.trim() ? previousSapContent.slice(-12000) : "";
 
   const subs = section.subsections.length
@@ -451,12 +420,17 @@ async function reviseByRubric(
     "4) 禁止占位符词：TBD、XXX、待补充、待定、略、同上、见上、后续补充、placeholder。",
     "5) 不得增删子节标题：必须保留草稿中的子节标题行，并在其下修订正文；子节顺序必须与 section.subsections 一致。",
     "6) 若事实表含一致性锚点（主终点分析单位、第二术眼处理、缺失值主分析、假设方向、访视窗口），必须与锚点完全一致，不得前后冲突。",
+    "7) 必须与用户已确认的核心内容保持一致；若修订会导致与核心内容冲突，禁止该修订。",
     "",
     `【本章节】${section.id} ${section.title}${section.titleEn ? ` / ${section.titleEn}` : ""}`,
     `【子节要求（标题必须逐字保留与顺序一致）】\n${subs}`,
     "",
+    "【核心内容一致性约束（最高优先级，必须全部遵守）】",
+    CORE_CONTENT_CONSTRAINTS,
+    "",
     "【完整评价标准 rubrics.json（全文）】",
     fullRubrics,
+    coreText ? `\n【用户已确认的核心内容（全篇必须严格一致）】\n${coreText}` : "",
     factsText ? `\n【事实表节选（用于一致性）】\n${factsText}` : "",
     prev ? `\n【此前 SAP（节选）】\n${prev}` : "",
     "",
@@ -469,7 +443,7 @@ async function reviseByRubric(
       {
         role: "system",
         content:
-          "你是临床研究统计与质量审阅专家。按用户给定的评分标准修订章节正文，输出纯文本。",
+          "你是临床研究统计与质量审阅专家。按用户给定的评分标准修订章节正文，必须保持与用户已确认核心内容一致，输出纯文本。",
       },
       { role: "user", content: prompt },
     ],
@@ -837,9 +811,11 @@ async function qaReviseSection(
   section: SapSection,
   draft: string,
   facts: SapFacts | null,
-  previousSapContent: string
+  previousSapContent: string,
+  coreContent?: CoreContentItem[]
 ): Promise<string> {
   const factsText = formatFactsForPrompt(facts).slice(0, 8000);
+  const coreText = formatCoreContentForPrompt(coreContent).slice(0, 12000);
   const prev = previousSapContent.slice(-20000);
   const sectionHead = `【本章节】${section.id} ${section.title}${section.titleEn ? ` / ${section.titleEn}` : ""}`;
 
@@ -856,7 +832,11 @@ async function qaReviseSection(
       "",
       QA_SINGLE_GATE_STYLE_PRESERVE,
       "",
+      "【核心内容一致性约束（最高优先级，必须全部遵守）】",
+      CORE_CONTENT_CONSTRAINTS,
+      "",
       "不得添加与 Protocol/CRF 及事实表冲突的新信息；若无法确认，保持中性可执行表述。",
+      "不得添加、保留或改写任何与用户已确认核心内容冲突的说法；如果当前正文与核心内容冲突，本轮必须优先修正冲突。",
       "必须遵守一致性锁定：主终点分析单位、第二术眼处理、缺失值主分析策略、假设方向、访视窗口不得与事实表锚点冲突。",
       ...(gateId === "G2"
         ? [
@@ -869,6 +849,7 @@ async function qaReviseSection(
       "输出：只输出修订后的章节正文纯文本，不要输出变更说明、自检表或前言。",
       "",
       sectionHead,
+      ...(coreText ? ["", "【用户已确认的核心内容（全篇必须严格一致）】", coreText] : []),
       ...(factsText ? ["", "【事实表（节选，用于一致性）】", factsText] : []),
       "",
       "【此前 SAP（节选，用于与全篇口径一致）】",
@@ -883,7 +864,7 @@ async function qaReviseSection(
         {
           role: "system",
           content:
-            "你是临床研究统计与质量审阅专家。本轮只落实用户给出的单条硬阀门（G1–G5 之一），其余内容尽量保持不动；只输出修订后的正文纯文本。",
+            "你是临床研究统计与质量审阅专家。本轮只落实用户给出的单条硬阀门（G1–G5 之一），同时必须保持与用户已确认核心内容一致；只输出修订后的正文纯文本。",
         },
         { role: "user", content: prompt },
       ],
@@ -907,7 +888,7 @@ function buildSectionPrompt(
   const subs = section.subsections.length
     ? section.subsections.map((s) => `- ${s}`).join("\n")
     : "（无子节）";
-  const guide = getSapGuideForSection(section.id);
+  const guide = findSapGuideForSection(section);
   const prevSap = previousSapContent.trim()
     ? `\n【此前已生成的 SAP 全文】（供上下文与口径一致性参考）\n${previousSapContent.slice(-30000)}\n`
     : "";
@@ -970,7 +951,7 @@ function buildSectionPrompt(
   const customSectionGuidance = guide?.trim()
     ? ""
     : [
-        "本章是用户新增章节，系统没有预置章节指导。",
+        "本章未在 knowledge_bank/sap_guides.md 中按章节名匹配到预置章节指导。",
         "请基于已确认核心内容、Protocol/CRF、前文 SAP 口径自行规划本章内容。",
         "要求章节内容与全篇统计口径一致、避免重复前文、补足该章节标题自然要求的信息。",
       ].join("\n");
@@ -1001,6 +982,9 @@ function buildSectionPrompt(
     "【去重复与统计范围约束（必须遵守）】",
     NON_REDUNDANCY_CONSTRAINTS,
     "",
+    "【核心内容一致性约束（最高优先级，必须全部遵守）】",
+    CORE_CONTENT_CONSTRAINTS,
+    "",
     "【一致性锁定约束（必须遵守）】",
     CONSISTENCY_LOCK_CONSTRAINTS,
     ...(includeHardGates
@@ -1018,8 +1002,8 @@ function buildSectionPrompt(
     crfText.slice(0, 20000),
     prevSap,
     includeHardGates
-      ? "请仅输出本章节的正文内容，纯文本格式。不要输出任何前言/解释/评分项/清单编号等元文本，直接从第一个子节标题开始。输出前请先在脑中逐条自检：G1–G5 + 风格约束 + 本章必覆盖要点 + 子节顺序与标题逐字一致；若不满足，必须自行改写到满足后再输出。"
-      : "请仅输出本章节的正文内容，纯文本格式。不要输出任何前言/解释/清单编号等元文本，直接从第一个子节标题开始。仅需确保：风格约束 + 子节顺序与标题逐字一致。"
+      ? "请仅输出本章节的正文内容，纯文本格式。不要输出任何前言/解释/评分项/清单编号等元文本，直接从第一个子节标题开始。输出前请先在脑中逐条自检：用户已确认核心内容一致性 + G1–G5 + 风格约束 + 本章必覆盖要点 + 子节顺序与标题逐字一致；若不满足，必须自行改写到满足后再输出。"
+      : "请仅输出本章节的正文内容，纯文本格式。不要输出任何前言/解释/清单编号等元文本，直接从第一个子节标题开始。仅需确保：用户已确认核心内容一致性 + 风格约束 + 子节顺序与标题逐字一致。"
   );
 
   return lines.join("\n");
@@ -1078,7 +1062,8 @@ async function generateOneSection(
         section,
         draft.trim(),
         facts,
-        previousSapContent
+        previousSapContent,
+        coreContent
       );
     } catch (err) {
       throw new Error(
@@ -1096,7 +1081,8 @@ async function generateOneSection(
         section,
         afterRubric,
         facts,
-        previousSapContent
+        previousSapContent,
+        coreContent
       );
     } catch (err) {
       throw new Error(
@@ -1112,13 +1098,19 @@ async function generateOneSection(
     ];
     if (issues.length) {
       // 在硬阀门阶段做“只修错不加戏”的二次修订
+      const coreText = formatCoreContentForPrompt(coreContent).slice(0, 12000);
       const fixPrompt = [
         "你将对章节正文做一次“只修错不加戏”的二次修订。",
         "目标：修复下列问题清单中的每一条；不得添加与输入冲突的新事实；只输出最终正文。",
+        "必须保持与用户已确认核心内容一致；若问题修复方案会导致与核心内容冲突，必须改用不冲突的修复方案。",
+        "",
+        "【核心内容一致性约束（最高优先级，必须全部遵守）】",
+        CORE_CONTENT_CONSTRAINTS,
         "",
         `【本章节】${section.id} ${section.title}${
           section.titleEn ? ` / ${section.titleEn}` : ""
         }`,
+        ...(coreText ? ["", "【用户已确认的核心内容（全篇必须严格一致）】", coreText] : []),
         "",
         "【问题清单（必须逐条修复）】",
         issues.map((x) => `- ${x}`).join("\n"),
@@ -1135,7 +1127,7 @@ async function generateOneSection(
                 {
                   role: "system",
                   content:
-                    "你是临床研究统计与质量审阅专家。只修复指定问题，不输出解释；只输出修订后的正文纯文本。",
+                    "你是临床研究统计与质量审阅专家。只修复指定问题，并保持与用户已确认核心内容一致；不输出解释，只输出修订后的正文纯文本。",
                 },
                 { role: "user", content: fixPrompt },
               ],

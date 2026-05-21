@@ -524,9 +524,9 @@ export default function SapGeneratePage() {
       <section className={`${styles.section} ${step === "outline" ? styles.activeSection : ""}`}>
         <div className={styles.stepHeader}>
           <span className={styles.stepBadge}>2</span>
-          <h2>确认一级目录</h2>
+          <h2>确认一二级目录</h2>
         </div>
-        <p className={styles.note}>这里只调整一级目录。删除的目录不会在第三步生成；新增目录没有预置指导，会由模型结合核心内容和上下文自主生成。</p>
+        <p className={styles.note}>这里展示当前生成用大纲。删除的一级目录不会在第三步生成；新增目录没有预置指导，会由模型结合核心内容和上下文自主生成。</p>
         <div className={styles.outlineList}>
           {outline.map((section, index) => (
             <article className={styles.outlineItem} key={`${section.id}-${index}`}>
@@ -539,6 +539,13 @@ export default function SapGeneratePage() {
                   删除
                 </button>
               </div>
+              {section.subsections.length > 0 && (
+                <ol className={styles.subOutlineList}>
+                  {section.subsections.map((subsection) => (
+                    <li key={subsection}>{subsection}</li>
+                  ))}
+                </ol>
+              )}
             </article>
           ))}
         </div>

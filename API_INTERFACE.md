@@ -1,6 +1,6 @@
 # SAP 三步生成接口文档
 
-本文档面向网站后端调用方。当前项目提供三类核心能力：核心内容确定、大纲确认、SAP Markdown 生成。所有正式对接接口均使用 JSON，不生成 Word。
+本文档面向网站后端调用方。当前项目提供三类核心能力：核心内容确定、SAP Markdown 生成、Markdown 转 docx/pdf。
 
 ## 通用约定
 
@@ -24,7 +24,7 @@
 ```
 
 - `protocolText` 与 `crfText` 由网站后端负责从文件中解析后传入。本项目正式接口不接收文件上传。
-- 最终 SAP 文档直接返回 Markdown 字符串，不提供 Word/docx。
+- SAP 生成接口直接返回 Markdown 字符串；如需下载文件，调用导出接口把 Markdown 转为 docx 或 pdf。
 
 ---
 
@@ -169,119 +169,9 @@ Content-Type: application/json
 
 ---
 
-## 3. 获取默认一级目录
+## 3. 生成 SAP Markdown 文档
 
-调用时机：核心内容全部确认后，网站后端获取默认 SAP 一级目录供用户删除或新增。
-
-请求：
-
-```http
-GET /ai/v1/sap/outline/default
-```
-
-响应：
-
-```json
-{
-  "code": 0,
-  "data": {
-    "outline": [
-      {
-        "id": "0",
-        "title": "文档信息与版本控制",
-        "titleEn": "Document Control",
-        "level": 1
-      },
-      {
-        "id": "1",
-        "title": "研究概述",
-        "titleEn": "Study Overview / Trial Registration",
-        "level": 1
-      }
-    ]
-  }
-}
-```
-
-前端交互要求：
-
-- 只展示一级目录。
-- 用户只能删除一级目录，或新增一级目录。
-- 不提供二级目录、章节说明、指导语编辑。
-
----
-
-## 4. 确认一级目录
-
-调用时机：用户完成一级目录删除/新增后，后端提交最终目录。服务端会把内置目录还原为完整章节配置；新增目录会标记为“无预置指导”，后续由模型自主生成。
-
-请求：
-
-```http
-POST /ai/v1/sap/outline/confirm
-Content-Type: application/json
-```
-
-```json
-{
-  "outline": [
-    {
-      "id": "0",
-      "title": "文档信息与版本控制",
-      "titleEn": "Document Control"
-    },
-    {
-      "id": "1",
-      "title": "研究概述",
-      "titleEn": "Study Overview / Trial Registration"
-    },
-    {
-      "id": "13",
-      "title": "补充统计说明",
-      "titleEn": "Supplementary Statistical Notes"
-    }
-  ]
-}
-```
-
-响应：
-
-```json
-{
-  "code": 0,
-  "data": {
-    "outline": [
-      {
-        "id": "0",
-        "title": "文档信息与版本控制",
-        "titleEn": "Document Control",
-        "subsections": [
-          "0.1 标题页（研究题目/方案号/申办方/统计负责人）"
-        ],
-        "description": "文档元信息、版本历史、审批与定稿节点"
-      },
-      {
-        "id": "13",
-        "title": "补充统计说明",
-        "titleEn": "Supplementary Statistical Notes",
-        "subsections": [],
-        "description": "用户新增一级目录，由大模型根据核心内容与上下文自主生成"
-      }
-    ]
-  }
-}
-```
-
-说明：
-
-- 后续生成 SAP 时，请传入本接口返回的 `data.outline`。
-- 如果用户删除某个一级目录，该目录不会出现在确认响应中，也不会在 SAP 生成时生成。
-
----
-
-## 5. 生成 SAP Markdown 文档
-
-调用时机：核心内容全部确认、大纲确认后，生成完整 SAP 文档。
+调用时机：后端已经拿到 Protocol、CRF、用户确认后的核心内容、用户编辑后的大纲后，直接生成完整 SAP 文档。无需单独调用“大纲确认”接口。
 
 请求：
 
@@ -338,7 +228,7 @@ Content-Type: application/json
 | `protocolText` | string | 是 | 研究方案全文 |
 | `crfText` | string | 是 | CRF/aCRF 全文 |
 | `coreContents` | array | 是 | 用户已确认的核心内容列表 |
-| `outline` | array | 是 | `/ai/v1/sap/outline/confirm` 返回的大纲 |
+| `outline` | array | 是 | 后端传入的用户编辑后大纲 |
 | `meta` | object | 否 | 封面元数据 |
 
 响应：
@@ -373,8 +263,44 @@ Content-Type: application/json
 说明：
 
 - `documentContent` 是完整 Markdown 文档，可直接存储或交给前端富文本/Markdown 渲染器展示。
-- 本接口不返回 Word/docx。
-- 新增一级目录没有预置章节指导时，模型会结合已确认核心内容、Protocol/CRF 和前文 SAP 自主生成该章节。
+- 本接口不返回 Word/docx/pdf；如需文件，调用下一节导出接口。
+- 每个章节生成前都会按章节名匹配 `sap_guides.md` 指导；匹配不到的章节由模型结合已确认核心内容、Protocol/CRF 和前文 SAP 自主生成。
+
+---
+
+## 4. Markdown 转 docx/pdf
+
+调用时机：后端已经拿到或保存了 SAP Markdown，需要转换成 Word 或 PDF 文件。
+
+请求：
+
+```http
+POST /ai/v1/sap/document/export
+Content-Type: application/json
+```
+
+```json
+{
+  "format": "docx",
+  "filename": "SAP-v1.0",
+  "markdown": "# 统计分析计划\n\n## 1 研究概述\n\n正文..."
+}
+```
+
+字段说明：
+
+| 字段 | 类型 | 必填 | 说明 |
+| --- | --- | --- | --- |
+| `format` | string | 是 | `docx` 或 `pdf` |
+| `filename` | string | 否 | 下载文件名；不需要带扩展名 |
+| `markdown` | string | 否 | SAP Markdown 文档正文；与 `documentContent` 二选一 |
+| `documentContent` | string | 否 | SAP Markdown 文档正文；兼容生成接口返回字段 |
+
+成功响应：
+
+- `format=docx`：返回 `application/vnd.openxmlformats-officedocument.wordprocessingml.document` 二进制文件。
+- `format=pdf`：返回 `application/pdf` 二进制文件。
+- 响应头包含 `Content-Disposition: attachment`。
 
 ---
 
@@ -383,7 +309,6 @@ Content-Type: application/json
 1. 后端解析 Protocol/CRF，得到 `protocolText`、`crfText`。
 2. 调用 `/ai/v1/sap/core-content/generate`，AI 按系统固定核心内容清单生成各项内容。
 3. 前端逐项展示核心内容；每项可确认，或调用 `/ai/v1/sap/core-content/regenerate` 按反馈重写。
-4. 核心内容全部确认后，调用 `/ai/v1/sap/outline/default` 获取默认一级目录。
-5. 前端展示一级目录，用户只能删除或新增一级目录。
-6. 调用 `/ai/v1/sap/outline/confirm`，得到确认后的完整生成用大纲。
-7. 调用 `/ai/v1/sap/document/generate`，得到完整 SAP Markdown 文档。
+4. 后端收集用户编辑后的大纲。
+5. 调用 `/ai/v1/sap/document/generate`，一次性传入 `protocolText`、`crfText`、`coreContents`、`outline`，得到完整 SAP Markdown 文档。
+6. 如需下载，调用 `/ai/v1/sap/document/export`，以 JSON 传入 Markdown，把文档转成 docx 或 pdf。

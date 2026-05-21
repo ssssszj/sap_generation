@@ -4,7 +4,7 @@ import {
   type CoreContentItem,
   type SapCoverMeta,
 } from "@/lib/sap-generator";
-import type { SapSection } from "@/lib/sap-spec";
+import { normalizeSapOutline, type SapOutlineInput } from "@/lib/sap-guides";
 
 export const maxDuration = 300;
 
@@ -22,7 +22,7 @@ export async function POST(request: NextRequest) {
       protocolText?: string;
       crfText?: string;
       coreContents?: CoreContentItem[];
-      outline?: SapSection[];
+      outline?: SapOutlineInput[];
       meta?: SapCoverMeta;
     };
 
@@ -39,12 +39,17 @@ export async function POST(request: NextRequest) {
       return fail("outline 必须是已确认的大纲列表");
     }
 
+    const outline = normalizeSapOutline(body.outline);
+    if (!outline.length) {
+      return fail("outline 规范化后不能为空");
+    }
+
     const result = await generateSap({
       protocolText: body.protocolText,
       crfText: body.crfText,
       meta: body.meta,
       coreContent: body.coreContents,
-      sections: body.outline,
+      sections: outline,
     });
 
     return ok({
