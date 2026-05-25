@@ -1,6 +1,6 @@
 import { SAP_SPEC, SapSection } from "./sap-spec";
 import { createLLMClient, LLMClient } from "./llm-client";
-import { findSapGuideForSection } from "./sap-guides";
+import { findSapGuidesForSubsections } from "./sap-guides";
 import fs from "fs";
 import path from "path";
 
@@ -888,7 +888,7 @@ function buildSectionPrompt(
   const subs = section.subsections.length
     ? section.subsections.map((s) => `- ${s}`).join("\n")
     : "（无子节）";
-  const guide = findSapGuideForSection(section);
+  const { guide, unmatchedSubsections } = findSapGuidesForSubsections(section.subsections);
   const prevSap = previousSapContent.trim()
     ? `\n【此前已生成的 SAP 全文】（供上下文与口径一致性参考）\n${previousSapContent.slice(-30000)}\n`
     : "";
@@ -948,13 +948,19 @@ function buildSectionPrompt(
   const mustCover = MUST_COVER_BY_SECTION[section.id] ?? "";
   const factsText = formatFactsForPrompt(facts);
   const coreText = formatCoreContentForPrompt(coreContent);
-  const customSectionGuidance = guide?.trim()
-    ? ""
-    : [
-        "本章未在 knowledge_bank/sap_guides.md 中按章节名匹配到预置章节指导。",
-        "请基于已确认核心内容、Protocol/CRF、前文 SAP 口径自行规划本章内容。",
-        "要求章节内容与全篇统计口径一致、避免重复前文、补足该章节标题自然要求的信息。",
-      ].join("\n");
+  const customSectionGuidance = unmatchedSubsections.length
+    ? [
+        "以下二级章节未在 knowledge_bank/sap_guides.md 中按标题匹配到预置指导：",
+        ...unmatchedSubsections.map((subsection) => `- ${subsection}`),
+        "请仅对上述未匹配二级章节，基于已确认核心内容、Protocol/CRF 和前文 SAP 口径自主生成正文。",
+        "所有章节内容均须与全篇统计口径一致、避免重复前文。",
+      ].join("\n")
+    : section.subsections.length
+      ? ""
+      : [
+          "本章未提供二级章节，无法按二级标题匹配 knowledge_bank/sap_guides.md 指导。",
+          "请基于已确认核心内容、Protocol/CRF 和前文 SAP 口径自主生成本章内容。",
+        ].join("\n");
 
   lines.push(
     "你是一位临床研究统计专家，正在根据研究方案（Protocol）、病例报告表（CRF）及此前已生成的 SAP 内容，撰写《统计分析计划》（SAP）的当前章节。",
@@ -966,8 +972,8 @@ function buildSectionPrompt(
   if (guide && guide.trim()) {
     lines.push(
       "",
-      "【撰写指导（来自 knowledge_bank/sap_guides.md，仅供参考，如与 Protocol/CRF/SAP 冲突需以正式文件为准）】",
-      guide.slice(0, 8000)
+      "【二级章节撰写指导（按传入二级标题从 knowledge_bank/sap_guides.md 匹配；如与核心内容/Protocol/CRF 冲突，以已确认核心内容和正式输入为准）】",
+      guide.slice(0, 12000)
     );
   }
 

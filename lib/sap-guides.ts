@@ -221,15 +221,24 @@ export function normalizeSapOutline(outline: SapOutlineInput[]): SapSection[] {
     .filter((section) => section.title);
 }
 
-export function findSapGuideForSection(section: Pick<SapSection, "title" | "id">): string {
-  const byTitle = findGuideByTitle(section.title);
-  if (byTitle?.guide) return byTitle.guide;
+export function findSapGuidesForSubsections(subsections: string[]): {
+  guide: string;
+  unmatchedSubsections: string[];
+} {
+  const matchedGuides: string[] = [];
+  const unmatchedSubsections: string[] = [];
 
-  const bySubTitle = findSubGuideByTitle(section.title);
-  if (bySubTitle?.guide) return bySubTitle.guide;
+  for (const subsection of subsections) {
+    const matchedGuide = findSubGuideByTitle(subsection);
+    if (!matchedGuide?.guide) {
+      unmatchedSubsections.push(subsection);
+      continue;
+    }
+    matchedGuides.push(`【${subsection} 对应指导】\n${matchedGuide.guide}`);
+  }
 
-  const byId = loadSapGuideSections().find((guide) => guide.id === section.id);
-  if (byId?.guide && normalizeTitle(byId.title) === normalizeTitle(section.title)) return byId.guide;
-
-  return "";
+  return {
+    guide: matchedGuides.join("\n\n"),
+    unmatchedSubsections,
+  };
 }

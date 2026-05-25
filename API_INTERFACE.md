@@ -203,8 +203,15 @@ Content-Type: application/json
       "id": "0",
       "title": "文档信息与版本控制",
       "titleEn": "Document Control",
-      "subsections": [
-        "0.1 标题页（研究题目/方案号/申办方/统计负责人）"
+      "children": [
+        {
+          "id": "0.1",
+          "title": "标题页"
+        },
+        {
+          "id": "0.2",
+          "title": "版本历史与修订摘要"
+        }
       ],
       "description": "文档元信息、版本历史、审批与定稿节点"
     }
@@ -228,7 +235,7 @@ Content-Type: application/json
 | `protocolText` | string | 是 | 研究方案全文 |
 | `crfText` | string | 是 | CRF/aCRF 全文 |
 | `coreContents` | array | 是 | 用户已确认的核心内容列表 |
-| `outline` | array | 是 | 后端传入的用户编辑后大纲 |
+| `outline` | array | 是 | 后端传入的用户编辑后大纲；一级章节使用 `children` 传二级标题 |
 | `meta` | object | 否 | 封面元数据 |
 
 响应：
@@ -264,7 +271,7 @@ Content-Type: application/json
 
 - `documentContent` 是完整 Markdown 文档，可直接存储或交给前端富文本/Markdown 渲染器展示。
 - 本接口不返回 Word/docx/pdf；如需文件，调用下一节导出接口。
-- 每个章节生成前都会按章节名匹配 `sap_guides.md` 指导；匹配不到的章节由模型结合已确认核心内容、Protocol/CRF 和前文 SAP 自主生成。
+- 每个一级章节下的二级标题会按标题名逐项匹配 `sap_guides.md` 中对应指导；匹配不到的二级标题由模型结合已确认核心内容、Protocol/CRF 和前文 SAP 自主生成。
 
 ---
 
