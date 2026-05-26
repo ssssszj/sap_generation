@@ -1026,8 +1026,19 @@ async function generateOneSection(
 ): Promise<SapSectionOutput> {
   /** 仅当某章生成结果为空白时重试；有正文章节内容即接受，不因本地硬规则未通过而整章重试 */
   const maxAttempts = 5;
+  let lastGeneratedContent = "";
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    let lastAttemptContent = "";
+    const preserveContent = (value: string): string => {
+      const content = value.trim();
+      if (content) {
+        lastAttemptContent = content;
+        lastGeneratedContent = content;
+      }
+      return content;
+    };
+
     // 第一步：生成草稿（不强制注入硬阀门，先写出结构与关键内容）
     const draftPrompt = buildSectionPrompt(
       section,
@@ -1059,6 +1070,7 @@ async function generateOneSection(
         }`
       );
     }
+    const draftContent = preserveContent(draft);
 
     // 第二步：根据评分标准（rubrics.json）修订，尽可能接近 5 分
     let afterRubric: string;
@@ -1066,7 +1078,7 @@ async function generateOneSection(
       afterRubric = await reviseByRubric(
         client,
         section,
-        draft.trim(),
+        draftContent,
         facts,
         previousSapContent,
         coreContent
@@ -1078,6 +1090,7 @@ async function generateOneSection(
         }`
       );
     }
+    const afterRubricContent = preserveContent(afterRubric);
 
     // 第三步：硬阀门 QA —— qaReviseSection 内对 G1–G5 各调用 1 次 LLM（共 5 次），每次只优化一条硬阀门
     let revised: string;
@@ -1085,7 +1098,7 @@ async function generateOneSection(
       revised = await qaReviseSection(
         client,
         section,
-        afterRubric,
+        afterRubricContent || draftContent,
         facts,
         previousSapContent,
         coreContent
@@ -1097,6 +1110,7 @@ async function generateOneSection(
         }`
       );
     }
+    revised = preserveContent(revised);
 
     let issues = [
       ...findHardGateIssues(revised, section.id),
@@ -1148,6 +1162,7 @@ async function generateOneSection(
           }
         })()
       ).trim();
+      preserveContent(revised);
       issues = [
         ...findHardGateIssues(revised, section.id),
         ...findConsistencyAnchorIssues(revised, section.id, facts),
@@ -1156,7 +1171,14 @@ async function generateOneSection(
 
     if (!revised.trim()) {
       if (attempt < maxAttempts) continue;
-      throw new Error(`章节 ${section.id} 生成结果为空，已重试 ${maxAttempts} 次仍失败`);
+      const fallbackContent = lastAttemptContent || lastGeneratedContent;
+      if (fallbackContent) {
+        console.warn(
+          `章节 ${section.id} 最终修订结果为空，达到 ${maxAttempts} 次重试上限后保留最近一次非空生成内容`
+        );
+        return { section, content: fallbackContent };
+      }
+      throw new Error(`章节 ${section.id} 未获得任何可保留的生成内容，已重试 ${maxAttempts} 次仍失败`);
     }
 
     return { section, content: revised.trim() };
