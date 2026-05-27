@@ -200,17 +200,17 @@ Content-Type: application/json
   ],
   "outline": [
     {
-      "id": "0",
-      "title": "文档信息与版本控制",
+      "id": "document-control",
+      "title": "0 文档信息与版本控制",
       "titleEn": "Document Control",
       "children": [
         {
-          "id": "0.1",
-          "title": "标题页"
+          "id": "title-page",
+          "title": "0.1 标题页"
         },
         {
-          "id": "0.2",
-          "title": "版本历史与修订摘要"
+          "id": "revision-history",
+          "title": "0.2 版本历史与修订摘要"
         }
       ],
       "description": "文档元信息、版本历史、审批与定稿节点"
@@ -238,6 +238,12 @@ Content-Type: application/json
 | `outline` | array | 是 | 后端传入的用户编辑后大纲；一级章节使用 `children` 传二级标题 |
 | `meta` | object | 否 | 封面元数据 |
 
+`outline` 约定：
+
+- `id` 是后端业务标识，仅原样回传，不用于生成文档中的章节编号或展示标题。
+- `title` 必须直接包含章节编号，例如一级标题 `0 文档信息与版本控制`、二级标题 `0.1 标题页`。
+- 生成的目录、章节标题和章节 prompt 均直接使用 `title`，不会将 `id` 与 `title` 拼接。
+
 响应：
 
 ```json
@@ -257,8 +263,8 @@ Content-Type: application/json
     },
     "sections": [
       {
-        "id": "0",
-        "title": "文档信息与版本控制",
+        "id": "document-control",
+        "title": "0 文档信息与版本控制",
         "titleEn": "Document Control",
         "content": "string, 该章节正文"
       }

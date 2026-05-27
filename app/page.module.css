@@ -396,20 +396,6 @@
   font-weight: 500;
 }
 
-.outlineNo {
-  flex: 0 0 auto;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2rem;
-  height: 2rem;
-  border-radius: 8px;
-  background: #e2e8f0;
-  color: #334155;
-  font-size: 0.85rem;
-  font-weight: 700;
-}
-
 .subOutlineList {
   margin: 0.75rem 0 0;
   padding: 0.75rem 0 0 3rem;

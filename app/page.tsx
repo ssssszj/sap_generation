@@ -210,15 +210,17 @@ export default function SapGeneratePage() {
     }
     setOutlineConfirmed(false);
     setOutline((sections) => {
-      const numericIds = sections
-        .map((section) => Number(section.id.replace(/\D/g, "")))
-        .filter((id) => Number.isFinite(id));
-      const nextId = `${numericIds.length ? Math.max(...numericIds) + 1 : sections.length}`;
+      const sectionNumbers = sections
+        .map((section) => section.title.match(/^(\d+)(?:\s|$)/)?.[1])
+        .map((value) => Number(value))
+        .filter((value) => Number.isFinite(value));
+      const nextNumber = `${sectionNumbers.length ? Math.max(...sectionNumbers) + 1 : sections.length}`;
+      const displayTitle = /^\d+(?:\s|$)/.test(title) ? title : `${nextNumber} ${title}`;
       return [
         ...sections,
         {
-          id: nextId,
-          title,
+          id: `custom-${nextNumber}`,
+          title: displayTitle,
           titleEn: "",
           description: "用户新增章节，由大模型根据核心内容与上下文自主生成",
           subsections: [],
@@ -297,7 +299,7 @@ export default function SapGeneratePage() {
             setProgress({
               current: msg.current,
               total: msg.total,
-              sectionTitle: `${msg.section.id} ${msg.section.title}${msg.section.titleEn ? ` / ${msg.section.titleEn}` : ""}`,
+              sectionTitle: `${msg.section.title}${msg.section.titleEn ? ` / ${msg.section.titleEn}` : ""}`,
             });
           } else if (msg.type === "done" && msg.result) {
             setFullDocument(msg.result.fullDocument);
@@ -532,7 +534,6 @@ export default function SapGeneratePage() {
             <article className={styles.outlineItem} key={`${section.id}-${index}`}>
               <div className={styles.outlineRow}>
                 <div className={styles.outlineTitle}>
-                  <span className={styles.outlineNo}>{section.id}</span>
                   <span>{section.title}{section.titleEn ? ` / ${section.titleEn}` : ""}</span>
                 </div>
                 <button type="button" className={styles.dangerButton} onClick={() => removeOutlineSection(index)} disabled={loading || !allCoreConfirmed}>
@@ -553,7 +554,7 @@ export default function SapGeneratePage() {
           <input
             value={newOutlineTitle}
             onChange={(e) => setNewOutlineTitle(e.target.value)}
-            placeholder="输入新增一级目录标题"
+            placeholder="输入新增一级目录标题，例如：13 附录"
             disabled={loading || !allCoreConfirmed}
           />
           <button type="button" className={styles.secondaryButton} onClick={addOutlineSection} disabled={loading || !allCoreConfirmed}>

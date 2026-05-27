@@ -13,7 +13,7 @@ export interface SapSection {
 export const SAP_SPEC: SapSection[] = [
   {
     id: "0",
-    title: "文档信息与版本控制",
+    title: "0 文档信息与版本控制",
     titleEn: "Document Control",
     subsections: [
       "0.1 标题页（研究题目/方案号/申办方/统计负责人）",
@@ -25,7 +25,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "1",
-    title: "研究概述",
+    title: "1 研究概述",
     titleEn: "Study Overview / Trial Registration",
     subsections: [
       "1.1 研究背景与目的（与方案/登记信息一致）",
@@ -37,7 +37,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "2",
-    title: "分析目标、指标与口径",
+    title: "2 分析目标、指标与口径",
     titleEn: "Objectives, Endpoints, Definitions",
     subsections: [
       "2.1 主要目的与主要终点（定义 + 时间窗 + 评价规则）",
@@ -49,7 +49,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "3",
-    title: "估计目标与干预事件处理",
+    title: "3 估计目标与干预事件处理",
     titleEn: "Estimands / Intercurrent Events",
     subsections: [
       "3.1 主要 estimand 四要素（人群、变量、干预事件处理策略、汇总指标）",
@@ -60,7 +60,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "4",
-    title: "样本量与把握度",
+    title: "4 样本量与把握度",
     titleEn: "Sample Size / Power",
     subsections: [
       "4.1 样本量依据（主要终点、效应量假设、I/II 类错误、脱落率）",
@@ -71,7 +71,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "5",
-    title: "分析集定义",
+    title: "5 分析集定义",
     titleEn: "Analysis Populations / Sets",
     subsections: [
       "5.1 ITT / 全分析集（FAS）定义与排除规则",
@@ -83,7 +83,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "6",
-    title: "统计原则",
+    title: "6 统计原则",
     titleEn: "Statistical Principles",
     subsections: [
       "6.1 显著性水平与置信区间（单/双侧；α 分配）",
@@ -96,7 +96,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "7",
-    title: "数据处理规则",
+    title: "7 数据处理规则",
     titleEn: "Data Handling Rules",
     subsections: [
       "7.1 访视窗与时间点归属（窗口、提前/延后规则）",
@@ -111,7 +111,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "8",
-    title: "统计方法",
+    title: "8 统计方法",
     titleEn: "Statistical Methods",
     subsections: [
       "8.1 总体描述（人口学/基线/暴露/依从性：统计量与展示方式）",
@@ -126,7 +126,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "9",
-    title: "输出与呈现规范",
+    title: "9 输出与呈现规范",
     titleEn: "TFL Shell & Reporting Conventions",
     subsections: [
       "9.1 Table/Figure/Listing 总清单（仅计划输出，不写结果）",
@@ -137,7 +137,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "10",
-    title: "软件、编程与质控",
+    title: "10 软件、编程与质控",
     titleEn: "Software / QC",
     subsections: [
       "10.1 统计软件与版本（SAS/R 等）",
@@ -148,7 +148,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "11",
-    title: "与方案差异与变更记录",
+    title: "11 与方案差异与变更记录",
     titleEn: "Deviations / SAP Changes",
     subsections: [
       "11.1 与方案统计章节差异（如有）",
@@ -158,7 +158,7 @@ export const SAP_SPEC: SapSection[] = [
   },
   {
     id: "12",
-    title: "参考文献",
+    title: "12 参考文献",
     titleEn: "References",
     subsections: [],
     description: "参考文献列表",

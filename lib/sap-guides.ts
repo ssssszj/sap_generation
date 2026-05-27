@@ -113,7 +113,7 @@ export function loadSapGuideSections(): SapGuideSection[] {
 export function getSapGuideOutline(): SapSection[] {
   return loadSapGuideSections().map((section) => ({
     id: section.id,
-    title: section.title,
+    title: `${section.id} ${section.title}`,
     titleEn: "",
     description: `来自 knowledge_bank/sap_guides.md 的固定章节：${section.title}`,
     subsections: section.subsections.map((sub) => `${sub.id} ${sub.title}`),
@@ -123,12 +123,12 @@ export function getSapGuideOutline(): SapSection[] {
 export function getSapGuideOutlineTree() {
   return loadSapGuideSections().map((section) => ({
     id: section.id,
-    title: section.title,
+    title: `${section.id} ${section.title}`,
     titleEn: "",
     level: 1,
     children: section.subsections.map((sub) => ({
       id: sub.id,
-      title: sub.title,
+      title: `${sub.id} ${sub.title}`,
       level: 2,
     })),
   }));
@@ -153,16 +153,10 @@ function findSubGuideByTitle(title: string | undefined): SapGuideSubsection | un
 function normalizeSubsectionInput(value: string | SapOutlineInput): string | null {
   if (typeof value === "string") {
     const text = value.trim();
-    if (!text) return null;
-    const parsed = stripHeadingNumber(text);
-    return parsed.id ? `${parsed.id} ${parsed.title}` : parsed.title;
+    return text || null;
   }
   const title = value.title?.trim();
-  if (!title) return null;
-  const parsed = stripHeadingNumber(title);
-  const id = value.id?.trim() || parsed.id;
-  const cleanTitle = parsed.title;
-  return id ? `${id} ${cleanTitle}` : cleanTitle;
+  return title || null;
 }
 
 function buildTreeFromPossiblyFlatOutline(outline: SapOutlineInput[]): SapOutlineInput[] {
@@ -193,7 +187,7 @@ export function normalizeSapOutline(outline: SapOutlineInput[]): SapSection[] {
       const parsedTitle = stripHeadingNumber(item.title ?? "");
       const matchedGuide = findGuideByTitle(parsedTitle.title || item.title);
       const id = item.id?.trim() || parsedTitle.id || matchedGuide?.id || `${index + 1}`;
-      const title = (parsedTitle.title || item.title || "").trim();
+      const title = item.title?.trim() || "";
       const childInputs = [
         ...(item.children ?? []),
         ...((item.subsections ?? []).map((sub) =>

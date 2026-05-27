@@ -116,6 +116,15 @@ function readKnowledgeFile(relativePath: string): string {
   }
 }
 
+function formatSectionTitle(section: SapSection): string {
+  return section.titleEn ? `${section.title} / ${section.titleEn}` : section.title;
+}
+
+function getSectionNumber(section: SapSection): string {
+  const matched = section.title.trim().match(/^(\d+)(?:\s|$)/);
+  return matched?.[1] ?? "";
+}
+
 /** 与 knowledge_bank/sap_hard_gates.md 对齐；逐条独立维护，修改时请同步更新 md。 */
 const SAP_HARD_GATE_G1 =
   "G1（关键数值/日期/单位）：样本量、访视窗、阈值、版本号与日期格式等凡 Protocol/CRF 已给出的，须全文一致沿用；同一概念统一量纲与单位写法，禁止前后矛盾或混用不等价数值。";
@@ -423,7 +432,7 @@ async function reviseByRubric(
     "6) 若事实表含一致性锚点（主终点分析单位、第二术眼处理、缺失值主分析、假设方向、访视窗口），必须与锚点完全一致，不得前后冲突。",
     "7) 必须与用户已确认的核心内容保持一致；若修订会导致与核心内容冲突，禁止该修订。",
     "",
-    `【本章节】${section.id} ${section.title}${section.titleEn ? ` / ${section.titleEn}` : ""}`,
+    `【本章节】${formatSectionTitle(section)}`,
     `【子节要求（标题必须逐字保留与顺序一致）】\n${subs}`,
     "",
     "【核心内容一致性约束（最高优先级，必须全部遵守）】",
@@ -819,7 +828,7 @@ async function qaReviseSection(
   const factsText = formatFactsForPrompt(facts).slice(0, 8000);
   const coreText = formatCoreContentForPrompt(coreContent).slice(0, 12000);
   const prev = previousSapContent.slice(-20000);
-  const sectionHead = `【本章节】${section.id} ${section.title}${section.titleEn ? ` / ${section.titleEn}` : ""}`;
+  const sectionHead = `【本章节】${formatSectionTitle(section)}`;
 
   let current = draft.trim();
 
@@ -947,7 +956,7 @@ function buildSectionPrompt(
       "必须明确：与方案差异、SAP 版本变更记录、对结论影响评估与追溯方式。",
     ].join("\n"),
   };
-  const mustCover = MUST_COVER_BY_SECTION[section.id] ?? "";
+  const mustCover = MUST_COVER_BY_SECTION[getSectionNumber(section)] ?? "";
   const factsText = formatFactsForPrompt(facts);
   const coreText = formatCoreContentForPrompt(coreContent);
   const customSectionGuidance = unmatchedSubsections.length
@@ -967,7 +976,7 @@ function buildSectionPrompt(
   lines.push(
     "你是一位临床研究统计专家，正在根据研究方案（Protocol）、病例报告表（CRF）及此前已生成的 SAP 内容，撰写《统计分析计划》（SAP）的当前章节。",
     "",
-    `【本章节】${section.id} ${section.title}${section.titleEn ? ` / ${section.titleEn}` : ""}`,
+    `【本章节】${formatSectionTitle(section)}`,
     `【本章说明】${section.description}`
   );
 
@@ -1050,13 +1059,13 @@ async function generateOneSection(
     );
   } catch (err) {
     throw new Error(
-      `第 ${section.id} 章生成失败：${err instanceof Error ? err.message : String(err)}`
+      `章节“${formatSectionTitle(section)}”生成失败：${err instanceof Error ? err.message : String(err)}`
     );
   }
 
   const finalContent = content.trim();
   if (!finalContent) {
-    throw new Error(`第 ${section.id} 章生成结果为空`);
+    throw new Error(`章节“${formatSectionTitle(section)}”生成结果为空`);
   }
 
   return { section, content: finalContent };
@@ -1113,7 +1122,7 @@ async function generateOneSectionWithRevisions(
       );
     } catch (err) {
       throw new Error(
-        `第 ${section.id} 章 Draft 失败（attempt ${attempt}）：${
+        `章节“${formatSectionTitle(section)}”Draft 失败（attempt ${attempt}）：${
           err instanceof Error ? err.message : String(err)
         }`
       );
@@ -1133,7 +1142,7 @@ async function generateOneSectionWithRevisions(
       );
     } catch (err) {
       throw new Error(
-        `第 ${section.id} 章 Rubric 修订失败（attempt ${attempt}）：${
+        `章节“${formatSectionTitle(section)}”Rubric 修订失败（attempt ${attempt}）：${
           err instanceof Error ? err.message : String(err)
         }`
       );
@@ -1153,7 +1162,7 @@ async function generateOneSectionWithRevisions(
       );
     } catch (err) {
       throw new Error(
-        `第 ${section.id} 章 Hard Gates 修订失败（attempt ${attempt}）：${
+        `章节“${formatSectionTitle(section)}”Hard Gates 修订失败（attempt ${attempt}）：${
           err instanceof Error ? err.message : String(err)
         }`
       );
@@ -1161,8 +1170,8 @@ async function generateOneSectionWithRevisions(
     revised = preserveContent(revised);
 
     let issues = [
-      ...findHardGateIssues(revised, section.id),
-      ...findConsistencyAnchorIssues(revised, section.id, facts),
+      ...findHardGateIssues(revised, getSectionNumber(section)),
+      ...findConsistencyAnchorIssues(revised, getSectionNumber(section), facts),
     ];
     if (issues.length) {
       // 在硬阀门阶段做“只修错不加戏”的二次修订
@@ -1175,9 +1184,7 @@ async function generateOneSectionWithRevisions(
         "【核心内容一致性约束（最高优先级，必须全部遵守）】",
         CORE_CONTENT_CONSTRAINTS,
         "",
-        `【本章节】${section.id} ${section.title}${
-          section.titleEn ? ` / ${section.titleEn}` : ""
-        }`,
+        `【本章节】${formatSectionTitle(section)}`,
         ...(coreText ? ["", "【用户已确认的核心内容（全篇必须严格一致）】", coreText] : []),
         "",
         "【问题清单（必须逐条修复）】",
@@ -1203,7 +1210,7 @@ async function generateOneSectionWithRevisions(
             );
           } catch (err) {
             throw new Error(
-              `第 ${section.id} 章 Hard Gates 二次修复失败（attempt ${attempt}）：${
+              `章节“${formatSectionTitle(section)}”Hard Gates 二次修复失败（attempt ${attempt}）：${
                 err instanceof Error ? err.message : String(err)
               }`
             );
@@ -1212,8 +1219,8 @@ async function generateOneSectionWithRevisions(
       ).trim();
       preserveContent(revised);
       issues = [
-        ...findHardGateIssues(revised, section.id),
-        ...findConsistencyAnchorIssues(revised, section.id, facts),
+        ...findHardGateIssues(revised, getSectionNumber(section)),
+        ...findConsistencyAnchorIssues(revised, getSectionNumber(section), facts),
       ];
     }
 
@@ -1222,11 +1229,11 @@ async function generateOneSectionWithRevisions(
       const fallbackContent = lastAttemptContent || lastGeneratedContent;
       if (fallbackContent) {
         console.warn(
-          `章节 ${section.id} 最终修订结果为空，达到 ${maxAttempts} 次重试上限后保留最近一次非空生成内容`
+          `章节“${formatSectionTitle(section)}”最终修订结果为空，达到 ${maxAttempts} 次重试上限后保留最近一次非空生成内容`
         );
         return { section, content: fallbackContent };
       }
-      throw new Error(`章节 ${section.id} 未获得任何可保留的生成内容，已重试 ${maxAttempts} 次仍失败`);
+      throw new Error(`章节“${formatSectionTitle(section)}”未获得任何可保留的生成内容，已重试 ${maxAttempts} 次仍失败`);
     }
 
     return { section, content: revised.trim() };
@@ -1251,8 +1258,7 @@ function buildCoverTable(meta: SapCoverMeta): string {
 function buildToc(sections: SapSection[]): string {
   const lines = ["目录", ""];
   for (const s of sections) {
-    const title = s.titleEn ? `${s.title} / ${s.titleEn}` : s.title;
-    lines.push(`${s.id} ${title}`);
+    lines.push(formatSectionTitle(s));
   }
   lines.push("");
   return lines.join("\n");
@@ -1293,15 +1299,12 @@ function buildMarkdownDocument(
   lines.push("## 目录");
   lines.push("");
   for (const { section } of sectionOutputs) {
-    const title = section.titleEn ? `${section.title} / ${section.titleEn}` : section.title;
-    lines.push(`- ${section.id} ${title}`);
+    lines.push(`- ${formatSectionTitle(section)}`);
   }
   lines.push("");
 
   for (const { section, content } of sectionOutputs) {
-    const heading = section.titleEn
-      ? `${section.id} ${section.title} / ${section.titleEn}`
-      : `${section.id} ${section.title}`;
+    const heading = formatSectionTitle(section);
     lines.push(`## ${heading}`);
     lines.push("");
     lines.push(formatSectionContentAsMarkdown(content));
@@ -1321,9 +1324,7 @@ function buildPreviousSapContent(
   parts.push(buildCoverTable(coverMeta));
   parts.push(buildToc(outline));
   for (const { section, content } of sectionOutputs) {
-    const heading = section.titleEn
-      ? `${section.id} ${section.title} / ${section.titleEn}`
-      : `${section.id} ${section.title}`;
+    const heading = formatSectionTitle(section);
     parts.push(heading);
     parts.push("");
     parts.push(content);
