@@ -1,9 +1,9 @@
-import { generateSap } from "@/lib/sap-generator";
+import { generateSapWithRevisions } from "@/lib/sap-generator";
 import { createSapDocumentGenerateHandler } from "../generate-handler";
 
 export const maxDuration = 300;
 
 export const POST = createSapDocumentGenerateHandler(
-  generateSap,
-  "AI SAP document generation error:"
+  generateSapWithRevisions,
+  "AI SAP document generation with revision error:"
 );

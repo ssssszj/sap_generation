@@ -169,9 +169,9 @@ Content-Type: application/json
 
 ---
 
-## 3. 生成 SAP Markdown 文档
+## 3. 生成 SAP Markdown 文档（不执行额外 Revision）
 
-调用时机：后端已经拿到 Protocol、CRF、用户确认后的核心内容、用户编辑后的大纲后，直接生成完整 SAP 文档。无需单独调用“大纲确认”接口。
+调用时机：后端已经拿到 Protocol、CRF、用户确认后的核心内容、用户编辑后的大纲后，直接生成完整 SAP 文档。无需单独调用“大纲确认”接口。本接口对每个章节只生成一次正文，不在正文生成后执行 rubric/QA/二次修复流程。
 
 请求：
 
@@ -275,6 +275,29 @@ Content-Type: application/json
 
 ---
 
+## 3.1 生成 SAP Markdown 文档（带 Revision）
+
+调用时机：需要保留原有生成后修订流程时使用。本接口与上一接口的请求字段、校验规则和响应结构完全一致。
+
+请求：
+
+```http
+POST /ai/v1/sap/document/generate-with-revision
+Content-Type: application/json
+```
+
+执行流程：
+
+- 先生成章节草稿。
+- 使用 `rubrics.json` 对章节正文进行 revision。
+- 逐项执行 G1-G5 硬阀门 QA 修订。
+- 检测到可修复问题时，再执行一次问题修复。
+- 章节最终结果为空时，按保留流程重试并在达到上限时保留最近一次非空内容。
+
+说明：本接口接收的 JSON 请求体和返回 JSON 均直接复用第 3 节定义，无需为 revision 版本维护另一套数据结构。
+
+---
+
 ## 4. Markdown 转 docx/pdf
 
 调用时机：后端已经拿到或保存了 SAP Markdown，需要转换成 Word 或 PDF 文件。
@@ -317,5 +340,5 @@ Content-Type: application/json
 2. 调用 `/ai/v1/sap/core-content/generate`，AI 按系统固定核心内容清单生成各项内容。
 3. 前端逐项展示核心内容；每项可确认，或调用 `/ai/v1/sap/core-content/regenerate` 按反馈重写。
 4. 后端收集用户编辑后的大纲。
-5. 调用 `/ai/v1/sap/document/generate`，一次性传入 `protocolText`、`crfText`、`coreContents`、`outline`，得到完整 SAP Markdown 文档。
+5. 调用 `/ai/v1/sap/document/generate` 得到不追加修订的 SAP Markdown；需要生成后 revision 时，改为调用 `/ai/v1/sap/document/generate-with-revision`。两者均一次性传入 `protocolText`、`crfText`、`coreContents`、`outline`。
 6. 如需下载，调用 `/ai/v1/sap/document/export`，以 JSON 传入 Markdown，把文档转成 docx 或 pdf。

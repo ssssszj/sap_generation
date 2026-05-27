@@ -73,9 +73,9 @@ The production integration endpoints use JSON and do not require file upload. Th
 
 - `POST /ai/v1/sap/core-content/generate`
 - `POST /ai/v1/sap/core-content/regenerate`
-- `GET /ai/v1/sap/outline/default`
-- `POST /ai/v1/sap/outline/confirm`
-- `POST /ai/v1/sap/document/generate`
+- `POST /ai/v1/sap/document/generate` (single chapter generation, no extra revision)
+- `POST /ai/v1/sap/document/generate-with-revision` (generation followed by revision workflow)
+- `POST /ai/v1/sap/document/export`
 
 See [API_INTERFACE.md](./API_INTERFACE.md) for request/response examples.
 
@@ -92,7 +92,7 @@ The `/api/*` routes are retained for local manual testing with uploaded files. T
 | `OPENROUTER_PROXY_MODE` | No | Set to `on`, `true`, or `1` to enable proxy use |
 | `HTTPS_PROXY` | No | Proxy URL when proxy mode is enabled |
 | `HTTP_PROXY` | No | Proxy URL when proxy mode is enabled |
-| `SAP_RUBRIC_MAX_CHARS` | No | Optional prompt-size cap for rubric injection; `0` or unset means full rubric |
+| `SAP_RUBRIC_MAX_CHARS` | No | Prompt-size cap for rubric injection in `/ai/v1/sap/document/generate-with-revision` |
 
 ## Repository Notes
 

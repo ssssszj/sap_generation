@@ -128,7 +128,7 @@ const SAP_HARD_GATE_G4 =
 const SAP_HARD_GATE_G5 =
   "G5（入选标准）：若写入选标准须与 Protocol/CRF 一致（CA-IC01～CA-IC07 眼科示例：双眼白内障成年、Emery≤Ⅳ级、术前 BCDVA 0.3 logMAR（0.5）或更差及对侧眼指征、术后预期 BCDVA 优于 0.2 logMAR（0.6）、除白内障外介质透明、光焦度正 5.0D～36.0D、知情同意与随访）；不得改写阈值/分级；未在输入中出现不得编造。";
 
-/** 硬阀门 G1–G5 单条文案（用于分步 QA 与章节草稿提示词）。 */
+/** 硬阀门 G1-G5 文案（一次性章节生成提示词中统一注入）。 */
 const SAP_HARD_GATES: readonly string[] = [
   SAP_HARD_GATE_G1,
   SAP_HARD_GATE_G2,
@@ -137,7 +137,7 @@ const SAP_HARD_GATES: readonly string[] = [
   SAP_HARD_GATE_G5,
 ];
 
-/** 单次 QA 修订时：除当前硬阀门外，保持正文与输出形式不变。 */
+/** 带 revision 的章节生成流程所需约束。 */
 const QA_SINGLE_GATE_STYLE_PRESERVE =
   "保持纯文本（禁止 Markdown 标题符号、表格语法、代码块）、禁止占位符（TBD/待补充/待定等）与口语/第一人称；除为满足本条硬阀门所必需的修改外，尽量少改无关句子和结构。";
 
@@ -161,6 +161,7 @@ const CORE_CONTENT_CONSTRAINTS = [
   "输出前必须自检：本章是否与用户已确认核心内容逐项一致；如有冲突，必须先修正冲突再输出。",
 ].join("\n");
 
+// Revision helpers are used only by the explicit generate-with-revision API.
 const PLACEHOLDER_WORDS = [
   "TBD",
   "XXX",
@@ -806,6 +807,7 @@ async function extractSapFacts(client: LLMClient, protocolText: string, crfText:
   }
 }
 
+/** 带 revision 的生成接口使用：逐条执行硬阀门修订。 */
 async function qaReviseSection(
   client: LLMClient,
   section: SapSection,
@@ -883,7 +885,7 @@ function buildSectionPrompt(
   previousSapContent: string,
   facts: SapFacts | null,
   coreContent: CoreContentItem[] | undefined,
-  includeHardGates: boolean
+  includeHardGates = true
 ): string {
   const subs = section.subsections.length
     ? section.subsections.map((s) => `- ${s}`).join("\n")
@@ -1008,7 +1010,7 @@ function buildSectionPrompt(
     crfText.slice(0, 20000),
     prevSap,
     includeHardGates
-      ? "请仅输出本章节的正文内容，纯文本格式。不要输出任何前言/解释/评分项/清单编号等元文本，直接从第一个子节标题开始。输出前请先在脑中逐条自检：用户已确认核心内容一致性 + G1–G5 + 风格约束 + 本章必覆盖要点 + 子节顺序与标题逐字一致；若不满足，必须自行改写到满足后再输出。"
+      ? "请一次性输出本章节的最终正文，纯文本格式。不要输出任何前言/解释/评分项/清单编号等元文本，直接从第一个子节标题开始。输出前请先在脑中逐条自检：用户已确认核心内容一致性 + G1–G5 + 风格约束 + 本章必覆盖要点 + 子节顺序与标题逐字一致；若不满足，必须在本次回答中自行修正后再输出。"
       : "请仅输出本章节的正文内容，纯文本格式。不要输出任何前言/解释/清单编号等元文本，直接从第一个子节标题开始。仅需确保：用户已确认核心内容一致性 + 风格约束 + 子节顺序与标题逐字一致。"
   );
 
@@ -1016,6 +1018,52 @@ function buildSectionPrompt(
 }
 
 async function generateOneSection(
+  client: LLMClient,
+  section: SapSection,
+  protocolText: string,
+  crfText: string,
+  previousSapContent: string,
+  facts: SapFacts | null,
+  coreContent?: CoreContentItem[]
+): Promise<SapSectionOutput> {
+  const prompt = buildSectionPrompt(
+    section,
+    protocolText,
+    crfText,
+    previousSapContent,
+    facts,
+    coreContent
+  );
+
+  let content: string;
+  try {
+    content = await client.chat(
+      [
+        {
+          role: "system",
+          content:
+            "你是临床研究统计专家。一次性生成 SAP 指定章节最终正文，必须与用户已确认核心内容一致，并遵守提供的全部硬约束。只输出纯文本正文，不要 Markdown。",
+        },
+        { role: "user", content: prompt },
+      ],
+      { temperature: 0.2, maxTokens: 4096 }
+    );
+  } catch (err) {
+    throw new Error(
+      `第 ${section.id} 章生成失败：${err instanceof Error ? err.message : String(err)}`
+    );
+  }
+
+  const finalContent = content.trim();
+  if (!finalContent) {
+    throw new Error(`第 ${section.id} 章生成结果为空`);
+  }
+
+  return { section, content: finalContent };
+}
+
+/** 带 revision 的生成接口使用：草稿生成后执行 rubric、QA 与二次修复。 */
+async function generateOneSectionWithRevisions(
   client: LLMClient,
   section: SapSection,
   protocolText: string,
@@ -1291,7 +1339,20 @@ function mergeDocument(coverMeta: SapCoverMeta, sectionOutputs: SapSectionOutput
 /**
  * 根据 Protocol 与 CRF 文本，调用各章节 Agent 生成 SAP，并合并为完整文档
  */
-export async function generateSap(input: SapGenerateInput): Promise<SapGenerateResult> {
+type GenerateSection = (
+  client: LLMClient,
+  section: SapSection,
+  protocolText: string,
+  crfText: string,
+  previousSapContent: string,
+  facts: SapFacts | null,
+  coreContent?: CoreContentItem[]
+) => Promise<SapSectionOutput>;
+
+async function generateSapWithSectionGenerator(
+  input: SapGenerateInput,
+  generateSection: GenerateSection
+): Promise<SapGenerateResult> {
   const client = createLLMClient();
   const coverMeta: SapCoverMeta = { ...DEFAULT_COVER, ...input.meta };
 
@@ -1307,7 +1368,7 @@ export async function generateSap(input: SapGenerateInput): Promise<SapGenerateR
   for (let i = 0; i < outline.length; i++) {
     const section = outline[i];
     const previousSap = buildPreviousSapContent(coverMeta, sectionOutputs, outline);
-    const out = await generateOneSection(
+    const out = await generateSection(
       client,
       section,
       input.protocolText,
@@ -1322,4 +1383,14 @@ export async function generateSap(input: SapGenerateInput): Promise<SapGenerateR
 
   const fullDocument = mergeDocument(coverMeta, sectionOutputs);
   return { coverMeta, sections: sectionOutputs, fullDocument };
+}
+
+/** 每个章节只调用一次模型，不执行额外修订。 */
+export async function generateSap(input: SapGenerateInput): Promise<SapGenerateResult> {
+  return generateSapWithSectionGenerator(input, generateOneSection);
+}
+
+/** 每个章节生成后执行 rubric、硬阀门 QA 和问题修复流程。 */
+export async function generateSapWithRevisions(input: SapGenerateInput): Promise<SapGenerateResult> {
+  return generateSapWithSectionGenerator(input, generateOneSectionWithRevisions);
 }
