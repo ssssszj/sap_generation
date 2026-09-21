@@ -1,0 +1,39 @@
+{
+  "benchmark_id": "sap-generation-benchmark",
+  "version": "0.1-pilot",
+  "status": "development",
+  "tracks": [
+    "protocol_only",
+    "protocol_crf",
+    "confirmed_decisions"
+  ],
+  "primary_track": "protocol_only",
+  "primary_metric": "study_level_critical_pass",
+  "rubrics": [
+    "rubrics/rubric_core_v2.jsonl",
+    "rubrics/rubric_ophthalmology_iol_v1.jsonl"
+  ],
+  "study_manifest": "manifests/studies.jsonl",
+  "document_manifest": "manifests/documents.jsonl",
+  "legacy_run_manifest": "manifests/legacy_runs.jsonl",
+  "split_files": [
+    "splits/pilot.json"
+  ],
+  "allowed_results": [
+    "pass",
+    "fail",
+    "na",
+    "uncertain"
+  ],
+  "severity_order": [
+    "critical",
+    "major",
+    "minor"
+  ],
+  "diagnostic_only_metrics": [
+    "bleu",
+    "rouge_l",
+    "bertscore",
+    "document_length_ratio"
+  ]
+}

@@ -1,0 +1,521 @@
+{
+  "diagnostic_only": true,
+  "evaluation_track_assumption": "protocol_only",
+  "warning": "Historical prompt, exact input, and decoding settings were not frozen; do not use for model ranking.",
+  "run": {
+    "run_id": "legacy-claude-sonnet46-20260310",
+    "study_id": "PILOT-IOL-001",
+    "track": "unknown_legacy",
+    "method": "existing_application_workflow",
+    "model": "anthropic/claude-sonnet-4.6",
+    "base_model": null,
+    "adapter": null,
+    "quantization": null,
+    "prompt_version": null,
+    "input_document_ids": [
+      "doc-pilot-iol-protocol-a0",
+      "doc-pilot-iol-crf-a0"
+    ],
+    "output_path": "output/SAP_draft_v1.0_2026-03-10_anthropic_claude-sonnet-4.6.docx",
+    "output_sha256": "2d8ec4d3885fd90612e1e6e321ace54f2997d50d847904136f0659b8345f0622",
+    "run_date": "2026-03-10",
+    "status": "legacy_uncontrolled",
+    "usable_for_main_comparison": false,
+    "usable_for_error_mining": true,
+    "notes": "Suitable for natural-error mining after item-level review."
+  },
+  "summary": {
+    "counts": {
+      "pass": 19,
+      "fail": 4,
+      "na": 2,
+      "uncertain": 1
+    },
+    "deterministic_pass_rate": 0.8260869565217391,
+    "study_level_critical_pass": false,
+    "note": "Null study_level_critical_pass means at least one critical item still requires semantic or human adjudication."
+  },
+  "results": [
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R001",
+      "rubric_id": "CORE-DESIGN-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "本临床试验采用前瞻性、多中心、随机、双盲（受试者和检查者）、阳性产品平行对照、双眼植入的试验设计。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "人工晶状体临床试验——评价爱博诺德(北京)医疗科技股份有限公司生产的人工晶状体(型号:A、B、C)用于成年人无晶状体眼视力矫正的安全性和有效性的前瞻性、多中心、随机、双盲、阳性产品...",
+        "本临床试验采用前瞻性、多中心、随机、双盲(对受试者及视力检查者设盲)、阳性产品平行对照、双眼植入的试验设计,属于第三类医疗器械上市前临床试验。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R002",
+      "rubric_id": "CORE-RAND-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "利用中央随机系统进行受试者随机，保证受试者被1:1均衡地分配到试验组或对照组。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本试验采用中央随机化方法,通过交互式网络应答系统(Interactive Web Response System,IWRS)实现动态随机及多中心竞争入组。受试者经筛选确认符合全部入...",
+        "随机分配比例:试验组与对照组按1:1比例随机分配。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R003",
+      "rubric_id": "CORE-SAMPLE-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "选取其中病例数最多的93例，即每组至少入组93例受试者，两组预计入组186例……每组至少入组110例，共计220例受试者。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 186例 | 预计入组186",
+      "candidate_evidence": [
+        "计划样本量:试验组和对照组各计划入组110例受试者,合计220例。该样本量综合考虑了公式估算结果(单组至少93例)、国际标准要求(ANSI Z80.35-2018规定每组至少100..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R004",
+      "rubric_id": "CORE-ENDPT-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "①术后6个月，单眼（1st）最佳矫正远视力……②远矫正下的中视力……③在0.2 logMAR视力水平，单眼（1st）焦深……"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R005",
+      "rubric_id": "CORE-SUCCESS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "将本试验成功的标准设定为上述3个疗效指标同时达到。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame...",
+        "筛选期(PreOP):术前3个月至手术当日(-3个月至0天);"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R006",
+      "rubric_id": "OPH-IOL-EYE-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "术后主要疗效指标取第一只术眼（1st）的结果……主要疗效指标只分析第一只术眼（1st）。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "修订说明:本版本为统计分析计划首稿,依据临床试验方案EB/JS-LC-QD-004(版本A/0,2021年09月30日)、病例报告表(版本A/0,2021年09月30日)及相关监管...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R007",
+      "rubric_id": "CORE-POP-FAS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "根据意向性分析（ITT）原则，所有进行手术并植入试验用人工晶状体的病例，构成本研究的FAS人群。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "受试者自完成白内障超声乳化摘除术(标准超声乳化技术或飞秒激光辅助技术)联合人工晶状体植入术,且人工晶状体已成功植入眼内,即视为已暴露于试验器械或对照器械。所有完成手术并植入试验用人...",
+        "本临床试验采用双盲设计,对受试者及视力检查者(评价者)设盲,手术者不设盲。根据方案EB/JS-LC-QD-004(版本A/0),试验组植入人工晶状体(型号:A、B、C),对照组植入..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R008",
+      "rubric_id": "CORE-POP-PPS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "FAS中无重大方案违背的受试者……符合试验方案、依从性好、试验期间未服禁用药物或使用禁用治疗。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "5.2 符合方案集(PPS)定义与\"重大方案违背\"口径",
+        "受试者自完成白内障超声乳化摘除术(标准超声乳化技术或飞秒激光辅助技术)联合人工晶状体植入术,且人工晶状体已成功植入眼内,即视为已暴露于试验器械或对照器械。所有完成手术并植入试验用人...",
+        "处理策略:采用假想策略(Hypothetical Strategy)的参考框架,在主要分析中,对于此类受试者,仍使用其在计划外手术或激光治疗前最后一次可获得的主要疗效指标观测值,通...",
+        "若因客观原因导致SAP未能在数据库锁定前完成定稿,须提供书面说明,详述原因及对分析客观性的潜在影响,并在统计分析报告中予以披露,以满足NMPA及ICH相关指南的依从性要求。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R009",
+      "rubric_id": "CORE-POP-SS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "所有进行手术并植入试验用人工晶状体的病例，且具有植入试验器械后的安全性评价数据的病例，构成本试验的安全性分析数据集。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "人工晶状体临床试验——评价爱博诺德(北京)医疗科技股份有限公司生产的人工晶状体(型号:A、B、C)用于成年人无晶状体眼视力矫正的安全性和有效性的前瞻性、多中心、随机、双盲、阳性产品...",
+        "安全性分析集(Safety Set,SS)是本临床试验安全性评价的数据集,又称暴露集。SS定义为:所有完成白内障超声乳化摘除术联合人工晶状体植入术、人工晶状体已成功植入眼内、且具有...",
+        "本临床试验采用双盲设计,对受试者及视力检查者(评价者)设盲,手术者不设盲。根据方案EB/JS-LC-QD-004(版本A/0),试验组植入人工晶状体(型号:A、B、C),对照组植入..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R010",
+      "rubric_id": "CORE-POP-BIND-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "主要疗效评价基于全数据集（FAS）和符合方案集（PPS）……安全性评价基于安全性分析集（SS）。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "受试者自完成白内障超声乳化摘除术(标准超声乳化技术或飞秒激光辅助技术)联合人工晶状体植入术,且人工晶状体已成功植入眼内,即视为已暴露于试验器械或对照器械。所有完成手术并植入试验用人...",
+        "处理策略:采用假想策略(Hypothetical Strategy)的参考框架,在主要分析中,对于此类受试者,仍使用其在计划外手术或激光治疗前最后一次可获得的主要疗效指标观测值,通...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R011",
+      "rubric_id": "CORE-ALPHA-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "所有的统计检验（如不特殊说明）均采用双侧检验……主要疗效指标为单侧检验，P值小于0.025……"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "次要疗效指标及其他统计检验(如不特殊说明)均采用双侧检验,双侧显著性水平α设定为0.05。当双侧p值小于0.05时,认为两组间差异具有统计学意义;当双侧p值大于或等于0.05时,认...",
+        "第一项,BCDVA非劣效性假设检验:单侧检验水准α为0.025,把握度(1-β)为80%,预期试验组与对照组均值差的绝对值(|D|)为0.05 logMAR,对照组预期标准差(σ)...",
+        "该终点为定量指标,采用标准对数视力表在5 m视距下测量,记录小数视力并转换为logMAR值进行统计分析。BCDVA定义为在主觉验光矫正下所能达到的最佳远视力,以logMAR为单位。..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R012",
+      "rubric_id": "CORE-HYP-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "非劣性界值定为0.1 logMAR……H0：μT-μC≥△；H1：μT-μC＜△……95%CI上限小于非劣效界值。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "备择假设H1:μT - μC < Δ(即0.1 logMAR)",
+        "无效假设H0:μT - μC ≥ Δ(即0.1 logMAR)",
+        "本SAP的起草、审阅及批准过程均在盲态下进行。统计负责人及参与SAP撰写的相关人员在SAP定稿前不接触任何揭示受试者分组信息的数据。分析方法、假设检验方向、非劣效界值及优效界值均依...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame...",
+        "第一项主要终点(BCDVA):采用非劣效性假设检验,效应度量为试验组与对照组术后6个月单眼(1st)BCDVA均值之差(试验组减对照组),以logMAR为单位,通过协方差分析(AN...",
+        "该终点为定量指标,采用标准对数视力表在5 m视距下测量,记录小数视力并转换为logMAR值进行统计分析。BCDVA定义为在主觉验光矫正下所能达到的最佳远视力,以logMAR为单位。..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R013",
+      "rubric_id": "CORE-HYP-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "预估试验组……0.2 logMAR，对照组……0.3 logMAR……H0：μT-μC≤0；H1：μT-μC＞0……置信区间下限大于0。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "备择假设H1:μT - μC < Δ(即0.1 logMAR)",
+        "无效假设H0:μT - μC ≥ Δ(即0.1 logMAR)",
+        "本SAP的起草、审阅及批准过程均在盲态下进行。统计负责人及参与SAP撰写的相关人员在SAP定稿前不接触任何揭示受试者分组信息的数据。分析方法、假设检验方向、非劣效界值及优效界值均依...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R014",
+      "rubric_id": "CORE-HYP-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "单眼达到0.2 logMAR水平的焦深范围……H0：μT-μC≤0；H1：μT-μC＞0……95%置信区间下限大于0。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "备择假设H1:μT - μC < Δ(即0.1 logMAR)",
+        "无效假设H0:μT - μC ≥ Δ(即0.1 logMAR)",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame...",
+        "第二项主要终点(DCIVA):采用优效性假设检验,效应度量为试验组与对照组术后6个月单眼(1st)DCIVA均值之差(试验组减对照组),以logMAR为单位,通过协方差分析模型估计..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R015",
+      "rubric_id": "CORE-MULT-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "当三重假设检验都有统计学意义时，才可下推断结论……无需进行多重性校正。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "三项主要终点分别从远视力非劣效性、中视力优效性及焦深扩展优效性三个维度,直接对应本试验的主要目的,即验证试验器械在不显著降低远视力的前提下,可一定程度改善中程视力并扩展人眼景深。仅...",
+        "上述次要终点从多个维度补充主要终点,共同构成对试验器械临床特征的全面描述。各随访期视力指标反映了术后视觉功能的动态恢复过程;低对比度视力评价了景深扩展设计对视觉质量的潜在影响;屈光...",
+        "人工晶状体自1949年首次植入人眼以来,已历经70余年的发展演进。按光学功能分类,现有产品涵盖单焦点人工晶状体、多焦点人工晶状体及可调节人工晶状体等多种类型。其中,景深扩展(Ext...",
+        "双眼植入设计:依据ANSI Z80.35-2018的要求,本试验采用双眼植入设计,无需分阶段,在试验开展初期便可进行双眼植入。约定第一只术眼(1st)为双眼白内障中视力较差的患眼,..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R016",
+      "rubric_id": "CORE-CENTER-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "考虑一个含中心与分组交互项的协方差分析模型，并在0.10水平判断交互项是否有意义。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "人工晶状体临床试验——评价爱博诺德(北京)医疗科技股份有限公司生产的人工晶状体(型号:A、B、C)用于成年人无晶状体眼视力矫正的安全性和有效性的前瞻性、多中心、随机、双盲、阳性产品...",
+        "本临床试验采用双盲设计,对受试者及视力检查者(评价者)设盲,手术者不设盲。根据方案EB/JS-LC-QD-004(版本A/0),试验组植入人工晶状体(型号:A、B、C),对照组植入...",
+        "本试验采用中央随机化方法,通过交互式网络应答系统(Interactive Web Response System,IWRS)实现动态随机及多中心竞争入组。受试者经筛选确认符合全部入...",
+        "第一项主要终点(BCDVA):采用非劣效性假设检验,效应度量为试验组与对照组术后6个月单眼(1st)BCDVA均值之差(试验组减对照组),以logMAR为单位,通过协方差分析(AN...",
+        "预期试验组均值取0.2 logMAR,依据如下:FDA临床研究数据显示,AcrySof TM IQ Vivity TM Extend Vision IOL术后6个月平均单眼远矫正下..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R017",
+      "rubric_id": "CORE-MISS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "FAS数据集中未能观察到主要疗效指标的病例，采用最后一次观察数据结转（LOCF）到主要疗效指标。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 最后一次观察数据结转 | 末次观测结转",
+      "candidate_evidence": [
+        "修订说明:本版本为统计分析计划首稿,依据临床试验方案EB/JS-LC-QD-004(版本A/0,2021年09月30日)、病例报告表(版本A/0,2021年09月30日)及相关监管...",
+        "受试者自完成白内障超声乳化摘除术(标准超声乳化技术或飞秒激光辅助技术)联合人工晶状体植入术,且人工晶状体已成功植入眼内,即视为已暴露于试验器械或对照器械。所有完成手术并植入试验用人...",
+        "处理策略:采用治疗策略(Treatment Policy Strategy)结合缺失数据填补方法。在FAS分析中,对于主要疗效指标缺失的病例,依据方案第六章第(五)节的规定,采用末..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R018",
+      "rubric_id": "CORE-MISS-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "其他数据缺失情况不进行填补。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "方案第六章第(五)节规定,FAS数据集中未能观察到主要疗效指标的病例采用末次观察结转(LOCF)方法处理,其他数据缺失情况不进行填补,并规定\"缺失值的处理方式详见《统计分析计划》\"..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R019",
+      "rubric_id": "CORE-SENS-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "The protocol states LOCF but does not define a distinct sensitivity analysis in the cited section."
+      ],
+      "result": "uncertain",
+      "reason": "Deterministic surface conditions were found, but the item requires semantic review of proposal/confirmation framing.",
+      "candidate_evidence": [
+        "处理策略:与受试者自愿退出的处理策略相同,采用治疗策略(Treatment Policy Strategy)结合LOCF方法处理主要疗效指标的缺失数据。研究者应在CRF中详细记录失...",
+        "本SAP最终版本须在数据库锁定之前完成全部审批签字并正式定稿。定稿顺序如下:首先完成数据清理及所有质疑的解答,其次召开盲态数据审核会(Blind Data Review Meeti..."
+      ],
+      "confidence": null
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R020",
+      "rubric_id": "CORE-VISIT-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "术后1天（1~2d）、1周（7~14天）、1个月（30~60天）、6个月（120~180天）。"
+      ],
+      "result": "fail",
+      "reason": "Missing required term: 1~2; required term: 7~14; required term: 30~60; required term: 120~180",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R021",
+      "rubric_id": "CORE-SAFE-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "安全性评价基于安全性分析集（SS）……对不良事件发生例次、例数及发生率进行分类别以及汇总描述性统计分析……对与试验相关的不良事件进行重点分析。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "T-05-01 不良事件总体汇总表(基于SS,按组别分列发生至少一次不良事件的受试者例数及百分比、不良事件总发生例次)",
+        "安全性指标的统计分析以描述性为主,不进行假设检验,因此不涉及多重性校正问题。各安全性指标的发生率、例数及百分比均以描述性统计呈现,不报告正式的p值或置信区间用于推断。",
+        "本临床试验所评价的试验器械为爱博诺德(北京)医疗科技股份有限公司自主研发生产的人工晶状体(型号:A、B、C),其光学部采用非球面扩景深设计,在正常瞳孔(约3.0 mm)条件下产生无...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame...",
+        "研究中心数量:本试验在多家临床研究中心同步开展,共设8个参研中心(中心编号01至08),各中心原则上均衡入组,要求每个研究中心最低入组20例,最多不超过总病例数的25%。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R022",
+      "rubric_id": "OPH-IOL-EYE-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "次要疗效指标以第一只术眼（1st）和双眼视为主，第二只术眼（2nd）的数据认为是支持性的……分析所有术眼的不良事件、术后6个月的BCDVA、术后6个月的残余屈光度。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "主要疗效指标仅分析第一只术眼(1st)的单眼测量结果。次要疗效指标以第一只术眼(1st)和双眼视为主,第二只术眼(2nd)的数据视为支持性数据。安全性指标分析所有术眼(1st和2n...",
+        "双眼植入设计:依据ANSI Z80.35-2018的要求,本试验采用双眼植入设计,无需分阶段,在试验开展初期便可进行双眼植入。约定第一只术眼(1st)为双眼白内障中视力较差的患眼,...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame...",
+        "次要终点按类别分列如下,均以第一只术眼(1st)和/或双眼视为主,第二只术眼(2nd)的数据视为支持性数据,具体眼别要求见各条目说明。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R023",
+      "rubric_id": "OPH-IOL-EYE-002",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "如果对侧眼不再手术或植入与第一只术眼不同的人工晶状体，视为方案偏离，术眼应继续随访至试验结束……术眼的安全性和有效性指标数据应纳入分析，不做剔除。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本SAP最终版本须在数据库锁定之前完成全部审批签字并正式定稿。定稿顺序如下:首先完成数据清理及所有质疑的解答,其次召开盲态数据审核会(Blind Data Review Meeti...",
+        "若第一只术眼手术后,对侧眼不再手术或植入与第一只术眼不同的人工晶状体,视为方案偏离,但第一只术眼应继续随访至试验结束。若完成全部随访,不视为脱落;第一只术眼的安全性和有效性指标数据..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R024",
+      "rubric_id": "OPH-IOL-IC-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "Protocol inclusion criteria 1-7 for bilateral cataract participants."
+      ],
+      "result": "na",
+      "reason": "Requirement is not applicable to this track.",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R025",
+      "rubric_id": "OPH-IOL-DOF-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "The protocol defines the 0.2 logMAR threshold and defocus-diopter range but does not fully specify interpolation and continuity handling."
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 插值 | interpolation",
+      "candidate_evidence": [
+        "本SAP最终版本须在数据库锁定之前完成全部审批签字并正式定稿。定稿顺序如下:首先完成数据清理及所有质疑的解答,其次召开盲态数据审核会(Blind Data Review Meeti...",
+        "本试验的成功标准依据《ANSI Z80.35-2018 Extended Depth of Focus Intraocular Lenses》及美国眼科学会特别小组专家共识(Ame...",
+        "第三,第7.3节派生变量算法部分:依据审阅意见,对焦深范围的计算算法进行了细化,增加了离焦曲线数据不连续情形下的处理规则(仅计算连续达到0.2 logMAR的最大连续区间),并对小..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R026",
+      "rubric_id": "CORE-DERIVE-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "如果“未做”填写“ND”，“不适用”填写“NA”，“无法获得”填写“UA”，“未知”填写“UK”。"
+      ],
+      "result": "na",
+      "reason": "Requirement is not applicable to this track.",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    }
+  ]
+}

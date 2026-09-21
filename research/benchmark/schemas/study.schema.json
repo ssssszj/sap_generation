@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sap-benchmark/study.schema.json",
+  "title": "SAP benchmark study",
+  "type": "object",
+  "required": [
+    "study_id",
+    "study_family_id",
+    "title",
+    "language",
+    "domain",
+    "intervention_type",
+    "design",
+    "endpoint_types",
+    "document_ids",
+    "split",
+    "status"
+  ],
+  "properties": {
+    "study_id": {"type": "string", "minLength": 1},
+    "study_family_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "language": {"type": "string", "minLength": 2},
+    "domain": {"type": "string", "minLength": 1},
+    "intervention_type": {"enum": ["drug", "device", "procedure", "behavioral", "mixed", "other"]},
+    "design": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "hypothesis_types": {"type": "array", "items": {"type": "string"}},
+    "endpoint_types": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "document_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "reference_sap_document_id": {"type": ["string", "null"]},
+    "split": {"enum": ["pilot", "train", "dev", "test", "external_test", "excluded"]},
+    "status": {"enum": ["pilot_only", "candidate", "verified", "excluded"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

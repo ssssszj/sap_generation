@@ -1,0 +1,151 @@
+{
+  "study_id": "PILOT-IOL-001",
+  "schema_version": "0.1",
+  "status": "pilot_draft_needs_statistician_review",
+  "study_design": {
+    "design": [
+      "prospective",
+      "multicenter",
+      "randomized",
+      "double_blind_participant_and_examiner",
+      "active_parallel_control",
+      "bilateral_implantation"
+    ],
+    "allocation_ratio": "1:1",
+    "randomization": "central randomization system",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0081-p0086"}
+    ]
+  },
+  "sample_size": {
+    "formula_based_max_per_group_after_dropout": 93,
+    "formula_based_total_after_dropout": 186,
+    "operational_or_standard_based_per_group": 110,
+    "planned_total": 220,
+    "dropout_rate": "10%",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0356-p0377"}
+    ]
+  },
+  "primary_endpoints": [
+    {
+      "endpoint_id": "PE1_BCDVA",
+      "name": "第一只术眼最佳矫正远视力平均值",
+      "timepoint": "术后6个月",
+      "unit": "logMAR",
+      "analysis_unit": "first_treated_eye",
+      "test_type": "non_inferiority",
+      "margin": "0.1 logMAR",
+      "comparison": "mu_T - mu_C",
+      "H0": "mu_T - mu_C >= delta",
+      "H1": "mu_T - mu_C < delta",
+      "decision_rule": "95% CI upper bound < 0.1 logMAR",
+      "evidence": [
+        {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0135,p0150,p0364,p0405-p0408"}
+      ]
+    },
+    {
+      "endpoint_id": "PE2_DCIVA",
+      "name": "第一只术眼远矫正下中视力平均值",
+      "timepoint": "术后6个月",
+      "unit": "logMAR",
+      "analysis_unit": "first_treated_eye",
+      "test_type": "superiority",
+      "margin": "0 logMAR",
+      "comparison": "mu_T - mu_C",
+      "H0": "mu_T - mu_C <= 0",
+      "H1": "mu_T - mu_C > 0",
+      "decision_rule": "95% CI lower bound > 0",
+      "evidence": [
+        {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0136,p0151-p0153,p0369,p0410-p0413"}
+      ],
+      "review_note": "The sign convention appears potentially inconsistent with logMAR being lower-is-better. Preserve the protocol statement in the gold fact layer but flag it for statistician adjudication before using it as a correctness target."
+    },
+    {
+      "endpoint_id": "PE3_DOF",
+      "name": "第一只术眼在0.2 logMAR水平的焦深范围平均值",
+      "timepoint": "术后6个月",
+      "unit": "D",
+      "analysis_unit": "first_treated_eye",
+      "test_type": "superiority",
+      "margin": "0 D",
+      "comparison": "mu_T - mu_C",
+      "H0": "mu_T - mu_C <= 0",
+      "H1": "mu_T - mu_C > 0",
+      "decision_rule": "95% CI lower bound > 0",
+      "evidence": [
+        {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0137,p0154,p0372,p0415-p0418"}
+      ]
+    }
+  ],
+  "overall_success_rule": {
+    "type": "conjunctive",
+    "rule": "all three primary endpoints must meet their criteria",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0138,p0356"}
+    ]
+  },
+  "analysis_populations": {
+    "FAS": "All cases that underwent surgery and received study IOL implantation, following the ITT principle.",
+    "PPS": "FAS participants without major protocol deviations, generally protocol-compliant, adherent, and without prohibited medication or treatment.",
+    "SS": "All cases that underwent surgery and received study IOL implantation and have post-implant safety evaluation data.",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0380-p0386"}
+    ]
+  },
+  "type_i_error": {
+    "general": "two-sided 0.05",
+    "primary_endpoints": "one-sided 0.025",
+    "multiplicity": "No alpha adjustment is stated because all three primary tests must be significant for success.",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0356,p0400"}
+    ]
+  },
+  "missing_data": {
+    "primary_fas": "LOCF",
+    "other": "no imputation",
+    "sensitivity": null,
+    "sensitivity_status": "needs_confirmation",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0430"}
+    ]
+  },
+  "visit_windows": {
+    "day_1": "1-2 days",
+    "week_1": "7-14 days",
+    "month_1": "30-60 days",
+    "month_6": "120-180 days",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0226,p0266"}
+    ]
+  },
+  "eye_handling": {
+    "primary": "first treated eye only",
+    "secondary": "first treated eye and binocular vision primary; second eye supportive",
+    "safety": "all operated eyes for adverse events, month-6 BCDVA, and residual refraction; otherwise first eye primary and second eye supportive",
+    "inconsistent_second_eye": "protocol deviation; continue follow-up; do not exclude available safety and efficacy data",
+    "evidence": [
+      {"document_id": "doc-pilot-iol-protocol-a0", "locator": "p0391,p0395,p0422-p0426"}
+    ]
+  },
+  "unresolved_questions": [
+    {
+      "question_id": "Q1",
+      "topic": "DCIVA superiority direction",
+      "question": "Should the DCIVA treatment contrast or hypothesis direction be redefined to reflect that lower logMAR values indicate better vision?",
+      "reason": "The protocol writes mu_T - mu_C > 0 as superiority while expected study-group logMAR is lower than control."
+    },
+    {
+      "question_id": "Q2",
+      "topic": "sensitivity analysis",
+      "question": "What sensitivity analysis should assess the LOCF assumption for primary endpoints?",
+      "reason": "The protocol specifies LOCF but does not define a distinct sensitivity analysis."
+    },
+    {
+      "question_id": "Q3",
+      "topic": "depth-of-focus derivation",
+      "question": "What interpolation and continuity rule defines the 0.2 logMAR depth-of-focus range?",
+      "reason": "The protocol defines the threshold and range concept but not the complete executable derivation."
+    }
+  ]
+}

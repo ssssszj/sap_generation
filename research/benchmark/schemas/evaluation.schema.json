@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sap-benchmark/evaluation.schema.json",
+  "title": "Requirement evaluation record",
+  "type": "object",
+  "required": [
+    "study_id",
+    "requirement_id",
+    "rubric_id",
+    "track",
+    "result",
+    "severity",
+    "evaluator",
+    "reason"
+  ],
+  "properties": {
+    "study_id": {"type": "string"},
+    "requirement_id": {"type": "string"},
+    "rubric_id": {"type": "string"},
+    "track": {"enum": ["protocol_only", "protocol_crf", "confirmed_decisions"]},
+    "result": {"enum": ["pass", "fail", "na", "uncertain"]},
+    "severity": {"enum": ["critical", "major", "minor"]},
+    "evaluator": {"enum": ["rule", "semantic_judge", "human"]},
+    "reason": {"type": "string"},
+    "candidate_evidence": {"type": "array", "items": {"type": "string"}},
+    "gold_evidence": {"type": "array", "items": {"type": "string"}},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sap-benchmark/run.schema.json",
+  "title": "SAP benchmark generation run",
+  "type": "object",
+  "required": [
+    "run_id",
+    "study_id",
+    "track",
+    "method",
+    "model",
+    "input_document_ids",
+    "status"
+  ],
+  "properties": {
+    "run_id": {"type": "string"},
+    "study_id": {"type": "string"},
+    "track": {"enum": ["protocol_only", "protocol_crf", "confirmed_decisions", "unknown_legacy"]},
+    "method": {"type": "string"},
+    "model": {"type": "string"},
+    "base_model": {"type": ["string", "null"]},
+    "adapter": {"type": ["string", "null"]},
+    "quantization": {"type": ["string", "null"]},
+    "prompt_version": {"type": ["string", "null"]},
+    "input_document_ids": {"type": "array", "items": {"type": "string"}},
+    "output_path": {"type": ["string", "null"]},
+    "output_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "run_date": {"type": ["string", "null"]},
+    "status": {"enum": ["planned", "complete", "failed", "legacy_uncontrolled"]},
+    "usable_for_main_comparison": {"type": "boolean"},
+    "usable_for_error_mining": {"type": "boolean"},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
