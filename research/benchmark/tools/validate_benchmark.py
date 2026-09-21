@@ -47,7 +47,7 @@ def main() -> int:
     errors = []
     warnings = []
 
-    config = load_json(BENCHMARK / "configs" / "benchmark_v0.1.json")
+    config = load_json(BENCHMARK / "configs" / "benchmark_v0.2.json")
     studies = load_jsonl(BENCHMARK / "manifests" / "studies.jsonl")
     documents = load_jsonl(BENCHMARK / "manifests" / "documents.jsonl")
     legacy_runs = load_jsonl(BENCHMARK / "manifests" / "legacy_runs.jsonl")
@@ -90,9 +90,25 @@ def main() -> int:
     for document in documents:
         if document["study_id"] not in study_id_set:
             errors.append(f"document {document['document_id']} references unknown study {document['study_id']}")
+        if document.get("availability") == "public":
+            normalized_path = document["path"].replace("\\", "/")
+            if document.get("role") == "reference_sap" and "/reference/" not in normalized_path:
+                errors.append(
+                    f"public reference SAP {document['document_id']} is not isolated under a reference directory"
+                )
+            if document.get("role") in {"protocol", "crf", "annotated_crf"} and "/input/" not in normalized_path:
+                errors.append(
+                    f"public model-visible document {document['document_id']} is not isolated under an input directory"
+                )
         source_path = ROOT / document["path"]
         if not source_path.is_file():
-            errors.append(f"document {document['document_id']} missing at {source_path}")
+            if document.get("availability") == "public" and document.get("source_url"):
+                warnings.append(
+                    f"document {document['document_id']} is public remote-only; "
+                    f"fetch and verify SHA-256 before generation"
+                )
+            else:
+                errors.append(f"document {document['document_id']} missing at {source_path}")
         else:
             actual_hash = file_sha256(source_path)
             if actual_hash != document["sha256"]:
@@ -183,6 +199,26 @@ def main() -> int:
     if duplicates:
         errors.append(f"duplicate requirement_id: {duplicates}")
 
+    candidate_catalog_path = BENCHMARK / "screening" / "candidate_catalog.jsonl"
+    candidate_count = 0
+    if candidate_catalog_path.is_file():
+        candidates = load_jsonl(candidate_catalog_path)
+        candidate_count = len(candidates)
+        candidate_ids = []
+        for index, candidate in enumerate(candidates, start=1):
+            require_keys(
+                candidate,
+                ["candidate_id", "title", "source", "status", "priority", "reason"],
+                f"candidate[{index}]",
+                errors,
+            )
+            candidate_ids.append(candidate.get("candidate_id"))
+        duplicate_candidates = sorted(
+            {value for value in candidate_ids if value and candidate_ids.count(value) > 1}
+        )
+        if duplicate_candidates:
+            errors.append(f"duplicate candidate_id: {duplicate_candidates}")
+
     pilot_split = load_json(BENCHMARK / "splits" / "pilot.json")
     for study_id in pilot_split["study_ids"]:
         match = next((study for study in studies if study["study_id"] == study_id), None)
@@ -200,6 +236,7 @@ def main() -> int:
                 "legacy_runs": len(legacy_runs),
                 "rubric_items": len(rubrics),
                 "requirements": len(requirements),
+                "screening_candidates": candidate_count,
                 "warnings": warnings,
                 "errors": errors,
             },

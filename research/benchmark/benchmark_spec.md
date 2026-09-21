@@ -1,4 +1,4 @@
-# SAP Generation Benchmark Specification v0.1
+# SAP Generation Benchmark Specification v0.2-development
 
 ## Research question
 
@@ -98,6 +98,8 @@ Generation-time QA and benchmark evaluation are versioned separately. The final 
 - Reference SAP text from dev/test studies is never included in retrieval indexes or training data.
 - Test outputs are generated only after prompts, adapters, evaluator templates, and thresholds are frozen.
 - Challenge variants inherit the source study's split and never count as additional independent studies.
+- Newly collected public families remain in the `candidate` pool until version matching, source-rights review, annotation review, and leakage checks are complete.
+- Public source PDFs are fetched by URL and verified against frozen SHA-256 hashes; reference SAPs are kept outside model-visible input directories.
 
 ## Versioning
 

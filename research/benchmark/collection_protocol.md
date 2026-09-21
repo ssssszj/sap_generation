@@ -12,6 +12,8 @@ A study family is eligible when it has:
 
 A matching CRF is desirable but not required for the primary track.
 
+Public availability alone is insufficient. The exact protocol version cited by the SAP must be available, or the family remains on hold. A later protocol upload cannot be silently paired with an earlier SAP.
+
 ## Exclusion
 
 Exclude or quarantine:
@@ -40,6 +42,16 @@ For each candidate:
 8. record language, domain, intervention type, design, hypothesis type, and endpoint type;
 9. record redistribution constraints;
 10. assign `candidate`, `verified`, `pilot_only`, or `excluded` status.
+
+For public remote documents, also record the canonical URL, byte-level SHA-256 hash, internal document version/date, retrieval date, page count, encryption status, and whether text extraction preserves the statistical sections. Raw source files are not committed unless redistribution terms have been reviewed.
+
+## Public-source promotion states
+
+- `screened`: metadata suggests a useful family, but documents have not been inspected.
+- `hold_version_mismatch`: the SAP cites a protocol or CRF version that is not available.
+- `verified`: identifiers, versions, dates, coarse design facts, hashes, and text extractability have been checked.
+- `annotated_draft`: first-pass requirements exist but still need statistical and second-annotator review.
+- `split_ready`: source rights, leakage audit, version chain, and annotation review are complete.
 
 ## Pilot sampling plan
 

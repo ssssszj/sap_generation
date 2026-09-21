@@ -2,7 +2,7 @@
 
 This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
 
-The current release is `v0.1-pilot`. It is intentionally small: one previously used ophthalmology device study is registered as `pilot_only`. It may be used to debug schemas, evaluators, prompts, and baseline runners, but it must not enter the frozen final test set.
+The current working release is `v0.2-development`. It contains one private `pilot_only` study and four version-verified public study families. VIVID and IMPACT have first-pass evidence-backed annotations; ASCEND-D and SER-287 are registered for the next annotation sprint. None of the candidate studies has been assigned to a frozen train/dev/test split yet.
 
 ## What is included
 
@@ -12,6 +12,7 @@ The current release is `v0.1-pilot`. It is intentionally small: one previously u
 - A general SAP rubric and an ophthalmology/IOL extension rubric.
 - A first evidence-backed gold annotation set for the existing artificial intraocular lens study.
 - Tools for stable DOCX paragraph extraction, benchmark validation, and deterministic scoring.
+- A screened public-source catalog, source audit, and hash-verifying downloader.
 
 ## Benchmark tracks
 
@@ -27,6 +28,13 @@ Run all structural checks:
 
 ```bash
 python3 research/benchmark/tools/validate_benchmark.py
+```
+
+Fetch a public study family and verify the frozen file hashes:
+
+```bash
+python3 research/benchmark/tools/fetch_public_sources.py \
+  --study-id PUBLIC-VIVID-001
 ```
 
 Extract stable paragraph IDs from a DOCX:
@@ -50,11 +58,14 @@ The deterministic scorer does not replace statistical review. Items without a de
 
 ## Current limitations
 
-- The pilot contains one study family and cannot support generalization claims.
+- Only two public families have first-pass annotations; the corpus cannot yet support generalization claims.
 - The pilot study has already been used during product development, so it is excluded from final testing.
+- Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
+- Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.
+- IMPACT is observational and is scored as an auxiliary protocol/CRF case, not as part of the primary randomized-trial aggregate.
 - DOCX evidence currently uses stable paragraph locators. Local LibreOffice rendering lacks the Chinese font mapping needed for trustworthy DOCX-to-page evidence mapping.
 - The original `knowledge_bank/rubrics.json` remains a legacy generation/revision checklist. The benchmark rubric in this directory is independent and supports applicability and `N/A` decisions.
 
 ## Next release gate
 
-`v0.2` requires 10-15 independently verified study families, 3-5 fully annotated studies, 150-250 evidence-backed requirements, at least three baseline runs, and an evaluator calibration report.
+The frozen `v0.2` release still requires 10-15 independently verified study families, 3-5 second-reviewed studies, 150-250 evidence-backed requirements, at least three baseline runs, and an evaluator calibration report.
