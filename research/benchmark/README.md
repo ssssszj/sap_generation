@@ -2,7 +2,7 @@
 
 This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
 
-The current working release is `v0.2-development`. It contains one private `pilot_only` study and four version-verified public study families. VIVID and IMPACT have first-pass evidence-backed annotations; ASCEND-D and SER-287 are registered for the next annotation sprint. None of the candidate studies has been assigned to a frozen train/dev/test split yet.
+The current working release is `v0.3-development`. It contains one private `pilot_only` study, four version-verified public study families, and a 116-study metadata-screened acquisition pool. The four eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. VIVID and IMPACT have first-pass evidence-backed annotations; ASCEND-D and SER-287 are registered for the next annotation sprint. None of the candidate studies has been assigned to a frozen train/dev/test split yet.
 
 ## What is included
 
@@ -13,6 +13,7 @@ The current working release is `v0.2-development`. It contains one private `pilo
 - A first evidence-backed gold annotation set for the existing artificial intraocular lens study.
 - Tools for stable DOCX paragraph extraction, benchmark validation, and deterministic scoring.
 - A screened public-source catalog, source audit, and hash-verifying downloader.
+- A reproducible ClinicalTrials.gov metadata harvester, a 120-family scale plan, and a 24-study document-review queue.
 
 ## Benchmark tracks
 
@@ -29,6 +30,14 @@ Run all structural checks:
 ```bash
 python3 research/benchmark/tools/validate_benchmark.py
 ```
+
+Refresh the metadata-screened acquisition pool from the official ClinicalTrials.gov API:
+
+```bash
+python3 research/benchmark/tools/build_candidate_pool.py --target 116
+```
+
+This command does not verify protocol/SAP version compatibility. It only identifies separate public uploads and creates a stratified review queue.
 
 Fetch a public study family and verify the frozen file hashes:
 
@@ -58,7 +67,7 @@ The deterministic scorer does not replace statistical review. Items without a de
 
 ## Current limitations
 
-- Only two public families have first-pass annotations; the corpus cannot yet support generalization claims.
+- Only two public families have first-pass annotations; 116 additional records are acquisition candidates, not finished benchmark questions.
 - The pilot study has already been used during product development, so it is excluded from final testing.
 - Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
 - Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.
@@ -66,6 +75,10 @@ The deterministic scorer does not replace statistical review. Items without a de
 - DOCX evidence currently uses stable paragraph locators. Local LibreOffice rendering lacks the Chinese font mapping needed for trustworthy DOCX-to-page evidence mapping.
 - The original `knowledge_bank/rubrics.json` remains a legacy generation/revision checklist. The benchmark rubric in this directory is independent and supports applicability and `N/A` decisions.
 
-## Next release gate
+## Next release gates
 
-The frozen `v0.2` release still requires 10-15 independently verified study families, 3-5 second-reviewed studies, 150-250 evidence-backed requirements, at least three baseline runs, and an evaluator calibration report.
+- `v0.3 collection`: promote the first 24 queued studies through download, hashing, version-chain checks, and extraction QA.
+- `v0.4 annotation`: reach at least 30 annotation drafts and 15 independently adjudicated studies.
+- `v1.0 frozen`: retain at least 100 independent, split-ready study families from the 120-family intake; freeze train/dev/test by study family; run at least three baselines and publish evaluator calibration.
+
+At the 100-family release floor, the intended split is 40 train / 20 dev / 40 test. If all 120 eligible families pass, the stretch split is 60 / 20 / 40. See `scale_plan.md` for the statistical rationale and annotation budget.

@@ -6,6 +6,7 @@ from __future__ import annotations
 import hashlib
 import json
 from pathlib import Path
+import re
 import sys
 
 
@@ -47,7 +48,7 @@ def main() -> int:
     errors = []
     warnings = []
 
-    config = load_json(BENCHMARK / "configs" / "benchmark_v0.2.json")
+    config = load_json(BENCHMARK / "configs" / "benchmark_v0.3.json")
     studies = load_jsonl(BENCHMARK / "manifests" / "studies.jsonl")
     documents = load_jsonl(BENCHMARK / "manifests" / "documents.jsonl")
     legacy_runs = load_jsonl(BENCHMARK / "manifests" / "legacy_runs.jsonl")
@@ -208,16 +209,52 @@ def main() -> int:
         for index, candidate in enumerate(candidates, start=1):
             require_keys(
                 candidate,
-                ["candidate_id", "title", "source", "status", "priority", "reason"],
+                [
+                    "candidate_id",
+                    "title",
+                    "source",
+                    "domain",
+                    "study_type",
+                    "intervention_type",
+                    "design_tags",
+                    "endpoint_types",
+                    "protocol_url",
+                    "sap_url",
+                    "status",
+                    "priority",
+                    "reason",
+                    "blockers",
+                    "screening_level",
+                ],
                 f"candidate[{index}]",
                 errors,
             )
             candidate_ids.append(candidate.get("candidate_id"))
+            if not re.fullmatch(r"NCT\d{8}", candidate.get("candidate_id", "")):
+                errors.append(f"candidate[{index}]: candidate_id must be an NCT identifier")
+            if candidate.get("protocol_url") == candidate.get("sap_url"):
+                errors.append(f"candidate[{index}]: protocol_url and sap_url must be separate files")
+            if "Prot_SAP" in candidate.get("protocol_url", "") or "Prot_SAP" in candidate.get("sap_url", ""):
+                errors.append(f"candidate[{index}]: combined protocol/SAP upload is not eligible")
         duplicate_candidates = sorted(
             {value for value in candidate_ids if value and candidate_ids.count(value) > 1}
         )
         if duplicate_candidates:
             errors.append(f"duplicate candidate_id: {duplicate_candidates}")
+        registered_nct_ids = {
+            match.group(0)
+            for study in studies
+            for match in [re.search(r"NCT\d{8}", study.get("study_family_id", ""))]
+            if match
+        }
+        overlaps = sorted(set(candidate_ids) & registered_nct_ids)
+        if overlaps:
+            errors.append(f"candidate catalog overlaps registered studies: {overlaps}")
+        expected_candidates = config.get("scale_target", {}).get("screened_candidates")
+        if expected_candidates is not None and candidate_count != expected_candidates:
+            errors.append(
+                f"candidate count {candidate_count} does not match configured target {expected_candidates}"
+            )
 
     pilot_split = load_json(BENCHMARK / "splits" / "pilot.json")
     for study_id in pilot_split["study_ids"]:

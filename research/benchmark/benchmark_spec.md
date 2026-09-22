@@ -1,4 +1,4 @@
-# SAP Generation Benchmark Specification v0.2-development
+# SAP Generation Benchmark Specification v0.3-development
 
 ## Research question
 
@@ -104,3 +104,7 @@ Generation-time QA and benchmark evaluation are versioned separately. The final 
 ## Versioning
 
 Any change to task scope, rubric semantics, gold labels, model-visible inputs, evaluator prompts, thresholds, or aggregation rules requires a benchmark version bump and a changelog entry.
+
+## Scale target
+
+The release-eligible intake target is 120 independent public study families, with at least 100 retained after all release gates. The private pilot is development-only and does not count toward either number. At the 100-family floor, the intended split is 40 train, 20 dev, and 40 held-out test families; if all 120 pass, the stretch split is 60/20/40. A metadata-screened protocol/SAP pair is an acquisition candidate, not a benchmark-ready question; only independently adjudicated and split-ready families count toward the frozen release.

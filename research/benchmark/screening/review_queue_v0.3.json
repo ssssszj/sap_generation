@@ -1,0 +1,476 @@
+{
+  "version": "0.3-development",
+  "purpose": "First document-level promotion sprint; rank is operational, not benchmark difficulty.",
+  "target_count": 24,
+  "studies": [
+    {
+      "queue_rank": 1,
+      "candidate_id": "NCT00113074",
+      "domain": "cardiovascular",
+      "title": "Preventing Weight Gain and Controlling Blood Pressure During Smoking Cessation in Hypertensive Smokers",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT00113074/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT00113074/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT05133739",
+      "domain": "dermatology",
+      "title": "RHA 4 for Midface Volume Deficiency",
+      "pairing_state": "legacy_manual_screen",
+      "design_tags": [
+        "randomized",
+        "single_blind",
+        "parallel",
+        "non_inferiority"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT05133739/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT05133739/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT04172441",
+      "domain": "endocrine_metabolic",
+      "title": "Trial Evaluating Efficacy and Safety of Dasiglucagon in Children With Congenital Hyperinsulinism",
+      "pairing_state": "legacy_manual_screen",
+      "design_tags": [
+        "phase_2_3",
+        "randomized",
+        "quadruple_blind",
+        "crossover",
+        "pediatric",
+        "rare_disease"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04172441/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04172441/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT02513121",
+      "domain": "gastroenterology_hepatology",
+      "title": "Dietary Treatment Study of Pediatric NAFLD",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02513121/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02513121/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT00787722",
+      "domain": "hematology",
+      "title": "Hematopoietic Stem Cell Transplant in Devic's Disease",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT00787722/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT00787722/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03902392",
+      "domain": "immunology_rheumatology",
+      "title": "Red Grape Polyphenol Oral Administration to Women Affected by Nickel-mediated Allergic Contact Dermatitis",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03902392/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03902392/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02664415",
+      "domain": "infectious_disease",
+      "title": "Safety and Therapeutic Efficacy of the VRC01 Antibody in Patients Who Initiated Antiretroviral Therapy During Early Acute HIV Infection",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02664415/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02664415/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT02542410",
+      "domain": "musculoskeletal_pain",
+      "title": "Dopamine Receptor Agonist Therapy for Pain Relief in Women Suffering From Endometriosis: A Pilot Study",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT02542410/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT02542410/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 9,
+      "candidate_id": "NCT03282916",
+      "domain": "neurology",
+      "title": "Anti-viral Therapy in Alzheimer's Disease",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT03282916/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT03282916/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 10,
+      "candidate_id": "NCT02407054",
+      "domain": "oncology",
+      "title": "A Study of Enzalutamide and LY3023414 in Men With Prostate Cancer",
+      "pairing_state": "legacy_manual_screen",
+      "design_tags": [
+        "phase_2",
+        "randomized",
+        "double_blind",
+        "parallel",
+        "oncology"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02407054/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02407054/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 11,
+      "candidate_id": "NCT05025345",
+      "domain": "ophthalmology",
+      "title": "Vision Performance Evaluation of TECNIS EYHANCE™ With TECNIS SIMPLICITY™ Compared to TECNIS® 1-piece Intraocular Lenses",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT05025345/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT05025345/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 12,
+      "candidate_id": "NCT04697836",
+      "domain": "perioperative_critical_care",
+      "title": "Cervical Plexus Block Combined With Translaryngeal Block for Tracheostomy",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "time_to_event",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT04697836/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT04697836/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 13,
+      "candidate_id": "NCT02205177",
+      "domain": "psychiatry",
+      "title": "Youth Mayo Clinic Anxiety Coach Pilot Study",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT02205177/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT02205177/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 14,
+      "candidate_id": "NCT03556293",
+      "domain": "renal_urology",
+      "title": "IMPROVE AKI Cluster-Randomized Trial",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "factorial",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03556293/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03556293/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 15,
+      "candidate_id": "NCT02337361",
+      "domain": "reproductive_maternal",
+      "title": "Computerized Tool for Preventing Prenatal Drinking",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02337361/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02337361/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 16,
+      "candidate_id": "NCT02796677",
+      "domain": "respiratory",
+      "title": "AMPLIFY Duaklir USA Phase III Study",
+      "pairing_state": "legacy_manual_screen",
+      "design_tags": [
+        "phase_3",
+        "randomized",
+        "double_blind",
+        "parallel",
+        "active_and_placebo_controlled",
+        "non_inferiority"
+      ],
+      "endpoint_types": [
+        "continuous",
+        "repeated_measure"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT02796677/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT02796677/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 17,
+      "candidate_id": "NCT02301897",
+      "domain": "other_clinical",
+      "title": "A Multi-Center, Parallel Design, Randomized, Double-Blind Study to Evaluate the Safety and Efficacy of 6 and 12 mg Proellex® (Telapristone Acetate) Administered Orally in the Treatment of Premenopausal Women With Confirmed Symptomatic Uterine Fibroids",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT02301897/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT02301897/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 18,
+      "candidate_id": "NCT02173379",
+      "domain": "cardiovascular",
+      "title": "Absorb IV Randomized Controlled Trial",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02173379/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02173379/SAP_004.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 19,
+      "candidate_id": "NCT04707014",
+      "domain": "dermatology",
+      "title": "Hypnoanalgesia for Dermatological Surgery in Children",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT04707014/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT04707014/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 20,
+      "candidate_id": "NCT04270682",
+      "domain": "endocrine_metabolic",
+      "title": "Study to Evaluate Patients With Cerebrotendinous Xanthomatosis (RESTORE)",
+      "pairing_state": "legacy_manual_screen",
+      "design_tags": [
+        "phase_3",
+        "randomized",
+        "quadruple_blind",
+        "crossover",
+        "rare_disease"
+      ],
+      "endpoint_types": [
+        "continuous",
+        "repeated_measure"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04270682/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04270682/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 21,
+      "candidate_id": "NCT04925570",
+      "domain": "gastroenterology_hepatology",
+      "title": "The Anchor Study: Digitally Delivered Intervention for Reducing Problematic Substance Use",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04925570/Prot_008.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04925570/SAP_009.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 22,
+      "candidate_id": "NCT03734588",
+      "domain": "hematology",
+      "title": "Dose-finding Study of SPK-8016 Gene Therapy in Patients With Hemophilia A to Support Evaluation in Individuals With FVIII Inhibitors",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03734588/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03734588/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 23,
+      "candidate_id": "NCT05352893",
+      "domain": "immunology_rheumatology",
+      "title": "Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT05352893/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT05352893/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 24,
+      "candidate_id": "NCT02348775",
+      "domain": "infectious_disease",
+      "title": "Glutathione and Function in HIV Patients",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02348775/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02348775/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    }
+  ]
+}
