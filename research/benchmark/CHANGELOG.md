@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 64 screening - 2026-09-24
+
+- Batch 64 produced no promotion: excluded NCT02656329, NCT04039503, NCT05073458, NCT03454555 and NCT02605174 because their model-visible protocols expose executable target analyses, with post-primary/post-completion defects in every family; excluded NCT03086655 because its one-page post-completion methods note is not a governing prospective SAP.
+- Placed NCT03201445 on governing-version hold because its SAP cites Amendment 4 while only post-IA2 Amendment 6 is public, and placed NCT06584435 on provenance hold because its purported 2022 pair was uploaded after 2025 primary completion and cannot be shown to be an unmodified prospective plan.
+- Batch 64 hash-froze and text-extracted all 16 PDFs and eight registry records, fully OCRed the scan-only NCT06584435 pair, visually checked every cover and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts plus 48 metadata candidates.
+
 ## Batch 63 screening - 2026-09-24
 
 - Batch 63 promoted NCT03309917 as `PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001` after exact title, NCT, protocol-ID and same-day document matching before study start; added 20 requirements covering randomized three-level MAP exposure, carotid-flow derivation, gas corrections, repeated-measures and slope-interaction analyses, and unresolved covariance, population, missing-data and multiplicity decisions.
