@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 45 produced no promotion: excluded NCT02064868, NCT03698331, NCT02739984, NCT04681066, NCT02578901, NCT03721172, NCT02712424 and NCT02655224 because their public protocols disclose executable target analyses, with post-primary/completion or late-revision concerns in three families.
+- Batch 45 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked all covers and decisive statistical pages, and returned all eight slots for replenishment while preserving 70 public drafts plus 50 metadata candidates.
+
 - Batch 44 produced no promotion: placed NCT02050841 on governing-version hold because its SAP cites an unavailable Protocol Version 10 rather than the public Version 9, and excluded NCT03224299, NCT02735044, NCT02155725, NCT03988608, NCT03616912, NCT02735863 and NCT02620020 because their public protocols disclose executable target analyses; three selected SAPs are additionally post-primary/completion.
 - Batch 44 hash-froze 16 PDFs and eight registry records, OCRed the three scan/encoding-limited protocols, visually checked all covers and decisive pages, and returned all eight slots for replenishment while preserving 70 public drafts plus 50 metadata candidates.
 
