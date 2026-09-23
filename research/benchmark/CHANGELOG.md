@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 34 produced no promotion: excluded NCT04087655, NCT04762277, NCT03297541, NCT03524092, NCT03392168 and NCT03802565 for protocol-embedded target leakage, and excluded NCT05148299 and NCT02765802 because the public SAPs are post-completion execution-informed versions.
+- Batch 34 hash-froze and text-extracted all 16 PDFs, visually checked covers and decisive statistical/version pages, then refreshed and replenished all eight rejected slots while preserving 67 public drafts plus 53 metadata candidates.
+
 - Batch 33 promoted NCT07008391 after exact protocol/SAP title and 2025-05-15 date matching before study start; added 24 requirements for its 2:1 prehospital hs-TnI trial while preserving the FMC-to-PCI/access/balloon, analysis-population, MACE, missing-data, multiplicity and interim-review conflicts for expert adjudication.
 - Batch 33 placed NCT05822648 on governing-content reconciliation hold because its SAP analyzes future T2D onset and mediation rather than the current pilot's protocol aims, and placed NCT03174132 on public-redaction hold because key statistical content and the sample-size basis are blacked out.
 - Batch 33 excluded NCT04091087, NCT02840721, NCT02615691 and NCT02752776 for protocol-embedded target leakage and excluded NCT02612428 for a post-primary execution-informed SAP plus protocol leakage; refreshed the candidate pool to 53 and increased the registered requirement total from 1,189 to 1,213 (1,187 public plus 26 private-pilot requirements).
