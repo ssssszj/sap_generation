@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains fifty-two registered study families:
+The working benchmark contains fifty-six registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -56,8 +56,12 @@ The working benchmark contains fifty-two registered study families:
 - oral DS107G in atopic dermatitis, a placebo-controlled Phase II study with a composite IGA responder, site-stratified CMH analysis, and observed-value versus LOCF analyses;
 - aflibercept quality of life in DME, a single-arm Phase IV study with Week-52 NEI VFQ-25 change and LOCF, observed-case, multiple-imputation, MCID and repeated-measures analyses;
 - ENLIGHTEN-2, an adaptive Phase III active-controlled schizophrenia trial with weight co-primary endpoints, CHW inference, conditional-power sample-size reassessment, fixed-sequence testing and MNAR sensitivity.
+- emricasan after liver transplantation for HCV-related fibrosis, a Phase II screening trial whose SAP changes the protocol's ordinal Ishak analysis to a stage-dependent binary response and adds multiple-imputation sensitivity analyses;
+- sedative effects on neurological function in eloquent-area glioma, a nonrandomized glioma-versus-control repeated-measures study with unresolved primary contrast, covariance, missingness and multiplicity choices;
+- adjunctive naltrexone plus bupropion in obese cigarette-smoking adults with schizophrenia, a stratified randomized study using a Week-24 weight contrast and longitudinal mixed modeling;
+- roxadustat for anemia in nondialysis-dependent CKD, a Phase III amendment-transition study with region-specific primary endpoints, MI ANCOVA, CMH analysis, fixed-sequence testing and MNAR sensitivity analyses.
 
-All fifty-one public studies have first-pass annotations. Together with the private pilot, the registered set contains 886 evidence-backed requirements: 860 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All fifty-five public studies have first-pass annotations. Together with the private pilot, the registered set contains 958 evidence-backed requirements: 932 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -90,7 +94,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only fifty-one public studies have first-pass gold annotations, with no completed expert adjudication;
+- only fifty-five public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -101,4 +105,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 69 remain metadata-screened acquisition candidates and fifty-one are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 65 remain metadata-screened acquisition candidates and fifty-five are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.

@@ -60,6 +60,9 @@
 - Promoted NCT01928862, NCT02211417, NCT02581995 and NCT02694328 after explicit governing-version reconciliation; added 66 requirements spanning pediatric bowel preparation, atopic dermatitis, DME quality of life and adaptive schizophrenia weight analysis.
 - Excluded NCT02068885, NCT03393494, NCT02475070 and NCT01596127 for protocol-embedded target leakage; excluded NCT00745420, NCT02351544 and NCT05634863 as retrospective or wrong document types; and placed NCT02267226 on governing-version hold.
 - Refreshed and replenished the candidate pool to 69, preserving 120 release-intake families, and increased the registered requirement total from 820 to 886 (860 public plus 26 private-pilot requirements).
+- Promoted NCT02138253, NCT02439164, NCT02736474 and NCT01750190 after exact identity/date or explicit governing-amendment reconciliation; added 72 requirements spanning liver-fibrosis screening, perioperative neuro-oncology, schizophrenia metabolic health and nondialysis CKD anemia.
+- Excluded NCT02154750, NCT06831760, NCT02481596, NCT02349061 and NCT02978833 as retrospective, executed, wrong-scope or otherwise non-governing analysis documents; excluded NCT01787552, NCT04333225 and NCT01924169 for protocol-embedded target leakage.
+- Refreshed and replenished the candidate pool to 65, preserving 120 release-intake families, and increased the registered requirement total from 886 to 958 (932 public plus 26 private-pilot requirements).
 
 ## 0.2-development - 2026-09-21
 

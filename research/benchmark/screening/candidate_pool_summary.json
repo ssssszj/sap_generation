@@ -7,9 +7,9 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2200,
-  "registered_studies_including_pilot": 52,
-  "registered_release_eligible": 51,
-  "screened_candidates": 69,
+  "registered_studies_including_pilot": 56,
+  "registered_release_eligible": 55,
+  "screened_candidates": 65,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
@@ -21,30 +21,29 @@
     "immunology_rheumatology": 4,
     "infectious_disease": 1,
     "musculoskeletal_pain": 1,
-    "neurology": 1,
-    "oncology": 3,
+    "oncology": 2,
     "other_clinical": 5,
-    "psychiatry": 4,
-    "renal_urology": 3,
+    "psychiatry": 3,
+    "renal_urology": 2,
     "reproductive_maternal": 5,
     "respiratory": 5
   },
   "intervention_distribution": {
-    "behavioral": 8,
-    "device": 8,
-    "drug": 34,
-    "mixed": 13,
-    "other": 6
+    "behavioral": 9,
+    "device": 6,
+    "drug": 31,
+    "mixed": 11,
+    "other": 8
   },
   "endpoint_distribution_multi_label": {
     "binary": 12,
-    "continuous": 15,
-    "count_or_rate": 17,
-    "other_or_manual_review": 35,
+    "continuous": 11,
+    "count_or_rate": 14,
+    "other_or_manual_review": 36,
     "time_to_event": 1
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 39,
+    "exact_document_date_match": 35,
     "plausible_date_order": 30
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
