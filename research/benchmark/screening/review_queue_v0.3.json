@@ -5,28 +5,28 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03574597",
+      "candidate_id": "NCT01983462",
       "domain": "cardiovascular",
-      "title": "Semaglutide Effects on Heart Disease and Stroke in Patients With Overweight or Obesity",
+      "title": "Vascular Dysfunction in Human Obesity Hypertension",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT03574597/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT03574597/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01983462/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01983462/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT02320149",
+      "candidate_id": "NCT02672332",
       "domain": "dermatology",
-      "title": "Study to Evaluate Safety & Efficacy of Sarecycline in Treatment of Acne",
+      "title": "P3 Study in Acne Comparing Once Daily SB204 and Vehicle",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -36,171 +36,132 @@
       ],
       "endpoint_types": [
         "binary",
-        "count_or_rate"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02320149/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02320149/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT02672332/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT02672332/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT02024750",
+      "candidate_id": "NCT03181971",
       "domain": "endocrine_metabolic",
-      "title": "Tailored Diabetes Self-Management Resources",
+      "title": "School Water Access, Food and Beverage Intake, and Obesity",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
+        "none",
         "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT02024750/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT02024750/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03181971/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03181971/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT07673497",
+      "candidate_id": "NCT01671956",
       "domain": "gastroenterology_hepatology",
-      "title": "Can Vitamin D Replacement Correct Chronic Disease Anemia?",
-      "pairing_state": "exact_document_date_match",
+      "title": "Evaluation of Safety, Efficacy, Pharmacokinetic and Pharmacodynamic of Bertilimumab in Patients With Active Moderate to Severe Ulcerative Colitis",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT07673497/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT07673497/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01671956/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01671956/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT06616376",
+      "candidate_id": "NCT01317875",
       "domain": "hematology",
-      "title": "The Affect Of An Anti-Embolism Stocking Protocol",
-      "pairing_state": "exact_document_date_match",
+      "title": "Study of the JAK Inhibitor Ruxolitinib Administered Orally to Patients With Primary Myelofibrosis (PMF), Post-Polycythemia Vera-Myelofibrosis (PPV-MF) or Post-Essential Thrombocythemia-Myelofibrosis (PET-MF)",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "single",
-        "na"
+        "single_group",
+        "none",
+        "phase_1"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01317875/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01317875/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT07352566",
+      "candidate_id": "NCT02040844",
       "domain": "immunology_rheumatology",
-      "title": "Utilization of a Microdevice for Psoriasis and Atopic Dermatitis",
-      "pairing_state": "exact_document_date_match",
+      "title": "Phase III Cat-PAD Follow-on Study",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02040844/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02040844/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT03771638",
+      "candidate_id": "NCT04407507",
       "domain": "infectious_disease",
-      "title": "DOT Diary Mobile App for Pre-Exposure Prophylaxis Adherence in Young Men",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03771638/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03771638/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT02990806",
-      "domain": "musculoskeletal_pain",
-      "title": "A Phase 3 Study of NI-071 in Participants With Rheumatoid Arthritis (RADIANCE)",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02990806/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02990806/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 9,
-      "candidate_id": "NCT02346734",
-      "domain": "neurology",
-      "title": "Physical Telerehabilitation in Veterans With Multiple Sclerosis",
+      "title": "Efficacy, Safety and Tolerability of Ivermectin in Subjects Infected With SARS-CoV-2 With or Without Symptoms",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "single",
-        "na"
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02346734/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02346734/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04407507/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04407507/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 10,
-      "candidate_id": "NCT02264210",
-      "domain": "oncology",
-      "title": "Icotinib for Completed Resected IB NSCLC With EGFR Mutation",
+      "queue_rank": 8,
+      "candidate_id": "NCT03316118",
+      "domain": "musculoskeletal_pain",
+      "title": "US Guided GNB vs Saline Injection for TKA",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
-        "phase_2"
+        "double",
+        "phase_4"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT02264210/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT02264210/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03316118/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03316118/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 11,
-      "candidate_id": "NCT05646719",
-      "domain": "ophthalmology",
-      "title": "Safety and Efficacy of Nyxol Eye Drops as a Single Agent and With Adjunctive Low-Dose Pilocarpine Eye Drops in Subjects With Presbyopia",
+      "queue_rank": 9,
+      "candidate_id": "NCT03277248",
+      "domain": "neurology",
+      "title": "Study to Assess the Efficacy and Safety of Ublituximab in Participants With Relapsing Forms of Multiple Sclerosis (RMS)",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -211,28 +172,65 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT05646719/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT05646719/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT03277248/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT03277248/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 12,
-      "candidate_id": "NCT02960854",
-      "domain": "perioperative_critical_care",
-      "title": "A Study of Nivolumab Safety and Pharmacokinetics in Patients With Severe Sepsis or Septic Shock.",
+      "queue_rank": 10,
+      "candidate_id": "NCT00589316",
+      "domain": "oncology",
+      "title": "Iodine I 131 Monoclonal Antibody BC8, Fludarabine Phosphate, Cyclophosphamide, Total-Body Irradiation and Donor Bone Marrow Transplant in Treating Patients With Advanced Acute Myeloid Leukemia, Acute Lymphoblastic Leukemia, or High-Risk Myelodysplastic Syndrome",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT00589316/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT00589316/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 11,
+      "candidate_id": "NCT02247531",
+      "domain": "ophthalmology",
+      "title": "A Study Investigating the Safety and Efficacy of Lampalizumab Intravitreal Injections in Participants With Geographic Atrophy Secondary to Age-Related Macular Degeneration",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_1"
+        "quadruple",
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02960854/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02960854/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02247531/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02247531/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 12,
+      "candidate_id": "NCT00993551",
+      "domain": "perioperative_critical_care",
+      "title": "Timing of Primary Surgery for Cleft Palate",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT00993551/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT00993551/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -333,10 +331,29 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT01983462",
+      "candidate_id": "NCT02344576",
       "domain": "cardiovascular",
-      "title": "Vascular Dysfunction in Human Obesity Hypertension",
+      "title": "PCORI-1310-06998 Trial of a Decision Support Intervention for Patients and Caregivers Offered Destination Therapy Heart Assist Device",
       "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02344576/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02344576/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 19,
+      "candidate_id": "NCT02998671",
+      "domain": "dermatology",
+      "title": "Study of Efficacy and Safety of CJM112 in Patients With Moderate to Severe Inflammatory Acne",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
@@ -344,31 +361,10 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01983462/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01983462/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 19,
-      "candidate_id": "NCT02672332",
-      "domain": "dermatology",
-      "title": "P3 Study in Acne Comparing Once Daily SB204 and Vehicle",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT02672332/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT02672332/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT02998671/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT02998671/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -392,9 +388,9 @@
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT01671956",
+      "candidate_id": "NCT02138253",
       "domain": "gastroenterology_hepatology",
-      "title": "Evaluation of Safety, Efficacy, Pharmacokinetic and Pharmacodynamic of Bertilimumab in Patients With Active Moderate to Severe Ulcerative Colitis",
+      "title": "A Trial of IDN-6556 in Post Orthotopic Liver Transplant for Chronic HCV",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -403,67 +399,69 @@
         "phase_2"
       ],
       "endpoint_types": [
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01671956/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01671956/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02138253/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02138253/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 22,
-      "candidate_id": "NCT01317875",
+      "candidate_id": "NCT02234843",
       "domain": "hematology",
-      "title": "Study of the JAK Inhibitor Ruxolitinib Administered Orally to Patients With Primary Myelofibrosis (PMF), Post-Polycythemia Vera-Myelofibrosis (PPV-MF) or Post-Essential Thrombocythemia-Myelofibrosis (PET-MF)",
+      "title": "EINSTEIN Junior: Oral Rivaroxaban in Children With Venous Thrombosis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "single_group",
+        "parallel",
         "none",
-        "phase_1"
+        "phase_3"
       ],
       "endpoint_types": [
+        "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01317875/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01317875/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02234843/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02234843/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 23,
-      "candidate_id": "NCT02040844",
+      "candidate_id": "NCT02211417",
       "domain": "immunology_rheumatology",
-      "title": "Phase III Cat-PAD Follow-on Study",
+      "title": "Oral DS107 in Moderate to Severe Atopic Dermatitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02040844/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02040844/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02211417/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02211417/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT04407507",
-      "domain": "infectious_disease",
-      "title": "Efficacy, Safety and Tolerability of Ivermectin in Subjects Infected With SARS-CoV-2 With or Without Symptoms",
+      "candidate_id": "NCT03326999",
+      "domain": "musculoskeletal_pain",
+      "title": "Does Adding an Additional Numbing Medication Injection in the Thigh Help With Pain Control After Knee Replacement Surgery?",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "phase_2"
+        "quadruple",
+        "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04407507/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04407507/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03326999/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03326999/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

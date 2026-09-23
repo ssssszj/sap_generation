@@ -48,6 +48,9 @@
 - Promoted NCT01929018, NCT01855399, NCT01905150, NCT02337361, NCT02427464, and NCT03874117 after exact identity/date or explicit protocol-version matching; added 96 requirements spanning rehabilitation, clustered diabetes coaching, single-arm oncology, prenatal alcohol prevention, Phase III gene therapy, and crossover equivalence.
 - Put NCT03658941 on version-reconciliation hold; excluded NCT02242760, NCT07148791, and NCT03669133 for protocol/SAP leakage; and excluded NCT04173429, NCT03101020, NCT03374306, NCT07437209, NCT02205177, and NCT02088216 as retrospective or wrong document types.
 - Refreshed and replenished the candidate pool to 92, preserving 120 release-intake families, and increased the registered requirement total from 412 to 508 (482 public plus 26 private-pilot requirements).
+- Promoted NCT03574597, NCT02320149, NCT02990806, NCT02346734, NCT02264210, and NCT02960854 after explicit version/date or exact title/NCT/date reconciliation; added 91 requirements spanning cardiovascular outcomes, dermatology co-primary endpoints, biosimilar interchangeability, telerehabilitation, adjuvant oncology, and descriptive sepsis PK/safety.
+- Excluded NCT02024750, NCT07673497, and NCT06616376 as retrospective or wrong document types and NCT07352566 for protocol-embedded target leakage; put NCT03771638 on governing-version hold and NCT05646719 on hold for an internally inconsistent primary endpoint, hierarchy, and success population.
+- Refreshed and replenished the candidate pool to 86, preserving 120 release-intake families, and increased the registered requirement total from 508 to 599 (573 public plus 26 private-pilot requirements).
 
 ## 0.2-development - 2026-09-21
 

@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains twenty-nine registered study families:
+The working benchmark contains thirty-five registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -33,8 +33,14 @@ The working benchmark contains twenty-nine registered study families:
 - computerized e-SBI for risky alcohol use among women of childbearing age, a developmental randomized trial with GEE, imputation, and explicitly post-hoc drink-size analyses;
 - VM202 for painful diabetic peripheral neuropathy, a Phase III fixed-sequence trial with continuous and responder repeated-measures models and extensive missing-data sensitivity analyses;
 - twice-weekly versus thrice-weekly hemodialysis, a randomized crossover equivalence study using KDQOL-36 and a -5 to +5 margin.
+- SELECT, an event-driven Phase 3b cardiovascular outcomes trial with an ITT treatment-policy estimand, group-sequential alpha spending, competing risks, and gated confirmatory endpoints;
+- SC1401 sarecycline for acne, a Phase 3 placebo-controlled trial with lesion-count and IGA co-primary endpoints, center-adjusted methods, and explicit missing-data sensitivity analyses;
+- NI071F2 RADIANCE, a three-stage rheumatoid-arthritis biosimilar trial combining asymmetric-margin efficacy biosimilarity with gated PK interchangeability after switching;
+- physical telerehabilitation in veterans with multiple sclerosis, an assessor-blinded randomized trial with EDSS-stratified allocation, co-primary mobility outcomes, and longitudinal mixed models;
+- CORIN, an open-label randomized Phase II adjuvant-icotinib trial with a three-year DFS proportion and supportive time-to-event analyses;
+- CA209923 nivolumab in severe sepsis, a small randomized Phase 1b study centered on descriptive safety, noncompartmental PK, receptor occupancy, biomarkers, and immunogenicity.
 
-All twenty-eight public studies have first-pass annotations. Together with the private pilot, the registered set contains 508 evidence-backed requirements: 482 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All thirty-four public studies have first-pass annotations. Together with the private pilot, the registered set contains 599 evidence-backed requirements: 573 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -67,7 +73,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only twenty-eight public studies have first-pass gold annotations, with no completed expert adjudication;
+- only thirty-four public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -78,4 +84,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 92 remain metadata-screened acquisition candidates and twenty-eight are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 86 remain metadata-screened acquisition candidates and thirty-four are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
