@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 65 screening - 2026-09-24
+
+- Batch 65 produced no promotion: excluded NCT04109547, NCT03451292, NCT03089944, NCT03486457 and NCT02525874 because their model-visible protocols expose executable target analyses, with post-primary, post-completion or execution-informed defects in four families; excluded NCT05239039 as a post-completion multi-trial expanded-access TSAP and NCT01090414 as a non-independent extension family with protocol leakage.
+- Placed NCT02731573 on public-redaction hold because the otherwise matching prospective pair obscures the total sample size and Part 1/Part 2 allocation and retains an unresolved protocol-table query.
+- Batch 65 hash-froze and text-extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 64 screening - 2026-09-24
 
 - Batch 64 produced no promotion: excluded NCT02656329, NCT04039503, NCT05073458, NCT03454555 and NCT02605174 because their model-visible protocols expose executable target analyses, with post-primary/post-completion defects in every family; excluded NCT03086655 because its one-page post-completion methods note is not a governing prospective SAP.
