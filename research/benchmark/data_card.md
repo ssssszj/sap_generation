@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains thirty-five registered study families:
+The working benchmark contains forty registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -39,8 +39,13 @@ The working benchmark contains thirty-five registered study families:
 - physical telerehabilitation in veterans with multiple sclerosis, an assessor-blinded randomized trial with EDSS-stratified allocation, co-primary mobility outcomes, and longitudinal mixed models;
 - CORIN, an open-label randomized Phase II adjuvant-icotinib trial with a three-year DFS proportion and supportive time-to-event analyses;
 - CA209923 nivolumab in severe sepsis, a small randomized Phase 1b study centered on descriptive safety, noncompartmental PK, receptor occupancy, biomarkers, and immunogenicity.
+- bertilimumab in ulcerative colitis, a small exploratory randomized study with a post-protocol mITT, safety-exposure, and missing-data reconciliation;
+- CP007A Cat-PAD follow-up, a prospective annual durability study with inherited randomized groups, yearly populations, hierarchical annual testing, and multiple missing-data analyses;
+- SILVER BULLET ivermectin in COVID-19, a compact randomized Phase II study retained with explicit population, safety-set, and malformed-hypothesis confirmation requirements;
+- ULTIMATE II in relapsing multiple sclerosis, a Phase III active-controlled trial with negative-binomial relapse modeling, cross-study fixed-sequence testing, and blinded sample-size reassessment;
+- SPECTRI lampalizumab in geographic atrophy, a Phase III sham-controlled ophthalmology trial whose final SAP supersedes the protocol's primary hierarchy and adds extensive MAR/MNAR sensitivity analyses.
 
-All thirty-four public studies have first-pass annotations. Together with the private pilot, the registered set contains 599 evidence-backed requirements: 573 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All thirty-nine public studies have first-pass annotations. Together with the private pilot, the registered set contains 692 evidence-backed requirements: 666 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -73,7 +78,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only thirty-four public studies have first-pass gold annotations, with no completed expert adjudication;
+- only thirty-nine public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -84,4 +89,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 86 remain metadata-screened acquisition candidates and thirty-four are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 81 remain metadata-screened acquisition candidates and thirty-nine are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.

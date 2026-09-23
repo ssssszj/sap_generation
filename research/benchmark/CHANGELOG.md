@@ -51,6 +51,9 @@
 - Promoted NCT03574597, NCT02320149, NCT02990806, NCT02346734, NCT02264210, and NCT02960854 after explicit version/date or exact title/NCT/date reconciliation; added 91 requirements spanning cardiovascular outcomes, dermatology co-primary endpoints, biosimilar interchangeability, telerehabilitation, adjuvant oncology, and descriptive sepsis PK/safety.
 - Excluded NCT02024750, NCT07673497, and NCT06616376 as retrospective or wrong document types and NCT07352566 for protocol-embedded target leakage; put NCT03771638 on governing-version hold and NCT05646719 on hold for an internally inconsistent primary endpoint, hierarchy, and success population.
 - Refreshed and replenished the candidate pool to 86, preserving 120 release-intake families, and increased the registered requirement total from 508 to 599 (573 public plus 26 private-pilot requirements).
+- Promoted NCT01671956, NCT02040844, NCT04407507, NCT03277248, and NCT02247531 after explicit governing-version or exact identity/date reconciliation; added 93 requirements spanning exploratory ulcerative-colitis analysis, long-term allergy follow-up, COVID-19 treatment, relapsing multiple sclerosis, and geographic atrophy.
+- Excluded NCT03181971 and NCT01317875 as retrospective or CSR analysis materials and NCT00589316 for protocol-embedded target leakage; placed NCT01983462, NCT02672332, NCT03316118, and NCT00993551 on version-reconciliation hold for unresolved dose or internal version conflicts.
+- Refreshed and replenished the candidate pool to 81, preserving 120 release-intake families, and increased the registered requirement total from 599 to 692 (666 public plus 26 private-pilot requirements).
 
 ## 0.2-development - 2026-09-21
 

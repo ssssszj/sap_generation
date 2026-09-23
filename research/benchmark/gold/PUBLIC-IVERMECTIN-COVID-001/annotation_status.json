@@ -1,0 +1,23 @@
+{
+  "study_id": "PUBLIC-IVERMECTIN-COVID-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 15,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-IVERMECTIN-COVID-001-R002",
+    "PUBLIC-IVERMECTIN-COVID-001-R004",
+    "PUBLIC-IVERMECTIN-COVID-001-R007",
+    "PUBLIC-IVERMECTIN-COVID-001-R008",
+    "PUBLIC-IVERMECTIN-COVID-001-R011",
+    "PUBLIC-IVERMECTIN-COVID-001-R013",
+    "PUBLIC-IVERMECTIN-COVID-001-R015"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm exact title, NCT identifier and date 2020-08-05 across the independent protocol and four-page SAP.",
+    "Resolve the protocol failure-rule versus SAP complete-case population contradiction and the safety-set placebo omission.",
+    "Correct the malformed null hypothesis and define an estimand, effect measure, CI and small-cell test.",
+    "Assess whether the stated sample size and broad nominal testing are statistically defensible."
+  ]
+}
