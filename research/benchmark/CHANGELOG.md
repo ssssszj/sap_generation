@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 30 produced no promotion: placed NCT04038697 on governing-version hold for an irreconcilable 54-versus-120-participant design conflict, and excluded NCT03712449, NCT03136484, NCT02185014, NCT03866577, NCT02698475, NCT02413372 and NCT07174635 as post-primary, CSR-oriented or execution-informed document packages.
+- Visually inspected the identity and decision-defining pages for all eight pairs and replenished the metadata candidate pool to preserve the 120-family release intake.
+
 - Batch 29 produced no promotion: excluded NCT03255382, NCT03518086 and NCT02394730 for protocol-embedded target leakage, and excluded NCT01683825, NCT03265223, NCT03203694, NCT03497650 and NCT03464136 as execution-informed, retrospective or post-primary-completion analysis documents.
 - Visually inspected the identity and decision-defining pages for all eight pairs, including full OCR review of the scan-only NCT02394730 SAP, and replenished the metadata candidate pool to preserve the 120-family release intake.
 
