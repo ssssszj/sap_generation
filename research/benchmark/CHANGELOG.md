@@ -2,6 +2,10 @@
 
 ## 0.3-development - 2026-09-23
 
+- Promoted NCT03812614 after exact STUDY20110344, NCT, title, version v2.2.1 062222 and 2022-06-22 protocol/SAP matching; added 23 requirements for the COVID-adapted FAM-ACT diabetes-support trial.
+- Excluded NCT02815280, NCT02906917, NCT02234310 and NCT02931838 for protocol-embedded target leakage; excluded NCT02646618 and NCT04979858 as retrospective or results-bearing wrong document types; and placed NCT03440320 on governing-version hold.
+- Refreshed and replenished the candidate pool to 60, preserving 120 release-intake families, and increased the registered requirement total from 1,033 to 1,056 (1,030 public plus 26 private-pilot requirements).
+
 - Promoted NCT02441101 after exact protocol-ID/title/date matching and NCT03160859 after exact protocol-ID/NCT/title/date matching; added 38 requirements spanning crossover pacing, a binary-versus-continuous primary-endpoint conflict, sex-specific colonoscopy powering, group-sequential monitoring, hierarchical site/provider effects and exploratory FDR control.
 - Excluded NCT02998671, NCT04897594 and NCT01877564 for protocol-embedded target leakage; excluded NCT02804932, NCT02596893, NCT02533375, NCT02621424, NCT02176291 and NCT01696279 as retrospective, post-primary-completion or otherwise non-governing analysis documents; placed NCT02435212 on version-reconciliation hold because its public bundle mixes protocol and SAP eras.
 - Refreshed and replenished the candidate pool to 61, preserving the 120-family release intake, and increased the registered requirement total from 995 to 1,033 (1,007 public plus 26 private-pilot requirements).
