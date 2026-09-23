@@ -38,6 +38,10 @@
 - Excluded NCT01682356, NCT03955055, and NCT02075437 for wrong document type, and NCT00116337 and NCT03342027 for protocol-embedded analysis leakage.
 - Put NCT02279173 on version-reconciliation hold because its complete governing original protocol is absent, and NCT04435600 on public-redaction hold because material treatment doses are obscured.
 - Refreshed and replenished the candidate pool to 104, preserving 120 release-intake families, and increased the registered requirement total from 285 to 308.
+- Promoted NCT02563522 after exact Protocol Version I/SAP Version E matching and added 21 requirements for the early-terminated Engensis diabetic-foot-ulcer trial.
+- Promoted NCT02657564 as an auxiliary observational safety case after exact title/NCT/date matching and added 16 requirements that preserve unresolved population, reversibility, repeated-measure, missing-data, and multiplicity decisions.
+- Excluded NCT02866669, NCT05464914, and NCT03634488 as wrong document types; excluded NCT03435783 and NCT02015455 for protocol-embedded target leakage; and put NCT05540665 on version-reconciliation hold.
+- Refreshed and replenished the candidate pool to 102, preserving 120 release-intake families, and increased the registered requirement total from 308 to 345.
 
 ## 0.2-development - 2026-09-21
 
