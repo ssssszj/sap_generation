@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 59 screening - 2026-09-24
+
+- Batch 59 produced no promotion: excluded NCT02541591, NCT03503370, NCT02401035, NCT04652245, NCT03008070, NCT03254459, NCT02477800 and NCT03719300 because every model-visible protocol exposes an executable target analysis; five families additionally have post-primary/post-completion chronology, and NCT03503370 provides only retrospective public documents.
+- Batch 59 hash-froze and text-extracted 16 PDFs and eight registry records, targeted-OCRed the identity and governing statistical pages of the 637-page scan-only NCT02477800 protocol, visually checked every cover and decisive page, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 ## Batch 58 screening - 2026-09-24
 
 - Batch 58 produced no promotion: excluded NCT02415400, NCT04603027, NCT02994056, NCT03122860 and NCT02358538 for protocol-embedded executable-plan leakage plus post-primary or post-completion SAP chronology; excluded NCT03426345 and NCT02240121 because their protocols leak the analysis while the selected late plans jointly cover two studies; and excluded NCT02759588 because the protocol and SAP use observed Phase 1b outcomes to design Phase 2.
