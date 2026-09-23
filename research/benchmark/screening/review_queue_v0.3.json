@@ -5,22 +5,22 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT01682356",
+      "candidate_id": "NCT02866669",
       "domain": "cardiovascular",
-      "title": "Dietary Nitrate for Heart Failure",
+      "title": "Southeastern Collaboration to Improve Blood Pressure Control",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
-        "crossover",
-        "double",
-        "phase_1",
-        "phase_2"
+        "factorial",
+        "single",
+        "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01682356/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01682356/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02866669/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02866669/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -121,21 +121,21 @@
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT03342027",
+      "candidate_id": "NCT01980771",
       "domain": "infectious_disease",
-      "title": "Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+      "title": "Barbershop Talk: HIV Prevention for African American Heterosexual Men",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
-        "factorial",
-        "double",
-        "phase_3"
+        "parallel",
+        "single",
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/Prot_ICF_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01980771/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01980771/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -159,21 +159,22 @@
     },
     {
       "queue_rank": 9,
-      "candidate_id": "NCT02346734",
+      "candidate_id": "NCT02427464",
       "domain": "neurology",
-      "title": "Physical Telerehabilitation in Veterans With Multiple Sclerosis",
+      "title": "Phase 3 Gene Therapy for Painful Diabetic Neuropathy",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "na"
+        "quadruple",
+        "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02346734/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02346734/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02427464/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02427464/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -330,21 +331,22 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT01819506",
+      "candidate_id": "NCT01682356",
       "domain": "cardiovascular",
-      "title": "Patient Targeted Upper Extremity Rehabilitation After Stroke",
+      "title": "Dietary Nitrate for Heart Failure",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
-        "parallel",
-        "single",
-        "na"
+        "crossover",
+        "double",
+        "phase_1",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT01819506/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT01819506/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01682356/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT01682356/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -406,60 +408,59 @@
     },
     {
       "queue_rank": 22,
-      "candidate_id": "NCT06616376",
+      "candidate_id": "NCT03523117",
       "domain": "hematology",
-      "title": "The Affect Of An Anti-Embolism Stocking Protocol",
+      "title": "Multicenter Randomized Active-controlled Study to Investigate Efficacy & Safety of IV FCM in Pediatric Patients With IDA",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "na"
+        "none",
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03523117/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03523117/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 23,
-      "candidate_id": "NCT07352566",
+      "candidate_id": "NCT05540665",
       "domain": "immunology_rheumatology",
-      "title": "Utilization of a Microdevice for Psoriasis and Atopic Dermatitis",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 24,
-      "candidate_id": "NCT03669133",
-      "domain": "infectious_disease",
-      "title": "Vitamin E for NASH Treatment in HIV Infected Individuals",
+      "title": "Study of Daxdilimab (HZN-7734) in Participants With Active Proliferative Lupus Nephritis (LN)",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
+        "double",
         "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT05540665/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT05540665/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 24,
+      "candidate_id": "NCT03342027",
+      "domain": "infectious_disease",
+      "title": "Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "factorial",
+        "double",
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03669133/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03669133/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/Prot_ICF_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

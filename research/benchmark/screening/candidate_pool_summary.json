@@ -15,43 +15,40 @@
   "domain_distribution": {
     "cardiovascular": 8,
     "dermatology": 9,
-    "endocrine_metabolic": 7,
-    "gastroenterology_hepatology": 6,
-    "hematology": 8,
-    "immunology_rheumatology": 7,
-    "infectious_disease": 3,
+    "endocrine_metabolic": 8,
+    "gastroenterology_hepatology": 7,
+    "hematology": 7,
+    "immunology_rheumatology": 6,
+    "infectious_disease": 4,
     "musculoskeletal_pain": 6,
-    "neurology": 4,
+    "neurology": 5,
     "oncology": 7,
     "ophthalmology": 5,
-    "other_clinical": 6,
+    "other_clinical": 5,
     "perioperative_critical_care": 5,
     "psychiatry": 6,
     "renal_urology": 5,
     "reproductive_maternal": 6,
-    "respiratory": 7
+    "respiratory": 6
   },
   "intervention_distribution": {
-    "behavioral": 13,
-    "device": 13,
-    "drug": 48,
-    "mixed": 19,
+    "behavioral": 16,
+    "device": 11,
+    "drug": 46,
+    "mixed": 20,
     "other": 11,
     "procedure": 1
   },
   "endpoint_distribution_multi_label": {
-    "binary": 20,
-    "continuous": 25,
-    "count_or_rate": 24,
-    "multiplicity": 1,
-    "other_or_manual_review": 49,
-    "repeated_measure": 1,
-    "time_to_event": 5
+    "binary": 19,
+    "continuous": 21,
+    "count_or_rate": 25,
+    "other_or_manual_review": 54,
+    "time_to_event": 3
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 70,
-    "legacy_manual_screen": 5,
+    "exact_document_date_match": 75,
     "plausible_date_order": 30
   },
-  "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked."
+  "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }

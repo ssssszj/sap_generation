@@ -357,17 +357,18 @@ def main() -> int:
         if re.fullmatch(r"NCT\d{8}", item.get("candidate_id", ""))
         and item.get("status", "").startswith("hold_")
     }
+    # Holds are decisions, not active acquisition candidates. Keeping them in the
+    # target-sized catalog would make the nominal 120-family intake include
+    # records that cannot be promoted and would leave fewer than 120 actionable
+    # study families. Preserve them in exclusions.jsonl and replenish the catalog.
     existing = [
         item
         for item in load_jsonl(args.output)
         if re.fullmatch(r"NCT\d{8}", item.get("candidate_id", ""))
         and item["candidate_id"] not in excluded_nct
+        and item["candidate_id"] not in holds_by_id
     ]
     existing_by_id = {item["candidate_id"]: item for item in existing if item["candidate_id"] not in registered_nct}
-    for candidate_id, decision in holds_by_id.items():
-        if candidate_id in existing_by_id:
-            existing_by_id[candidate_id]["status"] = decision["status"]
-            existing_by_id[candidate_id]["blockers"] = [decision["reason"]]
 
     raw_studies, api_stats = collect(args.max_pages)
     converted = [record for study in raw_studies if (record := to_candidate(study))]
@@ -393,7 +394,7 @@ def main() -> int:
     discovered = round_robin_select(
         converted,
         needed,
-        set(existing_by_id) | registered_nct | excluded_nct,
+        set(existing_by_id) | registered_nct | excluded_nct | set(holds_by_id),
     )
     final = list(existing_by_id.values()) + discovered
     final = final[: args.target]
@@ -432,7 +433,8 @@ def main() -> int:
         ),
         "warning": (
             "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is "
-            "version verified until its SAP-internal protocol citation has been checked."
+            "version verified until its SAP-internal protocol citation has been checked. Excluded "
+            "and held studies are decision records outside this actionable pool."
         ),
     }
     args.summary.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

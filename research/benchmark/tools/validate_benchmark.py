@@ -250,6 +250,21 @@ def main() -> int:
         overlaps = sorted(set(candidate_ids) & registered_nct_ids)
         if overlaps:
             errors.append(f"candidate catalog overlaps registered studies: {overlaps}")
+        held_nct_ids = {
+            item.get("candidate_id")
+            for item in load_jsonl(BENCHMARK / "manifests" / "exclusions.jsonl")
+            if item.get("status", "").startswith("hold_")
+        }
+        held_candidates = sorted(set(candidate_ids) & held_nct_ids)
+        if held_candidates:
+            errors.append(f"candidate catalog contains held studies: {held_candidates}")
+        non_screened = sorted(
+            candidate.get("candidate_id", "")
+            for candidate in candidates
+            if not candidate.get("status", "").startswith("screened_")
+        )
+        if non_screened:
+            errors.append(f"candidate catalog contains non-screened statuses: {non_screened}")
         expected_candidates = config.get("scale_target", {}).get("screened_candidates")
         if expected_candidates is not None and candidate_count != expected_candidates:
             errors.append(

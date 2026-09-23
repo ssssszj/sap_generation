@@ -33,6 +33,7 @@
 - Excluded NCT03856047, NCT05025345, NCT02176018, and NCT04707014 for protocol-embedded SAP leakage, and excluded NCT03556293 and NCT04697836 as retrospective analysis summaries rather than prospective protocol/SAP pairs.
 - Put NCT02796677, NCT02407054, NCT02301897, and NCT00928447 on version-reconciliation hold, and NCT02173379 on public-redaction hold; holds remain outside the review queue.
 - Refreshed and replenished the candidate pool to 105, preserving 120 release-intake families, and increased the registered requirement total from 253 to 285.
+- Removed held studies from the actionable candidate-count denominator, replenished all ten held slots, recorded the two legacy version holds in the decision manifest, and added validator checks preventing held or non-screened records from re-entering the candidate catalog.
 
 ## 0.2-development - 2026-09-21
 
