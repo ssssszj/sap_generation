@@ -42,6 +42,9 @@
 - Promoted NCT02657564 as an auxiliary observational safety case after exact title/NCT/date matching and added 16 requirements that preserve unresolved population, reversibility, repeated-measure, missing-data, and multiplicity decisions.
 - Excluded NCT02866669, NCT05464914, and NCT03634488 as wrong document types; excluded NCT03435783 and NCT02015455 for protocol-embedded target leakage; and put NCT05540665 on version-reconciliation hold.
 - Refreshed and replenished the candidate pool to 102, preserving 120 release-intake families, and increased the registered requirement total from 308 to 345.
+- Promoted NCT01819506, NCT05135767, NCT03051984, and NCT03523117 after exact version/date or explicit governing-protocol reconciliation; added 67 requirements for stroke rehabilitation, alcohol-use feasibility, post-TKA NMES mechanisms, and pediatric iron-deficiency anemia.
+- Put NCT01831804 and NCT02849080 on version-reconciliation hold, put NCT05763082 on public-redaction hold, and excluded NCT01980771 as a retrospective completed-analysis note rather than a prospective governing SAP.
+- Refreshed and replenished the candidate pool to 98, preserving 120 release-intake families, and increased the registered requirement total from 345 to 412 (386 public plus 26 private-pilot requirements).
 
 ## 0.2-development - 2026-09-21
 

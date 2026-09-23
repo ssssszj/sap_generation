@@ -5,9 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT01819506",
+      "candidate_id": "NCT01929018",
       "domain": "cardiovascular",
-      "title": "Patient Targeted Upper Extremity Rehabilitation After Stroke",
+      "title": "Collaborative-care Rehabilitation After Dysvascular Amputation",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -18,112 +18,35 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT01819506/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT01819506/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT01929018/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT01929018/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT01831804",
+      "candidate_id": "NCT02242760",
       "domain": "dermatology",
-      "title": "Safety, Tolerability, Pharmacokinetics and Pharmacodynamics Study of Single and Repeated Doses of Topical GSK1278863",
+      "title": "P2 Multi-center Study of SB204 Gel in the Treatment of Acne Vulgaris",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "phase_1"
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "binary",
-        "count_or_rate",
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT01831804/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT01831804/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02242760/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02242760/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT02849080",
+      "candidate_id": "NCT01855399",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Oral Semaglutide Using a Flexible Dose Adjustment Based on Clinical Evaluation Versus Sitagliptin in Subjects With Type 2 Diabetes Mellitus.",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT02849080/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT02849080/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT05135767",
-      "domain": "gastroenterology_hepatology",
-      "title": "Biobehavioral Pathways Underlying Alcohol Use and Health",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05135767/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05135767/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03523117",
-      "domain": "hematology",
-      "title": "Multicenter Randomized Active-controlled Study to Investigate Efficacy & Safety of IV FCM in Pediatric Patients With IDA",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03523117/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03523117/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT05763082",
-      "domain": "immunology_rheumatology",
-      "title": "Bioequivalence Study of Two Treatments for the Treatment of Plaque Psoriasis",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT05763082/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT05763082/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01980771",
-      "domain": "infectious_disease",
-      "title": "Barbershop Talk: HIV Prevention for African American Heterosexual Men",
+      "title": "Technologically Enhanced Coaching: A Program to Improve Diabetes Outcomes",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -134,27 +57,103 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01980771/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01980771/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT01855399/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT01855399/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT03051984",
-      "domain": "musculoskeletal_pain",
-      "title": "Skeletal Muscle Atrophy and Dysfunction Following Total Knee Arthroplasty",
+      "queue_rank": 4,
+      "candidate_id": "NCT04173429",
+      "domain": "gastroenterology_hepatology",
+      "title": "Efficacy and Safety of Anticoagulant Therapy in Portal Vein Thrombosis",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
+        "single",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04173429/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04173429/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03658941",
+      "domain": "hematology",
+      "title": "Dural Tenting Sutures in Neurosurgery - is it Necessary?",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT03051984/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT03051984/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03658941/Prot_007.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03658941/SAP_006.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT07148791",
+      "domain": "immunology_rheumatology",
+      "title": "Exploratory Study of Anti-BCMA-CD19 CAR-T Cell Therapy in Relapsed or Refractory IgG4-Related Disease",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT07148791/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT07148791/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT03669133",
+      "domain": "infectious_disease",
+      "title": "Vitamin E for NASH Treatment in HIV Infected Individuals",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03669133/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03669133/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03101020",
+      "domain": "musculoskeletal_pain",
+      "title": "Visceral Manipulation in Patients With Chronic Low Back Pain",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03101020/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03101020/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -331,29 +330,10 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT01929018",
+      "candidate_id": "NCT01983462",
       "domain": "cardiovascular",
-      "title": "Collaborative-care Rehabilitation After Dysvascular Amputation",
+      "title": "Vascular Dysfunction in Human Obesity Hypertension",
       "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT01929018/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT01929018/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 19,
-      "candidate_id": "NCT02242760",
-      "domain": "dermatology",
-      "title": "P2 Multi-center Study of SB204 Gel in the Treatment of Acne Vulgaris",
-      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
@@ -361,18 +341,37 @@
         "phase_2"
       ],
       "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01983462/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01983462/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 19,
+      "candidate_id": "NCT02320149",
+      "domain": "dermatology",
+      "title": "Study to Evaluate Safety & Efficacy of Sarecycline in Treatment of Acne",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
         "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02242760/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02242760/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02320149/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02320149/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 20,
-      "candidate_id": "NCT01855399",
+      "candidate_id": "NCT02024750",
       "domain": "endocrine_metabolic",
-      "title": "Technologically Enhanced Coaching: A Program to Improve Diabetes Outcomes",
+      "title": "Tailored Diabetes Self-Management Resources",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -383,84 +382,85 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT01855399/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT01855399/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT02024750/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT02024750/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT04173429",
+      "candidate_id": "NCT07673497",
       "domain": "gastroenterology_hepatology",
-      "title": "Efficacy and Safety of Anticoagulant Therapy in Portal Vein Thrombosis",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04173429/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04173429/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 22,
-      "candidate_id": "NCT03658941",
-      "domain": "hematology",
-      "title": "Dural Tenting Sutures in Neurosurgery - is it Necessary?",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03658941/Prot_007.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03658941/SAP_006.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 23,
-      "candidate_id": "NCT07148791",
-      "domain": "immunology_rheumatology",
-      "title": "Exploratory Study of Anti-BCMA-CD19 CAR-T Cell Therapy in Relapsed or Refractory IgG4-Related Disease",
+      "title": "Can Vitamin D Replacement Correct Chronic Disease Anemia?",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_2"
+        "phase_4"
       ],
       "endpoint_types": [
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT07148791/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT07148791/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT07673497/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT07673497/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 24,
-      "candidate_id": "NCT03669133",
-      "domain": "infectious_disease",
-      "title": "Vitamin E for NASH Treatment in HIV Infected Individuals",
+      "queue_rank": 22,
+      "candidate_id": "NCT06616376",
+      "domain": "hematology",
+      "title": "The Affect Of An Anti-Embolism Stocking Protocol",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 23,
+      "candidate_id": "NCT07352566",
+      "domain": "immunology_rheumatology",
+      "title": "Utilization of a Microdevice for Psoriasis and Atopic Dermatitis",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 24,
+      "candidate_id": "NCT04407507",
+      "domain": "infectious_disease",
+      "title": "Efficacy, Safety and Tolerability of Ivermectin in Subjects Infected With SARS-CoV-2 With or Without Symptoms",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
         "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03669133/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03669133/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04407507/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04407507/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
