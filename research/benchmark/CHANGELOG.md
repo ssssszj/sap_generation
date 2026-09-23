@@ -34,6 +34,10 @@
 - Put NCT02796677, NCT02407054, NCT02301897, and NCT00928447 on version-reconciliation hold, and NCT02173379 on public-redaction hold; holds remain outside the review queue.
 - Refreshed and replenished the candidate pool to 105, preserving 120 release-intake families, and increased the registered requirement total from 253 to 285.
 - Removed held studies from the actionable candidate-count denominator, replenished all ten held slots, recorded the two legacy version holds in the decision manifest, and added validator checks preventing held or non-screened records from re-entering the candidate catalog.
+- Promoted NCT02341417 after verifying SAP v2.0 against the complete protocol Amendment 3 and a later superseding amendment restricted to administrative/typographical safety-threshold corrections; added 23 requirements for descriptive safety incidence, analysis sets, iPTH derivations, IPW and repeated-measures sensitivity analyses, growth, and combined parent-study summaries.
+- Excluded NCT01682356, NCT03955055, and NCT02075437 for wrong document type, and NCT00116337 and NCT03342027 for protocol-embedded analysis leakage.
+- Put NCT02279173 on version-reconciliation hold because its complete governing original protocol is absent, and NCT04435600 on public-redaction hold because material treatment doses are obscured.
+- Refreshed and replenished the candidate pool to 104, preserving 120 release-intake families, and increased the registered requirement total from 285 to 308.
 
 ## 0.2-development - 2026-09-21
 
