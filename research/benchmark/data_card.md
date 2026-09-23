@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains twenty-three registered study families:
+The working benchmark contains twenty-nine registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -27,8 +27,14 @@ The working benchmark contains twenty-three registered study families:
 - Biobehavioral Pathways Underlying Alcohol Use and Health, a nonrandomized two-cohort feasibility intervention with six operational feasibility thresholds;
 - total-knee-arthroplasty NMES, a randomized mechanistic rehabilitation study with fiber-level, mitochondrial, and functional outcomes;
 - pediatric iron-deficiency anemia treated with ferric carboxymaltose, a Phase III active-controlled study with documented protocol-to-SAP population, imputation, laboratory-grading, and subgroup changes.
+- collaborative-care rehabilitation after dysvascular transtibial amputation, a sex-stratified randomized trial with a protocol-to-SAP switch to maximum-likelihood repeated measures;
+- technology-enhanced diabetes coaching, whose randomized TEC-versus-peer-support comparison is kept distinct from its observational usual-care cohort;
+- G-FLIP plus vitamin C in advanced pancreatic cancer, a single-arm Phase II study with randomized vitamin-C timing only for acute safety;
+- computerized e-SBI for risky alcohol use among women of childbearing age, a developmental randomized trial with GEE, imputation, and explicitly post-hoc drink-size analyses;
+- VM202 for painful diabetic peripheral neuropathy, a Phase III fixed-sequence trial with continuous and responder repeated-measures models and extensive missing-data sensitivity analyses;
+- twice-weekly versus thrice-weekly hemodialysis, a randomized crossover equivalence study using KDQOL-36 and a -5 to +5 margin.
 
-All twenty-two public studies have first-pass annotations. Together with the private pilot, the registered set contains 412 evidence-backed requirements: 386 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All twenty-eight public studies have first-pass annotations. Together with the private pilot, the registered set contains 508 evidence-backed requirements: 482 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -61,7 +67,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only twenty-two public studies have first-pass gold annotations, with no completed expert adjudication;
+- only twenty-eight public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -72,4 +78,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 98 remain metadata-screened acquisition candidates and twenty-two are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 92 remain metadata-screened acquisition candidates and twenty-eight are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
