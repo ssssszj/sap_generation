@@ -5,28 +5,28 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT07008391",
+      "candidate_id": "NCT04087655",
       "domain": "cardiovascular",
-      "title": "High-Sensitivity Troponin I in Addition to Guideline-Based Care in EMS",
+      "title": "Microvascular Dysfunction in Obesity",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT07008391/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT07008391/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04087655/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04087655/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04091087",
+      "candidate_id": "NCT04762277",
       "domain": "dermatology",
-      "title": "Study Evaluating Efficacy and Safety of Crisaborole in Adults With Stasis Dermatitis",
+      "title": "A Study to Test Whether Spesolimab Helps People With a Skin Disease Called Hidradenitis Suppurativa",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -35,36 +35,56 @@
         "phase_2"
       ],
       "endpoint_types": [
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT04091087/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT04091087/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT04762277/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT04762277/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05822648",
+      "candidate_id": "NCT03297541",
       "domain": "endocrine_metabolic",
-      "title": "Evaluating a Type 2 Diabetes Prevention Program",
+      "title": "Healthy Kids I-PAL",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
+        "na",
+        "single_group",
+        "none",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT05822648/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT05822648/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03297541/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03297541/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT02840721",
+      "candidate_id": "NCT03524092",
       "domain": "gastroenterology_hepatology",
-      "title": "Safety, Efficacy, and Tolerability Study of PF-06480605 in Subjects With Moderate to Severe Ulcerative Colitis.",
+      "title": "A Maintenance Study of Mirikizumab in Participants With Moderately to Severely Active Ulcerative Colitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03524092/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03524092/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT05148299",
+      "domain": "hematology",
+      "title": "A Study of Pegcetacoplan for Patients With Transplant-associated Thrombotic Microangiopathy After Hematopoietic Stem Cell Transplantation",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -73,87 +93,69 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "time_to_event",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02840721/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02840721/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02615691",
-      "domain": "hematology",
-      "title": "A Study of PEGylated Recombinant Factor VIII (BAX855) in Previously Untreated Young Children With Severe Hemophilia A",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02615691/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02615691/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05148299/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05148299/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT02752776",
+      "candidate_id": "NCT03392168",
       "domain": "immunology_rheumatology",
-      "title": "A Study to Evaluate Clear Skin Effect on Quality of Life in Patients With Plaque Psoriasis.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02752776/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02752776/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02612428",
-      "domain": "infectious_disease",
-      "title": "Randomized, Open-Label, Multicenter, Controlled, Pivotal Study to Assess Safety and Efficacy of ELAD in Subjects w/ AILD",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT02612428/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT02612428/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03174132",
-      "domain": "musculoskeletal_pain",
-      "title": "Pain and Safety of Restylane Perlane With and Without Lidocaine for Correction of Moderate and Severe Nasolabial Folds",
+      "title": "Safety, Pharmacokinetics and Efficacy of ARQ-151 Cream in Adults With Mild to Moderate Chronic Plaque Psoriasis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "na"
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03392168/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03392168/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02765802",
+      "domain": "infectious_disease",
+      "title": "A Study to Evaluate Pegylated Interferon Lambda Monotherapy in Patients With Chronic Hepatitis Delta Virus Infection",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02765802/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02765802/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03802565",
+      "domain": "musculoskeletal_pain",
+      "title": "Tolperisone in Acute Muscle Spasm of the Back",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT03174132/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT03174132/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03802565/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03802565/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -215,86 +217,87 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT04087655",
+      "candidate_id": "NCT01824394",
       "domain": "cardiovascular",
-      "title": "Microvascular Dysfunction in Obesity",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04087655/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04087655/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 13,
-      "candidate_id": "NCT04762277",
-      "domain": "dermatology",
-      "title": "A Study to Test Whether Spesolimab Helps People With a Skin Disease Called Hidradenitis Suppurativa",
+      "title": "nMARQ™ Pulmonary Vein Isolation System for the Treatment of Paroxysmal Atrial Fibrillation",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_2"
+        "single",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT01824394/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT01824394/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 13,
+      "candidate_id": "NCT02405091",
+      "domain": "dermatology",
+      "title": "Safety and Tolerability Study of NBI-98854 for the Treatment of Tardive Dyskinesia",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02405091/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02405091/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 14,
+      "candidate_id": "NCT04651218",
+      "domain": "endocrine_metabolic",
+      "title": "Behavioral Mechanism of Energy Compensation With Exercise",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "non_randomized",
+        "crossover",
+        "single",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT04651218/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT04651218/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 15,
+      "candidate_id": "NCT03596164",
+      "domain": "gastroenterology_hepatology",
+      "title": "An Extension Study of Teduglutide in Japanese Participants With Short Bowel Syndrome Who Completed 24 Weeks of Treatment in SHP633-306 or TED-C14-004",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
       ],
       "endpoint_types": [
         "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT04762277/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT04762277/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 14,
-      "candidate_id": "NCT03297541",
-      "domain": "endocrine_metabolic",
-      "title": "Healthy Kids I-PAL",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03297541/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03297541/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 15,
-      "candidate_id": "NCT03524092",
-      "domain": "gastroenterology_hepatology",
-      "title": "A Maintenance Study of Mirikizumab in Participants With Moderately to Severely Active Ulcerative Colitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03524092/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03524092/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03596164/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03596164/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT05148299",
+      "candidate_id": "NCT05568225",
       "domain": "hematology",
-      "title": "A Study of Pegcetacoplan for Patients With Transplant-associated Thrombotic Microangiopathy After Hematopoietic Stem Cell Transplantation",
+      "title": "A Study of Etavopivat for the Treatment of Anemia in Patients With Myelodysplastic Syndromes (MDS)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -303,11 +306,10 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05148299/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05148299/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT05568225/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT05568225/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -388,67 +390,28 @@
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT01824394",
+      "candidate_id": "NCT02036970",
       "domain": "cardiovascular",
-      "title": "nMARQ™ Pulmonary Vein Isolation System for the Treatment of Paroxysmal Atrial Fibrillation",
+      "title": "Bardoxolone Methyl Evaluation in Patients With Pulmonary Hypertension (PH) - LARIAT",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "single",
-        "phase_3"
+        "sequential",
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT01824394/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT01824394/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02036970/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02036970/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 22,
-      "candidate_id": "NCT02405091",
+      "candidate_id": "NCT02736955",
       "domain": "dermatology",
-      "title": "Safety and Tolerability Study of NBI-98854 for the Treatment of Tardive Dyskinesia",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02405091/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02405091/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 23,
-      "candidate_id": "NCT04651218",
-      "domain": "endocrine_metabolic",
-      "title": "Behavioral Mechanism of Energy Compensation With Exercise",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "non_randomized",
-        "crossover",
-        "single",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT04651218/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT04651218/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 24,
-      "candidate_id": "NCT03596164",
-      "domain": "gastroenterology_hepatology",
-      "title": "An Extension Study of Teduglutide in Japanese Participants With Short Bowel Syndrome Who Completed 24 Weeks of Treatment in SHP633-306 or TED-C14-004",
+      "title": "Rollover Study for Continuing Valbenazine (NBI-98854) Administration for the Treatment of Tardive Dyskinesia",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -457,11 +420,49 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate",
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02736955/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02736955/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 23,
+      "candidate_id": "NCT04681664",
+      "domain": "endocrine_metabolic",
+      "title": "Gut Microbiome Based Analysis of High Protein High Fat Diet",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03596164/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03596164/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT04681664/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT04681664/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 24,
+      "candidate_id": "NCT03920254",
+      "domain": "gastroenterology_hepatology",
+      "title": "TD-1473 Long-Term Safety (LTS) Ulcerative Colitis (UC) Study",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "quadruple",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT03920254/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT03920254/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
