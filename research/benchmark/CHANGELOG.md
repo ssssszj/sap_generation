@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 22 produced no promotion: placed NCT04944290 on public-redaction hold because material allocation, sample-size, population and primary-model content is obscured; excluded NCT03251482 and NCT01946789 for protocol-embedded target leakage or absence of an independent SAP; and excluded NCT03172364, NCT04090580, NCT02955602, NCT02993107 and NCT01818258 as post-primary, post-unblinding, results-bearing or final-analysis documents.
+- Refreshed and replenished all eight non-promotable slots, preserving 58 actionable metadata candidates alongside 62 version-verified public annotation drafts.
+
 - Batch 21 promoted NCT03402750 after exact NCT/date matching between Protocol Version 6 and SAP Version 1; added 24 requirements for the Meds-to-Beds heart-failure medication-adherence pilot.
 - Excluded NCT03124381, NCT03061201 and NCT01921387 for protocol-embedded target leakage or absence of an independent SAP; excluded NCT03378635, NCT02914561, NCT02975336 and NCT07573423 as retrospective, post-primary, termination-informed or otherwise non-prospective document packages.
 - Refreshed and replenished the candidate pool to 58, preserving 120 release-intake families, and increased the registered requirement total from 1,078 to 1,102 (1,076 public plus 26 private-pilot requirements).

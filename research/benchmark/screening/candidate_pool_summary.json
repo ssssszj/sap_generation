@@ -20,22 +20,22 @@
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 1,
-    "oncology": 1,
+    "musculoskeletal_pain": 1,
     "other_clinical": 5,
     "psychiatry": 1,
     "reproductive_maternal": 4,
     "respiratory": 5
   },
   "intervention_distribution": {
-    "behavioral": 7,
-    "device": 3,
-    "drug": 32,
-    "mixed": 8,
-    "other": 7,
-    "procedure": 1
+    "behavioral": 8,
+    "device": 4,
+    "drug": 31,
+    "mixed": 9,
+    "other": 4,
+    "procedure": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 10,
+    "binary": 12,
     "continuous": 11,
     "count_or_rate": 12,
     "other_or_manual_review": 33
