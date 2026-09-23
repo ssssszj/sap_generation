@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 62 screening - 2026-09-24
+
+- Batch 62 produced no promotion: excluded NCT02510794, NCT03757130, NCT02620046, NCT03285711, NCT03069365, NCT03368235, NCT02569398 and NCT03425656 because every model-visible protocol exposes an executable target analysis; four families additionally have post-primary/post-completion, extension-family or non-independent same-day-SAP defects.
+- Batch 62 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked every cover, version header and decisive statistical page, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 ## Batch 61 screening - 2026-09-24
 
 - Batch 61 produced no promotion: placed NCT02570113 on governing-version hold because its SAP cover cites CR0001 while all content-page headers cite CR0002; excluded NCT03552757, NCT02589665, NCT04823130, NCT03057119, NCT03347110, NCT02565186 and NCT02508389 for protocol-embedded executable-plan leakage, with post-primary/post-completion, technical-supplement or rollover-family defects in six families.
