@@ -5,49 +5,124 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02415400",
+      "candidate_id": "NCT02541591",
       "domain": "cardiovascular",
-      "title": "A Study of Apixaban in Patients With Atrial Fibrillation, Not Caused by a Heart Valve Problem, Who Are at Risk for Thrombosis (Blood Clots) Due to Having Had a Recent Coronary Event, Such as a Heart Attack or a Procedure to Open the Vessels of the Heart",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "factorial",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02415400/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02415400/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03426345",
-      "domain": "endocrine_metabolic",
-      "title": "Study to Evaluate the Safety and Efficacy of Relamorelin in Participants With Diabetic Gastroparesis Study 02",
+      "title": "Neuroprotective Goal Directed Hemodynamic Optimization in Post-cardiac Arrest Patients",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_3"
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03426345/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03426345/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02541591/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02541591/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT03503370",
+      "domain": "endocrine_metabolic",
+      "title": "Preventing Diabetic Foot Ulcers Through Cleaner Feet",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03503370/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03503370/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT02240121",
+      "candidate_id": "NCT02401035",
       "domain": "gastroenterology_hepatology",
-      "title": "One Year Study of Rifaximin Delayed Release (DR) Tablets in Crohn's Disease",
+      "title": "PREA, PK And Safety PASS Study Of IV Pantoprazole In Pediatric Subjects",
       "pairing_state": "needs_version_review",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02401035/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02401035/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT04652245",
+      "domain": "immunology_rheumatology",
+      "title": "Dymista Allergen Chamber - Onset of Action Study",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "crossover",
+        "double",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT04652245/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT04652245/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03008070",
+      "domain": "infectious_disease",
+      "title": "Phase 2b Study in NASH to Assess IVA337",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03008070/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03008070/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03254459",
+      "domain": "musculoskeletal_pain",
+      "title": "Study of Buprenorphine Sublingual Spray Versus Standard of Care Narcotic Therapy for the Treatment of Post-Operative Pain",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03254459/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03254459/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02477800",
+      "domain": "neurology",
+      "title": "221AD301 Phase 3 Study of Aducanumab (BIIB037) in Early Alzheimer's Disease",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
@@ -55,109 +130,29 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02240121/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02240121/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04603027",
-      "domain": "immunology_rheumatology",
-      "title": "A Phase 2 Study Investigating the Effect of EDP1815 in the Treatment of Mild to Moderate Plaque Psoriasis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT04603027/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT04603027/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02994056",
-      "domain": "infectious_disease",
-      "title": "Evaluate the Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed-Dose Combination and Ribavirin for 12 Weeks in Participants With Chronic HCV Infection and Child-Pugh-Turcotte Class C Cirrhosis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT02994056/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT02994056/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03122860",
-      "domain": "musculoskeletal_pain",
-      "title": "A Study Evaluating the Safety and Efficacy of SM04690 for the Treatment of Moderately to Severely Symptomatic Knee Osteoarthritis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
-      ],
-      "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03122860/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03122860/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02358538",
-      "domain": "neurology",
-      "title": "Open-Label PoC Trial of Ganaxolone in Children With PCDH19 Female Pediatric Epilepsy and Other Rare Genetic Epilepsies",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02358538/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02358538/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02477800/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02477800/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT02759588",
+      "candidate_id": "NCT03719300",
       "domain": "oncology",
-      "title": "Olvi-Vec Oncolytic Immunotherapy in Patients With Recurrent or Refractory Ovarian Cancer",
+      "title": "Codex: Study of Inodiftagene Vixteplasmid (BC-819) in Unresponsive NMIBC",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "non_randomized",
-        "sequential",
+        "na",
+        "single_group",
         "none",
-        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "binary",
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT02759588/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT02759588/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT03719300/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT03719300/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -219,21 +214,21 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT03503370",
+      "candidate_id": "NCT03512262",
       "domain": "endocrine_metabolic",
-      "title": "Preventing Diabetic Foot Ulcers Through Cleaner Feet",
+      "title": "Safety and Efficacy of Abaloparatide-SC in Men With Osteoporosis (ATOM)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03503370/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03503370/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03512262/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03512262/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -316,21 +311,21 @@
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT03719300",
+      "candidate_id": "NCT02285855",
       "domain": "oncology",
-      "title": "Codex: Study of Inodiftagene Vixteplasmid (BC-819) in Unresponsive NMIBC",
+      "title": "Metformin in Non Small Cell Lung Cancer (NSCLC)",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "double",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT03719300/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT03719300/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02285855/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02285855/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -391,9 +386,9 @@
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT03512262",
+      "candidate_id": "NCT03552757",
       "domain": "endocrine_metabolic",
-      "title": "Safety and Efficacy of Abaloparatide-SC in Men With Osteoporosis (ATOM)",
+      "title": "Research Study Investigating How Well Semaglutide Works in People With Type 2 Diabetes Suffering From Overweight or Obesity",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -402,10 +397,11 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03512262/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03512262/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03552757/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03552757/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
