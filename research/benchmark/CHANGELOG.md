@@ -54,6 +54,9 @@
 - Promoted NCT01671956, NCT02040844, NCT04407507, NCT03277248, and NCT02247531 after explicit governing-version or exact identity/date reconciliation; added 93 requirements spanning exploratory ulcerative-colitis analysis, long-term allergy follow-up, COVID-19 treatment, relapsing multiple sclerosis, and geographic atrophy.
 - Excluded NCT03181971 and NCT01317875 as retrospective or CSR analysis materials and NCT00589316 for protocol-embedded target leakage; placed NCT01983462, NCT02672332, NCT03316118, and NCT00993551 on version-reconciliation hold for unresolved dose or internal version conflicts.
 - Refreshed and replenished the candidate pool to 81, preserving 120 release-intake families, and increased the registered requirement total from 599 to 692 (666 public plus 26 private-pilot requirements).
+- Promoted NCT02728752, NCT02443155, NCT02234843, NCT04925934, NCT03637517, NCT03326999, NCT03790280, and NCT02508649 after explicit governing-version or exact title/NCT/date reconciliation; added 128 requirements spanning dermatomyositis, type 1 diabetes, pediatric VTE, SLE, clinical pharmacology, perioperative pain, epilepsy surgery, and adaptive septic-shock analysis.
+- Excluded NCT01709981, NCT03856164, and NCT01462253 for protocol-embedded target leakage, and placed NCT02652767 on version-reconciliation hold because its SAP does not explicitly identify the governing protocol version or date.
+- Refreshed and replenished the candidate pool to 73, preserving 120 release-intake families, and increased the registered requirement total from 692 to 820 (794 public plus 26 private-pilot requirements).
 
 ## 0.2-development - 2026-09-21
 

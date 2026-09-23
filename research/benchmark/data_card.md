@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains forty registered study families:
+The working benchmark contains forty-eight registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -44,8 +44,16 @@ The working benchmark contains forty registered study families:
 - SILVER BULLET ivermectin in COVID-19, a compact randomized Phase II study retained with explicit population, safety-set, and malformed-hypothesis confirmation requirements;
 - ULTIMATE II in relapsing multiple sclerosis, a Phase III active-controlled trial with negative-binomial relapse modeling, cross-study fixed-sequence testing, and blinded sample-size reassessment;
 - SPECTRI lampalizumab in geographic atrophy, a Phase III sham-controlled ophthalmology trial whose final SAP supersedes the protocol's primary hierarchy and adds extensive MAR/MNAR sensitivity analyses.
+- ProDERM, a randomized Phase III dermatomyositis trial with Week-16 TIS response, GDA-stratified CMH analysis, nonresponder handling, and an open-label extension;
+- NNC0114-0006 in newly diagnosed type 1 diabetes, a four-arm double-dummy trial using relative MMTT C-peptide AUC and log-scale repeated-measures estimation;
+- EINSTEIN Junior, an open-label pediatric VTE trial whose efficacy and bleeding comparisons are intentionally descriptive rather than powered non-inferiority claims;
+- RECAST SLE, a three-arm exploratory Phase II trial with a composite BICLA plus oral-glucocorticoid response estimand and alpha-0.10 comparisons;
+- B19-227 DSM265 relative bioavailability and food effect, a Phase I PK study with log-ANOVA contrasts and a 0.80–1.25 interval rule;
+- obturator nerve block added to adductor canal block for total knee arthroplasty, a compact randomized trial retaining unresolved opioid derivation, population, and missing-data decisions;
+- high-frequency-oscillation guidance in pediatric epilepsy surgery, a small randomized trial with time-to-event and binary seizure-free analyses and unresolved censoring details;
+- SEPSIS-ACT, an adaptive Phase IIb/III selepressin trial with response-adaptive randomization, P&VFD, van Elteren testing, predictive probabilities, and Hochberg multiplicity.
 
-All thirty-nine public studies have first-pass annotations. Together with the private pilot, the registered set contains 692 evidence-backed requirements: 666 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All forty-seven public studies have first-pass annotations. Together with the private pilot, the registered set contains 820 evidence-backed requirements: 794 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -78,7 +86,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only thirty-nine public studies have first-pass gold annotations, with no completed expert adjudication;
+- only forty-seven public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -89,4 +97,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 81 remain metadata-screened acquisition candidates and thirty-nine are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 73 remain metadata-screened acquisition candidates and forty-seven are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
