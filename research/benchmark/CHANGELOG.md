@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 43 produced no promotion: excluded NCT01243424, NCT05589610, NCT02597049, NCT05291689, NCT03565237, NCT03610516, NCT02414399 and NCT02536833 because their public protocols disclose executable target analyses, with post-primary/completion SAP defects in five families.
+- Batch 43 hash-froze 16 PDFs and eight registry records, extracted all documents, visually checked their covers and decisive pages, and returned all eight slots for replenishment while preserving 70 public drafts plus 50 metadata candidates.
+
 - Batch 42 produced no promotion: excluded NCT01975389, NCT05192200, NCT02589639, NCT04023396, NCT03489291, NCT03598790, NCT02699099 and NCT02517905 because their public protocols disclose executable target analyses, with additional post-primary/completion or CSR-packaging defects in five families.
 - Batch 42 hash-froze 16 PDFs and eight registry records, extracted all documents, visually checked their covers and decisive pages, and returned all eight slots for replenishment while preserving 70 public drafts plus 50 metadata candidates.
 
