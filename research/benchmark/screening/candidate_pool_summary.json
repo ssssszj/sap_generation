@@ -4,12 +4,12 @@
   "api_data_timestamp": "2026-09-23T09:00:05",
   "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true AND AREA[StudyType]INTERVENTIONAL",
   "query_total": 43644,
-  "pages_fetched": 1,
-  "records_screened": 1000,
-  "eligible_separate_protocol_sap_pairs": 368,
-  "registered_studies_including_pilot": 68,
-  "registered_release_eligible": 67,
-  "screened_candidates": 53,
+  "pages_fetched": 6,
+  "records_screened": 6000,
+  "eligible_separate_protocol_sap_pairs": 2200,
+  "registered_studies_including_pilot": 69,
+  "registered_release_eligible": 68,
+  "screened_candidates": 52,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
@@ -20,30 +20,29 @@
     "hematology": 6,
     "immunology_rheumatology": 5,
     "infectious_disease": 2,
-    "musculoskeletal_pain": 1,
     "neurology": 2,
     "oncology": 1,
     "other_clinical": 5,
     "respiratory": 3
   },
   "intervention_distribution": {
-    "behavioral": 6,
-    "device": 4,
-    "drug": 29,
-    "mixed": 7,
-    "other": 7
+    "behavioral": 5,
+    "device": 3,
+    "drug": 32,
+    "mixed": 6,
+    "other": 6
   },
   "endpoint_distribution_multi_label": {
-    "binary": 10,
-    "continuous": 13,
-    "count_or_rate": 10,
+    "binary": 9,
+    "continuous": 14,
+    "count_or_rate": 9,
     "other_or_manual_review": 24,
-    "time_to_event": 1
+    "time_to_event": 2
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 12,
-    "needs_version_review": 1,
-    "plausible_date_order": 40
+    "exact_document_date_match": 11,
+    "needs_version_review": 2,
+    "plausible_date_order": 39
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }

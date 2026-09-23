@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 35 promoted NCT02405091 after exact NBI-98854-1402 title/identifier matching and prospective 2015-12-03 protocol to 2016-04-05 SAP chronology; added 22 requirements for its open-label valbenazine titration, analysis set, dose trajectories, visit mapping, descriptive AIMS/CGI-TD/PGIC/TDIS efficacy summaries, PK and safety displays.
+- Batch 35 excluded NCT01824394, NCT04651218 and NCT03596164 because the public analysis material is retrospective, post-primary or post-completion, and excluded NCT05568225, NCT03421197, NCT02842853 and NCT03906136 for protocol-embedded target leakage; refreshed the pool to 52 candidates and increased the registered total from 1,213 to 1,235 requirements (1,209 public plus 26 private-pilot requirements).
+
 - Batch 34 produced no promotion: excluded NCT04087655, NCT04762277, NCT03297541, NCT03524092, NCT03392168 and NCT03802565 for protocol-embedded target leakage, and excluded NCT05148299 and NCT02765802 because the public SAPs are post-completion execution-informed versions.
 - Batch 34 hash-froze and text-extracted all 16 PDFs, visually checked covers and decisive statistical/version pages, then refreshed and replenished all eight rejected slots while preserving 67 public drafts plus 53 metadata candidates.
 
