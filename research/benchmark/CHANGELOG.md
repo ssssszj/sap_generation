@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 52 produced no promotion: excluded NCT02439775, NCT03131687, NCT06007781, NCT04181762, NCT02880865, NCT02960490 and NCT01931566 for protocol-embedded executable-plan leakage, with post-primary/completion or execution-informed SAP defects in four families, and placed NCT04565236 on governing-version hold because its SAP cites an unavailable Protocol Version 2.0 rather than the public Version 4.0.
+- Batch 52 hash-froze and text-extracted 16 PDFs and eight registry records, fully OCRed the scan-only NCT06007781 protocol, visually checked all covers and decisive pages, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 - Batch 51 produced no promotion: excluded NCT02419508, NCT03066830, NCT05882032, NCT03407651, NCT04145219, NCT02858401, NCT02946073 and NCT00351611 for protocol-embedded executable-plan leakage, with post-primary/completion or execution-informed defects in five families.
 - Batch 51 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked all covers and decisive pages, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
 
