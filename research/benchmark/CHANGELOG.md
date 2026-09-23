@@ -2,6 +2,10 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 25 promoted NCT05187013 after exact NCT/internal-ID/title/date matching between the protocol and the separate Statistical Design and Power document; added 24 requirements for its two-site hypertension mHealth and mixed-methods design.
+- Excluded NCT03271021, NCT03077412, NCT03401112, NCT03131648 and NCT02175758 for protocol-embedded target leakage, and excluded NCT03036592 and NCT04731233 for non-independent, executed or post-completion document packages.
+- Visually inspected all identity and decision-defining pages, refreshed the candidate pool to 57, preserved the 120-family release intake, and increased the registered requirement total from 1,102 to 1,126 (1,100 public plus 26 private-pilot requirements).
+
 - Batch 24 produced no promotion: excluded NCT03464110, NCT03197883, NCT03017235 and NCT03055494 for protocol-embedded target leakage, and excluded NCT02918279, NCT03370913, NCT01983683 and NCT03636386 as post-completion CTR, CSR, regulatory-bridge or result-bearing document packages.
 - Visually inspected all identity and decision-defining pages and refreshed and replenished all eight rejected slots, preserving 58 actionable metadata candidates alongside 62 version-verified public annotation drafts.
 

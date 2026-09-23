@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-23",
+  "generated_on": "2026-09-24",
   "source": "ClinicalTrials.gov API v2",
   "api_data_timestamp": "2026-09-23T09:00:05",
   "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true AND AREA[StudyType]INTERVENTIONAL",
@@ -7,9 +7,9 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2200,
-  "registered_studies_including_pilot": 63,
-  "registered_release_eligible": 62,
-  "screened_candidates": 58,
+  "registered_studies_including_pilot": 64,
+  "registered_release_eligible": 63,
+  "screened_candidates": 57,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
@@ -20,27 +20,26 @@
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 1,
-    "musculoskeletal_pain": 1,
     "other_clinical": 5,
     "psychiatry": 1,
     "reproductive_maternal": 4,
     "respiratory": 5
   },
   "intervention_distribution": {
-    "behavioral": 8,
+    "behavioral": 7,
     "device": 4,
-    "drug": 31,
+    "drug": 29,
     "mixed": 11,
-    "other": 4
+    "other": 6
   },
   "endpoint_distribution_multi_label": {
-    "binary": 10,
-    "continuous": 9,
+    "binary": 8,
+    "continuous": 8,
     "count_or_rate": 12,
     "other_or_manual_review": 34
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 29,
+    "exact_document_date_match": 28,
     "plausible_date_order": 29
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
