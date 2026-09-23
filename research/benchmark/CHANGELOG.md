@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 51 produced no promotion: excluded NCT02419508, NCT03066830, NCT05882032, NCT03407651, NCT04145219, NCT02858401, NCT02946073 and NCT00351611 for protocol-embedded executable-plan leakage, with post-primary/completion or execution-informed defects in five families.
+- Batch 51 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked all covers and decisive pages, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 - Batch 50 produced no promotion: excluded NCT01991795, NCT03056456, NCT05731895, NCT03392974, NCT03895372, NCT02853929, NCT02885181 and NCT07542535 for protocol-embedded executable-plan leakage, with post-completion or execution-informed SAP defects in five families.
 - Batch 50 hash-froze and text-extracted 16 PDFs and eight registry records, OCRed the scan-heavy NCT05731895 pair, visually checked all covers and decisive pages, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
 
