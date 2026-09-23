@@ -1,0 +1,28 @@
+{
+  "study_id": "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R003",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R005",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R008",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R009",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R012",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R013",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R014",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R019",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R020",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001-R021"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact title, NCT03588572, institution and August 2018 identity/date match between protocol and SAP.",
+    "Confirm allocation ratio, concealment and assessor masking.",
+    "Adjudicate the definitive WAB AQ primary model, baseline adjustment, covariance and V3 contrast.",
+    "Review imaging preprocessing, thresholds, ROI/seed definitions and the boundary between confirmatory and exploratory analyses.",
+    "Complete efficacy and imaging populations, estimand, missing-data, multiplicity, effect-reporting and safety specifications.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

@@ -2,6 +2,10 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 27 promoted NCT05477875 after exact protocol-ID/title/version/date matching and NCT03588572 after exact title/NCT/institution/date matching; added 41 requirements for paired-eye PRK pain and longitudinal aphasia neuroimaging.
+- Excluded NCT03594227, NCT03395184, NCT04007198 and NCT04082442 for protocol-embedded target leakage, excluded NCT06210035 as an execution-informed SAP, and placed NCT01667406 on governing-version hold.
+- Visually inspected identity and decision-defining pages, refreshed the candidate pool to 55, preserved the 120-family release intake, and increased the registered requirement total from 1,126 to 1,167 (1,141 public plus 26 private-pilot requirements).
+
 - Batch 26 produced no promotion: excluded NCT03497897, NCT01895777 and NCT03210961 for protocol-embedded target leakage, and excluded NCT03046927, NCT03283085, NCT02386098, NCT02655692 and NCT06380634 as post-completion, CSR-oriented, retrospective or execution-informed document packages.
 - Visually inspected all identity and decision-defining pages and refreshed and replenished all eight rejected slots, preserving 57 actionable metadata candidates alongside 63 version-verified public annotation drafts.
 
