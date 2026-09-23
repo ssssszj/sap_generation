@@ -13,30 +13,30 @@
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
-    "cardiovascular": 8,
+    "cardiovascular": 9,
     "dermatology": 9,
     "endocrine_metabolic": 8,
     "gastroenterology_hepatology": 7,
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 1,
+    "musculoskeletal_pain": 1,
     "other_clinical": 5,
-    "psychiatry": 1,
-    "reproductive_maternal": 4,
+    "reproductive_maternal": 3,
     "respiratory": 5
   },
   "intervention_distribution": {
     "behavioral": 7,
     "device": 4,
-    "drug": 29,
-    "mixed": 11,
+    "drug": 27,
+    "mixed": 13,
     "other": 6
   },
   "endpoint_distribution_multi_label": {
-    "binary": 8,
-    "continuous": 8,
-    "count_or_rate": 12,
-    "other_or_manual_review": 34
+    "binary": 9,
+    "continuous": 12,
+    "count_or_rate": 11,
+    "other_or_manual_review": 33
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 28,
