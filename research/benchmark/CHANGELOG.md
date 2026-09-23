@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Promoted NCT02053792 after SAP Version 4 explicitly cited Protocol Amendment 6 and promoted NCT02984267 after exact title/NCT/date matching; added 37 requirements spanning exposure-qualified inhibitor incidence, bleeding-rate noninferiority, PK and substudies, and a deliberately under-specified obstetric-device analysis.
+- Excluded NCT02344576, NCT02536248, NCT04761822 and NCT01802216 for protocol-embedded target leakage; excluded NCT02575950, NCT02225353, NCT02119156, NCT02029443, NCT01898299 and NCT06684951 because the public analysis material was retrospective, post-primary-completion without a defensible pre-unblinding chain, or the wrong document type.
+- Refreshed and replenished the candidate pool to 63, preserving the 120-family release intake, and increased the registered requirement total from 958 to 995 (969 public plus 26 private-pilot requirements).
 - Set a 120-family release-eligible intake target, excluding the private pilot, with at least 100 retained families.
 - Defined a 40/20/40 split at the 100-family floor and a 60/20/40 stretch split if all 120 eligible families pass.
 - Expanded the acquisition catalog from seven study candidates to 116, yielding 120 eligible registered-plus-screened study families across 17 broad domains.
