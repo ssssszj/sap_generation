@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 38 produced no promotion: excluded NCT01252953, NCT02991144, NCT02451137, NCT03893565, NCT03517566, NCT02568215 and NCT02174861 for protocol-embedded executable-plan leakage, often compounded by execution-informed or post-primary analysis revisions, and excluded NCT02201290 because its SAP addendum is a post-completion post-database-lock artifact.
+- Batch 38 hash-froze and text-extracted all 16 PDFs, visually checked covers, version histories and decisive statistical pages, and returned all eight rejected slots for candidate-pool replenishment.
+
 - Batch 37 promoted NCT04881890 after exact VA LC-DPP title/date matching and prospective 2021-04-20 protocol/SAP chronology; added 20 requirements for its single-arm mixed-methods feasibility pilot, including feasibility denominators, repeated quantitative outcomes, instrument scoring, analysis populations, missingness and qualitative coding.
 - Batch 37 excluded NCT02235909, NCT02899000, NCT03752970, NCT01945593, NCT03504852 and NCT02564523 for protocol-embedded target leakage, and excluded NCT01856309 because its SAP-slot file is a post-completion final-CSR notice stating that no SAP was created.
 - Batch 37 hash-froze and extracted all 16 PDFs, OCRed encoded decisive pages, visually checked identity and statistical pages, and increased the registered total from 1,235 to 1,255 requirements (1,229 public plus 26 private-pilot requirements).
