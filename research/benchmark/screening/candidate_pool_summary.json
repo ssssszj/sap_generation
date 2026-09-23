@@ -25,17 +25,16 @@
     "respiratory": 3
   },
   "intervention_distribution": {
-    "behavioral": 7,
-    "device": 3,
-    "drug": 27,
+    "behavioral": 6,
+    "device": 4,
+    "drug": 28,
     "mixed": 8,
-    "other": 3,
-    "procedure": 1
+    "other": 3
   },
   "endpoint_distribution_multi_label": {
     "binary": 8,
-    "continuous": 12,
-    "count_or_rate": 5,
+    "continuous": 10,
+    "count_or_rate": 6,
     "other_or_manual_review": 30,
     "time_to_event": 2
   },

@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 57 screening - 2026-09-24
+
+- Batch 57 produced no promotion: excluded NCT02274857, NCT03338023, NCT04444752, NCT02992418, NCT03104374 and NCT02284906 for protocol-embedded executable-plan leakage, with post-primary/post-completion defects in three families; excluded NCT02065622 because its protocol already contains the plan while the selected SAP covers only a post-primary Japan sub-study; and excluded NCT06338592 because its four-page post-primary upload reproduces the protocol's statistical section.
+- Batch 57 hash-froze and text-extracted 16 PDFs and eight registry records, fully OCRed the scan-only NCT02274857 protocol, visually checked every cover and decisive page, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 ## Batch 56 screening - 2026-09-24
 
 - Batch 56 produced no promotion: excluded NCT02508116, NCT03335371, NCT01680640, NCT04399837, NCT02955797, NCT03056690 and NCT02526017 for protocol-embedded executable-plan leakage, with retrospective, post-completion or governing-version defects in five families, and excluded NCT02202551 because its protocol leaks the analysis while its selected analysis plan is a three-study integrated safety summary rather than a study-level target.
