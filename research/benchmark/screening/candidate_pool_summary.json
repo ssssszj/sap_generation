@@ -25,22 +25,22 @@
     "respiratory": 3
   },
   "intervention_distribution": {
-    "behavioral": 7,
+    "behavioral": 8,
     "device": 5,
-    "drug": 29,
-    "mixed": 5,
-    "other": 3
+    "drug": 30,
+    "mixed": 4,
+    "other": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 4,
-    "continuous": 10,
-    "count_or_rate": 7,
-    "other_or_manual_review": 32,
-    "time_to_event": 2
+    "binary": 7,
+    "continuous": 8,
+    "count_or_rate": 9,
+    "other_or_manual_review": 30,
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 13,
-    "needs_version_review": 1,
+    "exact_document_date_match": 12,
+    "needs_version_review": 2,
     "plausible_date_order": 35
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."

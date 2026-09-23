@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 60 screening - 2026-09-24
+
+- Batch 60 produced no promotion: excluded NCT02558231, NCT03512262, NCT04891406, NCT03053050, NCT03319719, NCT02373098 and NCT02285855 because their model-visible protocols expose executable target analyses, with post-primary/post-completion chronology or a duplicated protocol extract in six families; excluded NCT03847389 because its post-completion plan is a termination-informed abbreviated safety-CSR plan rather than a prospective target.
+- Batch 60 hash-froze and extracted 16 PDFs and eight registry records, repaired malformed temporary parsing copies for NCT04891406 without changing the frozen originals, fully OCRed the scan-only NCT03847389 pair, visually checked every cover and decisive page, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 ## Batch 59 screening - 2026-09-24
 
 - Batch 59 produced no promotion: excluded NCT02541591, NCT03503370, NCT02401035, NCT04652245, NCT03008070, NCT03254459, NCT02477800 and NCT03719300 because every model-visible protocol exposes an executable target analysis; five families additionally have post-primary/post-completion chronology, and NCT03503370 provides only retrospective public documents.
