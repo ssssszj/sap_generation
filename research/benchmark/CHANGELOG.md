@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 63 screening - 2026-09-24
+
+- Batch 63 promoted NCT03309917 as `PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001` after exact title, NCT, protocol-ID and same-day document matching before study start; added 20 requirements covering randomized three-level MAP exposure, carotid-flow derivation, gas corrections, repeated-measures and slope-interaction analyses, and unresolved covariance, population, missing-data and multiplicity decisions.
+- Batch 63 excluded NCT02627196, NCT04167553, NCT04999839, NCT02891408, NCT03390036 and NCT02462603 for protocol-embedded executable analysis, with post-completion or governing-version defects in four families; excluded NCT02967991 because its selected analysis file describes a materially different 40-subject wet/dry-heparin comparison rather than the 20-subject 19G/22G needle protocol.
+- Batch 63 hash-froze and text-extracted all 16 PDFs and eight registry records, fully OCRed the character-spaced NCT02627196 protocol, visually checked every cover and decisive statistical page, refreshed the pool to 48 candidates and increased the registered total to 1,317 requirements (1,291 public plus 26 private-pilot requirements).
+
 ## Batch 62 screening - 2026-09-24
 
 - Batch 62 produced no promotion: excluded NCT02510794, NCT03757130, NCT02620046, NCT03285711, NCT03069365, NCT03368235, NCT02569398 and NCT03425656 because every model-visible protocol exposes an executable target analysis; four families additionally have post-primary/post-completion, extension-family or non-independent same-day-SAP defects.

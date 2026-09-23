@@ -7,9 +7,9 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2200,
-  "registered_studies_including_pilot": 72,
-  "registered_release_eligible": 71,
-  "screened_candidates": 49,
+  "registered_studies_including_pilot": 73,
+  "registered_release_eligible": 72,
+  "screened_candidates": 48,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
@@ -20,26 +20,26 @@
     "infectious_disease": 2,
     "musculoskeletal_pain": 1,
     "neurology": 6,
-    "oncology": 6,
+    "oncology": 5,
     "other_clinical": 5,
     "respiratory": 3
   },
   "intervention_distribution": {
-    "behavioral": 7,
-    "device": 8,
-    "drug": 26,
-    "mixed": 6,
-    "other": 2
+    "behavioral": 9,
+    "device": 7,
+    "drug": 27,
+    "mixed": 4,
+    "other": 1
   },
   "endpoint_distribution_multi_label": {
     "binary": 8,
-    "continuous": 8,
-    "count_or_rate": 7,
-    "other_or_manual_review": 31,
+    "continuous": 9,
+    "count_or_rate": 5,
+    "other_or_manual_review": 30,
     "time_to_event": 2
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 10,
+    "exact_document_date_match": 9,
     "needs_version_review": 2,
     "plausible_date_order": 37
   },

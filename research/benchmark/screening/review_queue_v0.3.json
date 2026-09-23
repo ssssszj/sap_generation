@@ -5,106 +5,28 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02627196",
+      "candidate_id": "NCT02656329",
       "domain": "cardiovascular",
-      "title": "Baroreflex Activation Therapy for Heart Failure",
+      "title": "International Study to Determine if AdreView Heart Function Scan Can be Used to Identify Patients With Mild or Moderate Heart Failure (HF) That Benefit From Implanted Medical Device",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "na"
+        "phase_3"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "continuous"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT02627196/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT02627196/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT02656329/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT02656329/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04167553",
+      "candidate_id": "NCT04039503",
       "domain": "endocrine_metabolic",
-      "title": "Study for Multiple Doses of HM15136(Efpegerglucagon) in Obese or Overweight Subjects With Comorbidities",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT04167553/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT04167553/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT02967991",
-      "domain": "gastroenterology_hepatology",
-      "title": "19 Versus 22-Gauge Needle for EUS-LB",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02967991/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT02967991/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04999839",
-      "domain": "immunology_rheumatology",
-      "title": "Study of NDI-034858 in Participants With Moderate to Severe Plaque Psoriasis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT04999839/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT04999839/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02891408",
-      "domain": "infectious_disease",
-      "title": "Study to Evaluate the Pharmacokinetics of Firsocostat or Fenofibrate in Adults With Normal and Impaired Hepatic Function",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02891408/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02891408/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03390036",
-      "domain": "musculoskeletal_pain",
-      "title": "Study of Cingal for the Relief of Knee Osteoarthritis Compared to Triamcinolone Hexacetonide at 39 Weeks Follow up",
+      "title": "A Study of Tirzepatide (LY3298176) Versus Placebo in Participants With Type 2 Diabetes Inadequately Controlled on Insulin Glargine With or Without Metformin",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -113,18 +35,114 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT04039503/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT04039503/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT03201445",
+      "domain": "gastroenterology_hepatology",
+      "title": "Study to Evaluate the Testicular Safety of Filgotinib in Adult Males With Moderately to Severely Active Inflammatory Bowel Disease",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03201445/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03201445/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT05073458",
+      "domain": "immunology_rheumatology",
+      "title": "Study of the Efficacy and Safety of Parsaclisib in Participants With Primary Warm Autoimmune Hemolytic Anemia",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT03390036/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT03390036/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT05073458/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT05073458/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03086655",
+      "domain": "infectious_disease",
+      "title": "Tel-Me-Box: Testing a New, Real-time Strategies for Monitoring HIV Medication Adherence in India",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT03086655/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT03086655/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03454555",
+      "domain": "musculoskeletal_pain",
+      "title": "Integrated Services for Pain: Interventions to Reduce Pain Effectively",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT03454555/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT03454555/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02462603",
+      "candidate_id": "NCT02605174",
       "domain": "neurology",
-      "title": "Safety and Biomarker Study of PTC-589 in Participants With Parkinson's Disease",
+      "title": "Three Doses of Lasmiditan (50 mg, 100 mg and 200 mg) Compared to Placebo in the Acute Treatment of Migraine",
       "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "sequential",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT02605174/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT02605174/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT06584435",
+      "domain": "oncology",
+      "title": "A Study of Toripalimab in Adjuvant Therapy After Resection of High-risk Renal Cancer",
+      "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
@@ -132,29 +150,10 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02462603/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02462603/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03309917",
-      "domain": "oncology",
-      "title": "The Effect of Blood Pressure on Cerebral Blood Flow During Propofol Anesthesia",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03309917/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03309917/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT06584435/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT06584435/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -313,21 +312,23 @@
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT06584435",
+      "candidate_id": "NCT01090414",
       "domain": "oncology",
-      "title": "A Study of Toripalimab in Adjuvant Therapy After Resection of High-risk Renal Cancer",
-      "pairing_state": "exact_document_date_match",
+      "title": "An Extension Study for Subjects Who Are Deriving Benefit With Idelalisib (GS-1101; CAL-101) Following Completion of a Prior Idelalisib Study",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "binary",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT06584435/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT06584435/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT01090414/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT01090414/SAP_007.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
