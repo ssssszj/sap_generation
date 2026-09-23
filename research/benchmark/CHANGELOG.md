@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 40 produced no promotion: excluded NCT00862979, NCT04006457, NCT02564926, NCT03931785, NCT02895945, NCT03584724, NCT02612909 and NCT02081391 because the public protocols expose executable target analyses, with additional post-primary, sub-study-scope or compound-version defects in four families.
+- Batch 40 hash-froze 16 PDFs and eight registry records, extracted all protocols and seven SAPs, visually checked decisive pages including the scan-only NCT03584724 SAP cover, and returned all eight slots for replenishment.
+
 - Batch 39 produced no promotion: excluded NCT01603602, NCT05550337, NCT02548585, NCT03926130, NCT02273960, NCT03558997, NCT02569710 and NCT01885078 for protocol-embedded executable-plan leakage, with additional adult/adolescent scope mismatches or unreconciled protocol versions in three families.
 - Batch 39 hash-froze 16 selected PDFs and eight registry records, inspected both additional NCT03926130 documents to rule out a valid alternative pairing, visually checked decisive pages, and returned all eight slots for replenishment.
 
