@@ -7,9 +7,9 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2200,
-  "registered_studies_including_pilot": 66,
-  "registered_release_eligible": 65,
-  "screened_candidates": 55,
+  "registered_studies_including_pilot": 67,
+  "registered_release_eligible": 66,
+  "screened_candidates": 54,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
@@ -20,29 +20,27 @@
     "hematology": 7,
     "immunology_rheumatology": 5,
     "infectious_disease": 2,
-    "musculoskeletal_pain": 1,
     "other_clinical": 5,
     "reproductive_maternal": 1,
     "respiratory": 3
   },
   "intervention_distribution": {
-    "behavioral": 7,
-    "device": 4,
+    "behavioral": 8,
+    "device": 3,
     "drug": 27,
     "mixed": 9,
-    "other": 7,
-    "procedure": 1
+    "other": 7
   },
   "endpoint_distribution_multi_label": {
-    "binary": 12,
-    "continuous": 12,
-    "count_or_rate": 9,
-    "other_or_manual_review": 29,
-    "time_to_event": 1
+    "binary": 11,
+    "continuous": 11,
+    "count_or_rate": 10,
+    "other_or_manual_review": 27,
+    "time_to_event": 2
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 19,
-    "plausible_date_order": 36
+    "exact_document_date_match": 17,
+    "plausible_date_order": 37
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }
