@@ -2,7 +2,7 @@
 
 This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
 
-The current working release is `v0.3-development`. It contains one private `pilot_only` study, sixty-eight version-verified public study families, and a 52-study metadata-screened acquisition pool. The sixty-eight eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All sixty-nine registered studies now have first-pass evidence-backed annotations, totaling 1,235 requirements (1,209 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
+The current working release is `v0.3-development`. It contains one private `pilot_only` study, sixty-nine version-verified public study families, and a 51-study metadata-screened acquisition pool. The sixty-nine eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All seventy registered studies now have first-pass evidence-backed annotations, totaling 1,255 requirements (1,229 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
 
 ## What is included
 
@@ -34,7 +34,7 @@ python3 research/benchmark/tools/validate_benchmark.py
 Refresh the metadata-screened acquisition pool from the official ClinicalTrials.gov API:
 
 ```bash
-python3 research/benchmark/tools/build_candidate_pool.py --target 52 --max-pages 6
+python3 research/benchmark/tools/build_candidate_pool.py --target 51 --max-pages 6
 ```
 
 This command does not verify protocol/SAP version compatibility. It only identifies separate public uploads and creates a stratified review queue.
@@ -67,7 +67,7 @@ The deterministic scorer does not replace statistical review. Items without a de
 
 ## Current limitations
 
-- Only sixty-eight public families have first-pass annotations, and none has completed independent expert adjudication; 52 additional records are acquisition candidates, not finished benchmark questions.
+- Only sixty-nine public families have first-pass annotations, and none has completed independent expert adjudication; 51 additional records are acquisition candidates, not finished benchmark questions.
 - The pilot study has already been used during product development, so it is excluded from final testing.
 - Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
 - Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.
