@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 32 produced no promotion: excluded NCT07230873 for protocol-embedded target leakage and excluded NCT03981744, NCT03268005, NCT03657160, NCT04816591, NCT03364309, NCT02440789 and NCT02825849 as post-primary, post-completion, CSR-oriented, retrospective or execution-informed analysis packages.
+- Visually inspected all protocol/SAP covers and the decision-defining version-history or executed-method pages, then replenished the metadata candidate pool to preserve the 120-family release intake.
+
 - Batch 31 promoted NCT04491279 after exact title/date matching of the independent protocol and SAP created before study start; added 22 requirements for its chronic-stroke neuropilates feasibility trial, including the protocol-versus-registry endpoint conflict and the missing randomized treatment-effect analysis.
 - Excluded NCT03897465 for a mismatched study SAP, NCT07795203 because its SAP-slot file is an ethics application, and NCT03191396, NCT02340819, NCT04173494, NCT03334396 and NCT02412436 as post-primary, post-completion, CSR-oriented or execution-informed analysis packages; refreshed the candidate pool to 54 and increased the registered requirement total from 1,167 to 1,189 (1,163 public plus 26 private-pilot requirements).
 
