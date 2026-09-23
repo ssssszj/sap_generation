@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 56 screening - 2026-09-24
+
+- Batch 56 produced no promotion: excluded NCT02508116, NCT03335371, NCT01680640, NCT04399837, NCT02955797, NCT03056690 and NCT02526017 for protocol-embedded executable-plan leakage, with retrospective, post-completion or governing-version defects in five families, and excluded NCT02202551 because its protocol leaks the analysis while its selected analysis plan is a three-study integrated safety summary rather than a study-level target.
+- Batch 56 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked every cover and decisive statistical page including the character-encoded NCT03335371 protocol, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 ## Batch 55 screening - 2026-09-24
 
 - Batch 55 produced no promotion: excluded NCT02506244, NCT03320941, NCT01029353, NCT04294667, NCT02939989, NCT03025308, NCT01529034 and NCT02627963 because every protocol exposes executable target-analysis content; four families additionally have post-primary/post-completion or mismatched governing-version defects.
