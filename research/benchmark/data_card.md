@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains twelve registered study families:
+The working benchmark contains fourteen registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -16,8 +16,10 @@ The working benchmark contains twelve registered study families:
 - VRC01 during analytic treatment interruption, a small Phase II HIV trial with exact binary and time-to-event methods.
 - REDUCE PFO, a multinational randomized device trial with simultaneous time-to-event and MRI binary co-primary endpoints;
 - imsidolimab in generalized pustular psoriasis, a three-arm Phase 3 trial with an explicit estimand, fixed-sequence multiplicity, multiple imputation, and adaptive sample-size review.
+- Anchor/W-SUDs, a remote randomized digital intervention trial with attrition weighting and arm-specific per-protocol adherence thresholds.
+- RESTORE in cerebrotendinous xanthomatosis, a rare-disease adult crossover trial with a separate open-label pediatric cohort.
 
-All eleven public studies have first-pass annotations. Together with the private pilot, the registered set contains 221 evidence-backed requirements. All public families remain unsplit until independent review and leakage checks are complete.
+All thirteen public studies have first-pass annotations. Together with the private pilot, the registered set contains 253 evidence-backed requirements. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -50,7 +52,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only eleven public studies have first-pass gold annotations, with no completed expert adjudication;
+- only thirteen public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -61,4 +63,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 109 remain metadata-screened acquisition candidates and eleven are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 107 remain metadata-screened acquisition candidates and thirteen are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.

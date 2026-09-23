@@ -1,0 +1,14 @@
+{
+  "study_id": "PUBLIC-ANCHOR-WSUD-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 14,
+  "critical_items_requiring_statistician_adjudication": ["PUBLIC-ANCHOR-WSUD-001-R006", "PUBLIC-ANCHOR-WSUD-001-R007", "PUBLIC-ANCHOR-WSUD-001-R008", "PUBLIC-ANCHOR-WSUD-001-R014"],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Clarify the primary-outcome hierarchy and whether multiplicity adjustment was intended.",
+    "Verify the link, distribution, covariate, and variance details for each generalized linear model.",
+    "Review whether inverse-probability retention weighting identifies the stated ITT estimand and whether further missing-data sensitivity analysis is needed."
+  ]
+}

@@ -43,42 +43,40 @@
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT04270682",
+      "candidate_id": "NCT03856047",
       "domain": "endocrine_metabolic",
-      "title": "Study to Evaluate Patients With Cerebrotendinous Xanthomatosis (RESTORE)",
-      "pairing_state": "legacy_manual_screen",
-      "design_tags": [
-        "phase_3",
-        "randomized",
-        "quadruple_blind",
-        "crossover",
-        "rare_disease"
-      ],
-      "endpoint_types": [
-        "continuous",
-        "repeated_measure"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04270682/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04270682/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04925570",
-      "domain": "gastroenterology_hepatology",
-      "title": "The Anchor Study: Digitally Delivered Intervention for Reducing Problematic Substance Use",
+      "title": "Research Study Investigating How Well NNC0174-0833 Works in People Suffering From Overweight or Obesity.",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
+        "quadruple",
         "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT03856047/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT03856047/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT02657564",
+      "domain": "gastroenterology_hepatology",
+      "title": "Renal Safety of Bowel Preparation With Polyethylene Glycol",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04925570/Prot_008.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04925570/SAP_009.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02657564/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02657564/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -374,40 +372,40 @@
     },
     {
       "queue_rank": 20,
-      "candidate_id": "NCT03856047",
+      "candidate_id": "NCT02341417",
       "domain": "endocrine_metabolic",
-      "title": "Research Study Investigating How Well NNC0174-0833 Works in People Suffering From Overweight or Obesity.",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT03856047/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT03856047/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 21,
-      "candidate_id": "NCT02657564",
-      "domain": "gastroenterology_hepatology",
-      "title": "Renal Safety of Bowel Preparation With Polyethylene Glycol",
+      "title": "Extension Study of Cinacalcet for Treatment of Secondary Hyperparathyroidism (SHPT) in Pediatric Patients With Chronic Kidney Disease on Dialysis",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "na"
+        "phase_3"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02657564/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02657564/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02341417/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02341417/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 21,
+      "candidate_id": "NCT05135767",
+      "domain": "gastroenterology_hepatology",
+      "title": "Biobehavioral Pathways Underlying Alcohol Use and Health",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05135767/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05135767/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
