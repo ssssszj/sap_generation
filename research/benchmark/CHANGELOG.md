@@ -57,6 +57,9 @@
 - Promoted NCT02728752, NCT02443155, NCT02234843, NCT04925934, NCT03637517, NCT03326999, NCT03790280, and NCT02508649 after explicit governing-version or exact title/NCT/date reconciliation; added 128 requirements spanning dermatomyositis, type 1 diabetes, pediatric VTE, SLE, clinical pharmacology, perioperative pain, epilepsy surgery, and adaptive septic-shock analysis.
 - Excluded NCT01709981, NCT03856164, and NCT01462253 for protocol-embedded target leakage, and placed NCT02652767 on version-reconciliation hold because its SAP does not explicitly identify the governing protocol version or date.
 - Refreshed and replenished the candidate pool to 73, preserving 120 release-intake families, and increased the registered requirement total from 692 to 820 (794 public plus 26 private-pilot requirements).
+- Promoted NCT01928862, NCT02211417, NCT02581995 and NCT02694328 after explicit governing-version reconciliation; added 66 requirements spanning pediatric bowel preparation, atopic dermatitis, DME quality of life and adaptive schizophrenia weight analysis.
+- Excluded NCT02068885, NCT03393494, NCT02475070 and NCT01596127 for protocol-embedded target leakage; excluded NCT00745420, NCT02351544 and NCT05634863 as retrospective or wrong document types; and placed NCT02267226 on governing-version hold.
+- Refreshed and replenished the candidate pool to 69, preserving 120 release-intake families, and increased the registered requirement total from 820 to 886 (860 public plus 26 private-pilot requirements).
 
 ## 0.2-development - 2026-09-21
 
