@@ -7,9 +7,9 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2200,
-  "registered_studies_including_pilot": 61,
-  "registered_release_eligible": 60,
-  "screened_candidates": 60,
+  "registered_studies_including_pilot": 62,
+  "registered_release_eligible": 61,
+  "screened_candidates": 59,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
@@ -20,7 +20,6 @@
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 1,
-    "musculoskeletal_pain": 1,
     "oncology": 2,
     "other_clinical": 5,
     "psychiatry": 1,
@@ -29,21 +28,21 @@
   },
   "intervention_distribution": {
     "behavioral": 8,
-    "device": 5,
-    "drug": 31,
-    "mixed": 9,
-    "other": 6,
-    "procedure": 1
+    "device": 4,
+    "drug": 30,
+    "mixed": 10,
+    "other": 5,
+    "procedure": 2
   },
   "endpoint_distribution_multi_label": {
     "binary": 11,
-    "continuous": 11,
+    "continuous": 9,
     "count_or_rate": 13,
     "other_or_manual_review": 34,
-    "time_to_event": 1
+    "time_to_event": 2
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 32,
+    "exact_document_date_match": 31,
     "plausible_date_order": 28
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."

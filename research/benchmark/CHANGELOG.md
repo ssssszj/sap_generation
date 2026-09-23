@@ -2,6 +2,10 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 20 promoted NCT03502187 after exact title/NCT/date matching and protocol-to-SAP delegation; added 22 requirements for the three-arm active-duty low-back-pain study.
+- Excluded NCT04118270, NCT03028363, NCT02911948 and NCT02548143 for protocol-embedded target leakage; excluded NCT02903966, NCT02962960 and NCT07084948 as post-primary, execution-informed or CSR-oriented analysis documents.
+- Refreshed and replenished the candidate pool to 59, preserving 120 release-intake families, and increased the registered requirement total from 1,056 to 1,078 (1,052 public plus 26 private-pilot requirements).
+
 - Batch 19 produced no promotion: excluded NCT03223883, NCT02832063, NCT02057718, NCT06949176 and NCT04623242 as post-completion, execution-informed or misclassified documents, and excluded NCT02906930, NCT02234323 and NCT02951533 for protocol-embedded target leakage.
 - Replenished all eight rejected slots and preserved 60 actionable metadata candidates alongside 60 version-verified public annotation drafts.
 
