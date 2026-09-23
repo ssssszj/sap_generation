@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 24 produced no promotion: excluded NCT03464110, NCT03197883, NCT03017235 and NCT03055494 for protocol-embedded target leakage, and excluded NCT02918279, NCT03370913, NCT01983683 and NCT03636386 as post-completion CTR, CSR, regulatory-bridge or result-bearing document packages.
+- Visually inspected all identity and decision-defining pages and refreshed and replenished all eight rejected slots, preserving 58 actionable metadata candidates alongside 62 version-verified public annotation drafts.
+
 - Batch 23 produced no promotion: excluded NCT03181893, NCT03008460, NCT03248479, NCT03022045 and NCT01900899 for protocol-embedded target leakage, and excluded NCT03436810, NCT04107935 and NCT03547869 for completed-study, results-bearing, mismatched or post hoc document packages.
 - Visually inspected all decision-defining pages and refreshed and replenished all eight rejected slots, preserving 58 actionable metadata candidates alongside 62 version-verified public annotation drafts.
 
