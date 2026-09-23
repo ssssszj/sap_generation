@@ -5,123 +5,125 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02462486",
+      "candidate_id": "NCT02506244",
       "domain": "cardiovascular",
-      "title": "Safety and Efficacy of Abicipar Pegol in Participants With Neovascular Age-related Macular Degeneration",
+      "title": "mHealth Screening to Prevent Strokes",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
-        "phase_3"
+        "none",
+        "na"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT02462486/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT02462486/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02506244/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02506244/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03238963",
+      "candidate_id": "NCT03320941",
       "domain": "endocrine_metabolic",
-      "title": "A Study That Tests BI 1467335 in Patients With Diabetic Eye Disease (Diabetic Retinopathy). It Looks at the Way BI 1467335 is Taken up, the Effects it Has, and How Well it is Tolerated.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03238963/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03238963/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT00320606",
-      "domain": "gastroenterology_hepatology",
-      "title": "Withdrawal of Immunosuppression in Pediatric Liver Transplant Recipients",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT00320606/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT00320606/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04211363",
-      "domain": "immunology_rheumatology",
-      "title": "Trial of PDE4 Inhibition With Roflumilast for the Management of Plaque Psoriasis",
+      "title": "A Dose-finding Study to Evaluate the Change in Weight After Treatment With LIK066 in Japanese Patients With Obesity",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "triple",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04211363/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04211363/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03320941/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03320941/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 5,
-      "candidate_id": "NCT02915302",
-      "domain": "infectious_disease",
-      "title": "Safety and Immunogenicity of Fluzone® Quadrivalent Vaccine Administered to Healthy Children",
-      "pairing_state": "plausible_date_order",
+      "queue_rank": 3,
+      "candidate_id": "NCT01029353",
+      "domain": "gastroenterology_hepatology",
+      "title": "Laparotomy vs. Drainage for Infants With Necrotizing Enterocolitis",
+      "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "phase_4"
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02915302/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02915302/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT01029353/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT01029353/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT03002974",
-      "domain": "musculoskeletal_pain",
-      "title": "A Study to Evaluate Efficacy and Safety of Anakinra in the Treatment of Acute Gouty Arthritis",
+      "queue_rank": 4,
+      "candidate_id": "NCT04294667",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Evaluate the Efficacy and Safety of Dapirolizumab Pegol in Study Participants With Moderately to Severely Active Systemic Lupus Erythematosus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT03002974/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT03002974/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT04294667/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT04294667/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02939989",
+      "domain": "infectious_disease",
+      "title": "Efficacy and Safety of Glecaprevir (ABT-493)/Pibrentasvir (ABT 530) (GLE/PIB) in Combination With Sofosbuvir and Ribavirin in Participants With Hepatitis C Virus Who Did Not Respond to Treatment in a Previous AbbVie Clinical Study",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT02939989/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT02939989/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03025308",
+      "domain": "musculoskeletal_pain",
+      "title": "Long Term Extension Study to Assess the Safety and Efficacy of Filgotinib in Adults With Rheumatoid Arthritis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03025308/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03025308/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT00150800",
+      "candidate_id": "NCT01529034",
       "domain": "neurology",
-      "title": "This Trial, Evaluating the Long-term Safety and Tolerability of Brivaracetam Will Provide Subjects Suffering From Epilepsy, Who May Have Benefited From Brivaracetam as Adjunctive Treatment, the Opportunity to Receive Open Label Brivaracetam Treatment",
+      "title": "Study to Evaluate the Long-term Safety and Tolerability of USL261 in Patients With Seizure Clusters",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -130,32 +132,29 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT00150800/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT00150800/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01529034/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01529034/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT02472977",
+      "candidate_id": "NCT02627963",
       "domain": "oncology",
-      "title": "Safety and Efficacy Study of Ulocuplumab and Nivolumab in Subjects With Solid Tumors",
+      "title": "A Study to Compare Tivozanib Hydrochloride to Sorafenib in Participants With Refractory Advanced Renal Cell Carcinoma (RCC)",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "phase_1",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "binary",
-        "count_or_rate"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT02472977/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT02472977/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02627963/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02627963/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -217,22 +216,23 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT03320941",
+      "candidate_id": "NCT03335371",
       "domain": "endocrine_metabolic",
-      "title": "A Dose-finding Study to Evaluate the Change in Weight After Treatment With LIK066 in Japanese Patients With Obesity",
+      "title": "Evaluation of TTP399 in Patients With Type 1 Diabetes",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
+        "sequential",
         "triple",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary",
+        "time_to_event",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03320941/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT03320941/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03335371/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03335371/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -296,9 +296,9 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT01529034",
+      "candidate_id": "NCT02202551",
       "domain": "neurology",
-      "title": "Study to Evaluate the Long-term Safety and Tolerability of USL261 in Patients With Seizure Clusters",
+      "title": "Open-Label Safety Study of ADS-5102 in PD Patients With LID",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -307,29 +307,30 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01529034/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01529034/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02202551/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02202551/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT02627963",
+      "candidate_id": "NCT02526017",
       "domain": "oncology",
-      "title": "A Study to Compare Tivozanib Hydrochloride to Sorafenib in Participants With Refractory Advanced Renal Cell Carcinoma (RCC)",
+      "title": "Study of Cabiralizumab in Combination With Nivolumab in Patients With Selected Advanced Cancers",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "non_randomized",
+        "sequential",
         "none",
-        "phase_3"
+        "phase_1"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "binary",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02627963/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02627963/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02526017/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02526017/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -391,23 +392,21 @@
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT03335371",
+      "candidate_id": "NCT03338023",
       "domain": "endocrine_metabolic",
-      "title": "Evaluation of TTP399 in Patients With Type 1 Diabetes",
+      "title": "A Study of LY2963016 Compared to Lantus® in Adult Chinese Participants With Type 1 Diabetes Mellitus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "sequential",
-        "triple",
-        "phase_1",
-        "phase_2"
+        "parallel",
+        "none",
+        "phase_3"
       ],
       "endpoint_types": [
-        "time_to_event",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03335371/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03335371/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03338023/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03338023/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -450,21 +449,21 @@
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT02202551",
+      "candidate_id": "NCT02284906",
       "domain": "neurology",
-      "title": "Open-Label Safety Study of ADS-5102 in PD Patients With LID",
+      "title": "AD-4833/TOMM40_303 Extension Study of the Safety and Efficacy of Pioglitazone to Slow Cognitive Decline in Participants With Mild Cognitive Impairment Due to Alzheimer Disease",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "non_randomized",
+        "parallel",
+        "quadruple",
         "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02202551/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02202551/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02284906/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02284906/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

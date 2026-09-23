@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 54 screening - 2026-09-24
+
+- Batch 54 produced no promotion: excluded NCT02462486, NCT03238963, NCT00320606, NCT04211363, NCT02915302, NCT03002974 and NCT00150800 for protocol-embedded executable-plan leakage, with post-primary/completion or governing-version defects in six families, and excluded NCT02472977 because its SAP uses already-observed DLTs to revise the randomized design and regimen set.
+- Batch 54 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked all covers and decisive statistical pages including the malformed NCT02915302 text layer, and returned all eight slots for replenishment while preserving 71 public drafts plus 49 metadata candidates.
+
 ## Batch 53 screening - 2026-09-24
 
 - Batch 53 produced no promotion: excluded NCT02442206, NCT03197324, NCT06750276, NCT04207736, NCT02824640, NCT02961062 and NCT02301611 for protocol-embedded executable-plan leakage, with post-completion or execution-informed defects in five families, and excluded NCT02129348 because its two-page post-completion "SAP" retrospectively reports already-used analyses and observed enrollment/dropout.
