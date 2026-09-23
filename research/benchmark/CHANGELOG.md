@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 23 produced no promotion: excluded NCT03181893, NCT03008460, NCT03248479, NCT03022045 and NCT01900899 for protocol-embedded target leakage, and excluded NCT03436810, NCT04107935 and NCT03547869 for completed-study, results-bearing, mismatched or post hoc document packages.
+- Visually inspected all decision-defining pages and refreshed and replenished all eight rejected slots, preserving 58 actionable metadata candidates alongside 62 version-verified public annotation drafts.
+
 - Batch 22 produced no promotion: placed NCT04944290 on public-redaction hold because material allocation, sample-size, population and primary-model content is obscured; excluded NCT03251482 and NCT01946789 for protocol-embedded target leakage or absence of an independent SAP; and excluded NCT03172364, NCT04090580, NCT02955602, NCT02993107 and NCT01818258 as post-primary, post-unblinding, results-bearing or final-analysis documents.
 - Refreshed and replenished all eight non-promotable slots, preserving 58 actionable metadata candidates alongside 62 version-verified public annotation drafts.
 
