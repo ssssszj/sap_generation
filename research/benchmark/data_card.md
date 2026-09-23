@@ -2,15 +2,17 @@
 
 ## Current composition
 
-The working benchmark contains five registered study families:
+The working benchmark contains seven registered study families:
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
 - IMPACT, a public observational cohort with an exact protocol/CRF/TSAP triplet;
 - ASCEND-D, a public phase 3 active-controlled study with continuous and time-to-event co-primary non-inferiority endpoints;
 - SER-287, a public randomized phase 1b study retained partly as a missing-document challenge.
+- dasiglucagon in congenital hyperinsulinism, a public pediatric Phase 2/3 crossover study with an open-label extension;
+- Blood Pressure Control in Hypertensive Smokers, a public two-phase behavioral study with an abstinence-conditioned three-arm randomized analysis.
 
-VIVID, IMPACT, ASCEND-D, and SER-287 have first-pass annotations. Together with the private pilot, the registered set contains 96 evidence-backed requirements. All public families remain in the unsplit candidate pool until independent review and leakage checks are complete.
+All six public studies have first-pass annotations. Together with the private pilot, the registered set contains 141 evidence-backed requirements. All public families remain in the unsplit candidate pool until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -43,7 +45,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only four public studies have first-pass gold annotations, with no completed expert adjudication;
+- only six public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -54,4 +56,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 116 remain metadata-screened acquisition candidates. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. ASCEND-D and SER-287 are the first high-complexity annotation drafts added in v0.3; the next annotation sprint begins after expert feedback on their epistemic labels, severity, and evidence granularity.
+The release-eligible intake contains 120 independent study families, of which 114 remain metadata-screened acquisition candidates and six are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.

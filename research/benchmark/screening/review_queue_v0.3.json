@@ -6,6 +6,7 @@
     {
       "queue_rank": 1,
       "candidate_id": "NCT00113074",
+      "promotion_status": "annotation_draft",
       "domain": "cardiovascular",
       "title": "Preventing Weight Gain and Controlling Blood Pressure During Smoking Cessation in Hypertensive Smokers",
       "pairing_state": "exact_document_date_match",
@@ -20,11 +21,12 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT00113074/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT00113074/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+      "next_action": "Independent statistical review of the draft annotation, especially the abstinence-conditioned estimand and multiplicity ambiguity."
     },
     {
       "queue_rank": 2,
       "candidate_id": "NCT05133739",
+      "promotion_status": "hold_public_redaction",
       "domain": "dermatology",
       "title": "RHA 4 for Midface Volume Deficiency",
       "pairing_state": "legacy_manual_screen",
@@ -39,11 +41,12 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT05133739/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT05133739/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+      "next_action": "Resolve public redactions of the protocol identifier and primary-analysis formula before promotion; retain as a missing-information candidate meanwhile."
     },
     {
       "queue_rank": 3,
       "candidate_id": "NCT04172441",
+      "promotion_status": "annotation_draft",
       "domain": "endocrine_metabolic",
       "title": "Trial Evaluating Efficacy and Safety of Dasiglucagon in Children With Congenital Hyperinsulinism",
       "pairing_state": "legacy_manual_screen",
@@ -60,7 +63,7 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04172441/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04172441/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+      "next_action": "Independent statistical review of the draft annotation, especially the primary decision rule, asymmetric imputation, and key-secondary multiplicity."
     },
     {
       "queue_rank": 4,

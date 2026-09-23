@@ -12,6 +12,10 @@
 - Added 18 first-pass requirements for SER-287, including protocol/SAP discrepancies around mITT and clinical-remission definitions.
 - Added 22 first-pass requirements for ASCEND-D covering co-primary non-inferiority, estimands, ITT/PP/safety populations, Cox and ANCOVA analyses, missing data, gatekeeping, and Holm-Bonferroni multiplicity.
 - Increased the registered-study requirement total from 56 to 96 and marked both new sets for independent expert review.
+- Promoted NCT04172441 after verifying that SAP final v3.0 cites protocol ZP4207-17103 final v13.0/v14.0 dated 2021-06-04; added 22 crossover-study requirements.
+- Promoted NCT00113074 after matching the protocol and Data Analytic Plan by NCT, title, and approval date; added 23 requirements covering the abstinence-conditioned population, ANCOVA, Fisher LSD, relapse, and missing-outcome uncertainty.
+- Reduced the remaining metadata-screened pool from 116 to 114 while preserving the 120-family release intake, and increased the registered-study requirement total from 96 to 141.
+- Placed NCT05133739 on a public-redaction hold because the available files obscure the protocol identifier and portions of the primary-analysis formula.
 
 ## 0.2-development - 2026-09-21
 

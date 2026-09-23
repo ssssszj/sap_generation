@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-22",
+  "generated_on": "2026-09-23",
   "source": "ClinicalTrials.gov API v2",
   "api_data_timestamp": "2026-09-21T09:00:05",
   "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true AND AREA[StudyType]INTERVENTIONAL",
@@ -7,15 +7,15 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2171,
-  "registered_studies_including_pilot": 5,
-  "registered_release_eligible": 4,
-  "screened_candidates": 116,
+  "registered_studies_including_pilot": 7,
+  "registered_release_eligible": 6,
+  "screened_candidates": 114,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
-    "cardiovascular": 8,
+    "cardiovascular": 7,
     "dermatology": 8,
-    "endocrine_metabolic": 9,
+    "endocrine_metabolic": 8,
     "gastroenterology_hepatology": 7,
     "hematology": 7,
     "immunology_rheumatology": 8,
@@ -34,14 +34,14 @@
   "intervention_distribution": {
     "behavioral": 16,
     "device": 12,
-    "drug": 50,
-    "mixed": 22,
+    "drug": 49,
+    "mixed": 21,
     "other": 14,
     "procedure": 2
   },
   "endpoint_distribution_multi_label": {
     "binary": 20,
-    "continuous": 35,
+    "continuous": 33,
     "count_or_rate": 26,
     "multiplicity": 1,
     "other_or_manual_review": 49,
@@ -49,8 +49,8 @@
     "time_to_event": 5
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 79,
-    "legacy_manual_screen": 7,
+    "exact_document_date_match": 78,
+    "legacy_manual_screen": 6,
     "plausible_date_order": 30
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked."
