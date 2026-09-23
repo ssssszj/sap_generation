@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 29 produced no promotion: excluded NCT03255382, NCT03518086 and NCT02394730 for protocol-embedded target leakage, and excluded NCT01683825, NCT03265223, NCT03203694, NCT03497650 and NCT03464136 as execution-informed, retrospective or post-primary-completion analysis documents.
+- Visually inspected the identity and decision-defining pages for all eight pairs, including full OCR review of the scan-only NCT02394730 SAP, and replenished the metadata candidate pool to preserve the 120-family release intake.
+
 - Batch 28 produced no promotion: excluded NCT03709654, NCT03235024, NCT03938792, NCT03124160 and NCT05120193 for protocol-embedded target leakage, and excluded NCT04941482, NCT05071807 and NCT05037851 as execution-informed or post-primary-completion analysis documents.
 - Visually inspected the identity and decision-defining pages for all eight pairs and replenished the metadata candidate pool to preserve the 120-family release intake.
 

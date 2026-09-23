@@ -5,21 +5,21 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT01683825",
+      "candidate_id": "NCT04038697",
       "domain": "cardiovascular",
-      "title": "Imaging Cardiac Amyloidosis: A Pilot Study Using F-18 Florbetapir Positron Emission Tomography",
+      "title": "Ischemic Conditioning Improves Walking Function Post Stroke",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "non_randomized",
-        "single_group",
-        "none",
-        "phase_4"
+        "randomized",
+        "parallel",
+        "triple",
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT01683825/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT01683825/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT04038697/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT04038697/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -62,21 +62,21 @@
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT03464136",
+      "candidate_id": "NCT02185014",
       "domain": "gastroenterology_hepatology",
-      "title": "Safety and Efficacy of Adalimumab Versus Ustekinumab for One Year",
+      "title": "Open Label Study to Evaluate Long Term Efficacy, Safety and Tolerability of Repeated Dosing in Subjects With Crohn's Disease and Who Participated and Successfully Completed M14-115",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
+        "na",
+        "single_group",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT03464136/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT03464136/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT02185014/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT02185014/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -102,60 +102,61 @@
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT03255382",
+      "candidate_id": "NCT02698475",
       "domain": "immunology_rheumatology",
-      "title": "A Study to Assess the Efficacy of Risankizumab Compared to FUMADERM® in Subjects With Moderate to Severe Plaque Psoriasis Who Are Naïve to and Candidates for Systemic Therapy",
+      "title": "An Efficacy, Safety, and Pharmacokinetics Study of Subcutaneously Administered Ustekinumab in the Treatment of Moderate to Severe Chronic Plaque Psoriasis in Pediatric Participants Greater Than or Equal to 6 to Less Than 12 Years of Age",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "binary",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03255382/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03255382/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02698475/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02698475/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02394730",
+      "candidate_id": "NCT02413372",
       "domain": "infectious_disease",
-      "title": "Attenuation of D-dimer Using Vorapaxar to Target Inflammatory and Coagulation Endpoints",
+      "title": "A Study of BMS-986036 in Subjects With Non-Alcoholic Steatohepatitis (NASH)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_1",
+        "double",
         "phase_2"
       ],
       "endpoint_types": [
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02394730/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02394730/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT02413372/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT02413372/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03265223",
+      "candidate_id": "NCT07174635",
       "domain": "musculoskeletal_pain",
-      "title": "Ropivacaine Use Intraincisionally Versus Intraperitoneally for Post-Laparoscopic Cholecystectomy Pain",
+      "title": "The Effect of Tele-Nursing Service in Patients Diagnosed With Fibromyalgia",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "triple",
-        "phase_4"
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03265223/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03265223/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT07174635/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT07174635/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -217,21 +218,21 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT03203694",
+      "candidate_id": "NCT04491279",
       "domain": "cardiovascular",
-      "title": "Effects of Walking and Heating on Vascular Function in Diabetic Patients",
+      "title": "Neuropilates Compared to General Exercise Classes in Chronic Stroke",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "non_randomized",
+        "randomized",
         "parallel",
-        "none",
+        "single",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT03203694/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT03203694/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT04491279/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT04491279/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -274,21 +275,23 @@
     },
     {
       "queue_rank": 15,
-      "candidate_id": "NCT03518086",
+      "candidate_id": "NCT02340819",
       "domain": "gastroenterology_hepatology",
-      "title": "An Induction Study of Mirikizumab in Participants With Moderately to Severely Active Ulcerative Colitis (LUCENT 1)",
+      "title": "Study to Evaluate the Safety, Efficacy and Pharmacokinetics of Teduglutide in Japanese Subjects With PN-dependent Short Bowel Syndrome (SBS)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
+        "na",
+        "single_group",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "binary",
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03518086/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03518086/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02340819/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02340819/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -313,22 +316,21 @@
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT02698475",
+      "candidate_id": "NCT02752776",
       "domain": "immunology_rheumatology",
-      "title": "An Efficacy, Safety, and Pharmacokinetics Study of Subcutaneously Administered Ustekinumab in the Treatment of Moderate to Severe Chronic Plaque Psoriasis in Pediatric Participants Greater Than or Equal to 6 to Less Than 12 Years of Age",
+      "title": "A Study to Evaluate Clear Skin Effect on Quality of Life in Patients With Plaque Psoriasis.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_3"
+        "phase_4"
       ],
       "endpoint_types": [
-        "binary",
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02698475/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02698475/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02752776/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02752776/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -390,21 +392,21 @@
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT03497650",
+      "candidate_id": "NCT04087655",
       "domain": "cardiovascular",
-      "title": "Unilateral Strength Training and Mirror Therapy for Chronic Stroke Patients",
+      "title": "Microvascular Dysfunction in Obesity",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
+        "na",
+        "single_group",
+        "none",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03497650/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03497650/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04087655/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04087655/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -448,21 +450,22 @@
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT02185014",
+      "candidate_id": "NCT02840721",
       "domain": "gastroenterology_hepatology",
-      "title": "Open Label Study to Evaluate Long Term Efficacy, Safety and Tolerability of Repeated Dosing in Subjects With Crohn's Disease and Who Participated and Successfully Completed M14-115",
+      "title": "Safety, Efficacy, and Tolerability Study of PF-06480605 in Subjects With Moderate to Severe Ulcerative Colitis.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "binary",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT02185014/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT02185014/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02840721/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02840721/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
