@@ -344,12 +344,30 @@ def main() -> int:
         for match in [re.search(r"NCT\d{8}", item.get("study_family_id", ""))]
         if match
     }
+    screening_decisions = load_jsonl(BENCHMARK / "manifests" / "exclusions.jsonl")
+    excluded_nct = {
+        item["candidate_id"]
+        for item in screening_decisions
+        if re.fullmatch(r"NCT\d{8}", item.get("candidate_id", ""))
+        and item.get("status", "").startswith("excluded_")
+    }
+    holds_by_id = {
+        item["candidate_id"]: item
+        for item in screening_decisions
+        if re.fullmatch(r"NCT\d{8}", item.get("candidate_id", ""))
+        and item.get("status", "").startswith("hold_")
+    }
     existing = [
         item
         for item in load_jsonl(args.output)
         if re.fullmatch(r"NCT\d{8}", item.get("candidate_id", ""))
+        and item["candidate_id"] not in excluded_nct
     ]
     existing_by_id = {item["candidate_id"]: item for item in existing if item["candidate_id"] not in registered_nct}
+    for candidate_id, decision in holds_by_id.items():
+        if candidate_id in existing_by_id:
+            existing_by_id[candidate_id]["status"] = decision["status"]
+            existing_by_id[candidate_id]["blockers"] = [decision["reason"]]
 
     raw_studies, api_stats = collect(args.max_pages)
     converted = [record for study in raw_studies if (record := to_candidate(study))]
@@ -375,7 +393,7 @@ def main() -> int:
     discovered = round_robin_select(
         converted,
         needed,
-        set(existing_by_id) | registered_nct,
+        set(existing_by_id) | registered_nct | excluded_nct,
     )
     final = list(existing_by_id.values()) + discovered
     final = final[: args.target]

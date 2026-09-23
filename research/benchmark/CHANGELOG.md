@@ -16,6 +16,11 @@
 - Promoted NCT00113074 after matching the protocol and Data Analytic Plan by NCT, title, and approval date; added 23 requirements covering the abstinence-conditioned population, ANCOVA, Fisher LSD, relapse, and missing-outcome uncertainty.
 - Reduced the remaining metadata-screened pool from 116 to 114 while preserving the 120-family release intake, and increased the registered-study requirement total from 96 to 141.
 - Placed NCT05133739 on a public-redaction hold because the available files obscure the protocol identifier and portions of the primary-analysis formula.
+- Promoted NCT02513121, NCT02542410, and NCT02664415 after exact title/date or protocol-version matching; added 45 evidence-backed requirements across pediatric dietary intervention, endometriosis pilot, and HIV analytic-treatment-interruption designs.
+- Excluded NCT03902392 because its uploads are a completed-study manuscript and retrospective statistics note, and excluded NCT03282916 because the protocol upload embeds the full reference SAP and would leak the target.
+- Kept NCT00787722 on version-reconciliation hold because its concise SAP does not identify the governing internal protocol version.
+- Added exclusion-aware candidate-pool refresh, replenished invalid candidates from the official registry API, and preserved the 120-family intake with nine registered public drafts plus 111 screened candidates.
+- Increased the registered-study requirement total from 141 to 186.
 
 ## 0.2-development - 2026-09-21
 
