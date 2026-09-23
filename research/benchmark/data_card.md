@@ -62,8 +62,10 @@ The working benchmark contains fifty-eight registered study families:
 - roxadustat for anemia in nondialysis-dependent CKD, a Phase III amendment-transition study with region-specific primary endpoints, MI ANCOVA, CMH analysis, fixed-sequence testing and MNAR sensitivity analyses.
 - long-term rIX-FP in hemophilia B, a Phase IIIb extension with exposure-qualified inhibitor incidence, regimen-specific bleeding rates, fixed-sequence noninferiority and separate surgery and subcutaneous substudies;
 - ultrasound-assisted labor epidural placement in patients with BMI at least 40, a compact randomized device study retaining unresolved analysis-set, missingness, site/provider and multiplicity decisions.
+- SPARK right-ventricular pacing in heart failure with RBBB, a single-blind two-period crossover pilot with an unresolved binary-versus-continuous primary-endpoint definition and crossover-model choices;
+- water exchange versus cap-assisted water-exchange colonoscopy, a multicenter randomized procedure study with sex-specific powering, O'Brien-Fleming interim monitoring, hierarchical site/provider effects and FDR-controlled exploratory analyses.
 
-All fifty-seven public studies have first-pass annotations. Together with the private pilot, the registered set contains 995 evidence-backed requirements: 969 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All fifty-nine public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,033 evidence-backed requirements: 1,007 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -96,7 +98,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only fifty-seven public studies have first-pass gold annotations, with no completed expert adjudication;
+- only fifty-nine public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -107,4 +109,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 independent study families, of which 63 remain metadata-screened acquisition candidates and fifty-seven are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 independent study families, of which 61 remain metadata-screened acquisition candidates and fifty-nine are version-verified annotation drafts. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
