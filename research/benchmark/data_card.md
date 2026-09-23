@@ -10,7 +10,7 @@ The working benchmark contains five registered study families:
 - ASCEND-D, a public phase 3 active-controlled study with continuous and time-to-event co-primary non-inferiority endpoints;
 - SER-287, a public randomized phase 1b study retained partly as a missing-document challenge.
 
-VIVID and IMPACT have first-pass annotations. All public families remain in the unsplit candidate pool until independent review and leakage checks are complete.
+VIVID, IMPACT, ASCEND-D, and SER-287 have first-pass annotations. Together with the private pilot, the registered set contains 96 evidence-backed requirements. All public families remain in the unsplit candidate pool until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -43,7 +43,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only two public studies have first-pass gold annotations;
+- only four public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -52,6 +52,6 @@ Public documents are therefore remote-only by default. The downloader verifies t
 - reference SAPs may contain operational choices not inferable from the protocol;
 - registry availability favors completed studies with results-reporting obligations.
 
-## Planned v0.2 composition
+## Planned v0.3 composition
 
-The next release targets 10-15 independent study families spanning continuous, binary, and time-to-event endpoints; superiority and non-inferiority designs; and drug, device, behavioral, and crossover studies. Three to five studies will receive full evidence-backed annotation and independent review before the rubric is frozen.
+The release-eligible intake contains 120 independent study families, of which 116 remain metadata-screened acquisition candidates. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. ASCEND-D and SER-287 are the first high-complexity annotation drafts added in v0.3; the next annotation sprint begins after expert feedback on their epistemic labels, severity, and evidence granularity.

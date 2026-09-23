@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.3-development - 2026-09-22
+## 0.3-development - 2026-09-23
 
 - Set a 120-family release-eligible intake target, excluding the private pilot, with at least 100 retained families.
 - Defined a 40/20/40 split at the 100-family floor and a 60/20/40 stretch split if all 120 eligible families pass.
@@ -9,6 +9,9 @@
 - Added a machine-readable pool summary and a 24-study document-level promotion queue.
 - Separated the EMA document source pool from the study-question candidate catalog.
 - Documented maturity layers, attrition allowance, subgroup limitations, and the tiered annotation budget.
+- Added 18 first-pass requirements for SER-287, including protocol/SAP discrepancies around mITT and clinical-remission definitions.
+- Added 22 first-pass requirements for ASCEND-D covering co-primary non-inferiority, estimands, ITT/PP/safety populations, Cox and ANCOVA analyses, missing data, gatekeeping, and Holm-Bonferroni multiplicity.
+- Increased the registered-study requirement total from 56 to 96 and marked both new sets for independent expert review.
 
 ## 0.2-development - 2026-09-21
 
