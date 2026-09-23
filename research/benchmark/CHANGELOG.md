@@ -2,6 +2,10 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 21 promoted NCT03402750 after exact NCT/date matching between Protocol Version 6 and SAP Version 1; added 24 requirements for the Meds-to-Beds heart-failure medication-adherence pilot.
+- Excluded NCT03124381, NCT03061201 and NCT01921387 for protocol-embedded target leakage or absence of an independent SAP; excluded NCT03378635, NCT02914561, NCT02975336 and NCT07573423 as retrospective, post-primary, termination-informed or otherwise non-prospective document packages.
+- Refreshed and replenished the candidate pool to 58, preserving 120 release-intake families, and increased the registered requirement total from 1,078 to 1,102 (1,076 public plus 26 private-pilot requirements).
+
 - Batch 20 promoted NCT03502187 after exact title/NCT/date matching and protocol-to-SAP delegation; added 22 requirements for the three-arm active-duty low-back-pain study.
 - Excluded NCT04118270, NCT03028363, NCT02911948 and NCT02548143 for protocol-embedded target leakage; excluded NCT02903966, NCT02962960 and NCT07084948 as post-primary, execution-informed or CSR-oriented analysis documents.
 - Refreshed and replenished the candidate pool to 59, preserving 120 release-intake families, and increased the registered requirement total from 1,056 to 1,078 (1,052 public plus 26 private-pilot requirements).

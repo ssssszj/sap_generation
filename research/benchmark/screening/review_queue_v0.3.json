@@ -5,158 +5,155 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03402750",
+      "candidate_id": "NCT04944290",
       "domain": "cardiovascular",
-      "title": "Heart Failure Medication Adherence",
+      "title": "To Compare the Efficacy and Safety of Perrigo's Product to an FDA Approved Product for the Treatment of Glaucoma or Ocular Hypertension in Both Eyes",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT04944290/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT04944290/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT03172364",
+      "domain": "dermatology",
+      "title": "To Investigate the Cutaneous and Ocular Local Tolerance of Two Cosmetic Facial Cleanser in Healthy Females With Sensitive Skin",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03172364/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03172364/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT04090580",
+      "domain": "endocrine_metabolic",
+      "title": "Impact on Glycemic Variability in Newly Onset T2DM Patients Initiating Dapagliflozin Plus Metformin Versus Metformin Alone",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03402750/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03402750/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03124381",
-      "domain": "dermatology",
-      "title": "A Study to Evaluate the Efficacy and Tolerance of 2 Acne Treatment Regimens on Subjects With Mild to Moderate Acne",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03124381/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03124381/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT03378635",
-      "domain": "endocrine_metabolic",
-      "title": "A Trial to Confirm the Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemia in Type 1 Diabetes Subjects",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
         "phase_3"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT03378635/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT03378635/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04090580/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04090580/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT02914561",
+      "candidate_id": "NCT02955602",
       "domain": "gastroenterology_hepatology",
-      "title": "Filgotinib in the Induction and Maintenance of Remission in Adults With Moderately to Severely Active Crohn's Disease",
+      "title": "Seladelpar (MBX-8025) in Subjects With Primary Biliary Cholangitis (PBC)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02955602/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02955602/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03251482",
+      "domain": "hematology",
+      "title": "A Study to Evaluate the Safety and Efficacy of Intravenous JNJ-64179375 Versus Oral Apixaban in Participants Undergoing Elective Total Knee Replacement Surgery",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03251482/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03251482/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02993107",
+      "domain": "immunology_rheumatology",
+      "title": "PALISADE Follow-on Study (ARC004)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02914561/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02914561/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03061201",
-      "domain": "hematology",
-      "title": "A Study of Recombinant AAV2/6 Human Factor 8 Gene Therapy SB-525 (PF-07055480) in Subjects With Severe Hemophilia A",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "sequential",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT03061201/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT03061201/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02975336",
-      "domain": "immunology_rheumatology",
-      "title": "A Phase II Study of M2951 in SLE",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02975336/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02975336/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02993107/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02993107/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT07573423",
+      "candidate_id": "NCT01818258",
       "domain": "infectious_disease",
-      "title": "Linear Versus Purse String Skin Closure at Loop Ileostomy Reversal.",
-      "pairing_state": "exact_document_date_match",
+      "title": "IMPAACT P1092: Steady State PK in Malnourished HIV Infected Children",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
+        "non_randomized",
         "parallel",
         "none",
-        "na"
+        "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT07573423/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT07573423/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT01818258/Prot_ICF_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT01818258/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT01921387",
+      "candidate_id": "NCT01946789",
       "domain": "oncology",
-      "title": "Radiolabeled Monoclonal Antibody and Combination Chemotherapy Before Stem Cell Transplant in Treating Patients With High-Risk Lymphoid Malignancies",
+      "title": "A Phase 1 Study of the Clinical and Immunologic Effects of ALT-803 in Patients With Advanced Solid Tumors",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
+        "non_randomized",
         "single_group",
         "none",
-        "phase_1",
-        "phase_2"
+        "phase_1"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01921387/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01921387/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT01946789/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT01946789/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -354,25 +351,6 @@
     },
     {
       "queue_rank": 19,
-      "candidate_id": "NCT01946789",
-      "domain": "oncology",
-      "title": "A Phase 1 Study of the Clinical and Immunologic Effects of ALT-803 in Patients With Advanced Solid Tumors",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "non_randomized",
-        "single_group",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT01946789/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT01946789/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 20,
       "candidate_id": "NCT01667406",
       "domain": "reproductive_maternal",
       "title": "The Use of the Hormone Kisspeptin in 'in Vitro Fertilisation' (IVF) Treatment",
@@ -391,7 +369,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 21,
+      "queue_rank": 20,
       "candidate_id": "NCT04710862",
       "domain": "respiratory",
       "title": "The Effects of Respiratory Training on Voice",
@@ -410,7 +388,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 22,
+      "queue_rank": 21,
       "candidate_id": "NCT02379819",
       "domain": "other_clinical",
       "title": "Hybrid L24 New Enrollment Post Approval Study",
@@ -429,7 +407,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 23,
+      "queue_rank": 22,
       "candidate_id": "NCT03464110",
       "domain": "cardiovascular",
       "title": "Communication Coaching to Improve Patient and Clinician Satisfaction in Cardiology Encounters",
@@ -448,7 +426,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 24,
+      "queue_rank": 23,
       "candidate_id": "NCT03594227",
       "domain": "dermatology",
       "title": "ATI-501 Oral Suspension Compared to Placebo in Subjects With Alopecia Areata, Alopecia Universalis or Alopecia Totalis",
@@ -464,6 +442,25 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03594227/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03594227/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 24,
+      "candidate_id": "NCT03036592",
+      "domain": "endocrine_metabolic",
+      "title": "MTNR1B SNP*Food Timing Interaction on Glucose Control",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "crossover",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03036592/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03036592/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
