@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 19 produced no promotion: excluded NCT03223883, NCT02832063, NCT02057718, NCT06949176 and NCT04623242 as post-completion, execution-informed or misclassified documents, and excluded NCT02906930, NCT02234323 and NCT02951533 for protocol-embedded target leakage.
+- Replenished all eight rejected slots and preserved 60 actionable metadata candidates alongside 60 version-verified public annotation drafts.
+
 - Promoted NCT03812614 after exact STUDY20110344, NCT, title, version v2.2.1 062222 and 2022-06-22 protocol/SAP matching; added 23 requirements for the COVID-adapted FAM-ACT diabetes-support trial.
 - Excluded NCT02815280, NCT02906917, NCT02234310 and NCT02931838 for protocol-embedded target leakage; excluded NCT02646618 and NCT04979858 as retrospective or results-bearing wrong document types; and placed NCT03440320 on governing-version hold.
 - Refreshed and replenished the candidate pool to 60, preserving 120 release-intake families, and increased the registered requirement total from 1,033 to 1,056 (1,030 public plus 26 private-pilot requirements).

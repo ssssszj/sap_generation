@@ -5,48 +5,48 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03223883",
+      "candidate_id": "NCT04118270",
       "domain": "cardiovascular",
-      "title": "Curcumin and Vascular and Cognitive Function in Patients With Chronic Kidney Disease",
+      "title": "Shared Decision-Making: AFib 2gether Mobile App",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03223883/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03223883/SAP_004.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04118270/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT04118270/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT02832063",
+      "candidate_id": "NCT03028363",
       "domain": "dermatology",
-      "title": "Clinical Trial in Subjects With Mild to Moderate Acne Vulgaris",
+      "title": "A Study of Olumacostat Glasaretil Gel in Subjects With Acne Vulgaris",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2",
         "phase_3"
       ],
       "endpoint_types": [
+        "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02832063/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02832063/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03028363/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03028363/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT02906930",
+      "candidate_id": "NCT02911948",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Oral Semaglutide Versus Placebo in Subjects With Type 2 Diabetes Mellitus Treated With Diet and Exercise Only",
+      "title": "A Double-blinded Trial Comparing the Efficacy and Safety of Insulin Degludec/Liraglutide and Insulin Degludec Both in Combination With Metformin in Japanese Subjects With Type 2 Diabetes Mellitus Inadequately Controlled With Basal or Pre-mix/Combination Insulin Therapy and Oral Anti-diabetic Drugs",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -57,72 +57,92 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02906930/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02906930/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02911948/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02911948/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT02057718",
+      "candidate_id": "NCT02903966",
       "domain": "gastroenterology_hepatology",
-      "title": "Open Label Study to Evaluate Efficacy and Long Term Safety of LUM001 (Maralixibat) in the Treatment of Cholestatic Liver Disease in Patients With Progressive Familial Intrahepatic Cholestasis",
+      "title": "GSK2982772 Study in Subjects With Ulcerative Colitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02903966/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02903966/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02548143",
+      "domain": "hematology",
+      "title": "LR769 in Congenital Hemophilia Patients With Inhibitors Undergoing Elective Surgery or Invasive Procedures",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02548143/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02548143/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02962960",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Characterize the Pharmacokinetics, Pharmacodynamics, and Safety of Anifrolumab in Adult Type I Interferon Test High Systemic Lupus Erythematosus Subject With Active Skin Manifestations",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
         "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02057718/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02057718/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02234323",
-      "domain": "hematology",
-      "title": "An Open Label Study to Determine the Safety and Efficacy of Replacement Factor VIII Protein (Known as rFVIIIFc) in Previously Untreated Males With Severe Hemophilia A",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02234323/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02234323/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02951533",
-      "domain": "immunology_rheumatology",
-      "title": "A Study to Compare the Efficacy of Guselkumab to Fumaric Acid Esters for the Treatment of Participants With Moderate to Severe Plaque Psoriasis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02951533/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02951533/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02962960/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02962960/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT06949176",
+      "candidate_id": "NCT07084948",
       "domain": "infectious_disease",
-      "title": "Clinical Investigation of Chemomechanical Parameters for an Efficient Disinfection of the Root Canal",
+      "title": "Inhibition of HBV Replication and Biological Reversal of Cirrhosis (F3-F4) and HCC by Flavonoids",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT07084948/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT07084948/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03502187",
+      "domain": "musculoskeletal_pain",
+      "title": "Subacute Low Back Pain in Active Duty",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -133,28 +153,8 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06949176/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06949176/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT04623242",
-      "domain": "neurology",
-      "title": "Dominantly Inherited Alzheimer Network Trial: An Opportunity to Prevent Dementia. A Study of Potential Disease Modifying Treatments in Individuals at Risk for or With a Type of Early Onset Alzheimer's Disease Caused by a Genetic Mutation.",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT04623242/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT04623242/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03502187/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03502187/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -274,29 +274,28 @@
     },
     {
       "queue_rank": 15,
-      "candidate_id": "NCT03028363",
+      "candidate_id": "NCT03124381",
       "domain": "dermatology",
-      "title": "A Study of Olumacostat Glasaretil Gel in Subjects With Acne Vulgaris",
+      "title": "A Study to Evaluate the Efficacy and Tolerance of 2 Acne Treatment Regimens on Subjects With Mild to Moderate Acne",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
+        "double",
+        "na"
       ],
       "endpoint_types": [
-        "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03028363/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03028363/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03124381/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03124381/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT02911948",
+      "candidate_id": "NCT02918279",
       "domain": "endocrine_metabolic",
-      "title": "A Double-blinded Trial Comparing the Efficacy and Safety of Insulin Degludec/Liraglutide and Insulin Degludec Both in Combination With Metformin in Japanese Subjects With Type 2 Diabetes Mellitus Inadequately Controlled With Basal or Pre-mix/Combination Insulin Therapy and Oral Anti-diabetic Drugs",
+      "title": "Effect of Liraglutide for Weight Management in Pubertal Adolescent Subjects With Obesity",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -307,8 +306,8 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02911948/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02911948/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02918279/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02918279/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -332,21 +331,22 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT02548143",
+      "candidate_id": "NCT03061201",
       "domain": "hematology",
-      "title": "LR769 in Congenital Hemophilia Patients With Inhibitors Undergoing Elective Surgery or Invasive Procedures",
+      "title": "A Study of Recombinant AAV2/6 Human Factor 8 Gene Therapy SB-525 (PF-07055480) in Subjects With Severe Hemophilia A",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
-        "single_group",
+        "sequential",
         "none",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02548143/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02548143/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT03061201/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT03061201/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
