@@ -28,6 +28,11 @@
 - Promoted NCT04925570 Anchor/W-SUDs after exact title, NCT, and date matching; added 14 requirements for digital-intervention outcomes, retention weighting, item-level missingness, and adherence-defined sensitivity analysis.
 - Promoted NCT04270682 RESTORE after verifying that SAP v2.0 cites protocol Amendment 6 dated 2023-04-04; added 18 requirements for rare-disease crossover analysis, rescue handling, Holm-Bonferroni testing, MAR multiple imputation, and separate pediatric analyses.
 - Refreshed the candidate pool to 107, preserving 120 release-intake families, and increased the registered requirement total from 221 to 253.
+- Promoted NCT02600637 after exact title, NCT, and date matching; added 17 requirements that preserve the pilot's descriptive analysis and separate it from an illustrative future-efficacy mixed model.
+- Promoted NCT03603509 after matching protocol Version 7 and the SAP by exact title, NCT, and 2019-05-19 date; added 15 requirements for HAI change, Wilcoxon comparison, laboratory blocking, CQN normalization, and exploratory transcriptomic analyses.
+- Excluded NCT03856047, NCT05025345, NCT02176018, and NCT04707014 for protocol-embedded SAP leakage, and excluded NCT03556293 and NCT04697836 as retrospective analysis summaries rather than prospective protocol/SAP pairs.
+- Put NCT02796677, NCT02407054, NCT02301897, and NCT00928447 on version-reconciliation hold, and NCT02173379 on public-redaction hold; holds remain outside the review queue.
+- Refreshed and replenished the candidate pool to 105, preserving 120 release-intake families, and increased the registered requirement total from 253 to 285.
 
 ## 0.2-development - 2026-09-21
 
