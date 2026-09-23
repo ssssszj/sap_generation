@@ -21,6 +21,10 @@
 - Kept NCT00787722 on version-reconciliation hold because its concise SAP does not identify the governing internal protocol version.
 - Added exclusion-aware candidate-pool refresh, replenished invalid candidates from the official registry API, and preserved the 120-family intake with nine registered public drafts plus 111 screened candidates.
 - Increased the registered-study requirement total from 141 to 186.
+- Promoted NCT00738894 REDUCE and NCT05352893 imsidolimab after exact protocol/SAP identity and date matching; added 35 evidence-backed requirements for device co-primary testing and Phase 3 estimand/multiplicity/MI evaluation.
+- Excluded NCT02348775 as a retrospective post-study summary rather than a prospective protocol/SAP pair.
+- Put NCT03734588 on hold for an internal governing-protocol date conflict and formalized the existing public-redaction hold for NCT05133739.
+- Refreshed and replenished the candidate pool to 109, preserving 120 release-intake families, and increased the registered requirement total from 186 to 221.
 
 ## 0.2-development - 2026-09-21
 

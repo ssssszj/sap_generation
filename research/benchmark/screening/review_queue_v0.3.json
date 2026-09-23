@@ -5,9 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT00738894",
+      "candidate_id": "NCT02173379",
       "domain": "cardiovascular",
-      "title": "GORE® Septal Occluder Device for Patent Foramen Ovale (PFO) Closure in Stroke Patients",
+      "title": "Absorb IV Randomized Controlled Trial",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -18,27 +18,27 @@
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT00738894/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT00738894/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02173379/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02173379/SAP_004.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT05133739",
+      "candidate_id": "NCT00116337",
       "domain": "dermatology",
-      "title": "RHA 4 for Midface Volume Deficiency",
-      "pairing_state": "legacy_manual_screen",
+      "title": "Spinal Cord Stimulation to Restore Cough",
+      "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "single_blind",
-        "parallel",
-        "non_inferiority"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT05133739/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT05133739/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT00116337/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT00116337/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -83,62 +83,60 @@
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT03734588",
+      "candidate_id": "NCT06616376",
       "domain": "hematology",
-      "title": "Dose-finding Study of SPK-8016 Gene Therapy in Patients With Hemophilia A to Support Evaluation in Individuals With FVIII Inhibitors",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03734588/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03734588/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT05352893",
-      "domain": "immunology_rheumatology",
-      "title": "Study to Evaluate the Efficacy and Safety of Imsidolimab (ANB019) in the Treatment of Subjects With GPP",
+      "title": "The Affect Of An Anti-Embolism Stocking Protocol",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
+        "single",
+        "na"
       ],
       "endpoint_types": [
-        "binary",
-        "continuous"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT05352893/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT05352893/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 7,
-      "candidate_id": "NCT02348775",
-      "domain": "infectious_disease",
-      "title": "Glutathione and Function in HIV Patients",
+      "queue_rank": 6,
+      "candidate_id": "NCT07352566",
+      "domain": "immunology_rheumatology",
+      "title": "Utilization of a Microdevice for Psoriasis and Atopic Dermatitis",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_1"
+        "phase_4"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02348775/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02348775/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT03342027",
+      "domain": "infectious_disease",
+      "title": "Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "factorial",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/Prot_ICF_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -338,9 +336,28 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT02173379",
+      "candidate_id": "NCT02600637",
       "domain": "cardiovascular",
-      "title": "Absorb IV Randomized Controlled Trial",
+      "title": "Wellness Programs for Brain-Injured Individuals",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02600637/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02600637/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 19,
+      "candidate_id": "NCT04707014",
+      "domain": "dermatology",
+      "title": "Hypnoanalgesia for Dermatological Surgery in Children",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -349,29 +366,10 @@
         "na"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02173379/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02173379/SAP_004.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 19,
-      "candidate_id": "NCT00116337",
-      "domain": "dermatology",
-      "title": "Spinal Cord Stimulation to Restore Cough",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT00116337/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT00116337/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT04707014/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT04707014/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -414,60 +412,60 @@
     },
     {
       "queue_rank": 22,
-      "candidate_id": "NCT06616376",
+      "candidate_id": "NCT01317875",
       "domain": "hematology",
-      "title": "The Affect Of An Anti-Embolism Stocking Protocol",
-      "pairing_state": "exact_document_date_match",
+      "title": "Study of the JAK Inhibitor Ruxolitinib Administered Orally to Patients With Primary Myelofibrosis (PMF), Post-Polycythemia Vera-Myelofibrosis (PPV-MF) or Post-Essential Thrombocythemia-Myelofibrosis (PET-MF)",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "single",
-        "na"
+        "single_group",
+        "none",
+        "phase_1"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT06616376/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01317875/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01317875/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 23,
-      "candidate_id": "NCT07352566",
+      "candidate_id": "NCT00928447",
       "domain": "immunology_rheumatology",
-      "title": "Utilization of a Microdevice for Psoriasis and Atopic Dermatitis",
-      "pairing_state": "exact_document_date_match",
+      "title": "Study of the Intradermal Injection of rHuPH20 or Placebo in Participants With Nickel Allergic Contact Dermatitis",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT07352566/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT00928447/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT00928447/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT03342027",
+      "candidate_id": "NCT03603509",
       "domain": "infectious_disease",
-      "title": "Smoking Cessation Interventions for People Living With HIV in Nairobi, Kenya",
+      "title": "Gene Signatures of Influenza Vaccine Responses in Older Adults",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
-        "factorial",
-        "double",
-        "phase_3"
+        "parallel",
+        "none",
+        "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/Prot_ICF_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03342027/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT03603509/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT03603509/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
