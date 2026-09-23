@@ -5,85 +5,47 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT01629862",
+      "candidate_id": "NCT02341534",
       "domain": "cardiovascular",
-      "title": "Vascular Impairment in Type II Diabetes Mellitus With Co-morbid Obstructive Sleep Apnea",
+      "title": "BIO monitorinG in Patients With Preserved Left ventricUlar Function AfteR Diagnosed Myocardial Infarction",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_2"
+        "single",
+        "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01629862/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT01629862/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02341534/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02341534/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT02818998",
+      "candidate_id": "NCT02835092",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Three Different Aflibercept Regimens in Subjects With Diabetic Macular Edema (DME)",
+      "title": "Weight Loss Using the Take Shape For Life Program or the Medifast Direct Program Versus a Self-Directed Diet",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT02818998/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT02818998/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT02835092/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT02835092/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT04618315",
+      "candidate_id": "NCT05156125",
       "domain": "gastroenterology_hepatology",
-      "title": "P-CHAT: Comparison of Direct to Consumer Delivery Models for Hearing Devices",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT04618315/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT04618315/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04784455",
-      "domain": "hematology",
-      "title": "Nomacopan (rVA576) in Transplant Associated Thrombotic Microangiopathy",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04784455/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04784455/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03845517",
-      "domain": "immunology_rheumatology",
-      "title": "A DOSE-RANGING STUDY TO EVALUATE EFFICACY AND SAFETY OF PF-06700841 IN SYSTEMIC LUPUS ERYTHEMATOSUS (SLE)",
+      "title": "VTX002 Versus Placebo for the Treatment of Moderately to Severely Active Ulcerative Colitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -94,67 +56,103 @@
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03845517/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03845517/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT05156125/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT05156125/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02778204",
-      "domain": "infectious_disease",
-      "title": "Evaluating the Safety and Pharmacokinetics of Maraviroc in HIV-1-Exposed Infants at Risk of Acquiring HIV-1 Infection",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02778204/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02778204/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02706951",
-      "domain": "musculoskeletal_pain",
-      "title": "A Study Comparing Upadacitinib (ABT-494) Monotherapy to Methotrexate (MTX) Monotherapy in Adults With Rheumatoid Arthritis (RA) Who Have an Inadequate Response to MTX (SELECT-MONOTHERAPY)",
-      "pairing_state": "plausible_date_order",
+      "queue_rank": 4,
+      "candidate_id": "NCT04341662",
+      "domain": "hematology",
+      "title": "A Clinical Trial to Study the Effectiveness of a Care Bundle to Prevent Bleeding After a Woman Has Given Birth",
+      "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02706951/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02706951/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT05529706",
-      "domain": "neurology",
-      "title": "Community-based Brain Health Program to Address Dementia Risk",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
         "none",
         "na"
       ],
       "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT04341662/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT04341662/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03230292",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Evaluate the Long-term Safety, Tolerability and Efficacy of Bimekizumab in Adult Patients With Chronic Plaque Psoriasis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03230292/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03230292/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02781571",
+      "domain": "infectious_disease",
+      "title": "Sofosbuvir/Velpatasvir Fixed Dose Combination in Participants With Chronic Hepatitis C Virus Infection Who Have Received a Liver Transplant",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT02781571/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT02781571/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02713178",
+      "domain": "musculoskeletal_pain",
+      "title": "Efficacy, Safety, and Pharmacokinetics of Femoral Nerve Block With EXPAREL in Total Knee Arthroplasty",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT05529706/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT05529706/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02713178/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02713178/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03341091",
+      "domain": "neurology",
+      "title": "Effects of Tai-chi Programme on Mobility of People With Dementia",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03341091/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03341091/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -235,21 +233,21 @@
     },
     {
       "queue_rank": 13,
-      "candidate_id": "NCT02835092",
+      "candidate_id": "NCT02973321",
       "domain": "endocrine_metabolic",
-      "title": "Weight Loss Using the Take Shape For Life Program or the Medifast Direct Program Versus a Self-Directed Diet",
+      "title": "A Study to Assess the Safety and Efficacy of SAR425899 in Patients With Type 2 Diabetes Mellitus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
-        "na"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT02835092/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT02835092/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02973321/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02973321/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -273,40 +271,42 @@
     },
     {
       "queue_rank": 15,
-      "candidate_id": "NCT04341662",
+      "candidate_id": "NCT01286779",
       "domain": "hematology",
-      "title": "A Clinical Trial to Study the Effectiveness of a Care Bundle to Prevent Bleeding After a Woman Has Given Birth",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT04341662/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT04341662/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 16,
-      "candidate_id": "NCT03230292",
-      "domain": "immunology_rheumatology",
-      "title": "A Study to Evaluate the Long-term Safety, Tolerability and Efficacy of Bimekizumab in Adult Patients With Chronic Plaque Psoriasis",
+      "title": "BAX 326 (rFIX) Continuation Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT01286779/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT01286779/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 16,
+      "candidate_id": "NCT03847389",
+      "domain": "immunology_rheumatology",
+      "title": "Clobetasol Topical Oil for Children With Moderate to Severe Atopic Dermatitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03230292/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03230292/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT03847389/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT03847389/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -330,9 +330,9 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT03341091",
+      "candidate_id": "NCT03458767",
       "domain": "neurology",
-      "title": "Effects of Tai-chi Programme on Mobility of People With Dementia",
+      "title": "A Cognitive Self-Management Intervention for Persons With Multiple Sclerosis: Adapting Web-based Technology",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -341,14 +341,33 @@
         "na"
       ],
       "endpoint_types": [
-        "binary"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03341091/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03341091/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03458767/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03458767/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 19,
+      "candidate_id": "NCT02285855",
+      "domain": "oncology",
+      "title": "Metformin in Non Small Cell Lung Cancer (NSCLC)",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02285855/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02285855/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 20,
       "candidate_id": "NCT02161757",
       "domain": "respiratory",
       "title": "A Phase 3 Study to Evaluate the Efficacy and Safety of Tralokinumab in Adults and Adolescents With Uncontrolled Asthma",
@@ -367,7 +386,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 20,
+      "queue_rank": 21,
       "candidate_id": "NCT02379819",
       "domain": "other_clinical",
       "title": "Hybrid L24 New Enrollment Post Approval Study",
@@ -386,7 +405,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 21,
+      "queue_rank": 22,
       "candidate_id": "NCT02274857",
       "domain": "cardiovascular",
       "title": "Randomized Evaluation of Atrial Fibrillation Treatment With Focal Impulse and Rotor Modulation Guided Procedures",
@@ -405,26 +424,26 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 22,
-      "candidate_id": "NCT02973321",
+      "queue_rank": 23,
+      "candidate_id": "NCT03056456",
       "domain": "endocrine_metabolic",
-      "title": "A Study to Assess the Safety and Efficacy of SAR425899 in Patients With Type 2 Diabetes Mellitus",
+      "title": "A Study of LY900014 Administered in Participants With Type 1 Diabetes Using an Insulin Pump",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
+        "crossover",
+        "double",
+        "phase_1"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02973321/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02973321/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03056456/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03056456/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 23,
+      "queue_rank": 24,
       "candidate_id": "NCT05794763",
       "domain": "gastroenterology_hepatology",
       "title": "The Body Project: Comparing the Effectiveness of an In-person and Virtually Delivered Intervention.",
@@ -440,25 +459,6 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 24,
-      "candidate_id": "NCT01286779",
-      "domain": "hematology",
-      "title": "BAX 326 (rFIX) Continuation Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT01286779/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT01286779/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
