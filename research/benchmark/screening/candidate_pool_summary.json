@@ -14,36 +14,36 @@
   "total_including_pilot": 121,
   "domain_distribution": {
     "cardiovascular": 3,
-    "dermatology": 5,
+    "dermatology": 4,
     "endocrine_metabolic": 11,
     "gastroenterology_hepatology": 7,
     "hematology": 6,
     "immunology_rheumatology": 5,
     "infectious_disease": 2,
     "musculoskeletal_pain": 1,
-    "neurology": 1,
+    "neurology": 2,
     "oncology": 1,
     "other_clinical": 5,
     "respiratory": 3
   },
   "intervention_distribution": {
-    "behavioral": 4,
+    "behavioral": 6,
     "device": 4,
-    "drug": 28,
-    "mixed": 6,
-    "other": 8
+    "drug": 25,
+    "mixed": 5,
+    "other": 10
   },
   "endpoint_distribution_multi_label": {
-    "binary": 5,
-    "continuous": 16,
-    "count_or_rate": 5,
-    "other_or_manual_review": 26,
+    "binary": 4,
+    "continuous": 13,
+    "count_or_rate": 4,
+    "other_or_manual_review": 30,
     "time_to_event": 1
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 10,
+    "exact_document_date_match": 11,
     "needs_version_review": 2,
-    "plausible_date_order": 38
+    "plausible_date_order": 37
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }

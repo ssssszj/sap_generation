@@ -2,6 +2,9 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 42 produced no promotion: excluded NCT01975389, NCT05192200, NCT02589639, NCT04023396, NCT03489291, NCT03598790, NCT02699099 and NCT02517905 because their public protocols disclose executable target analyses, with additional post-primary/completion or CSR-packaging defects in five families.
+- Batch 42 hash-froze 16 PDFs and eight registry records, extracted all documents, visually checked their covers and decisive pages, and returned all eight slots for replenishment while preserving 70 public drafts plus 50 metadata candidates.
+
 - Batch 41 promoted NCT02469610 as `PUBLIC-INTERCOSTAL-BLOCK-TIMING-001` with 20 evidence-backed requirements after exact-title, investigator, site, date and non-leakage review; the registered public set increased from 69 to 70.
 - Batch 41 excluded NCT01927367, NCT05041803, NCT02582814, NCT03920254, NCT03395223, NCT03590613 and NCT02628600 for protocol-embedded executable-plan leakage and/or post-completion, pooled or CSR analysis documents, then returned seven slots for replenishment.
 
