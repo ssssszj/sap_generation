@@ -1,0 +1,26 @@
+{
+  "study_id": "PUBLIC-PALMS-II-MS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PALMS-II-MS-001-R005",
+    "PUBLIC-PALMS-II-MS-001-R006",
+    "PUBLIC-PALMS-II-MS-001-R008",
+    "PUBLIC-PALMS-II-MS-001-R009",
+    "PUBLIC-PALMS-II-MS-001-R013",
+    "PUBLIC-PALMS-II-MS-001-R014",
+    "PUBLIC-PALMS-II-MS-001-R015",
+    "PUBLIC-PALMS-II-MS-001-R016",
+    "PUBLIC-PALMS-II-MS-001-R019"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact-title, University of Texas at Austin and 2017-09-19 identity match between the separately uploaded protocol and SAP.",
+    "Adjudicate whether the pilot has a governing primary outcome or should remain wholly exploratory.",
+    "Complete the randomization, analysis-population, endpoint-derivation, missing-data and multiplicity specifications.",
+    "Adjudicate the reference ANCOVA covariates and alpha 0.10 convention in light of the small 10-per-arm target.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

@@ -2,6 +2,10 @@
 
 ## 0.3-development - 2026-09-23
 
+- Batch 49 promoted NCT03458767 as `PUBLIC-PALMS-II-MS-001` with 22 evidence-backed requirements after exact-title/date, independent-document, chronology and non-leakage review; the registered public set increased from 70 to 71.
+- Batch 49 excluded NCT02351856, NCT02973321, NCT05570006, NCT01286779, NCT03850483 and NCT02798211 for protocol-embedded executable-plan leakage, with post-completion defects in three families, and excluded NCT02738450 as a post-completion execution-informed SAP.
+- Batch 49 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked all covers and decisive pages, and returned seven slots for replenishment while preserving the 120-family intake.
+
 - Batch 48 produced no promotion: excluded NCT02835092, NCT05156125, NCT04341662, NCT03230292, NCT02781571, NCT02713178 and NCT03341091 for protocol-embedded executable-plan leakage or a duplicated non-independent SAP, and excluded NCT02341534 as an interim-informed, unblinded and post-completion analysis package.
 - Batch 48 hash-froze and text-extracted 16 PDFs and eight registry records, visually checked all covers and decisive statistical pages, and returned all eight slots for replenishment while preserving 70 public drafts plus 50 metadata candidates.
 
