@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 72 screening - 2026-09-24
+
+- Batch 72 produced no promotion: excluded NCT02944968, NCT04445714, NCT02117713, NCT06101823, NCT03283319, NCT03956550, NCT02224703 and NCT01698918 because every model-visible protocol exposes an executable target analysis; six families additionally have post-primary/post-completion, execution-informed or non-independent extension defects.
+- Batch 72 hash-froze and extracted all 16 PDFs and eight registry records, fully OCRed the scan-only NCT04445714 SAP and the decisive pages of the character-encoded NCT02224703 pair, visually checked every cover and decisive statistical/chronology page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 71 screening - 2026-09-24
 
 - Batch 71 produced no promotion: excluded NCT02917031, NCT02471404, NCT02022826, NCT05999799, NCT03235349 and NCT01797120 because their model-visible protocols expose executable target analyses; three also have post-completion chronology or material-redaction defects.
