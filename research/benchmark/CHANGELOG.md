@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 66 screening - 2026-09-24
+
+- Batch 66 produced no promotion: excluded NCT02791230, NCT03651765, NCT05364554, NCT03095638, NCT03714672, NCT02595983 and NCT01222767 because their model-visible protocols expose executable target analyses; four are additionally non-independent extension/cross-study families or version-defective, and two SAPs are post-completion.
+- Placed NCT03763175 on governing-version hold because its SAP cites unavailable Protocol Version 3 while the only public Version 8 reports observed data from 53 randomized participants and adds an interim futility analysis.
+- Batch 66 hash-froze and extracted all 16 PDFs and eight registry records, fully OCRed the scan-only NCT03763175 SAP, visually checked every cover and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 65 screening - 2026-09-24
 
 - Batch 65 produced no promotion: excluded NCT04109547, NCT03451292, NCT03089944, NCT03486457 and NCT02525874 because their model-visible protocols expose executable target analyses, with post-primary, post-completion or execution-informed defects in four families; excluded NCT05239039 as a post-completion multi-trial expanded-access TSAP and NCT01090414 as a non-independent extension family with protocol leakage.

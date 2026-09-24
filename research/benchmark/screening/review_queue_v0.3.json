@@ -5,108 +5,107 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02791230",
+      "candidate_id": "NCT02617446",
       "domain": "cardiovascular",
-      "title": "Long-term Safety of Tafamidis in Subjects With Transthyretin Cardiomyopathy",
+      "title": "The Clinical Study of the Safety and Efficacy of Istaroxime in Treatment of Acute Decompensated Heart Failure",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
+        "randomized",
         "parallel",
-        "none",
-        "phase_3"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02791230/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02791230/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02617446/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02617446/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03651765",
+      "candidate_id": "NCT04276207",
       "domain": "endocrine_metabolic",
-      "title": "Long Term Extension Trial of Setmelanotide",
+      "title": "A Study of LY900014 Versus Insulin Lispro (Humalog) on High Blood Sugar in Participants With Type 1 Diabetes Who Use Insulin Pumps",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2",
-        "phase_3"
+        "randomized",
+        "crossover",
+        "double",
+        "phase_1"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03651765/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03651765/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04276207/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04276207/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT03763175",
+      "candidate_id": "NCT04026113",
       "domain": "gastroenterology_hepatology",
-      "title": "Efficacy and Safety of SYN-010 in IBS-C",
+      "title": "Linaclotide Safety and Efficacy in Pediatric Participants, 6 to 17 Years of Age, With Irritable Bowel Syndrome With Constipation (IBS-C) or Functional Constipation (FC)",
       "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
+        "binary",
         "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03763175/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03763175/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04026113/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04026113/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT05364554",
+      "candidate_id": "NCT05375955",
       "domain": "immunology_rheumatology",
-      "title": "A Long-term Extension Study of JNJ-77242113 in Participants With Moderate-to-Severe Plaque Psoriasis",
+      "title": "A Study to Learn About The Study Medicine (PF-07038124) In Patients With Mild To Moderate Atopic Dermatitis Or Mild To Severe Plaque Psoriasis.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
+        "randomized",
         "parallel",
-        "double",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
         "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT05364554/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT05364554/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT05375955/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT05375955/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT03095638",
+      "candidate_id": "NCT03146403",
       "domain": "infectious_disease",
-      "title": "Bioavailability Study of 10 Milligram (mg) and 5 mg Tablets Versus Conventional Tablets of Dolutegravir",
+      "title": "Maintenance Dose Study of GEN-003 in Subjects With Genital Herpes Infection",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "crossover",
-        "none",
-        "phase_1"
+        "parallel",
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03095638/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03095638/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT03146403/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT03146403/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT03714672",
+      "candidate_id": "NCT03793010",
       "domain": "musculoskeletal_pain",
-      "title": "Tramadol/Diclofenac Fixed-dose Combination Phase III Trial in Acute Pain After Third Molar Extraction",
+      "title": "Study to Evaluate the Efficacy and Safety of FX006 in Patients With Hip Osteoarthritis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -115,49 +114,51 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT03714672/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT03714672/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03793010/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03793010/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02595983",
+      "candidate_id": "NCT02760602",
       "domain": "neurology",
-      "title": "The Study of an Investigational Drug, Revusiran (ALN-TTRSC), for the Treatment of Transthyretin (TTR)-Mediated Amyloidosis in Patients Whose Disease Has Continued to Worsen Following Liver Transplant",
+      "title": "A Study of Solanezumab (LY2062430) in Participants With Prodromal Alzheimer's Disease",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02595983/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02595983/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02760602/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02760602/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT01222767",
+      "candidate_id": "NCT01492088",
       "domain": "oncology",
-      "title": "Study of Zalypsis® (PM00104) in Patients With Unresectable Locally Advanced and/or Metastatic Ewing Family of Tumors (EFT) Progressing After at Least One Prior Line of Chemotherapy",
+      "title": "Study of Brentuximab Vedotin (SGN-35) in Pediatric Participants With Relapsed or Refractory (r/r) Systemic Anaplastic Large-Cell Lymphoma or Hodgkin Lymphoma",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
+        "non_randomized",
         "single_group",
         "none",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "binary",
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT01222767/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT01222767/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT01492088/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT01492088/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -200,21 +201,21 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT02617446",
+      "candidate_id": "NCT02816736",
       "domain": "cardiovascular",
-      "title": "The Clinical Study of the Safety and Efficacy of Istaroxime in Treatment of Acute Decompensated Heart Failure",
+      "title": "EntrestoTM (LCZ696) In Advanced Heart Failure (LIFE Study)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_2"
+        "triple",
+        "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02617446/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02617446/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02816736/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02816736/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -314,24 +315,22 @@
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT01492088",
+      "candidate_id": "NCT01581840",
       "domain": "oncology",
-      "title": "Study of Brentuximab Vedotin (SGN-35) in Pediatric Participants With Relapsed or Refractory (r/r) Systemic Anaplastic Large-Cell Lymphoma or Hodgkin Lymphoma",
+      "title": "Radiochemotherapy With Panitumumab in the Localised Epidermoid Carcinoma of the Anus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
+        "na",
         "single_group",
         "none",
         "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT01492088/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT01492088/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01581840/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01581840/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
