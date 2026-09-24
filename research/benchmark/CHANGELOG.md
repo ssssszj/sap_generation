@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 76 screening - 2026-09-24
+
+- Batch 76 produced no promotion: excluded NCT03052530, NCT04737330, NCT03797157, NCT04089735, NCT02425644 and NCT01794520 for executable protocol analysis leakage plus post-completion, termination-informed or governing-version defects.
+- Excluded NCT04400214 and NCT03386110 because their selected protocol files are execution-updated summaries or an internal procedure guide rather than prospective governing protocols, while their analysis files contain retrospective pandemic or completed-analysis information.
+- Batch 76 hash-froze and extracted all 16 PDFs and eight registry records, fully OCRed the scan-only NCT03052530 SAP and sparse-text NCT04089735 protocol, visually checked every identity, chronology and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 75 screening - 2026-09-24
 
 - Batch 75 produced no promotion: excluded NCT03036150, NCT04692688, NCT04212169, NCT03376321, NCT04065074, NCT03047629 and NCT01724346 because their model-visible protocols expose executable target analyses, with material redaction, post-primary/post-completion, execution-informed, version-chain or non-independent extension defects in six families.
