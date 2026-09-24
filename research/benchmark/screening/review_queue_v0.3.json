@@ -5,155 +5,155 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02864953",
+      "candidate_id": "NCT02917031",
       "domain": "cardiovascular",
-      "title": "Phase 3 Study to Evaluate the Efficacy and Safety of Intravenous BIIB093 (Glibenclamide) for Severe Cerebral Edema Following Large Hemispheric Infarction",
+      "title": "Mechanistic Evaluation of Glucose-lowering Strategies in Patients With Heart Failure",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02864953/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02864953/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04305587",
-      "domain": "endocrine_metabolic",
-      "title": "Multiple Escalating Oral Doses Study of PF-07081532 in Adult Participants With Type 2 Diabetes Mellitus",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT04305587/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT04305587/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05794763",
-      "domain": "gastroenterology_hepatology",
-      "title": "The Body Project: Comparing the Effectiveness of an In-person and Virtually Delivered Intervention.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT05696392",
-      "domain": "immunology_rheumatology",
-      "title": "The Purpose of This Study is to Evaluate the Effects of Ruxolitinib Cream on Adults With Atopic Dermatitis Experiencing Sleep Disturbance.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "triple",
         "phase_4"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT05696392/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT05696392/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02917031/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02917031/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 5,
-      "candidate_id": "NCT03233217",
-      "domain": "infectious_disease",
-      "title": "Safety and Immunogenicity of High-Dose Quadrivalent Influenza Vaccine in Patients ≥65 Years",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "sequential",
-        "double",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03233217/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03233217/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03927846",
-      "domain": "musculoskeletal_pain",
-      "title": "Implementation of Nurse-guided Web-based Cognitive Behavioral Therapy for Pain Management",
+      "queue_rank": 2,
+      "candidate_id": "NCT02471404",
+      "domain": "endocrine_metabolic",
+      "title": "Efficacy and Safety of Dapagliflozin and Dapagliflozin Plus Saxagliptin in Combination With Metformin in Type 2 Diabetes Patients Compared With Sulphonylurea",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03927846/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03927846/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01993836",
-      "domain": "neurology",
-      "title": "Markers of Alzheimers Disease and Cognitive Outcomes After Perioperative Care",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
+        "triple",
         "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02471404/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02471404/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT01678664",
-      "domain": "oncology",
-      "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+      "queue_rank": 3,
+      "candidate_id": "NCT02022826",
+      "domain": "gastroenterology_hepatology",
+      "title": "Clinical Management With SPM System and Validation of the SPM 5 Hour Cutoff in Patients With Symptoms of Gastroparesis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT05999799",
+      "domain": "immunology_rheumatology",
+      "title": "A Dose Finding Study to Investigate the Safety and Effectiveness of GSK1070806 in Adult Participants With Moderate to Severe Atopic Dermatitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05999799/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05999799/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03235349",
+      "domain": "infectious_disease",
+      "title": "Efficacy and Safety of Glecaprevir/Pibrentasvir (ABT-493/ABT-530) in Treatment-Naive and Treatment-Experienced Asian Adults With Chronic Hepatitis C Virus Genotype (GT) 1 to GT6 Infection With Compensated Cirrhosis and With or Without Human Immunodeficiency Virus Co-Infection",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT03235349/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT03235349/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03952377",
+      "domain": "musculoskeletal_pain",
+      "title": "Safety and Efficacy of SX600 Administered by Lumbosacral Transforaminal Epidural Injection for Radicular Pain",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT03952377/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT03952377/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02975349",
+      "domain": "neurology",
+      "title": "A Study of Efficacy and Safety of M2951 in Participants With Relapsing Multiple Sclerosis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02975349/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02975349/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT01797120",
+      "domain": "oncology",
+      "title": "Study of Fulvestrant +/- Everolimus in Post-Menopausal, Hormone-Receptor + Metastatic Breast Ca Resistant to AI",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
         "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT01797120/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT01797120/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -214,40 +214,40 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT02471404",
+      "candidate_id": "NCT02910089",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Dapagliflozin and Dapagliflozin Plus Saxagliptin in Combination With Metformin in Type 2 Diabetes Patients Compared With Sulphonylurea",
+      "title": "ENhancing Outcomes Through Goal Assessment and Generating Engagement in Diabetes Mellitus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
+        "none",
         "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02471404/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02471404/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT02910089/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT02910089/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 13,
-      "candidate_id": "NCT02022826",
+      "candidate_id": "NCT02117713",
       "domain": "gastroenterology_hepatology",
-      "title": "Clinical Management With SPM System and Validation of the SPM 5 Hour Cutoff in Patients With Symptoms of Gastroparesis",
+      "title": "An Extension Study to Evaluate the Long-Term Safety and Durability of Effect of LUM001 in the Treatment of Cholestatic Liver Disease in Pediatric Subjects With Alagille Syndrome",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
-        "none",
-        "na"
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT02117713/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT02117713/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -385,40 +385,40 @@
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT02910089",
+      "candidate_id": "NCT03466099",
       "domain": "endocrine_metabolic",
-      "title": "ENhancing Outcomes Through Goal Assessment and Generating Engagement in Diabetes Mellitus",
+      "title": "Study of the Intravitreal Plasma Kallikrein Inhibitor, KVD001, in Subjects With Center-involving Diabetic Macular Edema (ciDME)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT02910089/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT02910089/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 22,
-      "candidate_id": "NCT02117713",
-      "domain": "gastroenterology_hepatology",
-      "title": "An Extension Study to Evaluate the Long-Term Safety and Durability of Effect of LUM001 in the Treatment of Cholestatic Liver Disease in Pediatric Subjects With Alagille Syndrome",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "double",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT02117713/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT02117713/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03466099/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03466099/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 22,
+      "candidate_id": "NCT02406859",
+      "domain": "gastroenterology_hepatology",
+      "title": "Utility of an Animated Bowel Biofeedback Training Routine to Improve Bowel Function in Individuals With SCI",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "non_randomized",
+        "single_group",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT02406859/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT02406859/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

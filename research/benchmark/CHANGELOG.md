@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 70 screening - 2026-09-24
+
+- Batch 70 produced no promotion: excluded NCT02864953, NCT05696392, NCT03233217 and NCT01678664 because their model-visible protocols expose executable target analyses, with governing-version or execution-stage chronology defects in three families; excluded NCT05794763, NCT03927846 and NCT01993836 because their selected analysis uploads are retrospective or execution-informed methods records rather than clean prospective governing SAPs.
+- Placed NCT04305587 on public-redaction hold because protocol objective, cohort, dose and PK content and SAP prior/model appendices are materially obscured by CCI redactions.
+- Batch 70 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical/redaction page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 69 screening - 2026-09-24
 
 - Batch 69 produced no promotion: excluded NCT02862600, NCT02060383, NCT04168385, NCT03389893, NCT03231943, NCT02844465 and NCT01767857 because their model-visible protocols expose executable target analyses; five also have post-completion, execution-informed, rollover-family or internal-version defects.
