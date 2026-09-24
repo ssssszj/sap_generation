@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 67 screening - 2026-09-24
+
+- Batch 67 produced no promotion: excluded NCT02617446, NCT04276207, NCT04026113, NCT05375955, NCT03146403, NCT03793010, NCT02760602 and NCT01492088 because every model-visible protocol exposes an executable target analysis; five selected SAPs are additionally post-primary/post-completion or execution-informed.
+- Batch 67 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 66 screening - 2026-09-24
 
 - Batch 66 produced no promotion: excluded NCT02791230, NCT03651765, NCT05364554, NCT03095638, NCT03714672, NCT02595983 and NCT01222767 because their model-visible protocols expose executable target analyses; four are additionally non-independent extension/cross-study families or version-defective, and two SAPs are post-completion.

@@ -5,160 +5,155 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02617446",
+      "candidate_id": "NCT02816736",
       "domain": "cardiovascular",
-      "title": "The Clinical Study of the Safety and Efficacy of Istaroxime in Treatment of Acute Decompensated Heart Failure",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02617446/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02617446/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04276207",
-      "domain": "endocrine_metabolic",
-      "title": "A Study of LY900014 Versus Insulin Lispro (Humalog) on High Blood Sugar in Participants With Type 1 Diabetes Who Use Insulin Pumps",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04276207/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04276207/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT04026113",
-      "domain": "gastroenterology_hepatology",
-      "title": "Linaclotide Safety and Efficacy in Pediatric Participants, 6 to 17 Years of Age, With Irritable Bowel Syndrome With Constipation (IBS-C) or Functional Constipation (FC)",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04026113/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04026113/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT05375955",
-      "domain": "immunology_rheumatology",
-      "title": "A Study to Learn About The Study Medicine (PF-07038124) In Patients With Mild To Moderate Atopic Dermatitis Or Mild To Severe Plaque Psoriasis.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT05375955/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT05375955/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03146403",
-      "domain": "infectious_disease",
-      "title": "Maintenance Dose Study of GEN-003 in Subjects With Genital Herpes Infection",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT03146403/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT03146403/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03793010",
-      "domain": "musculoskeletal_pain",
-      "title": "Study to Evaluate the Efficacy and Safety of FX006 in Patients With Hip Osteoarthritis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03793010/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03793010/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02760602",
-      "domain": "neurology",
-      "title": "A Study of Solanezumab (LY2062430) in Participants With Prodromal Alzheimer's Disease",
+      "title": "EntrestoTM (LCZ696) In Advanced Heart Failure (LIFE Study)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "triple",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02816736/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02816736/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT04278417",
+      "domain": "endocrine_metabolic",
+      "title": "Study of Efficacy and Safety of Brolucizumab Versus Panretinal Photocoagulation Laser in Patients With Proliferative Diabetic Retinopathy",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
         "phase_3"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02760602/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT02760602/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT04278417/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT04278417/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT04104438",
+      "domain": "gastroenterology_hepatology",
+      "title": "Examination of Immunosuppression Adjustment Impact on Kidney Function in Liver Transplant",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "sequential",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT04104438/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT04104438/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT05540717",
+      "domain": "immunology_rheumatology",
+      "title": "Efficacy and Safety of PQ Grass in Subjects With Seasonal Allergic Rhinitis and/or Rhinoconjunctivitis Induced by Grass Pollen",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT05540717/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT05540717/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03227861",
+      "domain": "infectious_disease",
+      "title": "A Study to Evaluate the Efficacy and Safety of (D/C/F/TAF) Once Daily Fixed Dose Combination (FDC) Regimen in Newly Diagnosed, Antiretroviral Treatment-naive Human Immunodeficiency Virus Type 1 (HIV-1) Infected Participants Receiving Care in a Test and Treat Model of Care",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03227861/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03227861/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03840993",
+      "domain": "musculoskeletal_pain",
+      "title": "Safety and Efficacy Study of MT-2990 in Women With Endometriosis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03840993/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03840993/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02721069",
+      "domain": "neurology",
+      "title": "Repeat Dose Safety Study of NRL-1 in Epilepsy Subjects",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02721069/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02721069/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT01492088",
+      "candidate_id": "NCT01581840",
       "domain": "oncology",
-      "title": "Study of Brentuximab Vedotin (SGN-35) in Pediatric Participants With Relapsed or Refractory (r/r) Systemic Anaplastic Large-Cell Lymphoma or Hodgkin Lymphoma",
+      "title": "Radiochemotherapy With Panitumumab in the Localised Epidermoid Carcinoma of the Anus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
+        "na",
         "single_group",
         "none",
         "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT01492088/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT01492088/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01581840/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01581840/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -201,21 +196,20 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT02816736",
+      "candidate_id": "NCT02525783",
       "domain": "cardiovascular",
-      "title": "EntrestoTM (LCZ696) In Advanced Heart Failure (LIFE Study)",
+      "title": "Aequalis Pyrocarbon IDE; Replacing the Humeral Head in Hemi-Arthroplasty",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_4"
+        "na",
+        "single_group",
+        "none"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02816736/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02816736/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02525783/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02525783/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -296,41 +290,40 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT02721069",
+      "candidate_id": "NCT01993836",
       "domain": "neurology",
-      "title": "Repeat Dose Safety Study of NRL-1 in Epilepsy Subjects",
+      "title": "Markers of Alzheimers Disease and Cognitive Outcomes After Perioperative Care",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
+        "randomized",
+        "parallel",
+        "double",
+        "phase_4"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02721069/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02721069/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT01581840",
+      "candidate_id": "NCT01678664",
       "domain": "oncology",
-      "title": "Radiochemotherapy With Panitumumab in the Localised Epidermoid Carcinoma of the Anus",
+      "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01581840/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01581840/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -373,20 +366,21 @@
     },
     {
       "queue_rank": 20,
-      "candidate_id": "NCT02525783",
+      "candidate_id": "NCT02828917",
       "domain": "cardiovascular",
-      "title": "Aequalis Pyrocarbon IDE; Replacing the Humeral Head in Hemi-Arthroplasty",
+      "title": "MedJ-01 Ridaforolimus Eluting Coronary Stent System Trial (JNIR)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
-        "none"
+        "none",
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02525783/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02525783/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02828917/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02828917/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -448,21 +442,21 @@
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT01993836",
+      "candidate_id": "NCT02224703",
       "domain": "neurology",
-      "title": "Markers of Alzheimers Disease and Cognitive Outcomes After Perioperative Care",
+      "title": "GWPCARE2 A Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P) in Children and Young Adults With Dravet Syndrome",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_4"
+        "quadruple",
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02224703/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02224703/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
