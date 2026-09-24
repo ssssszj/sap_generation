@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 75 screening - 2026-09-24
+
+- Batch 75 produced no promotion: excluded NCT03036150, NCT04692688, NCT04212169, NCT03376321, NCT04065074, NCT03047629 and NCT01724346 because their model-visible protocols expose executable target analyses, with material redaction, post-primary/post-completion, execution-informed, version-chain or non-independent extension defects in six families.
+- Excluded NCT04248933 because its one-page post-completion Data Analysis Plan retrospectively reports methods used rather than serving as a prospective governing SAP; its protocol also exposes the principal pilot thresholds.
+- Batch 75 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical, chronology, redaction and revision page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 74 screening - 2026-09-24
 
 - Batch 74 produced no promotion: excluded NCT02998840, NCT04657016, NCT04004611, NCT03738397, NCT03318315, NCT04052620, NCT03022799 and NCT01702571 because every model-visible protocol exposes an executable target analysis.

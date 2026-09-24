@@ -15,29 +15,29 @@
   "domain_distribution": {
     "cardiovascular": 3,
     "endocrine_metabolic": 11,
-    "gastroenterology_hepatology": 3,
+    "gastroenterology_hepatology": 2,
     "immunology_rheumatology": 5,
     "infectious_disease": 2,
     "musculoskeletal_pain": 1,
     "neurology": 6,
     "oncology": 5,
-    "ophthalmology": 4,
+    "ophthalmology": 5,
     "other_clinical": 5,
     "respiratory": 3
   },
   "intervention_distribution": {
     "behavioral": 7,
-    "device": 8,
-    "drug": 21,
+    "device": 9,
+    "drug": 19,
     "mixed": 9,
-    "other": 3
+    "other": 4
   },
   "endpoint_distribution_multi_label": {
     "binary": 7,
-    "continuous": 7,
-    "count_or_rate": 7,
-    "other_or_manual_review": 30,
-    "time_to_event": 4
+    "continuous": 8,
+    "count_or_rate": 8,
+    "other_or_manual_review": 31,
+    "time_to_event": 2
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 12,

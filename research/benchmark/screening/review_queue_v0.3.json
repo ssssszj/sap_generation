@@ -5,48 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03036150",
+      "candidate_id": "NCT03052530",
       "domain": "cardiovascular",
-      "title": "A Study to Evaluate the Effect of Dapagliflozin on Renal Outcomes and Cardiovascular Mortality in Patients With Chronic Kidney Disease",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event",
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03036150/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03036150/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04692688",
-      "domain": "endocrine_metabolic",
-      "title": "Study of the Safety and Efficacy of APX3330 in Diabetic Retinopathy",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT04692688/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT04692688/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT04248933",
-      "domain": "gastroenterology_hepatology",
-      "title": "Peer-Delivered Behavioral Activation for Methadone Adherence - Pilot Phase",
+      "title": "Sapphire II PRO US Clinical Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -55,36 +16,17 @@
         "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT04248933/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT04248933/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03052530/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03052530/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 4,
-      "candidate_id": "NCT04212169",
-      "domain": "immunology_rheumatology",
-      "title": "Efficacy and Safety of MEDI3506 in Adult Subjects With Atopic Dermatitis",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04212169/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04212169/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03376321",
-      "domain": "infectious_disease",
-      "title": "A Study to Evaluate the Efficacy and Safety of Pimodivir in Combination With the Standard-of-Care Treatment in Adolescent, Adult, and Elderly Hospitalized Participants With Influenza A Infection",
+      "queue_rank": 2,
+      "candidate_id": "NCT04737330",
+      "domain": "endocrine_metabolic",
+      "title": "A Study of the Efficacy and Safety of Secukinumab 300 mg in Patients With Thyroid Eye Disease (TED)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -93,68 +35,131 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT04737330/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT04737330/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT03797157",
+      "domain": "gastroenterology_hepatology",
+      "title": "Human Milk Fortification in Extremely Preterm Infants",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "time_to_event",
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03797157/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03797157/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT04400214",
+      "domain": "immunology_rheumatology",
+      "title": "The Food Allergy Superheroes Training (FAST) Program",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT04400214/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT04400214/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03386110",
+      "domain": "infectious_disease",
+      "title": "Couples Health Project: Couples-based Intervention to Reduce Drug Use and HIV Transmission Risk",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT03376321/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT03376321/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03386110/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT03386110/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT04065074",
+      "candidate_id": "NCT04089735",
       "domain": "musculoskeletal_pain",
-      "title": "Study to Evaluate a Procedure for Intra-articular Injection of FX006 in Patients With Osteoarthritis of the Hip",
+      "title": "A Study to Evaluate the Safety, Tolerability and Preliminary Efficacy of APP13007 to Treat Inflammation and Pain After Cataract Surgery",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT04065074/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/74/NCT04065074/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04089735/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04089735/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT03047629",
+      "candidate_id": "NCT02425644",
       "domain": "neurology",
-      "title": "Evaluation of Safety and Tolerability of ENT-01 for the Treatment of Parkinson's Disease Related Constipation",
+      "title": "Oral Ponesimod Versus Teriflunomide In Relapsing MUltiple Sclerosis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "sequential",
+        "parallel",
         "quadruple",
-        "phase_1",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT03047629/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT03047629/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02425644/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02425644/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT01724346",
+      "candidate_id": "NCT01794520",
       "domain": "oncology",
-      "title": "Open-label Extension Study in Patients 65 Years or Older With Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+      "title": "Study Evaluating ABT-199 in Participants With Relapsed or Refractory Multiple Myeloma",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "non_randomized",
-        "parallel",
+        "sequential",
         "none",
-        "phase_3"
+        "phase_1",
+        "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "time_to_event",
+        "binary",
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT01724346/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT01724346/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT01794520/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT01794520/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -253,23 +258,21 @@
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT03797157",
+      "candidate_id": "NCT04665271",
       "domain": "gastroenterology_hepatology",
-      "title": "Human Milk Fortification in Extremely Preterm Infants",
+      "title": "Acceptability and Efficacy of Zemedy App Versus Education and Relaxation Training App for IBS",
       "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
-        "parallel",
+        "crossover",
         "none",
-        "phase_2",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03797157/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03797157/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT04665271/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT04665271/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -312,9 +315,9 @@
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT02425644",
+      "candidate_id": "NCT02642393",
       "domain": "neurology",
-      "title": "Oral Ponesimod Versus Teriflunomide In Relapsing MUltiple Sclerosis",
+      "title": "Study of Urate Elevation in Parkinson's Disease, Phase 3",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -325,31 +328,29 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02425644/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02425644/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT02642393/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT02642393/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT01794520",
+      "candidate_id": "NCT01915498",
       "domain": "oncology",
-      "title": "Study Evaluating ABT-199 in Participants With Relapsed or Refractory Multiple Myeloma",
+      "title": "Phase 1/2 Study of Enasidenib (AG-221) in Adults With Advanced Hematologic Malignancies With an Isocitrate Dehydrogenase Isoform 2 (IDH2) Mutation",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
+        "na",
         "sequential",
         "none",
         "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event",
         "binary",
-        "count_or_rate",
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT01794520/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT01794520/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT01915498/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT01915498/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -450,21 +451,21 @@
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT04665271",
-      "domain": "gastroenterology_hepatology",
-      "title": "Acceptability and Efficacy of Zemedy App Versus Education and Relaxation Training App for IBS",
-      "pairing_state": "needs_version_review",
+      "candidate_id": "NCT04845620",
+      "domain": "immunology_rheumatology",
+      "title": "Trial of PDE4 Inhibition With Roflumilast for the Management of Atopic Dermatitis (Integument-PED)",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "crossover",
-        "none",
-        "na"
+        "parallel",
+        "triple",
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT04665271/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT04665271/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT04845620/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT04845620/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
