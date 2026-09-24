@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 73 screening - 2026-09-24
+
+- Batch 73 produced no promotion: excluded NCT02970669, NCT04560998, NCT06238817, NCT03295318, NCT03965091, NCT03021018 and NCT01945775 because their model-visible protocols expose executable target analyses; four selected SAP packages additionally postdate primary/study completion or incorporate executed-study information.
+- Placed NCT02406859 on governing-version hold because its unversioned two-page SAP predates the selected protocol by three years and cites no governing protocol identifier, version or date.
+- Batch 73 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical/chronology page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 72 screening - 2026-09-24
 
 - Batch 72 produced no promotion: excluded NCT02944968, NCT04445714, NCT02117713, NCT06101823, NCT03283319, NCT03956550, NCT02224703 and NCT01698918 because every model-visible protocol exposes an executable target analysis; six families additionally have post-primary/post-completion, execution-informed or non-independent extension defects.
