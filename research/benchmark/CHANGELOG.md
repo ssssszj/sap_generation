@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 68 screening - 2026-09-24
+
+- Batch 68 produced no promotion: excluded NCT02816736, NCT04278417, NCT05540717, NCT03227861, NCT03840993 and NCT01581840 because their model-visible protocols expose executable target analyses; all six selected SAPs are additionally post-primary, post-completion or execution-informed.
+- Placed NCT04104438 and NCT02721069 on governing-version hold because the former has only a retrospective one-page methods narrative with no traceable protocol version and the latter pairs public Protocol v4 with an SAP based on unavailable Protocol v3 while the available SAP revision is post-primary and adds analyses.
+- Batch 68 hash-froze and extracted all 16 PDFs and eight registry records, fully OCRed the weak-text-layer NCT03840993 pair, visually checked every cover and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 67 screening - 2026-09-24
 
 - Batch 67 produced no promotion: excluded NCT02617446, NCT04276207, NCT04026113, NCT05375955, NCT03146403, NCT03793010, NCT02760602 and NCT01492088 because every model-visible protocol exposes an executable target analysis; five selected SAPs are additionally post-primary/post-completion or execution-informed.
