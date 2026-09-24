@@ -5,144 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02862600",
+      "candidate_id": "NCT02864953",
       "domain": "cardiovascular",
-      "title": "Open-Label Study of Perhexiline in Patients With Hypertrophic Cardiomyopathy and Moderate to Severe Heart Failure",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02862600/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02862600/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT02060383",
-      "domain": "endocrine_metabolic",
-      "title": "Study of Management of Pasireotide-induced Hyperglycemia in Adult Patients With Cushing's Disease or Acromegaly",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02060383/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02060383/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT04168385",
-      "domain": "gastroenterology_hepatology",
-      "title": "MRX-800: A Long-Term Safety Study of Maralixibat in the Treatment of Cholestatic Liver Disease in Subjects Who Previously Participated in a Maralixibat Study",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04168385/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04168385/SAP_004.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03389893",
-      "domain": "immunology_rheumatology",
-      "title": "Effect of Dupilumab (Anti-IL4Rα) on the Host-Microbe Interface in Atopic Dermatitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03389893/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03389893/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03231943",
-      "domain": "infectious_disease",
-      "title": "GSK3640254 First Time in Human (FTIH) Study in Healthy Volunteers",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "sequential",
-        "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03231943/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03231943/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03908476",
-      "domain": "musculoskeletal_pain",
-      "title": "PROLONG Prospective, Multi-center, Open-label, Post-market Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03908476/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03908476/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02844465",
-      "domain": "neurology",
-      "title": "Stereotactic Laser Ablation for Temporal Lobe Epilepsy (Slate)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT02844465/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT02844465/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT01767857",
-      "domain": "oncology",
-      "title": "A Phase III Study of Xilonix in Patients With Advanced Colorectal Cancer",
+      "title": "Phase 3 Study to Evaluate the Efficacy and Safety of Intravenous BIIB093 (Glibenclamide) for Severe Cerebral Edema Following Large Hemispheric Infarction",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -151,10 +16,144 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02864953/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02864953/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT04305587",
+      "domain": "endocrine_metabolic",
+      "title": "Multiple Escalating Oral Doses Study of PF-07081532 in Adult Participants With Type 2 Diabetes Mellitus",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT04305587/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT04305587/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT05794763",
+      "domain": "gastroenterology_hepatology",
+      "title": "The Body Project: Comparing the Effectiveness of an In-person and Virtually Delivered Intervention.",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT05696392",
+      "domain": "immunology_rheumatology",
+      "title": "The Purpose of This Study is to Evaluate the Effects of Ruxolitinib Cream on Adults With Atopic Dermatitis Experiencing Sleep Disturbance.",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT05696392/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT05696392/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03233217",
+      "domain": "infectious_disease",
+      "title": "Safety and Immunogenicity of High-Dose Quadrivalent Influenza Vaccine in Patients ≥65 Years",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "sequential",
+        "double",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03233217/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT03233217/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03927846",
+      "domain": "musculoskeletal_pain",
+      "title": "Implementation of Nurse-guided Web-based Cognitive Behavioral Therapy for Pain Management",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03927846/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03927846/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01993836",
+      "domain": "neurology",
+      "title": "Markers of Alzheimers Disease and Cognitive Outcomes After Perioperative Care",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT01678664",
+      "domain": "oncology",
+      "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
         "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT01767857/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT01767857/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -234,21 +233,21 @@
     },
     {
       "queue_rank": 13,
-      "candidate_id": "NCT05794763",
+      "candidate_id": "NCT02022826",
       "domain": "gastroenterology_hepatology",
-      "title": "The Body Project: Comparing the Effectiveness of an In-person and Virtually Delivered Intervention.",
+      "title": "Clinical Management With SPM System and Validation of the SPM 5 Hour Cutoff in Patients With Symptoms of Gastroparesis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
+        "na",
+        "single_group",
+        "none",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT05794763/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -291,28 +290,28 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT01993836",
+      "candidate_id": "NCT02224703",
       "domain": "neurology",
-      "title": "Markers of Alzheimers Disease and Cognitive Outcomes After Perioperative Care",
+      "title": "GWPCARE2 A Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P) in Children and Young Adults With Dravet Syndrome",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_4"
+        "quadruple",
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT01993836/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02224703/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02224703/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT01678664",
+      "candidate_id": "NCT01698918",
       "domain": "oncology",
-      "title": "Everolimus After (Chemo)Embolization for Liver Metastases From Digestive Endocrine Tumors",
+      "title": "Open-label, Phase II, Study of Everolimus Plus Letrozole in Postmenopausal Women With ER+, HER2- Metastatic or Locally Advanced Breast Cancer",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -323,8 +322,8 @@
       "endpoint_types": [
         "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT01678664/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT01698918/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT01698918/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -405,21 +404,21 @@
     },
     {
       "queue_rank": 22,
-      "candidate_id": "NCT02022826",
+      "candidate_id": "NCT02117713",
       "domain": "gastroenterology_hepatology",
-      "title": "Clinical Management With SPM System and Validation of the SPM 5 Hour Cutoff in Patients With Symptoms of Gastroparesis",
+      "title": "An Extension Study to Evaluate the Long-Term Safety and Durability of Effect of LUM001 in the Treatment of Cholestatic Liver Disease in Pediatric Subjects With Alagille Syndrome",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
-        "none",
-        "na"
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02022826/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT02117713/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT02117713/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -443,9 +442,9 @@
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT02224703",
+      "candidate_id": "NCT02425644",
       "domain": "neurology",
-      "title": "GWPCARE2 A Study to Investigate the Efficacy and Safety of Cannabidiol (GWP42003-P) in Children and Young Adults With Dravet Syndrome",
+      "title": "Oral Ponesimod Versus Teriflunomide In Relapsing MUltiple Sclerosis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -456,8 +455,8 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02224703/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02224703/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02425644/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02425644/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

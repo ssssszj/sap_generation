@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 69 screening - 2026-09-24
+
+- Batch 69 produced no promotion: excluded NCT02862600, NCT02060383, NCT04168385, NCT03389893, NCT03231943, NCT02844465 and NCT01767857 because their model-visible protocols expose executable target analyses; five also have post-completion, execution-informed, rollover-family or internal-version defects.
+- Placed NCT03908476 on public-redaction hold because its otherwise prospective PROLONG SAP obscures analysis-population, hypothesis, sample-size, interim, success and multiplicity decisions and exposes conflicting registry/protocol/SAP document identifiers.
+- Batch 69 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 68 screening - 2026-09-24
 
 - Batch 68 produced no promotion: excluded NCT02816736, NCT04278417, NCT05540717, NCT03227861, NCT03840993 and NCT01581840 because their model-visible protocols expose executable target analyses; all six selected SAPs are additionally post-primary, post-completion or execution-informed.
