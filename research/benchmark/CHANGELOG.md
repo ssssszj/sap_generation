@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 77 screening - 2026-09-24
+
+- Batch 77 produced no promotion: excluded NCT03078907, NCT02910089, NCT04753034, NCT03400163, NCT04108468, NCT03179891 and NCT01915498 for executable protocol analysis leakage plus post-primary/post-completion, execution-informed or governing-version defects.
+- Excluded NCT04665271 because its selected protocol is an IRB modification/consent package rather than a complete prospective governing protocol, while its post-completion two-page analysis file retrospectively reports analyses already carried out and observed data properties.
+- Batch 77 hash-froze and extracted all 16 PDFs and eight registry records, fully OCRed the scan-only NCT02910089 and NCT04753034 protocols, visually checked every identity, chronology, version and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 76 screening - 2026-09-24
 
 - Batch 76 produced no promotion: excluded NCT03052530, NCT04737330, NCT03797157, NCT04089735, NCT02425644 and NCT01794520 for executable protocol analysis leakage plus post-completion, termination-informed or governing-version defects.
