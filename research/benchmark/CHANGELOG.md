@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 71 screening - 2026-09-24
+
+- Batch 71 produced no promotion: excluded NCT02917031, NCT02471404, NCT02022826, NCT05999799, NCT03235349 and NCT01797120 because their model-visible protocols expose executable target analyses; three also have post-completion chronology or material-redaction defects.
+- Excluded NCT03952377 and NCT02975349 because the selected references are execution-informed CSR/final-analysis packages dated after primary or study completion rather than clean prospective governing SAPs.
+- Batch 71 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every cover and decisive statistical, chronology and redaction page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 70 screening - 2026-09-24
 
 - Batch 70 produced no promotion: excluded NCT02864953, NCT05696392, NCT03233217 and NCT01678664 because their model-visible protocols expose executable target analyses, with governing-version or execution-stage chronology defects in three families; excluded NCT05794763, NCT03927846 and NCT01993836 because their selected analysis uploads are retrospective or execution-informed methods records rather than clean prospective governing SAPs.
