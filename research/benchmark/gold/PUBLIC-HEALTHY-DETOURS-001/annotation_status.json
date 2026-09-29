@@ -1,0 +1,26 @@
+{
+  "study_id": "PUBLIC-HEALTHY-DETOURS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-HEALTHY-DETOURS-001-R002",
+    "PUBLIC-HEALTHY-DETOURS-001-R003",
+    "PUBLIC-HEALTHY-DETOURS-001-R007",
+    "PUBLIC-HEALTHY-DETOURS-001-R012",
+    "PUBLIC-HEALTHY-DETOURS-001-R014",
+    "PUBLIC-HEALTHY-DETOURS-001-R015"
+  ],
+  "open_version_questions": [
+    "Confirm from the original IRB or grant record that the protocol and Statistical Analysis Plan dated 2016-08-16 are unmodified documents governing the Fall 2016 and Spring 2017 RCT; exclude the family if either upload was reconstructed after study completion."
+  ],
+  "review_requirements": [
+    "Define the randomized analysis population, allocation algorithm, concealment and masking by role.",
+    "Operationalize HEI, survey and device-derived endpoint scoring and validity rules.",
+    "Specify the repeated-measures GLS model, estimand, missingness sensitivity, alpha and multiplicity.",
+    "Operationalize CACE and mediation assumptions and keep them exploratory.",
+    "Preserve the prospective 300-student target and do not infer the treatment ratio from semester counts.",
+    "Verify every critical locator against one-based rendered physical PDF pages and preserve reference-plan isolation."
+  ]
+}

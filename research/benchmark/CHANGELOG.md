@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 94 annotation - 2026-09-29
+
+- Promoted NCT02996864 to `PUBLIC-HEALTHY-DETOURS-001` after exact title/NCT/date matching and full visual review; added 22 requirements covering the two-app RCT, HEI hierarchy and derivation, activity/sleep/QOL outcomes, ANCOVA, Hotelling T-squared, longitudinal GLS, dropout, CACE, mediation, sample size and provenance.
+- Preserved an explicit provenance gate because the 2016-08-16 documents prospectively describe the Fall 2016 and Spring 2017 RCT but were uploaded after completion; original unmodified IRB or grant history must be confirmed.
+- Excluded NCT02260258, NCT03365934, NCT03155945 and NCT03370172 as completed-study or post-completion analysis packages; excluded NCT02776033 for protocol leakage and interim-informed analysis; excluded NCT01009814 for executable protocol leakage; and excluded NCT01881425 because SAP v1.11 incorporates same-study Phase I and interim information.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records, fully OCRed the scan-only NCT03365934 and NCT01881425 packages, refreshed the pool to 33 candidates and raised the public draft count to 87 with 1,621 public requirements.
+
 ## Batch 93 annotation - 2026-09-29
 
 - Promoted NCT05473767 to `PUBLIC-ENRICH-FCU-HEART-001` after exact title/date matching of a pre-start protocol and independent analysis plan; added 20 requirements covering the 2:1 FCU-Heart pilot, cardiovascular and implementation endpoints, t-based confidence intervals, race-stratum analyses, prospective sample size, estimands, missingness, qualitative work and safety.
