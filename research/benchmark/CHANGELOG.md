@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 129 screening - 2026-09-30
+
+- Batch 129 produced no promotion: excluded NCT02906579 and NCT06106022 because their selected SAPs are post-completion and their protocols reconstruct the target; excluded NCT03164928, NCT03607422 and NCT01593254 because the selected document packages are post-primary; excluded NCT02628444 for protocol-embedded executable-plan leakage; excluded NCT02687451 because its post-completion plan is a termination-informed abbreviated-CSR safety plan; and excluded NCT00938912 because its late amendments are accumulated-conduct-informed and expose the target.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,647 physical pages, fully OCRed the 138-page scan-only NCT02687451 pair, and rendered and visually inspected 66 decisive pages in eight contact sheets. All eight slots were returned for official-API replenishment.
+
 ## Batch 128 screening - 2026-09-30
 
 - Batch 128 produced no promotion: excluded NCT02827500, NCT03163511, NCT04700345 and NCT03569293 because their selected targets are post-primary, post-completion or execution-informed; excluded NCT02589795, NCT02640612 and NCT04604652 because their model-visible protocols reconstruct the executable target; and excluded NCT07716553 because its three-page SAP duplicates the protocol statistical section.
