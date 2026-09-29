@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 88 annotation - 2026-09-29
+
+- Promoted NCT02982772 to `PUBLIC-HIV-NRT-001` after exact title/NCT/date matching of a pre-start protocol and independent analysis document; added 25 requirements for abstinence hierarchy, biochemical verification, logistic and repeated-binary modeling, MAR/MNAR handling, mediation, PCA, sample size, safety and provenance.
+- Preserved two explicit adjudication gates: 500 allocated in the protocol versus 600 recruited/500 retained in the reference, and isolated past-tense mediation/model language that must be confirmed as proposal/template wording rather than prior analysis of this trial.
+- Excluded NCT02961894, NCT03743038, NCT03922750, NCT02913326, NCT02554019 and NCT03205488 for executable protocol leakage, with post-primary/post-completion or adaptive execution-informed defects in five families; excluded NCT02536404 as a non-independent post-completion extension package.
+- Hash-froze, extracted and visually inspected all 16 PDFs and eight registry records, then refreshed the candidate pool while raising the registered public draft count to 83.
+
 ## Batch 87 annotation - 2026-09-29
 
 - Promoted NCT03515681 to `PUBLIC-ROKHYT-001` after exact title/NCT/date matching, OCR and visual review; added 22 requirements covering study phases, stratified randomization, 12-month blood-pressure control, Mantel-Haenszel relative risk, feasibility, missingness, masking, safety and provenance.

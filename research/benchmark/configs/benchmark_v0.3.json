@@ -22,7 +22,7 @@
   "source_pool_manifest": "screening/source_pools.jsonl",
   "scale_target": {
     "release_eligible_intake": 120,
-    "screened_candidates": 38,
+    "screened_candidates": 37,
     "frozen_release_floor": 100,
     "floor_split": {"train": 40, "dev": 20, "test": 40},
     "stretch_split": {"train": 60, "dev": 20, "test": 40}
