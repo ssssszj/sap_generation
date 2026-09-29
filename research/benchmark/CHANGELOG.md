@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 100 annotation - 2026-09-29
+
+- Promoted NCT04204447 to `PUBLIC-HCV-EDUCATION-DELIVERY-001` after exact NCT/title/date matching and full-page visual review; added 20 requirements for the nonrandomized matched video-versus-brochure study, knowledge-score hierarchy, repeated measures, matching, clinic confounding, missingness, multiplicity, privacy and provenance.
+- Excluded NCT03012828 for protocol-embedded target leakage; NCT02735421, NCT03751657, NCT01976104, NCT02436135 and NCT02198664 for post-primary/post-completion, CSR or governing-version defects; and NCT02313675 as an executed-method summary rather than a prospective pair.
+
 ## Batch 99 screening - 2026-09-29
 
 - Batch 99 produced no promotion: excluded NCT02612857, NCT03422159, NCT01543087 and NCT04343235 because their model-visible protocols expose executable target analyses; excluded NCT02975505, NCT01972529 and NCT02418000 for post-primary or post-completion analysis packages; and excluded NCT02176486 for a post-completion SAP that also cites an older protocol amendment than the selected model-visible protocol.
