@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 119 screening - 2026-09-30
+
+- Batch 119 produced no promotion: excluded NCT02072226, NCT02222545, NCT03073200 and NCT02120352 because their selected plans were created after early termination, completed stages, primary database lock, primary completion or interim evidence and incorporate realized conduct; excluded NCT04075825 as an after-parent-unblinding, family-dependent extension.
+- Excluded NCT02836873 because protocol pages 57-60 disclose the executable target and NCT03461861 because its three-page SAP substantially copies protocol pages 13-14. Held NCT04259788 because its same-day Protocol Version 6/SAP pair was created more than three years into recruitment, protocol page 5 identifies unblinded statistical personnel and no amendment/sign-off evidence establishes outcome-uninformed governance.
+- Sequentially downloaded and SHA-256-froze all 16 official PDFs and eight registry records, extracted 1,609 physical pages, OCRed 51 scan-only/empty-text pages, rendered 17 contact sheets and visually verified all decisive pages. All eight slots are returned for replenishment while retaining 101 public first-pass drafts.
+
 ## Batch 118 screening - 2026-09-30
 
 - Batch 118 produced no promotion: excluded NCT01566695, NCT01936831, NCT01954017, NCT03025542 and NCT03781414 because their selected analysis materials are post-primary, post-completion, interim-informed or termination-informed and their protocols also expose substantial executable content.

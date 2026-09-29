@@ -23,15 +23,18 @@
     "neurology": 1
   },
   "intervention_distribution": {
-    "drug": 11,
-    "mixed": 4,
-    "other": 4
+    "behavioral": 1,
+    "device": 1,
+    "drug": 12,
+    "mixed": 2,
+    "other": 3
   },
   "endpoint_distribution_multi_label": {
-    "binary": 4,
-    "continuous": 6,
+    "binary": 3,
+    "continuous": 5,
     "count_or_rate": 4,
-    "other_or_manual_review": 9
+    "other_or_manual_review": 10,
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 2,
