@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 79 annotation - 2026-09-29
+
+- Promoted NCT01757067 EVAC-HF, NCT03689452 PRP alopecia and NCT02967172 ankle peri-incisional injection after exact identity/date matching of independent prospective protocol and analysis documents; added 64 requirements with reference-only decisions isolated from the primary protocol-only track.
+- Excluded NCT02409329 as an execution-informed retrospective methods summary, NCT02651714 because the selected file is a protocol statistics section rather than an independent SAP, and NCT02510560 plus NCT02673489 for executable protocol leakage.
+- Placed NCT03388970 on governing-version hold because its three-page statistical plan lacks document-internal identity, date, version and signature evidence.
+- Hash-froze, extracted and visually checked all 16 PDFs and eight registry records, then replenished the candidate pool to 45 while preserving the 120-family release intake.
+
 ## Batch 78 screening - 2026-09-29
 
 - Batch 78 produced no promotion: excluded NCT03098979, NCT04867785, NCT04845620, NCT03422172, NCT02642393, NCT02023697 and NCT03982368 because their model-visible protocols expose executable target analyses; five selected references additionally have post-primary/post-completion, execution-informed or governing-version defects.

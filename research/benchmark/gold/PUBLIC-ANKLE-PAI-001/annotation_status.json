@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-ANKLE-PAI-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 21,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-ANKLE-PAI-001-R003",
+    "PUBLIC-ANKLE-PAI-001-R006",
+    "PUBLIC-ANKLE-PAI-001-R008",
+    "PUBLIC-ANKLE-PAI-001-R009",
+    "PUBLIC-ANKLE-PAI-001-R012",
+    "PUBLIC-ANKLE-PAI-001-R013",
+    "PUBLIC-ANKLE-PAI-001-R014",
+    "PUBLIC-ANKLE-PAI-001-R015"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact title, NCT02967172 and 2016-08-08 identity and chronology match between the independent protocol and SAP.",
+    "Adjudicate the governing repeated-VAS endpoint and an endpoint-specific model rather than the reference's generic list of tests.",
+    "Operationalize opioid-equivalent exposure, randomization, analysis populations, intercurrent events and missing inpatient observations.",
+    "Confirm sample-size sidedness, multiplicity, visit windows, exact cocktail doses and safety conventions.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

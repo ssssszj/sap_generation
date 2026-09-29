@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-PRP-ALOPECIA-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PRP-ALOPECIA-001-R004",
+    "PUBLIC-PRP-ALOPECIA-001-R006",
+    "PUBLIC-PRP-ALOPECIA-001-R007",
+    "PUBLIC-PRP-ALOPECIA-001-R013",
+    "PUBLIC-PRP-ALOPECIA-001-R014",
+    "PUBLIC-PRP-ALOPECIA-001-R015",
+    "PUBLIC-PRP-ALOPECIA-001-R016",
+    "PUBLIC-PRP-ALOPECIA-001-R018"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact title, NCT03689452, investigator and 2018-09-21 identity match between Protocol Version 2 and the independent analysis plan.",
+    "Adjudicate the primary hierarchy across trichoscopic density, caliber and global photography and the role of week 40.",
+    "Operationalize image acquisition, scoring, randomization, analysis populations and intercurrent events.",
+    "Complete the prospective sample size, missing-data, multiplicity and safety conventions without importing actual enrollment.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}
