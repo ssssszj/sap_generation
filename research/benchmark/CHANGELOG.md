@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 123 screening and annotation - 2026-09-30
+
+- Promoted NCT05832918 to `PUBLIC-CORE-DUAL-TASK-LBP-001` after exact-title/date and prerecruitment official-file matching; added 24 first-pass requirements for its randomized CSE-plus-cognitive versus GE-plus-cognitive design, VAS/ODI hierarchy, force-platform and stabilogram derivations, prospective N=34 target, direct longitudinal group contrasts and unresolved version binding, schedule, population, estimand, missingness, multiplicity, uncertainty and safety decisions.
+- Excluded NCT02944383, NCT04375878, NCT03263091, NCT03211247, NCT02409290 and NCT05015478 because their selected references are post-primary/post-completion or execution-informed, and excluded NCT02476006 because the model-visible protocol substantially exposes the target plan; several of the other excluded protocols independently provide executable analysis programs.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted 914 physical pages, OCRed all 74 scan-only NCT03211247 SAP pages, rendered and visually inspected 99 decisive pages, and replenished all seven excluded slots. The intake now contains 103 public first-pass drafts plus 17 actionable metadata candidates.
+
 ## Batch 122 screening - 2026-09-30
 
 - Batch 122 produced no promotion: excluded NCT02232399, NCT02916706, NCT03196297, NCT03160885 and NCT03354572 because their model-visible protocols substantially or completely expose the executable target plans; NCT02232399 and NCT02916706 also use post-primary/post-completion references.
