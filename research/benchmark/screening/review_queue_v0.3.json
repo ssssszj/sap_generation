@@ -140,21 +140,22 @@
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT04062123",
+      "candidate_id": "NCT04549454",
       "domain": "musculoskeletal_pain",
-      "title": "Memory & Conditioning Under Anesthesia",
+      "title": "Parent Feedback Intervention Targeting Student Transitions and Alcohol Related Trajectories (+) Efficacy Study",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "single",
-        "phase_1"
+        "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT04062123/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT04062123/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT04549454/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT04549454/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -217,59 +218,60 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT02379819",
+      "candidate_id": "NCT00250705",
       "domain": "other_clinical",
-      "title": "Hybrid L24 New Enrollment Post Approval Study",
+      "title": "Trial of Aripiprazole in the Treatment of CD in Adolescents",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02379819/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02379819/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 13,
-      "candidate_id": "NCT02260258",
-      "domain": "cardiovascular",
-      "title": "Neuromuscular Blockade for Post-Cardiac Arrest Care",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "phase_2"
+        "phase_4"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 13,
+      "candidate_id": "NCT02893267",
+      "domain": "cardiovascular",
+      "title": "Multimodal Treatment for Hemiplegic Shoulder Pain",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02893267/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02893267/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT02798120",
+      "candidate_id": "NCT02871778",
       "domain": "dermatology",
-      "title": "P3 Long Term Safety Study of Once Daily SB204 in Acne",
+      "title": "Clearing Lungs With ENaC Inhibition in Primary Ciliary Dyskinesia",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
+        "randomized",
+        "crossover",
+        "triple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02798120/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02798120/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02871778/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02871778/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -293,40 +295,41 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT01954017",
+      "candidate_id": "NCT02047318",
       "domain": "gastroenterology_hepatology",
-      "title": "STP206 for the Prevention of Necrotizing Enterocolitis (NEC)",
+      "title": "An Extension Study to Evaluate the Long-Term Safety and Durability of Effect of LUM001 in the Treatment of Cholestatic Liver Disease in Subjects With Alagille Syndrome (ALGS)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_1"
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT01954017/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT01954017/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02047318/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02047318/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT01151423",
+      "candidate_id": "NCT02140554",
       "domain": "hematology",
-      "title": "Study to Assess Efficacy and Safety of Anti-von Willebrand Factor (vWF) Nanobody in Patients With Acquired Thrombotic Thrombocytopenic Purpura (aTTP)",
+      "title": "A Study Evaluating the Safety and Efficacy of Lovo-cel in Severe Sickle Cell Disease",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
+        "non_randomized",
         "parallel",
-        "single",
+        "none",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT01151423/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT01151423/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02140554/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02140554/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -369,6 +372,25 @@
     },
     {
       "queue_rank": 20,
+      "candidate_id": "NCT04062123",
+      "domain": "musculoskeletal_pain",
+      "title": "Memory & Conditioning Under Anesthesia",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT04062123/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT04062123/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 21,
       "candidate_id": "NCT03012334",
       "domain": "neurology",
       "title": "The Effects of Lasmiditan on Simulated Driving Performance - Healthy Participants",
@@ -387,7 +409,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 21,
+      "queue_rank": 22,
       "candidate_id": "NCT01953926",
       "domain": "oncology",
       "title": "Basket Study of Neratinib in Participants With Solid Tumors Harboring Somatic HER2 or EGFR Exon 18 Mutations",
@@ -406,7 +428,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 22,
+      "queue_rank": 23,
       "candidate_id": "NCT04984590",
       "domain": "ophthalmology",
       "title": "Early Feasibility Study Using IOPCL MAG to Improve Near Vision in ARMD Subjects",
@@ -424,40 +446,22 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 23,
-      "candidate_id": "NCT00250705",
-      "domain": "other_clinical",
-      "title": "Trial of Aripiprazole in the Treatment of CD in Adolescents",
+      "queue_rank": 24,
+      "candidate_id": "NCT02260258",
+      "domain": "cardiovascular",
+      "title": "Neuromuscular Blockade for Post-Cardiac Arrest Care",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
+        "randomized",
+        "parallel",
+        "single",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 24,
-      "candidate_id": "NCT02525783",
-      "domain": "cardiovascular",
-      "title": "Aequalis Pyrocarbon IDE; Replacing the Humeral Head in Hemi-Arthroplasty",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02525783/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02525783/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

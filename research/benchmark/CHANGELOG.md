@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 82 screening - 2026-09-29
+
+- Batch 82 produced no promotion: excluded NCT02379819, NCT03091673, NCT03466099, NCT02525783, NCT03760068, NCT03844789 and NCT04016662 because their model-visible protocols expose executable target analyses; four selected references additionally have completion-date or internal version defects.
+- Excluded NCT03246152 because its two-page analysis upload postdates study completion and retrospectively describes analyses already conducted rather than serving as a prospective governing SAP.
+- Hash-froze and extracted all 16 PDFs and eight registry records, OCRed the scan-only NCT04016662 SAP, visually checked every identity, chronology and decisive statistical page, and returned all eight slots for replenishment while preserving 76 public drafts.
+
 ## Batch 81 annotation - 2026-09-29
 
 - Promoted NCT01944423 to `PUBLIC-DCS-PANIC-SMOKING-001` after exact title/NCT/date matching of an independent prospective protocol and Data Analysis document; added 23 requirements covering repeated PPA, lapse/relapse, psychological outcomes, GLMM, Cox, moderated mediation, pattern-mixture sensitivity, prospective power and safety.
