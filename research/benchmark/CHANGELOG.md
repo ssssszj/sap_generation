@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 137 screening - 2026-09-30
+
+- Promoted NCT03606928 to `PUBLIC-MFLOT-GC-001` after exact title/NCT/date and pre-start matching; added 24 first-pass requirements for the classical 3+3 modified-FLOT design, DLT/MTD/RD rules, treatment and dose modification, RECIST response, PFS/OS, Kaplan-Meier, populations, estimands, missingness, safety and uncertainty, while preserving unsigned/unversioned governance, eligibility and missing-Table-1 gates.
+- Excluded NCT02322021 and NCT02766088 because their selected SAPs incorporate termination and realized conduct; excluded NCT02880475, NCT03014180 and NCT03495102 because their targets are post-primary/post-completion, lock- or revision-informed and their protocols independently expose executable programs; and excluded NCT05385952 and NCT04313400 for governing-version or protocol-embedded target leakage. Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 2,423 physical pages, OCRed 197 pages, and rendered and visually inspected 97 decisive pages in eight contact sheets. Seven slots were replenished. The intake is now 105 public first-pass drafts plus 15 actionable metadata candidates and 2,045 total requirements, including the 26-item private pilot.
+
 ## Batch 136 screening - 2026-09-30
 
 - Batch 136 produced no promotion: excluded NCT03341312, NCT03279081, NCT02873936 and NCT02245737 because their selected targets are post-primary/post-completion, regulatory-communication- or futility-stop-informed and their protocols independently expose substantial executable programs; excluded NCT02981953 and NCT03930186 for protocol-embedded target leakage; and excluded NCT02737722 because its month-only primary-completion chronology cannot establish a prospective target and its protocol also reconstructs the plan.

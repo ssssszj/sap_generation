@@ -1,140 +1,140 @@
 {
   "version": "0.3-development",
   "purpose": "First document-level promotion sprint; rank is operational, not benchmark difficulty.",
-  "target_count": 16,
+  "target_count": 15,
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03014180",
+      "candidate_id": "NCT03016975",
       "domain": "cardiovascular",
-      "title": "Clinical Evaluation of LEft VEntricular Auto Threshold Algorithm (LEVEA)",
+      "title": "Edwards Cardioband System ACTIVE Pivotal Clinical Trial (ACTIVE)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
         "na"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03014180/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03014180/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03016975/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03016975/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03495102",
+      "candidate_id": "NCT03548987",
       "domain": "endocrine_metabolic",
-      "title": "A Study of the Efficacy and Safety of Dulaglutide (LY2189265) in Participants With Type 2 Diabetes",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03495102/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03495102/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05385952",
-      "domain": "gastroenterology_hepatology",
-      "title": "GATT-Patch Versus TachoSil in Liver Surgery",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT05385952/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT05385952/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04313400",
-      "domain": "immunology_rheumatology",
-      "title": "Topically Applied AMTX-100 CF for Adult Patients With Mild to Moderate Atopic Dermatitis",
+      "title": "Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT04313400/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT04313400/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02766088",
-      "domain": "infectious_disease",
-      "title": "This Study Will Describe the Burden of DENgue Fever Virus (DENV) Illness Among Household Members Aged 6 Months to 50 Years of Selected Communities in Latin America and Southeast Asia",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT02766088/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT02766088/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02880475",
-      "domain": "musculoskeletal_pain",
-      "title": "OXN PR Tablet 5/2.5 mg and20/10 mg PK Study in Chinese Moderate to Severe Chronic Non-malignant Patients",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_1"
+        "phase_3"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02880475/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02880475/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03548987/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03548987/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 7,
-      "candidate_id": "NCT02322021",
-      "domain": "neurology",
-      "title": "Dose-Finding Study To Evaluate Safety, Tolerability, and Efficacy of E2609 in Participants With Mild Cognitive Impairment Due to Alzheimer's Disease (Prodromal Alzheimer's Disease) and Mild to Moderate Dementia Due to Alzheimer's Disease",
+      "queue_rank": 3,
+      "candidate_id": "NCT05816473",
+      "domain": "gastroenterology_hepatology",
+      "title": "Artificial Intelligent Clinical Decision Support System Simulation Center Study for Technology Acceptance",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05816473/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05816473/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT04566666",
+      "domain": "immunology_rheumatology",
+      "title": "To Assess the Effect of SCD-044 Treatment on Moderate to Severe Plaque Psoriasis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
+        "double",
         "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04566666/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04566666/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02833844",
+      "domain": "infectious_disease",
+      "title": "Safety, Tolerability and Efficacy on Low Density Lipoprotein Cholesterol (LDL-C) of Evolocumab in Participants With Human Immunodeficiency Virus (HIV) and Hyperlipidemia/Mixed Dyslipidemia",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02833844/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02833844/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02969525",
+      "domain": "musculoskeletal_pain",
+      "title": "A Study to Evaluate the Dose Response Based on the Efficacy, Safety and Tolerability of Bimekizumab in Subjects With Active Psoriatic Arthritis Which is a Type of Inflammatory Arthritis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT02969525/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT02969525/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02378844",
+      "domain": "neurology",
+      "title": "A Randomized, Sham-controlled Study of gammaCore ® (nVNS) for Prevention of Episodic Migraine",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "na"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02322021/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02322021/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02378844/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02378844/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -159,21 +159,21 @@
     },
     {
       "queue_rank": 9,
-      "candidate_id": "NCT05816473",
+      "candidate_id": "NCT04448847",
       "domain": "gastroenterology_hepatology",
-      "title": "Artificial Intelligent Clinical Decision Support System Simulation Center Study for Technology Acceptance",
+      "title": "Mapping the MoA Behind GI Protection From Bif195",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "parallel",
-        "none",
+        "randomized",
+        "crossover",
+        "quadruple",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05816473/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05816473/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04448847/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04448847/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -289,26 +289,6 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03702270/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03702270/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 16,
-      "candidate_id": "NCT03606928",
-      "domain": "oncology",
-      "title": "mFLOT Chemotherapy as First-line Treatment in GC",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT03606928/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT03606928/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
