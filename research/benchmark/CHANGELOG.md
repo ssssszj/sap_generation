@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 117 annotation - 2026-09-30
+
+- Promoted NCT04111276 to `PUBLIC-OA-BRACE-GAIT-001` after exact title, investigator, institution, protocol-ID and prerecruitment chronology matching; added 23 requirements for its within-participant brace/no-brace gait design, five stance instants, medial-condylar-separation endpoint, prospective 20-evaluable/24-enrolled targets and paired-analysis correction gate.
+- Excluded NCT02019264, NCT02769481 and NCT03758443 because the selected plans are post-completion, validation-informed or termination/outcome-informed and the protocols also expose executable target programs; excluded NCT06454630 and NCT02749370 for protocol leakage; excluded NCT01934140 as a conduct-informed extension of a parent-trial population with protocol leakage; and held NCT06393452 because the SAP governs missing Protocol Version 4 while the public prompt is Version 5.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, OCRed 274 scanned/non-text pages, rendered 240 decisive pages into 18 contact sheets and visually inspected every decision. The public first-pass count increased to 101; the seven rejected or held slots are returned for replenishment.
+
 ## Batch 116 screening - 2026-09-30
 
 - Batch 116 produced no promotion: excluded NCT02007720, NCT03678545 and NCT02971683 because their selected plans follow primary completion and are additionally reconstructable from model-visible protocol material; excluded NCT02732951 and NCT05718687 because their protocols expose the executable MMRM or descriptive PK/safety programs; and excluded NCT04011436 because its purported SAP is a results report containing observed tables, p-values and conclusions.

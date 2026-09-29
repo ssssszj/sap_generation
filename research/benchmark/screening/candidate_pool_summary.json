@@ -7,14 +7,13 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2196,
-  "registered_studies_including_pilot": 101,
-  "registered_release_eligible": 100,
-  "screened_candidates": 20,
+  "registered_studies_including_pilot": 102,
+  "registered_release_eligible": 101,
+  "screened_candidates": 19,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
     "cardiovascular": 1,
-    "dermatology": 1,
     "endocrine_metabolic": 1,
     "gastroenterology_hepatology": 5,
     "hematology": 5,
@@ -23,20 +22,21 @@
     "musculoskeletal_pain": 1
   },
   "intervention_distribution": {
-    "drug": 14,
-    "mixed": 3,
-    "other": 3
+    "drug": 11,
+    "mixed": 6,
+    "other": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 7,
+    "binary": 4,
     "continuous": 5,
     "count_or_rate": 2,
-    "other_or_manual_review": 10
+    "other_or_manual_review": 11,
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 1,
     "needs_version_review": 1,
-    "plausible_date_order": 18
+    "plausible_date_order": 17
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }

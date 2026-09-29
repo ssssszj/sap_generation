@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-OA-BRACE-GAIT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 23,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-OA-BRACE-GAIT-001-R008",
+    "PUBLIC-OA-BRACE-GAIT-001-R009",
+    "PUBLIC-OA-BRACE-GAIT-001-R012",
+    "PUBLIC-OA-BRACE-GAIT-001-R013",
+    "PUBLIC-OA-BRACE-GAIT-001-R014",
+    "PUBLIC-OA-BRACE-GAIT-001-R015",
+    "PUBLIC-OA-BRACE-GAIT-001-R017",
+    "PUBLIC-OA-BRACE-GAIT-001-R022"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the NCT04111276/WIRB20191576 exact-title, investigator, institution and prerecruitment date chain.",
+    "Preserve the single-group within-participant brace/no-brace design and fixed condition order.",
+    "Reject the reference plan's independent-cohort framing and adjudicate a paired condition-by-phase analysis.",
+    "Complete analysis-set, estimand, missing-frame, multiplicity, effect-interval, precision and safety specifications.",
+    "Use prospective 20-evaluable/24-enrolled targets and keep registry actual N=23 as conduct context only.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. The reference plan is prospective and independent but statistically inconsistent with the protocol's paired repeated-measures design; its test list is retained as confirmed-decision evidence requiring correction, not as protocol-only truth."
+}

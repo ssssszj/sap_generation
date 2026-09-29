@@ -2,7 +2,7 @@
 
 This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
 
-The current working release is `v0.3-development`. It contains one private `pilot_only` study, one hundred version-verified public study families, and a 20-study metadata-screened acquisition pool. The one hundred eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All one hundred one registered studies now have first-pass evidence-backed annotations, totaling 1,925 requirements (1,899 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
+The current working release is `v0.3-development`. It contains one private `pilot_only` study, 101 version-verified public study families, and a 19-study metadata-screened acquisition pool. The 101 eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All 102 registered studies now have first-pass evidence-backed annotations, totaling 1,948 requirements (1,922 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
 
 ## What is included
 
@@ -13,7 +13,7 @@ The current working release is `v0.3-development`. It contains one private `pilo
 - A first evidence-backed gold annotation set for the existing artificial intraocular lens study.
 - Tools for stable DOCX paragraph extraction, benchmark validation, and deterministic scoring.
 - A screened public-source catalog, source audit, and hash-verifying downloader.
-- A reproducible ClinicalTrials.gov metadata harvester, a 120-family scale plan, and a 20-study document-review queue.
+- A reproducible ClinicalTrials.gov metadata harvester, a 120-family scale plan, and a 19-study document-review queue.
 
 ## Benchmark tracks
 
@@ -34,7 +34,7 @@ python3 research/benchmark/tools/validate_benchmark.py
 Refresh the metadata-screened acquisition pool from the official ClinicalTrials.gov API:
 
 ```bash
-python3 research/benchmark/tools/build_candidate_pool.py --target 25 --max-pages 6
+python3 research/benchmark/tools/build_candidate_pool.py --target 19 --max-pages 6
 ```
 
 This command does not verify protocol/SAP version compatibility. It only identifies separate public uploads and creates a stratified review queue.
@@ -67,7 +67,7 @@ The deterministic scorer does not replace statistical review. Items without a de
 
 ## Current limitations
 
-- Only one hundred public families have first-pass annotations, and none has completed independent expert adjudication; 20 additional records are acquisition candidates, not finished benchmark questions.
+- Only 101 public families have first-pass annotations, and none has completed independent expert adjudication; 19 additional records are acquisition candidates, not finished benchmark questions.
 - The pilot study has already been used during product development, so it is excluded from final testing.
 - Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
 - Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.
