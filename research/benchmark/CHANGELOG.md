@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 84 annotation - 2026-09-29
+
+- Promoted NCT04984590 to `PUBLIC-IOPCL-AMD-MAG-001` after exact NCT/title/sponsor/product/date matching and visual reconciliation of internal `AMD-20`, `AMD-020` and `AMD-2020` formatting variants; added 23 requirements for study-eye analysis, visual-acuity responders, positional stability, safety, missingness, estimands, multiplicity and interim review.
+- Excluded NCT01953926, NCT03108469, NCT01966445 and NCT04753606 for executable protocol leakage; excluded NCT01468844 and NCT05478018 because the selected analysis packages are post-completion or execution-informed; placed NCT07608367 on governing-identity/design hold.
+- Hash-froze and extracted all 16 PDFs and eight registry records, OCRed the character-corrupted NCT04984590 and NCT04753606 SAPs, visually checked all identity, chronology and decisive statistical pages, and raised the registered public draft count to 77.
+
 ## Batch 83 screening - 2026-09-29
 
 - Batch 83 produced no promotion: excluded NCT04153981, NCT02828917, NCT04279613, NCT04365400, NCT03012334, NCT04629521 and NCT01953913 because their model-visible protocols expose executable target analyses; several also have post-primary-completion, post-termination or shared-family defects.

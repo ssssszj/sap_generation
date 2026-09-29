@@ -1,0 +1,23 @@
+{
+  "study_id": "PUBLIC-IOPCL-AMD-MAG-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 23,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-IOPCL-AMD-MAG-001-R003",
+    "PUBLIC-IOPCL-AMD-MAG-001-R004",
+    "PUBLIC-IOPCL-AMD-MAG-001-R008",
+    "PUBLIC-IOPCL-AMD-MAG-001-R016",
+    "PUBLIC-IOPCL-AMD-MAG-001-R017",
+    "PUBLIC-IOPCL-AMD-MAG-001-R018"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm that IOPCL AMD-20, AMD-020 and the AMD-2020 running footer are formatting variants for the same NCT04984590 document family, supported by identical title, sponsor, product and 2022-12-06 date.",
+    "Adjudicate the hierarchy conflict between the protocol's positional-stability primary objective and primary UCNVA effectiveness endpoint.",
+    "Define effectiveness and safety populations, responder denominators, confidence intervals and the interpretation of the 75% and 50% targets.",
+    "Adjudicate missing 12-month outcomes and intercurrent events including explantation, SSI and post-removal follow-up.",
+    "Confirm descriptive-only versus formal multiplicity-controlled success claims and verify every critical locator against rendered one-based physical PDF pages."
+  ]
+}
