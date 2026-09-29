@@ -5,238 +5,6 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03515681",
-      "domain": "cardiovascular",
-      "title": "Retail Outlet Health Kiosk Hypertension Trial",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03515681/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03515681/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03229759",
-      "domain": "dermatology",
-      "title": "Evaluation of the Antimicrobial Effectiveness of an Antimicrobial Cloth",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03229759/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03229759/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT03687827",
-      "domain": "endocrine_metabolic",
-      "title": "A Research Study to Compare the Effect of Insulin Degludec and Insulin Glargine on Blood Sugar Levels in People With Type 2 Diabetes - the SWITCH PRO Study",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03687827/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03687827/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT02047318",
-      "domain": "gastroenterology_hepatology",
-      "title": "An Extension Study to Evaluate the Long-Term Safety and Durability of Effect of LUM001 in the Treatment of Cholestatic Liver Disease in Subjects With Alagille Syndrome (ALGS)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02047318/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02047318/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02846532",
-      "domain": "hematology",
-      "title": "Pharmacokinetic, Pharmacodynamic, Safety, and Efficacy Study of Rivaroxaban for Thromboprophylaxis in Pediatric Participants 2 to 8 Years of Age After the Fontan Procedure",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT02846532/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT02846532/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02185040",
-      "domain": "immunology_rheumatology",
-      "title": "A Pilot Study of CC-220 to Treat Systemic Lupus Erythematosus.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT02185040/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT02185040/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT05017493",
-      "domain": "infectious_disease",
-      "title": "Treatment of Covid-19 With a Herbal Compound, Xagrotin",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT05017493/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT05017493/SAP_004.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT04062123",
-      "domain": "musculoskeletal_pain",
-      "title": "Memory & Conditioning Under Anesthesia",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT04062123/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT04062123/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 9,
-      "candidate_id": "NCT03205488",
-      "domain": "neurology",
-      "title": "Nilotinib in Parkinson's Disease",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03205488/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03205488/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 10,
-      "candidate_id": "NCT01990534",
-      "domain": "oncology",
-      "title": "A Study of Brentuximab Vedotin in Participants With Relapsed or Refractory Hodgkin Lymphoma",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01990534/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01990534/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 11,
-      "candidate_id": "NCT01881425",
-      "domain": "ophthalmology",
-      "title": "InnFocus MicroShunt Versus Trabeculectomy Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT01881425/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT01881425/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 12,
-      "candidate_id": "NCT00250705",
-      "domain": "other_clinical",
-      "title": "Trial of Aripiprazole in the Treatment of CD in Adolescents",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 13,
       "candidate_id": "NCT02961894",
       "domain": "cardiovascular",
       "title": "Revolution™ Peripheral Atherectomy System for Lower Extremity Peripheral Arterial Revascularization",
@@ -255,7 +23,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 14,
+      "queue_rank": 2,
       "candidate_id": "NCT03743038",
       "domain": "dermatology",
       "title": "A Study Comparing Two Topicals in the Treatment of Acne Vulgaris",
@@ -276,7 +44,217 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 15,
+      "queue_rank": 3,
+      "candidate_id": "NCT03922750",
+      "domain": "endocrine_metabolic",
+      "title": "A Research Study in People With Type 2 Diabetes to Compare Two Types of Insulin: Insulin 287 and Insulin Glargine",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03922750/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03922750/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT02536404",
+      "domain": "gastroenterology_hepatology",
+      "title": "Extension Study of APD334-003 in Patients With Moderately to Severely Active Ulcerative Colitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02536404/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT02536404/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02913326",
+      "domain": "hematology",
+      "title": "A Clinical Trial Comparing Efficacy and Safety of Dabigatran Etexilate With Warfarin in Patients With Cerebral Venous and Dural Sinus Thrombosis (RE-SPECT CVT)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02913326/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02913326/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02554019",
+      "domain": "immunology_rheumatology",
+      "title": "Proof-of-Concept Study With BT063 in Subjects With Systemic Lupus Erythematosus",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02554019/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02554019/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02982772",
+      "domain": "infectious_disease",
+      "title": "Patch Study - Intervention for HIV Positive Smokers",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT02982772/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT02982772/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03205488",
+      "domain": "neurology",
+      "title": "Nilotinib in Parkinson's Disease",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03205488/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03205488/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 9,
+      "candidate_id": "NCT01990534",
+      "domain": "oncology",
+      "title": "A Study of Brentuximab Vedotin in Participants With Relapsed or Refractory Hodgkin Lymphoma",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01990534/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT01990534/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 10,
+      "candidate_id": "NCT01881425",
+      "domain": "ophthalmology",
+      "title": "InnFocus MicroShunt Versus Trabeculectomy Study",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT01881425/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT01881425/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 11,
+      "candidate_id": "NCT00250705",
+      "domain": "other_clinical",
+      "title": "Trial of Aripiprazole in the Treatment of CD in Adolescents",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT00250705/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 12,
+      "candidate_id": "NCT03680742",
+      "domain": "cardiovascular",
+      "title": "Contour Neurovascular System - European Pre-Market Unruptured Aneurysm",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT03680742/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT03680742/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 13,
+      "candidate_id": "NCT04183335",
+      "domain": "dermatology",
+      "title": "Study of Dupilumab for the Treatment of Patients With Prurigo Nodularis, Inadequately Controlled on Topical Prescription Therapies or When Those Therapies Are Not Advisable (LIBERTY-PN PRIME)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04183335/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04183335/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 14,
       "candidate_id": "NCT02825251",
       "domain": "endocrine_metabolic",
       "title": "Efficacy and Safety of Continuous Subcutaneous Insulin Infusion of Faster-acting Insulin Aspart Compared to NovoRapid® in Adults With Type 1 Diabetes",
@@ -295,7 +273,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 16,
+      "queue_rank": 15,
       "candidate_id": "NCT02474199",
       "domain": "gastroenterology_hepatology",
       "title": "Donor Alloantigen Reactive Tregs (darTregs) for Calcineurin Inhibitor (CNI) Reduction",
@@ -316,7 +294,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 17,
+      "queue_rank": 16,
       "candidate_id": "NCT02309411",
       "domain": "hematology",
       "title": "EINSTEIN Junior Phase II: Oral Rivaroxaban in Young Children With Venous Thrombosis",
@@ -335,45 +313,45 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 18,
-      "candidate_id": "NCT02554019",
+      "queue_rank": 17,
+      "candidate_id": "NCT02618967",
       "domain": "immunology_rheumatology",
-      "title": "Proof-of-Concept Study With BT063 in Subjects With Systemic Lupus Erythematosus",
+      "title": "Single Ascending Dose Study of AMG 570 in Healthy Subjects",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
+        "single_group",
         "quadruple",
-        "phase_2"
+        "phase_1"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02554019/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02554019/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02618967/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02618967/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 19,
-      "candidate_id": "NCT02982772",
+      "queue_rank": 18,
+      "candidate_id": "NCT03068767",
       "domain": "infectious_disease",
-      "title": "Patch Study - Intervention for HIV Positive Smokers",
+      "title": "The Relationship Between Vitamin D and Hepatitis B Virus Replication",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
+        "none",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT02982772/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT02982772/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03068767/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03068767/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 20,
+      "queue_rank": 19,
       "candidate_id": "NCT03010254",
       "domain": "ophthalmology",
       "title": "A Clinical Study of the ACRYSOF® IQ EDF Intraocular Lens (IOL)",
@@ -393,26 +371,26 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 21,
-      "candidate_id": "NCT03680742",
+      "queue_rank": 20,
+      "candidate_id": "NCT03683030",
       "domain": "cardiovascular",
-      "title": "Contour Neurovascular System - European Pre-Market Unruptured Aneurysm",
+      "title": "Safety and Effectiveness Evaluation of the Multi-Electrode Radiofrequency Balloon Catheter for the Treatment of Symptomatic Paroxysmal Atrial Fibrillation",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "na"
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT03680742/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT03680742/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03683030/Prot_004.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03683030/SAP_005.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 22,
+      "queue_rank": 21,
       "candidate_id": "NCT02798120",
       "domain": "dermatology",
       "title": "P3 Long Term Safety Study of Once Daily SB204 in Acne",
@@ -431,7 +409,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 23,
+      "queue_rank": 22,
       "candidate_id": "NCT02964247",
       "domain": "endocrine_metabolic",
       "title": "LIRA-ADD2SGLT2i - Liraglutide Versus Placebo as add-on to SGLT2 Inhibitors.",
@@ -450,7 +428,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 24,
+      "queue_rank": 23,
       "candidate_id": "NCT01954017",
       "domain": "gastroenterology_hepatology",
       "title": "STP206 for the Prevention of Necrotizing Enterocolitis (NEC)",
@@ -466,6 +444,25 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT01954017/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT01954017/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 24,
+      "candidate_id": "NCT01151423",
+      "domain": "hematology",
+      "title": "Study to Assess Efficacy and Safety of Anti-von Willebrand Factor (vWF) Nanobody in Patients With Acquired Thrombotic Thrombocytopenic Purpura (aTTP)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT01151423/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT01151423/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

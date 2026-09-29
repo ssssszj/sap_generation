@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-ROKHYT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-ROKHYT-001-R009",
+    "PUBLIC-ROKHYT-001-R011",
+    "PUBLIC-ROKHYT-001-R012",
+    "PUBLIC-ROKHYT-001-R013",
+    "PUBLIC-ROKHYT-001-R014",
+    "PUBLIC-ROKHYT-001-R021"
+  ],
+  "open_version_questions": [
+    "Confirm from the ClinicalTrials.gov or IRB history that the matching 2019-04-15 protocol and SAP are an unmodified prospective governing pair and were not revised using observed vanguard or randomized-trial outcomes after the 2019-03-06 study start."
+  ],
+  "review_requirements": [
+    "Resolve masking by role and adjudicate the isolated SAP header typo '<149/90' against the repeated '<140/90' definition.",
+    "Define the primary analysis population, estimand, confidence intervals, missing-data sensitivity and within-occasion kiosk reading derivation.",
+    "Reconcile the protocol and registry definitions of participation and completion and determine whether a formal safety analysis applies.",
+    "Verify the during-conduct provenance of the 2019-04-15 pair and exclude the family if any outcome-informed revision is identified.",
+    "Verify every critical locator against the rendered one-based physical PDF pages and preserve reference-SAP isolation."
+  ]
+}

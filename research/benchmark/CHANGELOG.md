@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 87 annotation - 2026-09-29
+
+- Promoted NCT03515681 to `PUBLIC-ROKHYT-001` after exact title/NCT/date matching, OCR and visual review; added 22 requirements covering study phases, stratified randomization, 12-month blood-pressure control, Mantel-Haenszel relative risk, feasibility, missingness, masking, safety and provenance.
+- Retained two explicit release gates: the 2019-04-15 pair follows the 2019-03-06 study start and vanguard phase, and the SAP header's isolated `<149/90` conflicts with its later and protocol-consistent `<140/90` definition.
+- Excluded NCT03229759, NCT03687827, NCT02047318 and NCT02846532 for executable protocol leakage, with additional post-completion, extension or execution-informed defects; excluded NCT02185040, NCT05017493 and NCT04062123 as post-primary extension, retrospective results-stage or execution-stage methods packages.
+- Hash-froze, page-extracted and visually inspected all 16 PDFs and eight registry records, then refreshed the pool to 38 candidates while raising the registered public draft count to 82.
+
 ## Batch 86 annotation - 2026-09-29
 
 - Promoted NCT02893267 to `PUBLIC-PNS-PT-HSP-001` after exact title/NCT/date matching, full-text leakage comparison and visual review; added 22 requirements covering adaptive allocation, BPI-SF3, longitudinal mixed modeling, site handling, responder analysis, missingness, multiplicity, safety and provenance.
