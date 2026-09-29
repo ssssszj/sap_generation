@@ -1,0 +1,34 @@
+{
+  "study_id": "PUBLIC-INTROLENGTH-RAO-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 18,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-INTROLENGTH-RAO-001-R001",
+    "PUBLIC-INTROLENGTH-RAO-001-R004",
+    "PUBLIC-INTROLENGTH-RAO-001-R005",
+    "PUBLIC-INTROLENGTH-RAO-001-R006",
+    "PUBLIC-INTROLENGTH-RAO-001-R007",
+    "PUBLIC-INTROLENGTH-RAO-001-R008",
+    "PUBLIC-INTROLENGTH-RAO-001-R009",
+    "PUBLIC-INTROLENGTH-RAO-001-R012",
+    "PUBLIC-INTROLENGTH-RAO-001-R014",
+    "PUBLIC-INTROLENGTH-RAO-001-R015",
+    "PUBLIC-INTROLENGTH-RAO-001-R016",
+    "PUBLIC-INTROLENGTH-RAO-001-R017"
+  ],
+  "open_version_questions": [
+    "Confirm from original ethics or institutional records that the official ClinicalTrials.gov association correctly binds both NCT-free PDFs to NCT03854253/TCRC-146; the exact title, institution and registry document date agree.",
+    "Confirm that the ambiguous cover date 02/11/2019 means 11 February 2019, as represented by the official registry metadata, rather than 2 November 2019."
+  ],
+  "review_requirements": [
+    "Resolve the protocol's simple-blind statement against the registry's open-label metadata and identify the masked role.",
+    "Define the primary RAO diagnostic rule, assessment time, estimand, analysis population and missing-ultrasound sensitivity analysis.",
+    "Confirm whether Fisher exact testing is the primary method and add arm risks, effect estimates and confidence intervals.",
+    "Specify how technical access failure, wrong device, conversion and CAG-versus-PCI or operator effects enter the analysis.",
+    "Supply a prospective sample-size target and calculation; do not use title number 146 or actual enrollment as a substitute.",
+    "Define multiplicity, secondary endpoint derivations, safety population and adverse-event summaries."
+  ],
+  "notes": "First-pass evidence-backed annotation. The reference plan is independent and pre-recruitment but extremely terse; most executable decisions remain expert-review gates."
+}

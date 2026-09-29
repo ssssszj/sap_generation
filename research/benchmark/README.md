@@ -2,7 +2,7 @@
 
 This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
 
-The current working release is `v0.3-development`. It contains one private `pilot_only` study, ninety-five version-verified public study families, and a 25-study metadata-screened acquisition pool. The ninety-five eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All ninety-six registered studies now have first-pass evidence-backed annotations, totaling 1,817 requirements (1,791 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
+The current working release is `v0.3-development`. It contains one private `pilot_only` study, ninety-six version-verified public study families, and a 24-study metadata-screened acquisition pool. The ninety-six eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All ninety-seven registered studies now have first-pass evidence-backed annotations, totaling 1,835 requirements (1,809 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
 
 ## What is included
 
@@ -67,7 +67,7 @@ The deterministic scorer does not replace statistical review. Items without a de
 
 ## Current limitations
 
-- Only ninety-five public families have first-pass annotations, and none has completed independent expert adjudication; 25 additional records are acquisition candidates, not finished benchmark questions.
+- Only ninety-six public families have first-pass annotations, and none has completed independent expert adjudication; 24 additional records are acquisition candidates, not finished benchmark questions.
 - The pilot study has already been used during product development, so it is excluded from final testing.
 - Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
 - Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.

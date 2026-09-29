@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 102 public expansion
+
+- Promoted NCT03854253 as `PUBLIC-INTROLENGTH-RAO-001` after exact-title/institution/date, prerecruitment chronology and independent-document review; added 18 evidence-backed requirements for its long-versus-short radial-introducer trial.
+- Excluded NCT03127956 and NCT04498273 for protocol-side executable-plan leakage or a duplicated SAP masquerading as a protocol, and excluded NCT04143945, NCT02559206, NCT02554773, NCT02446899 and NCT06523010 as post-completion, CSR-bundled, outcome-informed or executed-method documents.
+- Re-downloaded all 16 official PDFs sequentially after detecting a truncated parallel transfer, froze the verified originals, extracted every physical page, visually inspected decisive pages and replenished seven slots so the intake remains 96 public drafts plus 24 metadata candidates.
+- Increased the registered total from 1,817 to 1,835 requirements (1,809 public plus 26 private-pilot requirements).
+
 ## Batch 101 annotation - 2026-09-29
 
 - Promoted NCT04469218 to `PUBLIC-DIPPER-SAFEBREAK-001` after exact IRB/title/date reconciliation and full visual review; added 20 requirements for randomized device noninferiority, conditional superiority, delay derivation, populations, recurrent complications, missingness, safety, multiplicity and reproducible power.
