@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 112 screening - 2026-09-29
+
+- Batch 112 produced no promotion: excluded NCT05897073, NCT05368103, NCT03255174 and NCT07137026 because their model-visible protocols reproduce the executable target analysis; excluded NCT02634333, NCT04132050 and NCT02770170 because their selected SAPs are post-primary, manuscript-stage or interim-informed and their protocols also leak the target program; and excluded NCT01197300 as a core-study-dependent extension with protocol leakage.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted every physical page, rendered 90 decisive identity, chronology and analysis pages, and visually verified all decisions. All eight slots are returned for replenishment while retaining 100 public first-pass drafts.
+
 ## Batch 111 annotation - 2026-09-29
 
 - Promoted NCT05293951 to `PUBLIC-MIRROR-CROSS-ED-STROKE-001` after exact title/institution/date matching through the official pre-assignment registry binding; added 23 requirements for the randomized resisted-versus-unresisted mirror-training pilot, endpoint hierarchy, direct between-group repeated measures, population, estimand, missingness, multiplicity, feasibility, safety, uncertainty and prospective sample size.
