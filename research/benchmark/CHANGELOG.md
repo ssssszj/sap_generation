@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 83 screening - 2026-09-29
+
+- Batch 83 produced no promotion: excluded NCT04153981, NCT02828917, NCT04279613, NCT04365400, NCT03012334, NCT04629521 and NCT01953913 because their model-visible protocols expose executable target analyses; several also have post-primary-completion, post-termination or shared-family defects.
+- Excluded NCT02933372 because its analysis document postdates actual completion, cites an irreconcilable governing-protocol date and uses executed-study language rather than establishing a prospective SAP chain.
+- Hash-froze and extracted all 16 PDFs and eight registry records, OCRed the scan-only NCT04153981 SAP and image-encoded NCT04279613 protocol, visually checked every identity, chronology and decisive statistical page, and returned all eight slots for replenishment while preserving 76 public drafts.
+
 ## Batch 82 screening - 2026-09-29
 
 - Batch 82 produced no promotion: excluded NCT02379819, NCT03091673, NCT03466099, NCT02525783, NCT03760068, NCT03844789 and NCT04016662 because their model-visible protocols expose executable target analyses; four selected references additionally have completion-date or internal version defects.
