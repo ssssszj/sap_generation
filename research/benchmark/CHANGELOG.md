@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 136 screening - 2026-09-30
+
+- Batch 136 produced no promotion: excluded NCT03341312, NCT03279081, NCT02873936 and NCT02245737 because their selected targets are post-primary/post-completion, regulatory-communication- or futility-stop-informed and their protocols independently expose substantial executable programs; excluded NCT02981953 and NCT03930186 for protocol-embedded target leakage; and excluded NCT02737722 because its month-only primary-completion chronology cannot establish a prospective target and its protocol also reconstructs the plan.
+- Placed NCT03304587 on version-reconciliation hold because its unversioned protocol/SAP files were produced late during the trial without a revision, signature or approval chain establishing outcome-uninformed prospective governance. Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,070 physical pages, fully OCRed the 53-page NCT02737722 SAP, and rendered and visually inspected 90 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 104 public first-pass drafts plus 16 actionable metadata candidates and 2,021 total requirements, including the 26-item private pilot.
+
 ## Batch 135 screening - 2026-09-30
 
 - Batch 135 produced no promotion: excluded NCT02979587, NCT03332771, NCT02497469 and NCT04211389 because their selected packages are post-primary/post-completion, database-lock-, device/cohort- or COVID-conduct-informed and have study-family or governing-version defects; excluded NCT02729038 and NCT02863575 because their model-visible protocols substantially reconstruct the executable targets; excluded NCT02124564 because its final amendments followed a Dry Run and Data Evaluation Meeting; and excluded NCT06072833 because its protocol/SAP package incorporates completed beta-stage conduct.
