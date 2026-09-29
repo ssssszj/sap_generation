@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 127 screening - 2026-09-30
+
+- Batch 127 produced no promotion: excluded NCT02712008, NCT03094416, NCT05175131, NCT04370054, NCT02532283 and NCT02585258 because their selected plans are post-completion or execution-informed and their protocols also expose substantial executable programs; excluded prerecruitment NCT02945657 because protocol pages 68-70 reconstruct the short descriptive target.
+- Excluded NCT03765489 because its two-page alleged SAP is a retrospective executed-analysis excerpt titled as study results and written entirely in past tense, despite an internally impossible pre-start printed date.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 894 physical pages, OCRed all 78 scan-only NCT03094416 protocol pages, and rendered and visually inspected 59 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 104 public first-pass drafts plus 16 actionable metadata candidates and 2,021 total requirements, including the 26-item private pilot.
+
 ## Batch 126 screening - 2026-09-30
 
 - Batch 126 produced no promotion: excluded NCT02376790, NCT02422524, NCT03014479, NCT03533751, NCT03855280 and NCT05014672 because their selected plans are post-primary/post-completion or execution-informed and their model-visible protocols also expose substantial executable programs; excluded NCT02703454 because its scanned protocol reproduces essentially the complete SAP.
