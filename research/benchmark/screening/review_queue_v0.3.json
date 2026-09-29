@@ -5,105 +5,48 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02007720",
+      "candidate_id": "NCT02019264",
       "domain": "cardiovascular",
-      "title": "Efficacy, Safety and Tolerability of Sexelaxin When Added to Standard Therapy in AHF",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02007720/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02007720/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT02556788",
-      "domain": "dermatology",
-      "title": "Double-Blind Efficacy and Safety of CD5789 (Trifarotene) 50µg/g Cream Versus Vehicle Cream in Acne Vulgaris",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT02556788/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT02556788/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT02732951",
-      "domain": "endocrine_metabolic",
-      "title": "Safety and Effect on Central Retinal Thickness of BI 1026706 in Patients With Diabetic Macular Edema",
+      "title": "A Study to Evaluate the Effect of Long-term Treatment With BELVIQ (Lorcaserin HCl) on the Incidence of Major Adverse Cardiovascular Events and Conversion to Type 2 Diabetes Mellitus in Obese and Overweight Subjects With Cardiovascular Disease or Multiple Cardiovascular Risk Factors",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_2"
+        "phase_4"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02732951/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02732951/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02019264/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02019264/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 4,
-      "candidate_id": "NCT03678545",
-      "domain": "gastroenterology_hepatology",
-      "title": "Dupilumab in Eosinophilic Gastritis",
-      "pairing_state": "plausible_date_order",
+      "queue_rank": 2,
+      "candidate_id": "NCT06393452",
+      "domain": "dermatology",
+      "title": "Safety, Pharmacokinetics and Efficacy of PP405 in Adults With AGA",
+      "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
-        "parallel",
-        "triple",
+        "crossover",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03678545/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03678545/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT05718687",
-      "domain": "hematology",
-      "title": "A GBT021601 ADME Microtracer Study in Healthy Volunteers",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "time_to_event",
+        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT05718687/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT05718687/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT06393452/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT06393452/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02971683",
-      "domain": "immunology_rheumatology",
-      "title": "Trial to Evaluate the Efficacy and Safety of Abatacept in Combination With Standard Therapy Compared to Standard Therapy Alone in Improving Disease Activity in Adults With Active Idiopathic Inflammatory Myopathy",
+      "queue_rank": 3,
+      "candidate_id": "NCT02769481",
+      "domain": "endocrine_metabolic",
+      "title": "Safety and Efficacy of Bexagliflozin Compared to Glimepiride as Add-on Therapy to Metformin in Type 2 Diabetes Subjects",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -112,50 +55,108 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02971683/Prot_004.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02971683/SAP_005.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01751568",
-      "domain": "infectious_disease",
-      "title": "Safety, Tolerance and Pharmacokinetics of Raltegravir-Containing Antiretroviral Therapy in Infants, Children Infected With HIV and TB",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT01751568/Prot_005.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT01751568/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT02769481/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT02769481/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT04011436",
-      "domain": "musculoskeletal_pain",
-      "title": "Therapeutic Effect of Two Muscle Strengthening Programs in Patients With Patellofemoral Pain Syndrome",
-      "pairing_state": "exact_document_date_match",
+      "queue_rank": 4,
+      "candidate_id": "NCT03758443",
+      "domain": "gastroenterology_hepatology",
+      "title": "Efficacy & Safety of TD-1473 in Ulcerative Colitis",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
-        "na"
+        "quadruple",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03758443/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03758443/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT06454630",
+      "domain": "hematology",
+      "title": "A Trial to Learn How Well REGN7508 Works for Preventing Blood Clots After a Knee Replacement in Adult Participants",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT04011436/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT04011436/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT06454630/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT06454630/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02749370",
+      "domain": "immunology_rheumatology",
+      "title": "Study to Evaluate the Efficacy of Etanercept Treatment in Adults Who Failed Therapy With Apremilast",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02749370/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02749370/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01934140",
+      "domain": "infectious_disease",
+      "title": "Study to Evaluate the Long-term Antibody Persistence of GlaxoSmithKline (GSK) Biologicals' MenACWY-TT Vaccine (GSK134612) Versus Mencevax ACWY in Healthy Adolescents and Adults and Booster Response to MenACWY-TT Vaccine Administered at 10 Years Post-primary Vaccination",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01934140/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT01934140/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT04111276",
+      "domain": "musculoskeletal_pain",
+      "title": "In Vivo Three-Dimensional Determination of Osteoarthritis Brace Effectiveness",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT04111276/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT04111276/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -198,21 +199,22 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT02749370",
+      "candidate_id": "NCT02880852",
       "domain": "immunology_rheumatology",
-      "title": "Study to Evaluate the Efficacy of Etanercept Treatment in Adults Who Failed Therapy With Apremilast",
+      "title": "Belimumab Phase I Study in Chinese Subjects With Systemic Lupus Erythematosus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
+        "non_randomized",
         "single_group",
         "none",
-        "phase_4"
+        "phase_1"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02749370/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT02749370/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02880852/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02880852/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -274,22 +276,21 @@
     },
     {
       "queue_rank": 15,
-      "candidate_id": "NCT02880852",
+      "candidate_id": "NCT02945657",
       "domain": "immunology_rheumatology",
-      "title": "Belimumab Phase I Study in Chinese Subjects With Systemic Lupus Erythematosus",
+      "title": "Pharmacokinetics and Safety of MM36 Topical Ointment in Pediatric Subjects With Atopic Dermatitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
+        "na",
         "single_group",
         "none",
-        "phase_1"
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02880852/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02880852/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -332,21 +333,21 @@
     },
     {
       "queue_rank": 18,
-      "candidate_id": "NCT02945657",
+      "candidate_id": "NCT02975206",
       "domain": "immunology_rheumatology",
-      "title": "Pharmacokinetics and Safety of MM36 Topical Ointment in Pediatric Subjects With Atopic Dermatitis",
+      "title": "Study of the Efficacy, Safety, and Tolerability of Serlopitant for Pruritus (Itch) in Atopic Dermatitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
-        "continuous"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02975206/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02975206/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

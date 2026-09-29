@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 116 screening - 2026-09-30
+
+- Batch 116 produced no promotion: excluded NCT02007720, NCT03678545 and NCT02971683 because their selected plans follow primary completion and are additionally reconstructable from model-visible protocol material; excluded NCT02732951 and NCT05718687 because their protocols expose the executable MMRM or descriptive PK/safety programs; and excluded NCT04011436 because its purported SAP is a results report containing observed tables, p-values and conclusions.
+- Placed NCT02556788 on governing-version hold because the 2015 SAP cites a 2015 protocol while the only public prompt is a later 2017 protocol summary finalized after primary completion, and placed NCT01751568 on public-redaction hold because the released SAP explicitly removes the analysis timeline and contributor context needed to verify its prospective governing state.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted all 676 physical pages, OCR-reviewed 66 scanned protocol pages, rendered 150 decisive identity, chronology, redaction, leakage and document-type pages, and visually verified all decisions. All eight slots are returned for replenishment while retaining 100 public first-pass drafts.
+
 ## Batch 115 screening - 2026-09-30
 
 - Batch 115 produced no promotion: excluded NCT01849575, NCT02722408, NCT03639623, NCT05078138, NCT02969018 and NCT01281813 because their selected plans are post-primary, post-completion, observed/interim-data-informed, parent-trial-dependent or reproduced by the model-visible protocol; excluded NCT02466243 because the selected Part A SAP cites Protocol Version 2 while the public prompt is post-Part-A Version 5 and also exposes the target analysis; and excluded NCT03988023 because its same-day protocol already contains the executable co-primary adaptive analysis.
