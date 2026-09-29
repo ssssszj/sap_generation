@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 80 screening - 2026-09-29
+
+- Batch 80 produced no promotion: excluded NCT02608476, NCT03678506, NCT05579730, NCT03080961 and NCT02830074 because their model-visible protocols expose executable target analyses; three selected references additionally postdate primary/study completion or report executed-study information.
+- Excluded NCT02213458, NCT02692560 and NCT05816551 because their selected public analysis materials are post-completion, publication-stage, execution-informed or not distinct prospective governing SAPs.
+- Hash-froze and extracted all 16 PDFs and eight registry records, fully rendered/OCRed the scan-only NCT03080961 SAP and NCT05579730 protocol, and returned all eight slots for replenishment while preserving 75 public drafts.
+
 ## Batch 79 annotation - 2026-09-29
 
 - Promoted NCT01757067 EVAC-HF, NCT03689452 PRP alopecia and NCT02967172 ankle peri-incisional injection after exact identity/date matching of independent prospective protocol and analysis documents; added 64 requirements with reference-only decisions isolated from the primary protocol-only track.
