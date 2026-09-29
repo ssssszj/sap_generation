@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 120 screening - 2026-09-30
+
+- Batch 120 produced no promotion: excluded NCT02164578, NCT02896192, NCT02576795 and NCT02880852 because their model-visible protocol packages disclose the executable target programs; NCT02576795's public bundle was confirmed to contain the governing Amendment 8 rather than merely a later mismatched amendment.
+- Excluded NCT04090411, NCT04844879 and NCT04271046 because their selected analysis materials are post-primary/post-completion, execution-informed or non-independent and their protocols also expose substantial executable content. Held NCT02128217 because its selected Cohort 2 plan is post-treatment while the alternative prospective Cohort 1 plan cites unavailable Protocol Version 1.
+- Sequentially downloaded and SHA-256-froze 16 selected PDFs, eight registry records and one alternative SAP, extracted 2,139 total physical pages, OCRed all 39 empty-text pages, rendered 99 decisive pages into 14 contact sheets and visually verified every decision. All eight slots are returned for replenishment while retaining 101 public first-pass drafts.
+
 ## Batch 119 screening - 2026-09-30
 
 - Batch 119 produced no promotion: excluded NCT02072226, NCT02222545, NCT03073200 and NCT02120352 because their selected plans were created after early termination, completed stages, primary database lock, primary completion or interim evidence and incorporate realized conduct; excluded NCT04075825 as an after-parent-unblinding, family-dependent extension.

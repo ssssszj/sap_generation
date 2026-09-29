@@ -11,7 +11,7 @@ The initial benchmark may remain `draft_needs_expert_review`; it must not be rep
 | ID | Required deliverable or gate | Concrete artifact/evidence | Completion rule | Current state |
 |---|---|---|---|---|
 | C01 | Exactly 120 public questions | `manifests/studies.jsonl`; one non-pilot row per public study | 120 public rows, all `status=verified` | Incomplete: 101 |
-| C02 | No candidate counted as a completed question | `screening/candidate_catalog.jsonl`; `screening/candidate_pool_summary.json` | candidate count is 0 at delivery | Incomplete: 19 after Batch 119 replenishment |
+| C02 | No candidate counted as a completed question | `screening/candidate_catalog.jsonl`; `screening/candidate_pool_summary.json` | candidate count is 0 at delivery | Incomplete: 19 after Batch 120 replenishment |
 | C03 | Private pilot excluded from the 120 target | `PILOT-IOL-001` study row and configuration scale target | exactly one `pilot_only` row; public count evaluated separately | Covered; recheck at final audit |
 | C04 | Frozen public protocol and reference SAP for every question | `manifests/documents.jsonl` and local `sources/public/<NCT>/input/` plus `reference/` packages | every public study resolves to model-visible input document(s) and a separately identified reference SAP with SHA-256 and page count/source provenance | Audit pending for all 120 |
 | C05 | Reference SAP never model-visible | document `role`, paths and study package layout | reference documents occur only under annotation-only `reference/`; no prompt/input manifest includes a reference-SAP path | Audit pending for all 120 |
