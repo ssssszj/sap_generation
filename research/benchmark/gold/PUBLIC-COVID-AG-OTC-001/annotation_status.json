@@ -1,0 +1,29 @@
+{
+  "study_id": "PUBLIC-COVID-AG-OTC-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 21,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-COVID-AG-OTC-001-R004",
+    "PUBLIC-COVID-AG-OTC-001-R006",
+    "PUBLIC-COVID-AG-OTC-001-R007",
+    "PUBLIC-COVID-AG-OTC-001-R008",
+    "PUBLIC-COVID-AG-OTC-001-R009",
+    "PUBLIC-COVID-AG-OTC-001-R010",
+    "PUBLIC-COVID-AG-OTC-001-R011",
+    "PUBLIC-COVID-AG-OTC-001-R014",
+    "PUBLIC-COVID-AG-OTC-001-R017",
+    "PUBLIC-COVID-AG-OTC-001-R018",
+    "PUBLIC-COVID-AG-OTC-001-R021"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm exact protocol number, title and 2021-12-01 pre-enrollment identity and governing status for both documents.",
+    "Reconcile the protocol composition targets, SAP total N=188 and later actual enrollment without substituting actual enrollment for the prospective target.",
+    "Verify the score-interval equations and replace or justify the SAP's CLSI EP05-A3 citation for a qualitative diagnostic-agreement study.",
+    "Clarify the ambiguous Ct-at-least-32 low-positive fraction analyses and all missing-data denominators.",
+    "Confirm the success rule, subgroup multiplicity framing and any participant-level dependence before freezing the annotation.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

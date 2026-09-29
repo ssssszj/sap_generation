@@ -2,7 +2,7 @@
 
 This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
 
-The current working release is `v0.3-development`. It contains one private `pilot_only` study, ninety-seven version-verified public study families, and a 23-study metadata-screened acquisition pool. The ninety-seven eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All ninety-eight registered studies now have first-pass evidence-backed annotations, totaling 1,857 requirements (1,831 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
+The current working release is `v0.3-development`. It contains one private `pilot_only` study, ninety-eight version-verified public study families, and a 22-study metadata-screened acquisition pool. The ninety-eight eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All ninety-nine registered studies now have first-pass evidence-backed annotations, totaling 1,878 requirements (1,852 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
 
 ## What is included
 
@@ -13,7 +13,7 @@ The current working release is `v0.3-development`. It contains one private `pilo
 - A first evidence-backed gold annotation set for the existing artificial intraocular lens study.
 - Tools for stable DOCX paragraph extraction, benchmark validation, and deterministic scoring.
 - A screened public-source catalog, source audit, and hash-verifying downloader.
-- A reproducible ClinicalTrials.gov metadata harvester, a 120-family scale plan, and a 23-study document-review queue.
+- A reproducible ClinicalTrials.gov metadata harvester, a 120-family scale plan, and a 22-study document-review queue.
 
 ## Benchmark tracks
 
@@ -67,7 +67,7 @@ The deterministic scorer does not replace statistical review. Items without a de
 
 ## Current limitations
 
-- Only ninety-seven public families have first-pass annotations, and none has completed independent expert adjudication; 23 additional records are acquisition candidates, not finished benchmark questions.
+- Only ninety-eight public families have first-pass annotations, and none has completed independent expert adjudication; 22 additional records are acquisition candidates, not finished benchmark questions.
 - The pilot study has already been used during product development, so it is excluded from final testing.
 - Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
 - Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.

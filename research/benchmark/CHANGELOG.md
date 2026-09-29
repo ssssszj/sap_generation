@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 107 annotation
+
+- Promoted NCT05584176 to `PUBLIC-COVID-AG-OTC-001` after exact protocol-number/title/date matching and pre-enrollment chronology; added 21 requirements for paired diagnostic agreement, valid-run and discordance rules, prospective accrual, PPA/NPA, intervals, symptom, demographic and Ct summaries, missingness, multiplicity and explicit unresolved decisions.
+- Excluded NCT05488652 because its three-page SAP reproduces the protocol's executable statistical section, and excluded NCT02729831 because its purported SAP is an excerpt taken from a later published protocol rather than an independently governed prospective plan.
+- Downloaded, hash-froze, page-extracted and visually checked all six official PDFs and three registry records. The public first-pass count increased to 98; the two rejected slots are replenished in the metadata pool.
+
 ## 2026-09-29 - v0.3 Batch 106 screening
 
 - Excluded NCT04743856, NCT03990883, NCT02943460, NCT03597022 and NCT05534061 because their analysis targets are post-primary, post-completion, explicitly post-hoc or internally executed-methods summaries.
