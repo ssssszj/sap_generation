@@ -7,42 +7,41 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2212,
-  "registered_studies_including_pilot": 76,
-  "registered_release_eligible": 75,
-  "screened_candidates": 45,
+  "registered_studies_including_pilot": 77,
+  "registered_release_eligible": 76,
+  "screened_candidates": 44,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
-    "cardiovascular": 3,
-    "dermatology": 1,
-    "endocrine_metabolic": 11,
-    "gastroenterology_hepatology": 1,
-    "hematology": 1,
+    "cardiovascular": 4,
+    "dermatology": 2,
+    "endocrine_metabolic": 12,
+    "gastroenterology_hepatology": 2,
+    "hematology": 2,
     "immunology_rheumatology": 3,
-    "infectious_disease": 1,
+    "infectious_disease": 2,
     "musculoskeletal_pain": 1,
     "neurology": 4,
     "oncology": 4,
     "ophthalmology": 6,
-    "other_clinical": 6,
-    "respiratory": 3
+    "other_clinical": 2
   },
   "intervention_distribution": {
-    "behavioral": 4,
-    "device": 7,
-    "drug": 17,
+    "behavioral": 1,
+    "device": 6,
+    "drug": 20,
     "mixed": 11,
     "other": 6
   },
   "endpoint_distribution_multi_label": {
-    "binary": 5,
-    "continuous": 7,
-    "count_or_rate": 5,
-    "other_or_manual_review": 33
+    "binary": 6,
+    "continuous": 8,
+    "count_or_rate": 6,
+    "other_or_manual_review": 30
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 18,
-    "plausible_date_order": 27
+    "exact_document_date_match": 15,
+    "plausible_date_order": 29
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }

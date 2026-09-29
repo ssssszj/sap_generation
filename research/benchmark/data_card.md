@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains seventy-six registered study families: one private pilot and seventy-five public annotation drafts.
+The working benchmark contains seventy-seven registered study families: one private pilot and seventy-six public annotation drafts.
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -79,8 +79,9 @@ The working benchmark contains seventy-six registered study families: one privat
 - EVAC-HF, a multicenter randomized PVC-suppression study with six-month LVEF change, prospective power assumptions, crossover-aware ITT analysis and unresolved estimand and missing-data choices;
 - platelet-rich plasma for non-scarring alopecia, a randomized saline-controlled study with repeated photographic and trichoscopic outcomes and an intentionally terse reference analysis plan;
 - peri-incisional multimodal injection for operative ankle fractures, a randomized blinded perioperative study with repeated pain, opioid-use, hospitalization and discharge outcomes and separately tracked prospective versus actual enrollment.
+- D-cycloserine augmentation of panic-focused smoking cessation, a randomized behavioral trial with abstinence, lapse, relapse, psychological and mediation outcomes and an independent analysis document specifying logistic mixed models, Cox models, Bayesian-bootstrap mediation and pattern-mixture sensitivity analysis.
 
-All seventy-five public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,381 evidence-backed requirements: 1,355 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All seventy-six public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,404 evidence-backed requirements: 1,378 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 

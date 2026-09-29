@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 81 annotation - 2026-09-29
+
+- Promoted NCT01944423 to `PUBLIC-DCS-PANIC-SMOKING-001` after exact title/NCT/date matching of an independent prospective protocol and Data Analysis document; added 23 requirements covering repeated PPA, lapse/relapse, psychological outcomes, GLMM, Cox, moderated mediation, pattern-mixture sensitivity, prospective power and safety.
+- Excluded NCT02110485, NCT02161757, NCT02152540, NCT01640951, NCT02332915 and NCT04710862 for identical files, protocol leakage, wrong document type or retrospective/post-completion analysis; held NCT03646669 because its 400-participant protocol supplement, 80-participant Aim 4 plan and 58-participant registry scope cannot be reconciled.
+- Hash-froze and extracted all 16 PDFs and eight registry records, visually checked the decisive pages, and returned seven slots for replenishment while raising the registered public draft count to 76.
+
 ## Batch 80 screening - 2026-09-29
 
 - Batch 80 produced no promotion: excluded NCT02608476, NCT03678506, NCT05579730, NCT03080961 and NCT02830074 because their model-visible protocols expose executable target analyses; three selected references additionally postdate primary/study completion or report executed-study information.
