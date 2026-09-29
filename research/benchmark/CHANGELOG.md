@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 99 screening - 2026-09-29
+
+- Batch 99 produced no promotion: excluded NCT02612857, NCT03422159, NCT01543087 and NCT04343235 because their model-visible protocols expose executable target analyses; excluded NCT02975505, NCT01972529 and NCT02418000 for post-primary or post-completion analysis packages; and excluded NCT02176486 for a post-completion SAP that also cites an older protocol amendment than the selected model-visible protocol.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records and verified the decisive chronology, version-mismatch and leakage pages. All eight slots are returned for replenishment while preserving 93 public drafts.
+
 ## Batch 98 annotation - 2026-09-29
 
 - Promoted NCT01458990 to `PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001` after exact NCT/title/date matching and full visual review; added 20 requirements for the decompensated-cirrhosis subcohort, paired microbiota analysis, nonrandomized-group handling, safety, missing specimens, multiplicity, sample size and provenance, while expressly excluding the already-published compensated and healthy cohorts.
