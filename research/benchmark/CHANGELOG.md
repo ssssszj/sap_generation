@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 106 screening
+
+- Excluded NCT04743856, NCT03990883, NCT02943460, NCT03597022 and NCT05534061 because their analysis targets are post-primary, post-completion, explicitly post-hoc or internally executed-methods summaries.
+- Excluded NCT00799266, NCT02576938 and NCT01377844 because their model-visible protocols disclose the executable populations, models, missing-data, multiplicity, safety and power decisions needed to reconstruct the target plans.
+- Downloaded, hash-froze, page-extracted and visually checked all 16 official PDFs and eight registry records; replenished all rejected slots while retaining 97 public first-pass drafts.
+
 ## 2026-09-29 - v0.3 Batch 105 annotation
 
 - Promoted NCT04661410 to `PUBLIC-REWARD-RETRAINING-BINGE-001` after exact NCT/title/date matching during conduct and explicit protocol delegation to an independent analysis supplement; added 22 requirements covering feasibility thresholds, longitudinal mixed models, mediation, covariance, missingness and pilot-power limitations.
