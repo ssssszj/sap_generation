@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 126 screening - 2026-09-30
+
+- Batch 126 produced no promotion: excluded NCT02376790, NCT02422524, NCT03014479, NCT03533751, NCT03855280 and NCT05014672 because their selected plans are post-primary/post-completion or execution-informed and their model-visible protocols also expose substantial executable programs; excluded NCT02703454 because its scanned protocol reproduces essentially the complete SAP.
+- Placed NCT05992467 on version-reconciliation hold because its printed 2023-08-31 approval date conflicts with its required R 4.4.1 software, released on 2024-06-14, and no revision/sign-off chain establishes prospective governance.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,176 physical pages, OCRed all 45 scan-only NCT02703454 protocol pages, and rendered and visually inspected 56 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 104 public first-pass drafts plus 16 actionable metadata candidates and 2,021 total requirements, including the 26-item private pilot.
+
 ## Batch 125 screening and annotation - 2026-09-30
 
 - Promoted NCT05421624 to `PUBLIC-AMPED-PD-001` after exact title/NCT/date and prerecruitment matching; added 25 first-pass requirements for the randomized Amped-PD-versus-Active-Control walking study, four primary outcomes, between-group change-score testing, supportive repeated analyses, and unresolved hierarchy, populations, estimands, derivations, missingness, multiplicity, uncertainty and safety decisions.

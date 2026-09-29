@@ -5,47 +5,104 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02703454",
+      "candidate_id": "NCT02712008",
       "domain": "cardiovascular",
-      "title": "FIRM Ablation Versus Pulmonary Vein Isolation for the Treatment of Paroxysmal Atrial Fibrillation (PAF)",
+      "title": "Anti-vasculaR Endothelial Growth Factor plUs Anti-angiopoietin 2 in Fixed comBination therapY: Evaluation for the Treatment of Diabetic Macular Edema",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "na"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02703454/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT02703454/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02712008/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02712008/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03014479",
+      "candidate_id": "NCT03094416",
       "domain": "endocrine_metabolic",
-      "title": "Study of the QOL Evaluation of Trelagliptin in Patients With Type 2 Diabetes Mellitus",
+      "title": "Levothyroxine Sodium in Thyroidectomized Patients Taking Proton Pump Inhibitors",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT03094416/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT03094416/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT05175131",
+      "domain": "gastroenterology_hepatology",
+      "title": "Efficacy and Safety of Mebeverine + Simethicone in Patients With Functional Bowel Disorders",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "phase_4"
+        "phase_3"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT03014479/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT03014479/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT05175131/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT05175131/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 3,
-      "candidate_id": "NCT05014672",
-      "domain": "gastroenterology_hepatology",
-      "title": "A Trial of Setanaxib in Patients With Primary Biliary Cholangitis (PBC) and Liver Stiffness",
+      "queue_rank": 4,
+      "candidate_id": "NCT04370054",
+      "domain": "hematology",
+      "title": "Study to Evaluate the Efficacy and Safety of PF-07055480 / Giroctocogene Fitelparvovec Gene Therapy in Moderately Severe to Severe Hemophilia A Adults",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT04370054/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT04370054/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02945657",
+      "domain": "immunology_rheumatology",
+      "title": "Pharmacokinetics and Safety of MM36 Topical Ointment in Pediatric Subjects With Atopic Dermatitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02532283",
+      "domain": "infectious_disease",
+      "title": "A Study to Evaluate the Pharmacokinetics, Safety, and Antiviral Activity of JNJ-63623872 in Combination With Oseltamivir in Adult, and Elderly Hospitalized Participants With Influenza A Infection",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -54,105 +111,48 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT05014672/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT05014672/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03855280",
-      "domain": "hematology",
-      "title": "Evaluation of a Recombinant Factor IX Product, APVO101, in Previously-Treated Pediatric Patients With Hemophilia B",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03855280/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03855280/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03533751",
-      "domain": "immunology_rheumatology",
-      "title": "Efficacy, Safety, and Pharmacokinetic Profile of Etokimab (ANB020) in Adult Participants With Moderate-to-Severe Atopic Dermatitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT03533751/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT03533751/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02422524",
-      "domain": "infectious_disease",
-      "title": "Pretomanid in Adults With Hepatic Impairment",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT02422524/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT02422524/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02532283/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT02532283/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02376790",
+      "candidate_id": "NCT02585258",
       "domain": "musculoskeletal_pain",
-      "title": "Etanercept and Methotrexate in Combination or as Monotherapy in Psoriatic Arthritis",
+      "title": "The Glucocorticoid Low-dose Outcome in RheumatoId Arthritis Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_3"
+        "phase_4"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT02376790/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT02376790/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02585258/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02585258/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT05992467",
+      "candidate_id": "NCT03765489",
       "domain": "neurology",
-      "title": "WECARE: A Behavioral Intervention for Dementia Caregivers",
+      "title": "Electrical Muscle Stimulation in the Development of Acquired Weakness in Patients With Severe Sepsis and Septic Shock",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "double",
         "na"
       ],
       "endpoint_types": [
-        "continuous"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05992467/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05992467/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT03765489/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT03765489/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -195,40 +195,41 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT04370054",
+      "candidate_id": "NCT04700345",
       "domain": "hematology",
-      "title": "Study to Evaluate the Efficacy and Safety of PF-07055480 / Giroctocogene Fitelparvovec Gene Therapy in Moderately Severe to Severe Hemophilia A Adults",
+      "title": "Managing Non-acute Subdural Hematoma Using Liquid Materials：a Chinese Randomized Trial of MMA Treatment",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT04370054/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT04370054/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT04700345/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT04700345/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT02945657",
+      "candidate_id": "NCT03075878",
       "domain": "immunology_rheumatology",
-      "title": "Pharmacokinetics and Safety of MM36 Topical Ointment in Pediatric Subjects With Atopic Dermatitis",
+      "title": "A Safety Study of SYNT001 in Participants With Warm Autoimmune Hemolytic Anemia (WAIHA)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "non_randomized",
+        "sequential",
         "none",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02945657/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03075878/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03075878/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -252,41 +253,40 @@
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT04700345",
-      "domain": "hematology",
-      "title": "Managing Non-acute Subdural Hematoma Using Liquid Materials：a Chinese Randomized Trial of MMA Treatment",
-      "pairing_state": "plausible_date_order",
+      "candidate_id": "NCT01616875",
+      "domain": "oncology",
+      "title": "Bristol Bladder Trial",
+      "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
-        "na"
+        "phase_2"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT04700345/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT04700345/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01616875/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01616875/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 15,
-      "candidate_id": "NCT03075878",
+      "candidate_id": "NCT03556202",
       "domain": "immunology_rheumatology",
-      "title": "A Safety Study of SYNT001 in Participants With Warm Autoimmune Hemolytic Anemia (WAIHA)",
+      "title": "A Long-term Study to Evaluate Safety and Maintenance of Treatment Effect of LY3074828 in Participants With Moderate-to-Severe Plaque Psoriasis (OASIS-3)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "non_randomized",
-        "sequential",
+        "single_group",
         "none",
-        "phase_1",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03075878/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03075878/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03556202/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03556202/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

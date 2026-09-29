@@ -16,29 +16,27 @@
     "cardiovascular": 1,
     "endocrine_metabolic": 1,
     "gastroenterology_hepatology": 2,
-    "hematology": 3,
+    "hematology": 2,
     "immunology_rheumatology": 4,
     "infectious_disease": 2,
     "musculoskeletal_pain": 1,
     "neurology": 1,
-    "oncology": 1
+    "oncology": 2
   },
   "intervention_distribution": {
-    "behavioral": 1,
-    "drug": 11,
+    "drug": 13,
     "mixed": 2,
-    "other": 1,
-    "procedure": 1
+    "other": 1
   },
   "endpoint_distribution_multi_label": {
-    "binary": 3,
-    "continuous": 5,
+    "binary": 4,
+    "continuous": 4,
     "count_or_rate": 2,
     "other_or_manual_review": 6
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 2,
-    "plausible_date_order": 14
+    "exact_document_date_match": 3,
+    "plausible_date_order": 13
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }
