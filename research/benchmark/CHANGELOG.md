@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 92 annotation - 2026-09-29
+
+- Promoted NCT04167566 to `PUBLIC-PAKRO-MTTT-001` after exact title/date matching and chronology, independence and leakage review; added 22 requirements covering the seven-community implementation design, longitudinal and cross-sectional denominators, MTTT intervention, prevalence and anaemia endpoints, logistic and trend analyses, confounding, clustering, missingness, sample size, hospital use, qualitative work and safety.
+- Preserved explicit release gates for the blank NCT cover fields and during-enrollment date, and for unresolved analysis denominators, arm/community wording, participant-household-community clustering, estimands, missingness and multiplicity.
+- Excluded NCT04576897, NCT06700850, NCT02943447 and NCT02709538 for executable protocol leakage; excluded NCT05844137 and NCT05373706 as post-completion grant, registry or executed-analysis summaries; and excluded NCT03191799 because its near-completion SAP v3 followed planned interim analyses and material during-study revisions without a defensible outcome-uninformed provenance chain.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records, fully OCRed the scan-heavy NCT06700850 protocol, visually checked decisive identity, chronology, leakage and execution-stage pages, then refreshed the pool to 36 candidates while raising the registered public draft count to 84.
+
 ## Batch 91 screening - 2026-09-29
 
 - Batch 91 produced no promotion: excluded NCT02819635 and NCT02690935 for executable protocol leakage; excluded NCT03683030, NCT05650567 and NCT04259632 as post-completion, termination-informed or executed-results analysis packages; excluded NCT03136185 as a within-study outcome-informed adaptive Phase 1/2-to-2b package; and excluded NCT03519568 and NCT04869085 because their uploads are retrospective/registry/grant excerpts rather than independent prospective protocol/SAP pairs.

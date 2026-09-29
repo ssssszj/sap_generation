@@ -5,66 +5,66 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04576897",
+      "candidate_id": "NCT05473767",
       "domain": "cardiovascular",
-      "title": "Velacur by Sonic Incytes for Portal Hypertension",
+      "title": "Expanding the Family Check-Up in Early Childhood to Promote Cardiovascular Health of Mothers and Young Children",
       "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT04576897/Prot_004.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/97/NCT04576897/SAP_005.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT06700850",
-      "domain": "dermatology",
-      "title": "Human Participant Study of Prototype Non-medicated Multilayer Foam Dressings on Intact Skin",
-      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT06700850/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT06700850/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05844137",
-      "domain": "endocrine_metabolic",
-      "title": "Improving Detection and Evidence-based Care of NAFLD in Latinx and Black Patients With Type 2 Diabetes",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "parallel",
+        "single",
         "na"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT05844137/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT05844137/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05473767/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05473767/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT02798120",
+      "domain": "dermatology",
+      "title": "P3 Long Term Safety Study of Once Daily SB204 in Acne",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02798120/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02798120/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT02964247",
+      "domain": "endocrine_metabolic",
+      "title": "LIRA-ADD2SGLT2i - Liraglutide Versus Placebo as add-on to SGLT2 Inhibitors.",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02964247/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02964247/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT02943447",
+      "candidate_id": "NCT03123120",
       "domain": "gastroenterology_hepatology",
-      "title": "Study to Evaluate the Safety, Tolerability, and Efficacy of Cilofexor in Adults With Primary Biliary Cholangitis Without Cirrhosis",
+      "title": "A Study in Patients With Mild or Moderate Ulcerative Colitis Who Take a TNF Inhibitor. The Study Investigates Whether Bowel Inflammation Improves When Patients Take BI 655130 in Addition to Their Current Therapy",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -75,73 +75,54 @@
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02943447/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02943447/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03123120/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03123120/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT03191799",
+      "candidate_id": "NCT03369444",
       "domain": "hematology",
-      "title": "A Study to Evaluate the Safety and Tolerability of Prophylactic Emicizumab in Hemophilia A Patients With Inhibitors",
+      "title": "A Factor IX Gene Therapy Study (FIX-GT)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "non_randomized",
+        "sequential",
         "none",
-        "phase_3"
+        "phase_1",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate",
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03191799/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03191799/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT03369444/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT03369444/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT02709538",
+      "candidate_id": "NCT02725515",
       "domain": "immunology_rheumatology",
-      "title": "Long Term Safety and Efficacy of Fixed Dose Combination GSP 301 Nasal Spray (NS) in the Treatment of Perennial Allergic Rhinitis (PAR)",
+      "title": "A Study of the Effect of XmAb®5871 in Patients With Systemic Lupus Erythematosus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02709538/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02709538/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT04167566",
-      "domain": "infectious_disease",
-      "title": "Impact of Scaling up Mass Testing, Treatment and Tracking on Malaria Prevalence Among Children",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04167566/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04167566/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02725515/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02725515/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT05373706",
-      "domain": "musculoskeletal_pain",
-      "title": "Testing Brief Personalized Feedback Integrating EMA Alcohol Cue Information",
+      "queue_rank": 7,
+      "candidate_id": "NCT06925620",
+      "domain": "infectious_disease",
+      "title": "Effectiveness of a Multimodal IT Enhanced Hand Hygiene Strategy on Healthcare Associated Infections in Nursing Homes",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -150,10 +131,29 @@
         "na"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT05373706/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT05373706/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT06925620/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT06925620/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT05472740",
+      "domain": "musculoskeletal_pain",
+      "title": "Transcutaneous Electrical Nerve Stimulation During Outpatient Endometrial Biopsy",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT05472740/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT05472740/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -216,40 +216,40 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT02798120",
+      "candidate_id": "NCT03365934",
       "domain": "dermatology",
-      "title": "P3 Long Term Safety Study of Once Daily SB204 in Acne",
+      "title": "Evaluation of Changes to Skin Microbiome With Tape-Stripped Wounds",
       "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02798120/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT02798120/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 13,
-      "candidate_id": "NCT02964247",
-      "domain": "endocrine_metabolic",
-      "title": "LIRA-ADD2SGLT2i - Liraglutide Versus Placebo as add-on to SGLT2 Inhibitors.",
-      "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_3"
+        "none",
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02964247/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02964247/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03365934/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03365934/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 13,
+      "candidate_id": "NCT02996864",
+      "domain": "endocrine_metabolic",
+      "title": "Location-based Smartphone Technology to Guide College Students Healthy Choices Ph II",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02996864/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02996864/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -294,40 +294,41 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT02725515",
+      "candidate_id": "NCT02776033",
       "domain": "immunology_rheumatology",
-      "title": "A Study of the Effect of XmAb®5871 in Patients With Systemic Lupus Erythematosus",
+      "title": "Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of Repeat Doses of GSK2982772 in Subjects With Psoriasis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
+        "double",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02725515/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02725515/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02776033/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02776033/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT06925620",
+      "candidate_id": "NCT01009814",
       "domain": "infectious_disease",
-      "title": "Effectiveness of a Multimodal IT Enhanced Hand Hygiene Strategy on Healthcare Associated Infections in Nursing Homes",
-      "pairing_state": "exact_document_date_match",
+      "title": "Pharmacodynamics, Safety and Pharmacokinetics of BMS-663068, an HIV Attachment Inhibitor, in HIV-1",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "na"
+        "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT06925620/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT06925620/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT01009814/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/14/NCT01009814/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -371,40 +372,40 @@
     },
     {
       "queue_rank": 20,
-      "candidate_id": "NCT03365934",
+      "candidate_id": "NCT03892564",
       "domain": "dermatology",
-      "title": "Evaluation of Changes to Skin Microbiome With Tape-Stripped Wounds",
+      "title": "Evaluation of Potential Phototoxicity Skin Reaction After Use of MC2-01 Cream",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
-        "na"
+        "double",
+        "phase_1"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03365934/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03365934/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03892564/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03892564/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 21,
-      "candidate_id": "NCT02996864",
+      "candidate_id": "NCT03486223",
       "domain": "endocrine_metabolic",
-      "title": "Location-based Smartphone Technology to Guide College Students Healthy Choices Ph II",
+      "title": "Soluble Epoxide Hydrolase Inhibition and Insulin Resistance",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
-        "parallel",
-        "single",
-        "na"
+        "crossover",
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02996864/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02996864/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03486223/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03486223/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
