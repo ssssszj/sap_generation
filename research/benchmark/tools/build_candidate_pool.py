@@ -438,11 +438,12 @@ def main() -> int:
         ),
     }
     args.summary.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    queue_studies = build_review_queue(final)
     queue = {
         "version": "0.3-development",
         "purpose": "First document-level promotion sprint; rank is operational, not benchmark difficulty.",
-        "target_count": 24,
-        "studies": build_review_queue(final),
+        "target_count": len(queue_studies),
+        "studies": queue_studies,
     }
     args.queue.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(summary, ensure_ascii=False, indent=2))

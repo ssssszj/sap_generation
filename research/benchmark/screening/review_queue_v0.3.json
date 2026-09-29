@@ -1,164 +1,49 @@
 {
   "version": "0.3-development",
   "purpose": "First document-level promotion sprint; rank is operational, not benchmark difficulty.",
-  "target_count": 24,
+  "target_count": 23,
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04723355",
+      "candidate_id": "NCT04743856",
       "domain": "cardiovascular",
-      "title": "A Comparative Study of an Innovative 3-lead Wireless Water Resistant Holter System and a Conventional Holter System",
+      "title": "The Clinical Referral to Activity Study",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "double",
         "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04723355/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT04723355/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT04743856/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT04743856/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03813238",
+      "candidate_id": "NCT03990883",
       "domain": "dermatology",
-      "title": "A Study of TEV-50717 (Deutetrabenazine) for the Treatment of Dyskinesia in Cerebral Palsy in Children and Adolescents",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03813238/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03813238/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05501392",
-      "domain": "endocrine_metabolic",
-      "title": "South Texas Early Prevention Studies PreK",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "sequential",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT05501392/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT05501392/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT02914522",
-      "domain": "gastroenterology_hepatology",
-      "title": "Study to Evaluate the Efficacy and Safety of Filgotinib in the Induction and Maintenance of Remission in Adults With Moderately to Severely Active Ulcerative Colitis",
+      "title": "Effectiveness and Safety of Princess FILLER Lidocaine in Correction of Nasolabial Folds (NLF)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT02914522/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT02914522/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03559699",
-      "domain": "hematology",
-      "title": "A Study Evaluating the Efficacy and Safety of AG-348 in Regularly Transfused Adult Participants With Pyruvate Kinase Deficiency (PKD)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03559699/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03559699/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03990883/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03990883/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02394561",
-      "domain": "immunology_rheumatology",
-      "title": "A 24-week, Multicenter, proSpective stUdy to Evaluate the PASI 90 Clinical Response Rate and the Safety PRofile of sEcukinuMab 300 mg in Cw6-negativE and Cw6-positive Patients With Moderate to Severe Chronic Plaque-type Psoriasis (SUPREME)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02394561/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02394561/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT04661410",
-      "domain": "infectious_disease",
-      "title": "Reward Re-Training: A New Treatment to Address Reward Imbalance During the COVID-19 Pandemic",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT04661410/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT04661410/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT02430818",
-      "domain": "musculoskeletal_pain",
-      "title": "Comparing Ketamine and Morphine in the Treatment of Acute Fracture Pain",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02430818/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02430818/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 9,
+      "queue_rank": 3,
       "candidate_id": "NCT00799266",
       "domain": "endocrine_metabolic",
       "title": "An Efficacy and Safety Trial of Intravenous Zoledronic Acid Twice Yearly in Osteoporotic Children Treated With Glucocorticoids",
@@ -177,7 +62,102 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 10,
+      "queue_rank": 4,
+      "candidate_id": "NCT02943460",
+      "domain": "gastroenterology_hepatology",
+      "title": "Study to Evaluate the Safety, Tolerability, and Efficacy of Cilofexor in Adults With Primary Sclerosing Cholangitis Without Cirrhosis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02943460/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT02943460/SAP_004.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03597022",
+      "domain": "hematology",
+      "title": "Multiple Escalating Dose Study of BAY1093884 in Adults With Hemophilia A or B With or Without Inhibitors",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "sequential",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT03597022/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT03597022/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02576938",
+      "domain": "immunology_rheumatology",
+      "title": "A Study of Baricitinib (LY3009104) in Participants With Moderate-to-Severe Atopic Dermatitis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02576938/Prot_005.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02576938/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT05534061",
+      "domain": "infectious_disease",
+      "title": "Motivation, Syringe Exchange, and COVID-19",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "factorial",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT05534061/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT05534061/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT01377844",
+      "domain": "endocrine_metabolic",
+      "title": "Efficacy and Safety of EGT0001442 in Patients With Type 2 Diabetes Mellitus",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT01377844/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT01377844/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 9,
       "candidate_id": "NCT02474199",
       "domain": "gastroenterology_hepatology",
       "title": "Donor Alloantigen Reactive Tregs (darTregs) for Calcineurin Inhibitor (CNI) Reduction",
@@ -198,7 +178,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 11,
+      "queue_rank": 10,
       "candidate_id": "NCT03591406",
       "domain": "hematology",
       "title": "To Assess the Impact of Ferric Carboxymaltose Compared With Iron Sucrose in Chinese Subjects on Correcting Iron Deficiency Anaemia",
@@ -217,7 +197,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 12,
+      "queue_rank": 11,
       "candidate_id": "NCT02576678",
       "domain": "immunology_rheumatology",
       "title": "A Study of Safety, Tolerability and Pharmacokinetics of Apremilast (CC-10004) in Pediatric Subjects With Moderate to Severe Plaque Psoriasis",
@@ -238,7 +218,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 13,
+      "queue_rank": 12,
       "candidate_id": "NCT01962207",
       "domain": "infectious_disease",
       "title": "The Long-term Antibody Persistence of MenACWY-TT Vaccine (PF-06866681) Versus Meningitec(Registered) or Mencevax(Registered) ACWY in Healthy Adolescents and Adults and a Booster Dose of MenACWY-TT Administered 10 Years Post Primary Vaccination",
@@ -257,26 +237,27 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 14,
-      "candidate_id": "NCT01377844",
+      "queue_rank": 13,
+      "candidate_id": "NCT01858532",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of EGT0001442 in Patients With Type 2 Diabetes Mellitus",
+      "title": "Study Of Diabetic Nephropathy With Atrasentan",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "continuous"
+        "time_to_event",
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT01377844/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT01377844/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT01858532/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT01858532/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 15,
+      "queue_rank": 14,
       "candidate_id": "NCT01954017",
       "domain": "gastroenterology_hepatology",
       "title": "STP206 for the Prevention of Necrotizing Enterocolitis (NEC)",
@@ -295,7 +276,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 16,
+      "queue_rank": 15,
       "candidate_id": "NCT02372877",
       "domain": "hematology",
       "title": "Evaluation of the AMICUS RBCx System in Sickle Cell Patients",
@@ -314,7 +295,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 17,
+      "queue_rank": 16,
       "candidate_id": "NCT02749370",
       "domain": "immunology_rheumatology",
       "title": "Study to Evaluate the Efficacy of Etanercept Treatment in Adults Who Failed Therapy With Apremilast",
@@ -333,7 +314,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 18,
+      "queue_rank": 17,
       "candidate_id": "NCT02128217",
       "domain": "infectious_disease",
       "title": "Sofosbuvir-Containing Regimens Without Interferon For Treatment of Acute Hepatitis C Virus (HCV) Infection",
@@ -352,7 +333,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 19,
+      "queue_rank": 18,
       "candidate_id": "NCT01197300",
       "domain": "endocrine_metabolic",
       "title": "1 Year Open-label Extension to CZOL446H2337 Safety and Efficacy Trial of Zoledronic Acid Twice Yearly in Osteoporotic Children Treated With Glucocorticoids",
@@ -371,7 +352,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 20,
+      "queue_rank": 19,
       "candidate_id": "NCT02246439",
       "domain": "gastroenterology_hepatology",
       "title": "BEKINDA (Ondansetron 24 mg Bimodal Release Tablets) for Vomiting Due to Presumed Acute Gastroenteritis or Gastritis",
@@ -390,7 +371,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 21,
+      "queue_rank": 20,
       "candidate_id": "NCT02938585",
       "domain": "hematology",
       "title": "Efficacy and Safety of Turoctocog Alfa for Prophylaxis and Treatment of Bleeding Episodes in Previously Treated Chinese Patients With Haemophilia A",
@@ -409,7 +390,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 22,
+      "queue_rank": 21,
       "candidate_id": "NCT02880852",
       "domain": "immunology_rheumatology",
       "title": "Belimumab Phase I Study in Chinese Subjects With Systemic Lupus Erythematosus",
@@ -429,7 +410,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 23,
+      "queue_rank": 22,
       "candidate_id": "NCT02188719",
       "domain": "gastroenterology_hepatology",
       "title": "Donor-Alloantigen-Reactive Regulatory T Cell (darTregs) in Liver Transplantation",
@@ -448,7 +429,7 @@
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 24,
+      "queue_rank": 23,
       "candidate_id": "NCT03103542",
       "domain": "hematology",
       "title": "Study of rFVIIIFc for Immune Tolerance Induction (ITI) in Haemophilia A Patients With Inhibitors Who Have Failed Previous ITI Therapies",

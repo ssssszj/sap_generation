@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 105 annotation
+
+- Promoted NCT04661410 to `PUBLIC-REWARD-RETRAINING-BINGE-001` after exact NCT/title/date matching during conduct and explicit protocol delegation to an independent analysis supplement; added 22 requirements covering feasibility thresholds, longitudinal mixed models, mediation, covariance, missingness and pilot-power limitations.
+- Excluded NCT03813238, NCT03559699 and NCT02430818 for protocol-side executable-plan leakage or an identical protocol/SAP file; excluded NCT04723355, NCT05501392, NCT02914522 and NCT02394561 as post-completion, conduct-informed or retrospectively executed analysis materials.
+- Sequentially downloaded, size-checked and hash-froze all 16 official PDFs and eight registry records, extracted every physical page and visually inspected decisive identity, chronology, leakage, amendment and interim-governance pages. Replenished seven rejected slots while increasing the public first-pass count to 97.
+
 ## 2026-09-29 - v0.3 Batch 104 screening
 
 - Batch 104 produced no promotion: excluded NCT04083456, NCT03224598, NCT04465799, NCT02836470 and NCT05210023 as post-completion, retrospective, conduct-informed or outcome-informed documents, and excluded NCT03528551 and NCT02533570 because the model-visible protocols reproduce the executable target analyses.

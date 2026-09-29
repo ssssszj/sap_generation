@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains ninety-seven registered study families: one private pilot and ninety-six public annotation drafts.
+The working benchmark contains ninety-eight registered study families: one private pilot and ninety-seven public annotation drafts.
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -100,8 +100,9 @@ The working benchmark contains ninety-seven registered study families: one priva
 - HCV video versus brochure education delivery, a prerecruitment nonrandomized matched behavioral study with repeated knowledge assessment and explicit group-label, endpoint-hierarchy, matching, clinic, sample-size, missing-data and multiplicity gates.
 - DIPPER SafeBreak Vascular, a randomized open-label hospital device trial with conditional noninferiority/superiority, therapy-delay and recurrent PIV-complication outcomes, and explicit margin, population, censoring, missingness and power gates.
 - long versus short radial introducer sheaths, a prerecruitment randomized interventional-cardiology pilot with Doppler-ultrasound RAO, procedural complications, Fisher and Mann-Whitney reference methods, and explicit masking, population, missing-ultrasound, multiplicity and sample-size gates.
+- Reward Re-Training versus supportive group therapy for binge eating, a remote randomized pilot with feasibility thresholds, four-time-point multilevel models, mediation, structured missing-data sensitivity analyses and explicit allocation, population, percent-change, multiplicity and power gates.
 
-All ninety-six public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,835 evidence-backed requirements: 1,809 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All ninety-seven public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,857 evidence-backed requirements: 1,831 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -134,7 +135,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only ninety-six public studies have first-pass gold annotations, with no completed expert adjudication;
+- only ninety-seven public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -145,4 +146,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 study-family slots, of which 24 remain metadata-screened acquisition candidates and ninety-six are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 study-family slots, of which 23 remain metadata-screened acquisition candidates and ninety-seven are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
