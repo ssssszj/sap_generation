@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 96 annotation - 2026-09-29
+
+- Promoted NCT04203147 to `PUBLIC-HOME-DMBAT-001` after exact title/NCT/date matching and full-page extraction plus visual review; added 20 requirements covering the behavioral intervention and attention control, stratified randomization, 12-month HbA1c endpoint, longitudinal mixed modeling, prospective sample size, estimand, missingness, multiplicity, safety and provenance.
+- Preserved explicit release gates for the pair's post-completion upload, the protocol's contradictory GHE/ST control description, underspecified masking and the reference plan's data-dependent covariate selection and incomplete mixed-model specification.
+- Held NCT03431467 because same-date documents disagree on a 30-day versus 45-day primary endpoint; excluded NCT03234907, NCT02871479 and NCT00799864 for post-completion or final-analysis SAPs; excluded NCT04438174, NCT03745287 and NCT03010254 for executable protocol leakage, with an additional protocol-version mismatch for NCT04438174.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records, fully OCRed the 56-page NCT02871479 protocol, visually verified decisive identity, chronology and leakage pages, refreshed the pool to 30 candidates and raised the public draft count to 90 with 1,683 public requirements.
+
 ## Batch 95 annotation - 2026-09-29
 
 - Promoted NCT03486223 to `PUBLIC-SEH-INSULIN-001` after exact title/NCT/IRB-date matching and full visual review; added 22 requirements covering crossover design, clamp-derived insulin sensitivity, mechanistic outcomes, paired analysis, carryover and period effects, prospective power, estimands, missingness, safety and provenance.
