@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 135 screening - 2026-09-30
+
+- Batch 135 produced no promotion: excluded NCT02979587, NCT03332771, NCT02497469 and NCT04211389 because their selected packages are post-primary/post-completion, database-lock-, device/cohort- or COVID-conduct-informed and have study-family or governing-version defects; excluded NCT02729038 and NCT02863575 because their model-visible protocols substantially reconstruct the executable targets; excluded NCT02124564 because its final amendments followed a Dry Run and Data Evaluation Meeting; and excluded NCT06072833 because its protocol/SAP package incorporates completed beta-stage conduct.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,052 physical pages, fully OCRed the 122-page NCT03332771 protocol and 32-page NCT02863575 SAP, and rendered and visually inspected 117 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 104 public first-pass drafts plus 16 actionable metadata candidates and 2,021 total requirements, including the 26-item private pilot.
+
 ## Batch 134 screening - 2026-09-30
 
 - Batch 134 produced no promotion: excluded NCT02027701 and NCT02403323 because their extension-study packages import parent-study state and expose the related executable programs; excluded NCT02722837, NCT02837952, NCT02966028, NCT04178967 and NCT04732494 because their selected packages are post-primary/post-completion, audit-, futility- or unblinding-informed and their protocols also expose substantial executable programs; and excluded NCT03315780 because its protocol independently reconstructs the target plan despite an unreconciled SAP-to-protocol version citation.

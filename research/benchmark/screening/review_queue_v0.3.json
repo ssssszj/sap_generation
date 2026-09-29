@@ -5,9 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02979587",
+      "candidate_id": "NCT02981953",
       "domain": "cardiovascular",
-      "title": "The Medtronic Harmony™ Transcatheter Pulmonary Valve Clinical Study",
+      "title": "TRI-REPAIR: TrIcuspid Regurgitation RePAIr With CaRdioband Transcatheter System",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -16,19 +16,37 @@
         "na"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT02979587/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT02979587/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02981953/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02981953/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03332771",
+      "candidate_id": "NCT03341312",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Sotagliflozin Versus Glimepiride and Placebo in Participants With Type 2 Diabetes Mellitus That Are Taking Metformin Monotherapy",
+      "title": "A Comparative Study of LY900014 With Insulin Lispro (Humalog) in Participants With Type 2 Diabetes Mellitus (T2DM)",
       "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "crossover",
+        "double",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/12/NCT03341312/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/12/NCT03341312/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT03279081",
+      "domain": "gastroenterology_hepatology",
+      "title": "Study to Assess Efficacy and Safety of Cx601, Adult Allogeneic Expanded Adipose-derived Stem Cells (eASC) for the Treatment of Complex Perianal Fistula(s) in Participants With Crohn's Disease (CD)",
+      "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
         "parallel",
@@ -36,18 +54,58 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03332771/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03332771/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03279081/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03279081/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 3,
-      "candidate_id": "NCT02497469",
-      "domain": "gastroenterology_hepatology",
-      "title": "An Efficacy and Safety Study of Vedolizumab Intravenous (IV) Compared to Adalimumab Subcutaneous (SC) in Participants With Ulcerative Colitis",
-      "pairing_state": "needs_version_review",
+      "queue_rank": 4,
+      "candidate_id": "NCT03930186",
+      "domain": "immunology_rheumatology",
+      "title": "A Phase 3B, Open-label, Single-arm Study of the Efficacy and Safety of Apremilast, in Subjects With Plaque Psoriasis That is Not Adequately Controlled by Topical Therapy",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03930186/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03930186/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02737722",
+      "domain": "infectious_disease",
+      "title": "Topically Applied Bisphosphocin Nu-3 on Infected Diabetic Ulcers of Subjects With Type I or II Diabetes Mellitus",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT02737722/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/22/NCT02737722/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02873936",
+      "domain": "musculoskeletal_pain",
+      "title": "Filgotinib Versus Placebo in Adults With Active Rheumatoid Arthritis (RA) Who Have an Inadequate Response to Biologic Disease-modifying Anti-rheumatic Drug(s) (DMARDs) Treatment",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
@@ -57,105 +115,47 @@
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02497469/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02497469/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04211389",
-      "domain": "immunology_rheumatology",
-      "title": "Twin Trial of PDE4 Inhibition With Roflumilast for the Management of Plaque Psoriasis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT04211389/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT04211389/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02729038",
-      "domain": "infectious_disease",
-      "title": "Pharmacokinetic Study of Gepotidacin in Subjects With Varying Degrees of Renal Impairment and in Subjects With Normal Renal Function",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02729038/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02729038/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02863575",
-      "domain": "musculoskeletal_pain",
-      "title": "A Dental Pain Study Comparing The Analgesic Efficacy Of Ibuprofen/Caffeine",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02863575/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02863575/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02873936/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT02873936/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02124564",
+      "candidate_id": "NCT02245737",
       "domain": "neurology",
-      "title": "A Trial to Evaluate the Long Term Safety and Tolerability of Lacosamide Taken as Monotherapy in Adults With Partial-onset Seizures",
+      "title": "An Efficacy and Safety Study of Lanabecestat (LY3314814) in Early Alzheimer's Disease",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_2",
         "phase_3"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02124564/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02124564/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02245737/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02245737/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT06072833",
+      "candidate_id": "NCT03304587",
       "domain": "oncology",
-      "title": "Characterizing and Addressing Financial Toxicity in AYAs With Cancer",
+      "title": "Effects of Bright Light on Co-occurring Cancer-related Symptoms in Breast Cancer Survivors",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
         "na"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT06072833/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT06072833/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03304587/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03304587/SAP_004.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -179,22 +179,22 @@
     },
     {
       "queue_rank": 10,
-      "candidate_id": "NCT03930186",
+      "candidate_id": "NCT04253236",
       "domain": "immunology_rheumatology",
-      "title": "A Phase 3B, Open-label, Single-arm Study of the Efficacy and Safety of Apremilast, in Subjects With Plaque Psoriasis That is Not Adequately Controlled by Topical Therapy",
+      "title": "To Assess the Efficacy and Safety of RVT-1401 in the Treatment of Warm Autoimmune Hemolytic Anemia (ASCEND-WAIHA).",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "non_randomized",
+        "sequential",
         "none",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
         "binary",
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03930186/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03930186/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT04253236/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/36/NCT04253236/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -218,21 +218,22 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT03304587",
+      "candidate_id": "NCT02489448",
       "domain": "oncology",
-      "title": "Effects of Bright Light on Co-occurring Cancer-related Symptoms in Breast Cancer Survivors",
+      "title": "Neoadjuvant MEDI4736 Concomitant With Weekly Nab-paclitaxel and Dose-dense AC for Stage I-III Triple Negative Breast Cancer",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
-        "na"
+        "phase_1",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03304587/Prot_003.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03304587/SAP_004.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02489448/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02489448/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -256,22 +257,21 @@
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT02489448",
+      "candidate_id": "NCT03673943",
       "domain": "oncology",
-      "title": "Neoadjuvant MEDI4736 Concomitant With Weekly Nab-paclitaxel and Dose-dense AC for Stage I-III Triple Negative Breast Cancer",
+      "title": "Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_1",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02489448/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02489448/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -295,21 +295,21 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT03673943",
+      "candidate_id": "NCT02018367",
       "domain": "oncology",
-      "title": "Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE",
+      "title": "Accuracy, Yield and Clinical Impact of a Low-Cost HRME in the Early Diagnosis of Esophageal Adenocarcinoma",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
