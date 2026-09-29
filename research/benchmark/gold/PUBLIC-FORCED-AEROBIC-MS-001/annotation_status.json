@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-FORCED-AEROBIC-MS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 24,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-FORCED-AEROBIC-MS-001-R005",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R012",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R013",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R015",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R019",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R020",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R021",
+    "PUBLIC-FORCED-AEROBIC-MS-001-R024"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact NCT04906057/title/IRB 19-1003/date chain and that the same-day pair finalized nine days after study start remained outcome-uninformed.",
+    "Preserve the randomized FE-versus-VE contrast and EDSS stratification; do not replace between-group effects with within-group paired tests.",
+    "Reconcile the protocol's 20 randomized target with the operational target of up to 24 recruited; registry actual N=22 is conduct context only.",
+    "Complete population, estimand, missing-data, multiplicity, effect-interval, software and safety specifications.",
+    "Separate feasibility, motor, non-motor, exercise-process and biomarker endpoint families and define their hierarchy.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. The independent two-page reference is prospective in relation to primary completion and adds analysis methods absent from the model-visible protocol, but its paired tests do not by themselves estimate the randomized treatment contrast and its terse plan leaves substantial implementation choices for expert adjudication."
+}

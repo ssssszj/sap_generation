@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 121 annotation - 2026-09-30
+
+- Promoted NCT04906057 to `PUBLIC-FORCED-AEROBIC-MS-001` after exact title/NCT/date/IRB matching; added 24 requirements for the randomized FE-versus-VE pilot, EDSS stratification, 12-week intervention, feasibility thresholds, motor/non-motor/biomarker endpoints, direct baseline-adjusted group contrasts and unresolved population, estimand, missingness, multiplicity, uncertainty and safety decisions.
+- Excluded NCT02182830 and NCT03135548 for executable protocol leakage; excluded NCT02910466, NCT04130919, NCT02938585 and NCT02388165 because their selected plans are post-primary/post-completion or interim/execution-informed, with material protocol leakage as applicable. Held NCT05425563 because its during-recruitment umbrella protocol and narrow task SAP lack an unambiguous governing-substudy and outcome-uninformed revision/sign-off chain.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted 1,000 physical pages, OCRed all 26 empty-text pages, rendered 109 decisive pages into 17 contact sheets and visually verified every decision. Seven slots were replenished, yielding 102 public first-pass drafts plus 18 actionable metadata candidates.
+
 ## Batch 120 screening - 2026-09-30
 
 - Batch 120 produced no promotion: excluded NCT02164578, NCT02896192, NCT02576795 and NCT02880852 because their model-visible protocol packages disclose the executable target programs; NCT02576795's public bundle was confirmed to contain the governing Amendment 8 rather than merely a later mismatched amendment.
