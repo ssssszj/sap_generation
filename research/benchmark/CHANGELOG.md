@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 125 screening and annotation - 2026-09-30
+
+- Promoted NCT05421624 to `PUBLIC-AMPED-PD-001` after exact title/NCT/date and prerecruitment matching; added 25 first-pass requirements for the randomized Amped-PD-versus-Active-Control walking study, four primary outcomes, between-group change-score testing, supportive repeated analyses, and unresolved hierarchy, populations, estimands, derivations, missingness, multiplicity, uncertainty and safety decisions.
+- Excluded NCT02695420, NCT03010319, NCT04673357, NCT03482011 and NCT02151682 because their model-visible protocols substantially expose the executable target program and/or their plans are post-primary, post-completion or execution-informed; excluded NCT03103542 because its post-completion SAP records during-conduct alpha/interim changes; excluded NCT02167945 because its analysis is pooled with companion TOPAZ-I and its protocol leaks the pooled program.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,251 physical pages and rendered and visually inspected 72 decisive pages. Seven rejected slots were replenished. The intake now contains 104 public first-pass drafts plus 16 actionable metadata candidates and 2,021 total requirements, including the 26-item private pilot.
+
 ## Batch 124 screening - 2026-09-30
 
 - Batch 124 produced no promotion: excluded NCT02611778, NCT03451422, NCT02416453, NCT01709747 and NCT02188719 because their selected plans are post-primary/post-completion, with protocol leakage or explicit conduct-informed changes where applicable; excluded NCT03020160 because its prospective SAP cannot be paired with the only public protocol, a post-primary Version 5 dated two years later.
