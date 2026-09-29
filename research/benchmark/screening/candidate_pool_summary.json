@@ -16,24 +16,23 @@
     "cardiovascular": 1,
     "endocrine_metabolic": 1,
     "gastroenterology_hepatology": 2,
-    "hematology": 1,
     "immunology_rheumatology": 4,
     "infectious_disease": 2,
     "musculoskeletal_pain": 1,
     "neurology": 1,
-    "oncology": 3
+    "oncology": 4
   },
   "intervention_distribution": {
-    "drug": 10,
-    "mixed": 4,
-    "other": 2
+    "drug": 12,
+    "mixed": 1,
+    "other": 3
   },
   "endpoint_distribution_multi_label": {
-    "binary": 7,
-    "continuous": 2,
-    "count_or_rate": 2,
+    "binary": 5,
+    "continuous": 4,
+    "count_or_rate": 3,
     "other_or_manual_review": 5,
-    "time_to_event": 1
+    "time_to_event": 2
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 4,
