@@ -7,38 +7,38 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2212,
-  "registered_studies_including_pilot": 88,
-  "registered_release_eligible": 87,
-  "screened_candidates": 33,
+  "registered_studies_including_pilot": 90,
+  "registered_release_eligible": 89,
+  "screened_candidates": 31,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
     "cardiovascular": 5,
-    "dermatology": 2,
+    "dermatology": 1,
     "endocrine_metabolic": 5,
     "gastroenterology_hepatology": 5,
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 4,
-    "musculoskeletal_pain": 1,
     "ophthalmology": 1,
     "other_clinical": 1
   },
   "intervention_distribution": {
     "behavioral": 3,
-    "device": 4,
-    "drug": 15,
+    "device": 3,
+    "drug": 13,
     "mixed": 6,
-    "other": 5
+    "other": 6
   },
   "endpoint_distribution_multi_label": {
-    "binary": 8,
-    "continuous": 6,
-    "count_or_rate": 4,
-    "other_or_manual_review": 20
+    "binary": 9,
+    "continuous": 5,
+    "count_or_rate": 5,
+    "other_or_manual_review": 18,
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 12,
+    "exact_document_date_match": 10,
     "needs_version_review": 1,
     "plausible_date_order": 20
   },

@@ -1,5 +1,13 @@
 # Changelog
 
+## Batch 95 annotation - 2026-09-29
+
+- Promoted NCT03486223 to `PUBLIC-SEH-INSULIN-001` after exact title/NCT/IRB-date matching and full visual review; added 22 requirements covering crossover design, clamp-derived insulin sensitivity, mechanistic outcomes, paired analysis, carryover and period effects, prospective power, estimands, missingness, safety and provenance.
+- Promoted NCT03293329 to `PUBLIC-DIAPHRAGM-RCI-001` after exact title, investigator, sponsor, unique protocol ID, EudraCT ID and internal-date matching; added 20 requirements covering the three physiotherapy arms, immediate pre/post outcomes, baseline-adjusted comparison, hierarchy, multiplicity, missingness and safety.
+- Preserved explicit release gates for NCT03486223's during-conduct adapted IRB extracts and post-completion upload, and for NCT03293329's registry metadata date discrepancy and under-specified endpoint, population and sample-size decisions.
+- Excluded NCT06403098 as a retrospectively reconstructed nominally 2024 plan citing 2025 software; NCT03892564 and NCT03196427 for post-completion SAPs; NCT02740335 for executable protocol leakage; NCT02804763 for a post-primary SAP amendment; and NCT02058108 for termination- and dry-run-TLF-informed analysis revisions.
+- Hash-froze, page-extracted and visually inspected all 16 PDFs and eight registry records, refreshed the pool to 31 candidates and raised the public draft count to 89 with 1,663 public requirements.
+
 ## Batch 94 annotation - 2026-09-29
 
 - Promoted NCT02996864 to `PUBLIC-HEALTHY-DETOURS-001` after exact title/NCT/date matching and full visual review; added 22 requirements covering the two-app RCT, HEI hierarchy and derivation, activity/sleep/QOL outcomes, ANCOVA, Hotelling T-squared, longitudinal GLS, dropout, CACE, mediation, sample size and provenance.
