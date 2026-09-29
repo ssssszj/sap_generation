@@ -1,5 +1,9 @@
 # Changelog
 
+## Batch 139 screening - 2026-09-30
+
+- Batch 139 produced no promotion: excluded NCT01817426, NCT02838407, NCT03000439, NCT03022708 and NCT03596450 because their selected targets are post-completion, accumulated-conduct- or early-feasibility-informed and substantially reconstructable from the model-visible protocols; excluded NCT02408549 because the extension target depends on parent SP0982 SAP and realized rollover/event states; excluded NCT04607980 for prerecruitment protocol-embedded target leakage; and excluded NCT03673943 because both alleged source documents are result-bearing reports rather than a clean protocol/SAP pair. Downloaded and SHA-256-froze 16 official PDFs and eight registry records, reviewed all 1,447 physical pages by extraction/OCR, and rendered and visually inspected 125 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 105 public first-pass drafts plus 15 actionable metadata candidates and 2,045 total requirements, including the 26-item private pilot.
+
 ## Batch 138 screening - 2026-09-30
 
 - Batch 138 produced no promotion: excluded NCT03016975, NCT03548987, NCT04566666, NCT02833844, NCT02969525, NCT02378844 and NCT02489448 because their selected packages are post-primary/post-completion, accumulated-conduct- or interim-informed, version-mismatched, or substantially reconstructable from the model-visible protocols.

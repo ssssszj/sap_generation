@@ -5,156 +5,154 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03022708",
+      "candidate_id": "NCT03030235",
       "domain": "cardiovascular",
-      "title": "Xeltis Bioabsorbable Pulmonary Valved Conduit Pivotal Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03022708/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03022708/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03596450",
-      "domain": "endocrine_metabolic",
-      "title": "Long Term Comparative Effectiveness of Once Weekly Semaglutide Versus Standard of Care in a Real World Adult US Population With Type 2 Diabetes - a Randomized Pragmatic Trial",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03596450/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03596450/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT01817426",
-      "domain": "gastroenterology_hepatology",
-      "title": "Discontinuation of Infliximab Therapy in Patients With Crohn's Disease During Sustained Complete Remission",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT01817426/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT01817426/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04607980",
-      "domain": "immunology_rheumatology",
-      "title": "A Study to Investigate ABP 654 for the Treatment of Participants With Moderate to Severe Plaque Psoriasis",
+      "title": "Dapagliflozin in PRESERVED Ejection Fraction Heart Failure",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT03030235/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT03030235/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT03610646",
+      "domain": "endocrine_metabolic",
+      "title": "Comparative Study to Evaluate the Efficacy and Safety of MYL-1701P and Eylea® in Subjects With Diabetic Macular Edema (DME)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
         "phase_3"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04607980/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04607980/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03610646/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03610646/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 5,
-      "candidate_id": "NCT02838407",
-      "domain": "infectious_disease",
-      "title": "Identification and Characterization of Bacteria in the Lungs of Children From 6 Months up to 6 Years Old, With Suspected Infection of the Lungs, in Spain.",
-      "pairing_state": "plausible_date_order",
+      "queue_rank": 3,
+      "candidate_id": "NCT06400498",
+      "domain": "gastroenterology_hepatology",
+      "title": "Surprise Question in End of Life (SeQuEL) Care and the Effect of Prompting Palliative Care Consultation: End-Stage Liver Disease",
+      "pairing_state": "needs_version_review",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
         "na"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02838407/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02838407/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT06400498/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT06400498/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT03000439",
-      "domain": "musculoskeletal_pain",
-      "title": "A Safety, Efficacy And Pharmacokinetics Study Of Tofacitinib In Pediatric Patients With sJIA",
+      "queue_rank": 4,
+      "candidate_id": "NCT04664153",
+      "domain": "immunology_rheumatology",
+      "title": "Study To Assess Efficacy, Safety, Tolerability And Pharmacokinetics Of PF-07038124 Ointment In Participants With Atopic Dermatitis Or Plaque Psoriasis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT04664153/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT04664153/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02931539",
+      "domain": "infectious_disease",
+      "title": "Efficacy and Safety Study of Maribavir Treatment Compared to Investigator-assigned Treatment in Transplant Recipients With Cytomegalovirus (CMV) Infections That Are Refractory or Resistant to Treatment With Ganciclovir, Valganciclovir, Foscarnet, or Cidofovir",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT03000439/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT03000439/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02931539/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02931539/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03028870",
+      "domain": "musculoskeletal_pain",
+      "title": "A Study to Evaluate the Analgesic Efficacy and Safety of V120083 in Subjects With Osteoarthritis (OA) of the Knee",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03028870/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03028870/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02408549",
+      "candidate_id": "NCT02417935",
       "domain": "neurology",
-      "title": "Safety and Efficacy of Lacosamide as Additional Therapy in Patients Suffering From Epileptic Tonic-Clonic Seizures",
+      "title": "A Study of Duloxetine (LY248686) in Participants With Diabetic Peripheral Neuropathic Pain (DPNP)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
+        "randomized",
+        "parallel",
+        "double",
+        "phase_4"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02408549/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02408549/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02417935/Prot_005.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02417935/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03673943",
+      "candidate_id": "NCT02018367",
       "domain": "oncology",
-      "title": "Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE",
+      "title": "Accuracy, Yield and Clinical Impact of a Low-Cost HRME in the Early Diagnosis of Esophageal Adenocarcinoma",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -217,21 +215,21 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT02018367",
+      "candidate_id": "NCT07452055",
       "domain": "oncology",
-      "title": "Accuracy, Yield and Clinical Impact of a Low-Cost HRME in the Early Diagnosis of Esophageal Adenocarcinoma",
+      "title": "Large Language Model-Based Emotional Management for Breast Cancer Patients",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
-        "phase_2"
+        "single",
+        "na"
       ],
       "endpoint_types": [
-        "binary"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT07452055/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT07452055/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
