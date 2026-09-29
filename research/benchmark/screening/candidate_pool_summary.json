@@ -24,15 +24,14 @@
   },
   "intervention_distribution": {
     "drug": 11,
-    "mixed": 2,
-    "other": 3
+    "mixed": 1,
+    "other": 4
   },
   "endpoint_distribution_multi_label": {
-    "binary": 3,
-    "continuous": 2,
-    "count_or_rate": 1,
-    "other_or_manual_review": 9,
-    "time_to_event": 1
+    "binary": 5,
+    "continuous": 5,
+    "count_or_rate": 3,
+    "other_or_manual_review": 7
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 4,
