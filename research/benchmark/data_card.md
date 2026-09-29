@@ -2,10 +2,11 @@
 
 ## Current composition
 
-The working benchmark contains eighty-one registered study families: one private pilot and eighty public annotation drafts.
+The working benchmark contains eighty-two registered study families: one private pilot and eighty-one public annotation drafts.
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
+- multimodal treatment for hemiplegic shoulder pain, a three-arm adaptive-randomized PNS/PT trial whose during-enrollment analysis attachment adds longitudinal mixed modeling, site checks and responder regression under an explicit provenance-review gate;
 - IMPACT, a public observational cohort with an exact protocol/CRF/TSAP triplet;
 - ASCEND-D, a public phase 3 active-controlled study with continuous and time-to-event co-primary non-inferiority endpoints;
 - SER-287, a public randomized phase 1b study retained partly as a missing-document challenge.
@@ -85,7 +86,7 @@ The working benchmark contains eighty-one registered study families: one private
 - PAFIT-IBD, a prospective pediatric single-arm exercise study with 20mSRT, accelerometry, longitudinal and mediation analyses and an unresolved primary-outcome hierarchy;
 - FITSTART+, a parent-randomized digital alcohol-prevention study with student repeated outcomes, HGLMs, missingness sensitivity and unresolved sample-size and outcome-family decisions.
 
-All eighty public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,493 evidence-backed requirements: 1,467 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All eighty-one public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,515 evidence-backed requirements: 1,489 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -118,7 +119,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only eighty public studies have first-pass gold annotations, with no completed expert adjudication;
+- only eighty-one public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -129,4 +130,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 study-family slots, of which 40 remain metadata-screened acquisition candidates and eighty are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 study-family slots, of which 39 remain metadata-screened acquisition candidates and eighty-one are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.

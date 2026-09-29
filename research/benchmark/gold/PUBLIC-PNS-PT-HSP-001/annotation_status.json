@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-PNS-PT-HSP-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PNS-PT-HSP-001-R003",
+    "PUBLIC-PNS-PT-HSP-001-R005",
+    "PUBLIC-PNS-PT-HSP-001-R006",
+    "PUBLIC-PNS-PT-HSP-001-R011",
+    "PUBLIC-PNS-PT-HSP-001-R013",
+    "PUBLIC-PNS-PT-HSP-001-R014",
+    "PUBLIC-PNS-PT-HSP-001-R015",
+    "PUBLIC-PNS-PT-HSP-001-R021"
+  ],
+  "open_version_questions": [
+    "Confirm from the ClinicalTrials.gov upload or IRB history that the matching 2021-11-05 protocol export and analysis attachment are the prospective governing pair and were not revised using outcome data during the 2017-2024 enrollment period."
+  ],
+  "review_requirements": [
+    "Resolve masking by role and the primary BPI-SF3 confirmatory timepoint.",
+    "Define the efficacy and safety populations, primary estimand, mixed-model covariance and site strategy.",
+    "Specify missing-data sensitivity, responder implementation, multiplicity and the meaning of combined one-sided alpha 0.05.",
+    "Verify the during-enrollment provenance of the 2021 document pair and exclude the family if any outcome-informed revision is identified.",
+    "Verify every critical locator against the rendered one-based physical PDF pages and preserve reference-SAP isolation."
+  ]
+}

@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 86 annotation - 2026-09-29
+
+- Promoted NCT02893267 to `PUBLIC-PNS-PT-HSP-001` after exact title/NCT/date matching, full-text leakage comparison and visual review; added 22 requirements covering adaptive allocation, BPI-SF3, longitudinal mixed modeling, site handling, responder analysis, missingness, multiplicity, safety and provenance.
+- Retained the 2021 during-enrollment document date as an explicit release gate: the pair is pre-primary-completion and prospective in wording, but must be excluded if source history reveals outcome-informed revision.
+- Excluded NCT02871778 and NCT04955717 for executable protocol leakage; NCT02773368, NCT02365649, NCT02140554 and NCT03386032 for CSR, extension, post-completion or execution-informed document defects; and NCT04763876 for both leakage and post-completion analysis.
+- Hash-froze, text-extracted and visually inspected all 16 PDFs and eight registry records, then refreshed the pool to 39 candidates while raising the registered public draft count to 81.
+
 ## Batch 85 annotation - 2026-09-29
 
 - Promoted NCT02805257, NCT07484620 and NCT04549454 after exact identity/date matching and prospective chronology checks; added 66 requirements covering glaucoma surgery, pediatric IBD exercise and a parent-based college alcohol intervention.
