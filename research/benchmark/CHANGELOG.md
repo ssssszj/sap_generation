@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 90 screening - 2026-09-29
+
+- Batch 90 produced no promotion: excluded NCT04074941, NCT04556734, NCT02825251, NCT02762500, NCT01151423, NCT02635776 and NCT04336332 because their model-visible protocols expose executable target analyses; NCT02825251 and NCT02635776 additionally use post-primary/post-completion SAPs.
+- Excluded NCT04864210 as a post-completion registry export and execution-stage methods note rather than a prospective governing protocol/SAP pair.
+- Hash-froze and extracted all 16 PDFs and eight registry records, then visually verified the decisive leakage, chronology and execution-language pages. All eight slots were returned for replenishment while preserving 83 public drafts.
+
 ## Batch 89 screening - 2026-09-29
 
 - Batch 89 produced no promotion: excluded NCT03680742, NCT04183335, NCT02621892 and NCT01990534 because their model-visible protocols expose executable target analyses; excluded NCT03968003 and NCT03068767 as retrospective execution/publication-stage methods; excluded NCT02309411 as a post-completion blind-review-informed SAP and NCT02618967 as a within-study interim-PK/PD-informed adaptive package.

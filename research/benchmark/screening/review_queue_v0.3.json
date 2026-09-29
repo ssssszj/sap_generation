@@ -5,156 +5,162 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04074941",
+      "candidate_id": "NCT03683030",
       "domain": "cardiovascular",
-      "title": "The Effect of Sodium Reduction on Blood Pressure and Physical Function in Older Adults",
+      "title": "Safety and Effectiveness Evaluation of the Multi-Electrode Radiofrequency Balloon Catheter for the Treatment of Symptomatic Paroxysmal Atrial Fibrillation",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "na"
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
       ],
       "endpoint_types": [
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04074941/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT04074941/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03683030/Prot_004.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03683030/SAP_005.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04556734",
+      "candidate_id": "NCT05650567",
       "domain": "dermatology",
-      "title": "Safety and Efficacy of Oral Etrasimod in Adult Participants With Moderate-to-Severe Alopecia Areata",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04556734/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04556734/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT02825251",
-      "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Continuous Subcutaneous Insulin Infusion of Faster-acting Insulin Aspart Compared to NovoRapid® in Adults With Type 1 Diabetes",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02825251/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT02825251/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT02762500",
-      "domain": "gastroenterology_hepatology",
-      "title": "An Efficacy and Safety Study of LYC-30937-EC in Subjects With Active Ulcerative Colitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02762500/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02762500/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT01151423",
-      "domain": "hematology",
-      "title": "Study to Assess Efficacy and Safety of Anti-von Willebrand Factor (vWF) Nanobody in Patients With Acquired Thrombotic Thrombocytopenic Purpura (aTTP)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT01151423/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT01151423/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02635776",
-      "domain": "immunology_rheumatology",
-      "title": "Peanut Allergy Oral Immunotherapy Study of AR101 for Desensitization in Children and Adults (PALISADE)",
+      "title": "Study of M5049 in DM and PM Participants (NEPTUNIA)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02635776/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT02635776/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT04336332",
-      "domain": "infectious_disease",
-      "title": "Randomized Comparison of Combination Azithromycin and Hydroxychloroquine vs. Hydroxychloroquine Alone for the Treatment of Confirmed COVID-19",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
         "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT04336332/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT04336332/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05650567/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05650567/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT04864210",
-      "domain": "musculoskeletal_pain",
-      "title": "Video-assisted Thoracoscopic Surgery - Exparel Study",
+      "queue_rank": 3,
+      "candidate_id": "NCT04259632",
+      "domain": "endocrine_metabolic",
+      "title": "Prolonged Daily Fasting as a Viable Alternative to Caloric Restriction in At-Risk Obese Humans",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT04259632/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT04259632/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT02819635",
+      "domain": "gastroenterology_hepatology",
+      "title": "A Study to Evaluate the Safety and Efficacy of Upadacitinib (ABT-494) for Induction and Maintenance Therapy in Participants With Moderately to Severely Active Ulcerative Colitis (UC)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02819635/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02819635/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03136185",
+      "domain": "hematology",
+      "title": "Bomedemstat (IMG-7289/MK-3543) in Participants With Myelofibrosis (IMG-7289-CTP-102/MK-3543-002)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "single_group",
+        "none",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "time_to_event",
+        "binary",
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT04864210/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT04864210/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT03136185/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT03136185/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02690935",
+      "domain": "immunology_rheumatology",
+      "title": "Efficacy of 2LALERG (Homeopathic Drug) in Allergic Rhinitis Related to Grass Pollen",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02690935/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02690935/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT03519568",
+      "domain": "infectious_disease",
+      "title": "Clinical Study on Combined Immune Effect of EV71 Inactivated Vaccine",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03519568/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03519568/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT04869085",
+      "domain": "musculoskeletal_pain",
+      "title": "The Use of a Digital Application for Reporting Pain and Pain Management in Home Hospice",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04869085/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04869085/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -198,41 +204,40 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT03683030",
+      "candidate_id": "NCT02260258",
       "domain": "cardiovascular",
-      "title": "Safety and Effectiveness Evaluation of the Multi-Electrode Radiofrequency Balloon Catheter for the Treatment of Symptomatic Paroxysmal Atrial Fibrillation",
+      "title": "Neuromuscular Blockade for Post-Cardiac Arrest Care",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
+        "randomized",
+        "parallel",
+        "single",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03683030/Prot_004.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT03683030/SAP_005.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT05650567",
+      "candidate_id": "NCT06700850",
       "domain": "dermatology",
-      "title": "Study of M5049 in DM and PM Participants (NEPTUNIA)",
+      "title": "Human Participant Study of Prototype Non-medicated Multilayer Foam Dressings on Intact Skin",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "count_or_rate",
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05650567/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT05650567/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT06700850/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT06700850/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -296,41 +301,40 @@
     },
     {
       "queue_rank": 16,
-      "candidate_id": "NCT02690935",
+      "candidate_id": "NCT02709538",
       "domain": "immunology_rheumatology",
-      "title": "Efficacy of 2LALERG (Homeopathic Drug) in Allergic Rhinitis Related to Grass Pollen",
+      "title": "Long Term Safety and Efficacy of Fixed Dose Combination GSP 301 Nasal Spray (NS) in the Treatment of Perennial Allergic Rhinitis (PAR)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_4"
+        "double",
+        "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate",
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02690935/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02690935/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02709538/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02709538/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 17,
-      "candidate_id": "NCT03519568",
+      "candidate_id": "NCT04167566",
       "domain": "infectious_disease",
-      "title": "Clinical Study on Combined Immune Effect of EV71 Inactivated Vaccine",
+      "title": "Impact of Scaling up Mass Testing, Treatment and Tracking on Malaria Prevalence Among Children",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "phase_4"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03519568/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03519568/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04167566/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04167566/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -355,21 +359,21 @@
     },
     {
       "queue_rank": 19,
-      "candidate_id": "NCT02260258",
+      "candidate_id": "NCT03431467",
       "domain": "cardiovascular",
-      "title": "Neuromuscular Blockade for Post-Cardiac Arrest Care",
+      "title": "Impella CP With VA ECMO for Cardiogenic Shock",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "single",
-        "phase_2"
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02260258/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03431467/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03431467/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -450,21 +454,21 @@
     },
     {
       "queue_rank": 24,
-      "candidate_id": "NCT02709538",
+      "candidate_id": "NCT02725515",
       "domain": "immunology_rheumatology",
-      "title": "Long Term Safety and Efficacy of Fixed Dose Combination GSP 301 Nasal Spray (NS) in the Treatment of Perennial Allergic Rhinitis (PAR)",
+      "title": "A Study of the Effect of XmAb®5871 in Patients With Systemic Lupus Erythematosus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_3"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02709538/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02709538/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02725515/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT02725515/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]
