@@ -5,108 +5,49 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02966028",
+      "candidate_id": "NCT02979587",
       "domain": "cardiovascular",
-      "title": "Effect of SNF472 on Progression of Cardiovascular Calcification in End-Stage-Renal-Disease (ESRD) Patients on Hemodialysis (HD)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT02966028/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT02966028/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03315780",
-      "domain": "endocrine_metabolic",
-      "title": "A Study of the Glucodynamic Effects of Dulaglutide (LY2189265) in Japanese Participants With Type 2 Diabetes",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "single",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03315780/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03315780/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT02403323",
-      "domain": "gastroenterology_hepatology",
-      "title": "Open-Label Extension and Safety Study for Participants With Crohn's Disease Previously Enrolled in the Etrolizumab Phase III Study GA29144",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02403323/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02403323/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT04178967",
-      "domain": "immunology_rheumatology",
-      "title": "Evaluation of the Efficacy and Safety of Lebrikizumab (LY3650150) in Moderate to Severe Atopic Dermatitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT04178967/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT04178967/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02722837",
-      "domain": "infectious_disease",
-      "title": "Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed-Dose Combination in Participants With Chronic Hepatitis C Virus Infection",
+      "title": "The Medtronic Harmony™ Transcatheter Pulmonary Valve Clinical Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
-        "binary"
+        "time_to_event",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02722837/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02722837/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT02979587/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT02979587/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02837952",
-      "domain": "musculoskeletal_pain",
-      "title": "A Study of Ibuprofen (IBU) 250mg/APAP 500mg In The Treatment Of Post-Surgical Dental Pain",
+      "queue_rank": 2,
+      "candidate_id": "NCT03332771",
+      "domain": "endocrine_metabolic",
+      "title": "Efficacy and Safety of Sotagliflozin Versus Glimepiride and Placebo in Participants With Type 2 Diabetes Mellitus That Are Taking Metformin Monotherapy",
       "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03332771/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03332771/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT02497469",
+      "domain": "gastroenterology_hepatology",
+      "title": "An Efficacy and Safety Study of Vedolizumab Intravenous (IV) Compared to Adalimumab Subcutaneous (SC) in Participants With Ulcerative Colitis",
+      "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
         "parallel",
@@ -114,17 +55,75 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02497469/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT02497469/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT04211389",
+      "domain": "immunology_rheumatology",
+      "title": "Twin Trial of PDE4 Inhibition With Roflumilast for the Management of Plaque Psoriasis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT04211389/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT04211389/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02729038",
+      "domain": "infectious_disease",
+      "title": "Pharmacokinetic Study of Gepotidacin in Subjects With Varying Degrees of Renal Impairment and in Subjects With Normal Renal Function",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02837952/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02837952/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02729038/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT02729038/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02863575",
+      "domain": "musculoskeletal_pain",
+      "title": "A Dental Pain Study Comparing The Analgesic Efficacy Of Ibuprofen/Caffeine",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02863575/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT02863575/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02027701",
+      "candidate_id": "NCT02124564",
       "domain": "neurology",
-      "title": "Extension Study of Maintenance Treatment With Subcutaneous Immunoglobulin (IgPro20) for Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+      "title": "A Trial to Evaluate the Long Term Safety and Tolerability of Lacosamide Taken as Monotherapy in Adults With Partial-onset Seizures",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -133,29 +132,30 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02027701/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02027701/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02124564/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT02124564/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT04732494",
+      "candidate_id": "NCT06072833",
       "domain": "oncology",
-      "title": "Anti-PD-1 Monoclonal Antibody Tislelizumab (BGB-A317) Combined With or Without Anti-TIGIT Monoclonal Antibody Ociperlimab (BGB-A1217) in Participants With Recurrent or Metastatic Esophageal Squamous Cell Carcinoma",
+      "title": "Characterizing and Addressing Financial Toxicity in AYAs With Cancer",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04732494/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04732494/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT06072833/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT06072833/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 134 screening - 2026-09-30
+
+- Batch 134 produced no promotion: excluded NCT02027701 and NCT02403323 because their extension-study packages import parent-study state and expose the related executable programs; excluded NCT02722837, NCT02837952, NCT02966028, NCT04178967 and NCT04732494 because their selected packages are post-primary/post-completion, audit-, futility- or unblinding-informed and their protocols also expose substantial executable programs; and excluded NCT03315780 because its protocol independently reconstructs the target plan despite an unreconciled SAP-to-protocol version citation.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,089 physical pages, and rendered and visually inspected 196 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 104 public first-pass drafts plus 16 actionable metadata candidates and 2,021 total requirements, including the 26-item private pilot.
+
 ## Batch 133 screening - 2026-09-30
 
 - Batch 133 produced no promotion: excluded NCT01964560, NCT02365584, NCT02719743, NCT03267576 and NCT03712358 because the selected packages are study-family-dependent, post-completion, exploratory-data-driven or otherwise accumulated-conduct-informed and their protocols also expose substantial executable programs; excluded NCT02713230 and NCT02951429 for protocol-embedded target leakage; and excluded NCT03985943 because its final SAP was approved after study completion.
