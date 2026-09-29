@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 108 screening
+
+- Excluded NCT04092452, NCT02581345, NCT01962207 and NCT04200352 because their model-visible protocols disclose the executable target analysis, including populations, endpoint methods, missing-data rules, multiplicity or detailed descriptive programs.
+- Excluded NCT01858532 as an observed-event-informed near-completion SAP, NCT02474199 and NCT03591406 as post-completion SAPs, and NCT02622256 because both uploaded files identify a different NCT and also duplicate the target analysis.
+- Sequentially downloaded, hash-froze and page-extracted all 16 official PDFs and eight registry records, rendered 90 decisive pages and visually verified every exclusion. All eight slots are returned for replenishment while retaining 98 public first-pass drafts.
+
 ## 2026-09-29 - v0.3 Batch 107 annotation
 
 - Promoted NCT05584176 to `PUBLIC-COVID-AG-OTC-001` after exact protocol-number/title/date matching and pre-enrollment chronology; added 21 requirements for paired diagnostic agreement, valid-run and discordance rules, prospective accrual, PPA/NPA, intervals, symptom, demographic and Ct summaries, missingness, multiplicity and explicit unresolved decisions.
