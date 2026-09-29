@@ -5,86 +5,67 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03016975",
+      "candidate_id": "NCT03022708",
       "domain": "cardiovascular",
-      "title": "Edwards Cardioband System ACTIVE Pivotal Clinical Trial (ACTIVE)",
+      "title": "Xeltis Bioabsorbable Pulmonary Valved Conduit Pivotal Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
         "na"
       ],
       "endpoint_types": [
-        "count_or_rate",
-        "continuous"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03016975/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03016975/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03022708/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03022708/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03548987",
+      "candidate_id": "NCT03596450",
       "domain": "endocrine_metabolic",
-      "title": "Research Study Investigating How Well Semaglutide Works in People Suffering From Overweight or Obesity",
+      "title": "Long Term Comparative Effectiveness of Once Weekly Semaglutide Versus Standard of Care in a Real World Adult US Population With Type 2 Diabetes - a Randomized Pragmatic Trial",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
+        "none",
+        "phase_4"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03548987/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03548987/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03596450/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/50/NCT03596450/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05816473",
+      "candidate_id": "NCT01817426",
       "domain": "gastroenterology_hepatology",
-      "title": "Artificial Intelligent Clinical Decision Support System Simulation Center Study for Technology Acceptance",
-      "pairing_state": "plausible_date_order",
+      "title": "Discontinuation of Infliximab Therapy in Patients With Crohn's Disease During Sustained Complete Remission",
+      "pairing_state": "needs_version_review",
       "design_tags": [
-        "na",
+        "randomized",
         "parallel",
-        "none",
-        "na"
+        "triple",
+        "phase_4"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05816473/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/73/NCT05816473/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT01817426/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT01817426/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT04566666",
+      "candidate_id": "NCT04607980",
       "domain": "immunology_rheumatology",
-      "title": "To Assess the Effect of SCD-044 Treatment on Moderate to Severe Plaque Psoriasis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04566666/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04566666/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02833844",
-      "domain": "infectious_disease",
-      "title": "Safety, Tolerability and Efficacy on Low Density Lipoprotein Cholesterol (LDL-C) of Evolocumab in Participants With Human Immunodeficiency Virus (HIV) and Hyperlipidemia/Mixed Dyslipidemia",
+      "title": "A Study to Investigate ABP 654 for the Treatment of Participants With Moderate to Severe Plaque Psoriasis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -95,66 +76,85 @@
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02833844/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02833844/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04607980/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04607980/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02969525",
-      "domain": "musculoskeletal_pain",
-      "title": "A Study to Evaluate the Dose Response Based on the Efficacy, Safety and Tolerability of Bimekizumab in Subjects With Active Psoriatic Arthritis Which is a Type of Inflammatory Arthritis",
+      "queue_rank": 5,
+      "candidate_id": "NCT02838407",
+      "domain": "infectious_disease",
+      "title": "Identification and Characterization of Bacteria in the Lungs of Children From 6 Months up to 6 Years Old, With Suspected Infection of the Lungs, in Spain.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT02969525/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT02969525/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02378844",
-      "domain": "neurology",
-      "title": "A Randomized, Sham-controlled Study of gammaCore ® (nVNS) for Prevention of Episodic Migraine",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
+        "na",
+        "single_group",
+        "none",
         "na"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02378844/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT02378844/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02838407/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT02838407/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03000439",
+      "domain": "musculoskeletal_pain",
+      "title": "A Safety, Efficacy And Pharmacokinetics Study Of Tofacitinib In Pediatric Patients With sJIA",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT03000439/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT03000439/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02408549",
+      "domain": "neurology",
+      "title": "Safety and Efficacy of Lacosamide as Additional Therapy in Patients Suffering From Epileptic Tonic-Clonic Seizures",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02408549/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT02408549/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT02489448",
+      "candidate_id": "NCT03673943",
       "domain": "oncology",
-      "title": "Neoadjuvant MEDI4736 Concomitant With Weekly Nab-paclitaxel and Dose-dense AC for Stage I-III Triple Negative Breast Cancer",
+      "title": "Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_1",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02489448/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT02489448/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -217,21 +217,21 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT03673943",
+      "candidate_id": "NCT02018367",
       "domain": "oncology",
-      "title": "Imaging of Patients With Known or Suspected Somatostatin Receptor Positive Neuroendocrine Tumors Using Cu64-DOTATATE",
+      "title": "Accuracy, Yield and Clinical Impact of a Low-Cost HRME in the Early Diagnosis of Esophageal Adenocarcinoma",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03673943/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -255,21 +255,22 @@
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT02018367",
+      "candidate_id": "NCT05987956",
       "domain": "oncology",
-      "title": "Accuracy, Yield and Clinical Impact of a Low-Cost HRME in the Early Diagnosis of Esophageal Adenocarcinoma",
+      "title": "Pharmacogenomics IND SNP Clinical Trial - Alectinib and Single Nucleotide Polymorphisms",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "sequential",
         "none",
-        "phase_2"
+        "phase_2",
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT02018367/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT05987956/Prot_019.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT05987956/SAP_020.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

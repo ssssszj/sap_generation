@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 138 screening - 2026-09-30
+
+- Batch 138 produced no promotion: excluded NCT03016975, NCT03548987, NCT04566666, NCT02833844, NCT02969525, NCT02378844 and NCT02489448 because their selected packages are post-primary/post-completion, accumulated-conduct- or interim-informed, version-mismatched, or substantially reconstructable from the model-visible protocols.
+- Placed NCT05816473 on version-reconciliation hold: the exact NCT/IRB-matched SAP predates primary completion but was approved during recruitment, and the public protocol and SAP conflict on eligible populations, prospective N=102/104 and the 3x2x2 mixed-model versus two-arm Mann-Whitney primary analysis without an amendment chain. Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, reviewed all 1,326 physical pages by extraction/OCR, and rendered and visually inspected 159 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 105 public first-pass drafts plus 15 actionable metadata candidates and 2,045 total requirements, including the 26-item private pilot.
+
 ## Batch 137 screening - 2026-09-30
 
 - Promoted NCT03606928 to `PUBLIC-MFLOT-GC-001` after exact title/NCT/date and pre-start matching; added 24 first-pass requirements for the classical 3+3 modified-FLOT design, DLT/MTD/RD rules, treatment and dose modification, RECIST response, PFS/OS, Kaplan-Meier, populations, estimands, missingness, safety and uncertainty, while preserving unsigned/unversioned governance, eligibility and missing-Table-1 gates.

@@ -24,19 +24,21 @@
   },
   "intervention_distribution": {
     "device": 1,
-    "drug": 9,
-    "mixed": 3,
+    "drug": 10,
+    "mixed": 2,
     "other": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 3,
-    "continuous": 3,
-    "count_or_rate": 3,
-    "other_or_manual_review": 8
+    "binary": 4,
+    "continuous": 1,
+    "count_or_rate": 4,
+    "other_or_manual_review": 7,
+    "time_to_event": 2
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 3,
-    "plausible_date_order": 12
+    "needs_version_review": 1,
+    "plausible_date_order": 11
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }
