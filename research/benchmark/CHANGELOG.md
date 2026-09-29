@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 97 annotation - 2026-09-29
+
+- Promoted NCT03505658 to `PUBLIC-ABRIENDO-CAMINOS2-001` after exact title, principal-investigator and 2018-04-06 date matching plus full-page extraction and visual review; added 25 requirements covering family-level allocation, nested parent/child records, BMI-percentile derivation, repeated mixed modeling, sites and cycles, secondary behavioral outcomes, multilevel mixture modeling, missingness, multiplicity, safety and power.
+- Preserved explicit release gates because the documents were created during conduct and omit NCT/protocol identifiers, protocol page 10 states 250 whole families while the SAP and registry state 500, and the reference mixes confirmatory treatment inference with data-driven transformations, latent classes and model selection.
+- Excluded NCT07280208, NCT03345836, NCT02899962, NCT02269917, NCT03918174 and NCT00250705 as completed-study, post-primary or retrospective executed-analysis materials; excluded NCT03933397 because protocol pages 22-28 expose the executable target analysis.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records, visually verified decisive identity, chronology, execution-language and leakage pages, refreshed the pool to 29 candidates and raised the public draft count to 91 with 1,708 public requirements.
+
 ## Batch 96 annotation - 2026-09-29
 
 - Promoted NCT04203147 to `PUBLIC-HOME-DMBAT-001` after exact title/NCT/date matching and full-page extraction plus visual review; added 20 requirements covering the behavioral intervention and attention control, stratified randomization, 12-month HbA1c endpoint, longitudinal mixed modeling, prospective sample size, estimand, missingness, multiplicity, safety and provenance.
