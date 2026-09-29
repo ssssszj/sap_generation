@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains ninety-five registered study families: one private pilot and ninety-four public annotation drafts.
+The working benchmark contains ninety-six registered study families: one private pilot and ninety-five public annotation drafts.
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -98,8 +98,9 @@ The working benchmark contains ninety-five registered study families: one privat
 - PPI initiation or withdrawal in decompensated cirrhosis, a nonrandomized paired microbiota study whose exact-date one-page analysis plan supplies Wilcoxon and Kruskal-Wallis methods while leaving feature derivation, group contrast, sample size, confounding, missingness and multiplicity unresolved; the already-published compensated and healthy cohorts are excluded.
 - therapeutic drug monitoring of mycophenolate mofetil in lupus nephritis, a prerecruitment randomized trial with a binary 12-month remission endpoint, ITT analysis, unadjusted and adjusted comparisons, and explicit parallel-versus-sequential, masking, remission-definition, alpha, sample-size and missing-data gates.
 - HCV video versus brochure education delivery, a prerecruitment nonrandomized matched behavioral study with repeated knowledge assessment and explicit group-label, endpoint-hierarchy, matching, clinic, sample-size, missing-data and multiplicity gates.
+- DIPPER SafeBreak Vascular, a randomized open-label hospital device trial with conditional noninferiority/superiority, therapy-delay and recurrent PIV-complication outcomes, and explicit margin, population, censoring, missingness and power gates.
 
-All ninety-four public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,797 evidence-backed requirements: 1,771 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All ninety-five public studies have first-pass annotations. Together with the private pilot, the registered set contains 1,817 evidence-backed requirements: 1,791 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -132,7 +133,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only ninety-four public studies have first-pass gold annotations, with no completed expert adjudication;
+- only ninety-five public studies have first-pass gold annotations, with no completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -143,4 +144,4 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Planned v0.3 composition
 
-The release-eligible intake contains 120 study-family slots, of which 26 remain metadata-screened acquisition candidates and ninety-four are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+The release-eligible intake contains 120 study-family slots, of which 25 remain metadata-screened acquisition candidates and ninety-five are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.

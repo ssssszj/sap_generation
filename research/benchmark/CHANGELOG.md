@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 101 annotation - 2026-09-29
+
+- Promoted NCT04469218 to `PUBLIC-DIPPER-SAFEBREAK-001` after exact IRB/title/date reconciliation and full visual review; added 20 requirements for randomized device noninferiority, conditional superiority, delay derivation, populations, recurrent complications, missingness, safety, multiplicity and reproducible power.
+- Excluded NCT02502149 and NCT06127147 for protocol-embedded target leakage and excluded NCT03727646, NCT03103906, NCT03980808, NCT02394028 and NCT02223182 as executed, post-primary, post-completion or outcome-informed analysis material.
+
 ## Batch 100 annotation - 2026-09-29
 
 - Promoted NCT04204447 to `PUBLIC-HCV-EDUCATION-DELIVERY-001` after exact NCT/title/date matching and full-page visual review; added 20 requirements for the nonrandomized matched video-versus-brochure study, knowledge-score hierarchy, repeated measures, matching, clinic confounding, missingness, multiplicity, privacy and provenance.

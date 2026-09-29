@@ -1,0 +1,30 @@
+{
+  "study_id": "PUBLIC-DIPPER-SAFEBREAK-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-DIPPER-SAFEBREAK-001-R002",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R004",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R005",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R006",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R007",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R008",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R009",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R010",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R013",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R014",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R015",
+    "PUBLIC-DIPPER-SAFEBREAK-001-R016"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Recover and justify the noninferiority margin, sidedness and interval decision rule.",
+    "Define the therapy-delay derivation, zero-event contribution, repeated events and exposure unit.",
+    "Require randomized and per-protocol population definitions and concordance for noninferiority.",
+    "Replace the ambiguous Kaplan-Meier, count and rank-sum choices with estimand-aligned methods.",
+    "Resolve informative early exit, missing endpoint data, multiplicity and sample-size reproducibility.",
+    "Verify every evidence excerpt against the rendered one-based physical PDF page."
+  ]
+}
