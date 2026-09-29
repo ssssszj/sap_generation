@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 124 screening - 2026-09-30
+
+- Batch 124 produced no promotion: excluded NCT02611778, NCT03451422, NCT02416453, NCT01709747 and NCT02188719 because their selected plans are post-primary/post-completion, with protocol leakage or explicit conduct-informed changes where applicable; excluded NCT03020160 because its prospective SAP cannot be paired with the only public protocol, a post-primary Version 5 dated two years later.
+- Excluded NCT02963766 because its model-visible 2020 amendment records the completed 2019 sample-size re-estimation and exposes the estimands, primary models, missingness and multiplicity program; excluded NCT03226067 because protocol pages 73-80 expose the unblinded development interim and essentially the full executable analysis.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,084 physical pages, rendered and visually inspected 30 decisive pages, and replenished all eight slots. The intake remains 103 public first-pass drafts plus 17 actionable metadata candidates.
+
 ## Batch 123 screening and annotation - 2026-09-30
 
 - Promoted NCT05832918 to `PUBLIC-CORE-DUAL-TASK-LBP-001` after exact-title/date and prerecruitment official-file matching; added 24 first-pass requirements for its randomized CSE-plus-cognitive versus GE-plus-cognitive design, VAS/ODI hierarchy, force-platform and stabilogram derivations, prospective N=34 target, direct longitudinal group contrasts and unresolved version binding, schedule, population, estimand, missingness, multiplicity, uncertainty and safety decisions.
