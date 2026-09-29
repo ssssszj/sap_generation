@@ -1,0 +1,26 @@
+{
+  "study_id": "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R004",
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R007",
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R009",
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R013",
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R014",
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R015",
+    "PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001-R016"
+  ],
+  "open_version_questions": [
+    "Confirm from the VCU/VA IRB record that the same-date protocol and one-page SAP were prospective governing documents for the decompensated-cirrhosis portion before its February 2018 completion.",
+    "Confirm that the already-published compensated-cirrhosis and healthy-control portion is excluded from this question and from every analysis population."
+  ],
+  "review_requirements": [
+    "Define the feature-level microbiota endpoint, primary estimand, analysis population and exact Kruskal-Wallis comparison.",
+    "Recover the prospective numeric sample-size target and do not substitute the actual registry enrollment.",
+    "Resolve missing specimens, intercurrent antibiotics or PPI changes, multiplicity, alpha, effect reporting and small-sample safety methods.",
+    "Verify every evidence excerpt against the rendered one-based physical PDF page."
+  ]
+}

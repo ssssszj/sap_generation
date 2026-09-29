@@ -1,0 +1,29 @@
+{
+  "study_id": "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 23,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R003",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R006",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R008",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R011",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R012",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R013",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R017",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R018",
+    "PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001-R021"
+  ],
+  "open_version_questions": [
+    "Confirm from the UFMA ethics submission that the same-title protocol and SAP dated 2026-01-29 are the governing prerecruitment pair associated with NCT07493655; neither PDF prints the NCT identifier or a formal protocol version."
+  ],
+  "review_requirements": [
+    "Reconcile parallel versus registry-sequential design labeling and specify masking by role.",
+    "Operationalize complete and partial renal remission at 12 months and select the primary unadjusted or adjusted analysis.",
+    "Reconcile alpha 0.10 planning with alpha 0.05 analysis and reproduce the sample-size calculation.",
+    "Define intercurrent events, missing data, multiplicity, safety and all secondary-outcome analyses.",
+    "Remove or fully prespecify the data-contingent survival and mixed-effects analyses before unblinding.",
+    "Verify every evidence excerpt against the rendered one-based physical PDF page."
+  ]
+}

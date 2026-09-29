@@ -5,143 +5,144 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02575833",
+      "candidate_id": "NCT02975505",
       "domain": "cardiovascular",
-      "title": "Treadmill Cardiovascular Safety Study of Erenumab (AMG 334)",
+      "title": "Pilot to Examine Risk and Feasibility of Remote Management of BP From CKD Through ESRD",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_2"
+        "single",
+        "na"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02575833/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT02575833/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT02975505/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT02975505/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03915860",
+      "candidate_id": "NCT02612857",
       "domain": "dermatology",
-      "title": "Participant Reported Outcomes With Use of Trifarotene 50 μg/g Cream in the Treatment of Moderate Facial and Truncal Acne Vulgaris",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03915860/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT03915860/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT02827708",
-      "domain": "endocrine_metabolic",
-      "title": "Efficacy and Safety of Oral Semaglutide Versus Placebo in Subjects With Type 2 Diabetes and Moderate Renal Impairment",
-      "pairing_state": "exact_document_date_match",
+      "title": "Trial of IMO-8400 in Adult Patients With Dermatomyositis",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02827708/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02827708/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT01458990",
-      "domain": "gastroenterology_hepatology",
-      "title": "Proton Pump Inhibitors and Dysbiosis in Cirrhosis",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "non_randomized",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT01458990/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT01458990/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT02515630",
-      "domain": "hematology",
-      "title": "Momelotinib in Transfusion-Dependent Adults With Primary Myelofibrosis (PMF) or Post-polycythemia Vera or Post-essential Thrombocythemia Myelofibrosis (Post-PV/ET MF)",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "triple",
         "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02515630/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02515630/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02612857/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02612857/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT07493655",
-      "domain": "immunology_rheumatology",
-      "title": "Therapeutic Drug Monitoring of Mycophenolate Mofetil in Lupus Nephritis",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "sequential",
-        "double",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT07493655/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT07493655/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02876926",
-      "domain": "infectious_disease",
-      "title": "Evaluating a Real-Time, Remote Monitoring System for Home-Based HIV Testing",
+      "queue_rank": 3,
+      "candidate_id": "NCT03422159",
+      "domain": "endocrine_metabolic",
+      "title": "Metabolic Resuscitation Using Ascorbic Acid, Thiamine, and Glucocorticoids in Sepsis.",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
+        "triple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "time_to_event",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03422159/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03422159/SAP_006.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT01972529",
+      "domain": "gastroenterology_hepatology",
+      "title": "Treatment of Thrombocytopenia in Patients With Chronic Liver DiseaseUndergoing an Elective Procedure",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01972529/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01972529/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02418000",
+      "domain": "hematology",
+      "title": "A Study of E6201 for the Treatment of Advanced Hematologic Malignancies With FLT3 and/or Ras Mutations",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "sequential",
         "none",
-        "na"
+        "phase_1",
+        "phase_2"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02876926/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT02876926/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02418000/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/00/NCT02418000/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02176486",
+      "domain": "immunology_rheumatology",
+      "title": "Safety, Tolerability and Pharmacokinetics of Multiple Rising Doses of Ixazomib in Lupus Nephritis (LN)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT02176486/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT02176486/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01543087",
+      "domain": "infectious_disease",
+      "title": "Duration of hSBA Response After a Primary Series of Bivalent rLP2086 Followed by a Booster Dose",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01543087/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01543087/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03869268",
+      "candidate_id": "NCT04343235",
       "domain": "cardiovascular",
-      "title": "The Impact of Aspirin Dose Modification on the Innate Immune Response - Will Lower Dose Aspirin Therapy Reduce the Response to Endotoxin",
+      "title": "Postpartum Management of Gestational Hypertensive Disorders Using Furosemide",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
@@ -152,8 +153,8 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03869268/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT03869268/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04343235/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04343235/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -236,40 +237,40 @@
     },
     {
       "queue_rank": 13,
-      "candidate_id": "NCT01543087",
+      "candidate_id": "NCT01962207",
       "domain": "infectious_disease",
-      "title": "Duration of hSBA Response After a Primary Series of Bivalent rLP2086 Followed by a Booster Dose",
+      "title": "The Long-term Antibody Persistence of MenACWY-TT Vaccine (PF-06866681) Versus Meningitec(Registered) or Mencevax(Registered) ACWY in Healthy Adolescents and Adults and a Booster Dose of MenACWY-TT Administered 10 Years Post Primary Vaccination",
       "pairing_state": "plausible_date_order",
       "design_tags": [
+        "non_randomized",
+        "parallel",
         "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate",
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01543087/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT01543087/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT01962207/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT01962207/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT04343235",
+      "candidate_id": "NCT06127147",
       "domain": "cardiovascular",
-      "title": "Postpartum Management of Gestational Hypertensive Disorders Using Furosemide",
+      "title": "High-intensity Inspiratory Muscle Training as a Pre-cardiac Rehabilitation in Heart Disease",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
-        "phase_4"
+        "double",
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04343235/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04343235/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT06127147/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT06127147/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -350,40 +351,40 @@
     },
     {
       "queue_rank": 19,
-      "candidate_id": "NCT01962207",
+      "candidate_id": "NCT02128217",
       "domain": "infectious_disease",
-      "title": "The Long-term Antibody Persistence of MenACWY-TT Vaccine (PF-06866681) Versus Meningitec(Registered) or Mencevax(Registered) ACWY in Healthy Adolescents and Adults and a Booster Dose of MenACWY-TT Administered 10 Years Post Primary Vaccination",
+      "title": "Sofosbuvir-Containing Regimens Without Interferon For Treatment of Acute Hepatitis C Virus (HCV) Infection",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "non_randomized",
-        "parallel",
+        "single_group",
         "none",
-        "phase_3"
+        "phase_1"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT01962207/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT01962207/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02128217/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02128217/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 20,
-      "candidate_id": "NCT06127147",
+      "candidate_id": "NCT06523010",
       "domain": "cardiovascular",
-      "title": "High-intensity Inspiratory Muscle Training as a Pre-cardiac Rehabilitation in Heart Disease",
+      "title": "Talocrural Joint Manipulation in Stroke",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
-        "parallel",
+        "crossover",
         "double",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT06127147/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT06127147/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT06523010/Prot_ICF_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT06523010/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

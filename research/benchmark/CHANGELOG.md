@@ -1,5 +1,13 @@
 # Changelog
 
+## Batch 98 annotation - 2026-09-29
+
+- Promoted NCT01458990 to `PUBLIC-PPI-DYSBIOSIS-CIRRHOSIS-001` after exact NCT/title/date matching and full visual review; added 20 requirements for the decompensated-cirrhosis subcohort, paired microbiota analysis, nonrandomized-group handling, safety, missing specimens, multiplicity, sample size and provenance, while expressly excluding the already-published compensated and healthy cohorts.
+- Promoted NCT07493655 to `PUBLIC-TDM-MMF-LUPUS-NEPHRITIS-001` after exact title/date matching of a prerecruitment pair and full visual review; added 23 requirements for randomization, masking, ITT, renal-remission derivation, chi-square/Fisher and adjusted logistic analyses, MPA comparisons, alpha and sample-size reconciliation, missingness, multiplicity and safety.
+- Preserved explicit release gates for NCT01458990's subcohort provenance and missing prospective target, and for NCT07493655's absent NCT/version in the PDFs, parallel-versus-sequential label, alpha 0.10 versus 0.05 conflict, attrition arithmetic and underspecified/data-contingent analyses.
+- Excluded NCT02827708, NCT02515630 and NCT02876926 for post-primary or post-completion analysis documents; excluded NCT02575833 and NCT03915860 for executable protocol leakage; and excluded NCT03869268 as an execution- and COVID-interim-informed plan also reproduced inside the protocol.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records, visually verified the decisive identity, chronology, scope, execution and leakage pages, refreshed the pool to 27 candidates and raised the public draft count to 93 with 1,751 public requirements.
+
 ## Batch 97 annotation - 2026-09-29
 
 - Promoted NCT03505658 to `PUBLIC-ABRIENDO-CAMINOS2-001` after exact title, principal-investigator and 2018-04-06 date matching plus full-page extraction and visual review; added 25 requirements covering family-level allocation, nested parent/child records, BMI-percentile derivation, repeated mixed modeling, sites and cycles, secondary behavioral outcomes, multilevel mixture modeling, missingness, multiplicity, safety and power.
