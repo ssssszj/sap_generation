@@ -5,89 +5,28 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02914457",
+      "candidate_id": "NCT02924727",
       "domain": "cardiovascular",
-      "title": "Left Ventricular Synchronous Versus Sequential MultiSpot Pacing for Cardiac Resynchronization Therapy (CRT)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02914457/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02914457/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03166124",
-      "domain": "endocrine_metabolic",
-      "title": "A Study of LY900014 in Elderly and Younger Adult Participants With Type 1 Diabetes Mellitus",
+      "title": "Prospective ARNI vs ACE Inhibitor Trial to DetermIne Superiority in Reducing Heart Failure Events After MI",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "crossover",
-        "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT03166124/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT03166124/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT00790933",
-      "domain": "gastroenterology_hepatology",
-      "title": "An Open-label Study of Vedolizumab (MLN0002) in Participants With Ulcerative Colitis and Crohn's Disease",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "parallel",
+        "quadruple",
         "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event",
-        "binary",
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT00790933/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT00790933/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03075878",
-      "domain": "immunology_rheumatology",
-      "title": "A Safety Study of SYNT001 in Participants With Warm Autoimmune Hemolytic Anemia (WAIHA)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "sequential",
-        "none",
-        "phase_1",
-        "phase_2"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03075878/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03075878/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT02924727/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT02924727/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 5,
-      "candidate_id": "NCT02652624",
-      "domain": "infectious_disease",
-      "title": "Safety and Efficacy of Switching to a FDC of B/F/TAF From E/C/F/TAF, E/C/F/TDF, or ATV+RTV+FTC/TDF in Virologically Suppressed HIV-1 Infected Women",
+      "queue_rank": 2,
+      "candidate_id": "NCT03211858",
+      "domain": "endocrine_metabolic",
+      "title": "Comparison of SAR341402 to NovoLog/NovoRapid in Adult Patients With Diabetes Mellitus Also Using Insulin Glargine",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -96,56 +35,112 @@
         "phase_3"
       ],
       "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT03211858/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT03211858/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT02057198",
+      "domain": "gastroenterology_hepatology",
+      "title": "Impact of Oral Antibiotic Treatment on C. Difficile",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT02057198/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT02057198/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03897075",
+      "domain": "immunology_rheumatology",
+      "title": "Efficacy and Safety Study of Tildrakizumab in the Treatment of Nail Psoriasis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT02652624/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT02652624/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03897075/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03897075/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT02706717",
+      "domain": "infectious_disease",
+      "title": "Effects of the Probiotic Visbiome Extra Strength on Gut Microbiome & Immune Activation Markers",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02706717/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/17/NCT02706717/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT02689063",
+      "candidate_id": "NCT02689258",
       "domain": "musculoskeletal_pain",
-      "title": "Maxigesic IV Phase 3 Bunionectomy Study",
+      "title": "Evaluation of the Efficacy and Safety of HTX-011 for Postoperative Analgesia Following Abdominoplasty Surgery",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02689063/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT02689063/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02689258/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02689258/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT01224106",
+      "candidate_id": "NCT01475786",
       "domain": "neurology",
-      "title": "A Study of Gantenerumab in Participants With Prodromal Alzheimer's Disease",
+      "title": "Safety and Efficacy Study for the Treatment of Painful Diabetic Neuropathy",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT01224106/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT01224106/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT01475786/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT01475786/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT01616875",
+      "candidate_id": "NCT02115139",
       "domain": "oncology",
-      "title": "Bristol Bladder Trial",
+      "title": "GEM STUDY: Radiation And Yervoy in Patients With Melanoma and Brain Metastases",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "na",
@@ -154,10 +149,10 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01616875/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01616875/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02115139/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02115139/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -219,21 +214,21 @@
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT02115139",
+      "candidate_id": "NCT02360579",
       "domain": "oncology",
-      "title": "GEM STUDY: Radiation And Yervoy in Patients With Melanoma and Brain Metastases",
+      "title": "Study of Lifileucel (LN-144), Autologous Tumor Infiltrating Lymphocytes, in the Treatment of Patients With Metastatic Melanoma",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "na",
-        "single_group",
+        "non_randomized",
+        "parallel",
         "none",
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02115139/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/39/NCT02115139/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02360579/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02360579/SAP_007.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -257,21 +252,21 @@
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT02360579",
+      "candidate_id": "NCT03304587",
       "domain": "oncology",
-      "title": "Study of Lifileucel (LN-144), Autologous Tumor Infiltrating Lymphocytes, in the Treatment of Patients With Metastatic Melanoma",
+      "title": "Effects of Bright Light on Co-occurring Cancer-related Symptoms in Breast Cancer Survivors",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "non_randomized",
+        "randomized",
         "parallel",
         "none",
-        "phase_2"
+        "na"
       ],
       "endpoint_types": [
-        "binary"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02360579/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/79/NCT02360579/SAP_007.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03304587/Prot_003.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT03304587/SAP_004.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
