@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 104 screening
+
+- Batch 104 produced no promotion: excluded NCT04083456, NCT03224598, NCT04465799, NCT02836470 and NCT05210023 as post-completion, retrospective, conduct-informed or outcome-informed documents, and excluded NCT03528551 and NCT02533570 because the model-visible protocols reproduce the executable target analyses.
+- Held NCT04646109 because the original PDFs print 04.05.2020 while registry metadata records 2020-04-05, and the Protocol Version 4 / SAP Version 3 pair lacks an internal governing-protocol citation.
+- Sequentially downloaded and hash-froze all 16 official PDFs and eight registry records, checked file sizes, extracted every physical page, OCR'd NCT03528551 and visually inspected decisive pages. All eight slots are returned for replenishment while preserving 96 public first-pass drafts.
+
 ## 2026-09-29 - v0.3 Batch 103 screening
 
 - Batch 103 produced no promotion: excluded NCT03136107 and NCT04421014 because their model-visible protocols expose the executable target analyses; excluded NCT03969563 as retrospectively back-dated executed-method material; and excluded NCT02778867, NCT02854059, NCT02472795 and NCT04523831 as post-primary, post-completion, CSR or outcome-informed analysis documents.
