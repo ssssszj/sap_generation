@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 89 screening - 2026-09-29
+
+- Batch 89 produced no promotion: excluded NCT03680742, NCT04183335, NCT02621892 and NCT01990534 because their model-visible protocols expose executable target analyses; excluded NCT03968003 and NCT03068767 as retrospective execution/publication-stage methods; excluded NCT02309411 as a post-completion blind-review-informed SAP and NCT02618967 as a within-study interim-PK/PD-informed adaptive package.
+- Hash-froze and extracted all 16 PDFs and eight registry records, then visually verified every decisive chronology, execution-language, leakage and redaction page. All eight slots were returned for replenishment while preserving 83 public drafts.
+
 ## Batch 88 annotation - 2026-09-29
 
 - Promoted NCT02982772 to `PUBLIC-HIV-NRT-001` after exact title/NCT/date matching of a pre-start protocol and independent analysis document; added 25 requirements for abstinence hierarchy, biochemical verification, logistic and repeated-binary modeling, MAR/MNAR handling, mediation, PCA, sample size, safety and provenance.

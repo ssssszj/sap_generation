@@ -20,25 +20,26 @@
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 4,
-    "oncology": 1,
+    "musculoskeletal_pain": 1,
     "ophthalmology": 2,
     "other_clinical": 1
   },
   "intervention_distribution": {
-    "device": 4,
+    "behavioral": 1,
+    "device": 3,
     "drug": 17,
     "mixed": 7,
     "other": 9
   },
   "endpoint_distribution_multi_label": {
-    "binary": 9,
-    "continuous": 7,
-    "count_or_rate": 7,
-    "other_or_manual_review": 19
+    "binary": 6,
+    "continuous": 8,
+    "count_or_rate": 9,
+    "other_or_manual_review": 21
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 15,
-    "plausible_date_order": 22
+    "exact_document_date_match": 16,
+    "plausible_date_order": 21
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }
