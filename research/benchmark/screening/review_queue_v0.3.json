@@ -5,147 +5,128 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03503812",
+      "candidate_id": "NCT05142280",
       "domain": "cardiovascular",
-      "title": "Mitigating the Health Effects of Desert Dust Storms Using Exposure-Reduction Approaches",
+      "title": "Active Choice Regarding Cardiovascular Disease Risk",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
+        "single",
         "na"
       ],
       "endpoint_types": [
-        "count_or_rate",
-        "continuous"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/12/NCT03503812/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/12/NCT03503812/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT05142280/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT05142280/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04476043",
+      "candidate_id": "NCT04609020",
       "domain": "dermatology",
-      "title": "To Assess the Efficacy and Safety of INCB054707 in Participants With Hidradenitis Suppurativa",
+      "title": "Study to Evaluate Subject Satisfaction With Facial Appearance and Impact of Combined Facial Treatment",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
       ],
       "endpoint_types": [
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT04476043/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT04476043/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT04609020/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT04609020/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT02211261",
+      "candidate_id": "NCT02414958",
       "domain": "endocrine_metabolic",
-      "title": "A Phase 1 Single/Multiple Dose Study Of PF-06293620 To Assess Safety, Tolerability And Pharmacokinetics In Subjects With Type 2 Diabetes Mellitus",
+      "title": "Empagliflozin as Adjunctive to InSulin thErapy Over 52 Weeks in Patients With Type 1 Diabetes Mellitus (EASE-2)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_1"
+        "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02211261/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT02211261/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02414958/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT02414958/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT03107793",
+      "candidate_id": "NCT02980666",
       "domain": "gastroenterology_hepatology",
-      "title": "Study of Treat to Target Versus Routine Care Maintenance Strategies in Crohn's Disease Patients Treated With Ustekinumab",
+      "title": "Study in Japanese Pediatric Subjects With Short Bowel Syndrome (SBS) Who Are Dependent on Parenteral Support",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "time_to_event",
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03107793/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03107793/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02980666/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02980666/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT03814746",
+      "candidate_id": "NCT03993288",
       "domain": "hematology",
-      "title": "Study of Two Doses of Crizanlizumab Versus Placebo in Adolescent and Adult Sickle Cell Disease Patients",
+      "title": "Study to Test the Hypothesis of Non-inferior Efficacy and Safety of Ferrum Lek® (Iron (III) Hydroxide Polymaltosate), 100 mg Chewable Tablets (Lek d.d., Slovenia), as Compared With MALTOFER® (Vifor S.A., Switzerland), in Subjects With Mild and Moderate Iron Deficiency Anemia.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03814746/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT03814746/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03993288/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03993288/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT02636699",
+      "candidate_id": "NCT02708095",
       "domain": "immunology_rheumatology",
-      "title": "Efficacy and Safety of Viaskin Peanut in Children With Immunoglobulin E (IgE)-Mediated Peanut Allergy",
+      "title": "A Study of Baricitinib (LY3009104) in Participants With Systemic Lupus Erythematosus (SLE)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
-        "phase_3"
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT02636699/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT02636699/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/95/NCT02708095/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/95/NCT02708095/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT03123289",
+      "candidate_id": "NCT03474666",
       "domain": "infectious_disease",
-      "title": "Novel Gallium 68 Citrate in Orthopedic Infections",
+      "title": "Glycemic Control and Surgical Site Infection Incidence Among Liver Transplantation Recipients",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "non_randomized",
-        "crossover",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT03123289/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT03123289/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03045081",
-      "domain": "musculoskeletal_pain",
-      "title": "PainTracker Self-Manager: a Web-based Platform to Promote and Track Chronic Pain Self-management",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "non_randomized",
+        "randomized",
         "parallel",
         "none",
         "na"
@@ -153,8 +134,27 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03045081/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03045081/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT03474666/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT03474666/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03291613",
+      "domain": "musculoskeletal_pain",
+      "title": "Gaming Technology to Engage Adolescent Sickle Cell Patients in Pain Management",
+      "pairing_state": "exact_document_date_match",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT03291613/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT03291613/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -178,23 +178,21 @@
     },
     {
       "queue_rank": 10,
-      "candidate_id": "NCT02980666",
+      "candidate_id": "NCT03169894",
       "domain": "gastroenterology_hepatology",
-      "title": "Study in Japanese Pediatric Subjects With Short Bowel Syndrome (SBS) Who Are Dependent on Parenteral Support",
+      "title": "Evaluation of the Safety, Tolerability, and Efficacy of MDGN-002 in Adults With Moderate to Severe Active Crohn's Disease or Ulcerative Colitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_3"
+        "phase_1"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02980666/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02980666/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT03169894/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT03169894/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

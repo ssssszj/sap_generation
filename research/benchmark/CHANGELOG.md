@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 109 screening
+
+- Excluded NCT03503812, NCT02211261, NCT03814746 and NCT03123289 because their complete model-visible protocol families expose the executable target analyses, including power, populations, models, endpoint derivations, missing-data, multiplicity or PK decisions.
+- Excluded NCT03107793 and NCT02636699 because the selected final SAPs postdate actual primary/final completion and their protocols also expose detailed analysis programs; excluded NCT03045081 as a post-completion manuscript methods/results summary.
+- Held NCT04476043 because material CCI redactions obscure the sample-size, hypothesis, primary, sensitivity and secondary analysis decisions across both otherwise matched public documents.
+- Sequentially downloaded and hash-froze 17 official PDFs and eight registry records, including both governing NCT03503812 protocols; extracted all physical pages, rendered 94 decisive pages and visually verified all eight decisions. All slots are returned for replenishment while retaining 98 public first-pass drafts.
+
 ## 2026-09-29 - v0.3 Batch 108 screening
 
 - Excluded NCT04092452, NCT02581345, NCT01962207 and NCT04200352 because their model-visible protocols disclose the executable target analysis, including populations, endpoint methods, missing-data rules, multiplicity or detailed descriptive programs.

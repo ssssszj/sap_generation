@@ -23,16 +23,16 @@
     "musculoskeletal_pain": 1
   },
   "intervention_distribution": {
-    "behavioral": 2,
     "device": 1,
     "drug": 14,
-    "mixed": 2,
-    "other": 3
+    "mixed": 3,
+    "other": 3,
+    "procedure": 1
   },
   "endpoint_distribution_multi_label": {
-    "binary": 4,
-    "continuous": 5,
-    "count_or_rate": 6,
+    "binary": 3,
+    "continuous": 7,
+    "count_or_rate": 3,
     "other_or_manual_review": 12,
     "time_to_event": 2
   },
