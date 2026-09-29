@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 122 screening - 2026-09-30
+
+- Batch 122 produced no promotion: excluded NCT02232399, NCT02916706, NCT03196297, NCT03160885 and NCT03354572 because their model-visible protocols substantially or completely expose the executable target plans; NCT02232399 and NCT02916706 also use post-primary/post-completion references.
+- Excluded NCT04237116 and NCT02400671 because their post-completion plans explicitly incorporate termination, observed subgroups or realized missingness, and excluded NCT02246439 because the selected upload inseparably combines the pre-unblinding final SAP with an outcome/execution-informed post-unblinding supplement.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted 1,266 physical pages, OCRed all 92 scan-only/empty-text pages, rendered 151 decisive pages into 21 contact sheets and visually verified every decision. All eight slots were replenished, retaining 102 public first-pass drafts plus 18 actionable metadata candidates.
+
 ## Batch 121 annotation - 2026-09-30
 
 - Promoted NCT04906057 to `PUBLIC-FORCED-AEROBIC-MS-001` after exact title/NCT/date/IRB matching; added 24 requirements for the randomized FE-versus-VE pilot, EDSS stratification, 12-week intervention, feasibility thresholds, motor/non-motor/biomarker endpoints, direct baseline-adjusted group contrasts and unresolved population, estimand, missingness, multiplicity, uncertainty and safety decisions.

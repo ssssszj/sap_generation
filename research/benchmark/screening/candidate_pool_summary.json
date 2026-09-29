@@ -15,28 +15,30 @@
   "domain_distribution": {
     "cardiovascular": 1,
     "endocrine_metabolic": 1,
-    "gastroenterology_hepatology": 4,
+    "gastroenterology_hepatology": 3,
     "hematology": 5,
     "immunology_rheumatology": 4,
     "infectious_disease": 2,
-    "musculoskeletal_pain": 1
+    "musculoskeletal_pain": 1,
+    "neurology": 1
   },
   "intervention_distribution": {
-    "behavioral": 1,
-    "drug": 13,
+    "device": 1,
+    "drug": 12,
     "mixed": 1,
-    "other": 3
+    "other": 4
   },
   "endpoint_distribution_multi_label": {
-    "continuous": 4,
-    "count_or_rate": 2,
-    "other_or_manual_review": 10,
-    "time_to_event": 2
+    "binary": 3,
+    "continuous": 2,
+    "count_or_rate": 3,
+    "other_or_manual_review": 9,
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 1,
+    "exact_document_date_match": 2,
     "needs_version_review": 2,
-    "plausible_date_order": 15
+    "plausible_date_order": 14
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }
