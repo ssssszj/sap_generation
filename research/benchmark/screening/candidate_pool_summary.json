@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-29",
+  "generated_on": "2026-09-30",
   "source": "ClinicalTrials.gov API v2",
   "api_data_timestamp": "2026-09-29T09:00:05",
   "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true AND AREA[StudyType]INTERVENTIONAL",
@@ -24,21 +24,21 @@
   },
   "intervention_distribution": {
     "behavioral": 1,
-    "device": 1,
-    "drug": 14,
-    "mixed": 2,
+    "drug": 13,
+    "mixed": 4,
     "other": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 3,
-    "continuous": 4,
+    "binary": 2,
+    "continuous": 5,
     "count_or_rate": 4,
     "other_or_manual_review": 10,
-    "time_to_event": 2
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 1,
-    "plausible_date_order": 19
+    "needs_version_review": 1,
+    "plausible_date_order": 18
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
 }

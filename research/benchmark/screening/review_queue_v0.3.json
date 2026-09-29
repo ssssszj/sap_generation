@@ -5,105 +5,47 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT01560624",
+      "candidate_id": "NCT01849575",
       "domain": "cardiovascular",
-      "title": "Phase III Clinical Worsening Study of UT-15C in Subjects With PAH Receiving Background Oral Monotherapy",
+      "title": "Visualization of Asymptomatic Atherosclerotic Disease for Optimum Cardiovascular Prevention",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT01560624/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/24/NCT01560624/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT06831448",
-      "domain": "dermatology",
-      "title": "Human Participant Study of a Prototype Multilayer Foam Dressing on Intact Skin.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "single_group",
-        "none",
+        "single",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT06831448/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT06831448/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01849575/Prot_009.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT01849575/SAP_010.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 3,
-      "candidate_id": "NCT02683746",
-      "domain": "endocrine_metabolic",
-      "title": "Safety and Efficacy Study of Albiglutide Liquid Drug Product in Type 2 Diabetes Mellitus",
-      "pairing_state": "plausible_date_order",
+      "queue_rank": 2,
+      "candidate_id": "NCT02466243",
+      "domain": "dermatology",
+      "title": "Safety, Tolerability, and Efficacy of JBT-101 in Subjects With Dermatomyositis",
+      "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02683746/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/46/NCT02683746/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03482635",
-      "domain": "gastroenterology_hepatology",
-      "title": "BI655130 (SPESOLIMAB) Induction Treatment in Patients With Moderate-to-severe Ulcerative Colitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT03482635/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT03482635/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04603495",
-      "domain": "hematology",
-      "title": "Phase 3 Study of Pelabresib (CPI-0610) in Myelofibrosis (MF) (MANIFEST-2)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
+        "phase_2"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/95/NCT04603495/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/95/NCT04603495/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02466243/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02466243/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02576678",
-      "domain": "immunology_rheumatology",
-      "title": "A Study of Safety, Tolerability and Pharmacokinetics of Apremilast (CC-10004) in Pediatric Subjects With Moderate to Severe Plaque Psoriasis",
+      "queue_rank": 3,
+      "candidate_id": "NCT02722408",
+      "domain": "endocrine_metabolic",
+      "title": "Efficacy and Safety of Gemcabene in Patients With Homozygous Familial Hypercholesterolemia on Stable, Lipid-Lowering Therapy (COBALT-1)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -112,19 +54,75 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event",
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02576678/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT02576678/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02722408/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT02722408/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03639623",
+      "domain": "gastroenterology_hepatology",
+      "title": "Safety, Tolerability, and Efficacy of Saroglitazar Mg 4 mg in Liver Transplant Recipients With Nonalcoholic Fatty Liver Disease (NAFLD)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03639623/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03639623/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT05078138",
+      "domain": "hematology",
+      "title": "Impact of Erythropoietin on Hematological Adaptations and Physical Performance",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "time_to_event",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT05078138/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT05078138/SAP_003.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02969018",
+      "domain": "immunology_rheumatology",
+      "title": "Study To Evaluate Safety And Efficacy Of PF-06700841 In Subjects With Moderate To Severe Plaque Psoriasis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02969018/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT02969018/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT01266902",
+      "candidate_id": "NCT01281813",
       "domain": "infectious_disease",
-      "title": "A Trial With TMC278-TIDP6-C222 for Continued TMC278 Access in Patients Infected With Human Immunodeficiency Virus-1",
+      "title": "TMC114IFD3001 - Study Providing Continued Access to Treatment With Darunavir (DRV)/Ritonavir(Rtv) in HIV1 Infected Adults, Adolescents and Children Aged 3 Years or Above and Coming From Previous Company Sponsored Studies With DRV",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -135,27 +133,27 @@
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT01266902/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT01266902/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT01281813/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT01281813/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03950791",
+      "candidate_id": "NCT03988023",
       "domain": "musculoskeletal_pain",
-      "title": "Single Session Class to Reduce Opioid Use in Chronic Pain",
+      "title": "Study of Ampion for the Treatment of Pain and Function in Patients With Severe Osteoarthritis of the Knee.",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "na"
+        "phase_3"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03950791/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/91/NCT03950791/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03988023/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT03988023/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

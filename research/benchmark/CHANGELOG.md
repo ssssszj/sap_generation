@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 114 screening - 2026-09-30
+
+- Batch 114 produced no promotion: excluded NCT01560624, NCT06831448, NCT02683746 and NCT02576678 because their model-visible protocols disclose the executable primary, population, multiplicity, missing-data, interim, safety, PK or sample-size programs needed to reconstruct the selected plans.
+- Excluded NCT03482635 because SAP Version 3 was revised after interim snapshots and early termination; excluded NCT04603495 because SAP Version 2 follows primary completion and incorporates post-primary FDA feedback while the protocol also exposes the target program; excluded NCT01266902 as an executed-data Week 360 rollover analysis dependent on three parent trials; and excluded NCT03950791 because its method was explicitly selected after observing non-normal outcome distributions.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted every physical page, OCR-reviewed 137 pages whose native text was unavailable or corrupt, rendered 115 decisive identity, chronology, family-dependency and statistical pages, and visually verified all decisions. All eight slots are returned for replenishment while retaining 100 public first-pass drafts.
+
 ## Batch 113 screening - 2026-09-29
 
 - Batch 113 produced no promotion: excluded NCT01342952 and NCT02666430 as parent-study-dependent extensions with protocol leakage; excluded NCT05856526, NCT03329209, NCT02372877 and NCT02927457 because their selected plans are post-primary or post-completion and their protocols expose the executable target; excluded NCT00865566 as an explicitly DSMB/outcome-informed extended-follow-up analysis; and excluded NCT03642938 because its protocol and purported SAP are byte-identical.
