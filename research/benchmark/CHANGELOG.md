@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 118 screening - 2026-09-30
+
+- Batch 118 produced no promotion: excluded NCT01566695, NCT01936831, NCT01954017, NCT03025542 and NCT03781414 because their selected analysis materials are post-primary, post-completion, interim-informed or termination-informed and their protocols also expose substantial executable content.
+- Excluded NCT02065791 and NCT02833857 because their model-visible protocols disclose the executable target analysis. Excluded the otherwise exactly matched prerecruitment NCT04220489 pair because protocol physical page 15 reproduces verbatim the two-page SAP's only substantive method statement, making the complete target reconstructable from the prompt.
+- Sequentially downloaded and SHA-256-froze all 16 official PDFs and eight registry records, extracted 1,131 physical pages, OCRed 26 scan-only/empty-text pages, rendered 18 contact sheets and visually verified the decisive pages. All eight slots are returned for replenishment while retaining 101 public first-pass drafts.
+
 ## Batch 117 annotation - 2026-09-30
 
 - Promoted NCT04111276 to `PUBLIC-OA-BRACE-GAIT-001` after exact title, investigator, institution, protocol-ID and prerecruitment chronology matching; added 23 requirements for its within-participant brace/no-brace gait design, five stance instants, medial-condylar-separation endpoint, prospective 20-evaluable/24-enrolled targets and paired-analysis correction gate.
