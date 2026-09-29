@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 103 screening
+
+- Batch 103 produced no promotion: excluded NCT03136107 and NCT04421014 because their model-visible protocols expose the executable target analyses; excluded NCT03969563 as retrospectively back-dated executed-method material; and excluded NCT02778867, NCT02854059, NCT02472795 and NCT04523831 as post-primary, post-completion, CSR or outcome-informed analysis documents.
+- Sequentially downloaded and hash-froze all 14 official PDFs and seven registry records, extracted every physical page and visually inspected the decisive covers, chronology, executed-analysis and leakage pages. All seven slots are returned for replenishment while preserving 96 public first-pass drafts.
+
 ## 2026-09-29 - v0.3 Batch 102 public expansion
 
 - Promoted NCT03854253 as `PUBLIC-INTROLENGTH-RAO-001` after exact-title/institution/date, prerecruitment chronology and independent-document review; added 18 evidence-backed requirements for its long-versus-short radial-introducer trial.
