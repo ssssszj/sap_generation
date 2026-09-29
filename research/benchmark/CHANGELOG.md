@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 85 annotation - 2026-09-29
+
+- Promoted NCT02805257, NCT07484620 and NCT04549454 after exact identity/date matching and prospective chronology checks; added 66 requirements covering glaucoma surgery, pediatric IBD exercise and a parent-based college alcohol intervention.
+- Preserved explicit source conflicts rather than inventing decisions: six- versus twelve-month primary IOP and surgeon masking for AMC, single 20mSRT versus expanded primary families for PAFIT-IBD, and recruitment denominators, peak-drinks hierarchy, outcome family and prospective wording for FITSTART+.
+- Excluded NCT02781311, NCT02041299, NCT04306965 and NCT04481685 for executable protocol leakage and NCT03235440 as a retrospective post-completion analysis package.
+- Hash-froze, extracted and visually inspected all 16 PDFs and eight registry records, then refreshed the pool to 40 candidates while raising the registered public draft count to 80.
+
 ## Batch 84 annotation - 2026-09-29
 
 - Promoted NCT04984590 to `PUBLIC-IOPCL-AMD-MAG-001` after exact NCT/title/sponsor/product/date matching and visual reconciliation of internal `AMD-20`, `AMD-020` and `AMD-2020` formatting variants; added 23 requirements for study-eye analysis, visual-acuity responders, positional stability, safety, missingness, estimands, multiplicity and interim review.
