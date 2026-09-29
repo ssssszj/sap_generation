@@ -5,67 +5,68 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT02951429",
+      "candidate_id": "NCT02966028",
       "domain": "cardiovascular",
-      "title": "Efficacy, Safety, and Tolerability Study of Pirfenidone in Combination With Sildenafil in Participants With Advanced Idiopathic Pulmonary Fibrosis (IPF) and Intermediate or High Probability of Group 3 Pulmonary Hypertension",
+      "title": "Effect of SNF472 on Progression of Cardiovascular Calcification in End-Stage-Renal-Disease (ESRD) Patients on Hemodialysis (HD)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT02951429/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT02951429/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT02966028/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT02966028/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03267576",
+      "candidate_id": "NCT03315780",
       "domain": "endocrine_metabolic",
-      "title": "An Efficacy Study of Canagliflozin or Sitagliptin to Determine Glucose Variability in Mexican Participants With Type 2 Diabetes Mellitus Inadequately Controlled on Metformin",
+      "title": "A Study of the Glucodynamic Effects of Dulaglutide (LY2189265) in Japanese Participants With Type 2 Diabetes",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "crossover",
-        "double",
+        "single",
         "phase_4"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03267576/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03267576/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03315780/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT03315780/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT02365584",
+      "candidate_id": "NCT02403323",
       "domain": "gastroenterology_hepatology",
-      "title": "Quality of Life in Patients With Inoperable Malignant Bowel Obstruction",
+      "title": "Open-Label Extension and Safety Study for Participants With Crohn's Disease Previously Enrolled in the Etrolizumab Phase III Study GA29144",
       "pairing_state": "needs_version_review",
       "design_tags": [
         "randomized",
-        "parallel",
+        "single_group",
         "none",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
+        "binary",
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT02365584/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT02365584/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02403323/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02403323/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT03985943",
+      "candidate_id": "NCT04178967",
       "domain": "immunology_rheumatology",
-      "title": "Efficacy and Safety of Nemolizumab in Subjects With Moderate-to-Severe Atopic Dermatitis",
+      "title": "Evaluation of the Efficacy and Safety of Lebrikizumab (LY3650150) in Moderate to Severe Atopic Dermatitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -74,55 +75,18 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "binary",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03985943/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT03985943/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT04178967/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT04178967/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT02719743",
+      "candidate_id": "NCT02722837",
       "domain": "infectious_disease",
-      "title": "A Dose Ranging Safety and Immunogenicity Study of GlaxoSmithKline (GSK) Biologicals' GSK1557484A Vaccine in Children 6 to Less Than 36 Months of Age",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02719743/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT02719743/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02713230",
-      "domain": "musculoskeletal_pain",
-      "title": "Efficacy, Safety, and Pharmacokinetics of Brachial Plexus Block With EXPAREL in Shoulder Surgery",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02713230/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT02713230/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01964560",
-      "domain": "neurology",
-      "title": "A Clinical Study to Investigate the Efficacy and Safety of Lacosamide as an Add on Therapy in Children With Epilepsy With Partial-onset Seizures",
+      "title": "Efficacy and Safety of Sofosbuvir/Velpatasvir Fixed-Dose Combination in Participants With Chronic Hepatitis C Virus Infection",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -133,27 +97,65 @@
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT01964560/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/60/NCT01964560/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02722837/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT02722837/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02837952",
+      "domain": "musculoskeletal_pain",
+      "title": "A Study of Ibuprofen (IBU) 250mg/APAP 500mg In The Treatment Of Post-Surgical Dental Pain",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02837952/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT02837952/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02027701",
+      "domain": "neurology",
+      "title": "Extension Study of Maintenance Treatment With Subcutaneous Immunoglobulin (IgPro20) for Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02027701/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02027701/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03712358",
+      "candidate_id": "NCT04732494",
       "domain": "oncology",
-      "title": "PVSRIPO for Patients With Unresectable Melanoma",
+      "title": "Anti-PD-1 Monoclonal Antibody Tislelizumab (BGB-A317) Combined With or Without Anti-TIGIT Monoclonal Antibody Ociperlimab (BGB-A1217) in Participants With Recurrent or Metastatic Esophageal Squamous Cell Carcinoma",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
-        "non_randomized",
-        "sequential",
-        "none",
-        "phase_1"
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_2"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT03712358/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT03712358/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04732494/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04732494/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

@@ -23,14 +23,15 @@
     "oncology": 4
   },
   "intervention_distribution": {
-    "drug": 11,
-    "mixed": 1,
-    "other": 4
+    "drug": 10,
+    "mixed": 3,
+    "other": 3
   },
   "endpoint_distribution_multi_label": {
     "binary": 5,
-    "continuous": 5,
-    "other_or_manual_review": 8
+    "continuous": 6,
+    "count_or_rate": 2,
+    "other_or_manual_review": 7
   },
   "pairing_state_distribution": {
     "exact_document_date_match": 4,
