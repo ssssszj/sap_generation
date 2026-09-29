@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 78 screening - 2026-09-29
+
+- Batch 78 produced no promotion: excluded NCT03098979, NCT04867785, NCT04845620, NCT03422172, NCT02642393, NCT02023697 and NCT03982368 because their model-visible protocols expose executable target analyses; five selected references additionally have post-primary/post-completion, execution-informed or governing-version defects.
+- Placed NCT04130802 on public-redaction hold because its otherwise prospective matching protocol/SAP pair materially obscures the hierarchical hypotheses, analysis populations, sample-size calculation, primary methods, safety/missing-data details and output inventory.
+- Batch 78 hash-froze and extracted all 16 PDFs and eight registry records, visually checked every identity, chronology, version, redaction and decisive statistical page, and returned all eight slots for replenishment while preserving 72 public drafts.
+
 ## Batch 77 screening - 2026-09-24
 
 - Batch 77 produced no promotion: excluded NCT03078907, NCT02910089, NCT04753034, NCT03400163, NCT04108468, NCT03179891 and NCT01915498 for executable protocol analysis leakage plus post-primary/post-completion, execution-informed or governing-version defects.
