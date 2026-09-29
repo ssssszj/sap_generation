@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 91 screening - 2026-09-29
+
+- Batch 91 produced no promotion: excluded NCT02819635 and NCT02690935 for executable protocol leakage; excluded NCT03683030, NCT05650567 and NCT04259632 as post-completion, termination-informed or executed-results analysis packages; excluded NCT03136185 as a within-study outcome-informed adaptive Phase 1/2-to-2b package; and excluded NCT03519568 and NCT04869085 because their uploads are retrospective/registry/grant excerpts rather than independent prospective protocol/SAP pairs.
+- Hash-froze and page-extracted all 16 PDFs and eight registry records, then visually verified the decisive chronology, interim-termination, executed-analysis, leakage, adaptive-dose and shared-document pages. All eight slots were returned for replenishment while preserving 83 public drafts.
+
 ## Batch 90 screening - 2026-09-29
 
 - Batch 90 produced no promotion: excluded NCT04074941, NCT04556734, NCT02825251, NCT02762500, NCT01151423, NCT02635776 and NCT04336332 because their model-visible protocols expose executable target analyses; NCT02825251 and NCT02635776 additionally use post-primary/post-completion SAPs.

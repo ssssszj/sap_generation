@@ -25,21 +25,21 @@
     "other_clinical": 1
   },
   "intervention_distribution": {
-    "behavioral": 3,
-    "device": 4,
+    "behavioral": 2,
+    "device": 3,
     "drug": 17,
-    "mixed": 6,
+    "mixed": 8,
     "other": 7
   },
   "endpoint_distribution_multi_label": {
     "binary": 7,
-    "continuous": 9,
-    "count_or_rate": 9,
-    "other_or_manual_review": 20,
-    "time_to_event": 1
+    "continuous": 6,
+    "count_or_rate": 8,
+    "other_or_manual_review": 20
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 15,
+    "exact_document_date_match": 14,
+    "needs_version_review": 1,
     "plausible_date_order": 22
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
