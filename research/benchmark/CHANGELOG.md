@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 113 screening - 2026-09-29
+
+- Batch 113 produced no promotion: excluded NCT01342952 and NCT02666430 as parent-study-dependent extensions with protocol leakage; excluded NCT05856526, NCT03329209, NCT02372877 and NCT02927457 because their selected plans are post-primary or post-completion and their protocols expose the executable target; excluded NCT00865566 as an explicitly DSMB/outcome-informed extended-follow-up analysis; and excluded NCT03642938 because its protocol and purported SAP are byte-identical.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted every physical page, rendered 76 decisive identity, chronology, family-dependency, statistical and document-type pages, and visually verified all decisions. All eight slots are returned for replenishment while retaining 100 public first-pass drafts.
+
 ## Batch 112 screening - 2026-09-29
 
 - Batch 112 produced no promotion: excluded NCT05897073, NCT05368103, NCT03255174 and NCT07137026 because their model-visible protocols reproduce the executable target analysis; excluded NCT02634333, NCT04132050 and NCT02770170 because their selected SAPs are post-primary, manuscript-stage or interim-informed and their protocols also leak the target program; and excluded NCT01197300 as a core-study-dependent extension with protocol leakage.
