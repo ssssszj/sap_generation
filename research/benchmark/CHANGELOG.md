@@ -1,5 +1,13 @@
 # Changelog
 
+## Batch 93 annotation - 2026-09-29
+
+- Promoted NCT05473767 to `PUBLIC-ENRICH-FCU-HEART-001` after exact title/date matching of a pre-start protocol and independent analysis plan; added 20 requirements covering the 2:1 FCU-Heart pilot, cardiovascular and implementation endpoints, t-based confidence intervals, race-stratum analyses, prospective sample size, estimands, missingness, qualitative work and safety.
+- Promoted NCT05472740 to `PUBLIC-TENS-EMB-001` after exact title, Duke identifier, Version 1.9 and date matching; added 21 requirements covering active-versus-placebo TENS, repeated VAS outcomes, primary baseline-adjusted regression, prospective power, masking, missingness, multiplicity, acceptability and safety.
+- Preserved explicit provenance and analysis gates for ENRICH's post-completion upload of nominally pre-start files and unresolved endpoint hierarchy, and for TENS's during-study Version 1.9, unexplained baseline-pain covariate and under-specified population and estimand.
+- Excluded NCT02798120, NCT02964247 and NCT02725515 for executable protocol leakage; excluded NCT03123120 as an interim-informed analysis plan, NCT03369444 as a post-completion plan and NCT06925620 for an impossible retrospective NCT/document chronology.
+- Hash-froze, page-extracted and visually inspected all 16 PDFs and eight registry records, refreshed the pool to 34 candidates and raised the registered public draft count to 86 with 1,599 public requirements.
+
 ## Batch 92 annotation - 2026-09-29
 
 - Promoted NCT04167566 to `PUBLIC-PAKRO-MTTT-001` after exact title/date matching and chronology, independence and leakage review; added 22 requirements covering the seven-community implementation design, longitudinal and cross-sectional denominators, MTTT intervention, prevalence and anaemia endpoints, logistic and trend analyses, confounding, clustering, missingness, sample size, hospital use, qualitative work and safety.
