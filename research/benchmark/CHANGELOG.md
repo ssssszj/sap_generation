@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 115 screening - 2026-09-30
+
+- Batch 115 produced no promotion: excluded NCT01849575, NCT02722408, NCT03639623, NCT05078138, NCT02969018 and NCT01281813 because their selected plans are post-primary, post-completion, observed/interim-data-informed, parent-trial-dependent or reproduced by the model-visible protocol; excluded NCT02466243 because the selected Part A SAP cites Protocol Version 2 while the public prompt is post-Part-A Version 5 and also exposes the target analysis; and excluded NCT03988023 because its same-day protocol already contains the executable co-primary adaptive analysis.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted all 752 physical pages, OCR-reviewed 166 scanned pages, rendered 138 decisive identity, chronology, family-dependency and statistical pages, and visually verified all decisions. All eight slots are returned for replenishment while retaining 100 public first-pass drafts.
+
 ## Batch 114 screening - 2026-09-30
 
 - Batch 114 produced no promotion: excluded NCT01560624, NCT06831448, NCT02683746 and NCT02576678 because their model-visible protocols disclose the executable primary, population, multiplicity, missing-data, interim, safety, PK or sample-size programs needed to reconstruct the selected plans.
