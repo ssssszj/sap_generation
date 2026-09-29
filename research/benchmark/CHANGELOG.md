@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-09-29 - v0.3 Batch 110 annotation
+
+- Promoted NCT05142280 to `PUBLIC-ACTIVE-CHOICE-CVD-001` after exact NCT/title/date matching between Protocol Version 1 and the independent prerecruitment SAP; added 24 requirements for the bundled active-choice contrast, three primary outcomes, composite and coding rules, endpoint-specific regressions, missingness, confounder/modifier governance, multiplicity and prospective n=724.
+- Excluded NCT02980666, NCT03993288, NCT02708095 and NCT03474666 because their model-visible protocols expose or reproduce the executable target analyses.
+- Excluded NCT04609020 and NCT02414958 because their selected SAPs postdate actual completion and their protocols also disclose detailed analysis programs; excluded NCT03291613 as a post-completion executed-usability package.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted every physical page, rendered 102 decisive pages and visually verified every decision. The public first-pass count increased to 99; all seven rejected slots are returned for replenishment.
+
 ## 2026-09-29 - v0.3 Batch 109 screening
 
 - Excluded NCT03503812, NCT02211261, NCT03814746 and NCT03123289 because their complete model-visible protocol families expose the executable target analyses, including power, populations, models, endpoint derivations, missing-data, multiplicity or PK decisions.
