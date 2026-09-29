@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 111 annotation - 2026-09-29
+
+- Promoted NCT05293951 to `PUBLIC-MIRROR-CROSS-ED-STROKE-001` after exact title/institution/date matching through the official pre-assignment registry binding; added 23 requirements for the randomized resisted-versus-unresisted mirror-training pilot, endpoint hierarchy, direct between-group repeated measures, population, estimand, missingness, multiplicity, feasibility, safety, uncertainty and prospective sample size.
+- Preserved explicit gates for the missing NCT inside both PDFs, protocol-versus-registry masking and endpoint conflicts, and the inadequacy of the reference plan's within-arm paired tests as a randomized comparison.
+- Excluded NCT02609633, NCT04641858 and NCT02390050 for executable protocol leakage; excluded NCT04856904, NCT03169894 and NCT02718898 for post-primary SAPs plus protocol leakage; and excluded NCT03995784 because its protocol slot is a final CSR appendix that also discloses the target program.
+- Sequentially downloaded and hash-froze 16 official PDFs and eight registry records, extracted every physical page and visually inspected all decisive pages. The public first-pass count increased to 100; all seven rejected slots are returned for replenishment.
+
 ## 2026-09-29 - v0.3 Batch 110 annotation
 
 - Promoted NCT05142280 to `PUBLIC-ACTIVE-CHOICE-CVD-001` after exact NCT/title/date matching between Protocol Version 1 and the independent prerecruitment SAP; added 24 requirements for the bundled active-choice contrast, three primary outcomes, composite and coding rules, endpoint-specific regressions, missingness, confounder/modifier governance, multiplicity and prospective n=724.
