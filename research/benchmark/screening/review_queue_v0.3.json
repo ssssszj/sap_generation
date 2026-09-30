@@ -5,85 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03795298",
+      "candidate_id": "NCT03844945",
       "domain": "cardiovascular",
-      "title": "Comparison of Anticoagulation With Left Atrial Appendage Closure After AF Ablation",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT03795298/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT03795298/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04839393",
-      "domain": "endocrine_metabolic",
-      "title": "A Drug-Drug Interaction Study Between PF-06882961 and PF-06865571 in Healthy Adult Participants and Overweight Adults or Adults With Obesity Who Are Otherwise Healthy",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "sequential",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT04839393/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT04839393/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05917288",
-      "domain": "immunology_rheumatology",
-      "title": "A Study of Belimumab in Chinese Pediatric Participants With Systemic Lupus Erythematosus",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT05917288/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT05917288/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03368053",
-      "domain": "infectious_disease",
-      "title": "Long-term Immunogenicity of the HIV gp120-NefTat/AS01B Vaccine (GSK SB732461)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03368053/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03368053/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04506463",
-      "domain": "musculoskeletal_pain",
-      "title": "Efficacy and Safety of MM-II for Treatment of Knee Pain in Subjects With Symptomatic Knee Osteoarthritis",
+      "title": "Efficacy and Systemic Safety of Netarsudil 0.01%, 0.02%, 0.04% Relative to Placebo in Subjects With Open-angle Glaucoma or Ocular Hypertension in Japan",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -94,15 +18,72 @@
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04506463/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04506463/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03844945/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03844945/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT03548584",
-      "domain": "neurology",
-      "title": "A Trial to Evaluate the Safety, Efficacy, and Tolerability of Brexpiprazole in Treating Agitation Associated With Dementia of the Alzheimer's Type",
+      "queue_rank": 2,
+      "candidate_id": "NCT04889157",
+      "domain": "endocrine_metabolic",
+      "title": "A Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Safety and Tolerability of PF-06882961 in Chinese Adults With Type 2 Diabetes Mellitus",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT04889157/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT04889157/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT06011733",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Evaluate the Efficacy and Safety of Bimekizumab in Chinese Adult Study Participants With Moderate to Severe Plaque Psoriasis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT06011733/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT06011733/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03381196",
+      "domain": "infectious_disease",
+      "title": "A Study to Evaluate the Efficacy and Safety of Pimodivir in Combination With the Standard-of-Care Treatment in Adolescent, Adult, and Elderly Non-Hospitalized Participants With Influenza A Infection Who Are at Risk of Developing Complications",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT03381196/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT03381196/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04508621",
+      "domain": "musculoskeletal_pain",
+      "title": "A Phase 3 Study To Evaluate The Efficacy And Safety Of TNX-102 SL In Patients With Fibromyalgia",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -113,48 +94,66 @@
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT03548584/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT03548584/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT04508621/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT04508621/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03559257",
+      "domain": "neurology",
+      "title": "A Study of Galcanezumab (LY2951742) in Adults With Treatment-Resistant Migraine",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03559257/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03559257/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT01796171",
+      "candidate_id": "NCT02049957",
       "domain": "oncology",
-      "title": "A Phase 1/2 Study of Betalutin for Treatment of Relapsed Non-Hodgkin Lymphoma",
+      "title": "Safety and Efficacy Study of Sapanisertib in Combination With Exemestane or Fulvestrant in Postmenopausal Women With Estrogen Receptor Positive/Human Epidermal Growth Factor Receptor 2 Negative (ER+/HER2-) Metastatic Breast Cancer",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "sequential",
+        "non_randomized",
+        "parallel",
         "none",
-        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01796171/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01796171/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02049957/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT02049957/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03846193",
+      "candidate_id": "NCT03846453",
       "domain": "ophthalmology",
-      "title": "FOCUS: A Phase I/II First in Human Study to Evaluate the Safety and Efficacy of GT005 Administered in Subjects With Dry AMD",
+      "title": "A Study to Assess Efficacy and Safety of HL036 in Subjects With Dry Eyes",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
-        "sequential",
-        "none",
-        "phase_1",
-        "phase_2"
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03846193/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03846193/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03846453/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03846453/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

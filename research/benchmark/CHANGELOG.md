@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 160 screening - 2026-09-30
+
+- Batch 160 produced no promotion: excluded NCT03795298 and NCT04839393 because their model-visible protocols substantially reconstruct the targets, with NCT04839393 also using preliminary draft data from a related study; excluded NCT05917288, NCT03368053, NCT04506463, NCT03548584, NCT01796171 and NCT03846193 because their selected targets or governing packages are post-primary/post-completion, unblinded-interim-, draft-TFL-, dose-escalation-, safety-experience- or other accumulated-conduct-informed.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, checked all 1,238 physical pages for text availability, and rendered and visually inspected 57 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 159 screening - 2026-09-30
 
 - Batch 159 produced no promotion: excluded NCT03702608 and NCT03791619 because their model-visible protocols substantially reconstruct the target analyses; excluded NCT04828785, NCT05879718, NCT03343626, NCT04482582, NCT03507790 and NCT02028455 because their selected targets are post-primary/post-completion, early-termination-, realized-missingness/retention-, screen-failure-, interim-, database-error-, completed-phase- or other accumulated-conduct-informed.
