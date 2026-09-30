@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 151 screening - 2026-09-30
+
+- Batch 151 produced no promotion: excluded NCT03496207, NCT05375929, NCT03170609, NCT03853694, NCT02783573 and NCT00357682 because their selected targets are post-primary/post-completion, related-study-family-, authority-, CSR-shell-, performed-interim-, futility- or DSMC-informed and substantially reconstructable from the model-visible protocols; excluded NCT04140032 because its alleged SAP is a post-completion executed methods note; and excluded NCT03499873 because its protocol reconstructs the target while the public SAP also materially redacts core analysis blocks.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 958 physical pages, and rendered and visually inspected 123 decisive pages in eight contact sheets, with auxiliary OCR review of the NCT03499873 protocol. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 150 screening - 2026-09-30
 
 - Batch 150 produced no promotion: placed NCT03409731 on public-redaction hold because material population, sample-size, missingness, covariate and multiplicity content is obscured; excluded NCT04102189, NCT05186805, NCT03149848, NCT03789292, NCT02687542, NCT01790126 and NCT03478865 because their selected targets are post-completion, post-unblinding, interim-, site-conduct-, COVID-, adaptive-PK- or outcome-informed and/or substantially reconstructable from the model-visible protocols.
