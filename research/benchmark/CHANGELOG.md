@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 155 screening - 2026-09-30
+
+- Batch 155 produced no promotion: excluded NCT03604263, NCT04450407, NCT05678959, NCT03236506, NCT04172831, NCT03118947, NCT01923168 and NCT03681886 because their selected targets are post-primary/post-completion, early-termination-, COVID-, arm-termination-, realized-cohort- or other accumulated-conduct-informed and/or substantially reconstructable from their model-visible protocols.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,094 physical pages, and rendered and visually inspected 137 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 154 screening - 2026-09-30
 
 - Batch 154 produced no promotion: excluded NCT03510663, NCT04450394, NCT05439941, NCT03198507, NCT04114656, NCT02988401 and NCT01889069 because their selected packages are post-primary/post-completion, observed-conduct-, arm-termination-, parent-lock-, final-analysis-, interim-unblinding- or COVID-shutdown-informed and substantially reconstructable from their model-visible protocols; excluded NCT03636061 because its materially redacted SAP follows study completion.
