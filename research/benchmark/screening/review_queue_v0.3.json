@@ -5,28 +5,87 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04103034",
+      "candidate_id": "NCT04213807",
       "domain": "cardiovascular",
-      "title": "A SAD/MAD Study of Safety, Tolerability and Pharmacologic Activity of BT200 in Normal Volunteers",
+      "title": "A Dose-range Finding Study of MAA868 in Patients With Atrial Fibrillation",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "sequential",
-        "triple",
-        "phase_1"
+        "parallel",
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "count_or_rate",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04103034/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04103034/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04213807/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04213807/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04998201",
+      "candidate_id": "NCT05048719",
       "domain": "endocrine_metabolic",
-      "title": "Study of Plozasiran (ARO-APOC3) in Adults With Mixed Dyslipidemia",
+      "title": "A Study of LY3502970 in Participants With Type 2 Diabetes Mellitus",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT05048719/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT05048719/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT03451851",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Evaluate the Efficacy, Safety, and Pharmacokinetics of Subcutaneously Administered Guselkumab for the Treatment of Chronic Plaque Psoriasis in Pediatric Participants",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT03451851/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT03451851/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT02527681",
+      "domain": "infectious_disease",
+      "title": "Pharmacokinetics and Safety of Ceftobiprole in Neonates and Infants up to 3 Months Treated With Systemic Antibiotics",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT02527681/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT02527681/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT05008835",
+      "domain": "musculoskeletal_pain",
+      "title": "Evaluate the Efficacy and Safety of ACP-044 in Subjects With Pain Associated With Osteoarthritis of the Knee",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -37,122 +96,67 @@
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04998201/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04998201/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT03020199",
-      "domain": "immunology_rheumatology",
-      "title": "Study of the Efficacy of Early Intervention With Secukinumab 300 mg s.c. Compared to Narrow-band UVB in Patients With New-onset Moderate to Severe Plaque Psoriasis",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03020199/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03020199/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03450915",
-      "domain": "infectious_disease",
-      "title": "A Pivotal Trial to Assess the Safety and Clinical Efficacy of the M-001 as a Standalone Universal Flu Vaccine",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT03450915/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT03450915/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04927247",
-      "domain": "musculoskeletal_pain",
-      "title": "A Study of a Single Dose of Inclacumab to Reduce Re-admission in Participants With Sickle Cell Disease and Recurrent Vaso-occlusive Crises",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04927247/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04927247/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT05008835/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT05008835/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT03841604",
+      "candidate_id": "NCT03872453",
       "domain": "neurology",
-      "title": "Effect of Safinamide on Parkinson's Disease Related Chronic Pain",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT03841604/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT03841604/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02107703",
-      "domain": "oncology",
-      "title": "A Study of Abemaciclib (LY2835219) Combined With Fulvestrant in Women With Hormone Receptor Positive HER2 Negative Breast Cancer",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02107703/Prot_004.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02107703/SAP_005.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT04005352",
-      "domain": "ophthalmology",
-      "title": "Study to Assess the Efficacy and Safety of Brolucizumab 6mg Compared to Aflibercept 2 mg in a Treat-to-control Regimen (TALON)",
+      "title": "Acute Treatment Trial in Adult Subjects With Migraines",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "triple",
+        "phase_2",
         "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03872453/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03872453/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02129556",
+      "domain": "oncology",
+      "title": "Anti-PD-1 Monoclonal Antibody in Advanced, Trastuzumab-resistant, HER2-positive Breast Cancer",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT02129556/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT02129556/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT04092907",
+      "domain": "ophthalmology",
+      "title": "A Study Evaluating the Efficacy and Safety on Moderate to Severe Dry Eye",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT04005352/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT04005352/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04092907/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04092907/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -176,21 +180,21 @@
     },
     {
       "queue_rank": 10,
-      "candidate_id": "NCT02527681",
+      "candidate_id": "NCT03452540",
       "domain": "infectious_disease",
-      "title": "Pharmacokinetics and Safety of Ceftobiprole in Neonates and Infants up to 3 Months Treated With Systemic Antibiotics",
+      "title": "Efficacy and Safety of Orally Administered DS102 in Patients With Acute Alcoholic Hepatitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_1"
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT02527681/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT02527681/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT03452540/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT03452540/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
