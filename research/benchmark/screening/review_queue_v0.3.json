@@ -5,28 +5,86 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04270747",
+      "candidate_id": "NCT04285580",
       "domain": "cardiovascular",
-      "title": "A Study to Understand Effectiveness and Safety of ABP 938 Compared to Aflibercept (Eylea®) in Patients Suffering With Neovascular Age-related Macular Degeneration [Neovascular (Wet) AMD]",
+      "title": "A Phase 3b Study Evaluating the 24-Hour Intraocular Pressure Lowering Effect of Bimatoprost SR in Patients With Open-Angle Glaucoma or Ocular Hypertension",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
+        "non_randomized",
         "parallel",
-        "triple",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04270747/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04270747/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04285580/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04285580/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT05227677",
+      "candidate_id": "NCT05264376",
       "domain": "endocrine_metabolic",
-      "title": "Value of Glycated Albumin in Intervention of Glycemic Control in Chinese Patients With Type 2 Diabetes",
+      "title": "Eating Disorder Prevention Program for Women With T1D",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT05264376/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT05264376/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT04931563",
+      "domain": "immunology_rheumatology",
+      "title": "Anifrolumab Asian PhIII Efficacy Study for Systemic Lupus Erythematosus (SLE)",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04931563/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04931563/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03555981",
+      "domain": "infectious_disease",
+      "title": "Early Kangaroo Mother Care in Gambian Hospitalised Unstable Neonates",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03555981/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03555981/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT05244187",
+      "domain": "musculoskeletal_pain",
+      "title": "Study to Evaluate the OrthoCor Active System for Pain Relief",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -37,16 +95,55 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT05227677/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT05227677/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT05244187/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT05244187/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 3,
-      "candidate_id": "NCT03952559",
-      "domain": "immunology_rheumatology",
-      "title": "A Study of Baricitinib (LY3009104) in Children and Adolescents With Atopic Dermatitis",
-      "pairing_state": "needs_version_review",
+      "queue_rank": 6,
+      "candidate_id": "NCT03984305",
+      "domain": "neurology",
+      "title": "Utilization of Target Ranges to Treat Parkinson's Disease With the PKG",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "single",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT03984305/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT03984305/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02210559",
+      "domain": "oncology",
+      "title": "A Study of Gemcitabine Plus Nab-paclitaxel With or Without FG-3019 in Participants With Locally Advanced, Unresectable Pancreatic Cancer",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT02210559/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT02210559/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT04567329",
+      "domain": "ophthalmology",
+      "title": "Effect of NOV03 on Signs and Symptoms of Dry Eye Disease Associated With Meibomian Gland Dysfunction (Mojave Study)",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
@@ -54,107 +151,10 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03952559/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT03952559/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03484533",
-      "domain": "infectious_disease",
-      "title": "HIV Self Testing of Male Partners of Women in PMTCT",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03484533/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03484533/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT05139030",
-      "domain": "musculoskeletal_pain",
-      "title": "Phase 3 Adductor Canal Block With EXPAREL in Subjects Undergoing Primary Unilateral Total Knee Arthroplasty",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT05139030/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/30/NCT05139030/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03971071",
-      "domain": "neurology",
-      "title": "A Study to Evaluate the Efficacy and Safety of Erenumab in Adults With Medication Overuse Headache",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03971071/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT03971071/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01781429",
-      "domain": "oncology",
-      "title": "Phase I Dose-Escalation, Safety, Pharmacokinetic and Pharmacodynamic Study of BVD-523 in Patients With Advanced Malignancies",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01781429/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01781429/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT04181593",
-      "domain": "ophthalmology",
-      "title": "Phase 3 Study of the Safety and Efficacy of OmegaD Softgels in the Treatment of Dry Eye Disease",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT04181593/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT04181593/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04567329/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04567329/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
