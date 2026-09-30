@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 150 screening - 2026-09-30
+
+- Batch 150 produced no promotion: placed NCT03409731 on public-redaction hold because material population, sample-size, missingness, covariate and multiplicity content is obscured; excluded NCT04102189, NCT05186805, NCT03149848, NCT03789292, NCT02687542, NCT01790126 and NCT03478865 because their selected targets are post-completion, post-unblinding, interim-, site-conduct-, COVID-, adaptive-PK- or outcome-informed and/or substantially reconstructable from the model-visible protocols.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,057 physical pages, and rendered and visually inspected 121 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 149 screening - 2026-09-30
 
 - Batch 149 produced no promotion: excluded NCT03354429, NCT04064411, NCT05162586, NCT03107377, NCT03682302, NCT02638103, NCT01588184 and NCT03452033 because their selected targets are post-primary/post-completion, adaptive-interim-, regulatory-, parent-study-, COVID- or other accumulated-conduct-informed and/or substantially reconstructable from the model-visible protocols.

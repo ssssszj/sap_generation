@@ -23,17 +23,16 @@
     "ophthalmology": 1
   },
   "intervention_distribution": {
-    "behavioral": 1,
-    "device": 1,
+    "behavioral": 2,
     "drug": 9,
     "mixed": 1,
     "other": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 2,
-    "continuous": 4,
+    "binary": 1,
+    "continuous": 3,
     "count_or_rate": 2,
-    "other_or_manual_review": 7
+    "other_or_manual_review": 9
   },
   "pairing_state_distribution": {
     "plausible_date_order": 14
