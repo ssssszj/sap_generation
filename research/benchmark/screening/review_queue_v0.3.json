@@ -5,123 +5,143 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03702608",
+      "candidate_id": "NCT03795298",
       "domain": "cardiovascular",
-      "title": "BIONICS 38 mm Trial EluNIR Ridaforolimus Eluting Coronary Stent System (EluNIR) In Coronary Stenosis Trial",
+      "title": "Comparison of Anticoagulation With Left Atrial Appendage Closure After AF Ablation",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT03795298/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT03795298/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT04839393",
+      "domain": "endocrine_metabolic",
+      "title": "A Drug-Drug Interaction Study Between PF-06882961 and PF-06865571 in Healthy Adult Participants and Overweight Adults or Adults With Obesity Who Are Otherwise Healthy",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "sequential",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT04839393/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT04839393/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT05917288",
+      "domain": "immunology_rheumatology",
+      "title": "A Study of Belimumab in Chinese Pediatric Participants With Systemic Lupus Erythematosus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03702608/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT03702608/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04828785",
-      "domain": "endocrine_metabolic",
-      "title": "Food As MedicinE for Diabetes",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04828785/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04828785/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05879718",
-      "domain": "immunology_rheumatology",
-      "title": "A Study to Learn About the Study Medicine (PF-06823859) in Adults With Active CLE or SLE With Skin Symptoms.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
+        "phase_1"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT05879718/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT05879718/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT05917288/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT05917288/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT03343626",
+      "candidate_id": "NCT03368053",
       "domain": "infectious_disease",
-      "title": "Safety, Immunogenicity, and Dose Ranging Study of Inactivated Zika Virus Vaccine in Healthy Participants",
+      "title": "Long-term Immunogenicity of the HIV gp120-NefTat/AS01B Vaccine (GSK SB732461)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03368053/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03368053/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04506463",
+      "domain": "musculoskeletal_pain",
+      "title": "Efficacy and Safety of MM-II for Treatment of Knee Pain in Subjects With Symptomatic Knee Osteoarthritis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT03343626/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT03343626/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04482582",
-      "domain": "musculoskeletal_pain",
-      "title": "Early Percutaneous Cryoablation for Pain Control After Rib Fractures Among Elderly Patients",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "na"
+        "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04482582/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT04482582/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04506463/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04506463/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT03507790",
+      "candidate_id": "NCT03548584",
       "domain": "neurology",
-      "title": "A Study to Evaluate the Safety and Efficacy of CT1812 in Subjects With Mild to Moderate Alzheimer's Disease.",
+      "title": "A Trial to Evaluate the Safety, Efficacy, and Tolerability of Brexpiprazole in Treating Agitation Associated With Dementia of the Alzheimer's Type",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT03507790/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/90/NCT03507790/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT03548584/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT03548584/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02028455",
+      "candidate_id": "NCT01796171",
       "domain": "oncology",
-      "title": "A Pediatric and Young Adult Trial of Genetically Modified T Cells Directed Against CD19 for Relapsed/Refractory CD19+ Leukemia",
+      "title": "A Phase 1/2 Study of Betalutin for Treatment of Relapsed Non-Hodgkin Lymphoma",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "sequential",
+        "none",
+        "phase_1",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01796171/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01796171/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03846193",
+      "domain": "ophthalmology",
+      "title": "FOCUS: A Phase I/II First in Human Study to Evaluate the Safety and Efficacy of GT005 Administered in Subjects With Dry AMD",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "non_randomized",
@@ -131,30 +151,10 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02028455/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/55/NCT02028455/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03791619",
-      "domain": "ophthalmology",
-      "title": "Post-Approval Study of the TECNIS SYMFONY® Toric Lenses",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT03791619/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT03791619/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03846193/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03846193/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -197,13 +197,13 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT01796171",
+      "candidate_id": "NCT01781429",
       "domain": "oncology",
-      "title": "A Phase 1/2 Study of Betalutin for Treatment of Relapsed Non-Hodgkin Lymphoma",
+      "title": "Phase I Dose-Escalation, Safety, Pharmacokinetic and Pharmacodynamic Study of BVD-523 in Patients With Advanced Malignancies",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "sequential",
+        "na",
+        "single_group",
         "none",
         "phase_1",
         "phase_2"
@@ -211,8 +211,8 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01796171/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/71/NCT01796171/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01781429/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01781429/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -236,22 +236,20 @@
     },
     {
       "queue_rank": 13,
-      "candidate_id": "NCT01781429",
+      "candidate_id": "NCT02039947",
       "domain": "oncology",
-      "title": "Phase I Dose-Escalation, Safety, Pharmacokinetic and Pharmacodynamic Study of BVD-523 in Patients With Advanced Malignancies",
+      "title": "Study to Evaluate Treatment of Dabrafenib Plus Trametinib in Subjects With BRAF Mutation-Positive Melanoma That Has Metastasized to the Brain",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "non_randomized",
         "none",
-        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01781429/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT01781429/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02039947/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT02039947/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
