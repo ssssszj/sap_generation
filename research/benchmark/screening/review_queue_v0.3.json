@@ -5,159 +5,44 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03226457",
+      "candidate_id": "NCT03289481",
       "domain": "cardiovascular",
-      "title": "SGLT2 Inhibition in Combination With Diuretics in Heart Failure",
+      "title": "Treatment of HFpEF With Nitrate Supplement",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "crossover",
         "quadruple",
-        "phase_4"
+        "early_phase_1"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03226457/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/57/NCT03226457/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03289481/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03289481/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03819153",
+      "candidate_id": "NCT03908125",
       "domain": "endocrine_metabolic",
-      "title": "A Research Study to See How Semaglutide Works Compared to Placebo in People With Type 2 Diabetes and Chronic Kidney Disease",
+      "title": "Post Approval Study of the Eversense® Continuous Glucose Monitoring",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03819153/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03819153/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03908125/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03908125/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05001737",
-      "domain": "immunology_rheumatology",
-      "title": "Evaluate Efficacy, Safety and Tolerability, PK and PD of Emapalumab in Children and Adults With MAS in Still's or SLE",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT05001737/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT05001737/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03005327",
-      "domain": "infectious_disease",
-      "title": "A Dose Determination and Safety Study of X4P-001 (Mavorixafor) in Participants With Warts, Hypogammaglobulinemia, Infections, and Myelokathexis (WHIM) Syndrome",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03005327/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03005327/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03529942",
-      "domain": "musculoskeletal_pain",
-      "title": "Study to Evaluate the Effect of FX006 on Synovial Inflammation in Patients With OA of the Knee",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT03529942/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT03529942/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02614287",
-      "domain": "neurology",
-      "title": "A Safety Study of Galcanezumab in Participants With Migraine, With or Without Aura",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT02614287/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT02614287/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01343043",
-      "domain": "oncology",
-      "title": "A Pilot Study of Genetically Engineered NY-ESO-1 Specific NY-ESO-1ᶜ²⁵⁹T in HLA-A2+ Patients With Synovial Sarcoma",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT01343043/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT01343043/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03019627",
-      "domain": "ophthalmology",
-      "title": "An 8-week Study to Evaluate Safety and Efficacy of NGF Eye Drops Solution Versus Vehicle in Patients With Dry Eye",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03019627/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03019627/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 9,
       "candidate_id": "NCT02975206",
       "domain": "immunology_rheumatology",
       "title": "Study of the Efficacy, Safety, and Tolerability of Serlopitant for Pruritus (Itch) in Atopic Dermatitis",
@@ -173,6 +58,125 @@
       ],
       "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02975206/Prot_000.pdf",
       "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02975206/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03020745",
+      "domain": "infectious_disease",
+      "title": "A Study to Assess the Safety, Tolerability, Pharmacokinetics (PK) and Pharmacodynamics (PD) of GSK3389404 in Chronic Hepatitis B (CHB) Subjects",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "single_group",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "time_to_event",
+        "binary",
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03020745/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03020745/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03552276",
+      "domain": "musculoskeletal_pain",
+      "title": "Long-Term Extension Trial of Tildrakizumab to Prove Its Safety in Subjects With Psoriatic Arthritis Who Have Previously Completed Study With Tildrakizumab.",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "sequential",
+        "none",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03552276/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03552276/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02621931",
+      "domain": "neurology",
+      "title": "Comparing Efficacy and Safety of 2 Dose Regimens of Subcutaneous Administration of TEV-48125 Versus Placebo for the Preventive Treatment of Chronic Migraine",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02621931/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02621931/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01403948",
+      "domain": "oncology",
+      "title": "BI 836826 Dose Escalation in Patients With Relapsed or Refractory Non-Hodgkin Lymphoma (NHL)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "sequential",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT01403948/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT01403948/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03031327",
+      "domain": "ophthalmology",
+      "title": "Safety and Efficacy of 2 Concentrations of Lubricin vs Sodium Hyaluronate in Ocular Discomfort After Refractive Surgery.",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03031327/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03031327/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 9,
+      "candidate_id": "NCT03702270",
+      "domain": "immunology_rheumatology",
+      "title": "The Effect of Providing Stratification of Low Risk Penicillin Allergies on Penicillin Allergy Label Removal",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "sequential",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03702270/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03702270/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -196,40 +200,40 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT01403948",
+      "candidate_id": "NCT01588184",
       "domain": "oncology",
-      "title": "BI 836826 Dose Escalation in Patients With Relapsed or Refractory Non-Hodgkin Lymphoma (NHL)",
+      "title": "An Extension Study to Provide Continued Bevacizumab Therapy to Participants With Solid Tumors Who Were Previously Enrolled in a Roche/Genentech Sponsored Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "sequential",
+        "non_randomized",
+        "single_group",
         "none",
-        "phase_1"
+        "phase_4"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT01403948/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT01403948/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT01588184/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT01588184/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 12,
-      "candidate_id": "NCT03702270",
+      "candidate_id": "NCT04776161",
       "domain": "immunology_rheumatology",
-      "title": "The Effect of Providing Stratification of Low Risk Penicillin Allergies on Penicillin Allergy Label Removal",
+      "title": "Medication Adherence Patterns in Rheumatic Diseases: A Behavioral Trial",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "sequential",
-        "none",
+        "parallel",
+        "double",
         "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03702270/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/70/NCT03702270/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04776161/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04776161/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -253,21 +257,21 @@
     },
     {
       "queue_rank": 14,
-      "candidate_id": "NCT04776161",
+      "candidate_id": "NCT05017480",
       "domain": "immunology_rheumatology",
-      "title": "Medication Adherence Patterns in Rheumatic Diseases: A Behavioral Trial",
+      "title": "A Study to Evaluate the Efficacy and Safety of CBP-201 in Moderate to Severe Atopic Dermatitis in China",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "double",
-        "na"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04776161/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04776161/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT05017480/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT05017480/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     }
   ]

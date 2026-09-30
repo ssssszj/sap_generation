@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 146 screening - 2026-09-30
+
+- Batch 146 produced no promotion: excluded NCT03226457, NCT05001737, NCT03005327, NCT01343043 and NCT03019627 because their selected targets are post-completion, final-analysis-, dry-run-, DRC-, COVID-, interim-CSR- or other accumulated-conduct-informed; excluded NCT03819153, NCT03529942 and NCT02614287 because their model-visible protocols substantially reconstruct the target analyses.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,307 physical pages, and rendered and visually inspected 184 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 144 screening - 2026-09-30
 
 - Batch 144 produced no promotion: excluded NCT03131167, NCT04921969, NCT02989194, NCT03417778 and NCT02551809 because their selected targets are post-primary/post-completion, database-lock-, unmasking-, enrollment- or other conduct-informed and their protocols expose substantial executable programs; excluded NCT01339910 for protocol-embedded target leakage; and excluded NCT07239128 because both alleged source documents are post-completion executed manuscript methods.
