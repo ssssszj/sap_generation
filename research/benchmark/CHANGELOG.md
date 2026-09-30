@@ -1,5 +1,11 @@
 # Changelog
 
+## Batch 141 screening and annotation - 2026-09-30
+
+- Promoted NCT07452055 to `PUBLIC-EMBRACE-BC-001` after exact title/NCT/date and explicit SAP Version 1.0-to-Protocol Version 3.0 matching before study start; added 25 first-pass requirements for its stratified randomized LLM-supported breast-cancer emotional-management trial, QLQ-C30 primary endpoint, hospitalization outcomes, MMRM, missingness, count/competing-risk, subgroup and engagement analyses, while preserving approval, masking, covariate, estimand, multiplicity and reproducibility gates.
+- Excluded NCT02542605, NCT02935686, NCT03060577, NCT03622593, NCT04253236 and NCT04448847 because their selected packages incorporate observed cohorts, late conduct, parent-study results, COVID changes, cross-study dependency, termination, CSR preparation, completion or unblinding; excluded NCT03237481 because its otherwise prospective model-visible protocol substantially reconstructs the target.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,084 physical pages, fully OCRed the 17-page scan-only NCT04448847 SAP, and rendered and visually inspected 344 decisive pages in eight contact sheets. Seven rejected slots were replenished. The intake is now 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 140 screening - 2026-09-30
 
 - Batch 140 produced no promotion: excluded NCT02018367 because its alleged SAP is a protocol-page duplicate with preliminary pilot-result and model leakage; excluded NCT02417935, NCT02931539, NCT03028870, NCT03030235 and NCT03610646 because their targets are post-primary/post-completion or accumulated-conduct-, COVID- or regulatory-informed and their protocols expose substantial executable programs; and excluded NCT04664153 for prerecruitment protocol-embedded target leakage.
