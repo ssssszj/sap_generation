@@ -5,156 +5,155 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03118518",
+      "candidate_id": "NCT03131167",
       "domain": "cardiovascular",
-      "title": "STOP AF First: Cryoballoon Catheter Ablation in an Antiarrhythmic Drug Naive Paroxysmal Atrial Fibrillation",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03118518/Prot_006.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/18/NCT03118518/SAP_007.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT03738865",
-      "domain": "endocrine_metabolic",
-      "title": "G-Pen Compared to Glucagen Hypokit for Severe Hypoglycemia Rescue in Adults With Type 1 Diabetes",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "single",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03738865/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03738865/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT04881461",
-      "domain": "immunology_rheumatology",
-      "title": "A Study in Adults With Grass Pollen-induced Rhinoconjunctivitis",
+      "title": "Study of SHP639 Eye Drops in Adults With High Eye Pressure or Primary Open-angle Glaucoma",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_3"
+        "phase_1"
       ],
       "endpoint_types": [
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04881461/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT04881461/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03131167/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03131167/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 4,
-      "candidate_id": "NCT02979535",
-      "domain": "infectious_disease",
-      "title": "Immunogenicity and Safety of a Tetravalent Dengue Vaccine Administered Concomitantly or Sequentially With Cervarix®",
+      "queue_rank": 2,
+      "candidate_id": "NCT03802825",
+      "domain": "endocrine_metabolic",
+      "title": "Addressing Social Determinants of Health & Diabetes Self-Management in Vulnerable Populations",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02979535/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT02979535/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03802825/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03802825/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 5,
-      "candidate_id": "NCT03410056",
-      "domain": "musculoskeletal_pain",
-      "title": "Safety and Efficacy of Efavaleukin Alfa in Subjects With Active Rheumatoid Arthritis",
+      "queue_rank": 3,
+      "candidate_id": "NCT04921969",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Assess the Efficacy and Safety of Ruxolitinib Cream in Children With Atopic Dermatitis (TRuE-AD3)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "sequential",
-        "double",
-        "phase_1",
-        "phase_2"
+        "parallel",
+        "triple",
+        "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03410056/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03410056/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04921969/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04921969/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02549196",
-      "domain": "neurology",
-      "title": "A Dose Titration Study of CPC-201 in Patients With Dementia of Alzheimer's Type",
+      "queue_rank": 4,
+      "candidate_id": "NCT02989194",
+      "domain": "infectious_disease",
+      "title": "Study of an Investigational Monoclonal Antibody, VIS410, in Subjects With Uncomplicated Influenza A",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "non_randomized",
-        "single_group",
-        "single",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT02549196/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/96/NCT02549196/SAP_000.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01274351",
-      "domain": "oncology",
-      "title": "Study of Nilotinib as First Line Treatment in Philadelphia Chromosome Positive(Ph+) Chronic Myelogenous Leukemia in Chronic Phase (CML-CP)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "randomized",
+        "parallel",
+        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT01274351/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT01274351/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT02989194/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT02989194/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03417778",
+      "domain": "musculoskeletal_pain",
+      "title": "Study to Evaluate the Pharmacokinetics of Filgotinib in Participants With Impaired Hepatic Function",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03417778/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03417778/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02551809",
+      "domain": "neurology",
+      "title": "Evaluate the Safety, Tolerability, Immunogenicity and Efficacy of UB-311 in Mild Alzheimer's Disease (AD) Patients",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT02551809/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT02551809/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01339910",
+      "domain": "oncology",
+      "title": "Reduced Intensity Regimen vs Myeloablative Regimen for Myeloid Leukemia or Myelodysplastic Syndrome (BMT CTN 0901)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "time_to_event",
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT01339910/Prot_ICF_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT01339910/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT05985304",
+      "candidate_id": "NCT07239128",
       "domain": "ophthalmology",
-      "title": "Clinical Trial of a Hydrophilic EMV Toric Lens RAO210T in the Correction of Aphakia and Corneal Astigmatism",
+      "title": "Photobiomodulation in Combination With Topical Cyclosporine A or Tacrolimus",
       "pairing_state": "exact_document_date_match",
       "design_tags": [
         "randomized",
         "parallel",
         "triple",
-        "na"
+        "early_phase_1"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT05985304/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT05985304/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT07239128/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT07239128/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

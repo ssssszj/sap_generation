@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 143 screening - 2026-09-30
+
+- Batch 143 produced no promotion: excluded NCT03118518 and NCT01274351 because their model-visible protocols substantially reconstruct the target plans; excluded NCT03738865, NCT04881461 and NCT03410056 because their targets are post-primary/post-completion, conduct-informed and protocol-leaking; excluded NCT02979535 and NCT02549196 because their selected protocol/SAP packages incorporate IDMC findings, observed cohorts or other realized conduct; and excluded NCT05985304 because its SAP cites a different governing protocol revision while the selected protocol nearly reconstructs the target.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,121 physical pages, fully OCRed the 64-page scan-only NCT03410056 SAP, and rendered and visually inspected 383 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 142 screening - 2026-09-30
 
 - Batch 142 produced no promotion: excluded NCT03068130 and NCT02549092 because their targets depend on parent-study state or interim parent-study data and their protocols expose the executable programs; excluded NCT03693430, NCT04836858 and NCT02954354 because their targets are post-primary/post-completion, CSR-, conduct- or blinded-review-informed and, where applicable, protocol-leaking; excluded NCT03378076 and NCT05987956 for protocol-embedded or duplicate target leakage; and excluded NCT04918823 because its alleged SAP is a post-completion executed-analysis note rather than a prospective plan.
