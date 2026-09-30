@@ -5,49 +5,67 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04285580",
+      "candidate_id": "NCT04304534",
       "domain": "cardiovascular",
-      "title": "A Phase 3b Study Evaluating the 24-Hour Intraocular Pressure Lowering Effect of Bimatoprost SR in Patients With Open-Angle Glaucoma or Ocular Hypertension",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04285580/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04285580/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT05264376",
-      "domain": "endocrine_metabolic",
-      "title": "Eating Disorder Prevention Program for Women With T1D",
+      "title": "Study to Gather Information About the Proper Dosing and Safety of the Oral FXIa Inhibitor BAY 2433334 in Patients Following an Acute Heart Attack",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
-        "na"
+        "quadruple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT05264376/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT05264376/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04304534/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04304534/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT05405244",
+      "domain": "endocrine_metabolic",
+      "title": "Examination of Bromocriptine on Homeostatic and Hedonic Mechanisms of Food Intake in Individuals at High Risk for T2DM",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "crossover",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT05405244/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/44/NCT05405244/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT04931563",
+      "candidate_id": "NCT06176768",
       "domain": "immunology_rheumatology",
-      "title": "Anifrolumab Asian PhIII Efficacy Study for Systemic Lupus Erythematosus (SLE)",
+      "title": "A Study of LY3972406 in Adult Participants With Moderate-to-Severe Plaque Psoriasis",
       "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT06176768/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT06176768/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03595553",
+      "domain": "infectious_disease",
+      "title": "Comparison of Ridinilazole Versus Vancomycin Treatment for Clostridium Difficile Infection",
+      "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
@@ -55,36 +73,17 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04931563/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT04931563/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03555981",
-      "domain": "infectious_disease",
-      "title": "Early Kangaroo Mother Care in Gambian Hospitalised Unstable Neonates",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03555981/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03555981/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03595553/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03595553/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT05244187",
+      "candidate_id": "NCT05374434",
       "domain": "musculoskeletal_pain",
-      "title": "Study to Evaluate the OrthoCor Active System for Pain Relief",
+      "title": "A First in Human Study to Compare Feasibility of Inertial Cavitation Irrigation to SNI in Root Canal Treatment.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -95,54 +94,15 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT05244187/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/87/NCT05244187/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT05374434/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT05374434/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT03984305",
+      "candidate_id": "NCT04203498",
       "domain": "neurology",
-      "title": "Utilization of Target Ranges to Treat Parkinson's Disease With the PKG",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT03984305/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT03984305/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02210559",
-      "domain": "oncology",
-      "title": "A Study of Gemcitabine Plus Nab-paclitaxel With or Without FG-3019 in Participants With Locally Advanced, Unresectable Pancreatic Cancer",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT02210559/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT02210559/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT04567329",
-      "domain": "ophthalmology",
-      "title": "Effect of NOV03 on Signs and Symptoms of Dry Eye Disease Associated With Meibomian Gland Dysfunction (Mojave Study)",
+      "title": "Safety and Effectiveness of Nabiximols Oromucosal Spray as Add-on Therapy in Participants With Spasticity Due to Multiple Sclerosis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -151,10 +111,48 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04567329/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT04567329/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT04203498/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/98/NCT04203498/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02211131",
+      "domain": "oncology",
+      "title": "Efficacy and Safety of Talimogene Laherparepvec Neoadjuvant Treatment Plus Surgery Versus Surgery Alone for Melanoma",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02211131/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02211131/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT05067504",
+      "domain": "ophthalmology",
+      "title": "Effectiveness and Safety of the Octave System for Lifting the Eyebrow and Improving the Appearance of the Face and Neck",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT05067504/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT05067504/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
