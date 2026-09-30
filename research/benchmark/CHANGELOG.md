@@ -716,6 +716,10 @@
 - Excluded NCT02154750, NCT06831760, NCT02481596, NCT02349061 and NCT02978833 as retrospective, executed, wrong-scope or otherwise non-governing analysis documents; excluded NCT01787552, NCT04333225 and NCT01924169 for protocol-embedded target leakage.
 - Refreshed and replenished the candidate pool to 65, preserving 120 release-intake families, and increased the registered requirement total from 886 to 958 (932 public plus 26 private-pilot requirements).
 
+- Batch 145 produced no promotion: excluded NCT03152552, NCT03811093, NCT04967508, NCT02992119, NCT03426267, NCT02582866, NCT01296932 and NCT02177123 as post-primary/post-completion, conduct-informed, governing-version-mismatched or protocol-leaked targets.
+- Full-page OCR recovered all 50 pages of the scan-only NCT04967508 SAP; 326 decisive pages across all eight pairs were rendered and visually reviewed.
+- Refreshed and replenished all eight non-promotable slots, preserving 14 actionable metadata candidates alongside 106 version-verified public annotation drafts.
+
 ## 0.2-development - 2026-09-21
 
 - Registered four version-verified public study families: VIVID, IMPACT, SER-287, and ASCEND-D.
