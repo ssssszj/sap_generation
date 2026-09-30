@@ -5,106 +5,86 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03354429",
+      "candidate_id": "NCT03409731",
       "domain": "cardiovascular",
-      "title": "THALES - Acute STroke or Transient IscHaemic Attack Treated With TicAgreLor and ASA for PrEvention of Stroke and Death",
+      "title": "Absorb GT1 Japan PMS",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT03354429/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/29/NCT03354429/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT03409731/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT03409731/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04064411",
+      "candidate_id": "NCT04102189",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy & Safety of Abaloparatide-Solid Microstructured Transdermal System in Postmenopausal Women With Osteoporosis",
+      "title": "A Research Study on How Well Semaglutide Works in Adolescents With Overweight or Obesity",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "single",
+        "double",
         "phase_3"
       ],
       "endpoint_types": [
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT04064411/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/11/NCT04064411/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT04102189/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/89/NCT04102189/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05162586",
+      "candidate_id": "NCT05186805",
       "domain": "immunology_rheumatology",
-      "title": "The WILLOW Study With M5049 in SLE and CLE (SCLE and/or DLE) (WILLOW)",
+      "title": "Maximal Use Study of Tapinarof Cream, 1% in Pediatric Subjects With Extensive Atopic Dermatitis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
+        "na",
+        "single_group",
+        "none",
         "phase_2"
       ],
       "endpoint_types": [
         "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT05162586/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT05162586/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT05186805/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/05/NCT05186805/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 4,
-      "candidate_id": "NCT03107377",
+      "candidate_id": "NCT03149848",
       "domain": "infectious_disease",
-      "title": "Phase 2B/3 Double-blinded Placebo-controlled",
+      "title": "Effect of Rifabutin on the Pharmacokinetics of Oral Cabotegravir in Healthy Subjects",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT03107377/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT03107377/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03682302",
-      "domain": "musculoskeletal_pain",
-      "title": "Multicenter Study for Pediatric Subjects Evaluating Pharmacokinetics and Safety of EXPAREL",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "sequential",
+        "crossover",
         "none",
-        "phase_3"
+        "phase_1"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03682302/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03682302/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT03149848/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT03149848/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT02638103",
-      "domain": "neurology",
-      "title": "Efficacy and Safety of Subcutaneous Administration of Fremanezumab (TEV-48125) for the Preventive Treatment of Migraine",
+      "queue_rank": 5,
+      "candidate_id": "NCT03789292",
+      "domain": "musculoskeletal_pain",
+      "title": "A Study to Compare Efficacy and Safety of CT-P17 With Humira in Patients With Active Rheumatoid Arthritis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -113,49 +93,66 @@
         "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02638103/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02638103/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01588184",
-      "domain": "oncology",
-      "title": "An Extension Study to Provide Continued Bevacizumab Therapy to Participants With Solid Tumors Who Were Previously Enrolled in a Roche/Genentech Sponsored Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "single_group",
-        "none",
-        "phase_4"
-      ],
-      "endpoint_types": [
         "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT01588184/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/84/NCT01588184/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03789292/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/92/NCT03789292/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT03452033",
-      "domain": "ophthalmology",
-      "title": "H-1337 Ophthalmic Solution Phase 1/2",
+      "queue_rank": 6,
+      "candidate_id": "NCT02687542",
+      "domain": "neurology",
+      "title": "Efficacy, Safety and Tolerability of PF-06649751 in Parkinson's Disease Patients With Motor Fluctuations",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "double",
-        "phase_1",
+        "triple",
         "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03452033/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT03452033/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT02687542/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT02687542/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01790126",
+      "domain": "oncology",
+      "title": "The Role of Highly Selective Androgen Receptor (AR) Targeted Therapy in Men With Biochemically Relapsed Hormone Sensitive Prostate Cancer",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT01790126/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/26/NCT01790126/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03478865",
+      "domain": "ophthalmology",
+      "title": "Vitamin A Palmitate Supplementation in People With Age-Related Macular Degeneration (and Without Reticular Pseudodrusen) and Delayed Dark Adaptation",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "early_phase_1"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03478865/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT03478865/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

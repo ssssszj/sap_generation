@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 149 screening - 2026-09-30
+
+- Batch 149 produced no promotion: excluded NCT03354429, NCT04064411, NCT05162586, NCT03107377, NCT03682302, NCT02638103, NCT01588184 and NCT03452033 because their selected targets are post-primary/post-completion, adaptive-interim-, regulatory-, parent-study-, COVID- or other accumulated-conduct-informed and/or substantially reconstructable from the model-visible protocols.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 1,188 physical pages, fully OCRed the 126-page font-encoded NCT05162586 IAP, and rendered and visually inspected 143 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 148 screening - 2026-09-30
 
 - Batch 148 produced no promotion: excluded NCT03317002, NCT05073315, NCT03077438, NCT02637856 and NCT03442751 because their targets are post-primary/post-completion, interim/publication-, COVID- or other conduct-informed and their protocols substantially expose the executable programs; excluded NCT03989232 and NCT03613662 for protocol-embedded target leakage; and excluded NCT01652469 after correcting a mock-table-versus-narrative-SAP selection defect because its protocol still reconstructs the actual plan.
