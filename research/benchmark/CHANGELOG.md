@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 171 screening - 2026-09-30
+
+- Batch 171 produced no promotion: excluded NCT03702270 and NCT05553366 as post-completion targets; excluded NCT03635788 and NCT04281472 because their selected targets are post-primary/post-completion and encode an already acted-on DSMB recommendation or an announced interim stage-progression decision; and excluded NCT04484220, NCT05510245, NCT02232074 and NCT05285644 because their model-visible protocols substantially reconstruct the target analysis plans.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, checked all 1,008 physical pages, recovered native text from 788 pages, fully OCRed the 118-page scan-only NCT04281472 SAP, and rendered and visually inspected 54 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 170 screening - 2026-09-30
 
 - Batch 170 produced no promotion: excluded NCT02211131, NCT03595553, NCT05067504 and NCT05405244 as post-primary/post-completion packages, with interim, combined-study or other conduct information also present; excluded NCT04304534 because its target records a completed interim analysis and adds COVID-conduct rules; excluded NCT04203498 because its model-visible protocol substantially reconstructs the target plan; and placed NCT05374434 and NCT06176768 on governing-version reconciliation hold.
