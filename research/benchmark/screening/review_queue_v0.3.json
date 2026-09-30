@@ -5,28 +5,142 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT04098172",
+      "candidate_id": "NCT04103034",
       "domain": "cardiovascular",
-      "title": "Evaluate the Performance and Safety of Comet Pressure Guidewire in the Measurement of FFR",
+      "title": "A SAD/MAD Study of Safety, Tolerability and Pharmacologic Activity of BT200 in Normal Volunteers",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
+        "randomized",
+        "sequential",
+        "triple",
+        "phase_1"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT04098172/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT04098172/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04103034/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT04103034/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04965935",
+      "candidate_id": "NCT04998201",
       "domain": "endocrine_metabolic",
-      "title": "Efficacy, Mechanisms and Safety of SGLT2 Inhibitors in Kidney Transplant Recipients",
+      "title": "Study of Plozasiran (ARO-APOC3) in Adults With Mixed Dyslipidemia",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04998201/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT04998201/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT03020199",
+      "domain": "immunology_rheumatology",
+      "title": "Study of the Efficacy of Early Intervention With Secukinumab 300 mg s.c. Compared to Narrow-band UVB in Patients With New-onset Moderate to Severe Plaque Psoriasis",
+      "pairing_state": "needs_version_review",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03020199/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT03020199/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03450915",
+      "domain": "infectious_disease",
+      "title": "A Pivotal Trial to Assess the Safety and Clinical Efficacy of the M-001 as a Standalone Universal Flu Vaccine",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT03450915/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT03450915/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04927247",
+      "domain": "musculoskeletal_pain",
+      "title": "A Study of a Single Dose of Inclacumab to Reduce Re-admission in Participants With Sickle Cell Disease and Recurrent Vaso-occlusive Crises",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04927247/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT04927247/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03841604",
+      "domain": "neurology",
+      "title": "Effect of Safinamide on Parkinson's Disease Related Chronic Pain",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_4"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT03841604/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT03841604/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT02107703",
+      "domain": "oncology",
+      "title": "A Study of Abemaciclib (LY2835219) Combined With Fulvestrant in Women With Hormone Receptor Positive HER2 Negative Breast Cancer",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02107703/Prot_004.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT02107703/SAP_005.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT04005352",
+      "domain": "ophthalmology",
+      "title": "Study to Assess the Efficacy and Safety of Brolucizumab 6mg Compared to Aflibercept 2 mg in a Treat-to-control Regimen (TALON)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -37,123 +151,8 @@
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04965935/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/35/NCT04965935/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT01705977",
-      "domain": "immunology_rheumatology",
-      "title": "Belimumab Assessment of Safety in SLE",
-      "pairing_state": "needs_version_review",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_4"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT01705977/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT01705977/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03446053",
-      "domain": "infectious_disease",
-      "title": "A Study to Evaluate the Safety, PK, PD, Immunogenicity of N-Rephasin® SAL200 in Healthy Male Volunteers",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03446053/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT03446053/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04888585",
-      "domain": "musculoskeletal_pain",
-      "title": "Study to Evaluate Adverse Events and Change in Disease Activity in Participants Between 18 to 75 Years of Age Treated With Subcutaneous (SC) Injections of ABBV-154 for Moderately to Severely Active Rheumatoid Arthritis (RA)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04888585/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT04888585/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03815916",
-      "domain": "neurology",
-      "title": "31P-MRS Imaging to Assess the Effects of CNM-Au8 on Impaired Neuronal Redox State in Parkinson's Disease",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "sequential",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT03815916/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/16/NCT03815916/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT02101021",
-      "domain": "oncology",
-      "title": "Gemcitabine and Nab-paclitaxel Combined With Momelotinib in Participants With Previously Untreated Metastatic Pancreatic Ductal Adenocarcinoma",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event",
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02101021/Prot_008.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/21/NCT02101021/SAP_009.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03956225",
-      "domain": "ophthalmology",
-      "title": "Comparison Between iLux and LipiFlow in the Treatment of Meibomian Gland Dysfunction (MGD): A 12-month, Multicenter Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "single",
-        "na"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03956225/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03956225/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT04005352/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT04005352/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
