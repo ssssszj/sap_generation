@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 142 screening - 2026-09-30
+
+- Batch 142 produced no promotion: excluded NCT03068130 and NCT02549092 because their targets depend on parent-study state or interim parent-study data and their protocols expose the executable programs; excluded NCT03693430, NCT04836858 and NCT02954354 because their targets are post-primary/post-completion, CSR-, conduct- or blinded-review-informed and, where applicable, protocol-leaking; excluded NCT03378076 and NCT05987956 for protocol-embedded or duplicate target leakage; and excluded NCT04918823 because its alleged SAP is a post-completion executed-analysis note rather than a prospective plan.
+- Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 826 physical pages, fully OCRed the 22-page NCT04918823 protocol and two-page SAP, and rendered and visually inspected 282 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 141 screening and annotation - 2026-09-30
 
 - Promoted NCT07452055 to `PUBLIC-EMBRACE-BC-001` after exact title/NCT/date and explicit SAP Version 1.0-to-Protocol Version 3.0 matching before study start; added 25 first-pass requirements for its stratified randomized LLM-supported breast-cancer emotional-management trial, QLQ-C30 primary endpoint, hospitalization outcomes, MMRM, missingness, count/competing-risk, subgroup and engagement analyses, while preserving approval, masking, covariate, estimand, multiplicity and reproducibility gates.
