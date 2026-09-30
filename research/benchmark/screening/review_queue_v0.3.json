@@ -5,159 +5,158 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03613649",
+      "candidate_id": "NCT03639675",
       "domain": "cardiovascular",
-      "title": "Thorough QT/QTC (TQT) Clinical Trial to Evaluate the Effect of Zoliflodacin on Cardiac Repolarization in Healthy Male and Female Subjects",
+      "title": "Study to Learn How the Drug Aflibercept Works in in Japanese Patients With Increased Eye Pressure That is Caused by New Blood Vessels Growing in the Eye (Neovascular Glaucoma or NVG). Safety of the Drug and Patients' Tolerability of the Drug Injection is Also Studied",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "crossover",
-        "double",
-        "phase_1"
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT03613649/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/49/NCT03613649/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03639675/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03639675/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04707313",
+      "candidate_id": "NCT04731142",
       "domain": "endocrine_metabolic",
-      "title": "A Study to Evaluate the Efficacy and Safety of PF-06882961 in Adults With Obesity",
+      "title": "Type 2 Diabetes Exemplar: A Remote Care Service for North West London",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
+        "non_randomized",
         "parallel",
-        "quadruple",
-        "phase_2"
+        "none",
+        "na"
       ],
       "endpoint_types": [
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04707313/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04707313/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT04731142/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT04731142/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05724199",
+      "candidate_id": "NCT05732454",
       "domain": "immunology_rheumatology",
-      "title": "A Study Assessing Rocatinlimab in Combination With Topical Corticosteroid and/or Topical Calcineurin Inhibitors in Adult Participants With Moderate-to-severe Atopic Dermatitis (AD)",
+      "title": "A Study to Learn About the Study Medicine Etrasimod in Adults With Moderate to Severe Atopic Dermatitis (AD) Who Have Already Tried Treatments Taken by Mouth or by Injection",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "sequential",
-        "double",
+        "parallel",
+        "quadruple",
+        "phase_2",
         "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05724199/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/99/NCT05724199/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03239483",
-      "domain": "infectious_disease",
-      "title": "Safety and Pharmacokinetic Study of Dapivirine Gel (0.05%) Administered Rectally to HIV-1 Seronegative Adults",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03239483/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03239483/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04203537",
-      "domain": "musculoskeletal_pain",
-      "title": "Study Evaluating the Safety, Efficacy and Pharmacokinetics of CA-008 (Vocacapsaicin)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "sequential",
-        "quadruple",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT04203537/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/37/NCT04203537/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT03238781",
-      "domain": "neurology",
-      "title": "Study to Evaluate the Efficacy and Safety of AMG 301 in Migraine Prevention",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03238781/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03238781/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01970865",
-      "domain": "oncology",
-      "title": "A Study Of PF-06463922 An ALK/ROS1 Inhibitor In Patients With Advanced Non Small Cell Lung Cancer With Specific Molecular Alterations",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "single_group",
-        "none",
-        "phase_1",
-        "phase_2"
       ],
       "endpoint_types": [
         "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT01970865/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT01970865/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT05732454/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT05732454/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT03710564",
-      "domain": "ophthalmology",
-      "title": "Study of Safety and Efficacy of Brolucizumab 6 mg Dosed Every 4 Weeks Compared to Aflibercept 2 mg Dosed Every 4 Weeks in Patients With Retinal Fluid Despite Frequent Anti-VEGF Injections",
+      "queue_rank": 4,
+      "candidate_id": "NCT03248882",
+      "domain": "infectious_disease",
+      "title": "Phase 2a, Dose-ranging Study With PF-05221304 in Nonalcoholic Fatty Liver Disease (NAFLD)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
-        "phase_3"
+        "double",
+        "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03710564/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/64/NCT03710564/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03248882/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03248882/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04204083",
+      "domain": "musculoskeletal_pain",
+      "title": "MONOVISC for Hip Joint Pain Relief Due to Osteoarthritis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT04204083/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT04204083/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03266588",
+      "domain": "neurology",
+      "title": "Open Label Safety Study in Acute Treatment of Migraine",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03266588/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03266588/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01997333",
+      "domain": "oncology",
+      "title": "Study of Glembatumumab Vedotin (CDX-011) in Patients With Metastatic, gpNMB Over-Expressing, Triple Negative Breast Cancer",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT01997333/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT01997333/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03739593",
+      "domain": "ophthalmology",
+      "title": "Study Assessing AR-1105 in Subjects With Macular Edema Due to Retinal Vein Occlusion (RVO)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03739593/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03739593/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
