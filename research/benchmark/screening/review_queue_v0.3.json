@@ -5,159 +5,154 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03289481",
+      "candidate_id": "NCT03317002",
       "domain": "cardiovascular",
-      "title": "Treatment of HFpEF With Nitrate Supplement",
+      "title": "AZD5718 Phase IIa Study to Evaluate Efficacy, Safety and Tolerability of Oral AZD5718 in Patients With Coronary Artery Disease (CAD).",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "crossover",
-        "quadruple",
-        "early_phase_1"
+        "parallel",
+        "triple",
+        "phase_2"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03289481/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/81/NCT03289481/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03317002/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/02/NCT03317002/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03908125",
+      "candidate_id": "NCT03989232",
       "domain": "endocrine_metabolic",
-      "title": "Post Approval Study of the Eversense® Continuous Glucose Monitoring",
+      "title": "A Research Study to Compare Two Doses of Semaglutide Taken Once Weekly in People With Type 2 Diabetes",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT03989232/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT03989232/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT05073315",
+      "domain": "immunology_rheumatology",
+      "title": "A Comparative Study Between ABP 501 and Humira® in Participants With Moderate to Severe Plaque Psoriasis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT05073315/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/15/NCT05073315/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03077438",
+      "domain": "infectious_disease",
+      "title": "Study of an Investigational Quadrivalent Meningococcal Conjugate Vaccine Administered in Children Aged 2 to 9 Years",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03077438/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/38/NCT03077438/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT03613662",
+      "domain": "musculoskeletal_pain",
+      "title": "A Research Study to Characterize the Pharmacodynamics and Safety of Repeat Dose SP-102",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03908125/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03908125/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT02975206",
-      "domain": "immunology_rheumatology",
-      "title": "Study of the Efficacy, Safety, and Tolerability of Serlopitant for Pruritus (Itch) in Atopic Dermatitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
         "phase_2"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02975206/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT02975206/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03020745",
-      "domain": "infectious_disease",
-      "title": "A Study to Assess the Safety, Tolerability, Pharmacokinetics (PK) and Pharmacodynamics (PD) of GSK3389404 in Chronic Hepatitis B (CHB) Subjects",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "single_group",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "time_to_event",
-        "binary",
-        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03020745/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/45/NCT03020745/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03552276",
-      "domain": "musculoskeletal_pain",
-      "title": "Long-Term Extension Trial of Tildrakizumab to Prove Its Safety in Subjects With Psoriatic Arthritis Who Have Previously Completed Study With Tildrakizumab.",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "sequential",
-        "none",
-        "phase_2",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03552276/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03552276/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03613662/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT03613662/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT02621931",
+      "candidate_id": "NCT02637856",
       "domain": "neurology",
-      "title": "Comparing Efficacy and Safety of 2 Dose Regimens of Subcutaneous Administration of TEV-48125 Versus Placebo for the Preventive Treatment of Chronic Migraine",
+      "title": "A Study of Ocrelizumab in Participants With Relapsing Remitting Multiple Sclerosis (RRMS) Who Have Had a Suboptimal Response to an Adequate Course of Disease-Modifying Treatment (DMT)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
+        "na",
+        "single_group",
+        "none",
         "phase_3"
       ],
       "endpoint_types": [
-        "count_or_rate",
-        "continuous"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02621931/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT02621931/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT02637856/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT02637856/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT01403948",
+      "candidate_id": "NCT01652469",
       "domain": "oncology",
-      "title": "BI 836826 Dose Escalation in Patients With Relapsed or Refractory Non-Hodgkin Lymphoma (NHL)",
+      "title": "Testing of Drugs Erlotinib and Docetaxel in Lung Cancer Patients Classified Regarding Their Outlook Using VeriStrat®.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "sequential",
+        "randomized",
+        "parallel",
         "none",
-        "phase_1"
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary",
-        "count_or_rate"
+        "time_to_event"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT01403948/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/48/NCT01403948/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT01652469/Prot_005.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT01652469/SAP_006.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03031327",
+      "candidate_id": "NCT03442751",
       "domain": "ophthalmology",
-      "title": "Safety and Efficacy of 2 Concentrations of Lubricin vs Sodium Hyaluronate in Ocular Discomfort After Refractive Surgery.",
+      "title": "Study to Evaluate the Safety and Efficacy of Epi-on Corneal Cross-linking in Eyes With Progressive Keratoconus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "double",
-        "na"
+        "phase_3"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03031327/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/27/NCT03031327/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT03442751/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/51/NCT03442751/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
