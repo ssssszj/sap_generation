@@ -10,8 +10,8 @@ The initial benchmark may remain `draft_needs_expert_review`; it must not be rep
 
 | ID | Required deliverable or gate | Concrete artifact/evidence | Completion rule | Current state |
 |---|---|---|---|---|
-| C01 | Exactly 120 public questions | `manifests/studies.jsonl`; one non-pilot row per public study | 120 public rows, all `status=verified` | Incomplete: 106 |
-| C02 | No candidate counted as a completed question | `screening/candidate_catalog.jsonl`; `screening/candidate_pool_summary.json` | candidate count is 0 at delivery | Incomplete: 14 after Batch 141 replenishment |
+| C01 | Exactly 120 public questions | `manifests/studies.jsonl`; one non-pilot row per public study | 120 public rows, all `status=verified` | Incomplete: 107 after Batch 172 |
+| C02 | No candidate counted as a completed question | `screening/candidate_catalog.jsonl`; `screening/candidate_pool_summary.json` | candidate count is 0 at delivery | Incomplete: 13 after Batch 172 replenishment |
 | C03 | Private pilot excluded from the 120 target | `PILOT-IOL-001` study row and configuration scale target | exactly one `pilot_only` row; public count evaluated separately | Covered; recheck at final audit |
 | C04 | Frozen public protocol and reference SAP for every question | `manifests/documents.jsonl` and local `sources/public/<NCT>/input/` plus `reference/` packages | every public study resolves to model-visible input document(s) and a separately identified reference SAP with SHA-256 and page count/source provenance | Audit pending for all 120 |
 | C05 | Reference SAP never model-visible | document `role`, paths and study package layout | reference documents occur only under annotation-only `reference/`; no prompt/input manifest includes a reference-SAP path | Audit pending for all 120 |
@@ -19,7 +19,7 @@ The initial benchmark may remain `draft_needs_expert_review`; it must not be rep
 | C07 | Independent study families | `study_family_id`, registry identifiers, notes and review packets | no parent/extension/rollover/shared-SAP family is split into multiple questions | Audit pending for all 120 |
 | C08 | No executable target leakage in model-visible protocol | model-visible PDF plus batch review packet | protocol may state design/endpoints/sample size, but must not expose enough target analysis detail to reconstruct the reference plan | Audit pending for all 120 |
 | C09 | No results/CSR/retrospective/execution-informed reference | reference PDF, registry chronology and review packet | reference is a defensible prospective governing analysis document; post-primary or observed-conduct material is excluded | Audit pending for all 120 |
-| C10 | Evidence-backed first-pass annotation for every public question | `gold/<study_id>/requirements.jsonl` | one file per public study; normally 12–25 atomic, judgeable items; every item cites source evidence | Incomplete: 106 files |
+| C10 | Evidence-backed first-pass annotation for every public question | `gold/<study_id>/requirements.jsonl` | one file per public study; normally 12–25 atomic, judgeable items; every item cites source evidence | Incomplete: 107 files after Batch 172 |
 | C11 | One-based physical-PDF locators | all public `requirements.jsonl` evidence arrays | every PDF locator uses the verified one-based physical page and its cited text is present there | Audit pending for all requirements |
 | C12 | No actual enrollment substituted for prospective target | requirement wording, protocol evidence and review packet | sample-size requirement uses prospective target; actual enrollment may only be separately identified as conduct context | Audit pending for all 120 |
 | C13 | Annotation status and unresolved decisions exposed | `gold/<study_id>/annotation_status.json` | every public study has a count-matched status file; unresolved statistical/version issues are explicit; no false expert approval | Incomplete until 120; existing files require final count/status audit |

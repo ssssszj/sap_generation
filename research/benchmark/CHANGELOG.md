@@ -1,5 +1,12 @@
 # Changelog
 
+## Batch 172 screening - 2026-09-30
+
+- Promoted NCT01822353 as a first-pass public draft after exact identity/date and protocol-leakage review; added 22 requirements for adult oral immunotherapy.
+- Put NCT02597673 on prospective-governance hold because its 2015-07-16 document date cannot be ordered against a registry start known only as July 2015 and the selected PDFs provide no independent pre-enrollment approval evidence.
+- Excluded NCT02730377 and NCT02585960 as post-completion targets, NCT02196922 as an executed/wrong-type analysis document, NCT02198794 and NCT01314911 as conduct/pilot-informed targets, and NCT03261193 for protocol-embedded target leakage.
+- Checked all 714 physical pages, recovered native text from 690, OCRed all four scan-only NCT02196922 SAP pages and rendered 54 decisive pages across all eight reviewed pairs. Refreshed and replenished the pool to 13 actionable candidates, preserving 120 release-intake families: 107 public first-pass drafts plus 13 metadata candidates and 2,092 total requirements, including the 26-item private pilot.
+
 ## Batch 171 screening - 2026-09-30
 
 - Batch 171 produced no promotion: excluded NCT03702270 and NCT05553366 as post-completion targets; excluded NCT03635788 and NCT04281472 because their selected targets are post-primary/post-completion and encode an already acted-on DSMB recommendation or an announced interim stage-progression decision; and excluded NCT04484220, NCT05510245, NCT02232074 and NCT05285644 because their model-visible protocols substantially reconstruct the target analysis plans.

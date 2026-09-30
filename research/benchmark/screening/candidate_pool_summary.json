@@ -7,38 +7,36 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2202,
-  "registered_studies_including_pilot": 107,
-  "registered_release_eligible": 106,
-  "screened_candidates": 14,
+  "registered_studies_including_pilot": 108,
+  "registered_release_eligible": 107,
+  "screened_candidates": 13,
   "total_release_eligible": 120,
   "total_including_pilot": 121,
   "domain_distribution": {
-    "cardiovascular": 1,
+    "cardiovascular": 2,
     "dermatology": 1,
     "endocrine_metabolic": 1,
     "gastroenterology_hepatology": 1,
     "hematology": 1,
     "immunology_rheumatology": 3,
-    "infectious_disease": 2,
-    "musculoskeletal_pain": 1,
+    "infectious_disease": 1,
     "oncology": 2,
     "other_clinical": 1
   },
   "intervention_distribution": {
-    "behavioral": 1,
-    "drug": 9,
-    "mixed": 2,
-    "other": 2
+    "behavioral": 2,
+    "drug": 10,
+    "mixed": 1
   },
   "endpoint_distribution_multi_label": {
-    "binary": 3,
-    "continuous": 2,
-    "count_or_rate": 2,
-    "other_or_manual_review": 7,
+    "binary": 2,
+    "continuous": 3,
+    "count_or_rate": 3,
+    "other_or_manual_review": 5,
     "time_to_event": 1
   },
   "pairing_state_distribution": {
-    "exact_document_date_match": 7,
+    "exact_document_date_match": 6,
     "plausible_date_order": 7
   },
   "warning": "This is a metadata-screened candidate pool, not a frozen benchmark. No candidate is version verified until its SAP-internal protocol citation has been checked. Excluded and held studies are decision records outside this actionable pool."
