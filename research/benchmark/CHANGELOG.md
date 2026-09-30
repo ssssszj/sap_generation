@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 148 screening - 2026-09-30
+
+- Batch 148 produced no promotion: excluded NCT03317002, NCT05073315, NCT03077438, NCT02637856 and NCT03442751 because their targets are post-primary/post-completion, interim/publication-, COVID- or other conduct-informed and their protocols substantially expose the executable programs; excluded NCT03989232 and NCT03613662 for protocol-embedded target leakage; and excluded NCT01652469 after correcting a mock-table-versus-narrative-SAP selection defect because its protocol still reconstructs the actual plan.
+- Downloaded and SHA-256-froze 16 selected official PDFs, eight registry records and the additional same-date NCT01652469 narrative SAP, extracted 1,251 physical pages including the alternate plan, OCRed 152 scan-heavy pages, and rendered and visually inspected 176 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 147 screening - 2026-09-30
 
 - Batch 147 produced no promotion: excluded NCT03289481 because its alleged SAP is a post-completion executed-analysis note; excluded NCT03908125 because its pre-completion Protocol v10 substantially reconstructs the target; and excluded NCT02975206, NCT03020745, NCT03552276, NCT02621931, NCT01403948 and NCT03031327 because their selected packages are post-primary/post-completion, prior-part-, unblinded-decision-, parent-result-, dose-escalation- or other conduct-informed and their protocols expose substantial executable programs.
