@@ -5,156 +5,158 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03887052",
+      "candidate_id": "NCT04049266",
       "domain": "cardiovascular",
-      "title": "ASSURE WCD Clinical Evaluation - Detection and Safety Study",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT03887052/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT03887052/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04964128",
-      "domain": "endocrine_metabolic",
-      "title": "Evaluation of Meal Gesture Dosing in Adults With Type 1 Diabetes",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT04964128/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT04964128/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT06444165",
-      "domain": "immunology_rheumatology",
-      "title": "Lebrikizumab Pen Ease of Use in Participants With Atopic Dermatitis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT06444165/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/65/NCT06444165/SAP_002.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03382834",
-      "domain": "infectious_disease",
-      "title": "Selective Estrogen Receptor Modulators to Enhance the Efficacy of Viral Reactivation With Histone Deacetylase Inhibitors",
+      "title": "A Study to Evaluate the Efficacy and Safety of KSI-301, an Anti-VEGF Antibody Biopolymer Conjugate, Versus Aflibercept in Patients With Neovascular (Wet) Age-Related Macular Degeneration.",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
+        "triple",
+        "phase_2",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04049266/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT04049266/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 2,
+      "candidate_id": "NCT04964986",
+      "domain": "endocrine_metabolic",
+      "title": "Metabolic Balance Study of Apraglutide in Patients With Short Bowel Syndrome, Intestinal Failure (SBS-IF) and Colon-in-Continuity (CIC)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
         "none",
         "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT04964986/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT04964986/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT06447506",
+      "domain": "immunology_rheumatology",
+      "title": "Long-Term Study (AtDvance) to Evaluate GSK1070806 in Atopic Dermatitis.",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT06447506/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT06447506/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03393754",
+      "domain": "infectious_disease",
+      "title": "Immunogenicity and Safety of Sci-B-Vac® to Engerix-B® in Adults",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
+        "phase_3"
       ],
       "endpoint_types": [
         "binary",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03382834/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03382834/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT03393754/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT03393754/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 5,
-      "candidate_id": "NCT04527380",
+      "candidate_id": "NCT04810962",
       "domain": "musculoskeletal_pain",
-      "title": "A Study of Ixekizumab (LY2439821) in Children With Juvenile Idiopathic Arthritis Categories of Enthesitis-related Arthritis (Including Juvenile Onset Ankylosing Spondylitis) and Juvenile Psoriatic Arthritis",
+      "title": "Efficacy and Safety of APP13007 for Treatment of Inflammation and Pain After Cataract Surgery Including a Corneal Endothelial Cell Sub-study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
+        "quadruple",
         "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04527380/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/80/NCT04527380/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT04810962/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/62/NCT04810962/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 6,
-      "candidate_id": "NCT03700320",
+      "candidate_id": "NCT03763058",
       "domain": "neurology",
-      "title": "Study to Evaluate the Safety and Tolerability of Treatment With Atogepant 60 mg Daily for the Prevention of Migraine in Participants With Episodic Migraine",
+      "title": "Music Intervention on Migraine Headaches",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "na",
+        "single_group",
         "none",
-        "phase_3"
+        "na"
       ],
       "endpoint_types": [
-        "binary"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03700320/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03700320/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT03763058/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/58/NCT03763058/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT02088541",
+      "candidate_id": "NCT02089334",
       "domain": "oncology",
-      "title": "Selinexor (KPT-330) in Older Patients With Relapsed AML",
+      "title": "Dose-Finding, Safety and Efficacy Study of RX-0201 Plus Everolimus in Metastatic Renal Cell Cancer",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "none",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT02088541/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT02088541/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT03861234",
-      "domain": "ophthalmology",
-      "title": "A Study to Test Different Doses of BI 836880 in Patients With an Eye Disease Called Wet Age-related Macular Degeneration (wAMD)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
+        "na",
         "single_group",
         "none",
         "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "time_to_event",
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03861234/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT03861234/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02089334/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/34/NCT02089334/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03889886",
+      "domain": "ophthalmology",
+      "title": "Study to Evaluate the Safety and Efficacy of SDP-4 in Subjects With Dry Eye Disease (DED)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03889886/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03889886/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
