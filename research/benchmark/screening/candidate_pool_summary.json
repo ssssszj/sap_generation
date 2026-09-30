@@ -24,15 +24,17 @@
   },
   "intervention_distribution": {
     "behavioral": 1,
-    "drug": 10,
-    "mixed": 2,
-    "other": 1
+    "device": 1,
+    "drug": 8,
+    "mixed": 1,
+    "other": 3
   },
   "endpoint_distribution_multi_label": {
     "binary": 3,
-    "continuous": 5,
+    "continuous": 4,
     "count_or_rate": 1,
-    "other_or_manual_review": 7
+    "other_or_manual_review": 7,
+    "time_to_event": 1
   },
   "pairing_state_distribution": {
     "needs_version_review": 1,
