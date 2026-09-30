@@ -5,155 +5,156 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03504020",
+      "candidate_id": "NCT03510663",
       "domain": "cardiovascular",
-      "title": "ECG Belt for CRT Response",
+      "title": "Phase I Study of OPC-61815",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
-        "parallel",
-        "single",
-        "na"
+        "crossover",
+        "triple",
+        "phase_1"
       ],
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03504020/Prot_ICF_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/20/NCT03504020/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03510663/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03510663/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04288778",
+      "candidate_id": "NCT04450394",
       "domain": "endocrine_metabolic",
-      "title": "A Study to Assess Safety of Canagliflozin and Metformin Hydrochloride Combination Given as a Supplement to Diet and Exercise to Improve Blood Sugar Level in Indian Adult Participants With Diabetes",
+      "title": "A Phase 2 Study of LY3209590 in Participants With Type 2 Diabetes Mellitus",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
+        "randomized",
+        "parallel",
         "none",
-        "phase_4"
+        "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT04288778/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT04288778/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04450394/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04450394/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05430919",
+      "candidate_id": "NCT05439941",
       "domain": "immunology_rheumatology",
-      "title": "Efficacy of the Anti-Bet v 1 Monoclonal Antibodies (Given Subcutaneously) to Reduce Allergic Rhinitis and Conjunctivitis Symptoms and Skin Test Reactivity Upon Exposure to Birch Allergen in Adult Participants",
+      "title": "A Long-Term Extension Trial in Participants With Atopic Dermatitis Who Participated in Previous EDP1815 Trials",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT05430919/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT05430919/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03197376",
-      "domain": "infectious_disease",
-      "title": "Phase 3 Study of 10-valent Pneumococcal Conjugate Vaccine (PNEUMOSIL) in Healthy Infants",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03197376/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT03197376/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT03980483",
-      "domain": "musculoskeletal_pain",
-      "title": "Efficacy and Safety of GSK3196165 Versus Placebo and Tofacitinib in Participants With Moderately to Severely Active Rheumatoid Arthritis Who Have an Inadequate Response to Methotrexate",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03980483/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT03980483/SAP_003.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02974153",
-      "domain": "neurology",
-      "title": "Evaluation of ALD403 (Eptinezumab) in the Prevention of Chronic Migraine",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02974153/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/53/NCT02974153/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01882803",
-      "domain": "oncology",
-      "title": "A Study of Duvelisib in Participants With Refractory Indolent Non-Hodgkin Lymphoma",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
         "none",
         "phase_2"
       ],
       "endpoint_types": [
-        "binary"
+        "binary",
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT01882803/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/03/NCT01882803/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05439941/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05439941/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 8,
-      "candidate_id": "NCT03633461",
-      "domain": "ophthalmology",
-      "title": "Evaluation of the Efficacy of OC-02 Nasal Spray on Signs and Symptoms of Dry Eye Disease (the RAINIER Study)",
+      "queue_rank": 4,
+      "candidate_id": "NCT03198507",
+      "domain": "infectious_disease",
+      "title": "ERADICATE Hp2 - Treating Helicobacter Pylori With RHB-105 Compared to Active Comparator",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
+        "triple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT03198507/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT03198507/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04114656",
+      "domain": "musculoskeletal_pain",
+      "title": "Effects of Intravenous GSK3858279 on a Battery of Evoked Pain Tests in Healthy Volunteers",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "crossover",
         "double",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "time_to_event"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT04114656/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT04114656/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02988401",
+      "domain": "neurology",
+      "title": "Intranasal Insulin for Improving Cognitive Function in Multiple Sclerosis",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_1",
         "phase_2"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03633461/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03633461/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02988401/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02988401/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01889069",
+      "domain": "oncology",
+      "title": "A Study to Evaluate Safety, Efficacy and Pharmacokinetics of Rituximab (MabThera/Rituxan) in Participants With Diffuse Large B Cell Lymphoma (DLBCL) or Follicular Lymphoma (FL)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT01889069/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT01889069/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT03636061",
+      "domain": "ophthalmology",
+      "title": "Evaluation of the Efficacy of OC-01 Nasal Spray on Signs and Symptoms of Dry Eye Disease",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "double",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03636061/Prot_002.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03636061/SAP_003.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
