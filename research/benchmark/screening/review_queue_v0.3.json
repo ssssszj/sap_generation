@@ -5,88 +5,9 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03639675",
+      "candidate_id": "NCT03650556",
       "domain": "cardiovascular",
-      "title": "Study to Learn How the Drug Aflibercept Works in in Japanese Patients With Increased Eye Pressure That is Caused by New Blood Vessels Growing in the Eye (Neovascular Glaucoma or NVG). Safety of the Drug and Patients' Tolerability of the Drug Injection is Also Studied",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03639675/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/75/NCT03639675/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 2,
-      "candidate_id": "NCT04731142",
-      "domain": "endocrine_metabolic",
-      "title": "Type 2 Diabetes Exemplar: A Remote Care Service for North West London",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "na"
-      ],
-      "endpoint_types": [
-        "count_or_rate",
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT04731142/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/42/NCT04731142/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 3,
-      "candidate_id": "NCT05732454",
-      "domain": "immunology_rheumatology",
-      "title": "A Study to Learn About the Study Medicine Etrasimod in Adults With Moderate to Severe Atopic Dermatitis (AD) Who Have Already Tried Treatments Taken by Mouth or by Injection",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_2",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary",
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT05732454/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/54/NCT05732454/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03248882",
-      "domain": "infectious_disease",
-      "title": "Phase 2a, Dose-ranging Study With PF-05221304 in Nonalcoholic Fatty Liver Disease (NAFLD)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "continuous"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03248882/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/82/NCT03248882/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04204083",
-      "domain": "musculoskeletal_pain",
-      "title": "MONOVISC for Hip Joint Pain Relief Due to Osteoarthritis",
+      "title": "Safety and Effectiveness of TactiCath™ Contact Force, Sensor Enabled™ (TactiCath SE) Catheter for Ablation of Drug Refractory, Symptomatic, Persistent Atrial Fibrillation",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
@@ -97,35 +18,113 @@
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT04204083/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/83/NCT04204083/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03650556/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT03650556/SAP_002.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 6,
-      "candidate_id": "NCT03266588",
-      "domain": "neurology",
-      "title": "Open Label Safety Study in Acute Treatment of Migraine",
+      "queue_rank": 2,
+      "candidate_id": "NCT04797104",
+      "domain": "endocrine_metabolic",
+      "title": "Study to Assess the Efficacy and Safety of LIB003 in HeFH Patients on Oral Lipid Therapy Needing Further LDL-C Reduction",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT04797104/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT04797104/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 3,
+      "candidate_id": "NCT05789576",
+      "domain": "immunology_rheumatology",
+      "title": "A Study to Investigate Efficacy and Safety of VTAMA® (Tapinarof) Cream, 1% in Plaque Psoriasis in the Head and Neck Region",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "na",
         "single_group",
         "none",
-        "phase_2",
-        "phase_3"
+        "phase_4"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03266588/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/88/NCT03266588/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT05789576/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/76/NCT05789576/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03315104",
+      "domain": "infectious_disease",
+      "title": "Exploring Safety & Clinical Benefit of Anti-Influenza Immunoglobulin Intravenous in Hospitalized Adults With Influenza A",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "binary",
+        "count_or_rate",
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT03315104/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/04/NCT03315104/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04447040",
+      "domain": "musculoskeletal_pain",
+      "title": "Acetaminophen/Naproxen Sodium Dose Ranging Study",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT04447040/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/40/NCT04447040/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03467477",
+      "domain": "neurology",
+      "title": "Tau Screening Study in Subjects With Early Symptomatic AD",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT03467477/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/77/NCT03467477/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 7,
-      "candidate_id": "NCT01997333",
+      "candidate_id": "NCT02025985",
       "domain": "oncology",
-      "title": "Study of Glembatumumab Vedotin (CDX-011) in Patients With Metastatic, gpNMB Over-Expressing, Triple Negative Breast Cancer",
+      "title": "Study of KPT-330 (Selinexor) in Female Patients With Advanced Gynaecologic Malignancies",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -134,29 +133,29 @@
         "phase_2"
       ],
       "endpoint_types": [
-        "time_to_event"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT01997333/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/33/NCT01997333/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT02025985/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/85/NCT02025985/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03739593",
+      "candidate_id": "NCT03780972",
       "domain": "ophthalmology",
-      "title": "Study Assessing AR-1105 in Subjects With Macular Edema Due to Retinal Vein Occlusion (RVO)",
+      "title": "A Study to Evaluate the Safety and Tolerability of ONL1204 in Patients With Macula-off, Rhegmatogenous Retinal Detachment",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
+        "non_randomized",
+        "sequential",
         "none",
-        "phase_2"
+        "phase_1"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03739593/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03739593/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT03780972/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/72/NCT03780972/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

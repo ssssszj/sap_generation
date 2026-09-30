@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 157 screening - 2026-09-30
+
+- Batch 157 produced no promotion: excluded NCT03639675, NCT05732454 and NCT01997333 because their model-visible protocols substantially reconstruct the target analyses; excluded NCT04731142, NCT03248882, NCT04204083, NCT03266588 and NCT03739593 because their selected targets are post-primary/post-completion, post-hoc-, observed-conduct-, combined-study-family-, interim- or COVID-informed, with NCT03266588 also carrying an unreconciled SAP-to-protocol governing-version chain.
+- Downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 960 physical pages, fully OCRed the scan-only NCT03266588, NCT03739593 and NCT04204083 SAPs, and rendered and visually inspected 92 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 156 screening - 2026-09-30
 
 - Batch 156 produced no promotion: excluded NCT03613649, NCT04707313, NCT05724199, NCT03239483, NCT04203537, NCT03238781, NCT01970865 and NCT03710564 because their selected targets are post-primary/post-completion, blinded-review-, monitoring-, interim-, regulatory-, observed-dropout-, COVID- or other accumulated-conduct-informed and/or substantially reconstructable from their model-visible protocols; NCT03613649 and NCT01970865 also have unreconciled SAP-to-protocol governing-version chains.
