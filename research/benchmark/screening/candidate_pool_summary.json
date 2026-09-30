@@ -23,18 +23,15 @@
     "ophthalmology": 1
   },
   "intervention_distribution": {
-    "behavioral": 1,
-    "device": 1,
-    "drug": 8,
-    "mixed": 1,
-    "other": 3
+    "behavioral": 2,
+    "drug": 10,
+    "other": 2
   },
   "endpoint_distribution_multi_label": {
-    "binary": 3,
-    "continuous": 4,
+    "binary": 2,
+    "continuous": 3,
     "count_or_rate": 1,
-    "other_or_manual_review": 7,
-    "time_to_event": 1
+    "other_or_manual_review": 9
   },
   "pairing_state_distribution": {
     "needs_version_review": 1,
