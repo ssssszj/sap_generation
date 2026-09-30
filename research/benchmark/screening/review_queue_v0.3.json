@@ -5,155 +5,155 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03131167",
+      "candidate_id": "NCT03152552",
       "domain": "cardiovascular",
-      "title": "Study of SHP639 Eye Drops in Adults With High Eye Pressure or Primary Open-angle Glaucoma",
+      "title": "A Dose Finding Study to Assess the Effect of LIK066 Compared to Placebo or Empagliflozin in Patients With Type 2 Diabetes Mellitus and Heart Failure",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "quadruple",
-        "phase_1"
+        "triple",
+        "phase_2"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03131167/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03131167/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT03152552/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/52/NCT03152552/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT03802825",
+      "candidate_id": "NCT03811093",
       "domain": "endocrine_metabolic",
-      "title": "Addressing Social Determinants of Health & Diabetes Self-Management in Vulnerable Populations",
+      "title": "Comparing the Efficacy of a Dual-Frequency LLLT Device With a Sham Device as a Therapy for Adipose Tissue Loss",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
+        "double",
         "na"
       ],
       "endpoint_types": [
-        "other_or_manual_review"
+        "binary",
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03802825/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/25/NCT03802825/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03811093/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/93/NCT03811093/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT04921969",
+      "candidate_id": "NCT04967508",
       "domain": "immunology_rheumatology",
-      "title": "A Study to Assess the Efficacy and Safety of Ruxolitinib Cream in Children With Atopic Dermatitis (TRuE-AD3)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04921969/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT04921969/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT02989194",
-      "domain": "infectious_disease",
-      "title": "Study of an Investigational Monoclonal Antibody, VIS410, in Subjects With Uncomplicated Influenza A",
+      "title": "A Study to Compare SB17 (Proposed Ustekinumab Biosimilar) to Stelara® in Subject With Moderate to Severe Plaque Psoriasis",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "quadruple",
-        "phase_2"
+        "phase_3"
       ],
       "endpoint_types": [
-        "binary"
+        "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT02989194/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT02989194/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT04967508/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/08/NCT04967508/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 5,
-      "candidate_id": "NCT03417778",
-      "domain": "musculoskeletal_pain",
-      "title": "Study to Evaluate the Pharmacokinetics of Filgotinib in Participants With Impaired Hepatic Function",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "non_randomized",
-        "parallel",
-        "none",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03417778/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/78/NCT03417778/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02551809",
-      "domain": "neurology",
-      "title": "Evaluate the Safety, Tolerability, Immunogenicity and Efficacy of UB-311 in Mild Alzheimer's Disease (AD) Patients",
+      "queue_rank": 4,
+      "candidate_id": "NCT02992119",
+      "domain": "infectious_disease",
+      "title": "Malaria Vaccine Safety and Immunogenicity Study in Healthy Adults",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "triple",
+        "none",
         "phase_2"
       ],
       "endpoint_types": [
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT02551809/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/09/NCT02551809/SAP_002.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02992119/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/19/NCT02992119/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
-      "queue_rank": 7,
-      "candidate_id": "NCT01339910",
-      "domain": "oncology",
-      "title": "Reduced Intensity Regimen vs Myeloablative Regimen for Myeloid Leukemia or Myelodysplastic Syndrome (BMT CTN 0901)",
+      "queue_rank": 5,
+      "candidate_id": "NCT03426267",
+      "domain": "musculoskeletal_pain",
+      "title": "Evaluation of Efficacy and Safety of SDN-037",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
-        "none",
+        "double",
         "phase_3"
-      ],
-      "endpoint_types": [
-        "time_to_event",
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT01339910/Prot_ICF_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/10/NCT01339910/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 8,
-      "candidate_id": "NCT07239128",
-      "domain": "ophthalmology",
-      "title": "Photobiomodulation in Combination With Topical Cyclosporine A or Tacrolimus",
-      "pairing_state": "exact_document_date_match",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "early_phase_1"
       ],
       "endpoint_types": [
         "other_or_manual_review"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT07239128/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/28/NCT07239128/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03426267/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/67/NCT03426267/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT02582866",
+      "domain": "neurology",
+      "title": "A Clinical Study to Investigate the Long-term Use of Lacosamide as Monotherapy in Subjects Who Completed Study SP0994",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02582866/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/66/NCT02582866/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01296932",
+      "domain": "oncology",
+      "title": "BI836826 Dose Escalation in Relapsed Chronic Lymphocytic Leukaemia (CLL)",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_1"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT01296932/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT01296932/SAP_000.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 8,
+      "candidate_id": "NCT02177123",
+      "domain": "ophthalmology",
+      "title": "Post Market Study of the InnFocus MicroShunt",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "na"
+      ],
+      "endpoint_types": [
+        "count_or_rate"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02177123/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/23/NCT02177123/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
@@ -196,21 +196,20 @@
     },
     {
       "queue_rank": 11,
-      "candidate_id": "NCT01296932",
+      "candidate_id": "NCT01343043",
       "domain": "oncology",
-      "title": "BI836826 Dose Escalation in Relapsed Chronic Lymphocytic Leukaemia (CLL)",
+      "title": "A Pilot Study of Genetically Engineered NY-ESO-1 Specific NY-ESO-1ᶜ²⁵⁹T in HLA-A2+ Patients With Synovial Sarcoma",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "na",
-        "single_group",
-        "none",
+        "non_randomized",
+        "parallel",
         "phase_1"
       ],
       "endpoint_types": [
-        "count_or_rate"
+        "binary"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT01296932/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/32/NCT01296932/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT01343043/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/43/NCT01343043/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {

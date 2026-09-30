@@ -1,5 +1,10 @@
 # Changelog
 
+## Batch 144 screening - 2026-09-30
+
+- Batch 144 produced no promotion: excluded NCT03131167, NCT04921969, NCT02989194, NCT03417778 and NCT02551809 because their selected targets are post-primary/post-completion, database-lock-, unmasking-, enrollment- or other conduct-informed and their protocols expose substantial executable programs; excluded NCT01339910 for protocol-embedded target leakage; and excluded NCT07239128 because both alleged source documents are post-completion executed manuscript methods.
+- Placed NCT03802825 on governing-version hold because its four-page pre-completion SAP is only labeled a "Published version" and supplies no version, revision, signature, approval or governing-protocol chain. Sequentially downloaded and SHA-256-froze 16 official PDFs and eight registry records, extracted all 833 physical pages, and rendered and visually inspected 319 decisive pages in eight contact sheets. All eight slots were replenished. The intake remains 106 public first-pass drafts plus 14 actionable metadata candidates and 2,070 total requirements, including the 26-item private pilot.
+
 ## Batch 143 screening - 2026-09-30
 
 - Batch 143 produced no promotion: excluded NCT03118518 and NCT01274351 because their model-visible protocols substantially reconstruct the target plans; excluded NCT03738865, NCT04881461 and NCT03410056 because their targets are post-primary/post-completion, conduct-informed and protocol-leaking; excluded NCT02979535 and NCT02549196 because their selected protocol/SAP packages incorporate IDMC findings, observed cohorts or other realized conduct; and excluded NCT05985304 because its SAP cites a different governing protocol revision while the selected protocol nearly reconstructs the target.
