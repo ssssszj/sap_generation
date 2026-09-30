@@ -5,28 +5,28 @@
   "studies": [
     {
       "queue_rank": 1,
-      "candidate_id": "NCT03510663",
+      "candidate_id": "NCT03604263",
       "domain": "cardiovascular",
-      "title": "Phase I Study of OPC-61815",
+      "title": "ArcticLine Feasibility Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "crossover",
-        "triple",
-        "phase_1"
+        "na",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
-        "continuous"
+        "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03510663/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03510663/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03604263/Prot_004.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/63/NCT03604263/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 2,
-      "candidate_id": "NCT04450394",
+      "candidate_id": "NCT04450407",
       "domain": "endocrine_metabolic",
-      "title": "A Phase 2 Study of LY3209590 in Participants With Type 2 Diabetes Mellitus",
+      "title": "A Study of LY3209590 in Participants With Type 1 Diabetes",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
@@ -37,124 +37,125 @@
       "endpoint_types": [
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04450394/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/94/NCT04450394/SAP_001.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04450407/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT04450407/SAP_001.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 3,
-      "candidate_id": "NCT05439941",
+      "candidate_id": "NCT05678959",
       "domain": "immunology_rheumatology",
-      "title": "A Long-Term Extension Trial in Participants With Atopic Dermatitis Who Participated in Previous EDP1815 Trials",
+      "title": "Long-term Extension Study of Ligelizumab in Food Allergy",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "non_randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "binary"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT05678959/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/59/NCT05678959/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 4,
+      "candidate_id": "NCT03236506",
+      "domain": "infectious_disease",
+      "title": "A Direct obserVed therApy vs fortNightly CollEction Study for HCV Treatment - ADVANCE HCV Study",
       "pairing_state": "plausible_date_order",
       "design_tags": [
         "randomized",
         "parallel",
         "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT03236506/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/06/NCT03236506/SAP_002.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 5,
+      "candidate_id": "NCT04172831",
+      "domain": "musculoskeletal_pain",
+      "title": "A Study To Evaluate The Efficacy And Safety Of TNX-102 SL In Patients With Fibromyalgia",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "quadruple",
+        "phase_3"
+      ],
+      "endpoint_types": [
+        "continuous"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT04172831/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/31/NCT04172831/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 6,
+      "candidate_id": "NCT03118947",
+      "domain": "neurology",
+      "title": "A Study of Pimavanserin for the Treatment of Agitation and Aggression in Subjects With Alzheimer's Disease",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "na",
+        "single_group",
+        "none",
+        "phase_2"
+      ],
+      "endpoint_types": [
+        "other_or_manual_review"
+      ],
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT03118947/Prot_000.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/47/NCT03118947/SAP_001.pdf",
+      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
+    },
+    {
+      "queue_rank": 7,
+      "candidate_id": "NCT01923168",
+      "domain": "oncology",
+      "title": "Study of Letrozole With or Without BYL719 or Buparlisib, for the Neoadjuvant Treatment of Postmenopausal Women",
+      "pairing_state": "plausible_date_order",
+      "design_tags": [
+        "randomized",
+        "parallel",
+        "triple",
         "phase_2"
       ],
       "endpoint_types": [
         "binary",
         "count_or_rate"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05439941/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/41/NCT05439941/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 4,
-      "candidate_id": "NCT03198507",
-      "domain": "infectious_disease",
-      "title": "ERADICATE Hp2 - Treating Helicobacter Pylori With RHB-105 Compared to Active Comparator",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "triple",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "count_or_rate"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT03198507/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/07/NCT03198507/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 5,
-      "candidate_id": "NCT04114656",
-      "domain": "musculoskeletal_pain",
-      "title": "Effects of Intravenous GSK3858279 on a Battery of Evoked Pain Tests in Healthy Volunteers",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "crossover",
-        "double",
-        "phase_1"
-      ],
-      "endpoint_types": [
-        "time_to_event"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT04114656/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/56/NCT04114656/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 6,
-      "candidate_id": "NCT02988401",
-      "domain": "neurology",
-      "title": "Intranasal Insulin for Improving Cognitive Function in Multiple Sclerosis",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "randomized",
-        "parallel",
-        "quadruple",
-        "phase_1",
-        "phase_2"
-      ],
-      "endpoint_types": [
-        "other_or_manual_review"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02988401/Prot_000.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/01/NCT02988401/SAP_001.pdf",
-      "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
-    },
-    {
-      "queue_rank": 7,
-      "candidate_id": "NCT01889069",
-      "domain": "oncology",
-      "title": "A Study to Evaluate Safety, Efficacy and Pharmacokinetics of Rituximab (MabThera/Rituxan) in Participants With Diffuse Large B Cell Lymphoma (DLBCL) or Follicular Lymphoma (FL)",
-      "pairing_state": "plausible_date_order",
-      "design_tags": [
-        "na",
-        "single_group",
-        "none",
-        "phase_3"
-      ],
-      "endpoint_types": [
-        "binary"
-      ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT01889069/Prot_001.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/69/NCT01889069/SAP_000.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT01923168/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/68/NCT01923168/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
       "queue_rank": 8,
-      "candidate_id": "NCT03636061",
+      "candidate_id": "NCT03681886",
       "domain": "ophthalmology",
-      "title": "Evaluation of the Efficacy of OC-01 Nasal Spray on Signs and Symptoms of Dry Eye Disease",
+      "title": "Visual and Refractive Outcomes of The ClarVista HARMONI™ Modular Intraocular Lens System (HMIOL)",
       "pairing_state": "plausible_date_order",
       "design_tags": [
-        "randomized",
-        "parallel",
-        "double",
-        "phase_2"
+        "non_randomized",
+        "single_group",
+        "none",
+        "na"
       ],
       "endpoint_types": [
+        "binary",
+        "count_or_rate",
         "continuous"
       ],
-      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03636061/Prot_002.pdf",
-      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/61/NCT03636061/SAP_003.pdf",
+      "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03681886/Prot_001.pdf",
+      "sap_url": "https://cdn.clinicaltrials.gov/large-docs/86/NCT03681886/SAP_000.pdf",
       "next_action": "Download, hash, extract title pages, and verify the SAP-internal protocol version citation."
     },
     {
