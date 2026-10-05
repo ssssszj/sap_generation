@@ -13,7 +13,7 @@ Collection stopped at the user-authorized 100-question ceiling on 2026-10-05. Th
 | `exclude_post_primary_or_execution_informed` | 20 | no |
 | private `pilot_only` | 1 | no |
 
-All 141 public studies have a protocol package, a separate reference SAP, a first-pass `requirements.jsonl`, and an `annotation_status.json`. Together they contain 2,584 public requirements; the private pilot adds 26. The delivered question set is [final_audit/initial_draft_question_set.json](final_audit/initial_draft_question_set.json), containing exactly the 100 `keep_draft` studies. It remains `draft_needs_expert_review`: none of the questions is expert-approved or frozen.
+All 141 public studies have a protocol package, a separate reference SAP, a first-pass `requirements.jsonl`, and an `annotation_status.json`. Together they contain 2,589 public requirements; the private pilot adds 26. The delivered question set is [final_audit/initial_draft_question_set.json](final_audit/initial_draft_question_set.json), containing exactly the 100 `keep_draft` studies and 1,771 requirements. It remains `draft_needs_expert_review`: none of the questions is expert-approved or frozen.
 
 The complete 141-row disposition record is [final_audit/questions.jsonl](final_audit/questions.jsonl). It binds each study to its input and reference documents, registry chronology, requirement count, unresolved version questions, audit gates, and terminal disposition. The source chronology used by that audit is frozen in [final_audit/registry_chronology.jsonl](final_audit/registry_chronology.jsonl).
 

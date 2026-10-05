@@ -114,7 +114,7 @@ The authoritative initial selection is `final_audit/initial_draft_question_set.j
 - EMBRACE LLM-based emotional management in breast cancer, a multicenter randomized digital-support trial with MMRM, count, competing-risk, subgroup and engagement analyses.
 - oral immunotherapy in adults with severe egg, milk or nut allergy, a prospective nonrandomized study with one-year immunologic and pulmonary outcomes and explicit endpoint-hierarchy, population, multiplicity and safety gates.
 
-All 141 public studies have first-pass annotations. Together with the private pilot, the registered set contains 2,610 evidence-backed requirements: 2,584 for the public studies and 26 for the private pilot. Exactly 100 `keep_draft` studies are delivered as initial questions, and all remain unsplit until independent expert review is complete.
+All 141 public studies have first-pass annotations. Together with the private pilot, the registered set contains 2,615 evidence-backed requirements: 2,589 for the public studies and 26 for the private pilot. Exactly 100 `keep_draft` studies with 1,771 requirements are delivered as initial questions, and all remain unsplit until independent expert review is complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 

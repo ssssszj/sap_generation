@@ -4,7 +4,8 @@
 
 - Added 34 independent public study families to the prior 66-question set after manual protocol/SAP identity, chronology, conduct-language, and leakage review; stopped acquisition at exactly 100 retained draft questions.
 - Rejected six initially selected replacements during final review (`NCT02676895`, `NCT06340854`, `NCT05014919`, `NCT02746991`, `NCT02890381`, and `NCT03387813`) and substituted six stricter candidates (`NCT03231228`, `NCT05430854`, `NCT05307523`, `NCT03332004`, `NCT03324659`, and `NCT05001165`).
-- Expanded the terminal audit to 141 public drafts: 100 `keep_draft`, 21 `hold_version_or_provenance`, and 20 `exclude_post_primary_or_execution_informed`. The public annotations now contain 2,584 evidence-backed requirements; the private pilot adds 26.
+- Re-audited the 100-question draft with strict actual-start and family-uniqueness gates. Replaced nine previously retained families (`NCT02593825`, `NCT02041494`, `NCT03212144`, `NCT03210402`, `NCT03529981`, `NCT03704116`, `NCT03691428`, `NCT04786184`, and `NCT05319977`) with nine pre-start families (`NCT03576976`, `NCT04858035`, `NCT04759157`, `NCT03203291`, `NCT04596085`, `NCT05012657`, `NCT05013762`, `NCT02816723`, and `NCT05208593`). Only `NCT03835403` and `NCT05430854` remain documented post-start exceptions.
+- Expanded the terminal audit to 141 public drafts: 100 `keep_draft`, 21 `hold_version_or_provenance`, and 20 `exclude_post_primary_or_execution_informed`. The public annotations now contain 2,589 evidence-backed requirements; the 100 retained questions contain 1,771 and the private pilot adds 26.
 - Preserved all additions as `draft_needs_expert_review`; no item is represented as expert-approved, split-ready, or frozen.
 
 ## Initial benchmark closeout - 2026-10-02

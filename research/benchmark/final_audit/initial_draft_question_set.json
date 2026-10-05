@@ -71,7 +71,6 @@
     "PUBLIC-FORCED-AEROBIC-MS-001",
     "PUBLIC-AMPED-PD-001",
     "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001",
-    "PUBLIC-EFFICACY-OF-THE-START-PLAY-PROGRAM-FOR-INF-3825",
     "PUBLIC-VIRTUAL-REALITY-GUIDED-ACUPUNCTURE-IMAGERY-4470",
     "PUBLIC-HOME-BASED-RESISTANCE-TRAINING-TO-PATIENTS-5660",
     "PUBLIC-MILK-PROTEIN-AND-BONE-HEALTH-IN-POSTMENOPA-1113",
@@ -80,7 +79,6 @@
     "PUBLIC-PREGABALIN-AS-TREATMENT-FOR-ALCOHOL-USE-DI-6253",
     "PUBLIC-SLEEPSMART-FOR-VETERANS-WITH-MCI-AND-INSOM-6960",
     "PUBLIC-SAFETY-OF-1-G-AND-2-G-OF-CEFAZOLIN-IN-PEDI-1228",
-    "PUBLIC-THE-ANTI-INFLAMMATORY-EFFECTS-OF-EXERCISE--2144",
     "PUBLIC-STUDY-TO-COLLECT-SAFETY-AND-ECG-DATA-ON-BR-4626",
     "PUBLIC-A-ONE-DAY-ACT-WORKSHOP-FOR-EMOTIONAL-EATIN-4780",
     "PUBLIC-THE-EFFECT-OF-A-MULTIVITAMIN-IN-THE-TREATM-5325",
@@ -95,16 +93,18 @@
     "PUBLIC-EVALUATION-OF-PHARMACOKINETICS-SAFETY-AND--6031",
     "PUBLIC-MEDITATION-AND-EXERCISE-TO-TREAT-CHRONIC-B-4659",
     "PUBLIC-CONTINUOUS-GLUCOSE-MONITORING-IN-DIABETES--5412",
-    "PUBLIC-REMODELING-THE-LEFT-VENTRICLE-WITH-ATRIAL--0402",
-    "PUBLIC-WEARABLE-EMOTION-PROSTHETICS-FOR-POST-TRAU-9981",
-    "PUBLIC-EXECUTIVE-FUNCTION-TRAINING-INTERVENTION-F-4116",
     "PUBLIC-DASHBOARD-ACTIVATED-SERVICES-AND-TELE-HEAL-1165",
-    "PUBLIC-COMPLEX-VENTRAL-HERNIA-REPAIR-USING-BIOLOG-1494",
     "PUBLIC-LIVE-LONG-WALK-STRONG-LLWS-REHABILITATION--6503",
     "PUBLIC-BRIEF-INTERVENTION-FOR-JUSTICE-INVOLVED-SU-8877",
-    "PUBLIC-STRESS-REDUCTION-STUDY-FOR-PARTNERS-OF-EAR-1428",
-    "PUBLIC-CAPNOGRAPHY-ASSISTED-LEARNED-MONITORED-CAL-6184",
-    "PUBLIC-MATERNAL-ALCOHOL-REDUCTION-INTERVENTION-IN-9977"
+    "PUBLIC-IMPROVING-ACCESSIBILITY-AND-PERSONALIZATIO-6976",
+    "PUBLIC-AUDITORY-PERCEPTUAL-TRAINING-VIA-TELEPRACT-8035",
+    "PUBLIC-WE-PAP-A-COUPLES-BASED-INTERVENTION-FOR-SL-9157",
+    "PUBLIC-REDUCING-ASYMMETRY-DURING-GAIT-USING-THE-T-3291",
+    "PUBLIC-STUDY-TO-EVALUATE-EFFICACY-AND-SAFETY-OF-V-6085",
+    "PUBLIC-VALIDATION-OF-POINT-PARTIAL-USER-NEEDS-WIT-2657",
+    "PUBLIC-FAST-ARM-MOTOR-SKILL-TRAINING-IN-CHRONIC-S-3762",
+    "PUBLIC-MINDFULNESS-TRAINING-IN-HEALTHY-OLDER-VETE-6723",
+    "PUBLIC-ALCOHOL-PBS-AND-THINKING-ABOUT-THE-PAST-8593"
   ],
   "questions": [
     {
@@ -834,17 +834,6 @@
       "reference_sap_document_id": "doc-oral-immunotherapy-adult-reference-sap-20121019"
     },
     {
-      "study_id": "PUBLIC-EFFICACY-OF-THE-START-PLAY-PROGRAM-FOR-INF-3825",
-      "study_family_id": "NCT02593825-EFFICACY-OF-THE-START-PLAY-P",
-      "track": "protocol_only",
-      "input_document_ids": [
-        "doc-nct02593825-protocol-2015-07-17"
-      ],
-      "requirements_path": "gold/PUBLIC-EFFICACY-OF-THE-START-PLAY-PROGRAM-FOR-INF-3825/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-EFFICACY-OF-THE-START-PLAY-PROGRAM-FOR-INF-3825/annotation_status.json",
-      "reference_sap_document_id": "doc-nct02593825-reference-sap-2015-07-17"
-    },
-    {
       "study_id": "PUBLIC-VIRTUAL-REALITY-GUIDED-ACUPUNCTURE-IMAGERY-4470",
       "study_family_id": "NCT06814470-VIRTUAL-REALITY-GUIDED-ACUPU",
       "track": "protocol_only",
@@ -931,17 +920,6 @@
       "requirements_path": "gold/PUBLIC-SAFETY-OF-1-G-AND-2-G-OF-CEFAZOLIN-IN-PEDI-1228/requirements.jsonl",
       "annotation_status_path": "gold/PUBLIC-SAFETY-OF-1-G-AND-2-G-OF-CEFAZOLIN-IN-PEDI-1228/annotation_status.json",
       "reference_sap_document_id": "doc-nct03231228-reference-sap-2017-11-15"
-    },
-    {
-      "study_id": "PUBLIC-THE-ANTI-INFLAMMATORY-EFFECTS-OF-EXERCISE--2144",
-      "study_family_id": "NCT03212144-THE-ANTI-INFLAMMATORY-EFFECT",
-      "track": "protocol_only",
-      "input_document_ids": [
-        "doc-nct03212144-protocol-2018-05-25"
-      ],
-      "requirements_path": "gold/PUBLIC-THE-ANTI-INFLAMMATORY-EFFECTS-OF-EXERCISE--2144/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-THE-ANTI-INFLAMMATORY-EFFECTS-OF-EXERCISE--2144/annotation_status.json",
-      "reference_sap_document_id": "doc-nct03212144-reference-sap-2018-05-25"
     },
     {
       "study_id": "PUBLIC-STUDY-TO-COLLECT-SAFETY-AND-ECG-DATA-ON-BR-4626",
@@ -1098,39 +1076,6 @@
       "reference_sap_document_id": "doc-nct03805412-reference-sap-2018-11-18"
     },
     {
-      "study_id": "PUBLIC-REMODELING-THE-LEFT-VENTRICLE-WITH-ATRIAL--0402",
-      "study_family_id": "NCT03210402-REMODELING-THE-LEFT-VENTRICL",
-      "track": "protocol_only",
-      "input_document_ids": [
-        "doc-nct03210402-protocol-2018-04-27"
-      ],
-      "requirements_path": "gold/PUBLIC-REMODELING-THE-LEFT-VENTRICLE-WITH-ATRIAL--0402/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-REMODELING-THE-LEFT-VENTRICLE-WITH-ATRIAL--0402/annotation_status.json",
-      "reference_sap_document_id": "doc-nct03210402-reference-sap-2018-08-01"
-    },
-    {
-      "study_id": "PUBLIC-WEARABLE-EMOTION-PROSTHETICS-FOR-POST-TRAU-9981",
-      "study_family_id": "NCT03529981-WEARABLE-EMOTION-PROSTHETICS",
-      "track": "protocol_only",
-      "input_document_ids": [
-        "doc-nct03529981-protocol-2018-05-07"
-      ],
-      "requirements_path": "gold/PUBLIC-WEARABLE-EMOTION-PROSTHETICS-FOR-POST-TRAU-9981/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-WEARABLE-EMOTION-PROSTHETICS-FOR-POST-TRAU-9981/annotation_status.json",
-      "reference_sap_document_id": "doc-nct03529981-reference-sap-2018-05-07"
-    },
-    {
-      "study_id": "PUBLIC-EXECUTIVE-FUNCTION-TRAINING-INTERVENTION-F-4116",
-      "study_family_id": "NCT03704116-EXECUTIVE-FUNCTION-TRAINING-",
-      "track": "protocol_only",
-      "input_document_ids": [
-        "doc-nct03704116-protocol-2018-10-08"
-      ],
-      "requirements_path": "gold/PUBLIC-EXECUTIVE-FUNCTION-TRAINING-INTERVENTION-F-4116/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-EXECUTIVE-FUNCTION-TRAINING-INTERVENTION-F-4116/annotation_status.json",
-      "reference_sap_document_id": "doc-nct03704116-reference-sap-2018-10-08"
-    },
-    {
       "study_id": "PUBLIC-DASHBOARD-ACTIVATED-SERVICES-AND-TELE-HEAL-1165",
       "study_family_id": "NCT05001165-DASHBOARD-ACTIVATED-SERVICES",
       "track": "protocol_only",
@@ -1140,17 +1085,6 @@
       "requirements_path": "gold/PUBLIC-DASHBOARD-ACTIVATED-SERVICES-AND-TELE-HEAL-1165/requirements.jsonl",
       "annotation_status_path": "gold/PUBLIC-DASHBOARD-ACTIVATED-SERVICES-AND-TELE-HEAL-1165/annotation_status.json",
       "reference_sap_document_id": "doc-nct05001165-reference-sap-2021-07-20"
-    },
-    {
-      "study_id": "PUBLIC-COMPLEX-VENTRAL-HERNIA-REPAIR-USING-BIOLOG-1494",
-      "study_family_id": "NCT02041494-COMPLEX-VENTRAL-HERNIA-REPAI",
-      "track": "protocol_only",
-      "input_document_ids": [
-        "doc-nct02041494-protocol-2014-07-23"
-      ],
-      "requirements_path": "gold/PUBLIC-COMPLEX-VENTRAL-HERNIA-REPAIR-USING-BIOLOG-1494/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-COMPLEX-VENTRAL-HERNIA-REPAIR-USING-BIOLOG-1494/annotation_status.json",
-      "reference_sap_document_id": "doc-nct02041494-reference-sap-2014-07-23"
     },
     {
       "study_id": "PUBLIC-LIVE-LONG-WALK-STRONG-LLWS-REHABILITATION--6503",
@@ -1175,37 +1109,103 @@
       "reference_sap_document_id": "doc-nct03308877-reference-sap-2017-04-01"
     },
     {
-      "study_id": "PUBLIC-STRESS-REDUCTION-STUDY-FOR-PARTNERS-OF-EAR-1428",
-      "study_family_id": "NCT03691428-STRESS-REDUCTION-STUDY-FOR-P",
+      "study_id": "PUBLIC-IMPROVING-ACCESSIBILITY-AND-PERSONALIZATIO-6976",
+      "study_family_id": "NCT03576976-IMPROVING-ACCESSIBILITY-AND-",
       "track": "protocol_only",
       "input_document_ids": [
-        "doc-nct03691428-protocol-2020-11-04"
+        "doc-nct03576976-protocol-2018-05-24"
       ],
-      "requirements_path": "gold/PUBLIC-STRESS-REDUCTION-STUDY-FOR-PARTNERS-OF-EAR-1428/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-STRESS-REDUCTION-STUDY-FOR-PARTNERS-OF-EAR-1428/annotation_status.json",
-      "reference_sap_document_id": "doc-nct03691428-reference-sap-2020-11-04"
+      "requirements_path": "gold/PUBLIC-IMPROVING-ACCESSIBILITY-AND-PERSONALIZATIO-6976/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-IMPROVING-ACCESSIBILITY-AND-PERSONALIZATIO-6976/annotation_status.json",
+      "reference_sap_document_id": "doc-nct03576976-reference-sap-2018-05-24"
     },
     {
-      "study_id": "PUBLIC-CAPNOGRAPHY-ASSISTED-LEARNED-MONITORED-CAL-6184",
-      "study_family_id": "NCT04786184-CAPNOGRAPHY-ASSISTED-LEARNED",
+      "study_id": "PUBLIC-AUDITORY-PERCEPTUAL-TRAINING-VIA-TELEPRACT-8035",
+      "study_family_id": "NCT04858035-AUDITORY-PERCEPTUAL-TRAINING",
       "track": "protocol_only",
       "input_document_ids": [
-        "doc-nct04786184-protocol-2022-08-22"
+        "doc-nct04858035-protocol-2020-10-21"
       ],
-      "requirements_path": "gold/PUBLIC-CAPNOGRAPHY-ASSISTED-LEARNED-MONITORED-CAL-6184/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-CAPNOGRAPHY-ASSISTED-LEARNED-MONITORED-CAL-6184/annotation_status.json",
-      "reference_sap_document_id": "doc-nct04786184-reference-sap-2022-08-22"
+      "requirements_path": "gold/PUBLIC-AUDITORY-PERCEPTUAL-TRAINING-VIA-TELEPRACT-8035/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-AUDITORY-PERCEPTUAL-TRAINING-VIA-TELEPRACT-8035/annotation_status.json",
+      "reference_sap_document_id": "doc-nct04858035-reference-sap-2021-03-17"
     },
     {
-      "study_id": "PUBLIC-MATERNAL-ALCOHOL-REDUCTION-INTERVENTION-IN-9977",
-      "study_family_id": "NCT05319977-MATERNAL-ALCOHOL-REDUCTION-I",
+      "study_id": "PUBLIC-WE-PAP-A-COUPLES-BASED-INTERVENTION-FOR-SL-9157",
+      "study_family_id": "NCT04759157-WE-PAP-A-COUPLES-BASED-INTER",
       "track": "protocol_only",
       "input_document_ids": [
-        "doc-nct05319977-protocol-2021-03-10"
+        "doc-nct04759157-protocol-2020-09-09"
       ],
-      "requirements_path": "gold/PUBLIC-MATERNAL-ALCOHOL-REDUCTION-INTERVENTION-IN-9977/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-MATERNAL-ALCOHOL-REDUCTION-INTERVENTION-IN-9977/annotation_status.json",
-      "reference_sap_document_id": "doc-nct05319977-reference-sap-2021-05-18"
+      "requirements_path": "gold/PUBLIC-WE-PAP-A-COUPLES-BASED-INTERVENTION-FOR-SL-9157/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-WE-PAP-A-COUPLES-BASED-INTERVENTION-FOR-SL-9157/annotation_status.json",
+      "reference_sap_document_id": "doc-nct04759157-reference-sap-2020-03-12"
+    },
+    {
+      "study_id": "PUBLIC-REDUCING-ASYMMETRY-DURING-GAIT-USING-THE-T-3291",
+      "study_family_id": "NCT03203291-REDUCING-ASYMMETRY-DURING-GA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nct03203291-protocol-2017-02-28"
+      ],
+      "requirements_path": "gold/PUBLIC-REDUCING-ASYMMETRY-DURING-GAIT-USING-THE-T-3291/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-REDUCING-ASYMMETRY-DURING-GAIT-USING-THE-T-3291/annotation_status.json",
+      "reference_sap_document_id": "doc-nct03203291-reference-sap-2016-12-13"
+    },
+    {
+      "study_id": "PUBLIC-STUDY-TO-EVALUATE-EFFICACY-AND-SAFETY-OF-V-6085",
+      "study_family_id": "NCT04596085-STUDY-TO-EVALUATE-EFFICACY-A",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nct04596085-protocol-2020-08-21"
+      ],
+      "requirements_path": "gold/PUBLIC-STUDY-TO-EVALUATE-EFFICACY-AND-SAFETY-OF-V-6085/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-STUDY-TO-EVALUATE-EFFICACY-AND-SAFETY-OF-V-6085/annotation_status.json",
+      "reference_sap_document_id": "doc-nct04596085-reference-sap-2020-06-04"
+    },
+    {
+      "study_id": "PUBLIC-VALIDATION-OF-POINT-PARTIAL-USER-NEEDS-WIT-2657",
+      "study_family_id": "NCT05012657-VALIDATION-OF-POINT-PARTIAL-",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nct05012657-protocol-2019-03-15"
+      ],
+      "requirements_path": "gold/PUBLIC-VALIDATION-OF-POINT-PARTIAL-USER-NEEDS-WIT-2657/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-VALIDATION-OF-POINT-PARTIAL-USER-NEEDS-WIT-2657/annotation_status.json",
+      "reference_sap_document_id": "doc-nct05012657-reference-sap-2019-10-22"
+    },
+    {
+      "study_id": "PUBLIC-FAST-ARM-MOTOR-SKILL-TRAINING-IN-CHRONIC-S-3762",
+      "study_family_id": "NCT05013762-FAST-ARM-MOTOR-SKILL-TRAININ",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nct05013762-protocol-2020-03-10"
+      ],
+      "requirements_path": "gold/PUBLIC-FAST-ARM-MOTOR-SKILL-TRAINING-IN-CHRONIC-S-3762/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-FAST-ARM-MOTOR-SKILL-TRAINING-IN-CHRONIC-S-3762/annotation_status.json",
+      "reference_sap_document_id": "doc-nct05013762-reference-sap-2020-03-10"
+    },
+    {
+      "study_id": "PUBLIC-MINDFULNESS-TRAINING-IN-HEALTHY-OLDER-VETE-6723",
+      "study_family_id": "NCT02816723-MINDFULNESS-TRAINING-IN-HEAL",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nct02816723-protocol-2016-03-06"
+      ],
+      "requirements_path": "gold/PUBLIC-MINDFULNESS-TRAINING-IN-HEALTHY-OLDER-VETE-6723/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-MINDFULNESS-TRAINING-IN-HEALTHY-OLDER-VETE-6723/annotation_status.json",
+      "reference_sap_document_id": "doc-nct02816723-reference-sap-2016-03-06"
+    },
+    {
+      "study_id": "PUBLIC-ALCOHOL-PBS-AND-THINKING-ABOUT-THE-PAST-8593",
+      "study_family_id": "NCT05208593-ALCOHOL-PBS-AND-THINKING-ABO",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nct05208593-protocol-2021-09-10"
+      ],
+      "requirements_path": "gold/PUBLIC-ALCOHOL-PBS-AND-THINKING-ABOUT-THE-PAST-8593/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ALCOHOL-PBS-AND-THINKING-ABOUT-THE-PAST-8593/annotation_status.json",
+      "reference_sap_document_id": "doc-nct05208593-reference-sap-2021-09-10"
     }
   ],
   "reference_sap_policy": "annotation_only_never_model_visible",

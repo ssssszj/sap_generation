@@ -1318,3 +1318,38 @@
 {"candidate_id":"NCT04460885","reason":"The SAP records a post-first-visit missing-data imputation change made following FDA advice.","status":"excluded_conduct_informed_sap"}
 {"candidate_id":"NCT07016568","reason":"The nominally pre-start SAP uses completed-analysis language such as data were extracted and software was used.","status":"excluded_conduct_informed_sap"}
 {"candidate_id":"NCT03978767","reason":"The protocol already specifies the non-inferiority margin, alpha, sample size, ITT population, and primary tests.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT02593825","reason":"Actual study start is recorded only at month precision, so strict ordering against the SAP cannot be established.","status":"hold_version_reconciliation"}
+{"candidate_id":"NCT02041494","reason":"The SAP is later than the month-level actual study start and no affirmative pre-unblinding, conduct-independent provenance was established.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT04786184","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03704116","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT05319977","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03210402","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03691428","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03212144","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03529981","reason":"The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT02680847","reason":"The available model-visible protocol is a post-start revision and already discloses detailed PK and safety analysis rules.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT04841577","reason":"The protocol directly discloses the ANCOVA, covariates, missing-data, non-inferiority, and interim framework.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT05695391","reason":"The available protocol is a post-start version and substantially discloses the target analysis and interim stopping rules.","status":"excluded_conduct_informed_protocol"}
+{"candidate_id":"NCT05979207","reason":"The protocol substantially discloses the PK/PD model and permits adaptive cohort decisions after safety and PK review.","status":"excluded_conduct_informed_protocol"}
+{"candidate_id":"NCT05365217","reason":"The protocol substantially reproduces the analysis populations, endpoint definition, models, and missing-data rule.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT04231318","reason":"The protocol discloses the primary and secondary ANOVA, covariates, repeated-measures model, populations, missing-data assumptions, and GEE.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT03349632","reason":"The protocol discloses the safety set, primary descriptive analysis, missing-data and multiplicity rules, leaving insufficient independent target content.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT03392532","reason":"The protocol discloses the analysis populations, primary definition, confidence interval, threshold, missingness, safety, and sample-size plan.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT04091061","reason":"The protocol discloses the PK populations and ANOVA with 90% confidence intervals and permits sponsor unblinded safety and PK-model review during conduct.","status":"excluded_conduct_informed_protocol"}
+{"candidate_id":"NCT04953442","reason":"The available protocol is a later IRB report stating that data collection concluded and reporting realized enrollment.","status":"excluded_conduct_informed_protocol"}
+{"candidate_id":"NCT03102034","reason":"The SAP explicitly plans an interim safety analysis.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT02581631","reason":"The SAP postdates actual start and describes analyses by completed cohort.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03856996","reason":"The SAP postdates actual start and plans repeated unblinded safety analyses.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT02816710","reason":"The analysis document uses completed-analysis or results-state language.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03564080","reason":"The analysis document uses completed-analysis or results-state language.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT05791435","reason":"The analysis document uses completed-analysis or results-state language.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03660787","reason":"The protocol already specifies the primary test, confidence intervals, analysis populations, safety analysis, and power calculation.","status":"excluded_combined_protocol_sap_leakage"}
+{"candidate_id":"NCT03868631","reason":"The nominally pre-start files describe realized recruitment, completed analyses, model convergence, and observed analysis-set sizes.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT05052138","reason":"Both protocol and SAP use completed-data and completed-analysis language rather than a prospective plan.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT07330232","reason":"The SAP internal date is 2025-12-29, after actual primary completion, despite an inconsistent registry document date of 2021-07-30.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT04966910","reason":"The SAP reports realized sample sizes, sphericity results, and an observed missing-data decision.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT03925220","reason":"The SAP cover contains irreconcilable dates, stating Document Date August 10, 2023 and Revised November 11, 2018.","status":"hold_version_reconciliation"}
+{"candidate_id":"NCT05039528","reason":"The protocol plans annual interim efficacy review by a DSMB.","status":"excluded_conduct_informed_protocol"}
+{"candidate_id":"NCT04226742","reason":"The SAP uses completed-analysis language for inclusion, imputation, and model adjustment despite its nominal pre-start date.","status":"excluded_conduct_informed_sap"}
+{"candidate_id":"NCT02657564","reason":"The family is already represented by baseline study PUBLIC-PEG-RENAL-SAFETY-001.","status":"excluded_duplicate_study_family"}
+{"candidate_id":"NCT05421624","reason":"The family is already represented by baseline study PUBLIC-AMPED-PD-001.","status":"excluded_duplicate_study_family"}

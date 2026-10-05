@@ -85,9 +85,27 @@ def main() -> int:
         if duplicates:
             errors.append(f"duplicate {name}: {duplicates}")
 
+    # A study family can acquire a different descriptive suffix while still
+    # referring to the same registered trial.  Treat the NCT identifier as the
+    # canonical public-study family key so suffix drift cannot put two
+    # questions from one trial into the benchmark.
+    studies_by_nct = {}
+    for study in studies:
+        match = re.search(r"NCT\d{8}", study.get("study_family_id", ""))
+        if match:
+            studies_by_nct.setdefault(match.group(0), []).append(study.get("study_id"))
+    duplicate_nct_families = {
+        nct: study_ids
+        for nct, study_ids in studies_by_nct.items()
+        if len(study_ids) > 1
+    }
+    if duplicate_nct_families:
+        errors.append(f"duplicate NCT study families: {duplicate_nct_families}")
+
     study_id_set = set(study_ids)
     document_id_set = set(document_ids)
     rubric_id_set = set(rubric_ids)
+    document_by_id = {record["document_id"]: record for record in documents}
     for document in documents:
         if document["study_id"] not in study_id_set:
             errors.append(f"document {document['document_id']} references unknown study {document['study_id']}")
@@ -190,6 +208,20 @@ def main() -> int:
                     errors.append(f"{label}: unknown evidence document {evidence.get('document_id')}")
                 if not evidence.get("locator") or not evidence.get("text"):
                     errors.append(f"{label}: evidence must include non-empty locator and text")
+            evidence_roles = {
+                document_by_id[item["document_id"]]["role"]
+                for item in requirement.get("evidence", [])
+                if item.get("document_id") in document_by_id
+            }
+            if (
+                requirement.get("status") == "explicit"
+                and "protocol_only" in requirement.get("tracks", [])
+                and evidence_roles
+                and evidence_roles <= {"reference_sap"}
+            ):
+                errors.append(
+                    f"{label}: explicit reference-only decision cannot be required on protocol_only"
+                )
             if requirement.get("status") == "needs_confirmation" and "deterministic" in requirement:
                 warnings.append(
                     f"{label}: needs_confirmation item has deterministic hints; semantic review remains mandatory"

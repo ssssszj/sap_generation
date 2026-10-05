@@ -26,27 +26,74 @@ TMP_ROOTS = [
     Path("/private/tmp/sapbench_prestart_docs2"),
     Path("/private/tmp/sapbench_prestart_docs3"),
     Path("/private/tmp/sapbench_second_docs"),
+    Path("/private/tmp/sapbench_strict_docs"),
+    Path("/private/tmp/sapbench_fresh_docs"),
 ]
-CANDIDATES = {
-    row["candidate_id"]: row
-    for row in map(json.loads, Path("/private/tmp/sapbench_candidates_1000.jsonl").read_text().splitlines())
-}
+CANDIDATE_FILES = [
+    Path("/private/tmp/sapbench_candidates_1000.jsonl"),
+    Path("/private/tmp/new_candidate_rows.jsonl"),
+]
+CANDIDATES = {}
+for candidate_file in CANDIDATE_FILES:
+    for row in map(json.loads, candidate_file.read_text().splitlines()):
+        CANDIDATES[row["candidate_id"]] = row
 
 # Exactly 34 independently reviewed families. The expansion ends at 100 keep
 # questions (66 baseline + these 34); do not add more without a new decision.
 SELECTED = [
-    "NCT02593825", "NCT06814470", "NCT04755660", "NCT03701113",
+    "NCT06814470", "NCT04755660", "NCT03701113",
     "NCT03198000", "NCT05516134", "NCT03256253",
-    "NCT05016960", "NCT03231228", "NCT03212144", "NCT03954626",
+    "NCT05016960", "NCT03231228", "NCT03954626",
     "NCT03744780", "NCT03835325", "NCT03876171", "NCT03835403",
     "NCT05430854", "NCT05307523", "NCT03397277", "NCT04239612",
     "NCT03332004", "NCT04674111", "NCT04126031", "NCT03324659",
-    "NCT03805412", "NCT03210402", "NCT03529981", "NCT03704116",
-    "NCT05001165", "NCT02041494", "NCT04026503", "NCT03308877",
-    "NCT03691428", "NCT04786184", "NCT05319977",
+    "NCT03805412", "NCT05001165", "NCT04026503", "NCT03308877",
+    "NCT03576976", "NCT04858035", "NCT04759157", "NCT03203291",
+    "NCT04596085", "NCT05012657", "NCT05013762", "NCT02816723",
+    "NCT05208593",
 ]
 
+# These two post-start plans passed a separate manual chronology review.  No
+# other post-start target is permitted through the automated gate below.
+POST_START_EXCEPTIONS = {"NCT03835403", "NCT05430854"}
+
 REJECTED = {
+    "NCT02593825": ("hold_version_reconciliation", "Actual study start is recorded only at month precision, so strict ordering against the SAP cannot be established."),
+    "NCT02041494": ("excluded_conduct_informed_sap", "The SAP is later than the month-level actual study start and no affirmative pre-unblinding, conduct-independent provenance was established."),
+    "NCT04786184": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT03704116": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT05319977": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT03210402": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT03691428": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT03212144": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT03529981": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
+    "NCT02680847": ("excluded_combined_protocol_sap_leakage", "The available model-visible protocol is a post-start revision and already discloses detailed PK and safety analysis rules."),
+    "NCT04841577": ("excluded_combined_protocol_sap_leakage", "The protocol directly discloses the ANCOVA, covariates, missing-data, non-inferiority, and interim framework."),
+    "NCT05695391": ("excluded_conduct_informed_protocol", "The available protocol is a post-start version and substantially discloses the target analysis and interim stopping rules."),
+    "NCT05979207": ("excluded_conduct_informed_protocol", "The protocol substantially discloses the PK/PD model and permits adaptive cohort decisions after safety and PK review."),
+    "NCT05365217": ("excluded_combined_protocol_sap_leakage", "The protocol substantially reproduces the analysis populations, endpoint definition, models, and missing-data rule."),
+    "NCT04231318": ("excluded_combined_protocol_sap_leakage", "The protocol discloses the primary and secondary ANOVA, covariates, repeated-measures model, populations, missing-data assumptions, and GEE."),
+    "NCT03349632": ("excluded_combined_protocol_sap_leakage", "The protocol discloses the safety set, primary descriptive analysis, missing-data and multiplicity rules, leaving insufficient independent target content."),
+    "NCT03392532": ("excluded_combined_protocol_sap_leakage", "The protocol discloses the analysis populations, primary definition, confidence interval, threshold, missingness, safety, and sample-size plan."),
+    "NCT04091061": ("excluded_conduct_informed_protocol", "The protocol discloses the PK populations and ANOVA with 90% confidence intervals and permits sponsor unblinded safety and PK-model review during conduct."),
+    "NCT04953442": ("excluded_conduct_informed_protocol", "The available protocol is a later IRB report stating that data collection concluded and reporting realized enrollment."),
+    "NCT03102034": ("excluded_conduct_informed_sap", "The SAP explicitly plans an interim safety analysis."),
+    "NCT02581631": ("excluded_conduct_informed_sap", "The SAP postdates actual start and describes analyses by completed cohort."),
+    "NCT03856996": ("excluded_conduct_informed_sap", "The SAP postdates actual start and plans repeated unblinded safety analyses."),
+    "NCT02816710": ("excluded_conduct_informed_sap", "The analysis document uses completed-analysis or results-state language."),
+    "NCT03564080": ("excluded_conduct_informed_sap", "The analysis document uses completed-analysis or results-state language."),
+    "NCT05791435": ("excluded_conduct_informed_sap", "The analysis document uses completed-analysis or results-state language."),
+    "NCT03660787": ("excluded_combined_protocol_sap_leakage", "The protocol already specifies the primary test, confidence intervals, analysis populations, safety analysis, and power calculation."),
+    "NCT03868631": ("excluded_conduct_informed_sap", "The nominally pre-start files describe realized recruitment, completed analyses, model convergence, and observed analysis-set sizes."),
+    "NCT03918174": ("excluded_conduct_informed_sap", "The documents are written as a completed preliminary-results report and use completed-analysis language."),
+    "NCT05052138": ("excluded_conduct_informed_sap", "Both protocol and SAP use completed-data and completed-analysis language rather than a prospective plan."),
+    "NCT07330232": ("excluded_conduct_informed_sap", "The SAP internal date is 2025-12-29, after actual primary completion, despite an inconsistent registry document date of 2021-07-30."),
+    "NCT04966910": ("excluded_conduct_informed_sap", "The SAP reports realized sample sizes, sphericity results, and an observed missing-data decision."),
+    "NCT03925220": ("hold_version_reconciliation", "The SAP cover contains irreconcilable dates, stating Document Date August 10, 2023 and Revised November 11, 2018."),
+    "NCT05039528": ("excluded_conduct_informed_protocol", "The protocol plans annual interim efficacy review by a DSMB."),
+    "NCT04226742": ("excluded_conduct_informed_sap", "The SAP uses completed-analysis language for inclusion, imputation, and model adjustment despite its nominal pre-start date."),
+    "NCT02657564": ("excluded_duplicate_study_family", "The family is already represented by baseline study PUBLIC-PEG-RENAL-SAFETY-001."),
+    "NCT05421624": ("excluded_duplicate_study_family", "The family is already represented by baseline study PUBLIC-AMPED-PD-001."),
     "NCT04122261": ("excluded_combined_protocol_sap_leakage", "Model-visible protocol reproduces the non-inferiority objective and core analysis framework of the short SAP."),
     "NCT03001817": ("excluded_combined_protocol_sap_leakage", "Protocol physical pages 9-11 specify the sample size, fixed-sequence multiplicity procedure, primary ANCOVA factors, imputation and nonparametric fallback, substantially reconstructing the target analysis."),
     "NCT03421379": ("excluded_combined_protocol_sap_leakage", "Protocol statistical sections specify the completer target, non-inferiority margin, alpha, power and primary analysis, substantially reconstructing the target SAP."),
@@ -83,13 +130,25 @@ REJECTED = {
     "NCT03978767": ("excluded_combined_protocol_sap_leakage", "The protocol already specifies the non-inferiority margin, alpha, sample size, ITT population, and primary tests."),
 }
 
+# Earlier exploratory screening briefly classified this existing baseline family
+# as conduct-informed merely because its plan contains a prespecified interim
+# analysis.  The dated plan predates actual study start, so that rejection was
+# withdrawn and must be removed on every deterministic rebuild.
+RETRACTED_REJECTIONS = {"NCT05187013"}
+
 PROVENANCE_NOTES = {
     "NCT03231228": "SAP explicitly binds to protocol HC-G-H-1601 version 2.0 and states that analyses were defined before database lock.",
-    "NCT05430854": "Protocol and SAP covers explicitly bind version 1; the SAP was finalized two days after actual start, has an empty revision history, and predates primary completion by more than two years.",
+    "NCT03835403": "Post-start exception: no formal interim analysis was planned; only an independent DSMB could review grouped unblinded safety results while investigators remained blinded, and the selected target predates actual primary completion.",
+    "NCT05430854": "Post-start exception: protocol and SAP covers explicitly bind version 1; the SAP was finalized two days after actual start, has an empty revision history, and the protocol requires finalization before database lock.",
     "NCT05307523": "Binding relies on the same registry submission, identical official title and date, because the contemporaneous files leave the NCT field blank.",
     "NCT03332004": "Protocol and SAP share the same date, title, investigator, and protocol identifier 736513.A287/C.E./2013 and predate actual start by almost three years.",
     "NCT03324659": "Both registry-hosted files share the study title and predate actual start; the contemporaneous files state that an NCT number was not yet available.",
     "NCT05001165": "The SAP was uploaded before actual start. Binding relies on the same date, title, PI, institution, and registry record because both files state that the NCT number was not yet assigned; the protocol was uploaded later and is not used as chronology evidence.",
+    "NCT03805412": "The SAP predates the selected protocol by one day; both registry-hosted files share the same title and study identifier, and both predate actual start.",
+    "NCT04759157": "The SAP predates the selected protocol revision; both files explicitly identify NCT04759157 and both predate actual start.",
+    "NCT03203291": "The SAP predates the selected protocol revision; both files explicitly identify NCT03203291 and both predate actual start.",
+    "NCT04596085": "The SAP predates the selected protocol revision; both files explicitly bind to protocol NS-VC-CT01-20 and both predate actual start.",
+    "NCT05208593": "The contemporaneous protocol and SAP share exact date, title, and unique protocol ID IRB20201070D; both state that the NCT number was not yet assigned and predate actual start.",
 }
 
 DOMAIN_MAP = {
@@ -112,6 +171,31 @@ def baseline_jsonl(relative: str):
 def nct_of_study(study):
     match = re.search(r"NCT\d{8}", study.get("study_family_id", ""))
     return match.group(0) if match else None
+
+
+def isolate_reference_only_requirements(studies, documents):
+    """Remove protocol-only scoring from facts evidenced only by the hidden SAP."""
+    document_roles = {row["document_id"]: row["role"] for row in documents}
+    for study in studies:
+        requirement_path = BENCH / "gold" / study["study_id"] / "requirements.jsonl"
+        if not requirement_path.is_file():
+            continue
+        rows = jsonl(requirement_path)
+        changed = False
+        for row in rows:
+            if row.get("status") != "explicit" or "protocol_only" not in row.get("tracks", []):
+                continue
+            evidence_roles = {
+                document_roles.get(item.get("document_id"))
+                for item in row.get("evidence", [])
+            }
+            if evidence_roles and evidence_roles <= {"reference_sap"}:
+                row["tracks"] = [track for track in row["tracks"] if track != "protocol_only"]
+                if "confirmed_decisions" not in row["tracks"]:
+                    row["tracks"].append("confirmed_decisions")
+                changed = True
+        if changed:
+            dump_jsonl(requirement_path, rows)
 
 def source_dir(nct):
     for root in TMP_ROOTS:
@@ -185,7 +269,7 @@ def parse_date(value):
 
 def evidence(document_id, item):
     page, text = item
-    return [{"document_id": document_id, "locator": f"physical PDF page {page}", "text": text}]
+    return [{"document_id": document_id, "locator": f"physical PDF page {page}", "text": concise(item, 420)}]
 
 def concise(item, limit=280):
     text = clean(item[1])
@@ -217,14 +301,32 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
     arms = registry.get("armsInterventionsModule", {}).get("armGroups", [])
     prim = primary_outcomes(registry)
     sec = secondary_outcomes(registry)
-    target_hits = hits(ppages, r"(?:target|planned|proposed|approximately|up to|aim.{0,20}recruit|sample size).{0,120}?(?:\b\d{2,5}\b|patients?|participants?|subjects?)")
+    # Keep sample-size extraction deliberately narrow.  Earlier versions
+    # matched phrases such as "target population" followed much later by a
+    # session count, which produced requirements unsupported by the excerpt.
+    target_hits = hits(
+        ppages,
+        r"(?:sample(?: size)?\s*(?:is|of|:)?|target (?:sample size|enrollment)\s*(?:is|of|:)?|"
+        r"(?:estimated )?total of|the participant group will be\s*|"
+        r"(?:plan|aim|expect|propos|intend)[a-z]* to (?:enroll|recruit|randomi[sz]e|include))"
+        r".{0,55}?\b\d{1,5}\b[^.;]{0,55}?(?:participants?|patients?|subjects?|children|couples|veterans|adults?|individuals|cases)",
+    )
     sap_population_hits = hits(spages, r"intent.to.treat|full analysis set|analysis population|efficacy population|all (?:randomized|enrolled)", 2)
     sap_population = sap_population_hits[0] if sap_population_hits else first_hit(spages, [r"statistical analysis plan|data analysis plan"] )
-    sap_method_hits = hits(spages, r"primary analysis.{0,220}|mixed.effects?|generalized estimating|analysis of covariance|ANCOVA|logistic regression|fisher.?s exact|mcnemar|wilcoxon|paired.{0,15}t.test|repeated.measures.{0,30}(?:ANOVA|MANOVA)|receiver operating characteristic|sensitivity.{0,80}specificity|descriptive statistics", 3)
+    sap_method_hits = hits(
+        spages,
+        r"primary analysis.{0,220}|linear mixed models?|mixed.effects?|multilevel structural equation|"
+        r"structural equation model|randomization test|two one.sided equivalence test|\bTOST\b|"
+        r"pass/fail|analysis of variance|generalized estimating|analysis of covariance|ANCOVA|"
+        r"logistic regression|fisher.?s exact|mcnemar|wilcoxon|paired.{0,15}t.test|"
+        r"repeated.measures.{0,30}(?:ANOVA|MANOVA)|receiver operating characteristic|"
+        r"sensitivity.{0,80}specificity|descriptive statistics",
+        3,
+    )
     sap_method = sap_method_hits[0] if sap_method_hits else first_hit(spages, [r"statistical analysis plan|data analysis plan"] )
     sap_missing_hits = hits(spages, r"missing data|missing values?|imputation|complete.case|available.case|last observation")
     sap_mult_hits = hits(spages, r"multiplicity|multiple comparisons?|family.wise|bonferroni|hierarch|fixed sequential|no (?:adjustment|correction).{0,30}multip")
-    sap_alpha_hits = hits(spages, r"two.sided|one.sided|alpha.{0,25}0?\.0[125]|significance.{0,25}0?\.0[125]|95% (?:confidence|CI)")
+    sap_alpha_hits = hits(spages, r"two.sided|one.sided|alpha.{0,25}0?\.0[125]|significance.{0,25}0?\.0[125]|p.?value.{0,12}0?\.0[125]|95% (?:confidence|CI)")
     sap_safety_hits = hits(spages, r"adverse events?|safety (?:analysis|population|set|outcome|endpoint)|tolerability")
     sap_sensitivity_hits = hits(spages, r"sensitivity analys|supportive analys|per.protocol|completer analys")
     group_values = [a.get("label") for a in arms if a.get("label")]
@@ -232,6 +334,10 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
     phase = registry.get("designModule", {}).get("phases", [])
     model_design += [str(x).lower() for x in phase]
     rows = []
+    protocol_uncertainty = first_hit(
+        ppages,
+        [r"statistical analys|data analys|primary (?:endpoint|outcome|objective)|study design"],
+    )
     def add(rubric, severity, text, values, doc, hit, status="explicit", tracks=None, notes=None):
         rows.append(requirement(study_id, len(rows)+1, rubric, severity, text, values, doc, hit, status, tracks, notes))
 
@@ -254,27 +360,27 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
     if sap_population_hits:
         add("CORE-POP-FAS-001", "critical", f"Define the main analysis population using the reference rule: {concise(sap_population)}", [concise(sap_population)], sap_id, sap_population, tracks=["confirmed_decisions"], notes="Do not infer a generic ITT/FAS rule when the cited SAP defines a different population.")
     else:
-        add("CORE-POP-FAS-001", "critical", "Flag the main analysis-population inclusion and treatment-attribution rules as unresolved; do not invent an ITT, FAS, or evaluable-set definition.", ["needs confirmation", "population inclusion rule", "treatment attribution"], sap_id, sap_population, status="needs_confirmation", tracks=["protocol_only", "confirmed_decisions"])
+        add("CORE-POP-FAS-001", "critical", "Flag the main analysis-population inclusion and treatment-attribution rules as unresolved; do not invent an ITT, FAS, or evaluable-set definition.", ["needs confirmation", "population inclusion rule", "treatment attribution"], protocol_id, protocol_uncertainty, status="needs_confirmation", tracks=["protocol_only", "confirmed_decisions"], notes="No governing analysis-population rule was located in either source; the cited protocol passage anchors the study context, not an inferred rule.")
     if sap_sensitivity_hits:
         add("CORE-POP-PPS-001", "major", f"Define the supportive or sensitivity population using the reference rule and keep it subordinate to the primary analysis: {concise(sap_sensitivity_hits[0])}", [concise(sap_sensitivity_hits[0])], sap_id, sap_sensitivity_hits[0], tracks=["confirmed_decisions"] )
     else:
-        add("CORE-UNCERT-001", "major", "Flag any per-protocol or completer analysis as unresolved unless the protocol independently specifies it.", ["needs confirmation", "do not invent exclusions"], sap_id, sap_population, "needs_confirmation", ["protocol_only", "confirmed_decisions"] )
+        add("CORE-UNCERT-001", "major", "Flag any per-protocol or completer analysis as unresolved unless the protocol independently specifies it.", ["needs confirmation", "do not invent exclusions"], protocol_id, protocol_uncertainty, "needs_confirmation", ["protocol_only", "confirmed_decisions"], "No supportive-population rule was located in either source; the cited protocol passage anchors the study context, not an inferred rule.")
     if sap_method_hits:
         add("CORE-METHOD-001", "critical", f"Use the primary statistical method and comparison structure specified in the reference plan: {concise(sap_method)}", [concise(sap_method)], sap_id, sap_method, tracks=["confirmed_decisions"] )
     else:
-        add("CORE-METHOD-001", "critical", "Flag the primary statistical model, comparison, covariates, and repeated/paired structure as unresolved rather than inventing them.", ["needs confirmation", "model", "comparison", "covariates"], sap_id, sap_method, status="needs_confirmation", tracks=["protocol_only", "confirmed_decisions"] )
+        add("CORE-METHOD-001", "critical", "Flag the primary statistical model, comparison, covariates, and repeated/paired structure as unresolved rather than inventing them.", ["needs confirmation", "model", "comparison", "covariates"], protocol_id, protocol_uncertainty, status="needs_confirmation", tracks=["protocol_only", "confirmed_decisions"], notes="No executable primary method was located in either source; the cited protocol passage anchors the study context, not an inferred method.")
     if sap_alpha_hits:
         add("CORE-ALPHA-001", "critical", f"Use the inferential sidedness, alpha, or confidence-interval rule stated here: {concise(sap_alpha_hits[0])}", [concise(sap_alpha_hits[0])], sap_id, sap_alpha_hits[0], tracks=["confirmed_decisions"] )
     else:
-        add("CORE-ALPHA-001", "critical", "Expose the inferential sidedness, alpha, and confidence-interval level as decisions requiring confirmation rather than inventing values.", ["needs confirmation"], sap_id, sap_method, "needs_confirmation", ["protocol_only", "confirmed_decisions"] )
+        add("CORE-ALPHA-001", "critical", "Expose the inferential sidedness, alpha, and confidence-interval level as decisions requiring confirmation rather than inventing values.", ["needs confirmation"], protocol_id, protocol_uncertainty, "needs_confirmation", ["protocol_only", "confirmed_decisions"], "No inferential threshold was located in either source; the cited protocol passage anchors the study context, not an inferred threshold.")
     if sap_missing_hits:
         add("CORE-MISS-001", "critical", f"Apply the reference plan's missing-data rule and assumptions: {concise(sap_missing_hits[0])}", [concise(sap_missing_hits[0])], sap_id, sap_missing_hits[0], tracks=["confirmed_decisions"] )
     else:
-        add("CORE-MISS-001", "critical", "Flag primary-outcome missing-data handling as unresolved; do not silently invent an imputation rule.", ["needs confirmation", "no invented imputation"], sap_id, sap_method, "needs_confirmation", ["protocol_only", "confirmed_decisions"] )
+        add("CORE-MISS-001", "critical", "Flag primary-outcome missing-data handling as unresolved; do not silently invent an imputation rule.", ["needs confirmation", "no invented imputation"], protocol_id, protocol_uncertainty, "needs_confirmation", ["protocol_only", "confirmed_decisions"], "No missing-data rule was located in either source; the cited protocol passage anchors the study context, not an inferred rule.")
     if sap_mult_hits:
         add("CORE-MULT-001", "critical", f"Apply the multiplicity policy or testing order stated in the reference plan: {concise(sap_mult_hits[0])}", [concise(sap_mult_hits[0])], sap_id, sap_mult_hits[0], tracks=["confirmed_decisions"] )
     else:
-        add("CORE-MULT-001", "critical", "Flag multiplicity control across the outcome family as unresolved; do not claim adjustment or no adjustment without support.", ["needs confirmation", "no unsupported multiplicity claim"], sap_id, sap_method, "needs_confirmation", ["protocol_only", "confirmed_decisions"] )
+        add("CORE-MULT-001", "critical", "Flag multiplicity control across the outcome family as unresolved; do not claim adjustment or no adjustment without support.", ["needs confirmation", "no unsupported multiplicity claim"], protocol_id, protocol_uncertainty, "needs_confirmation", ["protocol_only", "confirmed_decisions"], "No multiplicity policy was located in either source; the cited protocol passage anchors the outcome context, not an inferred policy.")
     if sap_sensitivity_hits and len(rows) < 15:
         add("CORE-SENS-001", "major", f"Include the prespecified supportive or sensitivity analysis represented by this reference rule: {concise(sap_sensitivity_hits[0])}", [concise(sap_sensitivity_hits[0])], sap_id, sap_sensitivity_hits[0], tracks=["confirmed_decisions"] )
     if sap_safety_hits and len(rows) < 15:
@@ -282,7 +388,7 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
     add("CORE-CONSIST-001", "critical", "Keep endpoint labels, treatment groups, visits, populations, and methods internally consistent across the generated SAP.", ["consistent endpoints", "consistent groups", "consistent visits", "consistent populations"], sap_id, sap_method, tracks=["confirmed_decisions"] )
     add("CORE-COVER-001", "major", "Provide traceable sections for design, endpoints, populations, primary methods, missing data, multiplicity, safety where applicable, and planned outputs.", ["design", "endpoints", "populations", "methods", "missing data", "multiplicity"], sap_id, first_hit(spages, [r"table of contents|statistical analysis plan|statistical plan|data analysis plan|analysis strategy"]), tracks=["confirmed_decisions"] )
     while len(rows) < 12:
-        add("CORE-UNCERT-001", "major", "Separate protocol-supported facts from reference-only confirmed decisions and explicitly surface unresolved choices.", ["protocol-supported", "confirmed decision", "needs confirmation"], sap_id, sap_method, "needs_confirmation")
+        add("CORE-UNCERT-001", "major", "Separate protocol-supported facts from reference-only confirmed decisions and explicitly surface unresolved choices.", ["protocol-supported", "confirmed decision", "needs confirmation"], protocol_id, protocol_uncertainty, "needs_confirmation", ["protocol_only", "confirmed_decisions"], "The cited protocol passage anchors the study context; reference-only decisions remain excluded from the protocol-only track.")
     if len(rows) > 25:
         raise ValueError(f"{nct}: too many requirements")
     return rows
@@ -294,6 +400,10 @@ def main():
     documents = baseline_jsonl("manifests/documents.jsonl")
     registry_rows = baseline_jsonl("final_audit/registry_chronology.jsonl")
     baseline_ids = {row["study_id"] for row in studies}
+    baseline_ncts = {nct for row in studies if (nct := nct_of_study(row))}
+    overlap = baseline_ncts & set(SELECTED)
+    if overlap:
+        raise ValueError(f"SELECTED duplicates baseline study families: {sorted(overlap)}")
     for path in (BENCH / "gold").glob("PUBLIC-*"):
         if path.name not in baseline_ids:
             shutil.rmtree(path)
@@ -302,8 +412,15 @@ def main():
         source = source_dir(nct)
         registry = json.loads((Path("/private/tmp/sapbench_candidate_registry") / f"{nct}.json").read_text())["protocolSection"]
         status = registry["statusModule"]
+        start = status.get("startDateStruct", {})
         primary = status.get("primaryCompletionDateStruct", {})
-        if primary.get("type") != "ACTUAL" or parse_date(candidate["sap_document_date"]) >= parse_date(primary.get("date")):
+        sap_date = parse_date(candidate["sap_document_date"])
+        start_date = parse_date(start.get("date"))
+        if start.get("type") != "ACTUAL":
+            raise ValueError(f"{nct}: study start is not actual")
+        if nct not in POST_START_EXCEPTIONS and sap_date >= start_date:
+            raise ValueError(f"{nct}: SAP does not strictly predate actual study start")
+        if primary.get("type") != "ACTUAL" or sap_date >= parse_date(primary.get("date")):
             raise ValueError(f"{nct}: SAP does not strictly predate actual primary completion")
         slug = re.sub(r"[^A-Z0-9]+", "-", candidate["title"].upper()).strip("-")[:42]
         study_id = f"PUBLIC-{slug}-{nct[-4:]}"
@@ -357,10 +474,14 @@ def main():
         }
         (gold / "annotation_status.json").write_text(json.dumps(annotation, ensure_ascii=False, separators=(",", ":")) + "\n")
         registry_rows.append({"snapshot_date": "2026-10-05", "nct_id": nct, "study_start": status.get("startDateStruct"), "primary_completion": primary, "study_completion": status.get("completionDateStruct")})
+    isolate_reference_only_requirements(studies, documents)
     dump_jsonl(BENCH / "manifests" / "studies.jsonl", studies)
     dump_jsonl(BENCH / "manifests" / "documents.jsonl", documents)
     dump_jsonl(BENCH / "final_audit" / "registry_chronology.jsonl", registry_rows)
-    exclusions = jsonl(BENCH / "manifests" / "exclusions.jsonl")
+    exclusions = [
+        row for row in jsonl(BENCH / "manifests" / "exclusions.jsonl")
+        if row.get("candidate_id") not in RETRACTED_REJECTIONS
+    ]
     existing = {row.get("candidate_id") for row in exclusions}
     for nct, (status_name, reason) in REJECTED.items():
         if nct not in existing:
