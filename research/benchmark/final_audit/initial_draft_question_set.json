@@ -1,0 +1,809 @@
+{
+  "benchmark_version": "0.3-initial-draft",
+  "created_on": "2026-10-02",
+  "status": "draft_needs_expert_review",
+  "selection_rule": "keep_draft rows from final_audit/questions.jsonl",
+  "question_count": 66,
+  "study_ids": [
+    "PUBLIC-PEDNAFLD-001",
+    "PUBLIC-VRC01-001",
+    "PUBLIC-REDUCE-PFO-001",
+    "PUBLIC-IMSIDOLIMAB-GPP-001",
+    "PUBLIC-ANCHOR-WSUD-001",
+    "PUBLIC-CINACALCET-EXT-001",
+    "PUBLIC-PEG-RENAL-SAFETY-001",
+    "PUBLIC-TARGETED-STROKE-001",
+    "PUBLIC-ALCOHOL-PATHWAYS-001",
+    "PUBLIC-TKA-NMES-001",
+    "PUBLIC-PED-IDA-FCM-001",
+    "PUBLIC-DYSVASCULAR-AMP-001",
+    "PUBLIC-DIABETES-TEC-001",
+    "PUBLIC-GFLIP-VITC-001",
+    "PUBLIC-PRENATAL-ESBI-001",
+    "PUBLIC-SELECT-CV-001",
+    "PUBLIC-MS-TELEREHAB-001",
+    "PUBLIC-CORIN-ICOTINIB-001",
+    "PUBLIC-NIVOLUMAB-SEPSIS-001",
+    "PUBLIC-CATPAD-FOLLOWUP-001",
+    "PUBLIC-IVERMECTIN-COVID-001",
+    "PUBLIC-LAMPALIZUMAB-GA-001",
+    "PUBLIC-PRODERM-001",
+    "PUBLIC-RECAST-SLE-001",
+    "PUBLIC-DSM265-BA-001",
+    "PUBLIC-OBTURATOR-TKA-001",
+    "PUBLIC-HFO-EPILEPSY-001",
+    "PUBLIC-DS107G-AD-001",
+    "PUBLIC-AFLIBERCEPT-DME-QOL-001",
+    "PUBLIC-ENLIGHTEN2-001",
+    "PUBLIC-EMRICASAN-LIVER-FIBROSIS-001",
+    "PUBLIC-GLIOMA-SEDATION-001",
+    "PUBLIC-NB-SCHIZOPHRENIA-001",
+    "PUBLIC-RIXFP-HEMOPHILIA-B-001",
+    "PUBLIC-US-EPIDURAL-OBESITY-001",
+    "PUBLIC-SPARK-RBBB-HF-001",
+    "PUBLIC-WE-CAP-COLONOSCOPY-001",
+    "PUBLIC-FAM-ACT-DIABETES-001",
+    "PUBLIC-ACTIVE-DUTY-LBP-001",
+    "PUBLIC-HF-MEDS-TO-BEDS-001",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001",
+    "PUBLIC-PRK-CBD-OPIOID-001",
+    "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001",
+    "PUBLIC-NEUROPILATES-STROKE-001",
+    "PUBLIC-TIGER-HSTNI-EMS-001",
+    "PUBLIC-VALBENAZINE-TD-001",
+    "PUBLIC-VA-LCDPP-001",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001",
+    "PUBLIC-PALMS-II-MS-001",
+    "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001",
+    "PUBLIC-EVAC-HF-001",
+    "PUBLIC-PRP-ALOPECIA-001",
+    "PUBLIC-ANKLE-PAI-001",
+    "PUBLIC-DCS-PANIC-SMOKING-001",
+    "PUBLIC-IOPCL-AMD-MAG-001",
+    "PUBLIC-AMC-GLAUCOMA-001",
+    "PUBLIC-PAFIT-IBD-001",
+    "PUBLIC-FITSTART-PLUS-001",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001",
+    "PUBLIC-DIPPER-SAFEBREAK-001",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001",
+    "PUBLIC-COVID-AG-OTC-001",
+    "PUBLIC-OA-BRACE-GAIT-001",
+    "PUBLIC-FORCED-AEROBIC-MS-001",
+    "PUBLIC-AMPED-PD-001",
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001"
+  ],
+  "questions": [
+    {
+      "study_id": "PUBLIC-PEDNAFLD-001",
+      "study_family_id": "NCT02513121-PEDNAFLD",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-pednafld-protocol-v7"
+      ],
+      "requirements_path": "gold/PUBLIC-PEDNAFLD-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PEDNAFLD-001/annotation_status.json",
+      "reference_sap_document_id": "doc-pednafld-reference-sap-20160210"
+    },
+    {
+      "study_id": "PUBLIC-VRC01-001",
+      "study_family_id": "NCT02664415-VRC01-ATI",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-vrc01-protocol-v2"
+      ],
+      "requirements_path": "gold/PUBLIC-VRC01-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-VRC01-001/annotation_status.json",
+      "reference_sap_document_id": "doc-vrc01-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-REDUCE-PFO-001",
+      "study_family_id": "NCT00738894-REDUCE-PFO",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-reduce-pfo-protocol-amendment3"
+      ],
+      "requirements_path": "gold/PUBLIC-REDUCE-PFO-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-REDUCE-PFO-001/annotation_status.json",
+      "reference_sap_document_id": "doc-reduce-pfo-reference-sap-r1"
+    },
+    {
+      "study_id": "PUBLIC-IMSIDOLIMAB-GPP-001",
+      "study_family_id": "NCT05352893-ANB019-301",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-imsidolimab-gpp-protocol-20221209"
+      ],
+      "requirements_path": "gold/PUBLIC-IMSIDOLIMAB-GPP-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-IMSIDOLIMAB-GPP-001/annotation_status.json",
+      "reference_sap_document_id": "doc-imsidolimab-gpp-reference-sap-20221209"
+    },
+    {
+      "study_id": "PUBLIC-ANCHOR-WSUD-001",
+      "study_family_id": "NCT04925570-ANCHOR-WSUD",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-anchor-wsud-protocol-20230317"
+      ],
+      "requirements_path": "gold/PUBLIC-ANCHOR-WSUD-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ANCHOR-WSUD-001/annotation_status.json",
+      "reference_sap_document_id": "doc-anchor-wsud-reference-sap-20230317"
+    },
+    {
+      "study_id": "PUBLIC-CINACALCET-EXT-001",
+      "study_family_id": "NCT02341417-CINACALCET-EXT",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-cinacalcet-ext-protocol-amendment3-bundle"
+      ],
+      "requirements_path": "gold/PUBLIC-CINACALCET-EXT-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-CINACALCET-EXT-001/annotation_status.json",
+      "reference_sap_document_id": "doc-cinacalcet-ext-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-PEG-RENAL-SAFETY-001",
+      "study_family_id": "NCT02657564-PEG-RENAL-SAFETY",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-peg-renal-safety-protocol-20151118"
+      ],
+      "requirements_path": "gold/PUBLIC-PEG-RENAL-SAFETY-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PEG-RENAL-SAFETY-001/annotation_status.json",
+      "reference_sap_document_id": "doc-peg-renal-safety-reference-sap-20151118"
+    },
+    {
+      "study_id": "PUBLIC-TARGETED-STROKE-001",
+      "study_family_id": "NCT01819506-TARGETED-STROKE",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-targeted-stroke-protocol-v4"
+      ],
+      "requirements_path": "gold/PUBLIC-TARGETED-STROKE-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-TARGETED-STROKE-001/annotation_status.json",
+      "reference_sap_document_id": "doc-targeted-stroke-reference-sap-v4"
+    },
+    {
+      "study_id": "PUBLIC-ALCOHOL-PATHWAYS-001",
+      "study_family_id": "NCT05135767-ALCOHOL-PATHWAYS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-alcohol-pathways-protocol-20230525"
+      ],
+      "requirements_path": "gold/PUBLIC-ALCOHOL-PATHWAYS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ALCOHOL-PATHWAYS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-alcohol-pathways-reference-sap-20230525"
+    },
+    {
+      "study_id": "PUBLIC-TKA-NMES-001",
+      "study_family_id": "NCT03051984-TKA-NMES",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-tka-nmes-protocol-20220323"
+      ],
+      "requirements_path": "gold/PUBLIC-TKA-NMES-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-TKA-NMES-001/annotation_status.json",
+      "reference_sap_document_id": "doc-tka-nmes-reference-sap-20220323"
+    },
+    {
+      "study_id": "PUBLIC-PED-IDA-FCM-001",
+      "study_family_id": "NCT03523117-PED-IDA-FCM",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-ped-ida-fcm-protocol-adminchange1"
+      ],
+      "requirements_path": "gold/PUBLIC-PED-IDA-FCM-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PED-IDA-FCM-001/annotation_status.json",
+      "reference_sap_document_id": "doc-ped-ida-fcm-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-DYSVASCULAR-AMP-001",
+      "study_family_id": "NCT01929018-DYSVASCULAR-AMP",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-dysvascular-amp-protocol-v20140105"
+      ],
+      "requirements_path": "gold/PUBLIC-DYSVASCULAR-AMP-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-DYSVASCULAR-AMP-001/annotation_status.json",
+      "reference_sap_document_id": "doc-dysvascular-amp-reference-sap-20140105"
+    },
+    {
+      "study_id": "PUBLIC-DIABETES-TEC-001",
+      "study_family_id": "NCT01855399-DIABETES-TEC",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-diabetes-tec-protocol-20120604"
+      ],
+      "requirements_path": "gold/PUBLIC-DIABETES-TEC-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-DIABETES-TEC-001/annotation_status.json",
+      "reference_sap_document_id": "doc-diabetes-tec-reference-dap-20120604"
+    },
+    {
+      "study_id": "PUBLIC-GFLIP-VITC-001",
+      "study_family_id": "NCT01905150-GFLIP-VITC",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-gflip-vitc-protocol-20150106"
+      ],
+      "requirements_path": "gold/PUBLIC-GFLIP-VITC-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-GFLIP-VITC-001/annotation_status.json",
+      "reference_sap_document_id": "doc-gflip-vitc-reference-saop-20150106"
+    },
+    {
+      "study_id": "PUBLIC-PRENATAL-ESBI-001",
+      "study_family_id": "NCT02337361-PRENATAL-ESBI",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-prenatal-esbi-protocol-20150501"
+      ],
+      "requirements_path": "gold/PUBLIC-PRENATAL-ESBI-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PRENATAL-ESBI-001/annotation_status.json",
+      "reference_sap_document_id": "doc-prenatal-esbi-reference-sap-20150501"
+    },
+    {
+      "study_id": "PUBLIC-SELECT-CV-001",
+      "study_family_id": "NCT03574597-SELECT-CV",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-select-cv-protocol-v7"
+      ],
+      "requirements_path": "gold/PUBLIC-SELECT-CV-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-SELECT-CV-001/annotation_status.json",
+      "reference_sap_document_id": "doc-select-cv-reference-sap-v3"
+    },
+    {
+      "study_id": "PUBLIC-MS-TELEREHAB-001",
+      "study_family_id": "NCT02346734-MS-TELEREHAB",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-ms-telerehab-protocol-20150727"
+      ],
+      "requirements_path": "gold/PUBLIC-MS-TELEREHAB-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-MS-TELEREHAB-001/annotation_status.json",
+      "reference_sap_document_id": "doc-ms-telerehab-reference-sap-20150727"
+    },
+    {
+      "study_id": "PUBLIC-CORIN-ICOTINIB-001",
+      "study_family_id": "NCT02264210-CORIN-ICOTINIB",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-corin-icotinib-protocol-v1-1"
+      ],
+      "requirements_path": "gold/PUBLIC-CORIN-ICOTINIB-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-CORIN-ICOTINIB-001/annotation_status.json",
+      "reference_sap_document_id": "doc-corin-icotinib-reference-sap-v1-1"
+    },
+    {
+      "study_id": "PUBLIC-NIVOLUMAB-SEPSIS-001",
+      "study_family_id": "NCT02960854-NIVOLUMAB-SEPSIS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nivolumab-sepsis-protocol-rp01"
+      ],
+      "requirements_path": "gold/PUBLIC-NIVOLUMAB-SEPSIS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-NIVOLUMAB-SEPSIS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-nivolumab-sepsis-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-CATPAD-FOLLOWUP-001",
+      "study_family_id": "NCT02040844-CATPAD-FOLLOWUP",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-catpad-followup-protocol-v5"
+      ],
+      "requirements_path": "gold/PUBLIC-CATPAD-FOLLOWUP-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-CATPAD-FOLLOWUP-001/annotation_status.json",
+      "reference_sap_document_id": "doc-catpad-followup-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-IVERMECTIN-COVID-001",
+      "study_family_id": "NCT04407507-IVERMECTIN-COVID",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-ivermectin-covid-protocol-20200805"
+      ],
+      "requirements_path": "gold/PUBLIC-IVERMECTIN-COVID-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-IVERMECTIN-COVID-001/annotation_status.json",
+      "reference_sap_document_id": "doc-ivermectin-covid-reference-sap-20200805"
+    },
+    {
+      "study_id": "PUBLIC-LAMPALIZUMAB-GA-001",
+      "study_family_id": "NCT02247531-LAMPALIZUMAB-GA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-lampalizumab-ga-protocol-v6"
+      ],
+      "requirements_path": "gold/PUBLIC-LAMPALIZUMAB-GA-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-LAMPALIZUMAB-GA-001/annotation_status.json",
+      "reference_sap_document_id": "doc-lampalizumab-ga-reference-sap-v3"
+    },
+    {
+      "study_id": "PUBLIC-PRODERM-001",
+      "study_family_id": "NCT02728752-PRODERM",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-proderm-protocol-v12"
+      ],
+      "requirements_path": "gold/PUBLIC-PRODERM-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PRODERM-001/annotation_status.json",
+      "reference_sap_document_id": "doc-proderm-reference-sap-v4"
+    },
+    {
+      "study_id": "PUBLIC-RECAST-SLE-001",
+      "study_family_id": "NCT04925934-RECAST-SLE",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-recast-sle-protocol-v2"
+      ],
+      "requirements_path": "gold/PUBLIC-RECAST-SLE-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-RECAST-SLE-001/annotation_status.json",
+      "reference_sap_document_id": "doc-recast-sle-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-DSM265-BA-001",
+      "study_family_id": "NCT03637517-DSM265-BA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-dsm265-ba-protocol-v1"
+      ],
+      "requirements_path": "gold/PUBLIC-DSM265-BA-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-DSM265-BA-001/annotation_status.json",
+      "reference_sap_document_id": "doc-dsm265-ba-reference-sap-v1"
+    },
+    {
+      "study_id": "PUBLIC-OBTURATOR-TKA-001",
+      "study_family_id": "NCT03326999-OBTURATOR-TKA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-obturator-tka-protocol-20170929"
+      ],
+      "requirements_path": "gold/PUBLIC-OBTURATOR-TKA-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-OBTURATOR-TKA-001/annotation_status.json",
+      "reference_sap_document_id": "doc-obturator-tka-reference-sap-20170929"
+    },
+    {
+      "study_id": "PUBLIC-HFO-EPILEPSY-001",
+      "study_family_id": "NCT03790280-HFO-EPILEPSY",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-hfo-epilepsy-protocol-20171026"
+      ],
+      "requirements_path": "gold/PUBLIC-HFO-EPILEPSY-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-HFO-EPILEPSY-001/annotation_status.json",
+      "reference_sap_document_id": "doc-hfo-epilepsy-reference-sap-20171026"
+    },
+    {
+      "study_id": "PUBLIC-DS107G-AD-001",
+      "study_family_id": "NCT02211417-DS107G-AD",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-ds107g-ad-protocol-v2-2"
+      ],
+      "requirements_path": "gold/PUBLIC-DS107G-AD-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-DS107G-AD-001/annotation_status.json",
+      "reference_sap_document_id": "doc-ds107g-ad-reference-sap-v1"
+    },
+    {
+      "study_id": "PUBLIC-AFLIBERCEPT-DME-QOL-001",
+      "study_family_id": "NCT02581995-AFLIBERCEPT-DME-QOL",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-aflibercept-dme-qol-protocol-v2"
+      ],
+      "requirements_path": "gold/PUBLIC-AFLIBERCEPT-DME-QOL-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-AFLIBERCEPT-DME-QOL-001/annotation_status.json",
+      "reference_sap_document_id": "doc-aflibercept-dme-qol-reference-sap-s7"
+    },
+    {
+      "study_id": "PUBLIC-ENLIGHTEN2-001",
+      "study_family_id": "NCT02694328-ENLIGHTEN2",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-enlighten2-protocol-amendment5"
+      ],
+      "requirements_path": "gold/PUBLIC-ENLIGHTEN2-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ENLIGHTEN2-001/annotation_status.json",
+      "reference_sap_document_id": "doc-enlighten2-reference-sap-v3"
+    },
+    {
+      "study_id": "PUBLIC-EMRICASAN-LIVER-FIBROSIS-001",
+      "study_family_id": "NCT02138253-EMRICASAN-LIVER-FIBROSIS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-emricasan-liver-fibrosis-protocol-v3-1"
+      ],
+      "requirements_path": "gold/PUBLIC-EMRICASAN-LIVER-FIBROSIS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-EMRICASAN-LIVER-FIBROSIS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-emricasan-liver-fibrosis-reference-sap-v2"
+    },
+    {
+      "study_id": "PUBLIC-GLIOMA-SEDATION-001",
+      "study_family_id": "NCT02439164-GLIOMA-SEDATION",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-glioma-sedation-protocol-20160401"
+      ],
+      "requirements_path": "gold/PUBLIC-GLIOMA-SEDATION-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-GLIOMA-SEDATION-001/annotation_status.json",
+      "reference_sap_document_id": "doc-glioma-sedation-reference-sap-20160401"
+    },
+    {
+      "study_id": "PUBLIC-NB-SCHIZOPHRENIA-001",
+      "study_family_id": "NCT02736474-NB-SCHIZOPHRENIA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-nb-schizophrenia-protocol-20151230"
+      ],
+      "requirements_path": "gold/PUBLIC-NB-SCHIZOPHRENIA-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-NB-SCHIZOPHRENIA-001/annotation_status.json",
+      "reference_sap_document_id": "doc-nb-schizophrenia-reference-sap-20151230"
+    },
+    {
+      "study_id": "PUBLIC-RIXFP-HEMOPHILIA-B-001",
+      "study_family_id": "NCT02053792-RIXFP-HEMOPHILIA-B",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-rixfp-hemophilia-b-protocol-amendment6"
+      ],
+      "requirements_path": "gold/PUBLIC-RIXFP-HEMOPHILIA-B-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-RIXFP-HEMOPHILIA-B-001/annotation_status.json",
+      "reference_sap_document_id": "doc-rixfp-hemophilia-b-reference-sap-v4"
+    },
+    {
+      "study_id": "PUBLIC-US-EPIDURAL-OBESITY-001",
+      "study_family_id": "NCT02984267-US-EPIDURAL-OBESITY",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-us-epidural-obesity-protocol-20161001"
+      ],
+      "requirements_path": "gold/PUBLIC-US-EPIDURAL-OBESITY-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-US-EPIDURAL-OBESITY-001/annotation_status.json",
+      "reference_sap_document_id": "doc-us-epidural-obesity-reference-sap-20161001"
+    },
+    {
+      "study_id": "PUBLIC-SPARK-RBBB-HF-001",
+      "study_family_id": "NCT02441101-SPARK-RBBB-HF",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-spark-rbbb-hf-protocol-v1"
+      ],
+      "requirements_path": "gold/PUBLIC-SPARK-RBBB-HF-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-SPARK-RBBB-HF-001/annotation_status.json",
+      "reference_sap_document_id": "doc-spark-rbbb-hf-reference-sap-20141224"
+    },
+    {
+      "study_id": "PUBLIC-WE-CAP-COLONOSCOPY-001",
+      "study_family_id": "NCT03160859-WE-CAP-COLONOSCOPY",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-we-cap-colonoscopy-protocol-20170814"
+      ],
+      "requirements_path": "gold/PUBLIC-WE-CAP-COLONOSCOPY-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-WE-CAP-COLONOSCOPY-001/annotation_status.json",
+      "reference_sap_document_id": "doc-we-cap-colonoscopy-reference-sap-20170814"
+    },
+    {
+      "study_id": "PUBLIC-FAM-ACT-DIABETES-001",
+      "study_family_id": "NCT03812614-FAM-ACT-DIABETES",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-fam-act-diabetes-protocol-v2-2-1"
+      ],
+      "requirements_path": "gold/PUBLIC-FAM-ACT-DIABETES-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-FAM-ACT-DIABETES-001/annotation_status.json",
+      "reference_sap_document_id": "doc-fam-act-diabetes-reference-sap-v2-2-1"
+    },
+    {
+      "study_id": "PUBLIC-ACTIVE-DUTY-LBP-001",
+      "study_family_id": "NCT03502187-ACTIVE-DUTY-LBP",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-active-duty-lbp-protocol-20180417"
+      ],
+      "requirements_path": "gold/PUBLIC-ACTIVE-DUTY-LBP-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ACTIVE-DUTY-LBP-001/annotation_status.json",
+      "reference_sap_document_id": "doc-active-duty-lbp-reference-sap-20180417"
+    },
+    {
+      "study_id": "PUBLIC-HF-MEDS-TO-BEDS-001",
+      "study_family_id": "NCT03402750-HF-MEDS-TO-BEDS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-hf-meds-to-beds-protocol-v6"
+      ],
+      "requirements_path": "gold/PUBLIC-HF-MEDS-TO-BEDS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-HF-MEDS-TO-BEDS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-hf-meds-to-beds-reference-sap-v1"
+    },
+    {
+      "study_id": "PUBLIC-MHEALTH-HOMELESS-HTN-001",
+      "study_family_id": "NCT05187013-MHEALTH-HOMELESS-HTN",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-mhealth-homeless-htn-protocol-20210126"
+      ],
+      "requirements_path": "gold/PUBLIC-MHEALTH-HOMELESS-HTN-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-MHEALTH-HOMELESS-HTN-001/annotation_status.json",
+      "reference_sap_document_id": "doc-mhealth-homeless-htn-reference-sap-20210126"
+    },
+    {
+      "study_id": "PUBLIC-PRK-CBD-OPIOID-001",
+      "study_family_id": "NCT05477875-PRK-CBD-OPIOID",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-prk-cbd-opioid-protocol-20240522"
+      ],
+      "requirements_path": "gold/PUBLIC-PRK-CBD-OPIOID-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PRK-CBD-OPIOID-001/annotation_status.json",
+      "reference_sap_document_id": "doc-prk-cbd-opioid-reference-sap-20240522"
+    },
+    {
+      "study_id": "PUBLIC-VENLAFAXINE-APHASIA-FMRI-001",
+      "study_family_id": "NCT03588572-VENLAFAXINE-APHASIA-FMRI",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-venlafaxine-aphasia-fmri-protocol-201808"
+      ],
+      "requirements_path": "gold/PUBLIC-VENLAFAXINE-APHASIA-FMRI-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-VENLAFAXINE-APHASIA-FMRI-001/annotation_status.json",
+      "reference_sap_document_id": "doc-venlafaxine-aphasia-fmri-reference-sap-201808"
+    },
+    {
+      "study_id": "PUBLIC-NEUROPILATES-STROKE-001",
+      "study_family_id": "NCT04491279-NEUROPILATES-STROKE",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-neuropilates-stroke-protocol-20200804"
+      ],
+      "requirements_path": "gold/PUBLIC-NEUROPILATES-STROKE-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-NEUROPILATES-STROKE-001/annotation_status.json",
+      "reference_sap_document_id": "doc-neuropilates-stroke-reference-sap-20200804"
+    },
+    {
+      "study_id": "PUBLIC-TIGER-HSTNI-EMS-001",
+      "study_family_id": "NCT07008391-TIGER-HSTNI-EMS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-tiger-hstni-ems-protocol-20250515"
+      ],
+      "requirements_path": "gold/PUBLIC-TIGER-HSTNI-EMS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-TIGER-HSTNI-EMS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-tiger-hstni-ems-reference-sap-20250515"
+    },
+    {
+      "study_id": "PUBLIC-VALBENAZINE-TD-001",
+      "study_family_id": "NCT02405091-VALBENAZINE-TD",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-valbenazine-td-protocol-amendment2"
+      ],
+      "requirements_path": "gold/PUBLIC-VALBENAZINE-TD-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-VALBENAZINE-TD-001/annotation_status.json",
+      "reference_sap_document_id": "doc-valbenazine-td-reference-sap-v1"
+    },
+    {
+      "study_id": "PUBLIC-VA-LCDPP-001",
+      "study_family_id": "NCT04881890-VA-LC-DPP",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-va-lcdpp-protocol-20210420"
+      ],
+      "requirements_path": "gold/PUBLIC-VA-LCDPP-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-VA-LCDPP-001/annotation_status.json",
+      "reference_sap_document_id": "doc-va-lcdpp-reference-sap-20210420"
+    },
+    {
+      "study_id": "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001",
+      "study_family_id": "NCT02469610-INTERCOSTAL-BLOCK-TIMING",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-intercostal-block-timing-protocol-20160628"
+      ],
+      "requirements_path": "gold/PUBLIC-INTERCOSTAL-BLOCK-TIMING-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-INTERCOSTAL-BLOCK-TIMING-001/annotation_status.json",
+      "reference_sap_document_id": "doc-intercostal-block-timing-reference-sap-20161001"
+    },
+    {
+      "study_id": "PUBLIC-PALMS-II-MS-001",
+      "study_family_id": "NCT03458767-PALMS-II-MS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-palms-ii-ms-protocol-20170919"
+      ],
+      "requirements_path": "gold/PUBLIC-PALMS-II-MS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PALMS-II-MS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-palms-ii-ms-reference-sap-20170919"
+    },
+    {
+      "study_id": "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001",
+      "study_family_id": "NCT03309917-CEREBRAL-BLOOD-FLOW-MAP",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-cerebral-blood-flow-map-protocol-20171222"
+      ],
+      "requirements_path": "gold/PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001/annotation_status.json",
+      "reference_sap_document_id": "doc-cerebral-blood-flow-map-reference-sap-20171222"
+    },
+    {
+      "study_id": "PUBLIC-EVAC-HF-001",
+      "study_family_id": "NCT01757067-EVAC-HF",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-evac-hf-protocol-20110917"
+      ],
+      "requirements_path": "gold/PUBLIC-EVAC-HF-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-EVAC-HF-001/annotation_status.json",
+      "reference_sap_document_id": "doc-evac-hf-reference-sap-20110917"
+    },
+    {
+      "study_id": "PUBLIC-PRP-ALOPECIA-001",
+      "study_family_id": "NCT03689452-PRP-ALOPECIA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-prp-alopecia-protocol-v2"
+      ],
+      "requirements_path": "gold/PUBLIC-PRP-ALOPECIA-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PRP-ALOPECIA-001/annotation_status.json",
+      "reference_sap_document_id": "doc-prp-alopecia-reference-sap-20180921"
+    },
+    {
+      "study_id": "PUBLIC-ANKLE-PAI-001",
+      "study_family_id": "NCT02967172-ANKLE-PAI",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-ankle-pai-protocol-20160808"
+      ],
+      "requirements_path": "gold/PUBLIC-ANKLE-PAI-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ANKLE-PAI-001/annotation_status.json",
+      "reference_sap_document_id": "doc-ankle-pai-reference-sap-20160808"
+    },
+    {
+      "study_id": "PUBLIC-DCS-PANIC-SMOKING-001",
+      "study_family_id": "NCT01944423-DCS-PANIC-SMOKING",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-dcs-panic-smoking-protocol-20170607"
+      ],
+      "requirements_path": "gold/PUBLIC-DCS-PANIC-SMOKING-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-DCS-PANIC-SMOKING-001/annotation_status.json",
+      "reference_sap_document_id": "doc-dcs-panic-smoking-reference-sap-20170607"
+    },
+    {
+      "study_id": "PUBLIC-IOPCL-AMD-MAG-001",
+      "study_family_id": "NCT04984590-IOPCL-AMD-MAG",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-iopcl-amd-mag-protocol-rev5"
+      ],
+      "requirements_path": "gold/PUBLIC-IOPCL-AMD-MAG-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-IOPCL-AMD-MAG-001/annotation_status.json",
+      "reference_sap_document_id": "doc-iopcl-amd-mag-reference-sap-v1-3"
+    },
+    {
+      "study_id": "PUBLIC-AMC-GLAUCOMA-001",
+      "study_family_id": "NCT02805257-AMC-GLAUCOMA",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-amc-glaucoma-protocol-20171212"
+      ],
+      "requirements_path": "gold/PUBLIC-AMC-GLAUCOMA-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-AMC-GLAUCOMA-001/annotation_status.json",
+      "reference_sap_document_id": "doc-amc-glaucoma-reference-sap-20171212"
+    },
+    {
+      "study_id": "PUBLIC-PAFIT-IBD-001",
+      "study_family_id": "NCT07484620-PAFIT-IBD",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-pafit-ibd-protocol-20260310"
+      ],
+      "requirements_path": "gold/PUBLIC-PAFIT-IBD-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-PAFIT-IBD-001/annotation_status.json",
+      "reference_sap_document_id": "doc-pafit-ibd-reference-sap-20260310"
+    },
+    {
+      "study_id": "PUBLIC-FITSTART-PLUS-001",
+      "study_family_id": "NCT04549454-FITSTART-PLUS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-fitstart-plus-protocol-20210426"
+      ],
+      "requirements_path": "gold/PUBLIC-FITSTART-PLUS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-FITSTART-PLUS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-fitstart-plus-reference-sap-20210426"
+    },
+    {
+      "study_id": "PUBLIC-HCV-EDUCATION-DELIVERY-001",
+      "study_family_id": "NCT04204447-HCV-EDUCATION-DELIVERY",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-hcv-education-delivery-protocol-20180630"
+      ],
+      "requirements_path": "gold/PUBLIC-HCV-EDUCATION-DELIVERY-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-HCV-EDUCATION-DELIVERY-001/annotation_status.json",
+      "reference_sap_document_id": "doc-hcv-education-delivery-reference-sap-20180630"
+    },
+    {
+      "study_id": "PUBLIC-DIPPER-SAFEBREAK-001",
+      "study_family_id": "NCT04469218-DIPPER-SAFEBREAK",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-dipper-safebreak-protocol-20201013"
+      ],
+      "requirements_path": "gold/PUBLIC-DIPPER-SAFEBREAK-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-DIPPER-SAFEBREAK-001/annotation_status.json",
+      "reference_sap_document_id": "doc-dipper-safebreak-reference-sap-20201013"
+    },
+    {
+      "study_id": "PUBLIC-REWARD-RETRAINING-BINGE-001",
+      "study_family_id": "NCT04661410-REWARD-RETRAINING-BINGE",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-reward-retraining-binge-protocol-20210519"
+      ],
+      "requirements_path": "gold/PUBLIC-REWARD-RETRAINING-BINGE-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-REWARD-RETRAINING-BINGE-001/annotation_status.json",
+      "reference_sap_document_id": "doc-reward-retraining-binge-reference-sap-20210519"
+    },
+    {
+      "study_id": "PUBLIC-COVID-AG-OTC-001",
+      "study_family_id": "NCT05584176-COVID-AG-OTC",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-covid-ag-otc-protocol-20211201"
+      ],
+      "requirements_path": "gold/PUBLIC-COVID-AG-OTC-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-COVID-AG-OTC-001/annotation_status.json",
+      "reference_sap_document_id": "doc-covid-ag-otc-reference-sap-20211201"
+    },
+    {
+      "study_id": "PUBLIC-OA-BRACE-GAIT-001",
+      "study_family_id": "NCT04111276-OA-BRACE-GAIT",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-oa-brace-gait-protocol-20190607"
+      ],
+      "requirements_path": "gold/PUBLIC-OA-BRACE-GAIT-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-OA-BRACE-GAIT-001/annotation_status.json",
+      "reference_sap_document_id": "doc-oa-brace-gait-reference-sap-20190711"
+    },
+    {
+      "study_id": "PUBLIC-FORCED-AEROBIC-MS-001",
+      "study_family_id": "NCT04906057-FORCED-AEROBIC-MS",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-forced-aerobic-ms-protocol-20210715"
+      ],
+      "requirements_path": "gold/PUBLIC-FORCED-AEROBIC-MS-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-FORCED-AEROBIC-MS-001/annotation_status.json",
+      "reference_sap_document_id": "doc-forced-aerobic-ms-reference-sap-20210715"
+    },
+    {
+      "study_id": "PUBLIC-AMPED-PD-001",
+      "study_family_id": "NCT05421624-AMPED-PD",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-amped-pd-protocol-20220712"
+      ],
+      "requirements_path": "gold/PUBLIC-AMPED-PD-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-AMPED-PD-001/annotation_status.json",
+      "reference_sap_document_id": "doc-amped-pd-reference-sap-20220712"
+    },
+    {
+      "study_id": "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001",
+      "study_family_id": "NCT01822353-ORAL-IMMUNOTHERAPY-ADULT",
+      "track": "protocol_only",
+      "input_document_ids": [
+        "doc-oral-immunotherapy-adult-protocol-20121019"
+      ],
+      "requirements_path": "gold/PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001/annotation_status.json",
+      "reference_sap_document_id": "doc-oral-immunotherapy-adult-reference-sap-20121019"
+    }
+  ],
+  "reference_sap_policy": "annotation_only_never_model_visible",
+  "not_included": {
+    "hold_version_or_provenance": 21,
+    "exclude_post_primary_or_execution_informed": 20,
+    "private_pilot": 1
+  }
+}

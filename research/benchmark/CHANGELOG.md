@@ -1,5 +1,14 @@
 # Changelog
 
+## Initial benchmark closeout - 2026-10-02
+
+- Stopped further acquisition by user decision and archived the 13 remaining metadata-only candidates without counting them as questions or exclusions.
+- Completed a real 107-study terminal audit against document isolation, version/provenance, registry chronology, target leakage, requirements, sample-size and package-integrity gates.
+- Exported 66 `keep_draft` studies as the authoritative initial question set; quarantined 21 studies with unresolved version/provenance questions and excluded 20 selected targets that are post-primary or execution-informed.
+- Corrected the strict exclusion set to include BP-SMOKERS, NOTE-ENDO and VM202-PDN: the first two selected plans are post-completion, while VM202-PDN also records realized protocol-version enrollment and erroneous randomizations.
+- Added a frozen 107-row registry chronology snapshot and a reproducible final-audit generator/checker. Standardized all 107 public annotation statuses to `draft_needs_expert_review`.
+- Recorded that the delivered 66-study draft set is below the historical 100-family frozen floor and is neither expert-approved nor split-ready.
+
 ## Batch 172 screening - 2026-09-30
 
 - Promoted NCT01822353 as a first-pass public draft after exact identity/date and protocol-leakage review; added 22 requirements for adult oral immunotherapy.

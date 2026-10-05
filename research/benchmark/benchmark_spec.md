@@ -108,3 +108,5 @@ Any change to task scope, rubric semantics, gold labels, model-visible inputs, e
 ## Scale target
 
 The release-eligible intake target is 120 independent public study families, with at least 100 retained after all release gates. The private pilot is development-only and does not count toward either number. At the 100-family floor, the intended split is 40 train, 20 dev, and 40 held-out test families; if all 120 pass, the stretch split is 60/20/40. A metadata-screened protocol/SAP pair is an acquisition candidate, not a benchmark-ready question; only independently adjudicated and split-ready families count toward the frozen release.
+
+The 2026-10-02 initial-delivery decision stops acquisition below this historical target. Of 107 fully annotated public drafts, the source/chronology audit retains 66 as draft questions, holds 21, and excludes 20. These 66 are an initial expert-review set, not an independently adjudicated or split-ready frozen release.

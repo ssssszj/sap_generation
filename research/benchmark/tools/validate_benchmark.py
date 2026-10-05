@@ -200,11 +200,67 @@ def main() -> int:
     if duplicates:
         errors.append(f"duplicate requirement_id: {duplicates}")
 
-    candidate_catalog_path = BENCHMARK / "screening" / "candidate_catalog.jsonl"
+    final_audit_path = BENCHMARK / "final_audit" / "questions.jsonl"
+    question_set_path = BENCHMARK / "final_audit" / "initial_draft_question_set.json"
+    if final_audit_path.is_file() or question_set_path.is_file():
+        if not final_audit_path.is_file() or not question_set_path.is_file():
+            errors.append("final audit and initial draft question set must be present together")
+        else:
+            audit_rows = load_jsonl(final_audit_path)
+            question_set = load_json(question_set_path)
+            public_study_ids = {item["study_id"] for item in studies if item.get("status") != "pilot_only"}
+            audit_ids = [item.get("study_id") for item in audit_rows]
+            if len(audit_ids) != len(set(audit_ids)):
+                errors.append("final audit contains duplicate study_id values")
+            if set(audit_ids) != public_study_ids:
+                errors.append("final audit study IDs do not exactly cover the registered public studies")
+            allowed_dispositions = {
+                "keep_draft",
+                "hold_version_or_provenance",
+                "exclude_post_primary_or_execution_informed",
+            }
+            unknown_dispositions = sorted(
+                {item.get("disposition") for item in audit_rows} - allowed_dispositions
+            )
+            if unknown_dispositions:
+                errors.append(f"final audit contains unknown dispositions: {unknown_dispositions}")
+            selected_ids = question_set.get("study_ids", [])
+            keep_ids = [item["study_id"] for item in audit_rows if item.get("disposition") == "keep_draft"]
+            if selected_ids != keep_ids:
+                errors.append("initial draft question set does not exactly match final-audit keep_draft rows")
+            if question_set.get("question_count") != len(selected_ids):
+                errors.append("initial draft question_count does not match study_ids length")
+            questions = question_set.get("questions", [])
+            if [item.get("study_id") for item in questions] != selected_ids:
+                errors.append("initial draft question records do not exactly match study_ids")
+            reference_ids = {item.get("reference_sap_document_id") for item in audit_rows}
+            for question in questions:
+                if set(question.get("input_document_ids", [])) & reference_ids:
+                    errors.append(f"question {question.get('study_id')} exposes a reference SAP as input")
+            for item in audit_rows:
+                if item.get("annotation_status") != "draft_needs_expert_review":
+                    errors.append(f"final audit {item.get('study_id')}: annotation is not draft_needs_expert_review")
+                if item.get("requirement_count") != len(
+                    [requirement for requirement in requirements if requirement.get("study_id") == item.get("study_id")]
+                ):
+                    errors.append(f"final audit {item.get('study_id')}: stale requirement_count")
+
+    configured_question_count = config.get("scale_target", {}).get("initial_draft_questions")
+    if configured_question_count is not None and question_set_path.is_file():
+        actual_question_count = load_json(question_set_path).get("question_count")
+        if actual_question_count != configured_question_count:
+            errors.append(
+                f"initial draft question count {actual_question_count} does not match configured {configured_question_count}"
+            )
+
+    configured_catalog = config.get("candidate_catalog")
+    candidate_catalog_path = BENCHMARK / configured_catalog if configured_catalog else None
     candidate_count = 0
-    if candidate_catalog_path.is_file():
+    if candidate_catalog_path and candidate_catalog_path.is_file():
         candidates = load_jsonl(candidate_catalog_path)
-        candidate_count = len(candidates)
+        candidate_catalog_records = len(candidates)
+        acquisition_closed = config.get("scale_target", {}).get("collection_stopped_by_user", False)
+        candidate_count = 0 if acquisition_closed else candidate_catalog_records
         candidate_ids = []
         for index, candidate in enumerate(candidates, start=1):
             require_keys(
@@ -270,6 +326,16 @@ def main() -> int:
             errors.append(
                 f"candidate count {candidate_count} does not match configured target {expected_candidates}"
             )
+    elif config.get("scale_target", {}).get("screened_candidates") not in {None, 0}:
+        errors.append("configured screened candidate count is nonzero but no active candidate catalog exists")
+
+    review_queue_path = BENCHMARK / config.get("review_queue", "screening/review_queue_v0.3.json")
+    if review_queue_path.is_file():
+        review_queue = load_json(review_queue_path)
+        if review_queue.get("target_count") != len(review_queue.get("studies", [])):
+            errors.append("review queue target_count does not match studies length")
+        if config.get("scale_target", {}).get("collection_stopped_by_user") and review_queue.get("studies"):
+            errors.append("collection is closed but the review queue is not empty")
 
     pilot_split = load_json(BENCHMARK / "splits" / "pilot.json")
     for study_id in pilot_split["study_ids"]:

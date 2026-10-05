@@ -4,6 +4,8 @@
 
 The release-eligible collection target is 120 independent public study families. The private pilot is tracked separately and never counts toward this target. The intended frozen release contains 100 or more usable questions after version review, source-rights review, extraction QA, duplicate removal, and annotation adjudication. The 120-family intake target deliberately allows about 15-20% attrition.
 
+**2026-10-02 closeout:** the user stopped acquisition after 107 public families had received complete first-pass annotations. The terminal audit retained 66 drafts, held 21, and excluded 20. The original 120-family intake and 100-family frozen-release floor were therefore not met. This document preserves the original scale rationale; the delivered initial set is explicitly smaller and not frozen.
+
 A question is one study family with one allowed input package and one SAP-generation task. Alternative tracks, protocol amendments, translations, and synthetic variants do not increase the independent question count.
 
 ## Why 100+ is a reasonable graduation-project scale

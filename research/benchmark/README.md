@@ -1,84 +1,70 @@
 # SAP Generation Benchmark
 
-This directory contains the research benchmark for evidence-grounded Statistical Analysis Plan generation.
+This directory contains the initial evidence-grounded Statistical Analysis Plan generation benchmark.
 
-The current working release is `v0.3-development`. It contains one private `pilot_only` study, 107 version-verified public study families, and a 13-study metadata-screened acquisition pool. The 107 eligible registered studies plus the candidate pool form a 120-family release intake; the pilot remains development-only and is not counted toward that target. All 108 registered studies now have first-pass evidence-backed annotations, totaling 2,092 requirements (2,066 public and 26 private-pilot requirements); every set still requires independent expert review. None of the public studies has been assigned to a frozen train/dev/test split yet.
+## Initial delivery status
 
-## What is included
+Collection stopped by user decision on 2026-10-02. The final audit covers all 107 registered public annotation drafts and produces this conservative disposition:
 
-- A versioned task specification and data card.
-- Study and document manifests with SHA-256 hashes.
-- JSON Schemas for studies, documents, rubric items, gold requirements, predictions, and evaluation records.
-- A general SAP rubric and an ophthalmology/IOL extension rubric.
-- A first evidence-backed gold annotation set for the existing artificial intraocular lens study.
-- Tools for stable DOCX paragraph extraction, benchmark validation, and deterministic scoring.
-- A screened public-source catalog, source audit, and hash-verifying downloader.
-- A reproducible ClinicalTrials.gov metadata harvester, a 120-family scale plan, and a 13-study document-review queue.
+| Disposition | Studies | Included in initial question set |
+|---|---:|---|
+| `keep_draft` | 66 | yes |
+| `hold_version_or_provenance` | 21 | no |
+| `exclude_post_primary_or_execution_informed` | 20 | no |
+| private `pilot_only` | 1 | no |
+
+All 107 public studies have a protocol package, a separate reference SAP, a first-pass `requirements.jsonl`, and an `annotation_status.json`. Together they contain 2,066 public requirements; the private pilot adds 26. The delivered question set is [final_audit/initial_draft_question_set.json](final_audit/initial_draft_question_set.json), containing only the 66 `keep_draft` studies. It remains `draft_needs_expert_review`: none of the questions is expert-approved, split-ready, or frozen.
+
+The complete 107-row disposition record is [final_audit/questions.jsonl](final_audit/questions.jsonl). It binds each study to its input and reference documents, registry chronology, requirement count, unresolved version questions, audit gates, and terminal disposition. The source chronology used by that audit is frozen in [final_audit/registry_chronology.jsonl](final_audit/registry_chronology.jsonl).
+
+## Package layout
+
+- `manifests/studies.jsonl`: 107 public annotated drafts plus one private pilot. A manifest `status=verified` records the historical pair-review stage; it is not the final eligibility decision.
+- `manifests/documents.jsonl`: frozen document IDs, roles, paths, SHA-256 hashes, versions, dates, and source URLs.
+- `gold/<STUDY_ID>/requirements.jsonl`: atomic, evidence-backed criteria for judging a generated SAP.
+- `gold/<STUDY_ID>/annotation_status.json`: draft status, unresolved decisions, and expert-review requests.
+- `final_audit/initial_draft_question_set.json`: authoritative 66-study initial question list.
+- `final_audit/questions.jsonl`: authoritative 107-study final audit and dispositions.
+- `screening/candidate_catalog_archived_2026-10-02.jsonl`: 13 metadata-only records archived when acquisition stopped. They are neither questions nor exclusions.
+- `expert_review_packet_*.md`: acquisition and annotation provenance for the reviewed batches.
+
+Public source PDFs are kept in gitignored `sources/public/<NCT>/input/` and `reference/` directories. The manifest retains URLs and frozen hashes so a consumer can refetch and verify them. Reference SAPs are annotation aids only and must never enter a model-visible prompt.
 
 ## Benchmark tracks
 
-- `protocol_only`: Protocol is the only study-specific model input.
-- `protocol_crf`: Protocol and blank/annotated CRF are model inputs.
-- `confirmed_decisions`: Protocol, optional CRF, and explicitly recorded human decisions are model inputs. This is an application track, not the primary research track.
+- `protocol_only`: protocol is the only study-specific model input.
+- `protocol_crf`: protocol and blank/annotated CRF are model inputs.
+- `confirmed_decisions`: protocol, optional CRF, and explicit human decisions are model inputs.
 
-Reference SAPs are never model inputs. They are annotation aids only. Requirements that cannot be inferred from the allowed input must be labelled `proposed` or `needs_confirmation`; they cannot be treated as hidden facts the model was expected to guess.
+Requirements that cannot be inferred from the allowed input are labelled `proposed` or `needs_confirmation`; they must not be scored as hidden facts the model was expected to guess.
 
-## Quick start
+## Validation
 
-Run all structural checks:
+Run the structural validator and the independently reproducible final-audit check:
 
 ```bash
 python3 research/benchmark/tools/validate_benchmark.py
+python3 research/benchmark/tools/finalize_initial_benchmark.py --check
+python3 research/benchmark/tools/audit_initial_delivery.py
+git diff --check -- research/benchmark
 ```
 
-Refresh the metadata-screened acquisition pool from the official ClinicalTrials.gov API:
+The validator checks references, hashes for locally present files, count consistency, candidate disjointness, annotation counts, final-audit coverage, and exact agreement between `keep_draft` rows and the delivered question set. Passing it does not replace statistical expert review.
 
-```bash
-python3 research/benchmark/tools/build_candidate_pool.py --target 13 --max-pages 6
-```
-
-This command does not verify protocol/SAP version compatibility. It only identifies separate public uploads and creates a stratified review queue.
-
-Fetch a public study family and verify the frozen file hashes:
+To fetch a frozen public source by manifest ID and verify its hash:
 
 ```bash
 python3 research/benchmark/tools/fetch_public_sources.py \
-  --study-id PUBLIC-VIVID-001
+  --study-id PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001
 ```
 
-Extract stable paragraph IDs from a DOCX:
+## Important limitations and next gate
 
-```bash
-python3 research/benchmark/tools/extract_docx_blocks.py \
-  input/1-人工晶状体临床试验方案-A0版-20210930.docx \
-  --document-id doc-pilot-iol-protocol-a0
-```
+- The usable initial set has 66 drafts, below the historical 100-family frozen-release floor. No 40/20/40 frozen split is claimed.
+- Twenty-one fully annotated studies remain quarantined until version binding or prospective provenance is independently resolved.
+- Twenty selected targets fail the strict pre-primary/outcome-uninformed gate; their annotations are retained as audit artifacts but are not benchmark questions.
+- Evidence locators and statistical decisions still require independent expert adjudication.
+- English-language public studies dominate, and source availability favors completed trials.
+- Source redistribution rights have not been established; the repository therefore distributes identifiers, URLs, hashes, and derived annotations rather than the public PDFs.
 
-Score a candidate SAP text with the deterministic subset of the pilot gold requirements:
-
-```bash
-python3 research/benchmark/evaluator/score_deterministic.py \
-  --requirements research/benchmark/gold/PILOT-IOL-001/requirements.jsonl \
-  --candidate candidate.txt \
-  --track protocol_only
-```
-
-The deterministic scorer does not replace statistical review. Items without a deterministic matcher return `uncertain` and are routed to a calibrated semantic judge or a human reviewer.
-
-## Current limitations
-
-- Only 107 public families have first-pass annotations, and none has completed independent expert adjudication; 13 additional records are acquisition candidates, not finished benchmark questions.
-- The pilot study has already been used during product development, so it is excluded from final testing.
-- Public source PDFs are remote-only by default. They must be fetched and hash-verified before generation or evidence review.
-- Fetched protocol/CRF inputs and reference SAPs are stored in separate `input/` and `reference/` directories to reduce accidental leakage.
-- IMPACT is observational and is scored as an auxiliary protocol/CRF case, not as part of the primary randomized-trial aggregate.
-- DOCX evidence currently uses stable paragraph locators. Local LibreOffice rendering lacks the Chinese font mapping needed for trustworthy DOCX-to-page evidence mapping.
-- The original `knowledge_bank/rubrics.json` remains a legacy generation/revision checklist. The benchmark rubric in this directory is independent and supports applicability and `N/A` decisions.
-
-## Next release gates
-
-- `v0.3 collection`: continue promoting the remaining queued studies through download, hashing, version-chain checks, extraction QA, and first-pass annotation until all 120 public families are registered.
-- `v0.4 annotation`: reach at least 30 annotation drafts and 15 independently adjudicated studies.
-- `v1.0 frozen`: retain at least 100 independent, split-ready study families from the 120-family intake; freeze train/dev/test by study family; run at least three baselines and publish evaluator calibration.
-
-At the 100-family release floor, the intended split is 40 train / 20 dev / 40 test. If all 120 eligible families pass, the stretch split is 60 / 20 / 40. See `scale_plan.md` for the statistical rationale and annotation budget.
+The next release gate is expert review of the 66 retained drafts, followed by evaluator calibration and family-level train/dev/test freezing. Reopening acquisition is a separate decision; the archived 13 metadata records do not silently reactivate.

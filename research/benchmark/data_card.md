@@ -2,7 +2,9 @@
 
 ## Current composition
 
-The working benchmark contains 108 registered study families: one private pilot and 107 public annotation drafts.
+The working benchmark contains 108 registered study families: one private pilot and 107 fully annotated public drafts. A terminal source/chronology audit retains 66 as the initial `draft_needs_expert_review` question set, holds 21 for unresolved version or provenance evidence, and excludes 20 whose selected targets are post-primary or execution-informed. No question is expert-approved or frozen.
+
+The authoritative initial selection is `final_audit/initial_draft_question_set.json`; `final_audit/questions.jsonl` records the disposition and evidence for all 107 public drafts. Historical `status=verified` values in the study manifest describe document-pair screening, not final eligibility.
 
 - one private Chinese ophthalmology medical-device study marked `pilot_only`;
 - VIVID, a public randomized behavioral study with a binary primary outcome;
@@ -112,7 +114,7 @@ The working benchmark contains 108 registered study families: one private pilot 
 - EMBRACE LLM-based emotional management in breast cancer, a multicenter randomized digital-support trial with MMRM, count, competing-risk, subgroup and engagement analyses.
 - oral immunotherapy in adults with severe egg, milk or nut allergy, a prospective nonrandomized study with one-year immunologic and pulmonary outcomes and explicit endpoint-hierarchy, population, multiplicity and safety gates.
 
-All 107 public studies have first-pass annotations. Together with the private pilot, the registered set contains 2,092 evidence-backed requirements: 2,066 for the public studies and 26 for the private pilot. All public families remain unsplit until independent review and leakage checks are complete.
+All 107 public studies have first-pass annotations. Together with the private pilot, the registered set contains 2,092 evidence-backed requirements: 2,066 for the public studies and 26 for the private pilot. Only the 66 `keep_draft` studies are delivered as initial questions, and all remain unsplit until independent expert review is complete.
 
 The local study package contains a protocol, a CRF, an annotated CRF candidate, and a later reference SAP. The protocol and reference SAP versions are separated by time and must be treated as a version-matching risk until manually confirmed.
 
@@ -145,7 +147,7 @@ Public documents are therefore remote-only by default. The downloader verifies t
 
 ## Known biases
 
-- only 107 public studies have first-pass gold annotations, with no completed expert adjudication;
+- 107 public studies have first-pass gold annotations, but only 66 clear the final draft-level source gates and none has completed expert adjudication;
 - English-language public sources dominate the expansion set;
 - the only current protocol/CRF pair is observational;
 - unusually detailed protocol statistics;
@@ -154,6 +156,6 @@ Public documents are therefore remote-only by default. The downloader verifies t
 - reference SAPs may contain operational choices not inferable from the protocol;
 - registry availability favors completed studies with results-reporting obligations.
 
-## Planned v0.3 composition
+## Initial v0.3 delivery
 
-The release-eligible intake contains 120 study-family slots, of which 13 remain metadata-screened acquisition candidates and 107 are version-verified annotation drafts. Candidate independence remains provisional until document-level review. The frozen release floor is 100 independently adjudicated families, with a 40/20/40 train/dev/test split. The next annotation sprint should continue promoting design-diverse pairs while expert review proceeds independently on the existing drafts.
+Candidate acquisition is closed. Thirteen metadata-only records are archived as stopped/not pursued and are not questions. The final audit covers 107 public annotation drafts and exports 66 retained drafts, with 21 holds and 20 exclusions. The historical frozen-release floor was 100 independently adjudicated families; this initial delivery is below that floor, so no 40/20/40 train/dev/test split is claimed. The next gate is independent expert adjudication of the 66 retained drafts and resolution, where possible, of the 21 quarantined families.
