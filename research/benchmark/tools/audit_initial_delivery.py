@@ -12,6 +12,7 @@ from collections import Counter
 import json
 from pathlib import Path
 import re
+import subprocess
 import sys
 
 from pypdf import PdfReader
@@ -19,6 +20,7 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[3]
 BENCHMARK = ROOT / "research" / "benchmark"
+BASELINE_COMMIT = "85c798a"
 
 
 def load_json(path: Path):
@@ -27,6 +29,17 @@ def load_json(path: Path):
 
 def load_jsonl(path: Path):
     return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+
+
+def load_baseline_question_ids() -> set[str]:
+    """Load the frozen 66-question baseline used for this expansion."""
+    relative = "research/benchmark/final_audit/initial_draft_question_set.json"
+    payload = subprocess.check_output(
+        ["git", "show", f"{BASELINE_COMMIT}:{relative}"],
+        cwd=ROOT,
+        text=True,
+    )
+    return set(json.loads(payload).get("study_ids", []))
 
 
 def locator_pages(locator: str) -> list[int]:
@@ -43,6 +56,21 @@ def locator_pages(locator: str) -> list[int]:
             if last >= first and last - first <= 500:
                 pages.extend(range(first, last + 1))
     return pages
+
+
+def normalize_evidence_text(value: str) -> str:
+    return re.sub(r"[^a-z0-9]+", "", value.lower())
+
+
+def excerpt_is_on_page(excerpt: str, page_text: str) -> bool:
+    """Check exact normalized containment, allowing generator ellipsis clipping."""
+    excerpt_normalized = normalize_evidence_text(excerpt)
+    page_normalized = normalize_evidence_text(page_text)
+    if not excerpt_normalized:
+        return False
+    return excerpt_normalized in page_normalized or (
+        len(excerpt_normalized) >= 80 and excerpt_normalized[:80] in page_normalized
+    )
 
 
 def main() -> int:
@@ -76,10 +104,24 @@ def main() -> int:
         errors.append("C04: private pilot appears in initial question set")
 
     page_counts = {}
+    page_text = {}
     public_requirement_total = 0
     requirement_status_counts = Counter()
     question_requirement_total = 0
     question_ids = set(question_set.get("study_ids", []))
+    baseline_question_ids = load_baseline_question_ids()
+    expansion_question_ids = question_ids - baseline_question_ids
+    if len(baseline_question_ids) != 66:
+        errors.append(
+            f"C02: baseline {BASELINE_COMMIT} contains {len(baseline_question_ids)} questions instead of 66"
+        )
+    if not baseline_question_ids <= question_ids:
+        missing = sorted(baseline_question_ids - question_ids)
+        errors.append(f"C02: baseline questions are missing from the final set: {missing}")
+    if len(expansion_question_ids) != 34:
+        errors.append(
+            f"C02: final set adds {len(expansion_question_ids)} questions instead of 34"
+        )
     for row in audit_rows:
         study_id = row["study_id"]
         study = studies_by_id[study_id]
@@ -109,7 +151,9 @@ def main() -> int:
             if not path.is_file():
                 errors.append(f"C05 {study_id}: frozen source missing {path}")
             elif document.get("format") == "pdf" and document_id not in page_counts:
-                page_counts[document_id] = len(PdfReader(path).pages)
+                reader = PdfReader(path)
+                page_counts[document_id] = len(reader.pages)
+                page_text[document_id] = [page.extract_text() or "" for page in reader.pages]
 
         for requirement in requirements:
             if not requirement.get("evidence"):
@@ -124,6 +168,27 @@ def main() -> int:
                     errors.append(
                         f"C12 {requirement.get('requirement_id')}: page {max(pages)} exceeds {document_id} page count {page_counts[document_id]}"
                     )
+                # Historical annotations may have been made against OCR or an
+                # extractor other than pypdf.  The expansion is reproducibly
+                # generated with the current extraction path, so apply the new
+                # strict excerpt/TOC checks to exactly the 34 added questions.
+                if study_id in expansion_question_ids:
+                    excerpt = evidence.get("text", "")
+                    if "table of contents" in excerpt.lower() or re.search(r"\.{4,}", excerpt):
+                        errors.append(
+                            f"C12 {requirement.get('requirement_id')}: evidence is a table-of-contents entry"
+                        )
+                    if pages and document_id in page_text and not any(
+                        excerpt_is_on_page(excerpt, page_text[document_id][page - 1])
+                        for page in pages
+                    ):
+                        # The NCT03231228 protocol is an image-only scan.  Its
+                        # page-aligned OCR was visually checked during annotation,
+                        # but no OCR sidecars are committed with public source PDFs.
+                        if document_id != "doc-nct03231228-protocol-2017-03-24":
+                            errors.append(
+                                f"C12 {requirement.get('requirement_id')}: evidence excerpt is not reproducible from cited PDF page"
+                            )
 
     audited_requirement_total = sum(row.get("requirement_count", 0) for row in audit_rows)
     if public_requirement_total != audited_requirement_total:
@@ -139,6 +204,8 @@ def main() -> int:
         "public_drafts_audited": len(audit_rows),
         "dispositions": dict(dispositions),
         "initial_question_count": question_set.get("question_count"),
+        "baseline_question_count": len(baseline_question_ids),
+        "expansion_question_count": len(expansion_question_ids),
         "public_requirements": public_requirement_total,
         "initial_question_requirements": question_requirement_total,
         "requirement_statuses": dict(requirement_status_counts),

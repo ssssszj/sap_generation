@@ -2,7 +2,7 @@
 
 ## Current composition
 
-The working benchmark contains 142 registered study families: one private pilot and 141 fully annotated public drafts. A terminal source/chronology audit retains exactly 100 as the initial `draft_needs_expert_review` question set, holds 21 for unresolved version or provenance evidence, and excludes 20 whose selected targets are post-primary or execution-informed. No question is expert-approved or frozen.
+The working benchmark contains 142 registered study families: one private pilot and 141 fully annotated public drafts. A terminal source/chronology audit retains exactly 100 as the initial `draft_needs_expert_review` question set, holds 21 for unresolved version or provenance evidence, and excludes 20 whose selected targets are post-primary or execution-informed. All 34 studies added to the 66-question baseline use reference SAPs with exact dates before actual study start. No question is expert-approved or frozen.
 
 The authoritative initial selection is `final_audit/initial_draft_question_set.json`; `final_audit/questions.jsonl` records the disposition and evidence for all 141 public drafts. Historical `status=verified` values in the study manifest describe document-pair screening, not final eligibility.
 

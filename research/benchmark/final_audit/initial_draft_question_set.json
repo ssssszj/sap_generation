@@ -83,8 +83,8 @@
     "PUBLIC-A-ONE-DAY-ACT-WORKSHOP-FOR-EMOTIONAL-EATIN-4780",
     "PUBLIC-THE-EFFECT-OF-A-MULTIVITAMIN-IN-THE-TREATM-5325",
     "PUBLIC-CULTURALLY-MODIFIED-FAMILY-BASED-THERAPY-F-6171",
-    "PUBLIC-THE-HEARTRUNNER-TRIAL-5403",
-    "PUBLIC-STUDY-OF-DAXDILIMAB-HZN-7734-FOR-THE-TREAT-0854",
+    "PUBLIC-STUDY-TO-EVALUATE-THE-SAFETY-AND-IMMUNOGEN-9113",
+    "PUBLIC-A-CLINICAL-STUDY-OF-THE-HIV-DRUG-CPT31-IN--2083",
     "PUBLIC-USE-OF-PARTIAL-BODY-WEIGHT-SUPPORT-PLAY-EN-7523",
     "PUBLIC-PROMOTING-SAFETY-BEHAVIOURS-IN-ANTENATAL-C-7277",
     "PUBLIC-FITFORLIFE-EXERCISE-IN-CARE-OF-PSYCHOSIS-9612",
@@ -966,26 +966,26 @@
       "reference_sap_document_id": "doc-nct03876171-reference-sap-2018-07-19"
     },
     {
-      "study_id": "PUBLIC-THE-HEARTRUNNER-TRIAL-5403",
-      "study_family_id": "NCT03835403-THE-HEARTRUNNER-TRIAL",
+      "study_id": "PUBLIC-STUDY-TO-EVALUATE-THE-SAFETY-AND-IMMUNOGEN-9113",
+      "study_family_id": "NCT04819113-STUDY-TO-EVALUATE-THE-SAFETY",
       "track": "protocol_only",
       "input_document_ids": [
-        "doc-nct03835403-protocol-2020-12-03"
+        "doc-nct04819113-protocol-2020-10-23"
       ],
-      "requirements_path": "gold/PUBLIC-THE-HEARTRUNNER-TRIAL-5403/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-THE-HEARTRUNNER-TRIAL-5403/annotation_status.json",
-      "reference_sap_document_id": "doc-nct03835403-reference-sap-2020-12-03"
+      "requirements_path": "gold/PUBLIC-STUDY-TO-EVALUATE-THE-SAFETY-AND-IMMUNOGEN-9113/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-STUDY-TO-EVALUATE-THE-SAFETY-AND-IMMUNOGEN-9113/annotation_status.json",
+      "reference_sap_document_id": "doc-nct04819113-reference-sap-2021-03-24"
     },
     {
-      "study_id": "PUBLIC-STUDY-OF-DAXDILIMAB-HZN-7734-FOR-THE-TREAT-0854",
-      "study_family_id": "NCT05430854-STUDY-OF-DAXDILIMAB-HZN-7734",
+      "study_id": "PUBLIC-A-CLINICAL-STUDY-OF-THE-HIV-DRUG-CPT31-IN--2083",
+      "study_family_id": "NCT04672083-A-CLINICAL-STUDY-OF-THE-HIV-",
       "track": "protocol_only",
       "input_document_ids": [
-        "doc-nct05430854-protocol-2022-03-17"
+        "doc-nct04672083-protocol-2020-07-27"
       ],
-      "requirements_path": "gold/PUBLIC-STUDY-OF-DAXDILIMAB-HZN-7734-FOR-THE-TREAT-0854/requirements.jsonl",
-      "annotation_status_path": "gold/PUBLIC-STUDY-OF-DAXDILIMAB-HZN-7734-FOR-THE-TREAT-0854/annotation_status.json",
-      "reference_sap_document_id": "doc-nct05430854-reference-sap-2022-06-03"
+      "requirements_path": "gold/PUBLIC-A-CLINICAL-STUDY-OF-THE-HIV-DRUG-CPT31-IN--2083/requirements.jsonl",
+      "annotation_status_path": "gold/PUBLIC-A-CLINICAL-STUDY-OF-THE-HIV-DRUG-CPT31-IN--2083/annotation_status.json",
+      "reference_sap_document_id": "doc-nct04672083-reference-sap-2020-08-13"
     },
     {
       "study_id": "PUBLIC-USE-OF-PARTIAL-BODY-WEIGHT-SUPPORT-PLAY-EN-7523",

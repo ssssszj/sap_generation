@@ -21,12 +21,12 @@ The user set a final collection ceiling of 100 retained questions. The concrete 
 | C04 | Keep the private pilot out | `PILOT-IOL-001`, `splits/pilot.json` | one `pilot_only` study; absent from the 100-study question set |
 | C05 | Protocol and independent reference SAP per audited study | study/document manifests and local packages | final audit resolves input/reference document IDs and local frozen files for all 141 |
 | C06 | Reference SAP never model-visible | document roles and `input/` versus `reference/` paths | checked per row by final audit |
-| C07 | Prospective governing version chain | registry chronology, document dates, annotation questions | 100 pass at draft gate; 21 held; 20 fail |
+| C07 | Prospective governing version chain | registry chronology, document dates, annotation questions | 100 pass the draft-level gate; all 34 additions have SAP dates before exact actual start; 21 held; 20 fail |
 | C08 | Independent study families | unique `study_family_id` and NCT binding | one row per registered family; no family crosses splits |
 | C09 | No executable protocol leakage | batch review packets and final review | retained rows passed the final draft leakage review |
 | C10 | No results/CSR/execution-informed target | registry chronology and selected reference text | 20 post-primary or execution-informed targets excluded |
 | C11 | Complete first-pass annotations | `gold/*/requirements.jsonl` | 141 public files, 2,589 items, 12-25 items per study; the retained 100 contain 1,771 items |
-| C12 | Evidence locators | requirement evidence plus page-range audit | every item has document ID, locator and excerpt; numeric locators remain within PDF page counts; semantic confirmation is an expert-review gate |
+| C12 | Evidence locators | requirement evidence plus page-range audit | every item has document ID, locator and excerpt; all 34 additions pass normalized excerpt replay on the cited physical pages (with the documented OCR exception for scan-only NCT03231228); expert semantic adjudication remains required |
 | C13 | Prospective sample-size rule | requirements and review packets | actual enrollment is not accepted as a substitute for the prospective target |
 | C14 | Honest annotation maturity | 141 `annotation_status.json` files | all say `draft_needs_expert_review`; zero expert-approved/frozen |
 | C15 | Package integrity | validator and final-audit script | unique IDs, resolvable references, count-matched statuses, and exact question-set agreement |

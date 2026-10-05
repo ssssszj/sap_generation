@@ -19,5 +19,5 @@
   "intervention_distribution": {},
   "endpoint_distribution_multi_label": {},
   "pairing_state_distribution": {},
-  "warning": "Candidate acquisition stopped on 2026-10-05 after the user-authorized 100-question ceiling was reached. The retained set passed a strict exact actual-start chronology gate except for two documented, manually reviewed post-start exceptions; archived metadata-only records are not benchmark questions or exclusion decisions."
+  "warning": "Candidate acquisition stopped on 2026-10-05 after the user-authorized 100-question ceiling was reached. All 34 targets added to the 66-question baseline passed the strict exact-date gate: each reference SAP predates actual study start. Archived metadata-only records are not benchmark questions or exclusion decisions."
 }

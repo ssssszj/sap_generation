@@ -28,6 +28,8 @@ TMP_ROOTS = [
     Path("/private/tmp/sapbench_second_docs"),
     Path("/private/tmp/sapbench_strict_docs"),
     Path("/private/tmp/sapbench_fresh_docs"),
+    Path("/private/tmp/sapbench_replacement_fresh"),
+    Path("/private/tmp/sapbench_replacement_round3"),
 ]
 CANDIDATE_FILES = [
     Path("/private/tmp/sapbench_candidates_1000.jsonl"),
@@ -37,6 +39,26 @@ CANDIDATES = {}
 for candidate_file in CANDIDATE_FILES:
     for row in map(json.loads, candidate_file.read_text().splitlines()):
         CANDIDATES[row["candidate_id"]] = row
+CANDIDATES["NCT04819113"] = {
+    "candidate_id": "NCT04819113",
+    "title": "Study to Evaluate the Safety and Immunogenicity of Nimenrix (Registered) in Healthy Infants, Given at 3 and 12 Months of Age",
+    "source": "ClinicalTrials.gov",
+    "study_type": "interventional",
+    "domain": "infectious_disease",
+    "conditions": ["Meningococcal Vaccine"],
+    "intervention_type": "other",
+    "design_tags": ["na", "single_group", "none", "phase_3"],
+    "hypothesis_types": ["superiority_or_manual_review"],
+    "endpoint_types": ["binary"],
+    "primary_outcomes": [],
+    "enrollment": 149,
+    "overall_status": "completed",
+    "has_results": True,
+    "protocol_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04819113/Prot_000.pdf",
+    "protocol_document_date": "2020-10-23",
+    "sap_url": "https://cdn.clinicaltrials.gov/large-docs/13/NCT04819113/SAP_001.pdf",
+    "sap_document_date": "2021-03-24",
+}
 
 # Exactly 34 independently reviewed families. The expansion ends at 100 keep
 # questions (66 baseline + these 34); do not add more without a new decision.
@@ -44,8 +66,8 @@ SELECTED = [
     "NCT06814470", "NCT04755660", "NCT03701113",
     "NCT03198000", "NCT05516134", "NCT03256253",
     "NCT05016960", "NCT03231228", "NCT03954626",
-    "NCT03744780", "NCT03835325", "NCT03876171", "NCT03835403",
-    "NCT05430854", "NCT05307523", "NCT03397277", "NCT04239612",
+    "NCT03744780", "NCT03835325", "NCT03876171", "NCT04819113",
+    "NCT04672083", "NCT05307523", "NCT03397277", "NCT04239612",
     "NCT03332004", "NCT04674111", "NCT04126031", "NCT03324659",
     "NCT03805412", "NCT05001165", "NCT04026503", "NCT03308877",
     "NCT03576976", "NCT04858035", "NCT04759157", "NCT03203291",
@@ -53,11 +75,26 @@ SELECTED = [
     "NCT05208593",
 ]
 
-# These two post-start plans passed a separate manual chronology review.  No
-# other post-start target is permitted through the automated gate below.
-POST_START_EXCEPTIONS = {"NCT03835403", "NCT05430854"}
-
 REJECTED = {
+    "NCT03917927": ("hold_version_reconciliation", "The short protocol synopsis and statistical plan share Protocol 1601 ROSE QUARTZ, but the SAP does not identify the governing protocol version/date and its planned sample size differs from the synopsis; the exact version chain is unresolved."),
+    "NCT04320407": ("excluded_combined_protocol_sap_leakage", "The protocol already specifies the one-sided 0.025 paired t-test, ITT population, multiple imputation, sample-size assumptions, primary analysis, safety summaries, and interim timing, substantially reconstructing the SAP."),
+    "NCT04230122": ("excluded_combined_protocol_sap_leakage", "The protocol already specifies the PK populations, noncompartmental and nonlinear mixed-effects analyses, log-linear dose proportionality and bioavailability models, 90% confidence intervals, and permits unblinded safety/PK review during conduct."),
+    "NCT04435639": ("hold_chronology_reconciliation", "The protocol and SAP are prospective paired documents, but the current registry records both study start and primary completion as estimated rather than actual."),
+    "NCT03547869": ("excluded_wrong_study_binding", "The uploaded SAP identifies NCT03312920 rather than NCT03547869 and its PDF was generated after the candidate study completed."),
+    "NCT04466215": ("excluded_unextractable_source", "The protocol and SAP are image-only scans with effectively no extractable text, preventing reproducible page-level evidence annotation."),
+    "NCT03036592": ("excluded_conduct_informed_sap", "The purported SAP was generated after study conduct and uses completed-analysis wording rather than preserving a demonstrably frozen prospective plan."),
+    "NCT04716010": ("excluded_combined_protocol_sap_leakage", "The protocol reproduces the SAP's primary models, moderation analyses, power assumptions, and outlier/exclusion rules, leaving insufficient independent target content."),
+    "NCT03374306": ("excluded_conduct_informed_sap", "The SAP explicitly adapts analyses for COVID-19-related delayed visits and reports observed normality-test results, so it is conduct-informed."),
+    "NCT03763058": ("excluded_combined_protocol_sap_leakage", "The protocol already specifies the primary comparison, McNemar test, alpha, and core statistical framework reproduced by the short SAP."),
+    "NCT05964166": ("excluded_conduct_informed_sap", "The SAP uses completed-analysis language and reports the observed data distribution and tests performed; the public file was generated after primary completion."),
+    "NCT05534061": ("excluded_conduct_informed_sap", "The SAP describes preliminary analyses and models in the past tense and its PDF was generated after study conduct began."),
+    "NCT05767437": ("excluded_conduct_informed_sap", "The uploaded protocol and SAP PDFs were generated after study completion and report observed distributional results and realized recruitment."),
+    "NCT05124704": ("excluded_conduct_informed_documents", "Both PDFs were generated after study completion and the protocol describes the completed conduct and realized enrollment in the past tense."),
+    "NCT02234284": ("excluded_conduct_informed_sap", "The SAP was uploaded after completion and describes analyses as performed, including completed sensitivity and subgroup analyses."),
+    "NCT03074500": ("hold_prospective_provenance", "Although the displayed plan date precedes start, the PDF was generated after study completion and the start margin is only two days, so the frozen pre-start artifact cannot be established."),
+    "NCT02352090": ("excluded_version_date_conflict", "Although the registry labels both files 2014-04-21, the SAP names SPSS versions 25 and 27 and Prism 9 and the later-added wrapper cites 2020-2021 publications; the public artifact cannot be established as the original pre-start SAP."),
+    "NCT03835403": ("excluded_conduct_informed_sap", "The SAP was finalized about 19 months after actual study start, and the two-page model-visible file is a conduct-era protocol change log rather than a complete governing protocol; a prospective, outcome-uninformed protocol/SAP pair cannot be established."),
+    "NCT05430854": ("excluded_conduct_informed_sap", "The SAP was finalized two days after actual study start and lacks affirmative provenance establishing that it was outcome-uninformed throughout those two days of conduct."),
     "NCT02593825": ("hold_version_reconciliation", "Actual study start is recorded only at month precision, so strict ordering against the SAP cannot be established."),
     "NCT02041494": ("excluded_conduct_informed_sap", "The SAP is later than the month-level actual study start and no affirmative pre-unblinding, conduct-independent provenance was established."),
     "NCT04786184": ("excluded_conduct_informed_sap", "The post-start target lacks affirmative evidence that it was finalized before unblinding and without access to accumulating outcomes."),
@@ -138,8 +175,8 @@ RETRACTED_REJECTIONS = {"NCT05187013"}
 
 PROVENANCE_NOTES = {
     "NCT03231228": "SAP explicitly binds to protocol HC-G-H-1601 version 2.0 and states that analyses were defined before database lock.",
-    "NCT03835403": "Post-start exception: no formal interim analysis was planned; only an independent DSMB could review grouped unblinded safety results while investigators remained blinded, and the selected target predates actual primary completion.",
-    "NCT05430854": "Post-start exception: protocol and SAP covers explicitly bind version 1; the SAP was finalized two days after actual start, has an empty revision history, and the protocol requires finalization before database lock.",
+    "NCT04819113": "Final protocol C0921062 dated 2020-10-23 and SAP version 1 dated 2021-03-24 share the same sponsor study code and title; the SAP states that no interim analysis is planned, and both files predate actual study start.",
+    "NCT04672083": "Final SAP version 1 dated 2020-08-13 explicitly states that it is based on final protocol version 4 dated 2020-07-27; both identify study CPT31-001 and predate actual study start.",
     "NCT05307523": "Binding relies on the same registry submission, identical official title and date, because the contemporaneous files leave the NCT field blank.",
     "NCT03332004": "Protocol and SAP share the same date, title, investigator, and protocol identifier 736513.A287/C.E./2013 and predate actual start by almost three years.",
     "NCT03324659": "Both registry-hosted files share the study title and predate actual start; the contemporaneous files state that an NCT number was not yet available.",
@@ -221,6 +258,16 @@ def pdf_pages(path):
 def clean(text):
     return re.sub(r"\s+", " ", text).strip()
 
+
+def toc_like(text, context):
+    """Return true when a match is a contents/index entry, not evidence."""
+    return (
+        "table of contents" in text.lower()
+        or bool(re.search(r"\.{4,}", context))
+        or len(re.findall(r"\b\d+(?:\.\d+){1,3}\b", context)) >= 5
+    )
+
+
 def first_hit(items, patterns, fallback=1, width=260):
     for pattern in patterns:
         rx = re.compile(pattern, re.I)
@@ -229,7 +276,10 @@ def first_hit(items, patterns, fallback=1, width=260):
             match = rx.search(text)
             if match:
                 start = max(0, match.start() - 70)
-                return page, text[start:min(len(text), match.end() + width)]
+                context = text[start:min(len(text), match.end() + width)]
+                if toc_like(text, context):
+                    continue
+                return page, context
     by_page = dict(items)
     text = clean(by_page.get(fallback, ""))
     if text:
@@ -247,20 +297,90 @@ def hits(items, pattern, limit=6):
         text = clean(raw)
         for match in rx.finditer(text):
             context = text[max(0, match.start()-70):min(len(text), match.end()+360)]
-            toc_like = (
-                "table of contents" in text.lower()
-                or len(re.findall(r"\.{4,}", context)) >= 1
-                or len(re.findall(r"\b\d+(?:\.\d+){1,3}\b", context)) >= 5
-            )
+            is_toc = toc_like(text, context)
             substantive = bool(re.search(
                 r"(?i)\b(?:will|shall|defined as|includes?|consists?|using|based on|summari[sz]ed|analy[sz]ed|estimated|calculated|imputed|randomi[sz]ed)\b",
                 context,
             ))
-            if toc_like:
+            if is_toc:
                 continue
             values.append((not substantive, page, context))
     values.sort(key=lambda item: (item[0], item[1]))
     return [(page, context) for _, page, context in values[:limit]]
+
+
+VALUE_STOPWORDS = {
+    "a", "an", "the", "and", "or", "of", "to", "in", "on",
+    "for", "with", "from", "by", "at", "as", "is", "are", "was",
+    "were", "be", "this", "that", "study", "participants", "participant",
+    "number", "change", "baseline", "through", "about", "approximately",
+    "assessed", "assessment", "measure", "score", "treatment", "group",
+    "groups", "week", "weeks", "day", "days",
+}
+
+
+def value_tokens(text):
+    return {
+        token for token in re.findall(r"[a-z0-9]+", text.lower())
+        if len(token) >= 2 and token not in VALUE_STOPWORDS
+    }
+
+
+def best_value_hit(items, value, width=520):
+    """Find a non-TOC passage that substantively overlaps one source value."""
+    wanted = value_tokens(value)
+    best = (0.0, None)
+    for page, raw in items:
+        text = clean(raw)
+        if not text:
+            continue
+        starts = [
+            match.start()
+            # Sets have process-randomized iteration order.  Sorting here keeps
+            # equal-scoring passage selection stable across rebuilds.
+            for token in sorted(wanted)
+            for match in re.finditer(re.escape(token), text.lower())
+        ] or [0]
+        for start in starts:
+            context = text[max(0, start - 180):min(len(text), start + width)]
+            if toc_like(text, context):
+                continue
+            score = len(wanted & value_tokens(context)) / len(wanted) if wanted else 1.0
+            if score > best[0]:
+                best = (score, (page, context))
+    return best
+
+
+def source_hits_for_values(items, values, minimum=0.5):
+    """Return one source passage per value only when every value is supported."""
+    selected = []
+    for value in values:
+        score, hit = best_value_hit(items, value)
+        if hit is None or score < minimum:
+            return []
+        if hit not in selected:
+            selected.append(hit)
+    return selected
+
+
+def prospective_sample_hits(items):
+    candidates = hits(
+        items,
+        r"(?:sample(?: size)?\s*(?:is|of|:)?|target (?:sample size|enrollment)\s*(?:is|of|:)?|"
+        r"(?:estimated )?total of|the participant group will be\s*|"
+        r"(?:plan|aim|expect|propos|intend)[a-z]* to (?:enroll|recruit|randomi[sz]e|include))"
+        r".{0,80}?\b\d{1,5}\b[^.;]{0,80}?(?:participants?|patients?|subjects?|children|couples|veterans|adults?|individuals|cases)",
+        12,
+    )
+    retained = []
+    for item in candidates:
+        text = clean(item[1])
+        if re.search(r"(?i)\b(?:were|was|had been) (?:enrolled|recruited|randomi[sz]ed|included|treated|completed)\b", text):
+            continue
+        if not re.search(r"(?i)\b(?:will|shall|plan|aim|expect|propos|intend|target|sample size|approximately|estimated|anticipated)\b", text):
+            continue
+        retained.append(item)
+    return retained
 
 def parse_date(value):
     if not value or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
@@ -271,6 +391,13 @@ def evidence(document_id, item):
     page, text = item
     return [{"document_id": document_id, "locator": f"physical PDF page {page}", "text": concise(item, 420)}]
 
+
+def evidence_from_hits(document_id, items):
+    return [
+        {"document_id": document_id, "locator": f"physical PDF page {page}", "text": concise((page, text), 420)}
+        for page, text in items
+    ]
+
 def concise(item, limit=280):
     text = clean(item[1])
     if len(text) <= limit:
@@ -278,16 +405,448 @@ def concise(item, limit=280):
     clipped = text[:limit].rsplit(" ", 1)[0]
     return clipped + "…"
 
+
+def page_hit(items, page, pattern, width=520, before=0):
+    """Return a deterministic, exact excerpt from one physical PDF page."""
+    by_page = {number: clean(text) for number, text in items}
+    text = by_page.get(page, "")
+    match = re.search(pattern, text, re.I)
+    if not match:
+        raise ValueError(f"manual evidence anchor not found on physical page {page}: {pattern}")
+    start = max(0, match.start() - before)
+    return page, text[start:min(len(text), match.start() + width)]
+
 def requirement(study_id, index, rubric, severity, text, values, doc_id, hit, status="explicit", tracks=None, notes=None):
     row = {
         "requirement_id": f"{study_id}-R{index:03d}", "study_id": study_id,
         "rubric_id": rubric, "tracks": tracks or ["protocol_only", "confirmed_decisions"],
         "applies": True, "status": status, "severity": severity,
-        "requirement": text, "acceptable_values": values, "evidence": evidence(doc_id, hit),
+        "requirement": text, "acceptable_values": values,
+        "evidence": evidence_from_hits(doc_id, hit) if isinstance(hit, list) else evidence(doc_id, hit),
     }
     if notes:
         row["notes"] = notes
     return row
+
+
+def replace_requirement(rows, rubric, *, text, values, doc_id, hits_, status="explicit", notes=None):
+    """Replace one generated requirement while retaining its stable ID/tracks."""
+    matches = [row for row in rows if row["rubric_id"] == rubric]
+    if len(matches) != 1:
+        raise ValueError(f"expected exactly one {rubric} requirement, found {len(matches)}")
+    row = matches[0]
+    row.update({
+        "requirement": text,
+        "acceptable_values": values,
+        "status": status,
+        "evidence": evidence_from_hits(doc_id, hits_),
+    })
+    if notes is None:
+        row.pop("notes", None)
+    else:
+        row["notes"] = notes
+
+
+def apply_manual_requirement_overrides(rows, nct, ppages, spages, protocol_id, sap_id):
+    """Apply page-reviewed overrides for candidates that defeat generic extraction.
+
+    These overrides live in the generator, rather than only in generated JSONL, so
+    rebuilding the benchmark preserves the reviewed annotations exactly.
+    """
+    if nct == "NCT04672083":
+        replace_requirement(
+            rows,
+            "CORE-DESIGN-001",
+            text=(
+                "Preserve the protocol-defined Phase 1a, placebo-controlled, double-blind, single-dose, "
+                "sequential-group dose-escalation design in healthy adults."
+            ),
+            values=[
+                "Phase 1a",
+                "placebo-controlled",
+                "double-blind",
+                "single-dose sequential-group dose escalation",
+                "healthy adults",
+            ],
+            doc_id=protocol_id,
+            hits_=[page_hit(ppages, 6, r"This study will comprise a placebo-controlled", 520)],
+        )
+        replace_requirement(
+            rows,
+            "CORE-RAND-001",
+            text=(
+                "Use 4 dose-level groups (A1 to A4) at 0.01, 0.04, 0.12, and 0.24 mg/kg; "
+                "within each group allocate 6 subjects to CPT31 and 2 to matching placebo, split into "
+                "two cohorts with sentinel dosing in the first cohort."
+            ),
+            values=[
+                "Groups A1 to A4",
+                "0.01, 0.04, 0.12, and 0.24 mg/kg",
+                "6 CPT31 and 2 matching placebo per group",
+                "two cohorts per group with sentinel dosing in cohort 1",
+            ],
+            doc_id=protocol_id,
+            hits_=[
+                page_hit(ppages, 6, r"It is planned for 6 subjects per dose level group", 620),
+                page_hit(ppages, 6, r"Proposed dose levels", 220),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-SAMPLE-001",
+            text=(
+                "Plan for 32 healthy subjects in 4 dose-level groups (Groups A1 to A4), "
+                "with 8 subjects per group: 6 receiving CPT31 and 2 receiving matching placebo."
+            ),
+            values=[
+                "32 healthy subjects",
+                "4 dose-level groups (Groups A1 to A4)",
+                "6 CPT31 and 2 placebo subjects per group",
+            ],
+            doc_id=protocol_id,
+            hits_=[
+                page_hit(ppages, 6, r"It is planned for 6 subjects per dose level group", 360),
+                page_hit(ppages, 6, r"Number of subjects:\s*32 healthy subjects", 180),
+            ],
+            notes="This is the prospective protocol target, not registry actual enrollment.",
+        )
+        replace_requirement(
+            rows,
+            "CORE-ENDPT-001",
+            text=(
+                "Define the primary safety and tolerability outcome family to include adverse events, "
+                "clinical laboratory evaluations, 12-lead ECGs, vital signs, physical examinations, "
+                "and anti-CPT31 antibodies."
+            ),
+            values=[
+                "adverse events",
+                "clinical laboratory evaluations",
+                "12-lead electrocardiograms",
+                "vital signs",
+                "physical examinations",
+                "anti-CPT31 antibodies",
+            ],
+            doc_id=protocol_id,
+            hits_=[page_hit(ppages, 7, r"Safety:\s*Adverse events", 420)],
+        )
+        replace_requirement(
+            rows,
+            "CORE-ENDPT-002",
+            text=(
+                "Cover the secondary pharmacokinetic and immunogenicity families: plasma and urinary "
+                "CPT31 concentrations; AUC0-infinity, AUC0-tlast, Cmax, Tmax, terminal half-life, CL/F, "
+                "Vz/F, Ae, Fe, and CLR; and anti-CPT31 antibodies."
+            ),
+            values=[
+                "plasma and urinary CPT31 concentrations",
+                "AUC0-infinity, AUC0-tlast, Cmax, Tmax, terminal half-life, CL/F, Vz/F, Ae, Fe, and CLR",
+                "anti-CPT31 antibodies",
+            ],
+            doc_id=protocol_id,
+            hits_=[
+                page_hit(ppages, 7, r"Endpoints:\s*Pharmacokinetics", 920),
+                page_hit(ppages, 7, r"Safety:\s*Adverse events", 420),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-POP-FAS-001",
+            text=(
+                "Use the safety population for safety and immunogenicity summaries and the PK population "
+                "for pharmacokinetic summaries and modeling: respectively, all subjects receiving at least "
+                "1 dose of CPT31 or placebo, and CPT31 recipients with evaluable PK data."
+            ),
+            values=[
+                "safety population: all subjects receiving at least 1 dose of CPT31 or placebo",
+                "PK population: CPT31 recipients with evaluable PK data",
+            ],
+            doc_id=sap_id,
+            hits_=[page_hit(spages, 11, r"7\.2\. Safety Population", 430)],
+            notes="These reference-only population definitions must not be exposed in the protocol-only input.",
+        )
+        replace_requirement(
+            rows,
+            "CORE-METHOD-001",
+            text=(
+                "Use objective-specific methods: summarize safety descriptively; derive PK parameters by "
+                "noncompartmental analysis; and assess Cmax, AUC0-tlast, and AUC0-infinity dose "
+                "proportionality with the prespecified power model or ANOVA as appropriate."
+            ),
+            values=[
+                "descriptive safety summaries",
+                "noncompartmental PK analysis",
+                "power model or ANOVA for dose proportionality of Cmax, AUC0-tlast, and AUC0-infinity",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 14, r"8\.5\.1\. Pharmacokinetic Analysis", 440),
+                page_hit(spages, 17, r"Where data are available, CPT31 dose proportionality", 720),
+                page_hit(spages, 21, r"8\.6\.6\. Safety and Tolerability Statistical Methodology", 180),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-ALPHA-001",
+            text=(
+                "For each dose-proportionality PK parameter, report the pooled slope estimate with its "
+                "95% confidence interval and between-subject coefficient of variation; do not introduce "
+                "an inferential safety test because none is planned."
+            ),
+            values=[
+                "pooled slope estimate",
+                "95% confidence interval",
+                "between-subject coefficient of variation",
+                "no inferential safety analysis",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 17, r"For each PK parameter separately, a pooled estimate", 520),
+                page_hit(spages, 21, r"8\.6\.6\. Safety and Tolerability Statistical Methodology", 180),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-SAFE-001",
+            text=(
+                "Implement the SAP's safety outputs: derive and summarize TEAEs by treatment, "
+                "summarize laboratory and vital-sign changes from baseline by treatment and timepoint, "
+                "and summarize 12-lead ECG changes and prespecified QTc outlier categories."
+            ),
+            values=[
+                "TEAE definition and summaries by treatment",
+                "clinical laboratory changes from baseline",
+                "vital-sign changes from baseline",
+                "12-lead ECG changes from baseline and QTc outlier categories",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 19, r"A treatment-emergent adverse event \(TEAE\) will be defined", 520),
+                page_hit(spages, 20, r"8\.6\.2\. Clinical Laboratory Parameters", 620),
+                page_hit(spages, 21, r"8\.6\.4\. 12-lead Electrocardiogram Parameters", 620),
+            ],
+        )
+
+    if nct == "NCT04819113":
+        replace_requirement(
+            rows,
+            "CORE-DESIGN-001",
+            text=(
+                "Preserve the Phase 3b, multicenter, open-label, single-arm design in which healthy infants "
+                "receive Nimenrix at 3 and 12 months of age."
+            ),
+            values=[
+                "Phase 3b",
+                "multicenter",
+                "open-label",
+                "single-arm",
+                "Nimenrix at 3 and 12 months of age",
+            ],
+            doc_id=protocol_id,
+            hits_=[page_hit(ppages, 12, r"Overall Design", 500)],
+        )
+        replace_requirement(
+            rows,
+            "CORE-SAMPLE-001",
+            text=(
+                "Plan to enroll approximately 150 participants in the single open-label vaccine group, "
+                "yielding approximately 130 evaluable participants after allowing for up to about 15% exclusion."
+            ),
+            values=[
+                "approximately 150 enrolled participants",
+                "approximately 130 evaluable participants",
+                "up to approximately 15% exclusion from the applicable evaluable population",
+            ],
+            doc_id=protocol_id,
+            hits_=[
+                page_hit(ppages, 54, r"9\.2\. Sample Size Determination", 620),
+            ],
+            notes="This is the prospective protocol target; do not substitute registry actual enrollment.",
+        )
+        replace_requirement(
+            rows,
+            "CORE-ENDPT-001",
+            text=(
+                "Preserve both primary outcome families: post-Dose 2 safety (local reactions, systemic "
+                "events, antipyretic use, AEs, SAEs, NDCMCs, and immediate AEs) and post-Dose 2 "
+                "immunogenicity (rSBA titers >=1:8 and GMTs for MenA, MenC, MenW-135, and MenY)."
+            ),
+            values=[
+                "post-Dose 2 local reactions, systemic events, antipyretic use, AEs, SAEs, NDCMCs, and immediate AEs",
+                "post-Dose 2 rSBA titers >=1:8 and GMTs for MenA, MenC, MenW-135, and MenY",
+            ],
+            doc_id=protocol_id,
+            hits_=[
+                page_hit(ppages, 9, r"Primary \(Safety\):", 680),
+                page_hit(ppages, 9, r"Primary \(Immunogenicity\):", 760),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-ENDPT-002",
+            text=(
+                "Preserve the secondary outcome families: post-Dose 1 safety/reactogenicity and the "
+                "post-Dose 1 and post-Dose 2 supportive immunogenicity measures using rSBA and hSBA "
+                "thresholds and GMTs for MenA, MenC, MenW-135, and MenY."
+            ),
+            values=[
+                "post-Dose 1 local reactions, systemic events, antipyretic use, AEs, SAEs, NDCMCs, and immediate AEs",
+                "post-Dose 1 rSBA titers >=1:8 and >=1:128 and GMTs",
+                "post-Dose 1 and post-Dose 2 hSBA titers >=1:4 and >=1:8 and GMTs",
+                "post-Dose 2 rSBA titers >=1:128",
+            ],
+            doc_id=protocol_id,
+            hits_=[
+                page_hit(ppages, 10, r"Secondary:\s*Secondary:\s*Secondary:", 980),
+                page_hit(ppages, 11, r"Percentage of participants with hSBA-MenA", 880),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-POP-FAS-001",
+            text=(
+                "Use the post-Dose 2 evaluable immunogenicity population for the primary immunogenicity "
+                "analysis and the visit-specific Dose 2 safety population for primary safety analyses, "
+                "applying the SAP's receipt, assay, timing, prohibited-medication, deviation, and safety-data criteria."
+            ),
+            values=[
+                "post-Dose 2 evaluable immunogenicity population",
+                "Dose 2 safety population",
+                "SAP-defined inclusion and exclusion criteria",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 26, r"Post.Dose 2 evaluable immunogenicity population", 820),
+                page_hit(spages, 27, r"Dose 2 safety population", 300),
+            ],
+            notes="These are reference-only confirmed decisions and must not be exposed in the protocol-only input.",
+        )
+        replace_requirement(
+            rows,
+            "CORE-POP-PPS-001",
+            text=(
+                "Define the post-Dose 2 mITT population as participants receiving 2 doses with at least "
+                "1 valid determinate MenACWY assay result at Visit 4, and use it for the supportive analysis "
+                "only when it differs from the evaluable population by more than 10%."
+            ),
+            values=[
+                "post-Dose 2 mITT population",
+                "2 doses and at least 1 valid determinate MenACWY result at Visit 4",
+                "supportive analysis triggered by a difference greater than 10%",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 26, r"Post.Dose 2 mITT", 300),
+                page_hit(spages, 32, r"Sensitivity/Supplementary Analyses", 320),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-MISS-001",
+            text=(
+                "Apply the SAP's missing-data rules: use Pfizer rules for missing AE start dates and do not "
+                "otherwise impute safety data; analyze observed determinate immunogenicity results without "
+                "imputation, set results below LLOQ to 0.5 x LLOQ, and treat QNS, indeterminate, not-done, "
+                "and no-blood-draw results as missing."
+            ),
+            values=[
+                "Pfizer rules for missing AE start dates",
+                "no other safety imputation",
+                "observed determinate immunogenicity data with no imputation",
+                "below-LLOQ results set to 0.5 x LLOQ",
+                "QNS, indeterminate, not done, and no blood draw treated as missing",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 28, r"5\.3\. Methods to Manage Missing Data", 360),
+                page_hit(spages, 29, r"5\.3\.2\. Immunogenicity Data", 820),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-METHOD-001",
+            text=(
+                "Use descriptive estimation: report n and percentages for binary endpoints with exact "
+                "2-sided 95% Clopper-Pearson intervals, and compute serogroup GMTs on the natural-log "
+                "scale with 2-sided 95% intervals based on the Student t distribution."
+            ),
+            values=[
+                "n and percentage for binary endpoints",
+                "exact 2-sided 95% Clopper-Pearson confidence intervals",
+                "natural-log GMT analysis with exponentiated Student t confidence limits",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 27, r"5\.2\.1\. Analyses for Binary Endpoints", 620),
+                page_hit(spages, 28, r"5\.2\.2\.1\. Geometric Mean Titers", 720),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-ALPHA-001",
+            text=(
+                "Report exact 2-sided 95% Clopper-Pearson confidence intervals for percentages and "
+                "2-sided 95% Student-t-based confidence intervals for log-scale GMT analyses."
+            ),
+            values=[
+                "exact 2-sided 95% Clopper-Pearson confidence intervals for percentages",
+                "2-sided 95% Student-t-based confidence intervals for GMTs",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 27, r"The exact 2-sided 95% CIs for percentages", 420),
+                page_hit(spages, 28, r"The associated exact 2-sided 95% CIs", 360),
+            ],
+        )
+        replace_requirement(
+            rows,
+            "CORE-MULT-001",
+            text=(
+                "Do not invent a multiplicity-controlled hypothesis-testing hierarchy: this is an "
+                "estimation study with no specific hypotheses, and all endpoints are summarized descriptively."
+            ),
+            values=[
+                "no specific hypotheses tested",
+                "estimation and descriptive summaries",
+                "no invented multiplicity hierarchy",
+            ],
+            doc_id=protocol_id,
+            hits_=[page_hit(ppages, 54, r"9\.1\. Estimands and Statistical Hypotheses", 360)],
+        )
+        replace_requirement(
+            rows,
+            "CORE-SENS-001",
+            text=(
+                "Repeat the main post-Dose 2 immunogenicity analysis on the corresponding mITT population "
+                "only if the evaluable and mITT populations differ by more than 10%."
+            ),
+            values=[
+                "mITT sensitivity analysis",
+                "triggered only when the population-size difference is greater than 10%",
+            ],
+            doc_id=sap_id,
+            hits_=[page_hit(spages, 32, r"Sensitivity/Supplementary Analyses", 320)],
+        )
+        replace_requirement(
+            rows,
+            "CORE-SAFE-001",
+            text=(
+                "Use the visit-specific safety populations and summarize primary safety endpoints by vaccine "
+                "group with n, percentage, and exact 2-sided 95% Clopper-Pearson intervals; do not impute "
+                "missing e-diary data and handle missing AE dates under Pfizer safety rules."
+            ),
+            values=[
+                "visit-specific safety population",
+                "n, percentage, and exact 2-sided 95% Clopper-Pearson confidence interval",
+                "no imputation of missing e-diary data",
+                "Pfizer safety rules for missing AE dates",
+            ],
+            doc_id=sap_id,
+            hits_=[
+                page_hit(spages, 27, r"Dose 1 safety population", 460),
+                page_hit(spages, 29, r"6\.1\.1\. Primary Safety Endpoints", 620),
+                page_hit(spages, 31, r"6\.1\.1\.5\. Adverse Events", 620),
+            ],
+        )
 
 def primary_outcomes(registry):
     return registry.get("outcomesModule", {}).get("primaryOutcomes", [])
@@ -304,13 +863,7 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
     # Keep sample-size extraction deliberately narrow.  Earlier versions
     # matched phrases such as "target population" followed much later by a
     # session count, which produced requirements unsupported by the excerpt.
-    target_hits = hits(
-        ppages,
-        r"(?:sample(?: size)?\s*(?:is|of|:)?|target (?:sample size|enrollment)\s*(?:is|of|:)?|"
-        r"(?:estimated )?total of|the participant group will be\s*|"
-        r"(?:plan|aim|expect|propos|intend)[a-z]* to (?:enroll|recruit|randomi[sz]e|include))"
-        r".{0,55}?\b\d{1,5}\b[^.;]{0,55}?(?:participants?|patients?|subjects?|children|couples|veterans|adults?|individuals|cases)",
-    )
+    target_hits = prospective_sample_hits(ppages)
     sap_population_hits = hits(spages, r"intent.to.treat|full analysis set|analysis population|efficacy population|all (?:randomized|enrolled)", 2)
     sap_population = sap_population_hits[0] if sap_population_hits else first_hit(spages, [r"statistical analysis plan|data analysis plan"] )
     sap_method_hits = hits(
@@ -338,25 +891,45 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
         ppages,
         [r"statistical analys|data analys|primary (?:endpoint|outcome|objective)|study design"],
     )
+    group_values = list(dict.fromkeys(group_values))
+    primary_names = list(dict.fromkeys(o.get("measure") for o in prim if o.get("measure")))
+    primary_times = list(dict.fromkeys(o.get("timeFrame") for o in prim if o.get("timeFrame")))
+    secondary_names = list(dict.fromkeys(o.get("measure") for o in sec[:5] if o.get("measure")))
+    group_hits = source_hits_for_values(ppages, group_values) if group_values else []
+    primary_hits = source_hits_for_values(ppages, primary_names) if primary_names else []
+    timing_hits = source_hits_for_values(ppages, primary_times) if primary_times else []
+    secondary_hits = source_hits_for_values(ppages, secondary_names) if secondary_names else []
     def add(rubric, severity, text, values, doc, hit, status="explicit", tracks=None, notes=None):
         rows.append(requirement(study_id, len(rows)+1, rubric, severity, text, values, doc, hit, status, tracks, notes))
 
-    add("CORE-PROV-001", "critical", f"Identify the analysis as belonging to {candidate['title']} ({nct}).", [candidate["title"], nct], protocol_id, first_hit(ppages, [re.escape(nct), re.escape(candidate["title"][:35])]))
+    protocol_text = " ".join(clean(text) for _, text in ppages)
+    provenance_values = [candidate["title"]] + ([nct] if re.search(re.escape(nct), protocol_text, re.I) else [])
+    provenance_label = f"{candidate['title']} ({nct})" if len(provenance_values) == 2 else candidate["title"]
+    add("CORE-PROV-001", "critical", f"Identify the analysis as belonging to {provenance_label}.", provenance_values, protocol_id, first_hit(ppages, [re.escape(nct), re.escape(candidate["title"][:35])]))
     add("CORE-DESIGN-001", "critical", f"Preserve the study design as {', '.join(model_design) or 'an interventional study'}.", model_design or ["interventional"], protocol_id, first_hit(ppages, [r"study design|randomi[sz]ed|single.arm|parallel|crossover|open.label|double.blind"]))
-    if group_values:
-        add("CORE-RAND-001", "major", f"Name the planned treatment groups without inventing additional arms: {'; '.join(group_values)}.", group_values, protocol_id, first_hit(ppages, [r"treatment groups?|study arms?|randomi[sz].{0,100}(?:group|arm)|intervention group|control group"]))
+    if group_values and group_hits:
+        add("CORE-RAND-001", "major", f"Name the planned treatment groups without inventing additional arms: {'; '.join(group_values)}.", group_values, protocol_id, group_hits)
+    elif group_values:
+        group_context = first_hit(ppages, [r"treatment groups?|study arms?|randomi[sz].{0,140}(?:group|arm)|intervention group|control group"])
+        add("CORE-RAND-001", "major", f"Preserve the protocol-defined treatment-group structure in this source passage and flag registry-only arm labels for confirmation: {concise(group_context)}", [concise(group_context), "confirm exact arm labels"], protocol_id, group_context, "needs_confirmation")
     if target_hits:
         add("CORE-SAMPLE-001", "major", f"Use the prospective protocol sample-size statement and its planning assumptions: {concise(target_hits[0])}", [concise(target_hits[0]), "do not substitute registry actual enrollment"], protocol_id, target_hits[0], notes="Registry actual enrollment is conduct context only, never the prospective target.")
     elif len(rows) < 4:
         add("CORE-SAMPLE-001", "major", "State that the prospective target sample size still requires confirmation; do not substitute registry actual enrollment.", ["needs confirmation", "actual enrollment is not the target"], protocol_id, first_hit(ppages, [r"participants?|subjects?|enroll"]), "needs_confirmation")
-    primary_names = [o.get("measure") for o in prim if o.get("measure")]
-    primary_times = [o.get("timeFrame") for o in prim if o.get("timeFrame")]
-    add("CORE-ENDPT-001", "critical", f"Define the primary outcome family as: {'; '.join(primary_names) or 'the protocol-specified primary outcome'}.", primary_names or ["protocol-specified primary outcome"], protocol_id, first_hit(ppages, [r"primary (?:endpoint|outcome|objective)"]))
-    if primary_times:
-        add("CORE-VISIT-001", "critical", f"Use the primary assessment timing: {'; '.join(primary_times)}.", primary_times, protocol_id, first_hit(ppages, [re.escape(primary_times[0][:35]), r"primary (?:endpoint|outcome)"]))
-    secondary_names = [o.get("measure") for o in sec[:5] if o.get("measure")]
-    if secondary_names:
-        add("CORE-ENDPT-002", "major", f"Cover the prespecified secondary outcome family without promoting it above the primary outcome: {'; '.join(secondary_names)}.", secondary_names, protocol_id, first_hit(ppages, [r"secondary (?:endpoint|outcome|objective)"]))
+    primary_context = first_hit(ppages, [r"primary (?:endpoint|outcome|objective)"])
+    if primary_names and primary_hits:
+        add("CORE-ENDPT-001", "critical", f"Define the primary outcome family as: {'; '.join(primary_names)}.", primary_names, protocol_id, primary_hits)
+    else:
+        add("CORE-ENDPT-001", "critical", f"Define the primary outcome/objective using the protocol's own prospective statement and flag any later registry-only operational wording for confirmation: {concise(primary_context)}", [concise(primary_context), "confirm any exact operational definition not stated in the protocol"], protocol_id, primary_context, "needs_confirmation")
+    if primary_times and timing_hits:
+        add("CORE-VISIT-001", "critical", f"Use the primary assessment timing: {'; '.join(primary_times)}.", primary_times, protocol_id, timing_hits)
+    elif primary_times:
+        add("CORE-VISIT-001", "critical", "Use only protocol-supported primary assessment timing and flag the exact analysis time point or window for confirmation when the protocol does not state it.", ["protocol-supported timing", "needs confirmation"], protocol_id, primary_context, "needs_confirmation", notes="The current registry timing was not used as gold because it was not fully supported by the frozen protocol text.")
+    if secondary_names and secondary_hits:
+        add("CORE-ENDPT-002", "major", f"Cover the prespecified secondary outcome family without promoting it above the primary outcome: {'; '.join(secondary_names)}.", secondary_names, protocol_id, secondary_hits)
+    elif secondary_names:
+        secondary_context = first_hit(ppages, [r"secondary (?:endpoint|outcome|objective)", r"exploratory (?:endpoint|outcome|objective)"])
+        add("CORE-ENDPT-002", "major", f"Cover the secondary outcome/objective family stated in the protocol and flag later registry-only operational wording for confirmation: {concise(secondary_context)}", [concise(secondary_context), "confirm any exact operational definition not stated in the protocol"], protocol_id, secondary_context, "needs_confirmation")
     if sap_population_hits:
         add("CORE-POP-FAS-001", "critical", f"Define the main analysis population using the reference rule: {concise(sap_population)}", [concise(sap_population)], sap_id, sap_population, tracks=["confirmed_decisions"], notes="Do not infer a generic ITT/FAS rule when the cited SAP defines a different population.")
     else:
@@ -389,6 +962,7 @@ def make_requirements(study_id, nct, candidate, registry, ppages, spages, protoc
     add("CORE-COVER-001", "major", "Provide traceable sections for design, endpoints, populations, primary methods, missing data, multiplicity, safety where applicable, and planned outputs.", ["design", "endpoints", "populations", "methods", "missing data", "multiplicity"], sap_id, first_hit(spages, [r"table of contents|statistical analysis plan|statistical plan|data analysis plan|analysis strategy"]), tracks=["confirmed_decisions"] )
     while len(rows) < 12:
         add("CORE-UNCERT-001", "major", "Separate protocol-supported facts from reference-only confirmed decisions and explicitly surface unresolved choices.", ["protocol-supported", "confirmed decision", "needs confirmation"], protocol_id, protocol_uncertainty, "needs_confirmation", ["protocol_only", "confirmed_decisions"], "The cited protocol passage anchors the study context; reference-only decisions remain excluded from the protocol-only track.")
+    apply_manual_requirement_overrides(rows, nct, ppages, spages, protocol_id, sap_id)
     if len(rows) > 25:
         raise ValueError(f"{nct}: too many requirements")
     return rows
@@ -418,7 +992,7 @@ def main():
         start_date = parse_date(start.get("date"))
         if start.get("type") != "ACTUAL":
             raise ValueError(f"{nct}: study start is not actual")
-        if nct not in POST_START_EXCEPTIONS and sap_date >= start_date:
+        if sap_date >= start_date:
             raise ValueError(f"{nct}: SAP does not strictly predate actual study start")
         if primary.get("type") != "ACTUAL" or sap_date >= parse_date(primary.get("date")):
             raise ValueError(f"{nct}: SAP does not strictly predate actual primary completion")
