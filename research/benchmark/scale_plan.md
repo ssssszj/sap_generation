@@ -1,10 +1,10 @@
-# Benchmark Scale Plan: 120 Study Families
+# Benchmark Scale Plan: 100 Retained Study Families
 
 ## Decision
 
-The release-eligible collection target is 120 independent public study families. The private pilot is tracked separately and never counts toward this target. The intended frozen release contains 100 or more usable questions after version review, source-rights review, extraction QA, duplicate removal, and annotation adjudication. The 120-family intake target deliberately allows about 15-20% attrition.
+The user-authorized collection target is exactly 100 retained independent public study families. The private pilot is tracked separately and never counts toward this target. The 100 questions are retained only after version review, chronology review, extraction QA, duplicate removal, leakage screening, and first-pass annotation; expert adjudication remains a later maturity gate.
 
-**2026-10-02 closeout:** the user stopped acquisition after 107 public families had received complete first-pass annotations. The terminal audit retained 66 drafts, held 21, and excluded 20. The original 120-family intake and 100-family frozen-release floor were therefore not met. This document preserves the original scale rationale; the delivered initial set is explicitly smaller and not frozen.
+**2026-10-05 closeout:** the user authorized expansion of the 66 retained drafts to exactly 100. Thirty-four additional independent families passed the same source, chronology, version-binding, leakage, and first-pass annotation gates. The terminal audit now covers 141 public drafts and retains 100, holds 21, and excludes 20. Acquisition stops here; the collection is still not frozen until expert adjudication.
 
 A question is one study family with one allowed input package and one SAP-generation task. Alternative tracks, protocol amendments, translations, and synthetic variants do not increase the independent question count.
 
@@ -24,7 +24,7 @@ A question is one study family with one allowed input package and one SAP-genera
 | test | 40 | one-time held-out comparison and ablations |
 | total | 100 | minimum frozen release |
 
-If more than 100 families pass, expand train to at most 60 while keeping dev/test at 20/40. If fewer than 100 pass, do not silently fill the gap with variants from the same study. Either collect replacements or publish a smaller, honestly labelled release.
+Do not expand beyond 100 without a new user decision. If expert adjudication later removes a family, replace it with another independent family rather than adding a variant of an existing study.
 
 ## Maturity layers
 
@@ -38,7 +38,7 @@ Only layers 4-5 count as benchmark-ready questions. Metadata-screened records ar
 
 ## Stratification targets
 
-The final 100+ questions should cover at least:
+The final 100 questions should cover at least:
 
 - 12 broad therapeutic domains, with no single domain above 20%;
 - drug, device, behavioral, procedure, and mixed interventions;
@@ -50,7 +50,7 @@ The final 100+ questions should cover at least:
 
 ## Annotation budget
 
-Full free-form expert review of 120 generated SAPs is too expensive for a graduation project. Use a tiered answer key:
+Full free-form expert review of 100 generated SAPs is expensive for a graduation project. Use a tiered answer key:
 
 - all split-ready studies: 10-20 critical/major evidence-backed requirements and deterministic key facts;
 - all dev/test studies: complete semantic rubric adjudication;

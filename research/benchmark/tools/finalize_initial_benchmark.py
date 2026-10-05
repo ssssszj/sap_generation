@@ -22,7 +22,7 @@ BENCHMARK = ROOT / "research" / "benchmark"
 DEFAULT_REGISTRY_SNAPSHOT = BENCHMARK / "final_audit" / "registry_chronology.jsonl"
 DEFAULT_OUTPUT = BENCHMARK / "final_audit" / "questions.jsonl"
 DEFAULT_QUESTION_SET = BENCHMARK / "final_audit" / "initial_draft_question_set.json"
-AUDIT_DATE = "2026-10-02"
+AUDIT_DATE = "2026-10-05"
 
 
 # A dated target after primary completion is not accepted without public evidence
@@ -169,8 +169,8 @@ def audit(registry_snapshot: Path) -> list[dict]:
             },
         })
 
-    if len(rows) != 107:
-        raise ValueError(f"expected 107 public audit rows, found {len(rows)}")
+    if len(rows) != 141:
+        raise ValueError(f"expected 141 public audit rows, found {len(rows)}")
     if set(EXCLUDE_REASONS) - {row["study_id"] for row in rows}:
         raise ValueError("exclude decision contains unknown study ID")
     return rows
@@ -180,7 +180,7 @@ def validate(rows: list[dict]) -> list[str]:
     errors = []
     counts = Counter(row["disposition"] for row in rows)
     expected = {
-        "keep_draft": 66,
+        "keep_draft": 100,
         "hold_version_or_provenance": 21,
         "exclude_post_primary_or_execution_informed": 20,
     }

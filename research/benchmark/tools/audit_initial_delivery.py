@@ -2,7 +2,7 @@
 """Independent completion audit for the initial benchmark delivery.
 
 This is intentionally separate from the ordinary structural validator.  It checks
-the prompt-to-artifact chain for all 107 audited public drafts and verifies PDF
+the prompt-to-artifact chain for all 141 audited public drafts and verifies PDF
 evidence page bounds against the locally frozen source files.
 """
 
@@ -55,18 +55,18 @@ def main() -> int:
     studies_by_id = {item["study_id"]: item for item in studies}
     public_ids = {item["study_id"] for item in studies if item["status"] != "pilot_only"}
 
-    if len(audit_rows) != 107 or {item["study_id"] for item in audit_rows} != public_ids:
-        errors.append("C01: audit does not exactly cover 107 public drafts")
+    if len(audit_rows) != 141 or {item["study_id"] for item in audit_rows} != public_ids:
+        errors.append("C01: audit does not exactly cover 141 public drafts")
     dispositions = Counter(item["disposition"] for item in audit_rows)
     expected = Counter({
-        "keep_draft": 66,
+        "keep_draft": 100,
         "hold_version_or_provenance": 21,
         "exclude_post_primary_or_execution_informed": 20,
     })
     if dispositions != expected:
         errors.append(f"C02/C07/C10: unexpected dispositions {dict(dispositions)}")
-    if question_set.get("question_count") != 66:
-        errors.append("C02: initial question set does not contain 66 studies")
+    if question_set.get("question_count") != 100:
+        errors.append("C02: initial question set does not contain 100 studies")
     if list((BENCHMARK / "screening").glob("candidate_catalog.jsonl")):
         errors.append("C03: active candidate catalog still exists")
     queue = load_json(BENCHMARK / "screening" / "review_queue_v0.3.json")
@@ -125,8 +125,11 @@ def main() -> int:
                         f"C12 {requirement.get('requirement_id')}: page {max(pages)} exceeds {document_id} page count {page_counts[document_id]}"
                     )
 
-    if public_requirement_total != 2066:
-        errors.append(f"C11: public requirement total is {public_requirement_total}, expected 2066")
+    audited_requirement_total = sum(row.get("requirement_count", 0) for row in audit_rows)
+    if public_requirement_total != audited_requirement_total:
+        errors.append(
+            f"C11: public requirement total {public_requirement_total} differs from audit total {audited_requirement_total}"
+        )
     if set(question_set.get("study_ids", [])) != {
         item["study_id"] for item in audit_rows if item["disposition"] == "keep_draft"
     }:

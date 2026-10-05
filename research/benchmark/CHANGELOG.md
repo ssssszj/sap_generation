@@ -1,5 +1,12 @@
 # Changelog
 
+## Expansion to 100 retained questions - 2026-10-05
+
+- Added 34 independent public study families to the prior 66-question set after manual protocol/SAP identity, chronology, conduct-language, and leakage review; stopped acquisition at exactly 100 retained draft questions.
+- Rejected six initially selected replacements during final review (`NCT02676895`, `NCT06340854`, `NCT05014919`, `NCT02746991`, `NCT02890381`, and `NCT03387813`) and substituted six stricter candidates (`NCT03231228`, `NCT05430854`, `NCT05307523`, `NCT03332004`, `NCT03324659`, and `NCT05001165`).
+- Expanded the terminal audit to 141 public drafts: 100 `keep_draft`, 21 `hold_version_or_provenance`, and 20 `exclude_post_primary_or_execution_informed`. The public annotations now contain 2,584 evidence-backed requirements; the private pilot adds 26.
+- Preserved all additions as `draft_needs_expert_review`; no item is represented as expert-approved, split-ready, or frozen.
+
 ## Initial benchmark closeout - 2026-10-02
 
 - Stopped further acquisition by user decision and archived the 13 remaining metadata-only candidates without counting them as questions or exclusions.

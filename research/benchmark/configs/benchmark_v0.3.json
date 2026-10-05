@@ -24,13 +24,13 @@
   "initial_draft_question_set": "final_audit/initial_draft_question_set.json",
   "source_pool_manifest": "screening/source_pools.jsonl",
   "scale_target": {
-    "audited_public_drafts": 107,
-    "initial_draft_questions": 66,
+    "audited_public_drafts": 141,
+    "initial_draft_questions": 100,
     "held_after_final_audit": 21,
     "excluded_after_final_audit": 20,
     "screened_candidates": 0,
     "collection_stopped_by_user": true,
-    "frozen_release_floor": 100,
+    "collection_ceiling_reached": 100,
     "floor_split": {"train": 40, "dev": 20, "test": 40},
     "stretch_split": {"train": 60, "dev": 20, "test": 40}
   },

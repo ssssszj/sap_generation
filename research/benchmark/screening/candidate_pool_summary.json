@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-10-02",
+  "generated_on": "2026-10-05",
   "source": "ClinicalTrials.gov API v2",
   "api_data_timestamp": "2026-09-30T09:00:05",
   "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true AND AREA[StudyType]INTERVENTIONAL",
@@ -7,17 +7,17 @@
   "pages_fetched": 6,
   "records_screened": 6000,
   "eligible_separate_protocol_sap_pairs": 2202,
-  "registered_studies_including_pilot": 108,
-  "registered_public_drafts": 107,
+  "registered_studies_including_pilot": 142,
+  "registered_public_drafts": 141,
   "screened_candidates": 0,
-  "total_registered_public_drafts": 107,
-  "initial_draft_questions_after_final_audit": 66,
+  "total_registered_public_drafts": 141,
+  "initial_draft_questions_after_final_audit": 100,
   "held_after_final_audit": 21,
   "excluded_after_final_audit": 20,
-  "total_including_pilot": 108,
+  "total_including_pilot": 142,
   "domain_distribution": {},
   "intervention_distribution": {},
   "endpoint_distribution_multi_label": {},
   "pairing_state_distribution": {},
-  "warning": "Candidate acquisition was stopped by user decision on 2026-10-02. The prior 13 metadata-only records are archived and are not benchmark questions or exclusion decisions."
+  "warning": "Candidate acquisition stopped on 2026-10-05 after the user-authorized 100-question ceiling was reached. Archived metadata-only records are not benchmark questions or exclusion decisions."
 }
