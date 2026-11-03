@@ -15,11 +15,12 @@
 #   npm run start
 #
 # Required environment variables:
-# - OPENROUTER_API_KEY=<OpenRouter API key>
+# - QNY_API_KEY=<Qiniu API key>
 #
 # Optional environment variables:
-# - OPENROUTER_MODEL=openai/gpt-4o
-# - OPENROUTER_PROXY_MODE=on
+# - QNY_MODEL=deepseek/deepseek-v4.1-flash
+# - QNY_API_BASE_URL=https://api.qnaigc.com
+# - QNY_PROXY_MODE=on
 # - HTTPS_PROXY=<proxy url>
 # - HTTP_PROXY=<proxy url>
 # - SAP_RUBRIC_MAX_CHARS=<integer; optional prompt-size cap for rubrics>

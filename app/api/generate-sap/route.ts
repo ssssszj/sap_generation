@@ -3,7 +3,7 @@ import { generateSap, type CoreContentItem, SapCoverMeta } from "@/lib/sap-gener
 import type { SapSection } from "@/lib/sap-spec";
 import { parseFileToText } from "@/lib/file-parser";
 
-export const maxDuration = 120;
+export const maxDuration = 7200;
 
 function streamLine(controller: ReadableStreamDefaultController<Uint8Array>, obj: object) {
   const encoder = new TextEncoder();
@@ -57,19 +57,38 @@ export async function POST(request: NextRequest) {
     let coreContent: CoreContentItem[] | undefined;
     if (coreContentJson) {
       try {
-        coreContent = JSON.parse(coreContentJson) as CoreContentItem[];
+        const parsed = JSON.parse(coreContentJson) as unknown;
+        if (!Array.isArray(parsed)) {
+          return NextResponse.json(
+            { error: "coreContent 必须是数组" },
+            { status: 400 }
+          );
+        }
+        coreContent = parsed as CoreContentItem[];
       } catch {
-        coreContent = undefined;
+        return NextResponse.json(
+          { error: "coreContent 不是有效 JSON" },
+          { status: 400 }
+        );
       }
     }
 
     let sections: SapSection[] | undefined;
     if (outlineJson) {
       try {
-        const parsed = JSON.parse(outlineJson) as SapSection[];
+        const parsed = JSON.parse(outlineJson) as unknown;
+        if (!Array.isArray(parsed)) {
+          return NextResponse.json(
+            { error: "outline 必须是数组" },
+            { status: 400 }
+          );
+        }
         sections = parsed.filter((section) => section.id?.trim() && section.title?.trim());
       } catch {
-        sections = undefined;
+        return NextResponse.json(
+          { error: "outline 不是有效 JSON" },
+          { status: 400 }
+        );
       }
     }
 
@@ -82,6 +101,9 @@ export async function POST(request: NextRequest) {
             meta,
             coreContent,
             sections,
+            onStatus(message) {
+              streamLine(controller, { type: "status", message });
+            },
             onProgress(current, total, section) {
               streamLine(controller, {
                 type: "progress",

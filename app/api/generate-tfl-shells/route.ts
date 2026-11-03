@@ -3,7 +3,7 @@ import { generateTflShells } from "@/lib/tfl-generator";
 import { parseFileToText } from "@/lib/file-parser";
 import type { TflStep } from "@/lib/tfl-spec";
 
-export const maxDuration = 180;
+export const maxDuration = 3600;
 
 function streamLine(controller: ReadableStreamDefaultController<Uint8Array>, obj: object) {
   const encoder = new TextEncoder();

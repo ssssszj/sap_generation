@@ -9,9 +9,14 @@ build/
 
 # Production/runtime output
 output/
+deliverables/
 
 # Local input samples and private study documents
 input/
+research/docs/
+
+# Local presentation research/build workspace
+research/.pptx_build/
 
 # Environment files
 .env

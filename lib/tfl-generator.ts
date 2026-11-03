@@ -7,6 +7,8 @@ import {
   TFL_STEP_LABELS,
 } from "./tfl-spec";
 
+const MAX_MODEL_OUTPUT_TOKENS = 65536;
+
 export interface TflGenerateInput {
   protocolText: string;
   crfText: string;
@@ -121,7 +123,14 @@ async function generateOneCategory(
       },
       { role: "user", content: prompt },
     ],
-    { temperature: 0.3, maxTokens: 8192 }
+    {
+      temperature: 0.3,
+      maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      timeoutMs: 600000,
+      maxAttempts: 2,
+      rejectTruncated: true,
+    }
   );
   onProgress?.(step, "done");
   return content.trim();

@@ -1,7 +1,7 @@
 import { generateSapWithRevisions } from "@/lib/sap-generator";
 import { createSapDocumentGenerateHandler } from "../generate-handler";
 
-export const maxDuration = 300;
+export const maxDuration = 14400;
 
 export const POST = createSapDocumentGenerateHandler(
   generateSapWithRevisions,

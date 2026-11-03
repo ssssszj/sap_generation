@@ -15,14 +15,14 @@ The formal backend integration APIs are documented in [API_INTERFACE.md](./API_I
 
 - Next.js 14 App Router
 - TypeScript
-- OpenRouter-compatible LLM client
+- Qiniu OpenAI-compatible LLM client
 - PDF/DOCX text parsing support for the local demo endpoints
 
 ## Requirements
 
 - Node.js `>=18.17.0` (Node 20 is recommended; see `.nvmrc`)
 - npm
-- OpenRouter API key for real model calls
+- Qiniu API key for real model calls
 
 Install:
 
@@ -39,7 +39,7 @@ cp .env.example .env.local
 Then edit `.env.local` and set:
 
 ```bash
-OPENROUTER_API_KEY=your_key_here
+QNY_API_KEY=your_key_here
 ```
 
 ## Development
@@ -87,9 +87,10 @@ The `/api/*` routes are retained for local manual testing with uploaded files. T
 
 | Name | Required | Description |
 | --- | --- | --- |
-| `OPENROUTER_API_KEY` | Yes | API key used for real LLM calls |
-| `OPENROUTER_MODEL` | No | Defaults to `openai/gpt-4o` |
-| `OPENROUTER_PROXY_MODE` | No | Set to `on`, `true`, or `1` to enable proxy use |
+| `QNY_API_KEY` | Yes | Qiniu API key used for real LLM calls |
+| `QNY_MODEL` | No | Defaults to `deepseek/deepseek-v4.1-flash` |
+| `QNY_API_BASE_URL` | No | Defaults to domestic `https://api.qnaigc.com`; use `https://api.modelink.ai` overseas |
+| `QNY_PROXY_MODE` | No | Set to `on`, `true`, or `1` to enable proxy use |
 | `HTTPS_PROXY` | No | Proxy URL when proxy mode is enabled |
 | `HTTP_PROXY` | No | Proxy URL when proxy mode is enabled |
 | `SAP_RUBRIC_MAX_CHARS` | No | Prompt-size cap for rubric injection in `/ai/v1/sap/document/generate-with-revision` |

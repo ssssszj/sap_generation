@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { reviseCoreContentItem, type CoreContentItem } from "@/lib/sap-generator";
 import { parseFileToText } from "@/lib/file-parser";
 
-export const maxDuration = 120;
+export const maxDuration = 1200;
 
 export async function POST(request: NextRequest) {
   try {

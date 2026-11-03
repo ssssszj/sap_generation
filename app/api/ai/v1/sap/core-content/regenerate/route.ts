@@ -4,7 +4,7 @@ import {
   type CoreContentItem,
 } from "@/lib/sap-generator";
 
-export const maxDuration = 120;
+export const maxDuration = 1200;
 
 function ok(data: unknown) {
   return NextResponse.json({ code: 0, data });

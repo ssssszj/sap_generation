@@ -15,6 +15,8 @@ export interface SapGenerateInput {
   sections?: SapSection[];
   /** 可选：每完成一章时回调，用于前端进度展示 */
   onProgress?: (current: number, total: number, section: SapSection) => void;
+  /** 可选：Fact Sheet 与章节生成阶段状态 */
+  onStatus?: (message: string) => void;
 }
 
 export interface CoreContentRequestItem {
@@ -106,6 +108,38 @@ const DEFAULT_COVER: SapCoverMeta = {
   sponsor: "—",
   leadStatistician: "—",
 };
+
+const LLM_TIMEOUT_MS = 600000;
+const LLM_MAX_ATTEMPTS = 2;
+const MAX_MODEL_OUTPUT_TOKENS = 65536;
+
+function parseModelJson(raw: string, expected: "array" | "object"): unknown {
+  const trimmed = raw.trim();
+  if (!trimmed) throw new Error("模型返回空内容");
+
+  const fenced = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i)?.[1]?.trim();
+  const candidates = [trimmed, fenced].filter(
+    (value): value is string => Boolean(value)
+  );
+  const open = expected === "array" ? "[" : "{";
+  const close = expected === "array" ? "]" : "}";
+  const start = trimmed.indexOf(open);
+  const end = trimmed.lastIndexOf(close);
+  if (start >= 0 && end > start) candidates.push(trimmed.slice(start, end + 1));
+
+  for (const candidate of Array.from(new Set(candidates))) {
+    try {
+      const value = JSON.parse(candidate) as unknown;
+      if (expected === "array" ? Array.isArray(value) : Boolean(value) && typeof value === "object" && !Array.isArray(value)) {
+        return value;
+      }
+    } catch {
+      // 继续尝试下一个候选片段。
+    }
+  }
+
+  throw new Error(`模型返回的内容不是有效 JSON ${expected === "array" ? "数组" : "对象"}`);
+}
 
 function readKnowledgeFile(relativePath: string): string {
   try {
@@ -457,7 +491,14 @@ async function reviseByRubric(
       },
       { role: "user", content: prompt },
     ],
-    { temperature: 0.2, maxTokens: 2048 }
+    {
+      temperature: 0.2,
+      maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      timeoutMs: LLM_TIMEOUT_MS,
+      maxAttempts: LLM_MAX_ATTEMPTS,
+      rejectTruncated: true,
+    }
   );
 
   return revised.trim();
@@ -689,29 +730,51 @@ export async function generateCoreContent(
       },
       { role: "user", content: prompt },
     ],
-    { temperature: 0.1, maxTokens: 4096 }
+    {
+      temperature: 0.1,
+      maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      timeoutMs: LLM_TIMEOUT_MS,
+      maxAttempts: LLM_MAX_ATTEMPTS,
+      rejectTruncated: true,
+    }
   );
 
-  try {
-    const parsed = JSON.parse(raw.trim()) as Array<Partial<CoreContentItem>>;
-    return parsed
-      .map((item, index) => ({
-        id: item.id?.trim() || `core-${index + 1}`,
-        title: item.title?.trim() || `核心内容 ${index + 1}`,
-        content: item.content?.trim() || "",
-        confirmed: false,
-      }))
-      .filter((item) => item.content);
-  } catch {
-    return [
-      {
-        id: "core-content",
-        title: "核心内容",
-        content: raw.trim(),
-        confirmed: false,
-      },
-    ];
+  const normalizedRaw = raw.trim();
+  if (!normalizedRaw) {
+    throw new Error("模型未返回核心内容");
   }
+
+  let parsed: Array<Partial<CoreContentItem>>;
+  try {
+    parsed = parseModelJson(
+      normalizedRaw,
+      "array"
+    ) as Array<Partial<CoreContentItem>>;
+  } catch (err) {
+    throw new Error(
+      `核心内容返回格式无效：${err instanceof Error ? err.message : String(err)}`
+    );
+  }
+
+  if (!Array.isArray(parsed)) {
+    throw new Error("模型返回的核心内容格式无效：应为 JSON 数组");
+  }
+
+  const items = parsed
+    .map((item, index) => ({
+      id: item.id?.trim() || `core-${index + 1}`,
+      title: item.title?.trim() || `核心内容 ${index + 1}`,
+      content: item.content?.trim() || "",
+      confirmed: false,
+    }))
+    .filter((item) => item.content);
+
+  if (!items.length) {
+    throw new Error("模型返回的核心内容列表为空");
+  }
+
+  return items;
 }
 
 export async function reviseCoreContentItem(input: {
@@ -756,7 +819,14 @@ export async function reviseCoreContentItem(input: {
       },
       { role: "user", content: prompt },
     ],
-    { temperature: 0.15, maxTokens: 2048 }
+    {
+      temperature: 0.15,
+      maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+      timeoutMs: LLM_TIMEOUT_MS,
+      maxAttempts: LLM_MAX_ATTEMPTS,
+      rejectTruncated: true,
+    }
   );
 
   return { ...input.item, content: content.trim(), confirmed: false };
@@ -803,16 +873,25 @@ async function extractSapFacts(client: LLMClient, protocolText: string, crfText:
         },
         { role: "user", content: prompt },
       ],
-      { temperature: 0.0, maxTokens: 3072 }
+      {
+        temperature: 0.0,
+        maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+        retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+        timeoutMs: LLM_TIMEOUT_MS,
+        maxAttempts: LLM_MAX_ATTEMPTS,
+        rejectTruncated: true,
+      }
     );
   } catch (err) {
     throw new Error(`Fact Sheet 抽取失败：${err instanceof Error ? err.message : String(err)}`);
   }
 
   try {
-    return JSON.parse(raw.trim()) as SapFacts;
-  } catch {
-    return null;
+    return parseModelJson(raw, "object") as SapFacts;
+  } catch (err) {
+    throw new Error(
+      `Fact Sheet 解析失败：${err instanceof Error ? err.message : String(err)}`
+    );
   }
 }
 
@@ -879,7 +958,14 @@ async function qaReviseSection(
         },
         { role: "user", content: prompt },
       ],
-      { temperature: 0.1, maxTokens: 4096 }
+      {
+        temperature: 0.1,
+        maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+        retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+        timeoutMs: LLM_TIMEOUT_MS,
+        maxAttempts: LLM_MAX_ATTEMPTS,
+        rejectTruncated: true,
+      }
     );
     current = revised.trim();
   }
@@ -1055,7 +1141,14 @@ async function generateOneSection(
         },
         { role: "user", content: prompt },
       ],
-      { temperature: 0.2, maxTokens: 4096 }
+      {
+        temperature: 0.2,
+        maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+        retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+        timeoutMs: LLM_TIMEOUT_MS,
+        maxAttempts: LLM_MAX_ATTEMPTS,
+        rejectTruncated: true,
+      }
     );
   } catch (err) {
     throw new Error(
@@ -1082,7 +1175,7 @@ async function generateOneSectionWithRevisions(
   coreContent?: CoreContentItem[]
 ): Promise<SapSectionOutput> {
   /** 仅当某章生成结果为空白时重试；有正文章节内容即接受，不因本地硬规则未通过而整章重试 */
-  const maxAttempts = 5;
+  const maxAttempts = 2;
   let lastGeneratedContent = "";
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
@@ -1118,7 +1211,14 @@ async function generateOneSectionWithRevisions(
           },
           { role: "user", content: draftPrompt },
         ],
-        { temperature: 0.3, maxTokens: 2048 }
+        {
+          temperature: 0.3,
+          maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+          retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+          timeoutMs: LLM_TIMEOUT_MS,
+          maxAttempts: LLM_MAX_ATTEMPTS,
+          rejectTruncated: true,
+        }
       );
     } catch (err) {
       throw new Error(
@@ -1206,7 +1306,14 @@ async function generateOneSectionWithRevisions(
                 },
                 { role: "user", content: fixPrompt },
               ],
-              { temperature: 0.1, maxTokens: 2048 }
+              {
+                temperature: 0.1,
+                maxTokens: MAX_MODEL_OUTPUT_TOKENS,
+                retryMaxTokens: MAX_MODEL_OUTPUT_TOKENS,
+                timeoutMs: LLM_TIMEOUT_MS,
+                maxAttempts: LLM_MAX_ATTEMPTS,
+                rejectTruncated: true,
+              }
             );
           } catch (err) {
             throw new Error(
@@ -1358,7 +1465,9 @@ async function generateSapWithSectionGenerator(
   const coverMeta: SapCoverMeta = { ...DEFAULT_COVER, ...input.meta };
 
   // 先抽取事实表：降低 G1–G5 违约概率，提升一致性
+  input.onStatus?.("正在抽取 Fact Sheet（结构化事实表）...");
   const facts = await extractSapFacts(client, input.protocolText, input.crfText);
+  input.onStatus?.("Fact Sheet 抽取完成，准备按章节生成 SAP...");
   // 用事实表回填封面版本日期，避免使用运行时“当前日期”造成 CA-02 类错误。
   if (facts?.version?.trim()) coverMeta.version = facts.version.trim();
   if (facts?.date?.trim()) coverMeta.date = facts.date.trim();
@@ -1368,6 +1477,9 @@ async function generateSapWithSectionGenerator(
   const total = outline.length;
   for (let i = 0; i < outline.length; i++) {
     const section = outline[i];
+    input.onStatus?.(
+      `正在生成第 ${i + 1}/${total} 章：${formatSectionTitle(section)}`
+    );
     const previousSap = buildPreviousSapContent(coverMeta, sectionOutputs, outline);
     const out = await generateSection(
       client,

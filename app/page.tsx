@@ -48,6 +48,7 @@ export default function SapGeneratePage() {
   const [newOutlineTitle, setNewOutlineTitle] = useState("");
   const [loading, setLoading] = useState(false);
   const [progress, setProgress] = useState<{ current: number; total: number; sectionTitle: string } | null>(null);
+  const [generationStatus, setGenerationStatus] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [fullDocument, setFullDocument] = useState<string | null>(null);
   const [coverMeta, setCoverMeta] = useState<CoverMeta | null>(null);
@@ -74,6 +75,7 @@ export default function SapGeneratePage() {
     setCoverMeta(null);
     setTflDocument(null);
     setProgress(null);
+    setGenerationStatus(null);
     setTflProgress(null);
   }, []);
 
@@ -261,6 +263,7 @@ export default function SapGeneratePage() {
     setLoading(true);
     setError(null);
     resetGeneratedOutputs();
+    setGenerationStatus("正在上传并解析 Protocol/CRF...");
     try {
       const formData = buildFileFormData();
       formData.append("meta", JSON.stringify(meta));
@@ -294,8 +297,11 @@ export default function SapGeneratePage() {
             section?: { id: string; title: string; titleEn?: string };
             result?: { fullDocument: string; coverMeta: CoverMeta };
             error?: string;
+            message?: string;
           };
-          if (msg.type === "progress" && msg.current != null && msg.total != null && msg.section) {
+          if (msg.type === "status" && msg.message) {
+            setGenerationStatus(msg.message);
+          } else if (msg.type === "progress" && msg.current != null && msg.total != null && msg.section) {
             setProgress({
               current: msg.current,
               total: msg.total,
@@ -305,9 +311,11 @@ export default function SapGeneratePage() {
             setFullDocument(msg.result.fullDocument);
             setCoverMeta(msg.result.coverMeta ?? null);
             setProgress(null);
+            setGenerationStatus(null);
           } else if (msg.type === "error" && msg.error) {
             setError(msg.error);
             setProgress(null);
+            setGenerationStatus(null);
           }
         }
       }
@@ -317,11 +325,14 @@ export default function SapGeneratePage() {
           setFullDocument(msg.result.fullDocument);
           setCoverMeta(msg.result.coverMeta ?? null);
         } else if (msg.type === "error" && msg.error) setError(msg.error);
+        else if (msg.type === "status" && msg.message) setGenerationStatus(msg.message);
       }
       setProgress(null);
+      setGenerationStatus(null);
     } catch (err) {
       setError(err instanceof Error ? err.message : "生成 SAP 时发生错误");
       setProgress(null);
+      setGenerationStatus(null);
     } finally {
       setLoading(false);
     }
@@ -575,13 +586,23 @@ export default function SapGeneratePage() {
           <h2>按章节生成 SAP</h2>
         </div>
         {error && <div className={styles.error}>{error}</div>}
-        {loading && progress && (
+        {loading && (progress || generationStatus) && (
           <div className={styles.progressWrap}>
             <div className={styles.progressText}>
-              正在生成 SAP：第 {progress.current} / {progress.total} 章 - {progress.sectionTitle}
+              {generationStatus ??
+                (progress
+                  ? `正在生成 SAP：第 ${progress.current} / ${progress.total} 章 - ${progress.sectionTitle}`
+                  : "正在生成 SAP...")}
             </div>
             <div className={styles.progressBar}>
-              <div className={styles.progressFill} style={{ width: `${(100 * progress.current) / progress.total}%` }} />
+              <div
+                className={styles.progressFill}
+                style={{
+                  width: progress
+                    ? `${(100 * progress.current) / progress.total}%`
+                    : "3%",
+                }}
+              />
             </div>
           </div>
         )}
