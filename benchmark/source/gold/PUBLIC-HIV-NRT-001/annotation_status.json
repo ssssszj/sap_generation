@@ -1,0 +1,35 @@
+{
+  "study_id": "PUBLIC-HIV-NRT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 25,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-HIV-NRT-001-R003",
+    "PUBLIC-HIV-NRT-001-R005",
+    "PUBLIC-HIV-NRT-001-R010",
+    "PUBLIC-HIV-NRT-001-R011",
+    "PUBLIC-HIV-NRT-001-R012",
+    "PUBLIC-HIV-NRT-001-R013",
+    "PUBLIC-HIV-NRT-001-R014",
+    "PUBLIC-HIV-NRT-001-R015",
+    "PUBLIC-HIV-NRT-001-R017",
+    "PUBLIC-HIV-NRT-001-R018",
+    "PUBLIC-HIV-NRT-001-R019",
+    "PUBLIC-HIV-NRT-001-R020",
+    "PUBLIC-HIV-NRT-001-R021",
+    "PUBLIC-HIV-NRT-001-R022",
+    "PUBLIC-HIV-NRT-001-R024"
+  ],
+  "open_version_questions": [
+    "Confirm from the ClinicalTrials.gov or institutional history that the matching 2016-03-24 protocol and analysis document are the unmodified prospective governing pair; exclude the family if the past-tense mediation/model wording reflects prior analysis of this trial rather than template or proposal language."
+  ],
+  "review_requirements": [
+    "Resolve the prospective recruitment target conflict between 600 recruited/500 retained in the analysis document and 500 allocated in the protocol; do not substitute the registry's later actual enrollment of 488.",
+    "Adjudicate the primary endpoint hierarchy across 3-, 6- and 12-month abstinence and the difference between 7-day, 30-day and continuous abstinence.",
+    "Define the primary efficacy population, estimand, treatment attribution and handling of relapse, rescue treatment, treatment discontinuation and loss to follow-up.",
+    "Operationalize the logistic and repeated-binary GLMM models, covariate-selection rule, random-effects structure, visit contrasts, confidence intervals and multiplicity strategy.",
+    "Operationalize MAR and MNAR sensitivity analyses and mediation/PCA procedures without treating tentative narrative as fully executable.",
+    "Verify every critical locator against the rendered one-based physical PDF pages and preserve reference-SAP isolation."
+  ]
+}

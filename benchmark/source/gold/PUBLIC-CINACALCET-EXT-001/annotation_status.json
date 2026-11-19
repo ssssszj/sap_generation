@@ -1,0 +1,23 @@
+{
+  "study_id": "PUBLIC-CINACALCET-EXT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 23,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-CINACALCET-EXT-001-R004",
+    "PUBLIC-CINACALCET-EXT-001-R005",
+    "PUBLIC-CINACALCET-EXT-001-R012",
+    "PUBLIC-CINACALCET-EXT-001-R013",
+    "PUBLIC-CINACALCET-EXT-001-R014",
+    "PUBLIC-CINACALCET-EXT-001-R018",
+    "PUBLIC-CINACALCET-EXT-001-R023"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Verify that the complete Amendment 3 plus the narrowly scoped superseding amendment support the chosen governing model input.",
+    "Adjudicate confidence-interval and IPW implementation details and the separation of interim versus final combined analyses.",
+    "Confirm endpoint-specific analysis-set binding and all missing-iPTH derivations against the rendered source pages.",
+    "Confirm that protocol-only scoring treats SAP-only operational choices as confirmation requests rather than hidden required facts."
+  ]
+}

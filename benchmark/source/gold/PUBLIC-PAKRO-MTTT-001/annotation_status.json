@@ -1,0 +1,28 @@
+{
+  "study_id": "PUBLIC-PAKRO-MTTT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PAKRO-MTTT-001-R003",
+    "PUBLIC-PAKRO-MTTT-001-R005",
+    "PUBLIC-PAKRO-MTTT-001-R008",
+    "PUBLIC-PAKRO-MTTT-001-R013",
+    "PUBLIC-PAKRO-MTTT-001-R014",
+    "PUBLIC-PAKRO-MTTT-001-R015",
+    "PUBLIC-PAKRO-MTTT-001-R016",
+    "PUBLIC-PAKRO-MTTT-001-R017"
+  ],
+  "open_version_questions": [
+    "Confirm from ClinicalTrials.gov upload history or the original ethics archive that the matching 2018-03-18 protocol and two-page analysis document are the prospective governing pair for the ongoing study, noting that their cover NCT fields are blank."
+  ],
+  "review_requirements": [
+    "Resolve analysis denominators across the longitudinal cohort, repeated community surveys, whole-community MTTT, hospital records and qualitative samples.",
+    "Operationalize repeated and clustered-data handling at participant, household and community levels and define ordinary versus conditional logistic-regression use.",
+    "Define the primary estimand, endpoint derivations, missing-data/migration sensitivity and multiplicity strategy.",
+    "Reconcile the protocol's 368-to-460 calculation and four groups of 116 without substituting the registry's actual enrollment.",
+    "Specify hospital-utilization, cost-benefit, qualitative and safety analyses that are only broadly described in the source.",
+    "Verify every critical locator against the rendered one-based physical PDF pages and preserve reference-SAP isolation."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "study_id": "PUBLIC-PAFIT-IBD-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PAFIT-IBD-001-R004",
+    "PUBLIC-PAFIT-IBD-001-R006",
+    "PUBLIC-PAFIT-IBD-001-R014",
+    "PUBLIC-PAFIT-IBD-001-R017",
+    "PUBLIC-PAFIT-IBD-001-R019",
+    "PUBLIC-PAFIT-IBD-001-R021"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Resolve the SAP's single primary 20mSRT endpoint on physical page 4 against physical pages 6-9, which expand primary analyses to accelerometry and multiple fitness variables.",
+    "Choose one executable 20mSRT outcome metric and primary test rather than treating completed stages and optional estimated VO2max as interchangeable.",
+    "Specify the primary multiplicity policy; FDR is currently optional and sensitivity-only despite multiple variables being called primary.",
+    "Finalize mediation, missing-data, intercurrent-event and adverse-event denominator rules rather than leaving alternative methods open.",
+    "Verify all critical locators against rendered one-based physical PDF pages during independent review."
+  ]
+}

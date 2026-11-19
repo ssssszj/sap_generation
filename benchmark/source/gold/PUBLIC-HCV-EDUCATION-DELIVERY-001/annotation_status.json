@@ -1,0 +1,28 @@
+{
+  "study_id": "PUBLIC-HCV-EDUCATION-DELIVERY-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R003",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R004",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R005",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R006",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R008",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R009",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R010",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R011",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R015",
+    "PUBLIC-HCV-EDUCATION-DELIVERY-001-R016"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Resolve the reversed Group-A/Group-B mapping before any treatment-coded analysis.",
+    "Adjudicate the primary knowledge endpoint, questionnaire scoring and immediate-versus-one-month contrast.",
+    "Specify matching, clinic adjustment, population, estimand, mixed model, missingness and multiplicity.",
+    "Replace or justify the first-appointment binary power calculation for the actual primary endpoint.",
+    "Keep seropositivity and clinic association models exploratory unless independently prespecified.",
+    "Verify every evidence excerpt against the rendered one-based physical PDF page."
+  ]
+}

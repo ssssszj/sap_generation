@@ -1,0 +1,23 @@
+{
+  "generated_on": "2026-10-05",
+  "source": "ClinicalTrials.gov API v2",
+  "api_data_timestamp": "2026-10-05 strict semantic re-audit",
+  "query": "AREA[LargeDocHasProtocol]true AND AREA[LargeDocHasSAP]true AND AREA[StudyType]INTERVENTIONAL",
+  "query_total": 43826,
+  "pages_fetched": 10,
+  "records_screened": 10000,
+  "eligible_separate_protocol_sap_pairs": 2202,
+  "registered_studies_including_pilot": 142,
+  "registered_public_drafts": 141,
+  "screened_candidates": 0,
+  "total_registered_public_drafts": 141,
+  "initial_draft_questions_after_final_audit": 100,
+  "held_after_final_audit": 21,
+  "excluded_after_final_audit": 20,
+  "total_including_pilot": 142,
+  "domain_distribution": {},
+  "intervention_distribution": {},
+  "endpoint_distribution_multi_label": {},
+  "pairing_state_distribution": {},
+  "warning": "Candidate acquisition stopped on 2026-10-05 after the user-authorized 100-question ceiling was reached. All 34 targets added to the 66-question baseline passed the strict exact-date gate: each reference SAP predates actual study start. Archived metadata-only records are not benchmark questions or exclusion decisions."
+}

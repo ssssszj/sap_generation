@@ -1,0 +1,509 @@
+{
+  "diagnostic_only": true,
+  "evaluation_track_assumption": "protocol_only",
+  "warning": "Historical prompt, exact input, and decoding settings were not frozen; do not use for model ranking.",
+  "run": {
+    "run_id": "legacy-deepseek-v32-20260421",
+    "study_id": "PILOT-IOL-001",
+    "track": "unknown_legacy",
+    "method": "existing_application_workflow",
+    "model": "deepseek/deepseek-v3.2",
+    "base_model": null,
+    "adapter": null,
+    "quantization": null,
+    "prompt_version": null,
+    "input_document_ids": [
+      "doc-pilot-iol-protocol-a0",
+      "doc-pilot-iol-crf-a0"
+    ],
+    "output_path": "output/SAP_draft_v1.0_2026-04-21_deepseek_deepseek-v3.2.docx",
+    "output_sha256": "16106ada0ac0dea4cf322195a1334abf864d5a265dee82f439108aab50515e28",
+    "run_date": "2026-04-21",
+    "status": "legacy_uncontrolled",
+    "usable_for_main_comparison": false,
+    "usable_for_error_mining": true,
+    "notes": "Historical output."
+  },
+  "summary": {
+    "counts": {
+      "pass": 15,
+      "fail": 8,
+      "na": 2,
+      "uncertain": 1
+    },
+    "deterministic_pass_rate": 0.6521739130434783,
+    "study_level_critical_pass": false,
+    "note": "Null study_level_critical_pass means at least one critical item still requires semantic or human adjudication."
+  },
+  "results": [
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R001",
+      "rubric_id": "CORE-DESIGN-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "本临床试验采用前瞻性、多中心、随机、双盲（受试者和检查者）、阳性产品平行对照、双眼植入的试验设计。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本研究为一项前瞻性、多中心、随机、双盲(受试者和检查者)、阳性产品平行对照的临床试验。试验计划在约8家研究中心开展。受试者将按1:1的比例随机分配至试验组或对照组。试验组受试者双眼...",
+        "本试验采用前瞻性、多中心、随机、双盲(受试者和检查者)、阳性产品平行对照设计。统计分析计划的撰写、审阅和批准过程均在盲态下进行,即负责制定本 SAP 的统计人员及所有审批人员均不知..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R002",
+      "rubric_id": "CORE-RAND-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "利用中央随机系统进行受试者随机，保证受试者被1:1均衡地分配到试验组或对照组。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本研究为一项前瞻性、多中心、随机、双盲(受试者和检查者)、阳性产品平行对照的临床试验。试验计划在约8家研究中心开展。受试者将按1:1的比例随机分配至试验组或对照组。试验组受试者双眼...",
+        "采用中央随机系统(交互式网络响应系统)进行受试者随机分配。随机化方法为按中心分层的区组随机化,受试者以1:1的比例分配至试验组或对照组。随机化的分层因素为临床研究中心。随机序列由独..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R003",
+      "rubric_id": "CORE-SAMPLE-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "选取其中病例数最多的93例，即每组至少入组93例受试者，两组预计入组186例……每组至少入组110例，共计220例受试者。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 186例 | 预计入组186",
+      "candidate_evidence": [
+        "对于DCIVA的优效性检验,其零假设(H0)为试验组与对照组的差值(试验组减对照组)小于或等于0,备择假设(H1)为差值大于0。基于对照组术后6个月平均DCIVA为0.3 logM...",
+        "本研究计划入组220例受试者,试验组与对照组按1:1比例分配,每组各110例。样本量估算基于三个主要疗效终点的假设检验,并考虑了检验把握度和预期的受试者脱落率。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R004",
+      "rubric_id": "CORE-ENDPT-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "①术后6个月，单眼（1st）最佳矫正远视力……②远矫正下的中视力……③在0.2 logMAR视力水平，单眼（1st）焦深……"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "主要估计目标遵循 ICH E9(R1) 框架,针对主要研究目的所估计的治疗效果进行定义。目标治疗条件为试验组受试者接受试验用人工晶状体(型号:A、B、C)植入,对照组受试者接受对照...",
+        "受试者必须满足以下所有标准方可入选:1) 年龄≥18岁的成年受试者;2) 双眼诊断为白内障;3) 晶状体核硬度为Emery分级≤IV级;4) 术前最佳矫正远视力(BCDVA)为0....",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R005",
+      "rubric_id": "CORE-SUCCESS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "将本试验成功的标准设定为上述3个疗效指标同时达到。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "本试验存在多重比较来源,主要涉及三个主要疗效终点的同步检验。根据方案,试验成功需三个主要终点同时达到预设的统计学标准。方案中明确指出,由于没有意图或机会选择最有利的某次假设检验结果...",
+        "术前访视(PreOP):计划访视日期前3个月至手术当天(0天)。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R006",
+      "rubric_id": "OPH-IOL-EYE-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "术后主要疗效指标取第一只术眼（1st）的结果……主要疗效指标只分析第一只术眼（1st）。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "关键伴发事件及其在估计目标框架下的处理策略如下。研究治疗中止(包括术中未植入或术后提前停用)采用治疗策略,其后收集到的所有有效性数据均纳入分析。使用非研究规定的救援治疗或额外眼科手...",
+        "本研究为一项前瞻性、多中心、随机、双盲(受试者和检查者)、阳性产品平行对照的临床试验。试验计划在约8家研究中心开展。受试者将按1:1的比例随机分配至试验组或对照组。试验组受试者双眼..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R007",
+      "rubric_id": "CORE-POP-FAS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "根据意向性分析（ITT）原则，所有进行手术并植入试验用人工晶状体的病例，构成本研究的FAS人群。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "5.1 全分析集 / Full Analysis Set (FAS)",
+        "白内障是导致视力障碍和失明的主要眼病,手术摘除混浊的天然晶状体并植入人工晶状体是目前唯一有效的治疗手段。现有单焦点人工晶状体虽能提供良好的远视力,但其中、近视力改善有限,患者术后仍..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R008",
+      "rubric_id": "CORE-POP-PPS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "FAS中无重大方案违背的受试者……符合试验方案、依从性好、试验期间未服禁用药物或使用禁用治疗。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "5. 依从性差(如未按方案要求完成关键访视或检查),且研究者评估可能影响疗效评价。",
+        "5.1 全分析集 / Full Analysis Set (FAS)",
+        "5.2 符合方案集 / Per-Protocol Set (PPS)",
+        "重大方案违背定义为可能对受试者安全、数据完整性或主要疗效终点评价产生实质性影响的方案偏离,包括但不限于:违反关键入选/排除标准(如不符合白内障诊断、术前视力不符合要求等);研究期间..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R009",
+      "rubric_id": "CORE-POP-SS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "所有进行手术并植入试验用人工晶状体的病例，且具有植入试验器械后的安全性评价数据的病例，构成本试验的安全性分析数据集。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "暴露定义:受试者接受白内障手术并成功植入指定组别的人工晶状体即视为暴露。用于安全性分析的受试者需至少植入一只试验或对照人工晶状体并具有术后安全性评价数据。",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远...",
+        "白内障是导致视力障碍和失明的主要眼病,手术摘除混浊的天然晶状体并植入人工晶状体是目前唯一有效的治疗手段。现有单焦点人工晶状体虽能提供良好的远视力,但其中、近视力改善有限,患者术后仍..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R010",
+      "rubric_id": "CORE-POP-BIND-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "主要疗效评价基于全数据集（FAS）和符合方案集（PPS）……安全性评价基于安全性分析集（SS）。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "5.1 全分析集 / Full Analysis Set (FAS)",
+        "5.2 符合方案集 / Per-Protocol Set (PPS)",
+        "样本量计算采用适用于两独立样本均数比较的公式,并通过PASS统计软件进行验证。计算公式基于非劣效或优效性检验的样本量估算标准方法。"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R011",
+      "rubric_id": "CORE-ALPHA-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "所有的统计检验（如不特殊说明）均采用双侧检验……主要疗效指标为单侧检验，P值小于0.025……"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "6.1 显著性水平与置信区间(单/双侧;α 分配)",
+        "对于BCDVA的非劣效性检验,其零假设(H0)为试验组与对照组的差值(试验组减对照组)小于或等于-0.1 logMAR,备择假设(H1)为差值大于-0.1 logMAR。基于对照组..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R012",
+      "rubric_id": "CORE-HYP-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "非劣性界值定为0.1 logMAR……H0：μT-μC≥△；H1：μT-μC＜△……95%CI上限小于非劣效界值。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 上限小于 | 上限< | upperbound",
+      "candidate_evidence": [
+        "受试者必须满足以下所有标准方可入选:1) 年龄≥18岁的成年受试者;2) 双眼诊断为白内障;3) 晶状体核硬度为Emery分级≤IV级;4) 术前最佳矫正远视力(BCDVA)为0....",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R013",
+      "rubric_id": "CORE-HYP-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "预估试验组……0.2 logMAR，对照组……0.3 logMAR……H0：μT-μC≤0；H1：μT-μC＞0……置信区间下限大于0。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "主要估计目标遵循 ICH E9(R1) 框架,针对主要研究目的所估计的治疗效果进行定义。目标治疗条件为试验组受试者接受试验用人工晶状体(型号:A、B、C)植入,对照组受试者接受对照...",
+        "主要分析中对关键伴发事件的处理策略将通过预先计划的敏感性分析来检验其稳健性。主要分析对伴发事件的处理策略包括对治疗中止、使用救援治疗等采用治疗策略;对失访导致的主要终点缺失采用末次...",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R014",
+      "rubric_id": "CORE-HYP-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "单眼达到0.2 logMAR水平的焦深范围……H0：μT-μC≤0；H1：μT-μC＞0……95%置信区间下限大于0。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "与显著性水平相对应,本试验中效应量的估计将主要报告95%置信区间。对于主要终点,将计算试验组与对照组均数差值的95%置信区间。对于主要终点1(BCDVA非劣效检验),若其95%置信...",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R015",
+      "rubric_id": "CORE-MULT-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "当三重假设检验都有统计学意义时，才可下推断结论……无需进行多重性校正。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "主要终点包括以下三个指标,均基于术后6个月访视时双眼的平均值进行计算:",
+        "本试验未计划进行正式的期中分析或基于疗效的样本量再估计。试验将按照方案计划完成全部受试者的入组和随访。试验过程中将由研究者持续监测安全性事件,任何严重不良事件将按方案规定及时报告。...",
+        "白内障是导致视力障碍和失明的主要眼病,手术摘除混浊的天然晶状体并植入人工晶状体是目前唯一有效的治疗手段。现有单焦点人工晶状体虽能提供良好的远视力,但其中、近视力改善有限,患者术后仍..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R016",
+      "rubric_id": "CORE-CENTER-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "考虑一个含中心与分组交互项的协方差分析模型，并在0.10水平判断交互项是否有意义。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "在上述每个协方差分析模型中,将额外纳入治疗组与研究中心交互项以评估中心效应的一致性,并在 0.10 的显著性水平下进行检验。主要分析采用完整病例分析处理缺失数据,即仅纳入术后 6 ...",
+        "本试验采用前瞻性、多中心、随机、双盲(受试者和检查者)、阳性产品平行对照设计。统计分析计划的撰写、审阅和批准过程均在盲态下进行,即负责制定本 SAP 的统计人员及所有审批人员均不知...",
+        "本试验采用按中心分层的区组随机化。主要疗效终点的分析模型将对此分层因素进行调整,以提高估计精度并与随机化设计保持一致。具体而言,对于主要终点1(BCDVA)、主要终点2(DCIVA...",
+        "采用中央随机系统(交互式网络响应系统)进行受试者随机分配。随机化方法为按中心分层的区组随机化,受试者以1:1的比例分配至试验组或对照组。随机化的分层因素为临床研究中心。随机序列由独..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R017",
+      "rubric_id": "CORE-MISS-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "FAS数据集中未能观察到主要疗效指标的病例，采用最后一次观察数据结转（LOCF）到主要疗效指标。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 最后一次观察数据结转 | 末次观测结转",
+      "candidate_evidence": [
+        "5.1 全分析集 / Full Analysis Set (FAS)",
+        "89. Lane PW. Handling drop-out in longitudinal clinical trials: a comparison of the LOCF a...",
+        "本研究为一项前瞻性、多中心、随机、双盲(受试者和检查者)、阳性产品平行对照的临床试验。试验计划在约8家研究中心开展。受试者将按1:1的比例随机分配至试验组或对照组。试验组受试者双眼..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R018",
+      "rubric_id": "CORE-MISS-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "其他数据缺失情况不进行填补。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 其他数据缺失情况不进行填补 | 其他缺失数据不填补 | 其余缺失值不填补",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R019",
+      "rubric_id": "CORE-SENS-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "The protocol states LOCF but does not define a distinct sensitivity analysis in the cited section."
+      ],
+      "result": "uncertain",
+      "reason": "Deterministic surface conditions were found, but the item requires semantic review of proposal/confirmation framing.",
+      "candidate_evidence": [
+        "7. 数据锁定:指在数据库清理、质疑解决和数据审核完成后,由申办方、数据管理和统计人员共同确认,并正式锁定数据库的过程。数据锁定后,将基于本 SAP 进行统计分析。数据锁定前,所有...",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远..."
+      ],
+      "confidence": null
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R020",
+      "rubric_id": "CORE-VISIT-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "术后1天（1~2d）、1周（7~14天）、1个月（30~60天）、6个月（120~180天）。"
+      ],
+      "result": "fail",
+      "reason": "Missing required term: 1~2; required term: 7~14; required term: 30~60; required term: 120~180",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R021",
+      "rubric_id": "CORE-SAFE-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "安全性评价基于安全性分析集（SS）……对不良事件发生例次、例数及发生率进行分类别以及汇总描述性统计分析……对与试验相关的不良事件进行重点分析。"
+      ],
+      "result": "pass",
+      "reason": "All deterministic conditions were found.",
+      "candidate_evidence": [
+        "1. 不良事件:根据 MedDRA 词典进行编码和分类,记录发生率、严重程度、与研究器械的关系等。",
+        "安全性分析将基于安全性分析集。安全性分析集纳入所有至少植入一只试验或对照人工晶状体,并在植入后至少有一次术后安全性评价数据或随访安全性评估依据的受试者。治疗中出现的不良事件将按系统...",
+        "样本量计算采用适用于两独立样本均数比较的公式,并通过PASS统计软件进行验证。计算公式基于非劣效或优效性检验的样本量估算标准方法。",
+        "次要目标包括:1) 评估试验器械在术后1天、1周、1个月和6个月时,在裸眼远视力、最佳矫正远视力、远矫正下的中视力、远矫正下的近视力、0.2 logMAR视力水平的焦深范围、主观视..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R022",
+      "rubric_id": "OPH-IOL-EYE-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "次要疗效指标以第一只术眼（1st）和双眼视为主，第二只术眼（2nd）的数据认为是支持性的……分析所有术眼的不良事件、术后6个月的BCDVA、术后6个月的残余屈光度。"
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 所有术眼 | 全部术眼",
+      "candidate_evidence": [
+        "2. 支持性疗效分析(主要终点):基于符合方案集(敏感性分析)。",
+        "T3.6 术后6个月离焦曲线数据汇总(单眼及双眼视,FAS)",
+        "关键伴发事件及其在估计目标框架下的处理策略如下。研究治疗中止(包括术中未植入或术后提前停用)采用治疗策略,其后收集到的所有有效性数据均纳入分析。使用非研究规定的救援治疗或额外眼科手..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R023",
+      "rubric_id": "OPH-IOL-EYE-002",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "如果对侧眼不再手术或植入与第一只术眼不同的人工晶状体，视为方案偏离，术眼应继续随访至试验结束……术眼的安全性和有效性指标数据应纳入分析，不做剔除。"
+      ],
+      "result": "fail",
+      "reason": "Missing required term: 继续随访",
+      "candidate_evidence": [
+        "2. 主要方案违背:指可能对受试者安全、数据完整性或研究结论产生实质性影响的方案偏离,具体定义详见第5章。",
+        "关键伴发事件及其在估计目标框架下的处理策略如下。研究治疗中止(包括术中未植入或术后提前停用)采用治疗策略,其后收集到的所有有效性数据均纳入分析。使用非研究规定的救援治疗或额外眼科手..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R024",
+      "rubric_id": "OPH-IOL-IC-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "Protocol inclusion criteria 1-7 for bilateral cataract participants."
+      ],
+      "result": "na",
+      "reason": "Requirement is not applicable to this track.",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R025",
+      "rubric_id": "OPH-IOL-DOF-001",
+      "track": "protocol_only",
+      "severity": "critical",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "The protocol defines the 0.2 logMAR threshold and defocus-diopter range but does not fully specify interpolation and continuity handling."
+      ],
+      "result": "fail",
+      "reason": "Missing one of: 插值 | interpolation; one of: 连续区间 | 连续范围 | continuity",
+      "candidate_evidence": [
+        "7. 数据锁定:指在数据库清理、质疑解决和数据审核完成后,由申办方、数据管理和统计人员共同确认,并正式锁定数据库的过程。数据锁定后,将基于本 SAP 进行统计分析。数据锁定前,所有...",
+        "本研究的主要目的是评价该人工晶状体用于成年人无晶状体眼视力矫正的安全性和有效性。具体而言,旨在验证与对照器械(普通非球面单焦点人工晶状体)相比,试验器械在术后6个月时,在最佳矫正远..."
+      ],
+      "confidence": 1.0
+    },
+    {
+      "study_id": "PILOT-IOL-001",
+      "requirement_id": "PILOT-IOL-001-R026",
+      "rubric_id": "CORE-DERIVE-001",
+      "track": "protocol_only",
+      "severity": "major",
+      "evaluator": "rule",
+      "gold_evidence": [
+        "如果“未做”填写“ND”，“不适用”填写“NA”，“无法获得”填写“UA”，“未知”填写“UK”。"
+      ],
+      "result": "na",
+      "reason": "Requirement is not applicable to this track.",
+      "candidate_evidence": [],
+      "confidence": 1.0
+    }
+  ]
+}

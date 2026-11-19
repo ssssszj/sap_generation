@@ -1,0 +1,30 @@
+{
+  "study_id": "PUBLIC-MHEALTH-HOMELESS-HTN-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 24,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R005",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R006",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R008",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R011",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R012",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R016",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R017",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R019",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R020",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R021",
+    "PUBLIC-MHEALTH-HOMELESS-HTN-001-R022"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact NCT05187013, NCR203140, title and 2021-01-26 identity/date match between the protocol and Statistical Design and Power document.",
+    "Adjudicate endpoint hierarchy, estimands and intercurrent-event handling across SBP, DBP, medication adherence and appointment attendance.",
+    "Resolve the reference document's AIM 2 power label against its mean-blood-pressure calculation and the protocol's aim numbering.",
+    "Resolve the t-test, mixed-effects, ANCOVA, regression and GEE/MANOVA alternatives into executable primary and supportive analyses.",
+    "Replace data-driven covariate selection and complete missing-data, multiplicity, interim and safety specifications.",
+    "Complete qualitative sampling, saturation, coding reproducibility and mixed-method integration details.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

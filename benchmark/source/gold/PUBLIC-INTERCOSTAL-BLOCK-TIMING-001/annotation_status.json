@@ -1,0 +1,28 @@
+{
+  "study_id": "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R003",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R005",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R006",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R007",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R010",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R012",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R013",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R014",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R015",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R017",
+    "PUBLIC-INTERCOSTAL-BLOCK-TIMING-001-R018"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact-title, investigator and Carmel Medical Center identity match between the 2016-06-28 protocol and 2016-10-01 SAP.",
+    "Adjudicate the governing primary endpoint and time window rather than importing the later registry hierarchy without review.",
+    "Operationalize repeated VAS pain and multi-agent analgesic consumption and select scale-appropriate models.",
+    "Complete randomization, masking, analysis-population, estimand, missing-data, multiplicity and prospective sample-size specifications.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

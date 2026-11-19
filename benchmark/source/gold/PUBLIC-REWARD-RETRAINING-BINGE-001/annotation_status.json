@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-REWARD-RETRAINING-BINGE-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R002",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R008",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R013",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R014",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R016",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R017",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R018",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R019",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R020",
+    "PUBLIC-REWARD-RETRAINING-BINGE-001-R021"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact NCT04661410, title and 2021-05-19 identity/date match and the during-recruitment prospective freeze.",
+    "Confirm allocation concealment, randomized analysis population, treatment attribution and group or therapist clustering implementation.",
+    "Adjudicate percent-change zero denominators, remission and compensatory-behavior model mapping, covariance feasibility and missing-data implementation.",
+    "Specify outcome-family hierarchy or exploratory labeling and reconcile the n=60 pilot target with the n=154 medium-effect calculation.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

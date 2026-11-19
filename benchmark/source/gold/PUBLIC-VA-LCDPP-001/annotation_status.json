@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-VA-LCDPP-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-VA-LCDPP-001-R004",
+    "PUBLIC-VA-LCDPP-001-R005",
+    "PUBLIC-VA-LCDPP-001-R013",
+    "PUBLIC-VA-LCDPP-001-R014",
+    "PUBLIC-VA-LCDPP-001-R016",
+    "PUBLIC-VA-LCDPP-001-R017",
+    "PUBLIC-VA-LCDPP-001-R018"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact-title and same-day 2021-04-20 protocol/SAP identity match and prospective chronology.",
+    "Operationalize all feasibility and adherence endpoints with auditable numerators, denominators and time windows.",
+    "Confirm analysis populations, pre-withdrawal data use and absence of adherence-based exclusion.",
+    "Adjudicate paired t-test assumptions and replace generic chi-square/Fisher tests with paired categorical methods where required.",
+    "Complete item-level and visit-level missing-data rules and preserve the pilot's estimation-focused interpretation.",
+    "Verify all critical locators against the rendered one-based physical PDF pages."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "study_id": "PUBLIC-PRK-CBD-OPIOID-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 19,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-PRK-CBD-OPIOID-001-R003",
+    "PUBLIC-PRK-CBD-OPIOID-001-R005",
+    "PUBLIC-PRK-CBD-OPIOID-001-R006",
+    "PUBLIC-PRK-CBD-OPIOID-001-R010",
+    "PUBLIC-PRK-CBD-OPIOID-001-R014",
+    "PUBLIC-PRK-CBD-OPIOID-001-R015",
+    "PUBLIC-PRK-CBD-OPIOID-001-R016",
+    "PUBLIC-PRK-CBD-OPIOID-001-R017",
+    "PUBLIC-PRK-CBD-OPIOID-001-R018"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact title, IRB202201660, IRB version 03.09.04 and PI version/date 2024-05-22 match between the protocol and one-page SAP.",
+    "Reconcile the internally inconsistent CBD dose statement before fixing milligrams per dose.",
+    "Reconcile the protocol and registry descriptions of the primary pain endpoint.",
+    "Adjudicate the participant-level crossover model, period/sequence/carryover handling and covariance structure.",
+    "Recompute or qualify the sample-size statement to avoid treating paired eyes as independent units.",
+    "Complete estimand, missing-data, multiplicity, effect-reporting and safety specifications.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

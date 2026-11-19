@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "study": {
+    "study_id": "ABC-101",
+    "title": "ABC-101 randomized controlled study",
+    "phase": "Phase 2",
+    "design": "Randomized double-blind placebo-controlled parallel-group study",
+    "treatment_arms": ["ABC-101", "Placebo"],
+    "randomization": "1:1",
+    "blinding": "Double-blind",
+    "provenance": {"status": "user_confirmed", "evidence": [], "note": null}
+  },
+  "analysis_populations": [
+    {
+      "id": "FAS",
+      "name": "Full Analysis Set",
+      "definition": "All randomized subjects who receive at least one dose and have baseline and at least one post-baseline assessment.",
+      "denominator_rule": "Number of subjects in the FAS",
+      "provenance": {"status": "user_confirmed", "evidence": [], "note": null}
+    },
+    {
+      "id": "SAF",
+      "name": "Safety Analysis Set",
+      "definition": "All subjects who receive at least one dose.",
+      "denominator_rule": "Number of subjects in the SAF",
+      "provenance": {"status": "user_confirmed", "evidence": [], "note": null}
+    }
+  ],
+  "endpoints": [
+    {
+      "id": "EP-PRIMARY",
+      "name": "Change from baseline in symptom score at Week 12",
+      "endpoint_type": "continuous",
+      "definition": "Week 12 symptom score minus baseline symptom score",
+      "timepoint": "Week 12",
+      "derivation": "Week 12 value minus baseline value",
+      "priority": "primary",
+      "provenance": {"status": "user_confirmed", "evidence": [], "note": null}
+    }
+  ],
+  "estimands": [
+    {
+      "id": "EST-PRIMARY",
+      "objective": "Estimate the treatment effect of ABC-101 versus placebo at Week 12",
+      "population": "Full Analysis Set",
+      "variable": "Change from baseline in symptom score at Week 12",
+      "treatment_condition": "ABC-101 versus placebo as randomized",
+      "intercurrent_event_strategies": ["Treatment discontinuation: unresolved", "Rescue medication: unresolved"],
+      "population_summary": "Difference in adjusted means",
+      "endpoint_id": "EP-PRIMARY",
+      "provenance": {"status": "user_confirmed", "evidence": [], "note": null}
+    }
+  ],
+  "analysis_methods": [],
+  "intercurrent_events": [],
+  "missing_data": [],
+  "safety": null,
+  "tfl_specs": [],
+  "clarifications": [],
+  "generated_sections": []
+}
+

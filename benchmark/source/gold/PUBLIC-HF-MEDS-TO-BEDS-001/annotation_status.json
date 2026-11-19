@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-HF-MEDS-TO-BEDS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 24,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R005",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R006",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R009",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R013",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R014",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R016",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R019",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R020",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R021",
+    "PUBLIC-HF-MEDS-TO-BEDS-001-R022"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact NCT03402750 and 2018-07-19 identity/date match between Protocol Version 6 and SAP Version 1.",
+    "Adjudicate whether medication possession ratio is sufficiently operationalized for the available refill data.",
+    "Replace or qualify the reference SAP's questionable assumption checks and generic chi-square fallback.",
+    "Complete allocation, analysis-population, missing-data, effect-reporting, multiplicity, and safety specifications.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

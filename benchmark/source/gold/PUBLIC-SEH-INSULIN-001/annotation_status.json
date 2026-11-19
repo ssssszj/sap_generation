@@ -1,0 +1,26 @@
+{
+  "study_id": "PUBLIC-SEH-INSULIN-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-SEH-INSULIN-001-R005",
+    "PUBLIC-SEH-INSULIN-001-R008",
+    "PUBLIC-SEH-INSULIN-001-R009",
+    "PUBLIC-SEH-INSULIN-001-R013",
+    "PUBLIC-SEH-INSULIN-001-R014",
+    "PUBLIC-SEH-INSULIN-001-R015"
+  ],
+  "open_version_questions": [
+    "Confirm from the original Vanderbilt IRB history that the protocol extract and Statistical Analysis Plan dated 2021-08-11 were outcome-uninformed governing documents before the 2021-11-18 completion; exclude the family if either was retrospectively adapted."
+  ],
+  "review_requirements": [
+    "Define the randomized and efficacy analysis populations and the estimand when a participant is replaced or contributes only one period.",
+    "Adjudicate whether paired testing with preliminary carryover and period tests is acceptable or should be replaced by a prespecified crossover model.",
+    "Specify endpoint derivations, distributional decision rules, missing-period handling, effect estimates and confidence intervals.",
+    "Reconcile the protocol's 34-person prospective target with the registry's 16 actual participants without substituting the latter for the former.",
+    "Define multiplicity across the mechanistic endpoint family and planned race and sex analyses.",
+    "Verify all critical locators against one-based rendered physical PDF pages and preserve reference-plan isolation."
+  ]
+}

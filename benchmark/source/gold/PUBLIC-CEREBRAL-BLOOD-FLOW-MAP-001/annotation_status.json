@@ -1,0 +1,22 @@
+{
+  "study_id": "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001-R014",
+    "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001-R017",
+    "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001-R018",
+    "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001-R019",
+    "PUBLIC-CEREBRAL-BLOOD-FLOW-MAP-001-R020"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact-title, NCT03309917, H-17021598-61256 and 2017-12-22 identity match between the independent protocol and statistical plan.",
+    "Confirm that the protocol's sample-size paragraph and endpoint derivations do not constitute a complete executable target SAP without the independent plan's analysis models.",
+    "Adjudicate the exact repeated-measures covariance, participant correlation, inference and contrast conventions.",
+    "Complete the analysis-population, partial-sequence, missing-data, sensitivity and multiplicity decisions.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

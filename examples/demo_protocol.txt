@@ -1,0 +1,10 @@
+Study title: ABC-101 randomized controlled study
+
+This is a randomized, double-blind, parallel-group study comparing ABC-101 with placebo.
+
+Primary endpoint: Change from baseline in symptom score at Week 12.
+
+The Full Analysis Set includes all randomized subjects who receive at least one dose and have a baseline and at least one post-baseline assessment. The Safety Analysis Set includes all subjects who receive at least one dose.
+
+Adverse events are collected from the first dose through 30 days after the last dose. Events will be coded using the MedDRA version current at database lock and summarized by SOC and PT.
+

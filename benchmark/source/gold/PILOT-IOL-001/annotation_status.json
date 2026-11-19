@@ -1,0 +1,21 @@
+{
+  "study_id": "PILOT-IOL-001",
+  "annotation_version": "0.1",
+  "status": "draft_needs_second_review",
+  "annotator": "initial_benchmark_construction",
+  "requirement_count": 26,
+  "critical_items_requiring_statistician_adjudication": [
+    "PILOT-IOL-001-R013",
+    "PILOT-IOL-001-R025"
+  ],
+  "open_version_questions": [
+    "Confirm that protocol A/0 dated 2021-09-30 is the governing protocol for SAP v1.0 dated 2024-05-28.",
+    "Confirm whether intervening protocol amendments exist.",
+    "Confirm whether the annotated CRF v1.0 matches protocol A/0."
+  ],
+  "review_requirements": [
+    "A statistician must review all critical hypothesis, multiplicity, missing-data, and derivation items.",
+    "A second annotator must independently label a stratified subset before evaluator calibration.",
+    "Reference SAP content not supported by allowed input must not be promoted to gold fact status."
+  ]
+}

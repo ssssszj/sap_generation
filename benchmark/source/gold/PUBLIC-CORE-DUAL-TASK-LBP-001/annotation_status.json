@@ -1,0 +1,34 @@
+{
+  "study_id": "PUBLIC-CORE-DUAL-TASK-LBP-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 24,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R001",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R004",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R005",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R008",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R009",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R014",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R015",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R016",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R019",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R020",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R021",
+    "PUBLIC-CORE-DUAL-TASK-LBP-001-R024"
+  ],
+  "open_version_questions": [
+    "Neither PDF prints NCT05832918; a second reviewer must confirm the official-registry file binding."
+  ],
+  "review_requirements": [
+    "Confirm that the exact-title same-day pair dated 27 March 2023 is the governing prerecruitment NCT05832918 pair.",
+    "Resolve the six-weeks times three-sessions schedule versus the stated 16-session total and its immediate post-treatment anchor.",
+    "Reconcile whether VAS pain and ODI disability are co-primary or whether ODI alone is confirmatory.",
+    "Preserve the randomized between-group longitudinal contrast; do not replace it with within-group post-hoc tests or Friedman alone.",
+    "Use the prospective protocol target of 34 rather than any later registry enrollment target.",
+    "Complete population, estimand, missingness, multiplicity, effect-interval, software and safety specifications.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. The one-page reference is prospective and independent and adds methods absent from the model-visible protocol, but its generic mixed-ANOVA and fallback statements do not fully represent the three-timepoint randomized design or the many repeated postural conditions."
+}

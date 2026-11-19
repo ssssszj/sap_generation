@@ -1,0 +1,14 @@
+{
+  "study_id": "PUBLIC-IMSIDOLIMAB-GPP-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 18,
+  "critical_items_requiring_statistician_adjudication": ["PUBLIC-IMSIDOLIMAB-GPP-001-R004", "PUBLIC-IMSIDOLIMAB-GPP-001-R005", "PUBLIC-IMSIDOLIMAB-GPP-001-R006", "PUBLIC-IMSIDOLIMAB-GPP-001-R007", "PUBLIC-IMSIDOLIMAB-GPP-001-R009", "PUBLIC-IMSIDOLIMAB-GPP-001-R017"],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Verify the mixed composite/hypothetical estimand strategy and the exact MI implementation.",
+    "Confirm the H1-H3-H2-H4 gatekeeping sequence and whether all decisions use alpha 0.05 exactly as stated.",
+    "Review the interim sample-size re-estimation requirement against the separate IA SAP before freezing."
+  ]
+}

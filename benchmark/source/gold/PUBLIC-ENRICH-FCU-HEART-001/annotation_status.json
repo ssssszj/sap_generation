@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-ENRICH-FCU-HEART-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-ENRICH-FCU-HEART-001-R003",
+    "PUBLIC-ENRICH-FCU-HEART-001-R004",
+    "PUBLIC-ENRICH-FCU-HEART-001-R006",
+    "PUBLIC-ENRICH-FCU-HEART-001-R007",
+    "PUBLIC-ENRICH-FCU-HEART-001-R010",
+    "PUBLIC-ENRICH-FCU-HEART-001-R011",
+    "PUBLIC-ENRICH-FCU-HEART-001-R014"
+  ],
+  "open_version_questions": [
+    "Confirm from the University of Pittsburgh IRB history that the matching 2022-04-05 protocol and Data Analysis Plan are the original unmodified pre-start governing pair; exclude the family if either file was reconstructed after study completion."
+  ],
+  "review_requirements": [
+    "Resolve the primary endpoint hierarchy between registry postpartum-weight retention and the analysis plan's joint 6-month BP and weight focus.",
+    "Specify allocation concealment, masking by role and whether race was a randomization or analysis stratum.",
+    "Define endpoint derivations, estimands, missingness, multiplicity and remote-versus-in-person measurement handling.",
+    "Operationalize implementation, qualitative, child-outcome and safety analyses.",
+    "Preserve the prospective target of 150 rather than substituting actual enrollment of 117.",
+    "Verify every critical locator against one-based rendered physical PDF pages and preserve reference-plan isolation."
+  ]
+}

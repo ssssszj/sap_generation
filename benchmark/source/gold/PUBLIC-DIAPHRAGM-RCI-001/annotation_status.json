@@ -1,0 +1,26 @@
+{
+  "study_id": "PUBLIC-DIAPHRAGM-RCI-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-DIAPHRAGM-RCI-001-R003",
+    "PUBLIC-DIAPHRAGM-RCI-001-R008",
+    "PUBLIC-DIAPHRAGM-RCI-001-R009",
+    "PUBLIC-DIAPHRAGM-RCI-001-R011",
+    "PUBLIC-DIAPHRAGM-RCI-001-R013",
+    "PUBLIC-DIAPHRAGM-RCI-001-R014"
+  ],
+  "open_version_questions": [
+    "Reconcile the matching 2017-09-24 dates printed inside both PDFs and their 2017-09-24 upload timestamps with the ClinicalTrials.gov document metadata date of 2017-11-24; the internal identity chain is accepted provisionally because both uploads predate registry posting and recorded completion."
+  ],
+  "review_requirements": [
+    "Confirm the prospective sample-size target and allocation ratio; never use the registry's actual enrollment as the target.",
+    "Define one primary outcome and contrast or explicitly control multiplicity across movement, pain and pressure-threshold variables.",
+    "Specify a valid pre/post three-arm model, planned contrasts, effect estimates and confidence intervals.",
+    "Define the randomized analysis population, missingness, estimand, masking and safety handling.",
+    "Do not apply risk reduction or number-needed-to-treat measures mechanically to continuous outcomes.",
+    "Verify every locator against one-based rendered physical PDF pages and preserve reference-plan isolation."
+  ]
+}

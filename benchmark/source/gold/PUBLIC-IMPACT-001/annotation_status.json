@@ -1,0 +1,18 @@
+{
+  "study_id": "PUBLIC-IMPACT-001",
+  "annotation_version": "0.2-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "initial_public_source_expansion",
+  "requirement_count": 15,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-IMPACT-001-R005",
+    "PUBLIC-IMPACT-001-R008",
+    "PUBLIC-IMPACT-001-R015"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm whether the benchmark should score protocol-faithful ANCOVA or permit a conditionally proposed mixed model for center effects.",
+    "Review the protocol-versus-TSAP change from ANCOVA to linear mixed-effects modeling without leaking the reference SAP.",
+    "A second annotator must independently review all critical requirements, CRF mappings, and page locators."
+  ]
+}

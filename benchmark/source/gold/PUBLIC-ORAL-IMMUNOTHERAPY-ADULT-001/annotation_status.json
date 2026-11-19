@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001-R007",
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001-R011",
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001-R012",
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001-R017",
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001-R018",
+    "PUBLIC-ORAL-IMMUNOTHERAPY-ADULT-001-R020"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact title, NCT and 19 October 2012 identity/date match and that the two official files were the prospective governing pair.",
+    "Resolve the stated four-group design versus the three listed allergen cohorts and confirm the nut-allergy diagnosis rule.",
+    "Define endpoint hierarchy, tolerance/desensitization success, populations, estimands, missingness and multiplicity.",
+    "Specify sparse categorical inference, selection between parametric and nonparametric tests, effects and confidence intervals.",
+    "Complete safety summaries and reproducible SPSS implementation; do not substitute registry actual enrollment 23 for the prospective ceiling of 90.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. The exact-title/NCT/date pair precedes the month-level January 2013 actual start and the protocol does not expose the reference-only test and software choices. The short source pair leaves endpoint hierarchy, populations, estimands, derivations, missingness, multiplicity and safety unresolved for expert review."
+}

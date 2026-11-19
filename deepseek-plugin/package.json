@@ -1,0 +1,15 @@
+{
+  "name": "sapgen-dsh-plugin",
+  "version": "0.1.0",
+  "description": "SAP-IR validation and export tools for DeepSeek Harness",
+  "type": "module",
+  "main": "index.js",
+  "files": ["index.js", "cordis.patch.yml", "README.md"],
+  "engines": { "dsh": ">=0.2.0-0 <0.3.0" },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": ">=0.2.0-0 <0.3.0"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "license": "MIT"
+}
+

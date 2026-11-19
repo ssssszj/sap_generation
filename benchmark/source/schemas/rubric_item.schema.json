@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sap-benchmark/rubric_item.schema.json",
+  "title": "SAP benchmark rubric item",
+  "type": "object",
+  "required": [
+    "rubric_id",
+    "category",
+    "requirement",
+    "severity",
+    "weight",
+    "applies_if",
+    "evaluator"
+  ],
+  "properties": {
+    "rubric_id": {"type": "string", "pattern": "^[A-Z0-9-]+$"},
+    "category": {"type": "string", "minLength": 1},
+    "requirement": {"type": "string", "minLength": 1},
+    "severity": {"enum": ["critical", "major", "minor"]},
+    "weight": {"type": "number", "exclusiveMinimum": 0},
+    "applies_if": {"type": "string", "minLength": 1},
+    "evaluator": {
+      "type": "array",
+      "items": {"enum": ["rule", "semantic_judge", "human"]},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "scope": {"type": "array", "items": {"type": "string"}},
+    "domain": {"type": ["string", "null"]},
+    "failure_examples": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

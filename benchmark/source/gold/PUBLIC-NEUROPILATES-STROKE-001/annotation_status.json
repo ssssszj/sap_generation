@@ -1,0 +1,28 @@
+{
+  "study_id": "PUBLIC-NEUROPILATES-STROKE-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-24",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-NEUROPILATES-STROKE-001-R003",
+    "PUBLIC-NEUROPILATES-STROKE-001-R007",
+    "PUBLIC-NEUROPILATES-STROKE-001-R008",
+    "PUBLIC-NEUROPILATES-STROKE-001-R009",
+    "PUBLIC-NEUROPILATES-STROKE-001-R013",
+    "PUBLIC-NEUROPILATES-STROKE-001-R014",
+    "PUBLIC-NEUROPILATES-STROKE-001-R015",
+    "PUBLIC-NEUROPILATES-STROKE-001-R016",
+    "PUBLIC-NEUROPILATES-STROKE-001-R017",
+    "PUBLIC-NEUROPILATES-STROKE-001-R018",
+    "PUBLIC-NEUROPILATES-STROKE-001-R020"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact-title and same-day 2020-08-04 protocol/SAP identity match despite the pre-assignment NCT placeholders.",
+    "Reconcile the protocol-versus-registry primary-endpoint hierarchy for Timed Up and Go and Motor Assessment Scale.",
+    "Replace or supplement within-arm paired t tests with a direct randomized between-group treatment-effect analysis.",
+    "Complete randomization, endpoint derivation, analysis-population, repeated-measures, missing-data, multiplicity and prospective sample-size specifications.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ]
+}

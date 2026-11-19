@@ -1,0 +1,12 @@
+{
+  "benchmark_version": "0.1-pilot",
+  "split": "pilot",
+  "study_ids": [
+    "PILOT-IOL-001"
+  ],
+  "prohibited_future_splits": [
+    "test",
+    "external_test"
+  ],
+  "reason": "This study family has already influenced prompts, rubrics, and product implementation."
+}
