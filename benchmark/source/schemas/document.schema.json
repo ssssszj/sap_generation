@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sap-benchmark/document.schema.json",
+  "title": "SAP benchmark source document",
+  "type": "object",
+  "required": [
+    "document_id",
+    "study_id",
+    "role",
+    "format",
+    "path",
+    "sha256",
+    "version_match_status",
+    "availability"
+  ],
+  "properties": {
+    "document_id": {"type": "string", "minLength": 1},
+    "study_id": {"type": "string", "minLength": 1},
+    "role": {"enum": ["protocol", "crf", "annotated_crf", "reference_sap", "amendment", "other"]},
+    "format": {"enum": ["pdf", "docx", "txt", "html", "other"]},
+    "path": {"type": "string", "minLength": 1},
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "version": {"type": ["string", "null"]},
+    "date": {"type": ["string", "null"]},
+    "version_match_status": {"enum": ["verified", "needs_review", "mismatch", "not_applicable"]},
+    "availability": {"enum": ["local_private", "public", "authorized_internal", "missing"]},
+    "source_url": {"type": ["string", "null"]},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

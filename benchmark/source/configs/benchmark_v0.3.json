@@ -1,0 +1,57 @@
+{
+  "benchmark_id": "sap-generation-benchmark",
+  "version": "0.3-development",
+  "status": "development",
+  "tracks": [
+    "protocol_only",
+    "protocol_crf",
+    "confirmed_decisions"
+  ],
+  "primary_track": "protocol_only",
+  "primary_metric": "study_level_critical_pass",
+  "rubrics": [
+    "rubrics/rubric_core_v2.jsonl",
+    "rubrics/rubric_ophthalmology_iol_v1.jsonl"
+  ],
+  "study_manifest": "manifests/studies.jsonl",
+  "document_manifest": "manifests/documents.jsonl",
+  "legacy_run_manifest": "manifests/legacy_runs.jsonl",
+  "candidate_catalog": null,
+  "candidate_catalog_archive": "screening/candidate_catalog_archived_2026-10-02.jsonl",
+  "candidate_pool_summary": "screening/candidate_pool_summary.json",
+  "review_queue": "screening/review_queue_v0.3.json",
+  "final_audit": "final_audit/questions.jsonl",
+  "initial_draft_question_set": "final_audit/initial_draft_question_set.json",
+  "source_pool_manifest": "screening/source_pools.jsonl",
+  "scale_target": {
+    "audited_public_drafts": 141,
+    "initial_draft_questions": 100,
+    "held_after_final_audit": 21,
+    "excluded_after_final_audit": 20,
+    "screened_candidates": 0,
+    "collection_stopped_by_user": true,
+    "collection_ceiling_reached": 100,
+    "floor_split": {"train": 40, "dev": 20, "test": 40},
+    "stretch_split": {"train": 60, "dev": 20, "test": 40}
+  },
+  "split_files": [
+    "splits/pilot.json"
+  ],
+  "allowed_results": [
+    "pass",
+    "fail",
+    "na",
+    "uncertain"
+  ],
+  "severity_order": [
+    "critical",
+    "major",
+    "minor"
+  ],
+  "diagnostic_only_metrics": [
+    "bleu",
+    "rouge_l",
+    "bertscore",
+    "document_length_ratio"
+  ]
+}

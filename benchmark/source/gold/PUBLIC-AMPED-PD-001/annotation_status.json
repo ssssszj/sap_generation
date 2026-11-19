@@ -1,0 +1,27 @@
+{
+  "study_id": "PUBLIC-AMPED-PD-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 25,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-AMPED-PD-001-R005",
+    "PUBLIC-AMPED-PD-001-R008",
+    "PUBLIC-AMPED-PD-001-R011",
+    "PUBLIC-AMPED-PD-001-R012",
+    "PUBLIC-AMPED-PD-001-R014",
+    "PUBLIC-AMPED-PD-001-R018",
+    "PUBLIC-AMPED-PD-001-R019",
+    "PUBLIC-AMPED-PD-001-R025"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the exact title/NCT/date match and that both 12 July 2022 documents governed the study before its 1 August 2022 start.",
+    "Confirm the four-primary-outcome hierarchy and define study-wide multiplicity across four outcomes and two follow-up contrasts.",
+    "Preserve the randomized Amped-PD-versus-Active-Control contrast; do not substitute the reference plan's within-group repeated tests.",
+    "Specify populations, estimands, missing-data handling, intercurrent-event strategies, endpoint derivations, effect estimates and confidence intervals.",
+    "Reconcile the protocol age range of 40-80 years with any registry or operational eligibility version before freeze.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. The compact protocol and independent SAP share exact identity and a prerecruitment date. The reference contributes the test-selection program, but it leaves substantial implementation choices unresolved and its within-group analyses are supportive rather than substitutes for randomized effects."
+}

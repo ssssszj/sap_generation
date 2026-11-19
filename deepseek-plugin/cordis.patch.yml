@@ -1,0 +1,4 @@
+- insert:
+    - id: sapgen-tools
+      name: sapgen-dsh-plugin
+

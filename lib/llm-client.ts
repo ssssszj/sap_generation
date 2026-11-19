@@ -118,9 +118,22 @@ export class QiniuLLMClient implements LLMClient {
 
   async chat(messages: LLMMessage[], options?: LLMCallOptions): Promise<string> {
     const model = options?.model ?? this.defaultModel;
+    const experimentMaxTokens = Number.parseInt(
+      process.env.SAP_EXPERIMENT_MAX_TOKENS?.trim() || "",
+      10
+    );
+    const hasExperimentMaxTokens =
+      Number.isFinite(experimentMaxTokens) && experimentMaxTokens > 0;
+    const maxTokens = hasExperimentMaxTokens
+      ? experimentMaxTokens
+      : options?.maxTokens ?? DEFAULT_MAX_TOKENS;
+    const useProviderDefaultTemperature =
+      process.env.SAP_EXPERIMENT_PROVIDER_DEFAULT_TEMPERATURE?.trim() === "1";
     const temperature = options?.temperature ?? 0.3;
-    const maxTokens = options?.maxTokens ?? DEFAULT_MAX_TOKENS;
-    const retryMaxTokens = Math.max(maxTokens, options?.retryMaxTokens ?? maxTokens);
+    // Benchmark runs must keep the same token ceiling even after a transient retry.
+    const retryMaxTokens = hasExperimentMaxTokens
+      ? maxTokens
+      : Math.max(maxTokens, options?.retryMaxTokens ?? maxTokens);
     const timeoutMs = options?.timeoutMs ?? 600000;
     const maxAttempts = options?.maxAttempts ?? 2;
     const inputChars = messages.reduce((sum, message) => sum + message.content.length, 0);
@@ -145,7 +158,7 @@ export class QiniuLLMClient implements LLMClient {
           {
             model,
             messages: messages.map((m) => ({ role: m.role, content: m.content })),
-            temperature,
+            ...(useProviderDefaultTemperature ? {} : { temperature }),
             max_tokens: attemptMaxTokens,
           },
           {

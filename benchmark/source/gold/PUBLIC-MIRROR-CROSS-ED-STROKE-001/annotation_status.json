@@ -1,0 +1,35 @@
+{
+  "study_id": "PUBLIC-MIRROR-CROSS-ED-STROKE-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 23,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R001",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R003",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R004",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R008",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R009",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R011",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R014",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R015",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R016",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R017",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R018",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R019",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R020",
+    "PUBLIC-MIRROR-CROSS-ED-STROKE-001-R021"
+  ],
+  "open_version_questions": [
+    "Confirm the official registry binding because both PDFs predate NCT assignment and contain placeholders.",
+    "Resolve protocol-versus-registry masking and primary/secondary endpoint hierarchy conflicts."
+  ],
+  "review_requirements": [
+    "Confirm exact-title, institution and same-day pre-recruitment protocol/SAP identity and official NCT05293951 association.",
+    "Resolve assessor-only versus participant-plus-assessor masking and isokinetic/grip/ROM endpoint classifications.",
+    "Use paired tests only as supplementary within-arm summaries and define a direct randomized between-group repeated-measures analysis.",
+    "Complete population, estimand, derivations, missingness, multiplicity, feasibility, safety, uncertainty and prospective sample-size specifications.",
+    "Verify every critical locator against rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. Registry actual enrollment 24 is conduct context only and cannot replace the missing prospective target."
+}

@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-FITSTART-PLUS-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-FITSTART-PLUS-001-R003",
+    "PUBLIC-FITSTART-PLUS-001-R004",
+    "PUBLIC-FITSTART-PLUS-001-R006",
+    "PUBLIC-FITSTART-PLUS-001-R009",
+    "PUBLIC-FITSTART-PLUS-001-R010",
+    "PUBLIC-FITSTART-PLUS-001-R016",
+    "PUBLIC-FITSTART-PLUS-001-R018",
+    "PUBLIC-FITSTART-PLUS-001-R021"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Reconcile the protocol's 400-600 trial participants and 700 baseline recruits with the SAP power target of 300 per arm; do not substitute actual enrollment 266.",
+    "Confirm whether peak drinks is a primary outcome because it appears in the registry but not among the SAP's three named model DVs.",
+    "Choose and justify Gaussian, Poisson, or another count-data family before analysis and complete the estimand, population and multiplicity rules.",
+    "Determine whether the phrase 'Pairwise comparisons ... were conducted' is an isolated tense error or evidence of execution-informed revision despite the 2021-04-26 pre-start document date.",
+    "Finalize multiple-imputation triggers and specifications and verify all critical locators against rendered one-based physical PDF pages."
+  ]
+}

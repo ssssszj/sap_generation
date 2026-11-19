@@ -1,0 +1,59 @@
+{
+  "rubric_set_id": "sap-seven-difficulties-v1",
+  "version": "1.0.0",
+  "judge_scale": {
+    "minimum": 0,
+    "maximum": 4
+  },
+  "rubrics": [
+    {
+      "rubric_id": "SAP7-ESTIMAND-001",
+      "category": "确定估计目标",
+      "description": "估计目标需要同时明确目标人群、治疗条件、终点变量、伴发事件处理策略和群体汇总方式，并与方案中的研究目标保持一致。",
+      "weight": 2.0,
+      "critical": true
+    },
+    {
+      "rubric_id": "SAP7-PRIMARY-METHOD-001",
+      "category": "选择主分析方法",
+      "description": "主分析需要根据终点类型、试验设计和数据特点，明确模型、效应量及检验方法，使分析规则能够直接执行。",
+      "weight": 2.0,
+      "critical": true
+    },
+    {
+      "rubric_id": "SAP7-SENSITIVITY-001",
+      "category": "敏感性分析",
+      "description": "敏感性分析需要围绕主分析的关键假设设计，说明改变哪些假设，以及如何检验主要结论的稳健性。",
+      "weight": 1.5,
+      "critical": false
+    },
+    {
+      "rubric_id": "SAP7-ICE-001",
+      "category": "处理伴发事件",
+      "description": "停药、换药、救援治疗或死亡发生后，要根据试验要评估的治疗效果，确定相应的数据处理策略。",
+      "weight": 2.0,
+      "critical": true
+    },
+    {
+      "rubric_id": "SAP7-MISSING-001",
+      "category": "处理失访与缺失数据",
+      "description": "失访和缺失数据要结合发生原因，明确缺失机制假设和具体处理方法。",
+      "weight": 2.0,
+      "critical": true
+    },
+    {
+      "rubric_id": "SAP7-SAFETY-001",
+      "category": "写清安全性分析规则",
+      "description": "安全性分析需要明确不良事件的观察时间窗、MedDRA 编码、SOC/PT 汇总规则及适用分母，并保持统计口径一致。",
+      "weight": 2.0,
+      "critical": true
+    },
+    {
+      "rubric_id": "SAP7-TFL-001",
+      "category": "将分析要求落实为TFL",
+      "description": "TFL 需要将分析人群、行列维度、统计量、单位、分母和脚注落实为具体表壳，使结果能够按规格编程产出。",
+      "weight": 1.5,
+      "critical": false
+    }
+  ]
+}

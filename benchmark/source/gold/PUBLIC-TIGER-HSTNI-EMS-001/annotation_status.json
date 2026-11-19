@@ -1,0 +1,25 @@
+{
+  "study_id": "PUBLIC-TIGER-HSTNI-EMS-001",
+  "annotation_version": "0.1-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "initial_public_source_expansion",
+  "requirement_count": 24,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-TIGER-HSTNI-EMS-001-R005",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R006",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R007",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R009",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R012",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R020",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R022",
+    "PUBLIC-TIGER-HSTNI-EMS-001-R023"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Resolve FMC-to-PCI versus FMC-to-vascular-access versus FMC-to-balloon before freezing the primary endpoint.",
+    "Resolve all-randomized ITT versus discharge-confirmed-MI restriction and the induced post-randomization selection risk.",
+    "Replace or fully justify the reference plan's incompatible modified-Poisson and time-to-event methods for the primary time outcome.",
+    "Reconcile the MACE component definitions and formalize missing-data, multiplicity and interim-decision rules.",
+    "A second annotator must independently verify every critical requirement and physical-page locator."
+  ]
+}

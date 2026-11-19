@@ -1,0 +1,23 @@
+{
+  "study_id": "PUBLIC-CATPAD-FOLLOWUP-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 18,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-CATPAD-FOLLOWUP-001-R005",
+    "PUBLIC-CATPAD-FOLLOWUP-001-R011",
+    "PUBLIC-CATPAD-FOLLOWUP-001-R012",
+    "PUBLIC-CATPAD-FOLLOWUP-001-R013",
+    "PUBLIC-CATPAD-FOLLOWUP-001-R014",
+    "PUBLIC-CATPAD-FOLLOWUP-001-R015",
+    "PUBLIC-CATPAD-FOLLOWUP-001-R018"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Verify that SAP Version 2.0 dated 2017-02-23 explicitly governs Protocol Version 5 dated 2014-12-08.",
+    "Adjudicate ITT versus annual FAS terminology and time-varying indoor-cat mITT membership.",
+    "Review the Holm within-year rule and hierarchical across-year continuation for valid interpretation.",
+    "Verify LOCF, WOCF, BOCF and MAR MMRM implementation including covariance selection and Kenward-Roger inference."
+  ]
+}

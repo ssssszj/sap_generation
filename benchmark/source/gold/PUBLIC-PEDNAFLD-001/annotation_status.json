@@ -1,0 +1,14 @@
+{
+  "study_id": "PUBLIC-PEDNAFLD-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-23",
+  "requirement_count": 15,
+  "critical_items_requiring_statistician_adjudication": ["PUBLIC-PEDNAFLD-001-R003", "PUBLIC-PEDNAFLD-001-R008", "PUBLIC-PEDNAFLD-001-R010", "PUBLIC-PEDNAFLD-001-R015"],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Verify whether the primary two-sample analysis should receive full credit when a generated SAP instead proposes baseline-adjusted ANCOVA.",
+    "Adjudicate the estimand and intercurrent-event expectations for diet noncompliance and early withdrawal.",
+    "Check every critical PDF locator against the frozen source files."
+  ]
+}

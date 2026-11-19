@@ -1,0 +1,23 @@
+{
+  "study_id": "PUBLIC-AMC-GLAUCOMA-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 22,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-AMC-GLAUCOMA-001-R002",
+    "PUBLIC-AMC-GLAUCOMA-001-R007",
+    "PUBLIC-AMC-GLAUCOMA-001-R010",
+    "PUBLIC-AMC-GLAUCOMA-001-R017",
+    "PUBLIC-AMC-GLAUCOMA-001-R018",
+    "PUBLIC-AMC-GLAUCOMA-001-R019"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Resolve the protocol/SAP masking conflict: protocol physical pages 3 and 5 call the trial single-masked and leave surgeons unmasked, while SAP physical page 2 calls it double-masked and says participating surgeons and participants are masked.",
+    "Resolve the protocol physical page 7 six-month primary IOP endpoint against the SAP physical pages 2-3 twelve-month primary IOP endpoint before freezing the endpoint hierarchy.",
+    "Define the primary linear-regression estimand, missing-data rule, covariate coding, center handling and analysis population without treating the registry actual enrollment as the prospective target.",
+    "Define multiplicity and time-to-failure details and distinguish the descriptive safety interim review from a formal efficacy stopping analysis.",
+    "Verify all critical locators against the rendered one-based physical PDF pages during independent review."
+  ]
+}

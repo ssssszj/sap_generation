@@ -1,46 +1,44 @@
-# Dependencies
-node_modules/
-
-# Next.js build output
-.next/
-out/
-dist/
-build/
-
-# Production/runtime output
-output/
-deliverables/
-
-# Local input samples and private study documents
-input/
-research/docs/
-
-# Local presentation research/build workspace
-research/.pptx_build/
-
-# Environment files
 .env
 .env.*
 !.env.example
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+.venv/
+.runtime/
+.pytest_cache/
+.pytest-*/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+node_modules/
+.next/
 *.log
+*.tsbuildinfo
+pnpm-debug.log*
 
-# OS/editor files
-.DS_Store
-Thumbs.db
-.cursor/
-.vscode/
-.idea/
+# Legacy local research workspace from the previous application. The migrated
+# benchmark fixtures live under benchmark/source instead.
+research/
 
-# Temporary files
-tmp/
-temp/
-*.tmp
+# Generated benchmark state and model outputs. Static source data, rubrics,
+# requirements, config.json, and sample.json remain versioned.
+benchmark/results/
+benchmark/experiment/runtime/
+benchmark/experiment/runs/
+benchmark/experiment/batches/
+benchmark/experiment/history/
+benchmark/experiment/invalid/
+benchmark/experiment/logs/
+benchmark/experiment/*-report.json
+benchmark/experiment/*-scores.csv
+benchmark/experiment/dsh-only-state.json
+benchmark/experiment/scores.csv
+benchmark/experiment/summary.json
+benchmark/experiment/score-report.md
+benchmark/experiment/*_extraction.json
+benchmark/experiment/*.tmp.json
+benchmark/experiment/sap_evidence.json
+benchmark/experiment/.dsh_probe.txt
+benchmark/experiment/_acl_probe.txt
+

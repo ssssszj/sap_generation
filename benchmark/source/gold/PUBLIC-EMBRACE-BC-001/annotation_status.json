@@ -1,0 +1,35 @@
+{
+  "study_id": "PUBLIC-EMBRACE-BC-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 25,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-EMBRACE-BC-001-R001",
+    "PUBLIC-EMBRACE-BC-001-R006",
+    "PUBLIC-EMBRACE-BC-001-R011",
+    "PUBLIC-EMBRACE-BC-001-R012",
+    "PUBLIC-EMBRACE-BC-001-R013",
+    "PUBLIC-EMBRACE-BC-001-R014",
+    "PUBLIC-EMBRACE-BC-001-R015",
+    "PUBLIC-EMBRACE-BC-001-R016",
+    "PUBLIC-EMBRACE-BC-001-R018",
+    "PUBLIC-EMBRACE-BC-001-R019",
+    "PUBLIC-EMBRACE-BC-001-R022",
+    "PUBLIC-EMBRACE-BC-001-R023"
+  ],
+  "open_version_questions": [
+    "Confirm that the unsigned protocol NFEC-2026-035 and unsigned SAP Version 1.0 were formally approved as the prospective governing Protocol Version 3.0 pair on 24 February 2026.",
+    "Identify the protocol's unnamed prespecified primary-model covariates and confirm that they were fixed before outcomes were available.",
+    "Confirm masking roles and the outcome-assessor masking procedure, which are not described in either selected PDF."
+  ],
+  "review_requirements": [
+    "Verify exact title, NCT, protocol identifier, versions and dates against the rendered one-based physical PDF pages and the pre-start registry chronology.",
+    "Confirm primary estimand, ITT operationalization, MMRM parameterization, covariance and uncertainty reporting.",
+    "Complete MICE, completer, recurrent-hospitalization and competing-risk implementation rules without treating reference-only choices as protocol-only facts.",
+    "Resolve endpoint hierarchy and multiplicity across patient-reported, utilization, subgroup and engagement analyses.",
+    "Reproduce the N=440 calculation and do not substitute later actual enrollment for the prospective target.",
+    "Define safety, visit windows, software, data cutoff and independent quality-control procedures."
+  ],
+  "notes": "First-pass evidence-backed annotation. The same-day protocol/SAP pair predates actual study start and the protocol does not expose the reference-only missing-data, count, competing-risk, subgroup or engagement methods. Formal approval, masking, covariates and executable analysis details remain explicit second-review gates."
+}

@@ -1,0 +1,20 @@
+{
+  "experiment_id": "sap-three-arm-20-v1",
+  "model": "deepseek/deepseek-v4.1-flash",
+  "judge_model": "deepseek/deepseek-v4.1-flash",
+  "api_base_url": "https://api.qnaigc.com",
+  "max_output_tokens": 32768,
+  "temperature_policy": "provider_default_omitted",
+  "input_char_limit": 60000,
+  "legacy_base_url": "http://127.0.0.1:3100",
+  "legacy_env_file": "D:\\Lab\\sap_generation\\.env.local",
+  "legacy_project": "D:\\Lab\\sap_generation",
+  "dsh_node": "C:\\Users\\Jason\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+  "dsh_js": "D:\\Lab\\sapgen_rebuild\\node_modules\\.pnpm\\@deepseek-ai+dsh@0.2.1-rc.5_39cc4dc80c6d87aa143507ebb3e8bdb4\\node_modules\\@deepseek-ai\\dsh\\lib\\bin.js",
+  "concurrency": 1,
+  "methods": [
+    "direct_llm_native",
+    "sap_ver1",
+    "dsh_sap"
+  ]
+}

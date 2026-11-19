@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SAP 生成与审核系统</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Clinical Trial Statistics</p>
+        <h1>SAP 生成与审核系统</h1>
+      </div>
+      <div id="health" class="health">正在检查服务</div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div>
+          <h2>从研究材料形成可追溯的分析决策</h2>
+          <p>上传 Protocol、CRF 或注册信息。系统生成 SAP-IR，运行专项检查，输出待确认事项、SAP 草稿与 TFL 表壳。</p>
+        </div>
+        <ol class="flow">
+          <li>证据定位</li>
+          <li>SAP-IR</li>
+          <li>专项模块</li>
+          <li>审核导出</li>
+        </ol>
+      </section>
+
+      <section class="workspace-grid">
+        <article class="panel">
+          <h2>1 创建项目</h2>
+          <form id="project-form">
+            <label for="project-name">项目名称</label>
+            <div class="inline">
+              <input id="project-name" required placeholder="例如 ABC-101 主要分析 SAP" />
+              <button type="submit">创建</button>
+            </div>
+          </form>
+          <label for="project-select">当前项目</label>
+          <select id="project-select"><option value="">请选择项目</option></select>
+        </article>
+
+        <article class="panel">
+          <h2>2 上传材料</h2>
+          <form id="upload-form">
+            <input id="files" type="file" multiple accept=".pdf,.docx,.txt,.md" />
+            <button type="submit" class="secondary">上传文件</button>
+          </form>
+          <ul id="file-list" class="compact-list"></ul>
+        </article>
+
+        <article class="panel run-panel">
+          <h2>3 执行生成</h2>
+          <p class="muted">默认由 DeepSeek Harness 负责模型会话和 Agent Loop。若模型不可用，可回退到证据提取与确定性规则流程。</p>
+          <label class="check"><input id="use-working-ir" type="checkbox" /> 使用已审核的工作 SAP-IR</label>
+          <label class="check"><input id="allow-fallback" type="checkbox" checked /> Harness 不可用时允许规则回退</label>
+          <button id="run-button" type="button">开始生成</button>
+        </article>
+      </section>
+
+      <section id="run-status" class="status hidden"></section>
+
+      <section id="results" class="results hidden">
+        <div class="result-header">
+          <div>
+            <p class="eyebrow">Latest Run</p>
+            <h2>生成结果</h2>
+          </div>
+          <div id="issue-counts" class="issue-counts"></div>
+        </div>
+        <div id="artifacts" class="artifact-links"></div>
+        <h3>规则检查</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>级别</th><th>模块</th><th>问题</th><th>位置</th></tr></thead>
+            <tbody id="issue-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
+

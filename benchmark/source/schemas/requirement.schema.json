@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/sap-benchmark/requirement.schema.json",
+  "title": "Evidence-backed study requirement",
+  "type": "object",
+  "required": [
+    "requirement_id",
+    "study_id",
+    "rubric_id",
+    "tracks",
+    "applies",
+    "status",
+    "severity",
+    "requirement",
+    "acceptable_values",
+    "evidence"
+  ],
+  "properties": {
+    "requirement_id": {"type": "string", "minLength": 1},
+    "study_id": {"type": "string", "minLength": 1},
+    "rubric_id": {"type": "string", "minLength": 1},
+    "tracks": {
+      "type": "array",
+      "items": {"enum": ["protocol_only", "protocol_crf", "confirmed_decisions"]},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "applies": {"type": "boolean"},
+    "status": {"enum": ["explicit", "derivable", "proposed", "needs_confirmation"]},
+    "severity": {"enum": ["critical", "major", "minor"]},
+    "requirement": {"type": "string", "minLength": 1},
+    "acceptable_values": {"type": "array", "items": {}},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["document_id", "locator", "text"],
+        "properties": {
+          "document_id": {"type": "string"},
+          "locator": {"type": "string"},
+          "text": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "deterministic": {
+      "type": "object",
+      "properties": {
+        "all_of": {"type": "array", "items": {"type": "string"}},
+        "any_of": {
+          "type": "array",
+          "items": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+        },
+        "regex_all": {"type": "array", "items": {"type": "string"}},
+        "forbidden": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": false
+    },
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

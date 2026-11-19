@@ -1,0 +1,26 @@
+{
+  "study_id": "PUBLIC-HOME-DMBAT-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 20,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-HOME-DMBAT-001-R008",
+    "PUBLIC-HOME-DMBAT-001-R009",
+    "PUBLIC-HOME-DMBAT-001-R010",
+    "PUBLIC-HOME-DMBAT-001-R011",
+    "PUBLIC-HOME-DMBAT-001-R013",
+    "PUBLIC-HOME-DMBAT-001-R014"
+  ],
+  "open_version_questions": [
+    "Confirm from the original MCW IRB or grant archive that the protocol and Analysis Plan dated 2021-06-02 were unmodified outcome-uninformed documents before the 2025-06-30 primary completion; both public files were uploaded after completion."
+  ],
+  "review_requirements": [
+    "Reconcile the internally contradictory description of the GHE/ST control and define masking roles.",
+    "Fully specify the longitudinal mixed-effects model, 12-month contrast, covariance and degrees-of-freedom method.",
+    "Replace baseline-significance-driven covariate selection with a prespecified adjustment set.",
+    "Define the estimand, missing-data assumptions, MNAR sensitivity analysis and adherence supplement.",
+    "Inventory and classify all nonprimary outcomes and define multiplicity handling.",
+    "Verify all locators against one-based rendered physical PDF pages and preserve reference-plan isolation."
+  ]
+}

@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=75", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sapgen-system"
+version = "0.1.0"
+description = "Evidence-traceable clinical trial SAP generation system"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "SAP Generation Project" }]
+dependencies = [
+  "pydantic>=2.10,<3",
+  "python-docx>=1.1,<2",
+  "pypdf>=5,<7",
+  "fastapi>=0.115,<1",
+  "uvicorn[standard]>=0.34,<1",
+  "python-multipart>=0.0.20,<1",
+]
+
+[project.optional-dependencies]
+harness = ["deepseek-harness-sdk==0.2.1rc2"]
+dev = [
+  "pytest>=8.3,<10",
+  "pytest-cov>=6,<8",
+  "ruff>=0.11,<1",
+]
+
+[project.scripts]
+sapgen = "sapgen.cli:main"
+sapgen-experiment = "sapgen.experiment.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sapgen = ["web/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+

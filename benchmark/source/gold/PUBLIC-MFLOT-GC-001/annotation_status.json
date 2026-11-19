@@ -1,0 +1,33 @@
+{
+  "study_id": "PUBLIC-MFLOT-GC-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-30",
+  "requirement_count": 24,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-MFLOT-GC-001-R001",
+    "PUBLIC-MFLOT-GC-001-R003",
+    "PUBLIC-MFLOT-GC-001-R006",
+    "PUBLIC-MFLOT-GC-001-R013",
+    "PUBLIC-MFLOT-GC-001-R014",
+    "PUBLIC-MFLOT-GC-001-R016",
+    "PUBLIC-MFLOT-GC-001-R018",
+    "PUBLIC-MFLOT-GC-001-R019",
+    "PUBLIC-MFLOT-GC-001-R020",
+    "PUBLIC-MFLOT-GC-001-R022"
+  ],
+  "open_version_questions": [
+    "Confirm that the unsigned, unversioned 2 May 2018 protocol and statistical-analysis document were the prospective governing pair despite registry first submission after study start.",
+    "Reconcile protocol ECOG 0-2 and hemoglobin at least 75 g/L with the later registry values ECOG 0-1 and hemoglobin at least 90 g/L.",
+    "Locate or formally waive the protocol-referenced but absent Table 1 before fixing dose levels beyond the two level-1 starting doses."
+  ],
+  "review_requirements": [
+    "Confirm the exact title, NCT and internal-date match and the pre-start governing status of both official public files.",
+    "Verify the 3+3 DLT, MTD and RD definitions and resolve the missing dose-escalation table without inference.",
+    "Define analysis populations, efficacy estimands, response-rate derivation and all PFS/OS censoring rules.",
+    "Specify missingness, endpoint hierarchy, exploratory multiplicity labels, small-sample intervals and dose-level safety summaries.",
+    "Do not substitute registry actual enrollment 18 for a prospective target absent from the PDFs.",
+    "Verify every critical locator against the rendered one-based physical PDF pages."
+  ],
+  "notes": "First-pass evidence-backed annotation. The compact official pair shares exact identity and an internal date two months before actual start, and the protocol does not reveal the reference-only Kaplan-Meier or SPSS choices. Prospective governance, later registry eligibility conflicts, the absent Table 1, populations, estimands, censoring, missingness and inference remain explicit second-review gates."
+}

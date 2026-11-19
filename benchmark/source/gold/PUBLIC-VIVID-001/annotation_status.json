@@ -1,0 +1,17 @@
+{
+  "study_id": "PUBLIC-VIVID-001",
+  "annotation_version": "0.2-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "initial_public_source_expansion",
+  "requirement_count": 15,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-VIVID-001-R013",
+    "PUBLIC-VIVID-001-R014"
+  ],
+  "open_version_questions": [],
+  "review_requirements": [
+    "Confirm the interpretation of the protocol's 480 enrollment target versus the SAP's 309 analyzable-subject calculation.",
+    "A second annotator must independently review all critical requirements and page locators.",
+    "Confirm whether multicenter adjustment should remain an unresolved question or an explicitly unadjusted protocol-faithful analysis."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "study_id": "PUBLIC-ABRIENDO-CAMINOS2-001",
+  "annotation_version": "0.3-draft",
+  "status": "draft_needs_expert_review",
+  "annotator": "codex_first_pass_2026-09-29",
+  "requirement_count": 25,
+  "critical_items_requiring_statistician_adjudication": [
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R002",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R004",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R005",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R007",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R008",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R012",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R013",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R014",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R015",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R020",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R021",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R022",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R023",
+    "PUBLIC-ABRIENDO-CAMINOS2-001-R024"
+  ],
+  "open_version_questions": [
+    "Confirm from ClinicalTrials.gov document history and the original UIUC IRB or grant archive that the same-title, same-investigator documents dated 2018-04-06 are the governing outcome-uninformed pair for NCT03505658/15503; neither PDF prints the registry or protocol identifier and the trial began in 2015."
+  ],
+  "review_requirements": [
+    "Adjudicate the protocol target of 250 whole families versus the SAP and registry target of 500 families, and confirm the family-level allocation unit.",
+    "Define allocation ratio, site or cycle stratification, concealment, analysis populations and parent-child-family record binding.",
+    "Resolve continuous BMI-percentile inference versus stable-or-negative-change responder wording and specify the growth-reference derivation.",
+    "Separate the confirmatory randomized mixed model from exploratory multilevel mixture and data-driven model-selection procedures.",
+    "Specify site effects, covariance, contrasts, estimand, missing-data and MNAR sensitivity methods.",
+    "Inventory and score all secondary outcomes, define multiplicity and reproduce primary-outcome power with clustering.",
+    "Define proportionate safety monitoring and verify every locator against one-based rendered physical PDF pages."
+  ]
+}
