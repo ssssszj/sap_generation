@@ -28,7 +28,7 @@ def _harness(settings: Settings) -> DeepSeekHarnessAdapter:
             model=settings.dsh_model,
             reasoning_effort=settings.dsh_reasoning_effort,
             profile=settings.dsh_profile,
-            api_key=os.getenv("DEEPSEEK_API_KEY") or None,
+            api_key=os.getenv("DEEPSEEK_API_KEY") or os.getenv("QNY_API_KEY") or None,
             base_url=os.getenv("DEEPSEEK_BASE_URL") or None,
             node_executable=settings.dsh_node,
             dsh_js=settings.dsh_js,

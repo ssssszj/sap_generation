@@ -173,9 +173,6 @@ class ExperimentRunner:
 
     def prepare(self, *, sample_size: int = 20, seed: int = 20261108) -> dict[str, Any]:
         build_experiment_package(self.benchmark_root, sample_size=sample_size, seed=seed)
-        default_node = Path(
-            r"C:\Users\Jason\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
-        )
         config = {
             "experiment_id": "sap-three-arm-20-v1",
             "model": "deepseek/deepseek-v4.1-flash",
@@ -185,14 +182,10 @@ class ExperimentRunner:
             "temperature_policy": "provider_default_omitted",
             "input_char_limit": 60000,
             "legacy_base_url": "http://127.0.0.1:3100",
-            "legacy_env_file": r"D:\Lab\sap_generation\.env.local",
-            "legacy_project": r"D:\Lab\sap_generation",
-            "dsh_node": str(default_node) if default_node.exists() else None,
-            "dsh_js": str(
-                (
-                    self.project_root / "node_modules" / "@deepseek-ai" / "dsh" / "lib" / "bin.js"
-                ).resolve()
-            ),
+            "legacy_env_file": ".env.local",
+            "legacy_project": ".",
+            "dsh_node": None,
+            "dsh_js": "node_modules/@deepseek-ai/dsh/lib/bin.js",
             "concurrency": 1,
             "methods": list(METHODS),
         }
@@ -312,10 +305,25 @@ class ExperimentRunner:
 
     def _api_key(self) -> str:
         config = self._config()
-        key = os.getenv("QNY_API_KEY") or _env_value(Path(config["legacy_env_file"]), "QNY_API_KEY")
+        env_file = Path(config.get("legacy_env_file") or ".env.local")
+        if not env_file.is_absolute():
+            env_file = self.project_root / env_file
+        key = os.getenv("QNY_API_KEY") or _env_value(env_file, "QNY_API_KEY")
         if not key:
             raise RuntimeError("QNY_API_KEY is not configured")
         return key
+
+    def _runtime_path(self, env_name: str, config_name: str) -> Path | None:
+        config = self._config()
+        value = (
+            os.getenv(env_name)
+            or _env_value(self.project_root / ".env", env_name)
+            or config.get(config_name)
+        )
+        if not value:
+            return None
+        path = Path(str(value)).expanduser()
+        return path.resolve() if path.is_absolute() else (self.project_root / path).resolve()
 
     def _client(self, *, judge: bool = False) -> OpenAIChatClient:
         config = self._config()
@@ -342,8 +350,8 @@ class ExperimentRunner:
                 base_url=config["api_base_url"],
                 model=config["model"],
                 max_tokens=int(config["max_output_tokens"]),
-                node_executable=Path(config["dsh_node"]) if config.get("dsh_node") else None,
-                dsh_js=Path(config["dsh_js"]) if config.get("dsh_js") else None,
+                node_executable=self._runtime_path("SAPGEN_DSH_NODE", "dsh_node"),
+                dsh_js=self._runtime_path("SAPGEN_DSH_JS", "dsh_js"),
             )
         raise ValueError(f"Unknown method: {method}")
 

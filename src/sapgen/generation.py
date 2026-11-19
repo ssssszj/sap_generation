@@ -5,6 +5,7 @@ import warnings
 
 from pydantic import Field, ValidationError
 
+from sapgen.chapter_guidance import chapter_guidance
 from sapgen.domain.models import SAPIR, SAPSection, StrictModel
 from sapgen.harness.base import HarnessAdapter, HarnessResponseError
 
@@ -170,6 +171,7 @@ class HarnessChapterGenerator:
                 user_prompt=(
                     f"CHAPTER {index}: {title}\n\n"
                     f"CHAPTER PURPOSE\n{instruction}\n\n"
+                    f"GENERAL CHAPTER GUIDANCE\n{chapter_guidance(chapter_id)}\n\n"
                     "Return this chapter only. Do not repeat earlier chapters and do not add a "
                     "document-level title. Aim for the shortest text that is complete and executable.\n\n"
                     f"STUDY-WIDE CONSISTENCY CONTRACT\n{contract}\n\n"
@@ -288,6 +290,7 @@ class HarnessDraftReviewer:
                     user_prompt=(
                         f"CURRENT CHAPTER {index}: {current.title} [{current.id}]\n"
                         f"{current.body_markdown}\n\n"
+                        f"GENERAL CHAPTER GUIDANCE\n{chapter_guidance(current.id)}\n\n"
                         f"STUDY-WIDE CONSISTENCY CONTRACT\n{contract}\n\n"
                         f"OTHER-CHAPTER COMPACT CONTEXT\n{cross_chapter_context}\n\n"
                         f"EVIDENCE-BACKED SAP-IR\n{ir_json}"

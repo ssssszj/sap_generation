@@ -27,13 +27,14 @@ class Settings:
 
     @classmethod
     def load(cls, root: Path | None = None) -> Settings:
+        project_root = (root or Path.cwd()).resolve()
         try:
             from dotenv import load_dotenv
 
-            load_dotenv()
+            load_dotenv(project_root / ".env")
+            load_dotenv(project_root / ".env.local")
         except ImportError:
             pass
-        project_root = (root or Path.cwd()).resolve()
         node_value = os.getenv("SAPGEN_DSH_NODE")
         js_value = os.getenv("SAPGEN_DSH_JS")
         return cls(
@@ -54,7 +55,7 @@ class Settings:
                 else None
             ),
             host=os.getenv("SAPGEN_HOST", "127.0.0.1"),
-            port=int(os.getenv("SAPGEN_PORT", "8090")),
+            port=int(os.getenv("SAPGEN_PORT", "3000")),
         )
 
     def ensure_directories(self) -> None:

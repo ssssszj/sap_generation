@@ -12,10 +12,13 @@ batch and skips generation/evaluation already completed in that batch.
 .EXAMPLE
 .\scripts\run-dsh-benchmark.ps1 -Phase generate -RunMode New
 .\scripts\run-dsh-benchmark.ps1 -Phase judge -RunMode Resume
+
+.EXAMPLE
+.\scripts\run-dsh-benchmark.ps1 -Phase preflight
 #>
 [CmdletBinding()]
 param(
-    [ValidateSet("all", "generate", "judge", "summarize")]
+    [ValidateSet("all", "generate", "judge", "summarize", "preflight")]
     [string]$Phase = "all",
     [ValidateSet("New", "Resume")]
     [string]$RunMode = "Resume",
@@ -46,6 +49,33 @@ $python = Join-Path $projectRoot ".venv\Scripts\python.exe"
 $samplePath = Join-Path $experimentRoot "sample.json"
 $statePath = Join-Path $experimentRoot "dsh-only-state.json"
 $batchesRoot = Join-Path $experimentRoot "batches"
+
+function Import-EnvironmentFile {
+    param([Parameter(Mandatory)][string]$Path)
+
+    if (-not (Test-Path -LiteralPath $Path)) {
+        return
+    }
+    foreach ($line in Get-Content -LiteralPath $Path -Encoding UTF8) {
+        if ($line -notmatch '^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)\s*$') {
+            continue
+        }
+        $name = $Matches[1]
+        $value = $Matches[2].Trim()
+        if (
+            ($value.StartsWith('"') -and $value.EndsWith('"')) -or
+            ($value.StartsWith("'") -and $value.EndsWith("'"))
+        ) {
+            $value = $value.Substring(1, $value.Length - 2)
+        }
+        if (-not (Test-Path "Env:$name") -and -not [string]::IsNullOrWhiteSpace($value)) {
+            Set-Item -Path "Env:$name" -Value $value
+        }
+    }
+}
+
+Import-EnvironmentFile -Path (Join-Path $projectRoot ".env")
+Import-EnvironmentFile -Path (Join-Path $projectRoot ".env.local")
 
 if (-not (Test-Path -LiteralPath $python)) {
     throw "Python environment does not exist: $python"
@@ -81,7 +111,8 @@ function Write-JsonFile {
 function Write-MethodScoreComparison {
     param(
         [Parameter(Mandatory)][string]$SummaryPath,
-        [Parameter(Mandatory)][string]$BatchReportPath
+        [Parameter(Mandatory)][string]$BatchReportPath,
+        [Parameter(Mandatory)][string]$NativeBaselinePath
     )
 
     $summary = Read-JsonFile -Path $SummaryPath
@@ -96,13 +127,6 @@ function Write-MethodScoreComparison {
         return
     }
 
-    $nativeMatches = @($summary.methods | Where-Object method -eq "direct_llm_native")
-    if ($nativeMatches.Count -eq 0) {
-        Write-Warning "Cannot compare methods; direct_llm_native is absent from summary.json"
-        return
-    }
-
-    $native = $nativeMatches[0]
     $freshDshRows = @(
         $batchReport.rows |
             Where-Object { $_.evaluation_status -eq "complete" -and $null -ne $_.weighted_score }
@@ -115,17 +139,35 @@ function Write-MethodScoreComparison {
         ($freshDshRows | Measure-Object -Property weighted_score -Average).Average
     )
 
+    $nativeByStudy = @{}
+    $nativeMatches = @($summary.methods | Where-Object method -eq "direct_llm_native")
+    if ($nativeMatches.Count -gt 0) {
+        foreach ($row in @($summary.study_method_scores | Where-Object method -eq "direct_llm_native")) {
+            $nativeByStudy[[string]$row.study_id] = [double]$row.weighted_score
+        }
+        $nativeMean = [double]$nativeMatches[0].mean_weighted_score
+        $nativeCount = [int]$nativeMatches[0].completed_studies
+        $nativeLabel = "current experiment"
+    }
+    elseif (Test-Path -LiteralPath $NativeBaselinePath) {
+        foreach ($row in @(Import-Csv -LiteralPath $NativeBaselinePath)) {
+            $nativeByStudy[[string]$row.study_id] = [double]$row.weighted_score
+        }
+        $nativeMean = ($nativeByStudy.Values | Measure-Object -Average).Average
+        $nativeCount = $nativeByStudy.Count
+        $nativeLabel = "historical frozen baseline"
+    }
+    else {
+        Write-Warning "Cannot compare methods; no direct_llm_native scores or frozen baseline exist."
+        return
+    }
+
     Write-Host ""
     Write-Host "Native LLM vs current-batch DSH SAP scores"
-    Write-Host ("direct_llm_native (all available): {0:N2} (n={1})" -f `
-        [double]$native.mean_weighted_score, [int]$native.completed_studies)
+    Write-Host ("direct_llm_native ({0}): {1:N2} (n={2})" -f `
+        $nativeLabel, [double]$nativeMean, [int]$nativeCount)
     Write-Host ("dsh_sap (batch $($batchReport.run_id)): {0:N2} (n={1})" -f `
         [double]$freshDshMean, $freshDshRows.Count)
-
-    $nativeByStudy = @{}
-    foreach ($row in @($summary.study_method_scores | Where-Object method -eq "direct_llm_native")) {
-        $nativeByStudy[[string]$row.study_id] = [double]$row.weighted_score
-    }
 
     $pairedNativeTotal = 0.0
     $pairedDshTotal = 0.0
@@ -147,7 +189,7 @@ function Write-MethodScoreComparison {
             $pairedCount, $pairedNativeMean, $pairedDshMean, $pairedDelta)
     }
 
-    if ([int]$native.completed_studies -ne $freshDshRows.Count) {
+    if ($nativeCount -ne $freshDshRows.Count) {
         Write-Warning "Method coverage differs; the DSH score above uses only successful evaluations from this batch. Use the paired comparison for a fair comparison."
     }
 }
@@ -161,6 +203,80 @@ function Invoke-ExperimentCli {
         return $false
     }
     return $true
+}
+
+function Resolve-ProjectPath {
+    param([string]$Value)
+
+    if ([string]::IsNullOrWhiteSpace($Value)) {
+        return $null
+    }
+    if ([System.IO.Path]::IsPathRooted($Value)) {
+        return [System.IO.Path]::GetFullPath($Value)
+    }
+    return [System.IO.Path]::GetFullPath((Join-Path $script:projectRoot $Value))
+}
+
+function Test-BenchmarkEnvironment {
+    param([switch]$RequireDsh)
+
+    $config = Read-JsonFile -Path (Join-Path $script:experimentRoot "config.json")
+    if ($null -eq $config) {
+        throw "Benchmark config is missing or invalid."
+    }
+    if ([string]::IsNullOrWhiteSpace([string]$env:QNY_API_KEY)) {
+        throw "QNY_API_KEY is missing. Set it in .env.local or the process environment."
+    }
+
+    & $script:python -c "import sapgen; import deepseek_harness"
+    if ($LASTEXITCODE -ne 0) {
+        throw 'Python runtime is incomplete. Run: .\.venv\Scripts\python.exe -m pip install -e ".[dev,harness]"'
+    }
+
+    if ($RequireDsh) {
+        $nodeValue = if (-not [string]::IsNullOrWhiteSpace([string]$env:SAPGEN_DSH_NODE)) {
+            [string]$env:SAPGEN_DSH_NODE
+        }
+        else {
+            [string]$config.dsh_node
+        }
+        $nodePath = Resolve-ProjectPath -Value $nodeValue
+        if ($null -eq $nodePath -or -not (Test-Path -LiteralPath $nodePath -PathType Leaf)) {
+            throw "A Node.js 22.19+ executable is required. Set SAPGEN_DSH_NODE in .env."
+        }
+        $nodeVersionText = (& $nodePath --version).Trim().TrimStart('v')
+        try {
+            $nodeVersion = [version]$nodeVersionText
+        }
+        catch {
+            throw "Cannot parse Node.js version from '$nodeVersionText' at $nodePath"
+        }
+        if ($nodeVersion -lt [version]'22.19.0') {
+            throw "Node.js $nodeVersion is too old; DSH requires 22.19 or newer: $nodePath"
+        }
+
+        $jsValue = if (-not [string]::IsNullOrWhiteSpace([string]$env:SAPGEN_DSH_JS)) {
+            [string]$env:SAPGEN_DSH_JS
+        }
+        else {
+            [string]$config.dsh_js
+        }
+        $jsPath = Resolve-ProjectPath -Value $jsValue
+        if ($null -eq $jsPath -or -not (Test-Path -LiteralPath $jsPath -PathType Leaf)) {
+            throw "DSH npm runtime is missing. Run: pnpm install --frozen-lockfile"
+        }
+        $dshVersion = (& $nodePath $jsPath --version).Trim()
+        if ($LASTEXITCODE -ne 0 -or [string]::IsNullOrWhiteSpace($dshVersion)) {
+            throw "DSH CLI failed to start with Node.js $nodeVersion at $jsPath"
+        }
+        Write-Host "DSH runtime: Node $nodeVersion; DSH $dshVersion; CLI $jsPath"
+    }
+
+    $sample = Read-JsonFile -Path $script:samplePath
+    if ($null -eq $sample -or @($sample.questions).Count -ne 20) {
+        throw "Benchmark sample must contain exactly 20 studies."
+    }
+    Write-Host "Benchmark preflight OK: 20 studies; Python, API key, and runtime configuration available."
 }
 
 function Test-FreshGeneration {
@@ -361,6 +477,14 @@ function Reset-DshWorkingResults {
     }
 }
 
+$requiresApi = $Phase -in @("all", "generate", "judge", "preflight")
+if ($requiresApi) {
+    Test-BenchmarkEnvironment -RequireDsh:($Phase -in @("all", "generate", "preflight"))
+}
+if ($Phase -eq "preflight") {
+    return
+}
+
 $needsState = $Phase -in @("all", "generate", "judge")
 if ($needsState) {
     if ($effectiveRunMode -eq "New" -or -not (Test-Path -LiteralPath $statePath)) {
@@ -368,6 +492,9 @@ if ($needsState) {
         if ($null -ne $previousState) {
             $previousBatchRoot = Initialize-BatchStorage -BatchState $previousState
             Write-Host "Preserved previous batch: $previousBatchRoot"
+        }
+        if (-not (Invoke-ExperimentCli -CliArguments @("fetch"))) {
+            throw "Failed to fetch missing public benchmark inputs for the new batch."
         }
         if (-not (Invoke-ExperimentCli -CliArguments @("prepare-inputs"))) {
             throw "Failed to refresh domain-balanced benchmark inputs for the new batch."
@@ -562,5 +689,6 @@ Write-Host "Scores: $(Join-Path $experimentRoot 'scores.csv')"
 Write-Host "Summary: $(Join-Path $experimentRoot 'summary.json')"
 Write-MethodScoreComparison `
     -SummaryPath (Join-Path $experimentRoot "summary.json") `
-    -BatchReportPath $reportPath
+    -BatchReportPath $reportPath `
+    -NativeBaselinePath (Join-Path $projectRoot "benchmark\baselines\direct_llm_native_scores.csv")
 

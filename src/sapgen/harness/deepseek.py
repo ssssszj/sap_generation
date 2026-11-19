@@ -22,6 +22,7 @@ class DeepSeekHarnessConfig:
     api_key: str | None = None
     node_executable: Path | None = None
     dsh_js: Path | None = None
+    initialize_timeout_seconds: float = 120.0
 
 
 class DeepSeekHarnessAdapter:
@@ -87,6 +88,7 @@ class DeepSeekHarnessAdapter:
             env=runtime_env,
             base_url=self.config.base_url,
             api_key=self.config.api_key,
+            initialize_timeout_seconds=self.config.initialize_timeout_seconds,
         )
         self._harness.start()
         return self._harness

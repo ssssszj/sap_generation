@@ -229,6 +229,27 @@ def test_chapter_generation_carries_every_previous_chapter(demo_ir) -> None:
         assert f"Unique body for chapter {index}" not in call["user_prompt"]
 
 
+def test_chapter_guidance_is_scoped_and_keeps_evidence_boundary(demo_ir) -> None:
+    harness = FakeHarnessAdapter(
+        [{"body_markdown": "Draft"} for _ in CHAPTER_PLAN]
+    )
+    sections = HarnessChapterGenerator(harness).generate(demo_ir, session_id="draft")
+
+    endpoint_prompt = harness.calls[2]["user_prompt"]
+    assert "GENERAL CHAPTER GUIDANCE" in endpoint_prompt
+    assert "treatment, population, variable, intercurrent-event strategy" in endpoint_prompt
+    assert "not study evidence or mandatory choices" in endpoint_prompt
+    assert "routine monitoring" not in endpoint_prompt
+
+    reviewer = FakeHarnessAdapter(
+        [{"issues": [], "body_markdown": ""} for _ in sections]
+    )
+    HarnessDraftReviewer(reviewer).review(demo_ir, session_id="review")
+    assert "treatment, population, variable, intercurrent-event strategy" in (
+        reviewer.calls[2]["user_prompt"]
+    )
+
+
 def test_final_review_applies_only_named_chapter_revisions(demo_ir) -> None:
     demo_ir.generated_sections = [
         SAPSection(id="one", title="One", body_markdown="Original one"),

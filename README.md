@@ -46,12 +46,13 @@ sapgen_rebuild/
 推荐使用 Python 3.11 或更高版本并创建独立虚拟环境。
 
 ```powershell
-cd D:\Lab\sapgen_rebuild
-py -3.11 -m venv .venv
+cd D:\Lab\sap_generation
+python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e ".[dev,harness]"
 Copy-Item .env.example .env
-pnpm install --registry=https://registry.npmjs.org
-pnpm approve-builds --all
+$node = 'C:\path\to\node-v22-or-newer\node.exe'
+$env:PATH = "$(Split-Path $node);$env:PATH"
+pnpm install --frozen-lockfile --registry=https://registry.npmjs.org
 ```
 
 在 `.env` 或当前进程环境中设置 `DEEPSEEK_API_KEY`。如使用兼容端点，再设置 `DEEPSEEK_BASE_URL`。DeepSeek Harness 要求显式的 `DSH_HOME`，本项目默认使用 `.runtime/dsh-home`，不会读取用户目录中的隐式配置。
@@ -59,6 +60,9 @@ pnpm approve-builds --all
 DeepSeek Harness 仍处于开发预览阶段。本项目固定 Python SDK `0.2.1rc2`，并固定 npm 运行时 `0.2.1-rc.5`。所有调用集中在 `harness/deepseek.py`，便于上游破坏性变更时替换。
 
 当前官方 `0.2.1rc2` Windows runtime wheel 在部分环境会缺少 `node-addon-require-builtin-win32-x64-msvc`。项目因此提供官方 npm runtime 回退。运行上述 pnpm 命令后，在 `.env` 中把 `SAPGEN_DSH_NODE` 指向 Node.js 22.19 或更高版本，`SAPGEN_DSH_JS` 保持默认值即可。该回退仍运行官方 DeepSeek Harness，只替换启动载体。
+
+注意：安装 npm 依赖时也必须让 Node.js 22.19+ 位于 `PATH` 最前面，否则 DSH 的
+postinstall 会被旧版系统 Node 执行并失败。
 
 ## 启动 Web 系统
 
@@ -74,7 +78,11 @@ DeepSeek Harness 仍处于开发预览阶段。本项目固定 Python SDK `0.2.1
 .\.venv\Scripts\sapgen.exe serve
 ```
 
-浏览器访问 `http://127.0.0.1:8090`。
+浏览器访问 `http://127.0.0.1:3000`。旧版前端接口保持在同一端口：
+`/ai/v1/sap/...` 和 `/api/ai/v1/sap/...` 两组 JSON 路由，以及
+`/api/generate-core-content`、`/api/revise-core-content`、`/api/generate-sap`、
+`/api/generate-tfl-shells` 上传路由。使用 `serve --harness` 时由 DSH 生成内容。
+请求和响应字段见 [旧版接口兼容说明](docs/legacy-api.md)。
 
 ## CLI 示例
 
@@ -125,6 +133,30 @@ $env:SAPGEN_DSH_PROFILE = 'sapgen'
 ```
 
 没有 API key 时，测试使用假 Harness 验证 JSON 契约和会话调用，不会发起模型请求。真实 Harness 的烟雾测试需要单独设置凭据。
+
+## 20题 DSH 评测
+
+先执行不调用模型的环境检查：
+
+```powershell
+.\scripts\run-dsh-benchmark.ps1 -Phase preflight
+```
+
+开始新的20题批次：
+
+```powershell
+.\scripts\run-dsh-benchmark.ps1 -Phase all -RunMode New
+```
+
+中断后续跑当前批次：
+
+```powershell
+.\scripts\run-dsh-benchmark.ps1 -Phase all -RunMode Resume
+```
+
+`New` 会保留旧批次、获取缺失的公开协议、重新构建输入并隔离新批次结果。运行结束后
+脚本输出 DSH 均分、native LLM 基线和同题配对差值；当当前仓库没有 native 运行结果时，
+使用 `benchmark/baselines/direct_llm_native_scores.csv` 中不含答案内容的冻结历史分数。
 
 ## 产物
 

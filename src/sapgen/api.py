@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field
 from sapgen.config import Settings
 from sapgen.domain.models import SAPIR
 from sapgen.harness.base import HarnessAdapter
+from sapgen.legacy_api import install_legacy_routes
 from sapgen.pipeline import SAPGenerationPipeline
 from sapgen.storage import ProjectStore
 
@@ -172,6 +173,7 @@ def create_app(
             raise HTTPException(status_code=404, detail="Artifact not found")
         return FileResponse(path, filename=artifact_name)
 
+    install_legacy_routes(app, pipeline, store)
     web_dir = Path(__file__).parent / "web"
     app.mount("/", StaticFiles(directory=web_dir, html=True), name="web")
     return app
